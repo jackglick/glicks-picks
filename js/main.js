@@ -7,19 +7,18 @@
 
   // --- Counter Animation ---
   function animateCounter(el) {
-    const target = el.dataset.target;
-    const isFloat = target.includes('.');
-    const isPercent = target.includes('%');
-    const cleanTarget = parseFloat(target.replace('%', '').replace(',', ''));
-    const duration = 1200;
-    const start = performance.now();
+    var target = el.dataset.target;
+    var isFloat = target.includes('.');
+    var isPercent = target.includes('%');
+    var cleanTarget = parseFloat(target.replace('%', '').replace(',', ''));
+    var duration = 1400;
+    var start = performance.now();
 
     function update(now) {
-      const elapsed = now - start;
-      const progress = Math.min(elapsed / duration, 1);
-      // Ease-out cubic
-      const eased = 1 - Math.pow(1 - progress, 3);
-      const current = cleanTarget * eased;
+      var elapsed = now - start;
+      var progress = Math.min(elapsed / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var current = cleanTarget * eased;
 
       if (isFloat) {
         el.textContent = current.toFixed(3);
@@ -32,7 +31,6 @@
       if (progress < 1) {
         requestAnimationFrame(update);
       } else {
-        // Ensure final value is exact
         el.textContent = target;
       }
     }
@@ -40,7 +38,7 @@
     requestAnimationFrame(update);
   }
 
-  // --- Scroll Reveal (sections) ---
+  // --- Scroll Reveal ---
   var revealObserver = new IntersectionObserver(
     function (entries) {
       entries.forEach(function (entry) {
@@ -57,15 +55,12 @@
     revealObserver.observe(el);
   });
 
-  // --- Stat Counter Animation (trigger once on scroll) ---
+  // --- Counter Trigger ---
   var counterObserver = new IntersectionObserver(
     function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-          var counters = entry.target.querySelectorAll('.stat-number[data-target]');
-          counters.forEach(function (counter) {
-            animateCounter(counter);
-          });
+          entry.target.querySelectorAll('[data-target]').forEach(animateCounter);
           counterObserver.unobserve(entry.target);
         }
       });
@@ -73,12 +68,12 @@
     { threshold: 0.3 }
   );
 
-  var statSection = document.querySelector('.stat-cards');
-  if (statSection) {
-    counterObserver.observe(statSection);
-  }
+  // Observe hero stats and edge highlight
+  document.querySelectorAll('.hero-stats, .edge-highlight').forEach(function (el) {
+    counterObserver.observe(el);
+  });
 
-  // --- Mobile Hamburger Menu ---
+  // --- Mobile Menu ---
   var hamburger = document.querySelector('.hamburger');
   var mobileNav = document.querySelector('.mobile-nav');
 
@@ -89,7 +84,6 @@
       document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
     });
 
-    // Close mobile nav on link click
     mobileNav.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', function () {
         hamburger.classList.remove('open');
@@ -99,18 +93,16 @@
     });
   }
 
-  // --- Active Nav Highlighting ---
+  // --- Active Nav ---
   var sections = document.querySelectorAll('section[id]');
   var navLinks = document.querySelectorAll('.nav-links a, .mobile-nav a');
 
   function highlightNav() {
     var scrollY = window.scrollY + 100;
-
     sections.forEach(function (section) {
       var top = section.offsetTop;
       var height = section.offsetHeight;
       var id = section.getAttribute('id');
-
       if (scrollY >= top && scrollY < top + height) {
         navLinks.forEach(function (link) {
           link.classList.remove('active');
