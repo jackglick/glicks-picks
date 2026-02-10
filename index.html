@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glick's Picks — ML Strikeout Predictions</title>
+  <meta name="description" content="Predicting MLB pitcher strikeouts with a Poisson GLM + XGBoost ensemble trained on Statcast pitch-level data. MAE 1.752 on 2025 holdout.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Glick's Picks — ML Strikeout Predictions">
+  <meta property="og:description" content="A Poisson GLM + XGBoost ensemble trained on Statcast pitch-level data. 68.9% win rate on 5%+ edge bets.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://glicks-picks.com">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Glick's Picks — ML Strikeout Predictions">
+  <meta name="twitter:description" content="A Poisson GLM + XGBoost ensemble trained on Statcast pitch-level data. 68.9% win rate on 5%+ edge bets.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="brand">Glick's <span>Picks</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#model">Model</a></li>
+          <li><a href="#methodology">Methodology</a></li>
+          <li><a href="#edge">Betting Edge</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav">
+    <a href="#model">Model</a>
+    <a href="#methodology">Methodology</a>
+    <a href="#edge">Betting Edge</a>
+    <a href="#roadmap">Roadmap</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <h1 class="hero-headline reveal">Predicting Pitcher Strikeouts<br>with Machine Learning</h1>
+      <p class="hero-sub reveal">A Poisson GLM + XGBoost ensemble trained on 3 years of Statcast pitch-level data</p>
+
+      <div class="stat-cards reveal">
+        <div class="stat-card">
+          <div class="stat-number" data-target="1.752">0</div>
+          <div class="stat-label">MAE on 2025 Holdout</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="68.9%">0%</div>
+          <div class="stat-label">Win Rate on Edge Bets</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="2,849">0</div>
+          <div class="stat-label">Validated Predictions</div>
+        </div>
+      </div>
+
+      <a href="#model" class="cta-button reveal">Explore the Model &#8594;</a>
+    </div>
+  </section>
+
+  <!-- Model Evolution -->
+  <section class="evolution" id="model">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">Model Evolution</p>
+        <h2 class="section-title">Five iterations. Five improvements.</h2>
+        <p class="section-subtitle">Each version adds engineered features from Statcast data, progressively reducing prediction error.</p>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span class="timeline-version">V0</span>
+          <div class="timeline-details">
+            <div class="timeline-features">5 features</div>
+          </div>
+          <span class="timeline-mae">1.844</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-version">V1</span>
+          <div class="timeline-details">
+            <div class="timeline-features">10 features</div>
+          </div>
+          <span class="timeline-mae">1.825</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-version">V2</span>
+          <div class="timeline-details">
+            <div class="timeline-features">11 features</div>
+          </div>
+          <span class="timeline-mae">1.768</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-version">V3</span>
+          <div class="timeline-details">
+            <div class="timeline-features">13 features</div>
+          </div>
+          <span class="timeline-mae">1.758</span>
+        </div>
+        <div class="timeline-item current">
+          <span class="timeline-version">V4</span>
+          <div class="timeline-details">
+            <div class="timeline-features">14 features</div>
+          </div>
+          <span class="timeline-mae">1.752</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section class="methodology" id="methodology">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">Methodology</p>
+        <h2 class="section-title">Built on pitch-level data</h2>
+        <p class="section-subtitle">Every feature is engineered from raw Statcast pitch data &mdash; no pre-aggregated stats.</p>
+      </div>
+
+      <div class="method-grid reveal">
+        <div class="method-card">
+          <span class="method-icon" aria-hidden="true">&#9776;</span>
+          <h3>Data</h3>
+          <p>Statcast pitch-level data from 2022&ndash;2024 for training. Full 2025 season held out for unbiased validation. ~8,800 starter games with minimum 5 prior starts.</p>
+        </div>
+        <div class="method-card">
+          <span class="method-icon" aria-hidden="true">&#9881;</span>
+          <h3>Features</h3>
+          <p>14 engineered features: rolling K rates, lineup composition, park factors, umpire tendencies, pitch velocity range, swinging-strike rate, fatigue modeling, and more.</p>
+        </div>
+        <div class="method-card">
+          <span class="method-icon" aria-hidden="true">&#9889;</span>
+          <h3>Model</h3>
+          <p>Poisson GLM blended with XGBoost (60/40). Poisson CDF converts predictions to probabilities for computing betting edge against market-implied odds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Betting Edge -->
+  <section class="edge" id="edge">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">Betting Edge</p>
+        <h2 class="section-title">Finding value in the market</h2>
+        <p class="section-subtitle">When the model disagrees with the sportsbook, that gap is the edge.</p>
+      </div>
+
+      <div class="edge-concept reveal">
+        <div class="edge-formula">Edge = Model Probability &minus; Implied Market Probability</div>
+        <p>The model predicts a strikeout total using Poisson regression, then computes the probability of going over or under a given line. When that probability exceeds the market's implied probability (derived from the odds), we have an edge.</p>
+      </div>
+
+      <div class="edge-callout reveal">
+        <div class="stat-number">68.9%</div>
+        <div class="stat-label">Win rate on bets with 5%+ edge (n = 2,849)</div>
+      </div>
+
+      <div class="edge-thresholds reveal">
+        <div class="threshold">
+          <span class="threshold-badge skip">&lt; 3%</span>
+          <span class="threshold-text">No bet &mdash; insufficient edge</span>
+        </div>
+        <div class="threshold">
+          <span class="threshold-badge caution">3&ndash;5%</span>
+          <span class="threshold-text">Small position &mdash; marginal edge</span>
+        </div>
+        <div class="threshold">
+          <span class="threshold-badge pass">5%+</span>
+          <span class="threshold-text">Standard bet &mdash; reliable edge</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section class="roadmap" id="roadmap">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">Roadmap</p>
+        <h2 class="section-title">What's next</h2>
+      </div>
+
+      <div class="roadmap-items reveal">
+        <div class="roadmap-item active">
+          <div class="roadmap-phase">Phase 1</div>
+          <h3>Pitcher Strikeout Model</h3>
+          <p>V4 model validated on 2025 holdout data. Currently backtesting against real historical odds to confirm profitability before paper trading.</p>
+          <span class="roadmap-status">In Progress</span>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-phase">Phase 2</div>
+          <h3>Game Outcome Prediction</h3>
+          <p>Pitcher run prevention, team offense, and bullpen models combined into a full game outcome predictor for moneyline and run line bets.</p>
+          <span class="roadmap-status">Planned</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-tech">Python &middot; statsmodels &middot; XGBoost &middot; Statcast &middot; Poisson GLM</p>
+      <p class="footer-copy">&copy; 2026 Glick's Picks</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
