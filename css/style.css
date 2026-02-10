@@ -1,5 +1,5 @@
 /* ============================================
-   Glick's Picks — Sporty Dark Theme
+   Glick's Picks — Classic Baseball Theme
    ============================================ */
 
 *, *::before, *::after {
@@ -9,17 +9,18 @@
 }
 
 :root {
-  --bg: #0b0f1a;
-  --bg-surface: #141929;
-  --bg-elevated: #1c2238;
-  --accent: #00e59b;
-  --accent-dim: rgba(0, 229, 155, 0.12);
+  --bg: #0c1524;
+  --bg-surface: #132035;
+  --bg-elevated: #1a2a45;
+  --accent: #e63946;
+  --accent-dim: rgba(230, 57, 70, 0.12);
   --yellow: #fbbf24;
-  --red: #ef4444;
-  --text: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-dim: #475569;
-  --border: rgba(255, 255, 255, 0.06);
+  --red: #e63946;
+  --cream: #fdf8ef;
+  --text: #f5f1eb;
+  --text-secondary: #a3aebf;
+  --text-dim: #5a6a80;
+  --border: rgba(255, 255, 255, 0.07);
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --mono: 'JetBrains Mono', monospace;
 }
@@ -265,7 +266,7 @@ a { color: var(--accent); text-decoration: none; }
 .cta-button:hover {
   color: var(--bg);
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0, 229, 155, 0.25);
+  box-shadow: 0 6px 24px rgba(230, 57, 70, 0.25);
 }
 
 /* --- How It Works --- */
@@ -289,7 +290,7 @@ a { color: var(--accent); text-decoration: none; }
   transition: border-color 0.3s;
 }
 .step:hover {
-  border-color: rgba(0, 229, 155, 0.15);
+  border-color: rgba(230, 57, 70, 0.15);
 }
 
 .step-number {
@@ -344,7 +345,7 @@ a { color: var(--accent); text-decoration: none; }
 }
 .edge-tier.skip .edge-tier-range { color: var(--text-dim); }
 .edge-tier.caution .edge-tier-range { color: var(--yellow); }
-.edge-tier.go .edge-tier-range { color: var(--accent); }
+.edge-tier.go .edge-tier-range { color: var(--cream); }
 
 .edge-tier-label {
   font-size: 0.8rem;
@@ -368,7 +369,7 @@ a { color: var(--accent); text-decoration: none; }
 }
 .edge-tier.skip .edge-tier-fill { background: var(--text-dim); }
 .edge-tier.caution .edge-tier-fill { background: var(--yellow); }
-.edge-tier.go .edge-tier-fill { background: var(--accent); }
+.edge-tier.go .edge-tier-fill { background: var(--cream); }
 
 /* Edge Highlight */
 .edge-highlight {
@@ -382,8 +383,8 @@ a { color: var(--accent); text-decoration: none; }
   justify-content: center;
   gap: 0.75rem;
   flex-wrap: wrap;
-  background: linear-gradient(135deg, rgba(0, 229, 155, 0.06), rgba(0, 229, 155, 0.02));
-  border: 1px solid rgba(0, 229, 155, 0.15);
+  background: linear-gradient(135deg, rgba(230, 57, 70, 0.06), rgba(230, 57, 70, 0.02));
+  border: 1px solid rgba(230, 57, 70, 0.15);
   border-radius: 10px;
   padding: 2rem 1.5rem;
   text-align: center;
@@ -440,7 +441,7 @@ a { color: var(--accent); text-decoration: none; }
   padding: 2rem 1.75rem;
 }
 .next-item.active {
-  border-color: rgba(0, 229, 155, 0.25);
+  border-color: rgba(230, 57, 70, 0.25);
 }
 
 .next-tag {
