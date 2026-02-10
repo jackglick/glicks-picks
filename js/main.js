@@ -5,39 +5,6 @@
 (function () {
   'use strict';
 
-  // --- Counter Animation ---
-  function animateCounter(el) {
-    var target = el.dataset.target;
-    var isFloat = target.includes('.');
-    var isPercent = target.includes('%');
-    var cleanTarget = parseFloat(target.replace('%', '').replace(',', ''));
-    var duration = 1400;
-    var start = performance.now();
-
-    function update(now) {
-      var elapsed = now - start;
-      var progress = Math.min(elapsed / duration, 1);
-      var eased = 1 - Math.pow(1 - progress, 3);
-      var current = cleanTarget * eased;
-
-      if (isFloat) {
-        el.textContent = current.toFixed(3);
-      } else if (isPercent) {
-        el.textContent = current.toFixed(1) + '%';
-      } else {
-        el.textContent = Math.floor(current).toLocaleString();
-      }
-
-      if (progress < 1) {
-        requestAnimationFrame(update);
-      } else {
-        el.textContent = target;
-      }
-    }
-
-    requestAnimationFrame(update);
-  }
-
   // --- Scroll Reveal ---
   var revealObserver = new IntersectionObserver(
     function (entries) {
@@ -53,24 +20,6 @@
 
   document.querySelectorAll('.reveal').forEach(function (el) {
     revealObserver.observe(el);
-  });
-
-  // --- Counter Trigger ---
-  var counterObserver = new IntersectionObserver(
-    function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.querySelectorAll('[data-target]').forEach(animateCounter);
-          counterObserver.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.3 }
-  );
-
-  // Observe hero stats and edge highlight
-  document.querySelectorAll('.hero-stats, .edge-highlight').forEach(function (el) {
-    counterObserver.observe(el);
   });
 
   // --- Mobile Menu ---

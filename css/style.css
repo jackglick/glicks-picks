@@ -1,5 +1,5 @@
 /* ============================================
-   Glick's Picks — Classic Baseball Theme
+   Glick's Picks — Light Editorial Theme
    ============================================ */
 
 *, *::before, *::after {
@@ -9,18 +9,20 @@
 }
 
 :root {
-  --bg: #0c1524;
-  --bg-surface: #132035;
-  --bg-elevated: #1a2a45;
-  --accent: #e63946;
-  --accent-dim: rgba(230, 57, 70, 0.12);
-  --yellow: #fbbf24;
-  --red: #e63946;
+  --bg: #faf7f2;
+  --bg-surface: #ffffff;
+  --bg-elevated: #f0ebe3;
+  --accent: #1a7f6d;
+  --accent-hover: #15695a;
+  --accent-dim: rgba(26, 127, 109, 0.10);
+  --navy: #1b2a4a;
+  --yellow: #b8860b;
+  --red: #c0392b;
   --cream: #fdf8ef;
-  --text: #f5f1eb;
-  --text-secondary: #a3aebf;
-  --text-dim: #5a6a80;
-  --border: rgba(255, 255, 255, 0.07);
+  --text: #1b2a4a;
+  --text-secondary: #5a6478;
+  --text-dim: #8d95a3;
+  --border: rgba(27, 42, 74, 0.10);
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --mono: 'JetBrains Mono', monospace;
 }
@@ -75,7 +77,7 @@ a { color: var(--accent); text-decoration: none; }
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(11, 15, 26, 0.9);
+  background: rgba(250, 247, 242, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
@@ -137,7 +139,7 @@ a { color: var(--accent); text-decoration: none; }
   display: none;
   position: fixed;
   inset: 60px 0 0 0;
-  background: rgba(11, 15, 26, 0.97);
+  background: rgba(250, 247, 242, 0.97);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   z-index: 99;
@@ -170,31 +172,13 @@ a { color: var(--accent); text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(12, 21, 36, 0.78) 0%, rgba(12, 21, 36, 0.85) 100%);
+  background: linear-gradient(180deg, rgba(250, 247, 242, 0.88) 0%, rgba(250, 247, 242, 0.92) 100%);
   pointer-events: none;
 }
 
 .hero > .container {
   position: relative;
   z-index: 1;
-}
-
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.baseball-stitches {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 120%;
-  height: 100%;
-  color: var(--accent);
-  opacity: 0.07;
 }
 
 .hero-badge {
@@ -267,20 +251,18 @@ a { color: var(--accent); text-decoration: none; }
 
 .cta-button {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--bg);
+  letter-spacing: 0.03em;
+  color: #ffffff;
   background: var(--accent);
-  padding: 0.9rem 2.25rem;
+  padding: 0.8rem 2rem;
   border-radius: 6px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: background 0.2s;
 }
 .cta-button:hover {
-  color: var(--bg);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(230, 57, 70, 0.25);
+  color: #ffffff;
+  background: var(--accent-hover);
 }
 
 /* --- How It Works --- */
@@ -304,7 +286,7 @@ a { color: var(--accent); text-decoration: none; }
   transition: border-color 0.3s;
 }
 .step:hover {
-  border-color: rgba(230, 57, 70, 0.15);
+  border-color: rgba(26, 127, 109, 0.20);
 }
 
 .step-number {
@@ -340,7 +322,7 @@ a { color: var(--accent); text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, var(--bg) 0%, rgba(12, 21, 36, 0.82) 10%, rgba(12, 21, 36, 0.82) 90%, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--bg) 0%, rgba(250, 247, 242, 0.88) 10%, rgba(250, 247, 242, 0.88) 90%, var(--bg) 100%);
   pointer-events: none;
 }
 
@@ -358,7 +340,7 @@ a { color: var(--accent); text-decoration: none; }
 
 .edge-tier {
   display: grid;
-  grid-template-columns: 70px 90px 1fr;
+  grid-template-columns: 70px 120px 1fr;
   align-items: center;
   gap: 1rem;
   background: var(--bg-surface);
@@ -374,7 +356,7 @@ a { color: var(--accent); text-decoration: none; }
 }
 .edge-tier.skip .edge-tier-range { color: var(--text-dim); }
 .edge-tier.caution .edge-tier-range { color: var(--yellow); }
-.edge-tier.go .edge-tier-range { color: var(--cream); }
+.edge-tier.go .edge-tier-range { color: var(--accent); }
 
 .edge-tier-label {
   font-size: 0.8rem;
@@ -386,7 +368,7 @@ a { color: var(--accent); text-decoration: none; }
 
 .edge-tier-bar {
   height: 6px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(27, 42, 74, 0.06);
   border-radius: 3px;
   overflow: hidden;
 }
@@ -398,7 +380,7 @@ a { color: var(--accent); text-decoration: none; }
 }
 .edge-tier.skip .edge-tier-fill { background: var(--text-dim); }
 .edge-tier.caution .edge-tier-fill { background: var(--yellow); }
-.edge-tier.go .edge-tier-fill { background: var(--cream); }
+.edge-tier.go .edge-tier-fill { background: var(--accent); }
 
 /* Edge Highlight */
 .edge-highlight {
@@ -412,8 +394,8 @@ a { color: var(--accent); text-decoration: none; }
   justify-content: center;
   gap: 0.75rem;
   flex-wrap: wrap;
-  background: linear-gradient(135deg, rgba(230, 57, 70, 0.06), rgba(230, 57, 70, 0.02));
-  border: 1px solid rgba(230, 57, 70, 0.15);
+  background: linear-gradient(135deg, rgba(26, 127, 109, 0.06), rgba(26, 127, 109, 0.02));
+  border: 1px solid rgba(26, 127, 109, 0.15);
   border-radius: 10px;
   padding: 2rem 1.5rem;
   text-align: center;
@@ -470,7 +452,7 @@ a { color: var(--accent); text-decoration: none; }
   padding: 2rem 1.75rem;
 }
 .next-item.active {
-  border-color: rgba(230, 57, 70, 0.25);
+  border-color: rgba(26, 127, 109, 0.25);
 }
 
 .next-tag {
@@ -504,6 +486,39 @@ a { color: var(--accent); text-decoration: none; }
   line-height: 1.65;
 }
 
+/* --- About --- */
+.about {
+  padding: 5rem 0;
+  background: var(--bg-elevated);
+}
+
+.about-inner {
+  max-width: 620px;
+}
+
+.about h2 {
+  font-size: clamp(1.4rem, 3.5vw, 2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+}
+
+.about p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+.about strong {
+  color: var(--text);
+}
+
 /* --- Footer --- */
 .footer {
   padding: 3.5rem 0;
@@ -529,6 +544,14 @@ a { color: var(--accent); text-decoration: none; }
 .footer-copy {
   font-size: 0.75rem;
   color: var(--text-dim);
+}
+
+.footer-disclaimer {
+  max-width: 600px;
+  margin: 1.5rem auto 0;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  line-height: 1.6;
 }
 
 /* ============================================

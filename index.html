@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glick's Picks — Smarter Strikeout Bets</title>
-  <meta name="description" content="Machine learning meets baseball. Data-driven strikeout prop picks that beat the books.">
+  <title>Glick's Picks — MLB Strikeout Prop Analytics</title>
+  <meta name="description" content="Machine learning meets baseball. A data-driven model for analyzing MLB strikeout props.">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Glick's Picks — Smarter Strikeout Bets">
-  <meta property="og:description" content="Machine learning meets baseball. 68.9% win rate on high-edge strikeout props.">
+  <meta property="og:title" content="Glick's Picks — MLB Strikeout Prop Analytics">
+  <meta property="og:description" content="Machine learning meets baseball. A data-driven model for analyzing MLB strikeout props.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://glicks-picks.com">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Glick's Picks — Smarter Strikeout Bets">
-  <meta name="twitter:description" content="Machine learning meets baseball. 68.9% win rate on high-edge strikeout props.">
+  <meta name="twitter:title" content="Glick's Picks — MLB Strikeout Prop Analytics">
+  <meta name="twitter:description" content="Machine learning meets baseball. A data-driven model for analyzing MLB strikeout props.">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -39,6 +39,7 @@
           <li><a href="#how-it-works">How It Works</a></li>
           <li><a href="#the-edge">The Edge</a></li>
           <li><a href="#whats-next">What's Next</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </nav>
       <button class="hamburger" aria-label="Toggle navigation">
@@ -54,36 +55,31 @@
     <a href="#how-it-works">How It Works</a>
     <a href="#the-edge">The Edge</a>
     <a href="#whats-next">What's Next</a>
+    <a href="#about">About</a>
   </div>
 
   <!-- Hero -->
   <section class="hero" id="hero">
-    <div class="hero-bg">
-      <svg class="baseball-stitches" viewBox="0 0 800 400" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M-50 200 Q150 80 400 200 Q650 320 850 200" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="8 12"/>
-        <path d="M-50 200 Q150 320 400 200 Q650 80 850 200" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="8 12"/>
-      </svg>
-    </div>
     <div class="container">
-      <div class="hero-badge reveal">STRIKEOUT PROPS</div>
-      <h1 class="hero-headline reveal">Beat the Books<br>with Data</h1>
-      <p class="hero-sub reveal">A machine learning model trained on every MLB pitch since 2022 to find edges in strikeout props</p>
+      <div class="hero-badge reveal">MLB ANALYTICS</div>
+      <h1 class="hero-headline reveal">Smarter Strikeout<br>Analysis</h1>
+      <p class="hero-sub reveal">A machine learning model trained on every MLB pitch since 2022 to identify mispriced strikeout props</p>
 
       <div class="hero-stats reveal">
         <div class="hero-stat">
-          <div class="hero-stat-number" data-target="68.9%">0%</div>
-          <div class="hero-stat-label">Win Rate</div>
-          <div class="hero-stat-detail">on high-edge picks</div>
+          <div class="hero-stat-number">68.9%</div>
+          <div class="hero-stat-label">Hit Rate</div>
+          <div class="hero-stat-detail">on high-edge picks, 2025 holdout</div>
         </div>
         <div class="hero-stat-divider"></div>
         <div class="hero-stat">
-          <div class="hero-stat-number" data-target="2,849">0</div>
-          <div class="hero-stat-label">Picks Tested</div>
-          <div class="hero-stat-detail">2025 season holdout</div>
+          <div class="hero-stat-number">2,849</div>
+          <div class="hero-stat-label">Predictions Tested</div>
+          <div class="hero-stat-detail">out-of-sample backtest</div>
         </div>
       </div>
 
-      <a href="#how-it-works" class="cta-button reveal">See How It Works</a>
+      <a href="#how-it-works" class="cta-button reveal">How It Works</a>
     </div>
   </section>
 
@@ -108,8 +104,8 @@
         </div>
         <div class="step">
           <div class="step-number">03</div>
-          <h3>Find the edge</h3>
-          <p>The model predicts strikeouts, converts to probabilities, and compares to the sportsbook line. When the gap is big enough &mdash; that's the play.</p>
+          <h3>Measure the gap</h3>
+          <p>The model predicts strikeouts, converts to probabilities, and compares to the sportsbook line. When the gap is big enough &mdash; the model flags it.</p>
         </div>
       </div>
     </div>
@@ -119,31 +115,31 @@
   <section class="the-edge" id="the-edge">
     <div class="container">
       <div class="reveal">
-        <h2 class="section-title">The sharper the edge, the better the bet</h2>
-        <p class="section-subtitle">Bigger disagreements between the model and the market mean bigger win rates.</p>
+        <h2 class="section-title">Larger model-vs-market gaps predict better outcomes</h2>
+        <p class="section-subtitle">Bigger disagreements between the model and the market mean higher hit rates.</p>
       </div>
 
       <div class="edge-tiers reveal">
         <div class="edge-tier skip">
           <div class="edge-tier-range">&lt; 3%</div>
-          <div class="edge-tier-label">No play</div>
+          <div class="edge-tier-label">Below threshold</div>
           <div class="edge-tier-bar"><div class="edge-tier-fill" style="width: 0%"></div></div>
         </div>
         <div class="edge-tier caution">
           <div class="edge-tier-range">3 &ndash; 5%</div>
-          <div class="edge-tier-label">Small play</div>
+          <div class="edge-tier-label">Marginal signal</div>
           <div class="edge-tier-bar"><div class="edge-tier-fill" style="width: 45%"></div></div>
         </div>
         <div class="edge-tier go">
           <div class="edge-tier-range">5%+</div>
-          <div class="edge-tier-label">Standard play</div>
+          <div class="edge-tier-label">Strong signal</div>
           <div class="edge-tier-bar"><div class="edge-tier-fill" style="width: 100%"></div></div>
         </div>
       </div>
 
       <div class="edge-highlight reveal">
         <div class="edge-highlight-inner">
-          <span class="edge-highlight-number" data-target="68.9%">0%</span>
+          <span class="edge-highlight-number">68.9%</span>
           <span class="edge-highlight-text">of 5%+ edge picks hit on the 2025 holdout</span>
         </div>
       </div>
@@ -151,7 +147,7 @@
       <div class="edge-explainer reveal">
         <div class="edge-explainer-card">
           <h3>What's "edge"?</h3>
-          <p>The gap between what the model thinks will happen and what the sportsbook is pricing. A 5% edge means the model sees a significantly better chance of hitting than the odds imply. Over thousands of picks, that gap compounds into real profit.</p>
+          <p>The gap between what the model thinks will happen and what the sportsbook is pricing. A 5% edge means the model sees a significantly better chance of hitting than the odds imply. That gap is what the model looks for.</p>
         </div>
       </div>
     </div>
@@ -179,12 +175,24 @@
     </div>
   </section>
 
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-inner reveal">
+        <h2>About this project</h2>
+        <p>Built by <strong>Jack Glick</strong>, a data scientist and lifelong baseball fan. This started as a personal project to see whether machine learning could find meaningful signal in MLB strikeout props.</p>
+        <p>This is a research project, not a picks service. The model is trained on Statcast pitch-level data and evaluated on out-of-sample holdout seasons. All statistics shown on this site come from backtesting &mdash; not live wagering.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-brand">GLICK'S <span>PICKS</span></div>
       <p class="footer-tagline">Machine learning meets baseball</p>
       <p class="footer-copy">&copy; 2026 Glick's Picks</p>
+      <p class="footer-disclaimer">This site is for informational and educational purposes only. It is not a gambling service and does not provide betting advice. Past model performance on historical data does not guarantee future results. All statistics shown are from backtesting against out-of-sample data, not live wagering. If you or someone you know has a gambling problem, call 1-800-GAMBLER.</p>
     </div>
   </footer>
 
