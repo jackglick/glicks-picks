@@ -170,7 +170,7 @@ a { color: var(--accent); text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(12, 21, 36, 0.88) 0%, rgba(12, 21, 36, 0.95) 100%);
+  background: linear-gradient(180deg, rgba(12, 21, 36, 0.78) 0%, rgba(12, 21, 36, 0.85) 100%);
   pointer-events: none;
 }
 
@@ -340,7 +340,7 @@ a { color: var(--accent); text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, var(--bg) 0%, rgba(12, 21, 36, 0.92) 10%, rgba(12, 21, 36, 0.92) 90%, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--bg) 0%, rgba(12, 21, 36, 0.82) 10%, rgba(12, 21, 36, 0.82) 90%, var(--bg) 100%);
   pointer-events: none;
 }
 
