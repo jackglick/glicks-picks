@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:19:44.649694+00:00",
+  "generated_at": "2026-02-12T22:44:37.164080+00:00",
   "date": "2025-05-05",
   "picks": [
     {
@@ -11,7 +11,7 @@
       "direction": "UNDER",
       "line": 2.5,
       "best_book": null,
-      "best_price": 115,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778045
     },
@@ -23,7 +23,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 6.5,
-      "best_book": null,
+      "best_book": "fanduel",
       "best_price": 120,
       "stars": 3,
       "game_pk": 778043
@@ -36,7 +36,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 2.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": 130,
       "stars": 3,
       "game_pk": 778044
@@ -49,7 +49,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 2.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -165,
       "stars": 2,
       "game_pk": 778047
@@ -62,8 +62,8 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": null,
-      "best_price": -114,
+      "best_book": "draftkings",
+      "best_price": -110,
       "stars": 2,
       "game_pk": 778036
     },
@@ -75,8 +75,8 @@
       "category": "pitcher",
       "direction": "OVER",
       "line": 3.5,
-      "best_book": null,
-      "best_price": 115,
+      "best_book": "fanduel",
+      "best_price": 116,
       "stars": 2,
       "game_pk": 778043
     },
@@ -88,7 +88,7 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": 145,
       "stars": 2,
       "game_pk": 778049
@@ -101,8 +101,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 182,
+      "best_book": "draftkings",
+      "best_price": 185,
       "stars": 1,
       "game_pk": 778042
     },
@@ -114,8 +114,8 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 16.5,
-      "best_book": null,
-      "best_price": -101,
+      "best_book": "fanduel",
+      "best_price": 102,
       "stars": 1,
       "game_pk": 778044
     },
@@ -127,8 +127,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 182,
+      "best_book": "draftkings",
+      "best_price": 180,
       "stars": 1,
       "game_pk": 778049
     },
@@ -140,8 +140,8 @@
       "category": "batter",
       "direction": "OVER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": -120,
+      "best_book": "draftkings",
+      "best_price": -125,
       "stars": 1,
       "game_pk": 778045
     },
@@ -153,8 +153,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 186,
+      "best_book": "draftkings",
+      "best_price": 185,
       "stars": 1,
       "game_pk": 778036
     },
@@ -166,8 +166,8 @@
       "category": "pitcher",
       "direction": "OVER",
       "line": 4.5,
-      "best_book": null,
-      "best_price": -153,
+      "best_book": "draftkings",
+      "best_price": -155,
       "stars": 1,
       "game_pk": 778049
     },
@@ -179,7 +179,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 4.0,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
       "game_pk": 778043
@@ -192,8 +192,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -182,
+      "best_book": "draftkings",
+      "best_price": -185,
       "stars": 1,
       "game_pk": 778047
     },
@@ -205,8 +205,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 189,
+      "best_book": "draftkings",
+      "best_price": 190,
       "stars": 1,
       "game_pk": 778047
     }

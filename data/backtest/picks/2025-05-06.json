@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:19:44.650871+00:00",
+  "generated_at": "2026-02-12T22:44:37.165285+00:00",
   "date": "2025-05-06",
   "picks": [
     {
@@ -11,7 +11,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
-      "best_price": 175,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778026
     },
@@ -24,7 +24,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
-      "best_price": 175,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778046
     },
@@ -36,8 +36,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 184,
+      "best_book": "draftkings",
+      "best_price": 185,
       "stars": 3,
       "game_pk": 778028
     },
@@ -49,8 +49,8 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": null,
-      "best_price": -120,
+      "best_book": "draftkings",
+      "best_price": -110,
       "stars": 3,
       "game_pk": 778035
     },
@@ -62,8 +62,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -126,
+      "best_book": "draftkings",
+      "best_price": -130,
       "stars": 3,
       "game_pk": 778034
     },
@@ -76,7 +76,7 @@
       "direction": "UNDER",
       "line": 2.5,
       "best_book": null,
-      "best_price": -120,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778041
     },
@@ -88,7 +88,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 3.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -110,
       "stars": 3,
       "game_pk": 778028
@@ -102,7 +102,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
-      "best_price": 150,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778026
     },
@@ -115,7 +115,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
-      "best_price": 150,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778046
     },
@@ -128,7 +128,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
-      "best_price": -127,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778040
     },
@@ -141,7 +141,7 @@
       "direction": "UNDER",
       "line": 2.0,
       "best_book": null,
-      "best_price": 140,
+      "best_price": null,
       "stars": 3,
       "game_pk": 778028
     },
@@ -153,8 +153,8 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": null,
-      "best_price": -108,
+      "best_book": "fanduel",
+      "best_price": -106,
       "stars": 2,
       "game_pk": 778026
     },
@@ -166,7 +166,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 3.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -175,
       "stars": 2,
       "game_pk": 778041
@@ -179,8 +179,8 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": null,
-      "best_price": -112,
+      "best_book": "draftkings",
+      "best_price": -110,
       "stars": 2,
       "game_pk": 778030
     },
@@ -192,8 +192,8 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": null,
-      "best_price": 125,
+      "best_book": "fanduel",
+      "best_price": 126,
       "stars": 2,
       "game_pk": 778028
     },
@@ -205,7 +205,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 3.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -160,
       "stars": 2,
       "game_pk": 778031
@@ -218,7 +218,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 2.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -125,
       "stars": 2,
       "game_pk": 778035
@@ -231,7 +231,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 2.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": 125,
       "stars": 2,
       "game_pk": 778034
@@ -244,7 +244,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": null,
+      "best_book": "fanduel",
       "best_price": 118,
       "stars": 2,
       "game_pk": 778034
@@ -257,7 +257,7 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -180,
       "stars": 2,
       "game_pk": 778035
@@ -270,7 +270,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 3.0,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": 120,
       "stars": 2,
       "game_pk": 778040
@@ -283,7 +283,7 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": 200,
       "stars": 1,
       "game_pk": 778031
@@ -296,8 +296,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 129,
+      "best_book": "draftkings",
+      "best_price": 130,
       "stars": 1,
       "game_pk": 778035
     },
@@ -309,8 +309,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -157,
+      "best_book": "draftkings",
+      "best_price": -155,
       "stars": 1,
       "game_pk": 778028
     },
@@ -322,8 +322,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 159,
+      "best_book": "draftkings",
+      "best_price": 160,
       "stars": 1,
       "game_pk": 778028
     },
@@ -335,8 +335,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": 104,
+      "best_book": "draftkings",
+      "best_price": 105,
       "stars": 1,
       "game_pk": 778033
     },
@@ -348,7 +348,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 15.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
       "game_pk": 778033
@@ -361,8 +361,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -144,
+      "best_book": "draftkings",
+      "best_price": -150,
       "stars": 1,
       "game_pk": 778028
     },
@@ -374,7 +374,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 4.0,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
       "game_pk": 778037
@@ -387,7 +387,7 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -160,
       "stars": 1,
       "game_pk": 778037
@@ -400,8 +400,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 171,
+      "best_book": "draftkings",
+      "best_price": 170,
       "stars": 1,
       "game_pk": 778037
     },
@@ -413,8 +413,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 156,
+      "best_book": "draftkings",
+      "best_price": 155,
       "stars": 1,
       "game_pk": 778028
     },
@@ -426,8 +426,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -196,
+      "best_book": "draftkings",
+      "best_price": -200,
       "stars": 1,
       "game_pk": 778028
     },
@@ -439,7 +439,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": 120,
       "stars": 1,
       "game_pk": 778026
@@ -452,8 +452,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -122,
+      "best_book": "draftkings",
+      "best_price": -125,
       "stars": 1,
       "game_pk": 778032
     },
@@ -465,7 +465,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 4.0,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -165,
       "stars": 1,
       "game_pk": 778027
@@ -478,7 +478,7 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -160,
       "stars": 1,
       "game_pk": 778030
@@ -491,7 +491,7 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": 155,
       "stars": 1,
       "game_pk": 778040
@@ -504,8 +504,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 158,
+      "best_book": "draftkings",
+      "best_price": 160,
       "stars": 1,
       "game_pk": 778032
     },
@@ -518,7 +518,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
-      "best_price": -130,
+      "best_price": null,
       "stars": 1,
       "game_pk": 778040
     },
@@ -530,8 +530,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 134,
+      "best_book": "draftkings",
+      "best_price": 130,
       "stars": 1,
       "game_pk": 778034
     },
@@ -543,8 +543,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": 192,
+      "best_book": "draftkings",
+      "best_price": 195,
       "stars": 1,
       "game_pk": 778028
     },
@@ -556,8 +556,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -135,
+      "best_book": "draftkings",
+      "best_price": -140,
       "stars": 1,
       "game_pk": 778026
     },
@@ -569,8 +569,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": -135,
+      "best_book": "draftkings",
+      "best_price": -140,
       "stars": 1,
       "game_pk": 778046
     },
@@ -582,7 +582,7 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 4.0,
-      "best_book": null,
+      "best_book": "draftkings",
       "best_price": -175,
       "stars": 1,
       "game_pk": 778031

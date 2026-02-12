@@ -193,14 +193,18 @@
 
   // --- Sportsbook brand colors ---
   var BOOK_COLORS = {
-    'DraftKings': '#53d337',
-    'FanDuel': '#1493ff',
-    'BetMGM': '#c5a05e',
-    'Caesars': '#8c1d40',
-    'PointsBet': '#e4002b',
-    'BetRivers': '#1a3668',
-    'Bovada': '#cc0000',
-    'bet365': '#027b5b'
+    'draftkings': '#53d337',
+    'fanduel': '#1493ff',
+    'betmgm': '#c5a05e',
+    'caesars': '#8c1d40',
+    'williamhill_us': '#8c1d40',
+    'pointsbet': '#e4002b',
+    'betrivers': '#1a3668',
+    'bovada': '#cc0000',
+    'bet365': '#027b5b',
+    'fanatics': '#004bed',
+    'betonlineag': '#ff6600',
+    'mybookieag': '#d4af37'
   };
 
   // --- Shared Pick Card Renderer ---
@@ -253,14 +257,24 @@
     card.appendChild(body);
 
     // Book info
-    if (pick.best_book) {
+    var BOOK_DISPLAY = {
+      'draftkings': 'DraftKings', 'fanduel': 'FanDuel', 'betmgm': 'BetMGM',
+      'caesars': 'Caesars', 'williamhill_us': 'Caesars', 'pointsbet': 'PointsBet',
+      'betrivers': 'BetRivers', 'bovada': 'Bovada', 'bet365': 'bet365',
+      'fanatics': 'Fanatics', 'betonlineag': 'BetOnline', 'mybookieag': 'MyBookie'
+    };
+    if (pick.best_book || pick.best_price !== null) {
       var bookDiv = el('div', 'pick-card-book');
-      var bookColor = BOOK_COLORS[pick.best_book] || '#8d95a3';
-      var dot = el('span', 'book-dot');
-      dot.style.background = bookColor;
-      bookDiv.appendChild(dot);
-      bookDiv.appendChild(document.createTextNode(pick.best_book + ' '));
-      if (pick.best_price !== null) {
+      if (pick.best_book) {
+        var bookKey = pick.best_book.toLowerCase();
+        var bookColor = BOOK_COLORS[bookKey] || '#8d95a3';
+        var dot = el('span', 'book-dot');
+        dot.style.background = bookColor;
+        bookDiv.appendChild(dot);
+        var displayName = BOOK_DISPLAY[bookKey] || pick.best_book;
+        bookDiv.appendChild(document.createTextNode(displayName + ' '));
+      }
+      if (pick.best_price !== null && pick.best_price !== undefined) {
         bookDiv.appendChild(el('span', 'pick-card-price', formatPrice(pick.best_price)));
       }
       card.appendChild(bookDiv);
