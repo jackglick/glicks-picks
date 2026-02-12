@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-02-12T20:10:35.830406+00:00",
+  "generated_at": "2026-02-12T20:49:09.860488+00:00",
   "date": "2025-05-10",
   "picks": [
+    {
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 122,
+      "stars": 3,
+      "game_pk": 777985
+    },
     {
       "player": "Heaney, Andrew",
       "opponent": "PIT",
@@ -37,6 +49,18 @@
       "best_price": -119,
       "stars": 3,
       "game_pk": 777976
+    },
+    {
+      "player": "Ragans, Cole",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -126,
+      "stars": 3,
+      "game_pk": 777977
     },
     {
       "player": "Ragans, Cole",
@@ -97,18 +121,6 @@
       "best_price": 195,
       "stars": 2,
       "game_pk": 777973
-    },
-    {
-      "player": "Bibee, Tanner",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -169,
-      "stars": 2,
-      "game_pk": 777983
     },
     {
       "player": "Crochet, Garrett",
@@ -231,18 +243,6 @@
       "game_pk": 777981
     },
     {
-      "player": "Ragans, Cole",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -126,
-      "stars": 2,
-      "game_pk": 777977
-    },
-    {
       "player": "Rod\u00f3n, Carlos",
       "opponent": "NYY",
       "market": "Hits Allowed",
@@ -277,18 +277,6 @@
       "best_price": 145,
       "stars": 2,
       "game_pk": 777979
-    },
-    {
-      "player": "Su\u00e1rez, Ranger",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 106,
-      "stars": 2,
-      "game_pk": 777983
     },
     {
       "player": "Vest, Will",
@@ -457,6 +445,18 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 777981
+    },
+    {
+      "player": "Crochet, Garrett",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 104,
+      "stars": 1,
+      "game_pk": 777977
     },
     {
       "player": "Crochet, Garrett",
@@ -783,18 +783,6 @@
       "game_pk": 777973
     },
     {
-      "player": "Myers, Tobias",
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -116,
-      "stars": 1,
-      "game_pk": 777981
-    },
-    {
       "player": "O'Brien, Riley",
       "opponent": "SF",
       "market": "Hits",
@@ -817,18 +805,6 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 777974
-    },
-    {
-      "player": "Pallante, Andre",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -116,
-      "stars": 1,
-      "game_pk": 777980
     },
     {
       "player": "Pallante, Andre",
@@ -953,18 +929,6 @@
     {
       "player": "Smith, Shane",
       "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -148,
-      "stars": 1,
-      "game_pk": 777978
-    },
-    {
-      "player": "Smith, Shane",
-      "opponent": "CWS",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1069,18 +1033,6 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 777974
-    },
-    {
-      "player": "Williams, Trevor",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 101,
-      "stars": 1,
-      "game_pk": 777980
     },
     {
       "player": "Williams, Trevor",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.833502+00:00",
+  "generated_at": "2026-02-12T20:49:09.864232+00:00",
   "date": "2025-05-12",
   "picks": [
     {
@@ -37,18 +37,6 @@
       "best_price": -132,
       "stars": 2,
       "game_pk": 777953
-    },
-    {
-      "player": "Rea, Colin",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 116,
-      "stars": 2,
-      "game_pk": 777952
     },
     {
       "player": "Rea, Colin",
@@ -159,18 +147,6 @@
       "game_pk": 777952
     },
     {
-      "player": "Peterson, David",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -109,
-      "stars": 1,
-      "game_pk": 777950
-    },
-    {
       "player": "Phillips, Connor",
       "opponent": "MIL",
       "market": "Hits",
@@ -195,16 +171,28 @@
       "game_pk": 777960
     },
     {
-      "player": "Quantrill, Cal",
-      "opponent": "MIA",
+      "player": "Rea, Colin",
+      "opponent": "CHC",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.5,
+      "line": 4.5,
       "best_book": null,
-      "best_price": -145,
+      "best_price": 116,
       "stars": 1,
       "game_pk": 777952
+    },
+    {
+      "player": "Skenes, Paul",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -101,
+      "stars": 1,
+      "game_pk": 777950
     },
     {
       "player": "Skenes, Paul",

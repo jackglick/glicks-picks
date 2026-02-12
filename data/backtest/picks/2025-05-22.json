@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.847351+00:00",
+  "generated_at": "2026-02-12T20:49:09.880095+00:00",
   "date": "2025-05-22",
   "picks": [
     {
@@ -377,18 +377,6 @@
     {
       "player": "Su\u00e1rez, Ranger",
       "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 3,
-      "game_pk": 777817
-    },
-    {
-      "player": "Su\u00e1rez, Ranger",
-      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -409,6 +397,18 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 777817
+    },
+    {
+      "player": "Anderson, Tyler",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 777812
     },
     {
       "player": "Barlow, Scott",
@@ -543,6 +543,18 @@
       "game_pk": 777814
     },
     {
+      "player": "Su\u00e1rez, Ranger",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 777817
+    },
+    {
       "player": "Woods Richardson, Simeon",
       "opponent": "PHI",
       "market": "Total Bases",
@@ -623,30 +635,6 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -195,
-      "stars": 1,
-      "game_pk": 777816
-    },
-    {
-      "player": "Eovaldi, Nathan",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 777818
-    },
-    {
-      "player": "Francis, Bowden",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 105,
       "stars": 1,
       "game_pk": 777816
     },
@@ -797,18 +785,6 @@
     {
       "player": "Severino, Luis",
       "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -144,
-      "stars": 1,
-      "game_pk": 777812
-    },
-    {
-      "player": "Severino, Luis",
-      "opponent": "ATH",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -841,18 +817,6 @@
       "best_price": -117,
       "stars": 1,
       "game_pk": 777817
-    },
-    {
-      "player": "Williams, Trevor",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 128,
-      "stars": 1,
-      "game_pk": 777820
     },
     {
       "player": "Williams, Trevor",

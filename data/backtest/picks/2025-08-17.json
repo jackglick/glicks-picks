@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.969945+00:00",
+  "generated_at": "2026-02-12T20:49:10.006629+00:00",
   "date": "2025-08-17",
   "picks": [
     {
@@ -159,6 +159,18 @@
       "game_pk": 776704
     },
     {
+      "player": "Mlodzinski, Carmen",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": -158,
+      "stars": 3,
+      "game_pk": 776704
+    },
+    {
       "player": "O'Brien, Riley",
       "opponent": "PIT",
       "market": "Total Bases",
@@ -183,6 +195,18 @@
       "game_pk": 776701
     },
     {
+      "player": "Webb, Logan",
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 118,
+      "stars": 3,
+      "game_pk": 776703
+    },
+    {
       "player": "Baker, Bryan",
       "opponent": "TEX",
       "market": "Total Bases",
@@ -195,18 +219,6 @@
       "game_pk": 776710
     },
     {
-      "player": "Bergert, Ryan",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -151,
-      "stars": 2,
-      "game_pk": 776702
-    },
-    {
       "player": "Berr\u00edos, Jos\u00e9",
       "opponent": "TOR",
       "market": "Outs Recorded",
@@ -215,18 +227,6 @@
       "line": 16.5,
       "best_book": null,
       "best_price": -105,
-      "stars": 2,
-      "game_pk": 776710
-    },
-    {
-      "player": "Eovaldi, Nathan",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -100,
       "stars": 2,
       "game_pk": 776710
     },
@@ -292,6 +292,18 @@
     },
     {
       "player": "Senzatela, Antonio",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 776701
+    },
+    {
+      "player": "Senzatela, Antonio",
       "opponent": "TB",
       "market": "Total Bases",
       "category": "batter",
@@ -325,6 +337,18 @@
       "best_price": -120,
       "stars": 2,
       "game_pk": 776701
+    },
+    {
+      "player": "Abbott, Andrew",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 776709
     },
     {
       "player": "Allen, Logan",
@@ -435,18 +459,6 @@
       "game_pk": 776701
     },
     {
-      "player": "Darvish, Yu",
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 776697
-    },
-    {
       "player": "Dreyer, Jack",
       "opponent": "MIL",
       "market": "Total Bases",
@@ -471,6 +483,18 @@
       "game_pk": 776709
     },
     {
+      "player": "Eovaldi, Nathan",
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -100,
+      "stars": 1,
+      "game_pk": 776710
+    },
+    {
       "player": "Estrada, Jeremiah",
       "opponent": "AZ",
       "market": "Hits",
@@ -493,18 +517,6 @@
       "best_price": 151,
       "stars": 1,
       "game_pk": 776707
-    },
-    {
-      "player": "Fedde, Erick",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -122,
-      "stars": 1,
-      "game_pk": 776706
     },
     {
       "player": "Garcia, Rico",
@@ -579,18 +591,6 @@
       "game_pk": 776706
     },
     {
-      "player": "Holmes, Clay",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -162,
-      "stars": 1,
-      "game_pk": 776707
-    },
-    {
       "player": "Jarvis, Bryce",
       "opponent": "SD",
       "market": "Total Bases",
@@ -601,18 +601,6 @@
       "best_price": -164,
       "stars": 1,
       "game_pk": 776697
-    },
-    {
-      "player": "Javier, Cristian",
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -153,
-      "stars": 1,
-      "game_pk": 776705
     },
     {
       "player": "Kinley, Tyler",
@@ -701,6 +689,18 @@
     {
       "player": "Martin, Davis",
       "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -179,
+      "stars": 1,
+      "game_pk": 776702
+    },
+    {
+      "player": "Martin, Davis",
+      "opponent": "CWS",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -709,18 +709,6 @@
       "best_price": -157,
       "stars": 1,
       "game_pk": 776702
-    },
-    {
-      "player": "Mikolas, Miles",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 776698
     },
     {
       "player": "Murray, Jayden",
@@ -733,30 +721,6 @@
       "best_price": 137,
       "stars": 1,
       "game_pk": 776699
-    },
-    {
-      "player": "Nola, Aaron",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 776708
-    },
-    {
-      "player": "Parker, Mitchell",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -164,
-      "stars": 1,
-      "game_pk": 776708
     },
     {
       "player": "Phillips, Tyler",
@@ -877,18 +841,6 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 776706
-    },
-    {
-      "player": "Webb, Logan",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 118,
-      "stars": 1,
-      "game_pk": 776703
     },
     {
       "player": "Woods Richardson, Simeon",

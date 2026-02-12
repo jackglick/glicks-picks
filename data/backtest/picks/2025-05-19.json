@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.842917+00:00",
+  "generated_at": "2026-02-12T20:49:09.874891+00:00",
   "date": "2025-05-19",
   "picks": [
     {
@@ -183,30 +183,6 @@
       "game_pk": 777861
     },
     {
-      "player": "Brown, Ben",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.0,
-      "best_book": null,
-      "best_price": -129,
-      "stars": 2,
-      "game_pk": 777863
-    },
-    {
-      "player": "Keller, Mitch",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 777859
-    },
-    {
       "player": "Knack, Landon",
       "opponent": "SEA",
       "market": "Total Bases",
@@ -279,6 +255,18 @@
       "game_pk": 777861
     },
     {
+      "player": "Allen, Logan",
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -111,
+      "stars": 1,
+      "game_pk": 777861
+    },
+    {
       "player": "Barlow, Scott",
       "opponent": "BAL",
       "market": "Hits",
@@ -301,30 +289,6 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 777860
-    },
-    {
-      "player": "Cabrera, Edward",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 108,
-      "stars": 1,
-      "game_pk": 777863
-    },
-    {
-      "player": "Castillo, Luis",
-      "opponent": "SEA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -126,
-      "stars": 1,
-      "game_pk": 777857
     },
     {
       "player": "Dana, Caden",
@@ -423,6 +387,30 @@
       "game_pk": 777857
     },
     {
+      "player": "Keller, Mitch",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777859
+    },
+    {
+      "player": "Kremer, Dean",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 777860
+    },
+    {
       "player": "Kremer, Dean",
       "opponent": "BAL",
       "market": "Outs Recorded",
@@ -457,18 +445,6 @@
       "best_price": -202,
       "stars": 1,
       "game_pk": 777859
-    },
-    {
-      "player": "Senga, Kodai",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 777856
     },
     {
       "player": "Vest, Will",

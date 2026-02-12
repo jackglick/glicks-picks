@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.904205+00:00",
+  "generated_at": "2026-02-12T20:49:09.940571+00:00",
   "date": "2025-07-01",
   "picks": [
     {
@@ -123,6 +123,18 @@
       "game_pk": 777293
     },
     {
+      "player": "Springs, Jeffrey",
+      "opponent": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -101,
+      "stars": 3,
+      "game_pk": 777286
+    },
+    {
       "player": "Trivino, Lou",
       "opponent": "MIN",
       "market": "Hits",
@@ -171,18 +183,6 @@
       "game_pk": 777286
     },
     {
-      "player": "Fitts, Richard",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 2,
-      "game_pk": 777294
-    },
-    {
       "player": "Gore, MacKenzie",
       "opponent": "LAA",
       "market": "Total Bases",
@@ -217,6 +217,18 @@
       "best_price": null,
       "stars": 2,
       "game_pk": 777281
+    },
+    {
+      "player": "Anderson, Tyler",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777298
     },
     {
       "player": "Burns, Chase",
@@ -265,6 +277,30 @@
       "best_price": 139,
       "stars": 1,
       "game_pk": 777286
+    },
+    {
+      "player": "Fitts, Richard",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777294
+    },
+    {
+      "player": "Fried, Max",
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777283
     },
     {
       "player": "Gausman, Kevin",
@@ -365,18 +401,6 @@
     {
       "player": "Singer, Brady",
       "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -166,
-      "stars": 1,
-      "game_pk": 777294
-    },
-    {
-      "player": "Singer, Brady",
-      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -409,18 +433,6 @@
       "best_price": 197,
       "stars": 1,
       "game_pk": 777293
-    },
-    {
-      "player": "Springs, Jeffrey",
-      "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -101,
-      "stars": 1,
-      "game_pk": 777286
     },
     {
       "player": "Springs, Jeffrey",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.792347+00:00",
+  "generated_at": "2026-02-12T20:49:09.818917+00:00",
   "date": "2025-04-13",
   "picks": [
     {
@@ -51,6 +51,18 @@
       "game_pk": 778338
     },
     {
+      "player": "Freeland, Kyle",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -126,
+      "stars": 3,
+      "game_pk": 778330
+    },
+    {
       "player": "Gore, MacKenzie",
       "opponent": "WSH",
       "market": "Outs Recorded",
@@ -61,6 +73,18 @@
       "best_price": 130,
       "stars": 3,
       "game_pk": 778337
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 134,
+      "stars": 3,
+      "game_pk": 778329
     },
     {
       "player": "Holton, Tyler",
@@ -109,18 +133,6 @@
       "best_price": -115,
       "stars": 3,
       "game_pk": 778336
-    },
-    {
-      "player": "Mlodzinski, Carmen",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -149,
-      "stars": 3,
-      "game_pk": 778343
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -195,6 +207,18 @@
       "game_pk": 778342
     },
     {
+      "player": "Wesneski, Hayden",
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -103,
+      "stars": 3,
+      "game_pk": 778329
+    },
+    {
       "player": "Woods Richardson, Simeon",
       "opponent": "MIN",
       "market": "Outs Recorded",
@@ -265,6 +289,18 @@
       "best_price": 140,
       "stars": 2,
       "game_pk": 778330
+    },
+    {
+      "player": "Greene, Hunter",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 778343
     },
     {
       "player": "Greene, Hunter",
@@ -363,16 +399,16 @@
       "game_pk": 778330
     },
     {
-      "player": "Wesneski, Hayden",
-      "opponent": "HOU",
+      "player": "Webb, Logan",
+      "opponent": "SF",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
       "best_book": null,
-      "best_price": -103,
+      "best_price": 120,
       "stars": 2,
-      "game_pk": 778329
+      "game_pk": 778339
     },
     {
       "player": "Williams, Devin",
@@ -663,6 +699,18 @@
       "game_pk": 778343
     },
     {
+      "player": "Eovaldi, Nathan",
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 122,
+      "stars": 1,
+      "game_pk": 778334
+    },
+    {
       "player": "Estrada, Jeremiah",
       "opponent": "CHC",
       "market": "Hits",
@@ -769,18 +817,6 @@
       "best_price": 182,
       "stars": 1,
       "game_pk": 778329
-    },
-    {
-      "player": "Greene, Hunter",
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 778343
     },
     {
       "player": "Henriquez, Ronny",
@@ -975,6 +1011,18 @@
       "game_pk": 778336
     },
     {
+      "player": "Mlodzinski, Carmen",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -149,
+      "stars": 1,
+      "game_pk": 778343
+    },
+    {
       "player": "Mu\u00f1oz, Andr\u00e9s",
       "opponent": "LAA",
       "market": "Hits",
@@ -1013,18 +1061,6 @@
     {
       "player": "Quantrill, Cal",
       "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778337
-    },
-    {
-      "player": "Quantrill, Cal",
-      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1037,18 +1073,6 @@
     {
       "player": "Ragans, Cole",
       "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 778342
-    },
-    {
-      "player": "Ragans, Cole",
-      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1057,18 +1081,6 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 778342
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -137,
-      "stars": 1,
-      "game_pk": 778339
     },
     {
       "player": "Rod\u00f3n, Carlos",
@@ -1109,6 +1121,18 @@
     {
       "player": "Sale, Chris",
       "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 778340
+    },
+    {
+      "player": "Sale, Chris",
+      "opponent": "ATL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1141,6 +1165,18 @@
       "best_price": -217,
       "stars": 1,
       "game_pk": 778336
+    },
+    {
+      "player": "Senga, Kodai",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 101,
+      "stars": 1,
+      "game_pk": 778333
     },
     {
       "player": "Skubal, Tarik",
@@ -1369,18 +1405,6 @@
       "best_price": 198,
       "stars": 1,
       "game_pk": 778344
-    },
-    {
-      "player": "Woods Richardson, Simeon",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 778335
     },
     {
       "player": "Yesavage, Trey",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.799297+00:00",
+  "generated_at": "2026-02-12T20:49:09.826132+00:00",
   "date": "2025-04-17",
   "picks": [
     {
@@ -303,18 +303,6 @@
       "game_pk": 778279
     },
     {
-      "player": "Canning, Griffin",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -119,
-      "stars": 1,
-      "game_pk": 778278
-    },
-    {
       "player": "Chapman, Aroldis",
       "opponent": "NYY",
       "market": "Hits",
@@ -377,6 +365,18 @@
     {
       "player": "Hicks, Jordan",
       "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778279
+    },
+    {
+      "player": "Hicks, Jordan",
+      "opponent": "SF",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -433,18 +433,6 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 778282
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -131,
-      "stars": 1,
-      "game_pk": 778286
     },
     {
       "player": "Lorenzen, Michael",
@@ -567,18 +555,6 @@
       "game_pk": 778281
     },
     {
-      "player": "Olson, Reese",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 778286
-    },
-    {
       "player": "Parker, Mitchell",
       "opponent": "ATH",
       "market": "Total Bases",
@@ -697,18 +673,6 @@
       "best_price": 139,
       "stars": 1,
       "game_pk": 778285
-    },
-    {
-      "player": "Warren, Will",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 778282
     },
     {
       "player": "Woods Richardson, Simeon",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.965263+00:00",
+  "generated_at": "2026-02-12T20:49:10.003306+00:00",
   "date": "2025-08-15",
   "picks": [
     {
@@ -327,18 +327,6 @@
       "game_pk": 776739
     },
     {
-      "player": "Manaea, Sean",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -120,
-      "stars": 2,
-      "game_pk": 776736
-    },
-    {
       "player": "Miller, Mason",
       "opponent": "PIT",
       "market": "Hits",
@@ -485,18 +473,6 @@
     {
       "player": "Cantillo, Joey",
       "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 776738
-    },
-    {
-      "player": "Cantillo, Joey",
-      "opponent": "CLE",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -565,6 +541,18 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 776738
+    },
+    {
+      "player": "Manaea, Sean",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 776736
     },
     {
       "player": "Miller, Mason",
@@ -665,18 +653,6 @@
     {
       "player": "Rea, Colin",
       "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -144,
-      "stars": 1,
-      "game_pk": 776737
-    },
-    {
-      "player": "Rea, Colin",
-      "opponent": "CHC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -759,16 +735,16 @@
       "game_pk": 776738
     },
     {
-      "player": "Wheeler, Zack",
-      "opponent": "PHI",
+      "player": "deGrom, Jacob",
+      "opponent": "TEX",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 7.5,
+      "line": 5.5,
       "best_book": null,
-      "best_price": -105,
+      "best_price": 104,
       "stars": 1,
-      "game_pk": 776739
+      "game_pk": 776735
     }
   ]
 }

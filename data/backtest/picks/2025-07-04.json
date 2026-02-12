@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.908385+00:00",
+  "generated_at": "2026-02-12T20:49:09.944788+00:00",
   "date": "2025-07-04",
   "picks": [
     {
@@ -97,6 +97,18 @@
       "best_price": -100,
       "stars": 3,
       "game_pk": 777245
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -114,
+      "stars": 3,
+      "game_pk": 777242
     },
     {
       "player": "Keller, Brad",
@@ -205,6 +217,18 @@
       "best_price": -114,
       "stars": 3,
       "game_pk": 777244
+    },
+    {
+      "player": "Morton, Charlie",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -117,
+      "stars": 3,
+      "game_pk": 777252
     },
     {
       "player": "Parker, Mitchell",
@@ -387,6 +411,18 @@
       "game_pk": 777247
     },
     {
+      "player": "Luzardo, Jes\u00fas",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -114,
+      "stars": 2,
+      "game_pk": 777255
+    },
+    {
       "player": "Mejia, Juan",
       "opponent": "SF",
       "market": "Total Bases",
@@ -397,6 +433,30 @@
       "best_price": -136,
       "stars": 2,
       "game_pk": 777244
+    },
+    {
+      "player": "Rocker, Kumar",
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 777239
+    },
+    {
+      "player": "Soroka, Michael",
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -100,
+      "stars": 2,
+      "game_pk": 777245
     },
     {
       "player": "Soroka, Michael",
@@ -531,18 +591,6 @@
       "game_pk": 777252
     },
     {
-      "player": "Hendricks, Kyle",
-      "opponent": "LAA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": -114,
-      "stars": 1,
-      "game_pk": 777242
-    },
-    {
       "player": "Keller, Brad",
       "opponent": "TEX",
       "market": "Hits",
@@ -565,18 +613,6 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 777247
-    },
-    {
-      "player": "Luzardo, Jes\u00fas",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -114,
-      "stars": 1,
-      "game_pk": 777255
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -615,18 +651,6 @@
       "game_pk": 777246
     },
     {
-      "player": "Morton, Charlie",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -117,
-      "stars": 1,
-      "game_pk": 777252
-    },
-    {
       "player": "O'Brien, Riley",
       "opponent": "TB",
       "market": "Total Bases",
@@ -649,6 +673,18 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 777249
+    },
+    {
+      "player": "Paddack, Chris",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -129,
+      "stars": 1,
+      "game_pk": 777247
     },
     {
       "player": "Pag\u00e1n, Emilio",
@@ -757,6 +793,18 @@
       "best_price": -244,
       "stars": 1,
       "game_pk": 777254
+    },
+    {
+      "player": "Stroman, Marcus",
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 118,
+      "stars": 1,
+      "game_pk": 777250
     },
     {
       "player": "Stroman, Marcus",

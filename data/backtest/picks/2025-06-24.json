@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.894698+00:00",
+  "generated_at": "2026-02-12T20:49:09.930778+00:00",
   "date": "2025-06-24",
   "picks": [
     {
@@ -73,30 +73,6 @@
       "best_price": -226,
       "stars": 2,
       "game_pk": 777385
-    },
-    {
-      "player": "Lauer, Eric",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -175,
-      "stars": 2,
-      "game_pk": 777384
-    },
-    {
-      "player": "Nelson, Ryne",
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 102,
-      "stars": 2,
-      "game_pk": 777383
     },
     {
       "player": "Nelson, Ryne",
@@ -197,18 +173,6 @@
     {
       "player": "Bradley, Taj",
       "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 777378
-    },
-    {
-      "player": "Bradley, Taj",
-      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -269,6 +233,18 @@
     {
       "player": "Heaney, Andrew",
       "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777374
+    },
+    {
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -325,6 +301,18 @@
       "best_price": 179,
       "stars": 1,
       "game_pk": 777376
+    },
+    {
+      "player": "Nelson, Ryne",
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 777383
     },
     {
       "player": "Olson, Reese",
@@ -421,6 +409,18 @@
       "best_price": -117,
       "stars": 1,
       "game_pk": 777383
+    },
+    {
+      "player": "Severino, Luis",
+      "opponent": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -102,
+      "stars": 1,
+      "game_pk": 777386
     },
     {
       "player": "Skubal, Tarik",

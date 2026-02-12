@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.914543+00:00",
+  "generated_at": "2026-02-12T20:49:09.951222+00:00",
   "date": "2025-07-09",
   "picks": [
     {
@@ -97,6 +97,18 @@
       "best_price": -179,
       "stars": 3,
       "game_pk": 777179
+    },
+    {
+      "player": "Houser, Adrian",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 106,
+      "stars": 3,
+      "game_pk": 777172
     },
     {
       "player": "Kinley, Tyler",
@@ -315,6 +327,18 @@
       "game_pk": 777179
     },
     {
+      "player": "Abbott, Andrew",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -142,
+      "stars": 1,
+      "game_pk": 777183
+    },
+    {
       "player": "Ashcraft, Graham",
       "opponent": "LAD",
       "market": "Total Bases",
@@ -449,18 +473,6 @@
     {
       "player": "Giolito, Lucas",
       "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -138,
-      "stars": 1,
-      "game_pk": 777179
-    },
-    {
-      "player": "Giolito, Lucas",
-      "opponent": "BOS",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -569,18 +581,6 @@
     {
       "player": "Olson, Reese",
       "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 777182
-    },
-    {
-      "player": "Olson, Reese",
-      "opponent": "DET",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -589,18 +589,6 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 777182
-    },
-    {
-      "player": "Pallante, Andre",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 103,
-      "stars": 1,
-      "game_pk": 777178
     },
     {
       "player": "Peralta, Wandy",
@@ -685,6 +673,18 @@
       "best_price": -175,
       "stars": 1,
       "game_pk": 777177
+    },
+    {
+      "player": "Senzatela, Antonio",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 777179
     },
     {
       "player": "Skubal, Tarik",

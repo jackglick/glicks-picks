@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.986840+00:00",
+  "generated_at": "2026-02-12T20:49:10.024363+00:00",
   "date": "2025-08-29",
   "picks": [
     {
@@ -171,6 +171,18 @@
       "game_pk": 776547
     },
     {
+      "player": "Bieber, Shane",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -132,
+      "stars": 2,
+      "game_pk": 776546
+    },
+    {
       "player": "Ferrer, Jose A.",
       "opponent": "NYY",
       "market": "Total Bases",
@@ -303,18 +315,6 @@
       "game_pk": 776552
     },
     {
-      "player": "Houser, Adrian",
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -177,
-      "stars": 1,
-      "game_pk": 776545
-    },
-    {
       "player": "Lauer, Eric",
       "opponent": "TB",
       "market": "Hits",
@@ -339,16 +339,16 @@
       "game_pk": 776545
     },
     {
-      "player": "Parker, Mitchell",
-      "opponent": "WSH",
+      "player": "Rod\u00f3n, Carlos",
+      "opponent": "NYY",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
+      "direction": "OVER",
+      "line": 5.5,
       "best_book": null,
-      "best_price": -168,
+      "best_price": -115,
       "stars": 1,
-      "game_pk": 776545
+      "game_pk": 776544
     },
     {
       "player": "Rod\u00f3n, Carlos",
@@ -397,18 +397,6 @@
       "best_price": 180,
       "stars": 1,
       "game_pk": 776551
-    },
-    {
-      "player": "Su\u00e1rez, Ranger",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -132,
-      "stars": 1,
-      "game_pk": 776552
     },
     {
       "player": "Vest, Will",

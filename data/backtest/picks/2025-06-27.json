@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.898485+00:00",
+  "generated_at": "2026-02-12T20:49:09.934337+00:00",
   "date": "2025-06-27",
   "picks": [
     {
@@ -149,18 +149,6 @@
     {
       "player": "Berr\u00edos, Jos\u00e9",
       "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -159,
-      "stars": 2,
-      "game_pk": 777345
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -203,6 +191,30 @@
       "line": 0.5,
       "best_book": null,
       "best_price": 155,
+      "stars": 1,
+      "game_pk": 777345
+    },
+    {
+      "player": "Bello, Brayan",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777345
+    },
+    {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -159,
       "stars": 1,
       "game_pk": 777345
     },
@@ -279,6 +291,18 @@
       "game_pk": 777346
     },
     {
+      "player": "Gray, Sonny",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 777349
+    },
+    {
       "player": "Keller, Brad",
       "opponent": "SD",
       "market": "Hits",
@@ -301,18 +325,6 @@
       "best_price": -100,
       "stars": 1,
       "game_pk": 777346
-    },
-    {
-      "player": "Keller, Mitch",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -124,
-      "stars": 1,
-      "game_pk": 777341
     },
     {
       "player": "Kittredge, Andrew",
@@ -353,6 +365,18 @@
     {
       "player": "Martinez, Nick",
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777346
+    },
+    {
+      "player": "Martinez, Nick",
+      "opponent": "CIN",
       "market": "Walks",
       "category": "pitcher",
       "direction": "OVER",
@@ -375,18 +399,6 @@
       "game_pk": 777338
     },
     {
-      "player": "Ortiz, Luis",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777349
-    },
-    {
       "player": "Rodriguez, Carlos",
       "opponent": "SD",
       "market": "Total Bases",
@@ -397,18 +409,6 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 777346
-    },
-    {
-      "player": "Roupp, Landen",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -119,
-      "stars": 1,
-      "game_pk": 777338
     },
     {
       "player": "Sale, Chris",
@@ -423,18 +423,6 @@
       "game_pk": 777341
     },
     {
-      "player": "Spence, Mitch",
-      "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -138,
-      "stars": 1,
-      "game_pk": 777337
-    },
-    {
       "player": "Sugano, Tomoyuki",
       "opponent": "BAL",
       "market": "Outs Recorded",
@@ -445,18 +433,6 @@
       "best_price": -122,
       "stars": 1,
       "game_pk": 777343
-    },
-    {
-      "player": "Warren, Will",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777337
     },
     {
       "player": "Williams, Devin",

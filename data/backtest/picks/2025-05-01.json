@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.817961+00:00",
+  "generated_at": "2026-02-12T20:49:09.846190+00:00",
   "date": "2025-05-01",
   "picks": [
     {
@@ -13,18 +13,6 @@
       "best_price": -113,
       "stars": 3,
       "game_pk": 778108
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -152,
-      "stars": 3,
-      "game_pk": 778095
     },
     {
       "player": "Cantillo, Joey",
@@ -109,6 +97,18 @@
       "best_price": 117,
       "stars": 2,
       "game_pk": 778097
+    },
+    {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -152,
+      "stars": 2,
+      "game_pk": 778095
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -231,18 +231,6 @@
       "game_pk": 778096
     },
     {
-      "player": "Burke, Sean",
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -148,
-      "stars": 1,
-      "game_pk": 778094
-    },
-    {
       "player": "Cruz, Fernando",
       "opponent": "BOS",
       "market": "Hits",
@@ -327,18 +315,6 @@
       "game_pk": 778108
     },
     {
-      "player": "Houck, Tanner",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -169,
-      "stars": 1,
-      "game_pk": 778095
-    },
-    {
       "player": "Iglesias, Raisel",
       "opponent": "CHC",
       "market": "Hits",
@@ -411,18 +387,6 @@
       "game_pk": 778095
     },
     {
-      "player": "Rea, Colin",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -141,
-      "stars": 1,
-      "game_pk": 778100
-    },
-    {
       "player": "Sale, Chris",
       "opponent": "CHC",
       "market": "Hits",
@@ -433,18 +397,6 @@
       "best_price": 170,
       "stars": 1,
       "game_pk": 778100
-    },
-    {
-      "player": "Senga, Kodai",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 116,
-      "stars": 1,
-      "game_pk": 778103
     },
     {
       "player": "Smith, Shane",
@@ -493,18 +445,6 @@
       "best_price": -175,
       "stars": 1,
       "game_pk": 778095
-    },
-    {
-      "player": "Walker, Taijuan",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -109,
-      "stars": 1,
-      "game_pk": 778099
     }
   ]
 }

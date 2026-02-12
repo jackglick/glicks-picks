@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.887821+00:00",
+  "generated_at": "2026-02-12T20:49:09.923410+00:00",
   "date": "2025-06-19",
   "picks": [
     {
@@ -219,18 +219,6 @@
       "game_pk": 777440
     },
     {
-      "player": "Strider, Spencer",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -157,
-      "stars": 3,
-      "game_pk": 777455
-    },
-    {
       "player": "Taillon, Jameson",
       "opponent": "CHC",
       "market": "Outs Recorded",
@@ -277,6 +265,18 @@
       "best_price": 143,
       "stars": 3,
       "game_pk": 777446
+    },
+    {
+      "player": "Williams, Trevor",
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 105,
+      "stars": 3,
+      "game_pk": 777445
     },
     {
       "player": "Zerpa, Angel",
@@ -327,6 +327,18 @@
       "game_pk": 777449
     },
     {
+      "player": "Dollander, Chase",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -126,
+      "stars": 2,
+      "game_pk": 777445
+    },
+    {
       "player": "Jansen, Kenley",
       "opponent": "NYM",
       "market": "Total Bases",
@@ -349,18 +361,6 @@
       "best_price": 180,
       "stars": 2,
       "game_pk": 777443
-    },
-    {
-      "player": "Nelson, Ryne",
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -104,
-      "stars": 2,
-      "game_pk": 777448
     },
     {
       "player": "Parker, Mitchell",
@@ -449,6 +449,18 @@
     {
       "player": "Skubal, Tarik",
       "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 8.5,
+      "best_book": null,
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 777451
+    },
+    {
+      "player": "Skubal, Tarik",
+      "opponent": "DET",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "OVER",
@@ -483,16 +495,16 @@
       "game_pk": 777440
     },
     {
-      "player": "Williams, Trevor",
-      "opponent": "WSH",
+      "player": "Anderson, Tyler",
+      "opponent": "LAA",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 4.5,
       "best_book": null,
-      "best_price": 105,
-      "stars": 2,
-      "game_pk": 777445
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777449
     },
     {
       "player": "Anderson, Tyler",
@@ -617,18 +629,6 @@
     {
       "player": "Fedde, Erick",
       "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 777447
-    },
-    {
-      "player": "Fedde, Erick",
-      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -649,18 +649,6 @@
       "best_price": 161,
       "stars": 1,
       "game_pk": 777445
-    },
-    {
-      "player": "Gausman, Kevin",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777448
     },
     {
       "player": "Gausman, Kevin",
@@ -697,6 +685,30 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 777449
+    },
+    {
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 104,
+      "stars": 1,
+      "game_pk": 777451
+    },
+    {
+      "player": "Holmes, Clay",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 777455
     },
     {
       "player": "Holmes, Clay",
@@ -807,6 +819,18 @@
       "game_pk": 777441
     },
     {
+      "player": "Paddack, Chris",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 109,
+      "stars": 1,
+      "game_pk": 777452
+    },
+    {
       "player": "Smith, Shane",
       "opponent": "COL",
       "market": "Hits",
@@ -831,16 +855,16 @@
       "game_pk": 777444
     },
     {
-      "player": "Wacha, Michael",
-      "opponent": "KC",
+      "player": "Webb, Logan",
+      "opponent": "SF",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.5,
+      "line": 5.5,
       "best_book": null,
-      "best_price": 112,
+      "best_price": 105,
       "stars": 1,
-      "game_pk": 777443
+      "game_pk": 777440
     },
     {
       "player": "Webb, Logan",

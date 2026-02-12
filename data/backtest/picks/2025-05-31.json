@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.862584+00:00",
+  "generated_at": "2026-02-12T20:49:09.896220+00:00",
   "date": "2025-05-31",
   "picks": [
     {
@@ -303,6 +303,18 @@
       "game_pk": 777694
     },
     {
+      "player": "Buehler, Walker",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 118,
+      "stars": 2,
+      "game_pk": 777706
+    },
+    {
       "player": "Cabrera, Edward",
       "opponent": "MIA",
       "market": "Strikeouts",
@@ -313,6 +325,18 @@
       "best_price": -126,
       "stars": 2,
       "game_pk": 777705
+    },
+    {
+      "player": "Gray, Sonny",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 777697
     },
     {
       "player": "Hendricks, Kyle",
@@ -357,6 +381,18 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
+      "best_book": null,
+      "best_price": -123,
+      "stars": 2,
+      "game_pk": 777693
+    },
+    {
+      "player": "Littell, Zack",
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
       "best_price": -123,
       "stars": 2,
@@ -411,6 +447,18 @@
       "game_pk": 777700
     },
     {
+      "player": "Senzatela, Antonio",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 126,
+      "stars": 2,
+      "game_pk": 777700
+    },
+    {
       "player": "Ashcraft, Graham",
       "opponent": "NYY",
       "market": "Hits",
@@ -459,18 +507,6 @@
       "game_pk": 777705
     },
     {
-      "player": "Corbin, Patrick",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -148,
-      "stars": 1,
-      "game_pk": 777697
-    },
-    {
       "player": "Faucher, Calvin",
       "opponent": "COL",
       "market": "Hits",
@@ -507,18 +543,6 @@
       "game_pk": 777706
     },
     {
-      "player": "Gray, Sonny",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 777697
-    },
-    {
       "player": "Keller, Brad",
       "opponent": "PIT",
       "market": "Hits",
@@ -541,18 +565,6 @@
       "best_price": 122,
       "stars": 1,
       "game_pk": 777698
-    },
-    {
-      "player": "Kremer, Dean",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -122,
-      "stars": 1,
-      "game_pk": 777699
     },
     {
       "player": "Lao, Sauryn",
@@ -591,6 +603,18 @@
       "game_pk": 777693
     },
     {
+      "player": "Lodolo, Nick",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777704
+    },
+    {
       "player": "McCullers Jr., Lance",
       "opponent": "LAA",
       "market": "Hits",
@@ -613,18 +637,6 @@
       "best_price": 132,
       "stars": 1,
       "game_pk": 777700
-    },
-    {
-      "player": "Miller, Bryce",
-      "opponent": "SEA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777695
     },
     {
       "player": "Phillips, Connor",
@@ -659,18 +671,6 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -128,
-      "stars": 1,
-      "game_pk": 777706
-    },
-    {
-      "player": "Schwellenbach, Spencer",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -154,
       "stars": 1,
       "game_pk": 777706
     },

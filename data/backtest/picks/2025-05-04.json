@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.822456+00:00",
+  "generated_at": "2026-02-12T20:49:09.851444+00:00",
   "date": "2025-05-04",
   "picks": [
     {
@@ -147,6 +147,18 @@
       "game_pk": 778062
     },
     {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -105,
+      "stars": 3,
+      "game_pk": 778048
+    },
+    {
       "player": "Phillips, Connor",
       "opponent": "LAD",
       "market": "Total Bases",
@@ -169,6 +181,18 @@
       "best_price": 125,
       "stars": 3,
       "game_pk": 778061
+    },
+    {
+      "player": "Webb, Logan",
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -148,
+      "stars": 3,
+      "game_pk": 778048
     },
     {
       "player": "Wicks, Jordan",
@@ -231,18 +255,6 @@
       "game_pk": 778056
     },
     {
-      "player": "Cabrera, Edward",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -141,
-      "stars": 2,
-      "game_pk": 778061
-    },
-    {
       "player": "Fedde, Erick",
       "opponent": "STL",
       "market": "Outs Recorded",
@@ -255,18 +267,6 @@
       "game_pk": 778053
     },
     {
-      "player": "Francis, Bowden",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -129,
-      "stars": 2,
-      "game_pk": 778056
-    },
-    {
       "player": "Garc\u00eda, Yimi",
       "opponent": "DET",
       "market": "Total Bases",
@@ -277,6 +277,18 @@
       "best_price": null,
       "stars": 2,
       "game_pk": 778050
+    },
+    {
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -139,
+      "stars": 2,
+      "game_pk": 778051
     },
     {
       "player": "Kochanowicz, Jack",
@@ -337,18 +349,6 @@
       "best_price": -165,
       "stars": 2,
       "game_pk": 778061
-    },
-    {
-      "player": "Webb, Logan",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -148,
-      "stars": 2,
-      "game_pk": 778048
     },
     {
       "player": "Agnos, Zach",
@@ -437,18 +437,6 @@
     {
       "player": "Bradley, Taj",
       "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 778057
-    },
-    {
-      "player": "Bradley, Taj",
-      "opponent": "TB",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -485,18 +473,6 @@
     {
       "player": "Elder, Bryce",
       "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 118,
-      "stars": 1,
-      "game_pk": 778060
-    },
-    {
-      "player": "Elder, Bryce",
-      "opponent": "ATL",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -507,16 +483,16 @@
       "game_pk": 778060
     },
     {
-      "player": "Fedde, Erick",
-      "opponent": "STL",
+      "player": "Francis, Bowden",
+      "opponent": "TOR",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.5,
+      "line": 4.5,
       "best_book": null,
-      "best_price": 125,
+      "best_price": -129,
       "stars": 1,
-      "game_pk": 778053
+      "game_pk": 778056
     },
     {
       "player": "Francis, Bowden",
@@ -543,6 +519,18 @@
       "game_pk": 778063
     },
     {
+      "player": "Gibson, Kyle",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -111,
+      "stars": 1,
+      "game_pk": 778062
+    },
+    {
       "player": "Gordon, Colton",
       "opponent": "DET",
       "market": "Hits",
@@ -565,18 +553,6 @@
       "best_price": -177,
       "stars": 1,
       "game_pk": 778059
-    },
-    {
-      "player": "Heaney, Andrew",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -139,
-      "stars": 1,
-      "game_pk": 778051
     },
     {
       "player": "Heaney, Andrew",
@@ -653,18 +629,6 @@
     {
       "player": "Lorenzen, Michael",
       "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -163,
-      "stars": 1,
-      "game_pk": 778062
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "opponent": "KC",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -723,18 +687,6 @@
       "game_pk": 778062
     },
     {
-      "player": "Megill, Tylor",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 108,
-      "stars": 1,
-      "game_pk": 778068
-    },
-    {
       "player": "Miller, Mason",
       "opponent": "CHC",
       "market": "Total Bases",
@@ -773,18 +725,6 @@
     {
       "player": "Paddack, Chris",
       "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -144,
-      "stars": 1,
-      "game_pk": 778063
-    },
-    {
-      "player": "Paddack, Chris",
-      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -793,30 +733,6 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 778063
-    },
-    {
-      "player": "Pallante, Andre",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 778068
-    },
-    {
-      "player": "Peralta, Freddy",
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -156,
-      "stars": 1,
-      "game_pk": 778054
     },
     {
       "player": "Peralta, Freddy",
@@ -927,18 +843,6 @@
       "game_pk": 778048
     },
     {
-      "player": "Warren, Will",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 106,
-      "stars": 1,
-      "game_pk": 778057
-    },
-    {
       "player": "Williams, Devin",
       "opponent": "MIN",
       "market": "Total Bases",
@@ -949,18 +853,6 @@
       "best_price": 112,
       "stars": 1,
       "game_pk": 778063
-    },
-    {
-      "player": "deGrom, Jacob",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778052
     },
     {
       "player": "deGrom, Jacob",

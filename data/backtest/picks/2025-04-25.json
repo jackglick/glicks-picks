@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.810801+00:00",
+  "generated_at": "2026-02-12T20:49:09.838310+00:00",
   "date": "2025-04-25",
   "picks": [
     {
@@ -25,6 +25,18 @@
       "best_price": 135,
       "stars": 3,
       "game_pk": 778172
+    },
+    {
+      "player": "Carrasco, Carlos",
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 113,
+      "stars": 2,
+      "game_pk": 778185
     },
     {
       "player": "Carrasco, Carlos",
@@ -65,6 +77,18 @@
     {
       "player": "Hendricks, Kyle",
       "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 126,
+      "stars": 2,
+      "game_pk": 778186
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -75,16 +99,16 @@
       "game_pk": 778186
     },
     {
-      "player": "Irvin, Jake",
-      "opponent": "WSH",
+      "player": "L\u00f3pez, Pablo",
+      "opponent": "MIN",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.5,
+      "line": 6.5,
       "best_book": null,
-      "best_price": -121,
+      "best_price": -126,
       "stars": 2,
-      "game_pk": 778183
+      "game_pk": 778186
     },
     {
       "player": "L\u00f3pez, Pablo",
@@ -255,6 +279,18 @@
       "game_pk": 778186
     },
     {
+      "player": "Irvin, Jake",
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -121,
+      "stars": 1,
+      "game_pk": 778183
+    },
+    {
       "player": "Knack, Landon",
       "opponent": "ATL",
       "market": "Total Bases",
@@ -277,30 +313,6 @@
       "best_price": 167,
       "stars": 1,
       "game_pk": 778171
-    },
-    {
-      "player": "Lugo, Seth",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 129,
-      "stars": 1,
-      "game_pk": 778187
-    },
-    {
-      "player": "L\u00f3pez, Pablo",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -126,
-      "stars": 1,
-      "game_pk": 778186
     },
     {
       "player": "Matthews, Zebby",
@@ -349,18 +361,6 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 778183
-    },
-    {
-      "player": "Rea, Colin",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 778182
     },
     {
       "player": "Sale, Chris",

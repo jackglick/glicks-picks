@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.880176+00:00",
+  "generated_at": "2026-02-12T20:49:09.914793+00:00",
   "date": "2025-06-13",
   "picks": [
     {
@@ -37,6 +37,18 @@
       "best_price": -155,
       "stars": 3,
       "game_pk": 777538
+    },
+    {
+      "player": "Elder, Bryce",
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 115,
+      "stars": 3,
+      "game_pk": 777535
     },
     {
       "player": "Fried, Max",
@@ -121,6 +133,18 @@
       "best_price": -119,
       "stars": 3,
       "game_pk": 777530
+    },
+    {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -135,
+      "stars": 3,
+      "game_pk": 777535
     },
     {
       "player": "Parker, Mitchell",
@@ -243,6 +267,18 @@
       "game_pk": 777526
     },
     {
+      "player": "Kochanowicz, Jack",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 777539
+    },
+    {
       "player": "Martinez, Nick",
       "opponent": "CIN",
       "market": "Outs Recorded",
@@ -253,18 +289,6 @@
       "best_price": 115,
       "stars": 2,
       "game_pk": 777538
-    },
-    {
-      "player": "M\u00e1rquez, Germ\u00e1n",
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -135,
-      "stars": 2,
-      "game_pk": 777535
     },
     {
       "player": "Ram\u00edrez, Yohan",
@@ -301,18 +325,6 @@
       "best_price": -185,
       "stars": 2,
       "game_pk": 777538
-    },
-    {
-      "player": "Crochet, Garrett",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 777537
     },
     {
       "player": "Dreyer, Jack",
@@ -425,18 +437,6 @@
     {
       "player": "Holmes, Clay",
       "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -159,
-      "stars": 1,
-      "game_pk": 777528
-    },
-    {
-      "player": "Holmes, Clay",
-      "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -505,30 +505,6 @@
       "best_price": 126,
       "stars": 1,
       "game_pk": 777526
-    },
-    {
-      "player": "Morton, Charlie",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 777539
-    },
-    {
-      "player": "Parker, Mitchell",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 119,
-      "stars": 1,
-      "game_pk": 777530
     },
     {
       "player": "Ram\u00edrez, Yohan",
@@ -601,6 +577,18 @@
       "best_price": -149,
       "stars": 1,
       "game_pk": 777530
+    },
+    {
+      "player": "Su\u00e1rez, Ranger",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -116,
+      "stars": 1,
+      "game_pk": 777531
     },
     {
       "player": "Treinen, Blake",

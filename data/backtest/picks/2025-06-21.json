@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.890364+00:00",
+  "generated_at": "2026-02-12T20:49:09.926176+00:00",
   "date": "2025-06-21",
   "picks": [
     {
@@ -13,18 +13,6 @@
       "best_price": -128,
       "stars": 3,
       "game_pk": 777412
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -158,
-      "stars": 3,
-      "game_pk": 777418
     },
     {
       "player": "Burns, Chase",
@@ -219,6 +207,18 @@
       "game_pk": 777422
     },
     {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -158,
+      "stars": 2,
+      "game_pk": 777418
+    },
+    {
       "player": "Bido, Osvaldo",
       "opponent": "KC",
       "market": "Total Bases",
@@ -265,6 +265,30 @@
       "best_price": 120,
       "stars": 2,
       "game_pk": 777410
+    },
+    {
+      "player": "Eflin, Zach",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -100,
+      "stars": 2,
+      "game_pk": 777422
+    },
+    {
+      "player": "Gray, Sonny",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777415
     },
     {
       "player": "Hancock, Emerson",
@@ -373,18 +397,6 @@
       "best_price": -154,
       "stars": 2,
       "game_pk": 777411
-    },
-    {
-      "player": "Rocker, Kumar",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 2,
-      "game_pk": 777421
     },
     {
       "player": "Sale, Chris",
@@ -507,16 +519,16 @@
       "game_pk": 777417
     },
     {
-      "player": "Cease, Dylan",
-      "opponent": "SD",
+      "player": "Civale, Aaron",
+      "opponent": "CWS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": -116,
+      "best_price": -120,
       "stars": 1,
-      "game_pk": 777413
+      "game_pk": 777418
     },
     {
       "player": "Civale, Aaron",
@@ -605,6 +617,18 @@
     {
       "player": "Hancock, Emerson",
       "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 117,
+      "stars": 1,
+      "game_pk": 777419
+    },
+    {
+      "player": "Hancock, Emerson",
+      "opponent": "SEA",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -673,18 +697,6 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 777415
-    },
-    {
-      "player": "Keller, Mitch",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -106,
-      "stars": 1,
-      "game_pk": 777421
     },
     {
       "player": "Kent, Zak",
@@ -857,18 +869,6 @@
     {
       "player": "P\u00e9rez, Eury",
       "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -106,
-      "stars": 1,
-      "game_pk": 777424
-    },
-    {
-      "player": "P\u00e9rez, Eury",
-      "opponent": "MIA",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -877,18 +877,6 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 777424
-    },
-    {
-      "player": "Roupp, Landen",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 777417
     },
     {
       "player": "Sabrowski, Erik",

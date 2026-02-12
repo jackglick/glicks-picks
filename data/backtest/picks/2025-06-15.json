@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.882891+00:00",
+  "generated_at": "2026-02-12T20:49:09.917752+00:00",
   "date": "2025-06-15",
   "picks": [
     {
@@ -59,6 +59,18 @@
       "line": 1.5,
       "best_book": null,
       "best_price": 195,
+      "stars": 3,
+      "game_pk": 777496
+    },
+    {
+      "player": "Cameron, Noah",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 115,
       "stars": 3,
       "game_pk": 777496
     },
@@ -255,6 +267,18 @@
       "game_pk": 777500
     },
     {
+      "player": "Gomber, Austin",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 105,
+      "stars": 2,
+      "game_pk": 777504
+    },
+    {
       "player": "Gore, MacKenzie",
       "opponent": "WSH",
       "market": "Strikeouts",
@@ -275,6 +299,18 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -144,
+      "stars": 2,
+      "game_pk": 777504
+    },
+    {
+      "player": "Holmes, Grant",
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -142,
       "stars": 2,
       "game_pk": 777504
     },
@@ -363,18 +399,6 @@
       "game_pk": 777504
     },
     {
-      "player": "Rocker, Kumar",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -138,
-      "stars": 2,
-      "game_pk": 777493
-    },
-    {
       "player": "Springs, Jeffrey",
       "opponent": "ATH",
       "market": "Outs Recorded",
@@ -435,18 +459,6 @@
       "game_pk": 777504
     },
     {
-      "player": "Canning, Griffin",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.0,
-      "best_book": null,
-      "best_price": -104,
-      "stars": 1,
-      "game_pk": 777502
-    },
-    {
       "player": "Chapman, Aroldis",
       "opponent": "NYY",
       "market": "Hits",
@@ -495,18 +507,6 @@
       "game_pk": 777504
     },
     {
-      "player": "Holmes, Grant",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -142,
-      "stars": 1,
-      "game_pk": 777504
-    },
-    {
       "player": "Jarvis, Bryce",
       "opponent": "SD",
       "market": "Hits",
@@ -541,6 +541,30 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777493
+    },
+    {
+      "player": "Mikolas, Miles",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 113,
+      "stars": 1,
+      "game_pk": 777492
+    },
+    {
+      "player": "Miley, Wade",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -147,
+      "stars": 1,
+      "game_pk": 777505
     },
     {
       "player": "Miley, Wade",
@@ -599,30 +623,6 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -170,
-      "stars": 1,
-      "game_pk": 777497
-    },
-    {
-      "player": "Priester, Quinn",
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 777492
-    },
-    {
-      "player": "Rea, Colin",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -120,
       "stars": 1,
       "game_pk": 777497
     },
@@ -709,6 +709,18 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 777495
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -147,
+      "stars": 1,
+      "game_pk": 777494
     }
   ]
 }

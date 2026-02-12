@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.869181+00:00",
+  "generated_at": "2026-02-12T20:49:09.903187+00:00",
   "date": "2025-06-04",
   "picks": [
     {
@@ -723,6 +723,18 @@
       "game_pk": 777653
     },
     {
+      "player": "Quantrill, Cal",
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 777652
+    },
+    {
       "player": "Rodriguez, Carlos",
       "opponent": "MIL",
       "market": "Total Bases",
@@ -735,16 +747,16 @@
       "game_pk": 777647
     },
     {
-      "player": "Sale, Chris",
-      "opponent": "ATL",
+      "player": "Soriano, Jos\u00e9",
+      "opponent": "LAA",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 6.5,
+      "line": 4.5,
       "best_book": null,
-      "best_price": -129,
+      "best_price": -110,
       "stars": 2,
-      "game_pk": 777654
+      "game_pk": 777649
     },
     {
       "player": "Soriano, Jos\u00e9",
@@ -809,18 +821,6 @@
     {
       "player": "Baz, Shane",
       "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 109,
-      "stars": 1,
-      "game_pk": 777646
-    },
-    {
-      "player": "Baz, Shane",
-      "opponent": "TB",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -877,18 +877,6 @@
       "best_price": -260,
       "stars": 1,
       "game_pk": 777652
-    },
-    {
-      "player": "Boyd, Matthew",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -144,
-      "stars": 1,
-      "game_pk": 777650
     },
     {
       "player": "Crochet, Garrett",
@@ -961,18 +949,6 @@
       "best_price": -192,
       "stars": 1,
       "game_pk": 777654
-    },
-    {
-      "player": "Gusto, Ryan",
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 777648
     },
     {
       "player": "Gusto, Ryan",
@@ -1097,18 +1073,6 @@
     {
       "player": "Ortiz, Luis",
       "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -156,
-      "stars": 1,
-      "game_pk": 777653
-    },
-    {
-      "player": "Ortiz, Luis",
-      "opponent": "CLE",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1143,18 +1107,6 @@
       "game_pk": 777638
     },
     {
-      "player": "Quantrill, Cal",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777652
-    },
-    {
       "player": "Ram\u00edrez, Yohan",
       "opponent": "AZ",
       "market": "Total Bases",
@@ -1165,18 +1117,6 @@
       "best_price": -160,
       "stars": 1,
       "game_pk": 777654
-    },
-    {
-      "player": "Rocker, Kumar",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -106,
-      "stars": 1,
-      "game_pk": 777646
     },
     {
       "player": "Sale, Chris",

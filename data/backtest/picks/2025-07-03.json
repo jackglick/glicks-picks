@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.906772+00:00",
+  "generated_at": "2026-02-12T20:49:09.943199+00:00",
   "date": "2025-07-03",
   "picks": [
     {
@@ -51,6 +51,18 @@
       "game_pk": 777263
     },
     {
+      "player": "Schmidt, Clarke",
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -105,
+      "stars": 3,
+      "game_pk": 777260
+    },
+    {
       "player": "Seymour, Ian",
       "opponent": "NYY",
       "market": "Hits",
@@ -75,6 +87,18 @@
       "game_pk": 777260
     },
     {
+      "player": "Soriano, Jos\u00e9",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 103,
+      "stars": 3,
+      "game_pk": 777261
+    },
+    {
       "player": "Barco, Hunter",
       "opponent": "LAA",
       "market": "Hits",
@@ -85,6 +109,18 @@
       "best_price": 169,
       "stars": 2,
       "game_pk": 777261
+    },
+    {
+      "player": "Bassitt, Chris",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777260
     },
     {
       "player": "Bivens, Spencer",
@@ -159,18 +195,6 @@
       "game_pk": 777257
     },
     {
-      "player": "P\u00e9rez, Eury",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -139,
-      "stars": 2,
-      "game_pk": 777263
-    },
-    {
       "player": "Quintana, Jose",
       "opponent": "MIL",
       "market": "Outs Recorded",
@@ -217,18 +241,6 @@
       "best_price": 105,
       "stars": 2,
       "game_pk": 777260
-    },
-    {
-      "player": "Soriano, Jos\u00e9",
-      "opponent": "LAA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 103,
-      "stars": 2,
-      "game_pk": 777261
     },
     {
       "player": "Bachman, Sam",
@@ -399,18 +411,6 @@
       "game_pk": 777256
     },
     {
-      "player": "Irvin, Jake",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 777258
-    },
-    {
       "player": "Knack, Landon",
       "opponent": "KC",
       "market": "Total Bases",
@@ -505,18 +505,6 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 777253
-    },
-    {
-      "player": "Schmidt, Clarke",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 777260
     },
     {
       "player": "Smith, Cade",

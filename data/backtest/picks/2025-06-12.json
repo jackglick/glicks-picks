@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.878957+00:00",
+  "generated_at": "2026-02-12T20:49:09.913501+00:00",
   "date": "2025-06-12",
   "picks": [
     {
@@ -183,18 +183,6 @@
       "game_pk": 777534
     },
     {
-      "player": "Lugo, Seth",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 777536
-    },
-    {
       "player": "Senzatela, Antonio",
       "opponent": "SF",
       "market": "Total Bases",
@@ -205,18 +193,6 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 777534
-    },
-    {
-      "player": "Skubal, Tarik",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -147,
-      "stars": 2,
-      "game_pk": 777540
     },
     {
       "player": "Wicks, Jordan",
@@ -329,6 +305,18 @@
     {
       "player": "Lugo, Seth",
       "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777536
+    },
+    {
+      "player": "Lugo, Seth",
+      "opponent": "KC",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -387,18 +375,6 @@
       "game_pk": 777534
     },
     {
-      "player": "Ober, Bailey",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 777533
-    },
-    {
       "player": "Peralta, Wandy",
       "opponent": "SF",
       "market": "Total Bases",
@@ -435,16 +411,16 @@
       "game_pk": 777533
     },
     {
-      "player": "Senga, Kodai",
-      "opponent": "NYM",
+      "player": "Senzatela, Antonio",
+      "opponent": "COL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 2.5,
       "best_book": null,
-      "best_price": 110,
+      "best_price": -155,
       "stars": 1,
-      "game_pk": 777544
+      "game_pk": 777534
     },
     {
       "player": "Senzatela, Antonio",
@@ -483,16 +459,16 @@
       "game_pk": 777544
     },
     {
-      "player": "Soroka, Michael",
-      "opponent": "WSH",
+      "player": "Warren, Will",
+      "opponent": "NYY",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 4.5,
       "best_book": null,
-      "best_price": -102,
+      "best_price": -135,
       "stars": 1,
-      "game_pk": 777544
+      "game_pk": 777536
     },
     {
       "player": "Yamamoto, Yoshinobu",

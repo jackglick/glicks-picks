@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.856427+00:00",
+  "generated_at": "2026-02-12T20:49:09.889774+00:00",
   "date": "2025-05-26",
   "picks": [
     {
@@ -135,18 +135,6 @@
       "game_pk": 777762
     },
     {
-      "player": "Patrick, Chad",
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -167,
-      "stars": 3,
-      "game_pk": 777764
-    },
-    {
       "player": "Smith, Cade",
       "opponent": "SF",
       "market": "Hits",
@@ -197,18 +185,6 @@
     {
       "player": "Gausman, Kevin",
       "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -131,
-      "stars": 2,
-      "game_pk": 777759
-    },
-    {
-      "player": "Gausman, Kevin",
-      "opponent": "TOR",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -231,6 +207,42 @@
       "game_pk": 777758
     },
     {
+      "player": "Lorenzen, Michael",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 119,
+      "stars": 2,
+      "game_pk": 777760
+    },
+    {
+      "player": "Martinez, Nick",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 102,
+      "stars": 2,
+      "game_pk": 777760
+    },
+    {
+      "player": "Patrick, Chad",
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -167,
+      "stars": 2,
+      "game_pk": 777764
+    },
+    {
       "player": "Phillips, Tyler",
       "opponent": "CWS",
       "market": "Total Bases",
@@ -241,18 +253,6 @@
       "best_price": -107,
       "stars": 2,
       "game_pk": 777758
-    },
-    {
-      "player": "Williams, Gavin",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 2,
-      "game_pk": 777769
     },
     {
       "player": "Williams, Gavin",
@@ -327,18 +327,6 @@
       "game_pk": 777760
     },
     {
-      "player": "Birdsong, Hayden",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 777770
-    },
-    {
       "player": "Dom\u00ednguez, Seranthony",
       "opponent": "MIN",
       "market": "Hits",
@@ -383,18 +371,6 @@
       "line": 0.5,
       "best_book": null,
       "best_price": 185,
-      "stars": 1,
-      "game_pk": 777758
-    },
-    {
-      "player": "Holmes, Clay",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -159,
       "stars": 1,
       "game_pk": 777758
     },
@@ -447,54 +423,6 @@
       "game_pk": 777762
     },
     {
-      "player": "Littell, Zack",
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -164,
-      "stars": 1,
-      "game_pk": 777762
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 119,
-      "stars": 1,
-      "game_pk": 777760
-    },
-    {
-      "player": "Montero, Keider",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 777770
-    },
-    {
-      "player": "Morton, Charlie",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 111,
-      "stars": 1,
-      "game_pk": 777771
-    },
-    {
       "player": "Morton, Charlie",
       "opponent": "BAL",
       "market": "Hits Allowed",
@@ -505,6 +433,18 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777771
+    },
+    {
+      "player": "Paddack, Chris",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 777762
     },
     {
       "player": "Peralta, Wandy",
@@ -563,18 +503,6 @@
       "line": 15.5,
       "best_book": null,
       "best_price": -127,
-      "stars": 1,
-      "game_pk": 777769
-    },
-    {
-      "player": "Yamamoto, Yoshinobu",
-      "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -139,
       "stars": 1,
       "game_pk": 777769
     },

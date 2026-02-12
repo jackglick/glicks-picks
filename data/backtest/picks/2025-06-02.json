@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.865751+00:00",
+  "generated_at": "2026-02-12T20:49:09.899617+00:00",
   "date": "2025-06-02",
   "picks": [
     {
@@ -111,18 +111,6 @@
       "game_pk": 777674
     },
     {
-      "player": "Civale, Aaron",
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -120,
-      "stars": 2,
-      "game_pk": 777671
-    },
-    {
       "player": "Hart, Kyle",
       "opponent": "MIL",
       "market": "Total Bases",
@@ -133,6 +121,18 @@
       "best_price": 129,
       "stars": 2,
       "game_pk": 777671
+    },
+    {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 777673
     },
     {
       "player": "Soto, Gregory",
@@ -241,18 +241,6 @@
       "best_price": -128,
       "stars": 1,
       "game_pk": 777673
-    },
-    {
-      "player": "Singer, Brady",
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -132,
-      "stars": 1,
-      "game_pk": 777671
     },
     {
       "player": "Singer, Brady",

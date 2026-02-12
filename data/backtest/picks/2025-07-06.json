@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.910869+00:00",
+  "generated_at": "2026-02-12T20:49:09.947331+00:00",
   "date": "2025-07-06",
   "picks": [
     {
@@ -135,6 +135,30 @@
       "game_pk": 777205
     },
     {
+      "player": "Wheeler, Zack",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 8.5,
+      "best_book": null,
+      "best_price": -143,
+      "stars": 3,
+      "game_pk": 777217
+    },
+    {
+      "player": "Anderson, Tyler",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 103,
+      "stars": 2,
+      "game_pk": 777214
+    },
+    {
       "player": "Barco, Hunter",
       "opponent": "BAL",
       "market": "Hits",
@@ -157,6 +181,18 @@
       "best_price": null,
       "stars": 2,
       "game_pk": 777206
+    },
+    {
+      "player": "Fried, Max",
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 102,
+      "stars": 2,
+      "game_pk": 777216
     },
     {
       "player": "Gusto, Ryan",
@@ -195,6 +231,18 @@
       "game_pk": 777215
     },
     {
+      "player": "Rogers, Trevor",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 122,
+      "stars": 2,
+      "game_pk": 777222
+    },
+    {
       "player": "Vargas, Carlos",
       "opponent": "TB",
       "market": "Total Bases",
@@ -205,18 +253,6 @@
       "best_price": -173,
       "stars": 2,
       "game_pk": 777220
-    },
-    {
-      "player": "Wheeler, Zack",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 8.5,
-      "best_book": null,
-      "best_price": -143,
-      "stars": 2,
-      "game_pk": 777217
     },
     {
       "player": "Wicks, Jordan",
@@ -253,18 +289,6 @@
       "best_price": 171,
       "stars": 1,
       "game_pk": 777215
-    },
-    {
-      "player": "Boyd, Matthew",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 777219
     },
     {
       "player": "Boyd, Matthew",
@@ -377,6 +401,18 @@
     {
       "player": "Holmes, Grant",
       "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777222
+    },
+    {
+      "player": "Holmes, Grant",
+      "opponent": "ATL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -433,18 +469,6 @@
       "best_price": -165,
       "stars": 1,
       "game_pk": 777220
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 116,
-      "stars": 1,
-      "game_pk": 777218
     },
     {
       "player": "McGough, Scott",
@@ -555,16 +579,16 @@
       "game_pk": 777220
     },
     {
-      "player": "Smith, Shane",
-      "opponent": "CWS",
+      "player": "Skubal, Tarik",
+      "opponent": "DET",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.5,
+      "line": 7.5,
       "best_book": null,
-      "best_price": -116,
+      "best_price": -105,
       "stars": 1,
-      "game_pk": 777215
+      "game_pk": 777226
     },
     {
       "player": "Snell, Blake",

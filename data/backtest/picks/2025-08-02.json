@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.944974+00:00",
+  "generated_at": "2026-02-12T20:49:09.982961+00:00",
   "date": "2025-08-02",
   "picks": [
     {
@@ -375,18 +375,6 @@
       "game_pk": 776904
     },
     {
-      "player": "Bibee, Tanner",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 776905
-    },
-    {
       "player": "Bivens, Spencer",
       "opponent": "PIT",
       "market": "Total Bases",
@@ -469,18 +457,6 @@
       "best_price": 196,
       "stars": 1,
       "game_pk": 776902
-    },
-    {
-      "player": "Gordon, Colton",
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 776909
     },
     {
       "player": "Iglesias, Raisel",
@@ -569,6 +545,18 @@
     {
       "player": "Ober, Bailey",
       "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 776905
+    },
+    {
+      "player": "Ober, Bailey",
+      "opponent": "MIN",
       "market": "Walks",
       "category": "pitcher",
       "direction": "OVER",
@@ -603,18 +591,6 @@
       "game_pk": 776911
     },
     {
-      "player": "P\u00e9rez, Eury",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -152,
-      "stars": 1,
-      "game_pk": 776910
-    },
-    {
       "player": "Ram\u00edrez, Yohan",
       "opponent": "LAD",
       "market": "Total Bases",
@@ -623,18 +599,6 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -131,
-      "stars": 1,
-      "game_pk": 776901
-    },
-    {
-      "player": "Rasmussen, Drew",
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -140,
       "stars": 1,
       "game_pk": 776901
     },
@@ -725,18 +689,6 @@
     {
       "player": "Senga, Kodai",
       "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 776911
-    },
-    {
-      "player": "Senga, Kodai",
-      "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -771,6 +723,18 @@
       "game_pk": 776903
     },
     {
+      "player": "Snell, Blake",
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -118,
+      "stars": 1,
+      "game_pk": 776901
+    },
+    {
       "player": "Sugano, Tomoyuki",
       "opponent": "BAL",
       "market": "Outs Recorded",
@@ -793,18 +757,6 @@
       "best_price": -131,
       "stars": 1,
       "game_pk": 776905
-    },
-    {
-      "player": "Wheeler, Zack",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 776912
     },
     {
       "player": "Wrobleski, Justin",

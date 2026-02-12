@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.977003+00:00",
+  "generated_at": "2026-02-12T20:49:10.014152+00:00",
   "date": "2025-08-22",
   "picks": [
     {
@@ -183,6 +183,18 @@
       "game_pk": 776645
     },
     {
+      "player": "Bieber, Shane",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -160,
+      "stars": 2,
+      "game_pk": 776646
+    },
+    {
       "player": "Bivens, Spencer",
       "opponent": "COL",
       "market": "Total Bases",
@@ -315,6 +327,18 @@
       "game_pk": 776637
     },
     {
+      "player": "Senzatela, Antonio",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 776637
+    },
+    {
       "player": "Smith, Shane",
       "opponent": "WSH",
       "market": "Total Bases",
@@ -327,6 +351,18 @@
       "game_pk": 776648
     },
     {
+      "player": "Bello, Brayan",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -104,
+      "stars": 1,
+      "game_pk": 776647
+    },
+    {
       "player": "Bergert, Ryan",
       "opponent": "KC",
       "market": "Hits Allowed",
@@ -337,18 +373,6 @@
       "best_price": 125,
       "stars": 1,
       "game_pk": 776649
-    },
-    {
-      "player": "Bieber, Shane",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 776646
     },
     {
       "player": "Bivens, Spencer",
@@ -483,16 +507,16 @@
       "game_pk": 776633
     },
     {
-      "player": "Mize, Casey",
-      "opponent": "DET",
+      "player": "Mikolas, Miles",
+      "opponent": "STL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": -168,
+      "best_price": -114,
       "stars": 1,
-      "game_pk": 776649
+      "game_pk": 776633
     },
     {
       "player": "Mu\u00f1oz, Andr\u00e9s",

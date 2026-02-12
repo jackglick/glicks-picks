@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.911845+00:00",
+  "generated_at": "2026-02-12T20:49:09.948330+00:00",
   "date": "2025-07-07",
   "picks": [
     {
@@ -35,6 +35,18 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -113,
+      "stars": 3,
+      "game_pk": 777204
+    },
+    {
+      "player": "Cameron, Noah",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -105,
       "stars": 3,
       "game_pk": 777204
     },
@@ -207,18 +219,6 @@
       "game_pk": 777212
     },
     {
-      "player": "Cameron, Noah",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 2,
-      "game_pk": 777204
-    },
-    {
       "player": "Dreyer, Jack",
       "opponent": "MIA",
       "market": "Total Bases",
@@ -229,6 +229,18 @@
       "best_price": -130,
       "stars": 2,
       "game_pk": 777208
+    },
+    {
+      "player": "Fitts, Richard",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 777209
     },
     {
       "player": "Little, Brendon",
@@ -253,18 +265,6 @@
       "best_price": 187,
       "stars": 1,
       "game_pk": 777212
-    },
-    {
-      "player": "Baz, Shane",
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -143,
-      "stars": 1,
-      "game_pk": 777211
     },
     {
       "player": "Baz, Shane",
@@ -327,28 +327,16 @@
       "game_pk": 777208
     },
     {
-      "player": "Fitts, Richard",
-      "opponent": "BOS",
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": -115,
+      "best_price": -120,
       "stars": 1,
-      "game_pk": 777209
-    },
-    {
-      "player": "Junk, Janson",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -159,
-      "stars": 1,
-      "game_pk": 777208
+      "game_pk": 777204
     },
     {
       "player": "Lauer, Eric",

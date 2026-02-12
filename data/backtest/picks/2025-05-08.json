@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.827394+00:00",
+  "generated_at": "2026-02-12T20:49:09.857051+00:00",
   "date": "2025-05-08",
   "picks": [
     {
@@ -89,6 +89,18 @@
     {
       "player": "Lodolo, Nick",
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -135,
+      "stars": 3,
+      "game_pk": 778003
+    },
+    {
+      "player": "Lodolo, Nick",
+      "opponent": "CIN",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -145,18 +157,6 @@
       "best_price": -120,
       "stars": 3,
       "game_pk": 778029
-    },
-    {
-      "player": "Bello, Brayan",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -123,
-      "stars": 2,
-      "game_pk": 778006
     },
     {
       "player": "Bello, Brayan",
@@ -279,28 +279,16 @@
       "game_pk": 778004
     },
     {
-      "player": "Lodolo, Nick",
-      "opponent": "CIN",
+      "player": "Martin, Davis",
+      "opponent": "CWS",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 4.5,
+      "line": 3.5,
       "best_book": null,
-      "best_price": -135,
+      "best_price": 125,
       "stars": 2,
-      "game_pk": 778003
-    },
-    {
-      "player": "Ober, Bailey",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -158,
-      "stars": 2,
-      "game_pk": 778007
+      "game_pk": 778008
     },
     {
       "player": "Sabrowski, Erik",
@@ -581,18 +569,6 @@
     {
       "player": "Kremer, Dean",
       "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -153,
-      "stars": 1,
-      "game_pk": 778007
-    },
-    {
-      "player": "Kremer, Dean",
-      "opponent": "BAL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -637,18 +613,6 @@
       "best_price": 143,
       "stars": 1,
       "game_pk": 778029
-    },
-    {
-      "player": "Leiter, Jack",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 778006
     },
     {
       "player": "Leiter, Jack",

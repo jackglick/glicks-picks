@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.892482+00:00",
+  "generated_at": "2026-02-12T20:49:09.928411+00:00",
   "date": "2025-06-22",
   "picks": [
     {
@@ -35,6 +35,18 @@
       "line": 1.5,
       "best_book": null,
       "best_price": 190,
+      "stars": 3,
+      "game_pk": 777408
+    },
+    {
+      "player": "Bassitt, Chris",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -102,
       "stars": 3,
       "game_pk": 777408
     },
@@ -97,6 +109,18 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 777407
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 122,
+      "stars": 3,
+      "game_pk": 777397
     },
     {
       "player": "Hendricks, Kyle",
@@ -255,6 +279,18 @@
       "game_pk": 777403
     },
     {
+      "player": "Ohtani, Shohei",
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 3,
+      "game_pk": 777398
+    },
+    {
       "player": "Olson, Reese",
       "opponent": "CLE",
       "market": "Total Bases",
@@ -313,18 +349,6 @@
       "best_price": -110,
       "stars": 3,
       "game_pk": 777403
-    },
-    {
-      "player": "Pfaadt, Brandon",
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 3,
-      "game_pk": 777399
     },
     {
       "player": "Pfaadt, Brandon",
@@ -399,6 +423,18 @@
       "game_pk": 777399
     },
     {
+      "player": "Senzatela, Antonio",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": 126,
+      "stars": 3,
+      "game_pk": 777399
+    },
+    {
       "player": "V\u00e1squez, Randy",
       "opponent": "AZ",
       "market": "Hits",
@@ -435,18 +471,6 @@
       "game_pk": 777407
     },
     {
-      "player": "Bassitt, Chris",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -102,
-      "stars": 2,
-      "game_pk": 777408
-    },
-    {
       "player": "Bazardo, Eduard",
       "opponent": "WSH",
       "market": "Total Bases",
@@ -481,6 +505,18 @@
       "best_price": -110,
       "stars": 2,
       "game_pk": 777399
+    },
+    {
+      "player": "Houser, Adrian",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 777408
     },
     {
       "player": "Little, Brendon",
@@ -541,6 +577,18 @@
       "best_price": 180,
       "stars": 2,
       "game_pk": 777400
+    },
+    {
+      "player": "Peterson, David",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -116,
+      "stars": 2,
+      "game_pk": 777405
     },
     {
       "player": "Rea, Colin",
@@ -723,18 +771,6 @@
       "game_pk": 777407
     },
     {
-      "player": "Falter, Bailey",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -109,
-      "stars": 1,
-      "game_pk": 777404
-    },
-    {
       "player": "Gage, Matt",
       "opponent": "CIN",
       "market": "Hits",
@@ -783,18 +819,6 @@
       "game_pk": 777403
     },
     {
-      "player": "Giolito, Lucas",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 777395
-    },
-    {
       "player": "Gordon, Colton",
       "opponent": "HOU",
       "market": "Total Bases",
@@ -829,18 +853,6 @@
       "best_price": 146,
       "stars": 1,
       "game_pk": 777402
-    },
-    {
-      "player": "Gusto, Ryan",
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777397
     },
     {
       "player": "Gusto, Ryan",
@@ -1023,6 +1035,18 @@
       "game_pk": 777404
     },
     {
+      "player": "Littell, Zack",
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -101,
+      "stars": 1,
+      "game_pk": 777409
+    },
+    {
       "player": "Little, Brendon",
       "opponent": "DET",
       "market": "Total Bases",
@@ -1031,42 +1055,6 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -165,
-      "stars": 1,
-      "game_pk": 777409
-    },
-    {
-      "player": "Lugo, Seth",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 777396
-    },
-    {
-      "player": "Mikolas, Miles",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -111,
-      "stars": 1,
-      "game_pk": 777407
-    },
-    {
-      "player": "Mize, Casey",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -109,
       "stars": 1,
       "game_pk": 777409
     },
@@ -1107,28 +1095,16 @@
       "game_pk": 777399
     },
     {
-      "player": "Ohtani, Shohei",
-      "opponent": "LAD",
+      "player": "Pfaadt, Brandon",
+      "opponent": "AZ",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
+      "direction": "UNDER",
+      "line": 5.5,
       "best_book": null,
-      "best_price": 120,
+      "best_price": -145,
       "stars": 1,
-      "game_pk": 777398
-    },
-    {
-      "player": "Peterson, David",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -116,
-      "stars": 1,
-      "game_pk": 777405
+      "game_pk": 777399
     },
     {
       "player": "Phillips, Tyler",
@@ -1153,18 +1129,6 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 777402
-    },
-    {
-      "player": "Ray, Robbie",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -141,
-      "stars": 1,
-      "game_pk": 777395
     },
     {
       "player": "Rea, Colin",

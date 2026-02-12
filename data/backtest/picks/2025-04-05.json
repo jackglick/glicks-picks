@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.778505+00:00",
+  "generated_at": "2026-02-12T20:49:09.803989+00:00",
   "date": "2025-04-05",
   "picks": [
     {
@@ -323,18 +323,6 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -113,
-      "stars": 3,
-      "game_pk": 778438
-    },
-    {
-      "player": "deGrom, Jacob",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -154,
       "stars": 3,
       "game_pk": 778438
     },
@@ -807,18 +795,6 @@
       "game_pk": 778437
     },
     {
-      "player": "Olson, Reese",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -147,
-      "stars": 2,
-      "game_pk": 778445
-    },
-    {
       "player": "Pag\u00e1n, Emilio",
       "opponent": "CIN",
       "market": "Hits",
@@ -1179,6 +1155,18 @@
       "game_pk": 778438
     },
     {
+      "player": "deGrom, Jacob",
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -154,
+      "stars": 2,
+      "game_pk": 778438
+    },
+    {
       "player": "Alexander, Tyler",
       "opponent": "AZ",
       "market": "Total Bases",
@@ -1337,18 +1325,6 @@
     {
       "player": "Bassitt, Chris",
       "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778446
-    },
-    {
-      "player": "Bassitt, Chris",
-      "opponent": "TOR",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1419,6 +1395,18 @@
       "game_pk": 778441
     },
     {
+      "player": "Bradley, Taj",
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 778438
+    },
+    {
       "player": "Burns, Chase",
       "opponent": "CIN",
       "market": "Total Bases",
@@ -1453,6 +1441,18 @@
       "best_price": 117,
       "stars": 1,
       "game_pk": 778448
+    },
+    {
+      "player": "Canning, Griffin",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 778446
     },
     {
       "player": "Chapman, Aroldis",
@@ -2153,18 +2153,6 @@
     {
       "player": "Ober, Bailey",
       "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 778440
-    },
-    {
-      "player": "Ober, Bailey",
-      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -2285,6 +2273,18 @@
     {
       "player": "Pivetta, Nick",
       "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 778450
+    },
+    {
+      "player": "Pivetta, Nick",
+      "opponent": "SD",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -2293,6 +2293,18 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 778450
+    },
+    {
+      "player": "Quantrill, Cal",
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 778451
     },
     {
       "player": "Quantrill, Cal",
@@ -2593,18 +2605,6 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 778437
-    },
-    {
-      "player": "Wacha, Michael",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -100,
-      "stars": 1,
-      "game_pk": 778441
     },
     {
       "player": "Weissert, Greg",

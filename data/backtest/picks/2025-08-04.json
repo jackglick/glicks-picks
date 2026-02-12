@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.947752+00:00",
+  "generated_at": "2026-02-12T20:49:09.985800+00:00",
   "date": "2025-08-04",
   "picks": [
     {
@@ -231,6 +231,18 @@
       "game_pk": 776877
     },
     {
+      "player": "Cecconi, Slade",
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 776876
+    },
+    {
       "player": "Cruz, Fernando",
       "opponent": "BAL",
       "market": "Total Bases",
@@ -387,6 +399,18 @@
       "game_pk": 776877
     },
     {
+      "player": "Bello, Brayan",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 776880
+    },
+    {
       "player": "Bibee, Tanner",
       "opponent": "MIN",
       "market": "Hits",
@@ -411,18 +435,6 @@
       "game_pk": 776880
     },
     {
-      "player": "Fedde, Erick",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 776882
-    },
-    {
       "player": "Lazar, Max",
       "opponent": "MIL",
       "market": "Total Bases",
@@ -433,6 +445,18 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 776882
+    },
+    {
+      "player": "Luzardo, Jes\u00fas",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 776877
     },
     {
       "player": "Mejia, Juan",
@@ -447,18 +471,6 @@
       "game_pk": 776879
     },
     {
-      "player": "Oviedo, Johan",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 776879
-    },
-    {
       "player": "Phillips, Tyler",
       "opponent": "CLE",
       "market": "Total Bases",
@@ -469,18 +481,6 @@
       "best_price": -162,
       "stars": 1,
       "game_pk": 776876
-    },
-    {
-      "player": "Povich, Cade",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -147,
-      "stars": 1,
-      "game_pk": 776877
     },
     {
       "player": "Rainey, Tanner",
@@ -577,18 +577,6 @@
       "best_price": -221,
       "stars": 1,
       "game_pk": 776875
-    },
-    {
-      "player": "Verlander, Justin",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -122,
-      "stars": 1,
-      "game_pk": 776879
     },
     {
       "player": "Vest, Will",

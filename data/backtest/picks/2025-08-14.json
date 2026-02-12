@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.963671+00:00",
+  "generated_at": "2026-02-12T20:49:10.001868+00:00",
   "date": "2025-08-14",
   "picks": [
     {
@@ -157,6 +157,18 @@
       "best_price": 125,
       "stars": 3,
       "game_pk": 776750
+    },
+    {
+      "player": "Boyd, Matthew",
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 109,
+      "stars": 2,
+      "game_pk": 776747
     },
     {
       "player": "Kerkering, Orion",
@@ -373,18 +385,6 @@
       "best_price": -271,
       "stars": 1,
       "game_pk": 776744
-    },
-    {
-      "player": "Senga, Kodai",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -159,
-      "stars": 1,
-      "game_pk": 776748
     },
     {
       "player": "Smith, Cade",

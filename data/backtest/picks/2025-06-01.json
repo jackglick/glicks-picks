@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.864883+00:00",
+  "generated_at": "2026-02-12T20:49:09.898649+00:00",
   "date": "2025-06-01",
   "picks": [
     {
@@ -73,6 +73,18 @@
       "best_price": 160,
       "stars": 3,
       "game_pk": 777690
+    },
+    {
+      "player": "Bubic, Kris",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 103,
+      "stars": 3,
+      "game_pk": 777677
     },
     {
       "player": "Bubic, Kris",
@@ -543,16 +555,16 @@
       "game_pk": 777690
     },
     {
-      "player": "Bubic, Kris",
-      "opponent": "KC",
+      "player": "Brown, Hunter",
+      "opponent": "HOU",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
+      "line": 6.5,
       "best_book": null,
-      "best_price": 103,
+      "best_price": 118,
       "stars": 2,
-      "game_pk": 777677
+      "game_pk": 777690
     },
     {
       "player": "Gausman, Kevin",
@@ -627,6 +639,18 @@
       "game_pk": 777680
     },
     {
+      "player": "Kochanowicz, Jack",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 128,
+      "stars": 2,
+      "game_pk": 777683
+    },
+    {
       "player": "Manaea, Sean",
       "opponent": "LAA",
       "market": "Total Bases",
@@ -637,18 +661,6 @@
       "best_price": 112,
       "stars": 2,
       "game_pk": 777683
-    },
-    {
-      "player": "Parker, Mitchell",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -127,
-      "stars": 2,
-      "game_pk": 777679
     },
     {
       "player": "Phillips, Connor",
@@ -723,18 +735,6 @@
       "game_pk": 777683
     },
     {
-      "player": "Yamamoto, Yoshinobu",
-      "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -118,
-      "stars": 2,
-      "game_pk": 777682
-    },
-    {
       "player": "Yarbrough, Ryan",
       "opponent": "NYY",
       "market": "Earned Runs",
@@ -795,40 +795,16 @@
       "game_pk": 777680
     },
     {
-      "player": "Birdsong, Hayden",
-      "opponent": "SF",
+      "player": "Bradley, Taj",
+      "opponent": "TB",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 4.5,
       "best_book": null,
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 777689
-    },
-    {
-      "player": "Brown, Hunter",
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": 118,
+      "best_price": -120,
       "stars": 1,
       "game_pk": 777690
-    },
-    {
-      "player": "Burnes, Corbin",
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -136,
-      "stars": 1,
-      "game_pk": 777679
     },
     {
       "player": "Burnes, Corbin",
@@ -845,18 +821,6 @@
     {
       "player": "Castillo, Luis",
       "opponent": "SEA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 777680
-    },
-    {
-      "player": "Castillo, Luis",
-      "opponent": "SEA",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -865,6 +829,18 @@
       "best_price": -155,
       "stars": 1,
       "game_pk": 777680
+    },
+    {
+      "player": "Crochet, Garrett",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -100,
+      "stars": 1,
+      "game_pk": 777692
     },
     {
       "player": "Cruz, Fernando",
@@ -889,18 +865,6 @@
       "best_price": -160,
       "stars": 1,
       "game_pk": 777685
-    },
-    {
-      "player": "Elder, Bryce",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777692
     },
     {
       "player": "Elder, Bryce",
@@ -963,18 +927,6 @@
       "game_pk": 777692
     },
     {
-      "player": "Heaney, Andrew",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 106,
-      "stars": 1,
-      "game_pk": 777681
-    },
-    {
       "player": "Hill, Tim",
       "opponent": "WSH",
       "market": "Total Bases",
@@ -1009,18 +961,6 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 777686
-    },
-    {
-      "player": "Houser, Adrian",
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 777684
     },
     {
       "player": "Iglesias, Raisel",
@@ -1119,16 +1059,16 @@
       "game_pk": 777689
     },
     {
-      "player": "Morton, Charlie",
-      "opponent": "BAL",
+      "player": "Montero, Keider",
+      "opponent": "DET",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": 120,
+      "best_price": 103,
       "stars": 1,
-      "game_pk": 777684
+      "game_pk": 777677
     },
     {
       "player": "Morton, Charlie",
@@ -1249,6 +1189,18 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 777688
+    },
+    {
+      "player": "Sears, JP",
+      "opponent": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777685
     },
     {
       "player": "Sears, JP",
@@ -1443,14 +1395,14 @@
       "game_pk": 777688
     },
     {
-      "player": "Yarbrough, Ryan",
-      "opponent": "NYY",
+      "player": "Yamamoto, Yoshinobu",
+      "opponent": "LAD",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.0,
+      "line": 6.5,
       "best_book": null,
-      "best_price": -133,
+      "best_price": -118,
       "stars": 1,
       "game_pk": 777682
     },

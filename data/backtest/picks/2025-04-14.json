@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.794246+00:00",
+  "generated_at": "2026-02-12T20:49:09.820842+00:00",
   "date": "2025-04-14",
   "picks": [
     {
@@ -447,6 +447,18 @@
       "game_pk": 778322
     },
     {
+      "player": "Carrasco, Carlos",
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 778327
+    },
+    {
       "player": "Chapman, Aroldis",
       "opponent": "KC",
       "market": "Hits",
@@ -557,6 +569,18 @@
     {
       "player": "Holmes, Grant",
       "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 116,
+      "stars": 1,
+      "game_pk": 778322
+    },
+    {
+      "player": "Holmes, Grant",
+      "opponent": "ATL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -661,18 +685,6 @@
       "best_price": 165,
       "stars": 1,
       "game_pk": 778328
-    },
-    {
-      "player": "Lugo, Seth",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 778327
     },
     {
       "player": "McGough, Scott",
@@ -819,18 +831,6 @@
       "game_pk": 778324
     },
     {
-      "player": "Ryan, Joe",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -151,
-      "stars": 1,
-      "game_pk": 778324
-    },
-    {
       "player": "Sale, Chris",
       "opponent": "WSH",
       "market": "Hits",
@@ -949,18 +949,6 @@
       "best_price": -175,
       "stars": 1,
       "game_pk": 778322
-    },
-    {
-      "player": "Walker, Taijuan",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 109,
-      "stars": 1,
-      "game_pk": 778320
     },
     {
       "player": "Weissert, Greg",

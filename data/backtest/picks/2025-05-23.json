@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.850174+00:00",
+  "generated_at": "2026-02-12T20:49:09.883069+00:00",
   "date": "2025-05-23",
   "picks": [
     {
@@ -1359,16 +1359,16 @@
       "game_pk": 777815
     },
     {
-      "player": "Cecconi, Slade",
-      "opponent": "CLE",
+      "player": "Gore, MacKenzie",
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.5,
+      "line": 6.5,
       "best_book": null,
-      "best_price": -110,
+      "best_price": 115,
       "stars": 2,
-      "game_pk": 777807
+      "game_pk": 777801
     },
     {
       "player": "Gore, MacKenzie",
@@ -1503,28 +1503,16 @@
       "game_pk": 777815
     },
     {
-      "player": "Boyd, Matthew",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 112,
-      "stars": 1,
-      "game_pk": 777811
-    },
-    {
-      "player": "Burke, Sean",
-      "opponent": "CWS",
+      "player": "Cecconi, Slade",
+      "opponent": "CLE",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 4.5,
       "best_book": null,
-      "best_price": -136,
+      "best_price": -110,
       "stars": 1,
-      "game_pk": 777805
+      "game_pk": 777807
     },
     {
       "player": "Cruz, Fernando",
@@ -1611,28 +1599,16 @@
       "game_pk": 777813
     },
     {
-      "player": "Jobe, Jackson",
-      "opponent": "DET",
+      "player": "Kershaw, Clayton",
+      "opponent": "LAD",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777807
-    },
-    {
-      "player": "Lauer, Eric",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 3.5,
       "best_book": null,
-      "best_price": 120,
+      "best_price": -141,
       "stars": 1,
-      "game_pk": 777810
+      "game_pk": 777808
     },
     {
       "player": "Lauer, Eric",
@@ -1719,18 +1695,6 @@
       "game_pk": 777808
     },
     {
-      "player": "Povich, Cade",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -108,
-      "stars": 1,
-      "game_pk": 777815
-    },
-    {
       "player": "Ram\u00edrez, Yohan",
       "opponent": "SD",
       "market": "Total Bases",
@@ -1745,18 +1709,6 @@
     {
       "player": "Rasmussen, Drew",
       "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 777810
-    },
-    {
-      "player": "Rasmussen, Drew",
-      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1767,18 +1719,6 @@
       "game_pk": 777810
     },
     {
-      "player": "Roupp, Landen",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -123,
-      "stars": 1,
-      "game_pk": 777801
-    },
-    {
       "player": "Sale, Chris",
       "opponent": "MIL",
       "market": "Total Bases",
@@ -1787,18 +1727,6 @@
       "line": 1.0,
       "best_book": null,
       "best_price": 139,
-      "stars": 1,
-      "game_pk": 777806
-    },
-    {
-      "player": "Skenes, Paul",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -147,
       "stars": 1,
       "game_pk": 777806
     },

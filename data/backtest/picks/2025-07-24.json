@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.931501+00:00",
+  "generated_at": "2026-02-12T20:49:09.969049+00:00",
   "date": "2025-07-24",
   "picks": [
     {
@@ -111,18 +111,6 @@
       "game_pk": 777025
     },
     {
-      "player": "Morton, Charlie",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -166,
-      "stars": 2,
-      "game_pk": 777019
-    },
-    {
       "player": "Pomeranz, Drew",
       "opponent": "SD",
       "market": "Total Bases",
@@ -207,16 +195,16 @@
       "game_pk": 777023
     },
     {
-      "player": "Lauer, Eric",
-      "opponent": "TOR",
+      "player": "Morton, Charlie",
+      "opponent": "BAL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 4.5,
       "best_book": null,
-      "best_price": 105,
+      "best_price": -166,
       "stars": 1,
-      "game_pk": 777021
+      "game_pk": 777019
     },
     {
       "player": "Morton, Charlie",

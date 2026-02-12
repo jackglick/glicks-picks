@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.940695+00:00",
+  "generated_at": "2026-02-12T20:49:09.978681+00:00",
   "date": "2025-07-30",
   "picks": [
     {
@@ -123,18 +123,6 @@
       "game_pk": 776933
     },
     {
-      "player": "Ohtani, Shohei",
-      "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 140,
-      "stars": 3,
-      "game_pk": 776941
-    },
-    {
       "player": "Pomeranz, Drew",
       "opponent": "MIA",
       "market": "Hits",
@@ -233,6 +221,18 @@
     {
       "player": "Bello, Brayan",
       "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -136,
+      "stars": 2,
+      "game_pk": 776935
+    },
+    {
+      "player": "Bello, Brayan",
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -253,6 +253,18 @@
       "best_price": -131,
       "stars": 2,
       "game_pk": 776942
+    },
+    {
+      "player": "Burrows, Mike",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -109,
+      "stars": 2,
+      "game_pk": 776933
     },
     {
       "player": "Contreras, Roansy",
@@ -279,18 +291,6 @@
       "game_pk": 776932
     },
     {
-      "player": "Gore, MacKenzie",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -128,
-      "stars": 2,
-      "game_pk": 776937
-    },
-    {
       "player": "Kittredge, Andrew",
       "opponent": "ATL",
       "market": "Total Bases",
@@ -301,6 +301,18 @@
       "best_price": -212,
       "stars": 2,
       "game_pk": 776936
+    },
+    {
+      "player": "Kremer, Dean",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 121,
+      "stars": 2,
+      "game_pk": 776948
     },
     {
       "player": "Peterson, David",
@@ -373,18 +385,6 @@
       "best_price": -105,
       "stars": 2,
       "game_pk": 776942
-    },
-    {
-      "player": "Webb, Logan",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -135,
-      "stars": 2,
-      "game_pk": 776933
     },
     {
       "player": "Wicks, Jordan",
@@ -495,30 +495,6 @@
       "game_pk": 776948
     },
     {
-      "player": "Bello, Brayan",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -136,
-      "stars": 1,
-      "game_pk": 776935
-    },
-    {
-      "player": "Darvish, Yu",
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -108,
-      "stars": 1,
-      "game_pk": 776931
-    },
-    {
       "player": "Dreyer, Jack",
       "opponent": "LAD",
       "market": "Total Bases",
@@ -541,18 +517,6 @@
       "best_price": 191,
       "stars": 1,
       "game_pk": 776930
-    },
-    {
-      "player": "Freeland, Kyle",
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -162,
-      "stars": 1,
-      "game_pk": 776942
     },
     {
       "player": "Freeland, Kyle",
@@ -627,6 +591,30 @@
       "game_pk": 776936
     },
     {
+      "player": "Holmes, Clay",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 776931
+    },
+    {
+      "player": "Imanaga, Shota",
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 776929
+    },
+    {
       "player": "Jackson, Luke",
       "opponent": "COL",
       "market": "Total Bases",
@@ -673,6 +661,18 @@
       "best_price": -106,
       "stars": 1,
       "game_pk": 776948
+    },
+    {
+      "player": "Littell, Zack",
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 776938
     },
     {
       "player": "Littell, Zack",
@@ -761,6 +761,18 @@
     {
       "player": "Martinez, Nick",
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -151,
+      "stars": 1,
+      "game_pk": 776941
+    },
+    {
+      "player": "Martinez, Nick",
+      "opponent": "CIN",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -793,18 +805,6 @@
       "best_price": 165,
       "stars": 1,
       "game_pk": 776932
-    },
-    {
-      "player": "Mikolas, Miles",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -134,
-      "stars": 1,
-      "game_pk": 776934
     },
     {
       "player": "Murray, Jayden",
@@ -841,18 +841,6 @@
       "best_price": -180,
       "stars": 1,
       "game_pk": 776935
-    },
-    {
-      "player": "Paddack, Chris",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 776940
     },
     {
       "player": "Peterson, David",
@@ -1047,16 +1035,16 @@
       "game_pk": 776938
     },
     {
-      "player": "Wentz, Joey",
-      "opponent": "ATL",
+      "player": "Webb, Logan",
+      "opponent": "SF",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.5,
+      "line": 6.5,
       "best_book": null,
-      "best_price": -120,
+      "best_price": -135,
       "stars": 1,
-      "game_pk": 776936
+      "game_pk": 776933
     },
     {
       "player": "Wicks, Jordan",

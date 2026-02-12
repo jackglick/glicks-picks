@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.923889+00:00",
+  "generated_at": "2026-02-12T20:49:09.960872+00:00",
   "date": "2025-07-19",
   "picks": [
     {
@@ -245,18 +245,6 @@
     {
       "player": "Holmes, Clay",
       "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.0,
-      "best_book": null,
-      "best_price": -116,
-      "stars": 2,
-      "game_pk": 777092
-    },
-    {
-      "player": "Holmes, Clay",
-      "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -265,18 +253,6 @@
       "best_price": -108,
       "stars": 2,
       "game_pk": 777092
-    },
-    {
-      "player": "Imanaga, Shota",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 2,
-      "game_pk": 777096
     },
     {
       "player": "Lynch IV, Daniel",
@@ -375,16 +351,16 @@
       "game_pk": 777081
     },
     {
-      "player": "Allen, Logan",
-      "opponent": "CLE",
+      "player": "Warren, Will",
+      "opponent": "NYY",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 4.5,
       "best_book": null,
-      "best_price": 105,
-      "stars": 1,
-      "game_pk": 777104
+      "best_price": -150,
+      "stars": 2,
+      "game_pk": 777097
     },
     {
       "player": "Ashcraft, Graham",
@@ -469,18 +445,6 @@
       "best_price": -180,
       "stars": 1,
       "game_pk": 777080
-    },
-    {
-      "player": "Burrows, Mike",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 777090
     },
     {
       "player": "Dana, Caden",
@@ -617,6 +581,18 @@
     {
       "player": "Houser, Adrian",
       "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -117,
+      "stars": 1,
+      "game_pk": 777090
+    },
+    {
+      "player": "Houser, Adrian",
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -625,6 +601,18 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 777090
+    },
+    {
+      "player": "Imanaga, Shota",
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777096
     },
     {
       "player": "Jackson, Luke",
@@ -725,6 +713,18 @@
     {
       "player": "Kremer, Dean",
       "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 113,
+      "stars": 1,
+      "game_pk": 777095
+    },
+    {
+      "player": "Kremer, Dean",
+      "opponent": "BAL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -795,18 +795,6 @@
       "game_pk": 777095
     },
     {
-      "player": "Martinez, Nick",
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -161,
-      "stars": 1,
-      "game_pk": 777092
-    },
-    {
       "player": "Miller, Mason",
       "opponent": "MIN",
       "market": "Total Bases",
@@ -817,18 +805,6 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 777080
-    },
-    {
-      "player": "Parker, Mitchell",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -162,
-      "stars": 1,
-      "game_pk": 777091
     },
     {
       "player": "Phillips, Connor",
@@ -853,18 +829,6 @@
       "best_price": -140,
       "stars": 1,
       "game_pk": 777092
-    },
-    {
-      "player": "Quantrill, Cal",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -144,
-      "stars": 1,
-      "game_pk": 777093
     },
     {
       "player": "Ram\u00edrez, Yohan",
@@ -953,18 +917,6 @@
     {
       "player": "Wacha, Michael",
       "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -139,
-      "stars": 1,
-      "game_pk": 777093
-    },
-    {
-      "player": "Wacha, Michael",
-      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -973,42 +925,6 @@
       "best_price": -102,
       "stars": 1,
       "game_pk": 777093
-    },
-    {
-      "player": "Walker, Taijuan",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777089
-    },
-    {
-      "player": "Warren, Will",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777097
-    },
-    {
-      "player": "Wentz, Joey",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777097
     }
   ]
 }

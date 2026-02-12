@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.921791+00:00",
+  "generated_at": "2026-02-12T20:49:09.959001+00:00",
   "date": "2025-07-18",
   "picks": [
     {
@@ -279,18 +279,6 @@
       "game_pk": 777111
     },
     {
-      "player": "Bassitt, Chris",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -135,
-      "stars": 2,
-      "game_pk": 777108
-    },
-    {
       "player": "Bido, Osvaldo",
       "opponent": "KC",
       "market": "Total Bases",
@@ -507,6 +495,18 @@
       "game_pk": 777108
     },
     {
+      "player": "Bassitt, Chris",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777108
+    },
+    {
       "player": "Bednar, David",
       "opponent": "BAL",
       "market": "Total Bases",
@@ -521,6 +521,18 @@
     {
       "player": "Bradley, Taj",
       "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 777110
+    },
+    {
+      "player": "Bradley, Taj",
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -529,18 +541,6 @@
       "best_price": -100,
       "stars": 1,
       "game_pk": 777110
-    },
-    {
-      "player": "Cecconi, Slade",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -122,
-      "stars": 1,
-      "game_pk": 777105
     },
     {
       "player": "Dom\u00ednguez, Seranthony",
@@ -805,18 +805,6 @@
       "best_price": -162,
       "stars": 1,
       "game_pk": 777109
-    },
-    {
-      "player": "Strider, Spencer",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 8.0,
-      "best_book": null,
-      "best_price": -134,
-      "stars": 1,
-      "game_pk": 777114
     }
   ]
 }

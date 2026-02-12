@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.832681+00:00",
+  "generated_at": "2026-02-12T20:49:09.863249+00:00",
   "date": "2025-05-11",
   "picks": [
     {
@@ -447,18 +447,6 @@
       "game_pk": 777957
     },
     {
-      "player": "Alcantara, Sandy",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -164,
-      "stars": 2,
-      "game_pk": 777966
-    },
-    {
       "player": "Bednar, David",
       "opponent": "BAL",
       "market": "Hits",
@@ -507,16 +495,16 @@
       "game_pk": 777968
     },
     {
-      "player": "Gallen, Zac",
-      "opponent": "AZ",
+      "player": "Giolito, Lucas",
+      "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": 104,
+      "best_price": -174,
       "stars": 2,
-      "game_pk": 777954
+      "game_pk": 777965
     },
     {
       "player": "Gonsolin, Tony",
@@ -579,18 +567,6 @@
       "game_pk": 777956
     },
     {
-      "player": "Mikolas, Miles",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 2,
-      "game_pk": 777962
-    },
-    {
       "player": "Miller, Bryce",
       "opponent": "SEA",
       "market": "Outs Recorded",
@@ -611,6 +587,18 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -131,
+      "stars": 2,
+      "game_pk": 777955
+    },
+    {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -120,
       "stars": 2,
       "game_pk": 777955
     },
@@ -687,18 +675,6 @@
       "game_pk": 777958
     },
     {
-      "player": "Wheeler, Zack",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -157,
-      "stars": 2,
-      "game_pk": 777971
-    },
-    {
       "player": "Alcantara, Sandy",
       "opponent": "MIA",
       "market": "Outs Recorded",
@@ -709,6 +685,18 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 777966
+    },
+    {
+      "player": "Anderson, Tyler",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777961
     },
     {
       "player": "Anderson, Tyler",
@@ -845,18 +833,6 @@
     {
       "player": "Boyd, Matthew",
       "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 777968
-    },
-    {
-      "player": "Boyd, Matthew",
-      "opponent": "CHC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -893,18 +869,6 @@
     {
       "player": "Burke, Sean",
       "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777966
-    },
-    {
-      "player": "Burke, Sean",
-      "opponent": "CWS",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -929,18 +893,6 @@
     {
       "player": "Eflin, Zach",
       "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777961
-    },
-    {
-      "player": "Eflin, Zach",
-      "opponent": "BAL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "OVER",
@@ -949,6 +901,18 @@
       "best_price": 129,
       "stars": 1,
       "game_pk": 777961
+    },
+    {
+      "player": "Eovaldi, Nathan",
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 124,
+      "stars": 1,
+      "game_pk": 777969
     },
     {
       "player": "Eovaldi, Nathan",
@@ -977,6 +941,18 @@
     {
       "player": "Gallen, Zac",
       "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 104,
+      "stars": 1,
+      "game_pk": 777954
+    },
+    {
+      "player": "Gallen, Zac",
+      "opponent": "AZ",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -985,6 +961,18 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 777954
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777962
     },
     {
       "player": "Gore, MacKenzie",
@@ -1131,18 +1119,6 @@
       "game_pk": 777962
     },
     {
-      "player": "Lugo, Seth",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -152,
-      "stars": 1,
-      "game_pk": 777965
-    },
-    {
       "player": "L\u00f3pez, Pablo",
       "opponent": "MIN",
       "market": "Earned Runs",
@@ -1287,18 +1263,6 @@
       "game_pk": 777955
     },
     {
-      "player": "Roupp, Landen",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 777956
-    },
-    {
       "player": "Sale, Chris",
       "opponent": "ATL",
       "market": "Strikeouts",
@@ -1407,16 +1371,16 @@
       "game_pk": 777958
     },
     {
-      "player": "Ure\u00f1a, Jos\u00e9",
-      "opponent": "TOR",
+      "player": "Wheeler, Zack",
+      "opponent": "PHI",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.5,
+      "line": 7.5,
       "best_book": null,
-      "best_price": -160,
+      "best_price": -157,
       "stars": 1,
-      "game_pk": 777958
+      "game_pk": 777971
     },
     {
       "player": "Williams, Devin",

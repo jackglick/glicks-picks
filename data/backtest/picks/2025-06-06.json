@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.871982+00:00",
+  "generated_at": "2026-02-12T20:49:09.906189+00:00",
   "date": "2025-06-06",
   "picks": [
     {
@@ -519,6 +519,18 @@
       "game_pk": 777624
     },
     {
+      "player": "Littell, Zack",
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777625
+    },
+    {
       "player": "Little, Brendon",
       "opponent": "MIA",
       "market": "Total Bases",
@@ -531,6 +543,18 @@
       "game_pk": 777625
     },
     {
+      "player": "Lodolo, Nick",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777623
+    },
+    {
       "player": "Lugo, Seth",
       "opponent": "KC",
       "market": "Outs Recorded",
@@ -539,6 +563,18 @@
       "line": 17.5,
       "best_book": null,
       "best_price": 135,
+      "stars": 1,
+      "game_pk": 777618
+    },
+    {
+      "player": "Martin, Davis",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -106,
       "stars": 1,
       "game_pk": 777618
     },
@@ -577,18 +613,6 @@
       "best_price": -192,
       "stars": 1,
       "game_pk": 777621
-    },
-    {
-      "player": "Skubal, Tarik",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": 105,
-      "stars": 1,
-      "game_pk": 777626
     },
     {
       "player": "Skubal, Tarik",

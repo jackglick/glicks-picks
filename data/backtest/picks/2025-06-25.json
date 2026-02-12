@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.896035+00:00",
+  "generated_at": "2026-02-12T20:49:09.932168+00:00",
   "date": "2025-06-25",
   "picks": [
     {
@@ -185,6 +185,18 @@
     {
       "player": "Gore, MacKenzie",
       "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 109,
+      "stars": 2,
+      "game_pk": 777360
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "opponent": "WSH",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -363,18 +375,6 @@
       "game_pk": 777357
     },
     {
-      "player": "Burke, Sean",
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -132,
-      "stars": 1,
-      "game_pk": 777370
-    },
-    {
       "player": "Cecconi, Slade",
       "opponent": "BOS",
       "market": "Total Bases",
@@ -435,16 +435,16 @@
       "game_pk": 777367
     },
     {
-      "player": "Gallen, Zac",
-      "opponent": "AZ",
+      "player": "Flaherty, Jack",
+      "opponent": "DET",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
+      "line": 6.5,
       "best_book": null,
-      "best_price": -103,
+      "best_price": -105,
       "stars": 1,
-      "game_pk": 777370
+      "game_pk": 777371
     },
     {
       "player": "Gallen, Zac",
@@ -457,18 +457,6 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777370
-    },
-    {
-      "player": "Holmes, Clay",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -116,
-      "stars": 1,
-      "game_pk": 777369
     },
     {
       "player": "Holmes, Clay",
@@ -627,18 +615,6 @@
       "game_pk": 777360
     },
     {
-      "player": "Scherzer, Max",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -119,
-      "stars": 1,
-      "game_pk": 777368
-    },
-    {
       "player": "Soto, Gregory",
       "opponent": "MIA",
       "market": "Total Bases",
@@ -711,16 +687,16 @@
       "game_pk": 777362
     },
     {
-      "player": "deGrom, Jacob",
-      "opponent": "TEX",
+      "player": "Williams, Gavin",
+      "opponent": "CLE",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
+      "direction": "OVER",
+      "line": 4.5,
       "best_book": null,
-      "best_price": -104,
+      "best_price": -120,
       "stars": 1,
-      "game_pk": 777365
+      "game_pk": 777368
     }
   ]
 }

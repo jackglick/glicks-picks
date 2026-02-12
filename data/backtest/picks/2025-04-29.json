@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.815532+00:00",
+  "generated_at": "2026-02-12T20:49:09.843476+00:00",
   "date": "2025-04-29",
   "picks": [
     {
@@ -15,14 +15,14 @@
       "game_pk": 778128
     },
     {
-      "player": "Francis, Bowden",
-      "opponent": "TOR",
+      "player": "Crochet, Garrett",
+      "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 6.5,
       "best_book": null,
-      "best_price": -165,
+      "best_price": 126,
       "stars": 3,
       "game_pk": 778127
     },
@@ -49,18 +49,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 778124
-    },
-    {
-      "player": "Bibee, Tanner",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 2,
-      "game_pk": 778129
     },
     {
       "player": "Crochet, Garrett",
@@ -183,6 +171,18 @@
       "game_pk": 778133
     },
     {
+      "player": "Bibee, Tanner",
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 778129
+    },
+    {
       "player": "Bruihl, Justin",
       "opponent": "KC",
       "market": "Hits",
@@ -251,6 +251,18 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -224,
+      "stars": 1,
+      "game_pk": 778127
+    },
+    {
+      "player": "Francis, Bowden",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -165,
       "stars": 1,
       "game_pk": 778127
     },
@@ -341,18 +353,6 @@
     {
       "player": "Lorenzen, Michael",
       "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -137,
-      "stars": 1,
-      "game_pk": 778128
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "opponent": "KC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -421,18 +421,6 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 778130
-    },
-    {
-      "player": "Paddack, Chris",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 119,
-      "stars": 1,
-      "game_pk": 778129
     },
     {
       "player": "Peralta, Wandy",

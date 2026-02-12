@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.808814+00:00",
+  "generated_at": "2026-02-12T20:49:09.836006+00:00",
   "date": "2025-04-23",
   "picks": [
     {
@@ -49,30 +49,6 @@
       "best_price": -125,
       "stars": 3,
       "game_pk": 778209
-    },
-    {
-      "player": "Boyd, Matthew",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 778205
-    },
-    {
-      "player": "Festa, David",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 778201
     },
     {
       "player": "Gordon, Colton",
@@ -255,18 +231,6 @@
       "game_pk": 778207
     },
     {
-      "player": "Williams, Trevor",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -166,
-      "stars": 2,
-      "game_pk": 778204
-    },
-    {
       "player": "Alcala, Jorge",
       "opponent": "BAL",
       "market": "Total Bases",
@@ -277,18 +241,6 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 778204
-    },
-    {
-      "player": "Alcantara, Sandy",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 778208
     },
     {
       "player": "Barco, Hunter",
@@ -387,6 +339,18 @@
       "game_pk": 778214
     },
     {
+      "player": "Festa, David",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778201
+    },
+    {
       "player": "Francis, Bowden",
       "opponent": "TOR",
       "market": "Outs Recorded",
@@ -469,6 +433,18 @@
       "best_price": 171,
       "stars": 1,
       "game_pk": 778214
+    },
+    {
+      "player": "Hancock, Emerson",
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -117,
+      "stars": 1,
+      "game_pk": 778207
     },
     {
       "player": "Jarvis, Bryce",
@@ -603,6 +579,18 @@
       "game_pk": 778198
     },
     {
+      "player": "Mikolas, Miles",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 116,
+      "stars": 1,
+      "game_pk": 778214
+    },
+    {
       "player": "Murray, Jayden",
       "opponent": "PIT",
       "market": "Hits",
@@ -625,18 +613,6 @@
       "best_price": -113,
       "stars": 1,
       "game_pk": 778200
-    },
-    {
-      "player": "Newcomb, Sean",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 778207
     },
     {
       "player": "Nola, Aaron",
@@ -733,18 +709,6 @@
       "best_price": -214,
       "stars": 1,
       "game_pk": 778197
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -153,
-      "stars": 1,
-      "game_pk": 778206
     },
     {
       "player": "Rod\u00f3n, Carlos",

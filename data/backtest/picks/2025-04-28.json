@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.814475+00:00",
+  "generated_at": "2026-02-12T20:49:09.842306+00:00",
   "date": "2025-04-28",
   "picks": [
     {
@@ -24,6 +24,18 @@
       "best_book": null,
       "best_price": -103,
       "stars": 3,
+      "game_pk": 778139
+    },
+    {
+      "player": "Williams, Gavin",
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -100,
+      "stars": 2,
       "game_pk": 778139
     },
     {
@@ -145,30 +157,6 @@
       "best_price": -142,
       "stars": 1,
       "game_pk": 778139
-    },
-    {
-      "player": "Warren, Will",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -114,
-      "stars": 1,
-      "game_pk": 778140
-    },
-    {
-      "player": "Williams, Trevor",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 778138
     }
   ]
 }

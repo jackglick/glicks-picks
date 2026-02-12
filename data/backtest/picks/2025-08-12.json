@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.960651+00:00",
+  "generated_at": "2026-02-12T20:49:09.998817+00:00",
   "date": "2025-08-12",
   "picks": [
     {
@@ -231,18 +231,6 @@
       "game_pk": 776768
     },
     {
-      "player": "Skenes, Paul",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -134,
-      "stars": 3,
-      "game_pk": 776771
-    },
-    {
       "player": "Soriano, George",
       "opponent": "ATL",
       "market": "Total Bases",
@@ -301,18 +289,6 @@
       "best_price": 110,
       "stars": 2,
       "game_pk": 776769
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -156,
-      "stars": 2,
-      "game_pk": 776768
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -397,6 +373,18 @@
       "best_price": -165,
       "stars": 2,
       "game_pk": 776774
+    },
+    {
+      "player": "Parker, Mitchell",
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 776770
     },
     {
       "player": "Rod\u00f3n, Carlos",
@@ -543,6 +531,18 @@
       "game_pk": 776776
     },
     {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -156,
+      "stars": 1,
+      "game_pk": 776768
+    },
+    {
       "player": "Bido, Osvaldo",
       "opponent": "WSH",
       "market": "Hits",
@@ -629,6 +629,18 @@
     {
       "player": "Freeland, Kyle",
       "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776775
+    },
+    {
+      "player": "Freeland, Kyle",
+      "opponent": "COL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -661,18 +673,6 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 776770
-    },
-    {
-      "player": "Holmes, Clay",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 776772
     },
     {
       "player": "Knack, Landon",
@@ -709,18 +709,6 @@
       "best_price": -250,
       "stars": 1,
       "game_pk": 776776
-    },
-    {
-      "player": "Liberatore, Matthew",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 129,
-      "stars": 1,
-      "game_pk": 776775
     },
     {
       "player": "Little, Brendon",
@@ -785,6 +773,18 @@
     {
       "player": "Peralta, Freddy",
       "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 776771
+    },
+    {
+      "player": "Peralta, Freddy",
+      "opponent": "MIL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -805,18 +805,6 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 776767
-    },
-    {
-      "player": "Singer, Brady",
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 776777
     },
     {
       "player": "Smith, Cade",
@@ -867,6 +855,18 @@
       "game_pk": 776778
     },
     {
+      "player": "Strider, Spencer",
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 776772
+    },
+    {
       "player": "Suter, Brent",
       "opponent": "LAD",
       "market": "Hits",
@@ -901,18 +901,6 @@
       "best_price": -152,
       "stars": 1,
       "game_pk": 776775
-    },
-    {
-      "player": "Wacha, Michael",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 776770
     },
     {
       "player": "Wicks, Jordan",

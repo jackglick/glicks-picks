@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.893608+00:00",
+  "generated_at": "2026-02-12T20:49:09.929612+00:00",
   "date": "2025-06-23",
   "picks": [
     {
@@ -159,18 +159,6 @@
       "game_pk": 777391
     },
     {
-      "player": "Blackburn, Paul",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777389
-    },
-    {
       "player": "Brash, Matt",
       "opponent": "CHC",
       "market": "Hits",
@@ -293,18 +281,6 @@
     {
       "player": "Liberatore, Matthew",
       "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 107,
-      "stars": 1,
-      "game_pk": 777392
-    },
-    {
-      "player": "Liberatore, Matthew",
-      "opponent": "STL",
       "market": "Walks",
       "category": "pitcher",
       "direction": "OVER",
@@ -349,18 +325,6 @@
       "best_price": -200,
       "stars": 1,
       "game_pk": 777392
-    },
-    {
-      "player": "Ober, Bailey",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -157,
-      "stars": 1,
-      "game_pk": 777388
     },
     {
       "player": "Patrick, Chad",
@@ -443,6 +407,18 @@
       "line": 0.5,
       "best_book": null,
       "best_price": 145,
+      "stars": 1,
+      "game_pk": 777393
+    },
+    {
+      "player": "Smith, Shane",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 105,
       "stars": 1,
       "game_pk": 777393
     },

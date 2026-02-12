@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.918913+00:00",
+  "generated_at": "2026-02-12T20:49:09.955834+00:00",
   "date": "2025-07-12",
   "picks": [
     {
@@ -315,16 +315,16 @@
       "game_pk": 777140
     },
     {
-      "player": "Fedde, Erick",
-      "opponent": "STL",
+      "player": "Fried, Max",
+      "opponent": "NYY",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
+      "direction": "OVER",
+      "line": 5.5,
       "best_book": null,
-      "best_price": -159,
+      "best_price": 119,
       "stars": 2,
-      "game_pk": 777133
+      "game_pk": 777142
     },
     {
       "player": "Iglesias, Raisel",
@@ -367,10 +367,10 @@
       "opponent": "LAD",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 3.5,
       "best_book": null,
-      "best_price": -185,
+      "best_price": 140,
       "stars": 2,
       "game_pk": 777127
     },
@@ -521,6 +521,18 @@
     {
       "player": "Blalock, Bradley",
       "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777140
+    },
+    {
+      "player": "Blalock, Bradley",
+      "opponent": "COL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -529,30 +541,6 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 777140
-    },
-    {
-      "player": "Boyd, Matthew",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -118,
-      "stars": 1,
-      "game_pk": 777142
-    },
-    {
-      "player": "Crochet, Garrett",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 777144
     },
     {
       "player": "Crochet, Garrett",
@@ -577,18 +565,6 @@
       "best_price": -180,
       "stars": 1,
       "game_pk": 777132
-    },
-    {
-      "player": "Darvish, Yu",
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 109,
-      "stars": 1,
-      "game_pk": 777126
     },
     {
       "player": "Faucher, Calvin",
@@ -649,18 +625,6 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777141
-    },
-    {
-      "player": "Kirby, George",
-      "opponent": "SEA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777145
     },
     {
       "player": "Lodolo, Nick",
@@ -879,18 +843,6 @@
       "game_pk": 777141
     },
     {
-      "player": "Roupp, Landen",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 107,
-      "stars": 1,
-      "game_pk": 777127
-    },
-    {
       "player": "Sale, Chris",
       "opponent": "PIT",
       "market": "Total Bases",
@@ -913,18 +865,6 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777134
-    },
-    {
-      "player": "Singer, Brady",
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.0,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777140
     },
     {
       "player": "Skubal, Tarik",
@@ -997,6 +937,18 @@
       "best_price": 177,
       "stars": 1,
       "game_pk": 777133
+    },
+    {
+      "player": "deGrom, Jacob",
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 118,
+      "stars": 1,
+      "game_pk": 777137
     }
   ]
 }

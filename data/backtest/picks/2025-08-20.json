@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.974503+00:00",
+  "generated_at": "2026-02-12T20:49:10.011490+00:00",
   "date": "2025-08-20",
   "picks": [
     {
@@ -375,16 +375,16 @@
       "game_pk": 776673
     },
     {
-      "player": "Senga, Kodai",
-      "opponent": "NYM",
+      "player": "P\u00e9rez, Mart\u00edn",
+      "opponent": "CWS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 2.5,
       "best_book": null,
-      "best_price": -144,
+      "best_price": -156,
       "stars": 2,
-      "game_pk": 776659
+      "game_pk": 776669
     },
     {
       "player": "Snell, Blake",
@@ -747,18 +747,6 @@
       "game_pk": 776665
     },
     {
-      "player": "Lord, Brad",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -103,
-      "stars": 1,
-      "game_pk": 776659
-    },
-    {
       "player": "Luzardo, Jes\u00fas",
       "opponent": "PHI",
       "market": "Strikeouts",
@@ -807,6 +795,30 @@
       "game_pk": 776665
     },
     {
+      "player": "Oviedo, Johan",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 106,
+      "stars": 1,
+      "game_pk": 776661
+    },
+    {
+      "player": "Pallante, Andre",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 776670
+    },
+    {
       "player": "Pallante, Andre",
       "opponent": "STL",
       "market": "Outs Recorded",
@@ -831,18 +843,6 @@
       "game_pk": 776659
     },
     {
-      "player": "P\u00e9rez, Mart\u00edn",
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": -156,
-      "stars": 1,
-      "game_pk": 776669
-    },
-    {
       "player": "Ram\u00edrez, Yohan",
       "opponent": "CWS",
       "market": "Total Bases",
@@ -865,18 +865,6 @@
       "best_price": -147,
       "stars": 1,
       "game_pk": 776661
-    },
-    {
-      "player": "Schlittler, Cam",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 776664
     },
     {
       "player": "Sears, JP",

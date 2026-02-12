@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.838443+00:00",
+  "generated_at": "2026-02-12T20:49:09.869924+00:00",
   "date": "2025-05-16",
   "picks": [
     {
@@ -61,6 +61,18 @@
       "best_price": 105,
       "stars": 3,
       "game_pk": 777895
+    },
+    {
+      "player": "Ragans, Cole",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 116,
+      "stars": 3,
+      "game_pk": 777901
     },
     {
       "player": "Ragans, Cole",
@@ -209,18 +221,6 @@
     {
       "player": "Bradley, Taj",
       "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -120,
-      "stars": 2,
-      "game_pk": 777903
-    },
-    {
-      "player": "Bradley, Taj",
-      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -245,18 +245,6 @@
     {
       "player": "Francis, Bowden",
       "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -137,
-      "stars": 2,
-      "game_pk": 777906
-    },
-    {
-      "player": "Francis, Bowden",
-      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -265,6 +253,18 @@
       "best_price": -116,
       "stars": 2,
       "game_pk": 777906
+    },
+    {
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 103,
+      "stars": 2,
+      "game_pk": 777905
     },
     {
       "player": "Lao, Sauryn",
@@ -341,18 +341,6 @@
     {
       "player": "Su\u00e1rez, Ranger",
       "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -121,
-      "stars": 2,
-      "game_pk": 777905
-    },
-    {
-      "player": "Su\u00e1rez, Ranger",
-      "opponent": "PHI",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -399,18 +387,6 @@
       "game_pk": 777907
     },
     {
-      "player": "Bibee, Tanner",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 119,
-      "stars": 1,
-      "game_pk": 777902
-    },
-    {
       "player": "Bido, Osvaldo",
       "opponent": "STL",
       "market": "Hits",
@@ -449,12 +425,36 @@
     {
       "player": "Flaherty, Jack",
       "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -161,
+      "stars": 1,
+      "game_pk": 777906
+    },
+    {
+      "player": "Flaherty, Jack",
+      "opponent": "DET",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 6.5,
       "best_book": null,
       "best_price": -165,
+      "stars": 1,
+      "game_pk": 777906
+    },
+    {
+      "player": "Francis, Bowden",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -137,
       "stars": 1,
       "game_pk": 777906
     },
@@ -557,6 +557,18 @@
     {
       "player": "Pallante, Andre",
       "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -157,
+      "stars": 1,
+      "game_pk": 777901
+    },
+    {
+      "player": "Pallante, Andre",
+      "opponent": "STL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -617,18 +629,6 @@
     {
       "player": "Povich, Cade",
       "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.0,
-      "best_book": null,
-      "best_price": -117,
-      "stars": 1,
-      "game_pk": 777907
-    },
-    {
-      "player": "Povich, Cade",
-      "opponent": "BAL",
       "market": "Walks",
       "category": "pitcher",
       "direction": "OVER",
@@ -639,40 +639,16 @@
       "game_pk": 777907
     },
     {
-      "player": "Ragans, Cole",
-      "opponent": "KC",
+      "player": "Su\u00e1rez, Ranger",
+      "opponent": "PHI",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 6.5,
+      "line": 5.5,
       "best_book": null,
-      "best_price": 116,
+      "best_price": -121,
       "stars": 1,
-      "game_pk": 777901
-    },
-    {
-      "player": "Singer, Brady",
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 101,
-      "stars": 1,
-      "game_pk": 777902
-    },
-    {
-      "player": "Smith, Shane",
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 777900
+      "game_pk": 777905
     },
     {
       "player": "Vest, Will",

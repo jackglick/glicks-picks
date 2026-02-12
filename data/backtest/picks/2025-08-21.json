@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.975712+00:00",
+  "generated_at": "2026-02-12T20:49:10.012746+00:00",
   "date": "2025-08-21",
   "picks": [
     {
@@ -161,6 +161,18 @@
     {
       "player": "Cease, Dylan",
       "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 776642
+    },
+    {
+      "player": "Cease, Dylan",
+      "opponent": "SD",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -183,18 +195,6 @@
       "game_pk": 776651
     },
     {
-      "player": "Gore, MacKenzie",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 105,
-      "stars": 2,
-      "game_pk": 776650
-    },
-    {
       "player": "Little, Brendon",
       "opponent": "STL",
       "market": "Total Bases",
@@ -205,6 +205,18 @@
       "best_price": -140,
       "stars": 2,
       "game_pk": 776631
+    },
+    {
+      "player": "Manaea, Sean",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -111,
+      "stars": 2,
+      "game_pk": 776650
     },
     {
       "player": "Phillips, Connor",
@@ -229,18 +241,6 @@
       "best_price": -118,
       "stars": 2,
       "game_pk": 776644
-    },
-    {
-      "player": "Ure\u00f1a, Jos\u00e9",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -153,
-      "stars": 2,
-      "game_pk": 776653
     },
     {
       "player": "Ashcraft, Graham",
@@ -387,18 +387,6 @@
       "game_pk": 776644
     },
     {
-      "player": "Dollander, Chase",
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -126,
-      "stars": 1,
-      "game_pk": 776644
-    },
-    {
       "player": "Garc\u00eda, Luis",
       "opponent": "LAD",
       "market": "Total Bases",
@@ -411,16 +399,16 @@
       "game_pk": 776644
     },
     {
-      "player": "Gil, Luis",
-      "opponent": "NYY",
+      "player": "Gore, MacKenzie",
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
       "best_book": null,
-      "best_price": -148,
+      "best_price": 105,
       "stars": 1,
-      "game_pk": 776654
+      "game_pk": 776650
     },
     {
       "player": "Kent, Zak",
@@ -433,18 +421,6 @@
       "best_price": 157,
       "stars": 1,
       "game_pk": 776657
-    },
-    {
-      "player": "Kershaw, Clayton",
-      "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -129,
-      "stars": 1,
-      "game_pk": 776644
     },
     {
       "player": "Leasure, Jordan",
@@ -481,18 +457,6 @@
       "best_price": -213,
       "stars": 1,
       "game_pk": 776653
-    },
-    {
-      "player": "Manaea, Sean",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -111,
-      "stars": 1,
-      "game_pk": 776650
     },
     {
       "player": "McGough, Scott",
@@ -589,18 +553,6 @@
       "best_price": -141,
       "stars": 1,
       "game_pk": 776631
-    },
-    {
-      "player": "Young, Brandon",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -156,
-      "stars": 1,
-      "game_pk": 776655
     }
   ]
 }

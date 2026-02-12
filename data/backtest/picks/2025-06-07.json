@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.873465+00:00",
+  "generated_at": "2026-02-12T20:49:09.907775+00:00",
   "date": "2025-06-07",
   "picks": [
     {
@@ -73,6 +73,18 @@
       "best_price": 137,
       "stars": 3,
       "game_pk": 777604
+    },
+    {
+      "player": "Holton, Tyler",
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": 157,
+      "stars": 3,
+      "game_pk": 777609
     },
     {
       "player": "Houser, Adrian",
@@ -401,18 +413,6 @@
     {
       "player": "Crochet, Garrett",
       "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -143,
-      "stars": 1,
-      "game_pk": 777605
-    },
-    {
-      "player": "Crochet, Garrett",
-      "opponent": "BOS",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -461,18 +461,6 @@
     {
       "player": "Fedde, Erick",
       "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777601
-    },
-    {
-      "player": "Fedde, Erick",
-      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -495,16 +483,16 @@
       "game_pk": 777609
     },
     {
-      "player": "Gausman, Kevin",
-      "opponent": "TOR",
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": -123,
+      "best_price": -154,
       "stars": 1,
-      "game_pk": 777600
+      "game_pk": 777607
     },
     {
       "player": "Jarvis, Bryce",
@@ -591,6 +579,18 @@
       "game_pk": 777611
     },
     {
+      "player": "Martinez, Nick",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 777612
+    },
+    {
       "player": "Nelson, Ryne",
       "opponent": "AZ",
       "market": "Strikeouts",
@@ -603,16 +603,16 @@
       "game_pk": 777612
     },
     {
-      "player": "Parker, Mitchell",
-      "opponent": "WSH",
+      "player": "Paddack, Chris",
+      "opponent": "MIN",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 3.5,
       "best_book": null,
-      "best_price": 112,
+      "best_price": -132,
       "stars": 1,
-      "game_pk": 777610
+      "game_pk": 777600
     },
     {
       "player": "Phillips, Tyler",
@@ -817,6 +817,18 @@
       "best_price": 119,
       "stars": 1,
       "game_pk": 777605
+    },
+    {
+      "player": "deGrom, Jacob",
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777610
     },
     {
       "player": "deGrom, Jacob",

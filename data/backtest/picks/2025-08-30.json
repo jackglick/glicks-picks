@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.988507+00:00",
+  "generated_at": "2026-02-12T20:49:10.026135+00:00",
   "date": "2025-08-30",
   "picks": [
     {
@@ -159,6 +159,18 @@
       "game_pk": 776531
     },
     {
+      "player": "Bradley, Taj",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -141,
+      "stars": 2,
+      "game_pk": 776530
+    },
+    {
       "player": "Cabrera, Edward",
       "opponent": "MIA",
       "market": "Hits Allowed",
@@ -219,6 +231,18 @@
       "game_pk": 776537
     },
     {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -170,
+      "stars": 2,
+      "game_pk": 776531
+    },
+    {
       "player": "Irvin, Jake",
       "opponent": "WSH",
       "market": "Hits Allowed",
@@ -265,18 +289,6 @@
       "best_price": -147,
       "stars": 2,
       "game_pk": 776525
-    },
-    {
-      "player": "May, Dustin",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -155,
-      "stars": 2,
-      "game_pk": 776539
     },
     {
       "player": "May, Dustin",
@@ -361,6 +373,18 @@
       "best_price": -105,
       "stars": 2,
       "game_pk": 776530
+    },
+    {
+      "player": "Rogers, Trevor",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 108,
+      "stars": 2,
+      "game_pk": 776516
     },
     {
       "player": "Treinen, Blake",
@@ -605,18 +629,6 @@
     {
       "player": "Hendricks, Kyle",
       "opponent": "LAA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 776531
-    },
-    {
-      "player": "Hendricks, Kyle",
-      "opponent": "LAA",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -637,18 +649,6 @@
       "best_price": 127,
       "stars": 1,
       "game_pk": 776539
-    },
-    {
-      "player": "Irvin, Jake",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 776525
     },
     {
       "player": "Jarvis, Bryce",
@@ -795,6 +795,18 @@
       "game_pk": 776539
     },
     {
+      "player": "McGreevy, Michael",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 776536
+    },
+    {
       "player": "Miller, Bryce",
       "opponent": "DET",
       "market": "Total Bases",
@@ -829,18 +841,6 @@
       "best_price": 105,
       "stars": 1,
       "game_pk": 776526
-    },
-    {
-      "player": "Pepiot, Ryan",
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 776525
     },
     {
       "player": "Pepiot, Ryan",
@@ -889,18 +889,6 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 776530
-    },
-    {
-      "player": "Rogers, Trevor",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 108,
-      "stars": 1,
-      "game_pk": 776516
     },
     {
       "player": "Sale, Chris",
@@ -975,18 +963,6 @@
       "game_pk": 776525
     },
     {
-      "player": "S\u00e1nchez, Cristopher",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 776532
-    },
-    {
       "player": "Weaver, Luke",
       "opponent": "BAL",
       "market": "Total Bases",
@@ -997,18 +973,6 @@
       "best_price": -172,
       "stars": 1,
       "game_pk": 776516
-    },
-    {
-      "player": "Williams, Gavin",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -111,
-      "stars": 1,
-      "game_pk": 776537
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.946549+00:00",
+  "generated_at": "2026-02-12T20:49:09.984510+00:00",
   "date": "2025-08-03",
   "picks": [
     {
@@ -279,6 +279,18 @@
       "game_pk": 776890
     },
     {
+      "player": "Pallante, Andre",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 776884
+    },
+    {
       "player": "Sale, Chris",
       "opponent": "PIT",
       "market": "Hits",
@@ -327,6 +339,18 @@
       "game_pk": 776889
     },
     {
+      "player": "Young, Brandon",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 776888
+    },
+    {
       "player": "deGrom, Jacob",
       "opponent": "TEX",
       "market": "Outs Recorded",
@@ -363,18 +387,6 @@
       "game_pk": 776893
     },
     {
-      "player": "Bassitt, Chris",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 776893
-    },
-    {
       "player": "Bednar, David",
       "opponent": "BAL",
       "market": "Total Bases",
@@ -385,18 +397,6 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 776888
-    },
-    {
-      "player": "Blalock, Bradley",
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": 112,
-      "stars": 1,
-      "game_pk": 776886
     },
     {
       "player": "Boyle, Joe",
@@ -661,6 +661,18 @@
       "best_price": -148,
       "stars": 1,
       "game_pk": 776887
+    },
+    {
+      "player": "Morton, Charlie",
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 776890
     },
     {
       "player": "Parker, Mitchell",

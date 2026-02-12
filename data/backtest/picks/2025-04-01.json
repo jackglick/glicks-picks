@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.769516+00:00",
+  "generated_at": "2026-02-12T20:49:09.794700+00:00",
   "date": "2025-04-01",
   "picks": [
     {
@@ -73,6 +73,18 @@
       "best_price": -105,
       "stars": 3,
       "game_pk": 778493
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -117,
+      "stars": 3,
+      "game_pk": 778495
     },
     {
       "player": "Holton, Tyler",
@@ -365,18 +377,6 @@
     {
       "player": "Lorenzen, Michael",
       "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -161,
-      "stars": 1,
-      "game_pk": 778488
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "opponent": "KC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -423,16 +423,16 @@
       "game_pk": 778492
     },
     {
-      "player": "Woods Richardson, Simeon",
-      "opponent": "MIN",
+      "player": "Williams, Trevor",
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": -136,
+      "best_price": 132,
       "stars": 1,
-      "game_pk": 778490
+      "game_pk": 778491
     },
     {
       "player": "Woods Richardson, Simeon",

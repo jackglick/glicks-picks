@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.782362+00:00",
+  "generated_at": "2026-02-12T20:49:09.808166+00:00",
   "date": "2025-04-07",
   "picks": [
     {
@@ -157,18 +157,6 @@
       "best_price": 120,
       "stars": 3,
       "game_pk": 778412
-    },
-    {
-      "player": "Mlodzinski, Carmen",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 3,
-      "game_pk": 778415
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -507,18 +495,6 @@
       "game_pk": 778415
     },
     {
-      "player": "Eovaldi, Nathan",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -123,
-      "stars": 2,
-      "game_pk": 778411
-    },
-    {
       "player": "Gage, Matt",
       "opponent": "STL",
       "market": "Total Bases",
@@ -601,6 +577,18 @@
       "best_price": -190,
       "stars": 2,
       "game_pk": 778412
+    },
+    {
+      "player": "Mlodzinski, Carmen",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 778415
     },
     {
       "player": "Okert, Steven",
@@ -965,6 +953,18 @@
     {
       "player": "Eovaldi, Nathan",
       "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -123,
+      "stars": 1,
+      "game_pk": 778411
+    },
+    {
+      "player": "Eovaldi, Nathan",
+      "opponent": "TEX",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1191,18 +1191,6 @@
       "game_pk": 778418
     },
     {
-      "player": "Liberatore, Matthew",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 117,
-      "stars": 1,
-      "game_pk": 778415
-    },
-    {
       "player": "Littell, Zack",
       "opponent": "STL",
       "market": "Hits",
@@ -1225,6 +1213,18 @@
       "best_price": 136,
       "stars": 1,
       "game_pk": 778411
+    },
+    {
+      "player": "May, Dustin",
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 778418
     },
     {
       "player": "May, Dustin",
@@ -1597,18 +1597,6 @@
       "best_price": 162,
       "stars": 1,
       "game_pk": 778426
-    },
-    {
-      "player": "Woods Richardson, Simeon",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -109,
-      "stars": 1,
-      "game_pk": 778412
     },
     {
       "player": "Woods Richardson, Simeon",

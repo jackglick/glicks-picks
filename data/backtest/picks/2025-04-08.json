@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.783875+00:00",
+  "generated_at": "2026-02-12T20:49:09.809841+00:00",
   "date": "2025-04-08",
   "picks": [
     {
@@ -147,6 +147,18 @@
       "game_pk": 778408
     },
     {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 107,
+      "stars": 3,
+      "game_pk": 778417
+    },
+    {
       "player": "Jackson, Luke",
       "opponent": "PHI",
       "market": "Total Bases",
@@ -183,6 +195,18 @@
       "game_pk": 778398
     },
     {
+      "player": "Lively, Ben",
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 104,
+      "stars": 3,
+      "game_pk": 778402
+    },
+    {
       "player": "Nola, Aaron",
       "opponent": "MIN",
       "market": "Total Bases",
@@ -191,6 +215,18 @@
       "line": 4.5,
       "best_book": null,
       "best_price": null,
+      "stars": 3,
+      "game_pk": 778400
+    },
+    {
+      "player": "Ragans, Cole",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 107,
       "stars": 3,
       "game_pk": 778400
     },
@@ -351,28 +387,28 @@
       "game_pk": 778401
     },
     {
-      "player": "Lively, Ben",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 104,
-      "stars": 2,
-      "game_pk": 778402
-    },
-    {
-      "player": "Ragans, Cole",
-      "opponent": "KC",
+      "player": "Gray, Sonny",
+      "opponent": "STL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 6.5,
       "best_book": null,
-      "best_price": 107,
+      "best_price": -115,
       "stars": 2,
-      "game_pk": 778400
+      "game_pk": 778408
+    },
+    {
+      "player": "Skenes, Paul",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 778408
     },
     {
       "player": "Skenes, Paul",
@@ -519,18 +555,6 @@
       "game_pk": 778407
     },
     {
-      "player": "Gray, Sonny",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 778408
-    },
-    {
       "player": "Hanifee, Brenan",
       "opponent": "LAA",
       "market": "Hits",
@@ -661,18 +685,6 @@
       "best_price": -162,
       "stars": 1,
       "game_pk": 778407
-    },
-    {
-      "player": "Skubal, Tarik",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 778403
     },
     {
       "player": "Skubal, Tarik",

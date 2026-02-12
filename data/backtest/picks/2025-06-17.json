@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.884985+00:00",
+  "generated_at": "2026-02-12T20:49:09.920122+00:00",
   "date": "2025-06-17",
   "picks": [
     {
@@ -35,6 +35,18 @@
       "line": 2.5,
       "best_book": null,
       "best_price": 145,
+      "stars": 3,
+      "game_pk": 777476
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 107,
       "stars": 3,
       "game_pk": 777476
     },
@@ -303,6 +315,18 @@
       "game_pk": 777475
     },
     {
+      "player": "Peterson, David",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 777489
+    },
+    {
       "player": "Rogers, Trevor",
       "opponent": "STL",
       "market": "Hits",
@@ -313,6 +337,18 @@
       "best_price": 149,
       "stars": 2,
       "game_pk": 777467
+    },
+    {
+      "player": "Senzatela, Antonio",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 777480
     },
     {
       "player": "Skubal, Tarik",
@@ -603,18 +639,6 @@
       "game_pk": 777477
     },
     {
-      "player": "Pfaadt, Brandon",
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777479
-    },
-    {
       "player": "Phillips, Tyler",
       "opponent": "NYM",
       "market": "Total Bases",
@@ -757,18 +781,6 @@
       "best_price": 187,
       "stars": 1,
       "game_pk": 777469
-    },
-    {
-      "player": "Warren, Will",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -142,
-      "stars": 1,
-      "game_pk": 777476
     },
     {
       "player": "Woods Richardson, Simeon",

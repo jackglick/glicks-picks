@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.983380+00:00",
+  "generated_at": "2026-02-12T20:49:10.020766+00:00",
   "date": "2025-08-26",
   "picks": [
     {
@@ -231,6 +231,18 @@
       "game_pk": 776581
     },
     {
+      "player": "Bassitt, Chris",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 103,
+      "stars": 2,
+      "game_pk": 776582
+    },
+    {
       "player": "Holmes, Clay",
       "opponent": "ATL",
       "market": "Total Bases",
@@ -253,6 +265,30 @@
       "best_price": -130,
       "stars": 2,
       "game_pk": 776578
+    },
+    {
+      "player": "Manaea, Sean",
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 112,
+      "stars": 2,
+      "game_pk": 776585
+    },
+    {
+      "player": "Ober, Bailey",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 776582
     },
     {
       "player": "Pomeranz, Drew",
@@ -317,18 +353,6 @@
     {
       "player": "Bassitt, Chris",
       "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 103,
-      "stars": 1,
-      "game_pk": 776582
-    },
-    {
-      "player": "Bassitt, Chris",
-      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -387,18 +411,6 @@
       "game_pk": 776588
     },
     {
-      "player": "Giolito, Lucas",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -149,
-      "stars": 1,
-      "game_pk": 776591
-    },
-    {
       "player": "Keller, Brad",
       "opponent": "SD",
       "market": "Total Bases",
@@ -409,18 +421,6 @@
       "best_price": -123,
       "stars": 1,
       "game_pk": 776577
-    },
-    {
-      "player": "Keller, Mitch",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -112,
-      "stars": 1,
-      "game_pk": 776578
     },
     {
       "player": "Kent, Zak",
@@ -473,18 +473,6 @@
     {
       "player": "Manaea, Sean",
       "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 112,
-      "stars": 1,
-      "game_pk": 776585
-    },
-    {
-      "player": "Manaea, Sean",
-      "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -493,18 +481,6 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 776585
-    },
-    {
-      "player": "Pallante, Andre",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 114,
-      "stars": 1,
-      "game_pk": 776578
     },
     {
       "player": "Pallante, Andre",

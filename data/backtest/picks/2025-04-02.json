@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-02-12T20:10:35.771230+00:00",
+  "generated_at": "2026-02-12T20:49:09.796511+00:00",
   "date": "2025-04-02",
   "picks": [
-    {
-      "player": "Crochet, Garrett",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -148,
-      "stars": 3,
-      "game_pk": 778483
-    },
     {
       "player": "Greene, Hunter",
       "opponent": "CIN",
@@ -183,6 +171,18 @@
       "game_pk": 778469
     },
     {
+      "player": "Wheeler, Zack",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 8.5,
+      "best_book": null,
+      "best_price": -113,
+      "stars": 3,
+      "game_pk": 778482
+    },
+    {
       "player": "Zerpa, Angel",
       "opponent": "CHC",
       "market": "Total Bases",
@@ -217,18 +217,6 @@
       "best_price": 115,
       "stars": 2,
       "game_pk": 778469
-    },
-    {
-      "player": "Cease, Dylan",
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 778476
     },
     {
       "player": "Chapman, Aroldis",
@@ -277,6 +265,18 @@
       "best_price": 145,
       "stars": 2,
       "game_pk": 778483
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -141,
+      "stars": 2,
+      "game_pk": 778479
     },
     {
       "player": "Peralta, Freddy",
@@ -387,18 +387,6 @@
       "game_pk": 778477
     },
     {
-      "player": "Castillo, Luis",
-      "opponent": "SEA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 778469
-    },
-    {
       "player": "Chapman, Aroldis",
       "opponent": "AZ",
       "market": "Hits",
@@ -409,6 +397,18 @@
       "best_price": 165,
       "stars": 1,
       "game_pk": 778484
+    },
+    {
+      "player": "Crochet, Garrett",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 778483
     },
     {
       "player": "Crochet, Garrett",
@@ -605,18 +605,6 @@
     {
       "player": "Leiter, Jack",
       "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -118,
-      "stars": 1,
-      "game_pk": 778480
-    },
-    {
-      "player": "Leiter, Jack",
-      "opponent": "TEX",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -641,6 +629,18 @@
     {
       "player": "Lively, Ben",
       "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 122,
+      "stars": 1,
+      "game_pk": 778476
+    },
+    {
+      "player": "Lively, Ben",
+      "opponent": "CLE",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -661,18 +661,6 @@
       "best_price": -160,
       "stars": 1,
       "game_pk": 778475
-    },
-    {
-      "player": "Pepiot, Ryan",
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -141,
-      "stars": 1,
-      "game_pk": 778479
     },
     {
       "player": "Phillips, Connor",
@@ -784,18 +772,6 @@
     },
     {
       "player": "Skubal, Tarik",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 778469
-    },
-    {
-      "player": "Skubal, Tarik",
       "opponent": "CLE",
       "market": "Hits",
       "category": "batter",
@@ -843,18 +819,6 @@
       "game_pk": 778481
     },
     {
-      "player": "Springs, Jeffrey",
-      "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778471
-    },
-    {
       "player": "Suter, Brent",
       "opponent": "ATL",
       "market": "Hits",
@@ -865,18 +829,6 @@
       "best_price": 152,
       "stars": 1,
       "game_pk": 778472
-    },
-    {
-      "player": "Taillon, Jameson",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -175,
-      "stars": 1,
-      "game_pk": 778471
     },
     {
       "player": "Treinen, Blake",
@@ -925,18 +877,6 @@
       "best_price": -184,
       "stars": 1,
       "game_pk": 778476
-    },
-    {
-      "player": "Wheeler, Zack",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 8.5,
-      "best_book": null,
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 778482
     },
     {
       "player": "Wheeler, Zack",

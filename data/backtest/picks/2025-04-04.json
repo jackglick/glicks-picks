@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.774717+00:00",
+  "generated_at": "2026-02-12T20:49:09.799920+00:00",
   "date": "2025-04-04",
   "picks": [
     {
@@ -27,28 +27,16 @@
       "game_pk": 778459
     },
     {
-      "player": "Pfaadt, Brandon",
-      "opponent": "AZ",
+      "player": "Fedde, Erick",
+      "opponent": "STL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
+      "line": 4.5,
       "best_book": null,
-      "best_price": -133,
+      "best_price": 108,
       "stars": 2,
-      "game_pk": 778457
-    },
-    {
-      "player": "Verlander, Justin",
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -142,
-      "stars": 2,
-      "game_pk": 778444
+      "game_pk": 778463
     },
     {
       "player": "V\u00e1squez, Randy",
@@ -87,54 +75,6 @@
       "game_pk": 778459
     },
     {
-      "player": "Buehler, Walker",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -175,
-      "stars": 1,
-      "game_pk": 778463
-    },
-    {
-      "player": "Fedde, Erick",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 108,
-      "stars": 1,
-      "game_pk": 778463
-    },
-    {
-      "player": "Flaherty, Jack",
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 778458
-    },
-    {
-      "player": "Gausman, Kevin",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 778465
-    },
-    {
       "player": "Gausman, Kevin",
       "opponent": "TOR",
       "market": "Walks",
@@ -159,16 +99,16 @@
       "game_pk": 778465
     },
     {
-      "player": "Irvin, Jake",
-      "opponent": "WSH",
+      "player": "Lugo, Seth",
+      "opponent": "KC",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.5,
+      "line": 4.5,
       "best_book": null,
-      "best_price": 126,
+      "best_price": -105,
       "stars": 1,
-      "game_pk": 778457
+      "game_pk": 778455
     },
     {
       "player": "Lugo, Seth",
@@ -183,28 +123,16 @@
       "game_pk": 778455
     },
     {
-      "player": "Luzardo, Jes\u00fas",
-      "opponent": "PHI",
+      "player": "Pfaadt, Brandon",
+      "opponent": "AZ",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
       "best_book": null,
-      "best_price": -117,
+      "best_price": -133,
       "stars": 1,
-      "game_pk": 778459
-    },
-    {
-      "player": "Schwellenbach, Spencer",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -137,
-      "stars": 1,
-      "game_pk": 778464
+      "game_pk": 778457
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.982216+00:00",
+  "generated_at": "2026-02-12T20:49:10.019540+00:00",
   "date": "2025-08-25",
   "picks": [
     {
@@ -245,18 +245,6 @@
     {
       "player": "McGreevy, Michael",
       "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -162,
-      "stars": 2,
-      "game_pk": 776589
-    },
-    {
-      "player": "McGreevy, Michael",
-      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -265,6 +253,18 @@
       "best_price": 105,
       "stars": 2,
       "game_pk": 776589
+    },
+    {
+      "player": "Ryan, Joe",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 776596
     },
     {
       "player": "Sale, Chris",
@@ -301,18 +301,6 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 776597
-    },
-    {
-      "player": "Senga, Kodai",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -161,
-      "stars": 2,
-      "game_pk": 776598
     },
     {
       "player": "Walker, Taijuan",
@@ -615,16 +603,16 @@
       "game_pk": 776600
     },
     {
-      "player": "Strider, Spencer",
-      "opponent": "ATL",
+      "player": "Sugano, Tomoyuki",
+      "opponent": "BAL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": 125,
+      "best_price": -112,
       "stars": 1,
-      "game_pk": 776600
+      "game_pk": 776604
     },
     {
       "player": "Vest, Will",

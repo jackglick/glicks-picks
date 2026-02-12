@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.840445+00:00",
+  "generated_at": "2026-02-12T20:49:09.872082+00:00",
   "date": "2025-05-17",
   "picks": [
     {
@@ -507,18 +507,6 @@
       "game_pk": 777886
     },
     {
-      "player": "Giolito, Lucas",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 777893
-    },
-    {
       "player": "Keller, Brad",
       "opponent": "STL",
       "market": "Total Bases",
@@ -627,6 +615,18 @@
       "game_pk": 777886
     },
     {
+      "player": "Wheeler, Zack",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -105,
+      "stars": 2,
+      "game_pk": 777894
+    },
+    {
       "player": "Alcala, Jorge",
       "opponent": "WSH",
       "market": "Total Bases",
@@ -637,18 +637,6 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 777890
-    },
-    {
-      "player": "Alcantara, Sandy",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 777889
     },
     {
       "player": "Banks, Tanner",
@@ -699,28 +687,28 @@
       "game_pk": 777890
     },
     {
-      "player": "Blanco, Ronel",
-      "opponent": "HOU",
+      "player": "Boyd, Matthew",
+      "opponent": "CHC",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
       "best_book": null,
-      "best_price": -136,
+      "best_price": 120,
       "stars": 1,
-      "game_pk": 777882
+      "game_pk": 777881
     },
     {
-      "player": "Canning, Griffin",
-      "opponent": "NYM",
+      "player": "Burke, Sean",
+      "opponent": "CWS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": null,
-      "best_price": -105,
+      "best_price": -148,
       "stars": 1,
-      "game_pk": 777888
+      "game_pk": 777881
     },
     {
       "player": "Canning, Griffin",
@@ -891,18 +879,6 @@
       "game_pk": 777883
     },
     {
-      "player": "Mahle, Tyler",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -139,
-      "stars": 1,
-      "game_pk": 777882
-    },
-    {
       "player": "Mejia, Juan",
       "opponent": "ATH",
       "market": "Hits",
@@ -925,6 +901,18 @@
       "best_price": -129,
       "stars": 1,
       "game_pk": 777879
+    },
+    {
+      "player": "Mikolas, Miles",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": null,
+      "best_price": -108,
+      "stars": 1,
+      "game_pk": 777885
     },
     {
       "player": "Miller, Mason",
@@ -955,10 +943,10 @@
       "opponent": "PIT",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 3.5,
       "best_book": null,
-      "best_price": -161,
+      "best_price": 124,
       "stars": 1,
       "game_pk": 777894
     },
@@ -1071,18 +1059,6 @@
       "game_pk": 777888
     },
     {
-      "player": "Rasmussen, Drew",
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -142,
-      "stars": 1,
-      "game_pk": 777889
-    },
-    {
       "player": "Sale, Chris",
       "opponent": "PIT",
       "market": "Hits",
@@ -1093,18 +1069,6 @@
       "best_price": 147,
       "stars": 1,
       "game_pk": 777894
-    },
-    {
-      "player": "Schmidt, Clarke",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 777888
     },
     {
       "player": "Smith, Cade",
@@ -1177,18 +1141,6 @@
       "best_price": -113,
       "stars": 1,
       "game_pk": 777893
-    },
-    {
-      "player": "Wheeler, Zack",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 777894
     },
     {
       "player": "Williams, Devin",

@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-02-12T20:10:35.807171+00:00",
+  "generated_at": "2026-02-12T20:49:09.834287+00:00",
   "date": "2025-04-22",
   "picks": [
+    {
+      "player": "Bubic, Kris",
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": -154,
+      "stars": 3,
+      "game_pk": 778215
+    },
     {
       "player": "Bubic, Kris",
       "opponent": "KC",
@@ -11,6 +23,18 @@
       "line": 17.5,
       "best_book": null,
       "best_price": 122,
+      "stars": 3,
+      "game_pk": 778215
+    },
+    {
+      "player": "Feltner, Ryan",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -115,
       "stars": 3,
       "game_pk": 778215
     },
@@ -181,6 +205,18 @@
       "best_price": 125,
       "stars": 2,
       "game_pk": 778222
+    },
+    {
+      "player": "Martin, Davis",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 126,
+      "stars": 2,
+      "game_pk": 778216
     },
     {
       "player": "Martin, Davis",
@@ -413,18 +449,6 @@
     {
       "player": "Bello, Brayan",
       "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -111,
-      "stars": 1,
-      "game_pk": 778224
-    },
-    {
-      "player": "Bello, Brayan",
-      "opponent": "BOS",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -459,30 +483,6 @@
       "game_pk": 778215
     },
     {
-      "player": "Bubic, Kris",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 778215
-    },
-    {
-      "player": "Canning, Griffin",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -116,
-      "stars": 1,
-      "game_pk": 778223
-    },
-    {
       "player": "Estrada, Jeremiah",
       "opponent": "LAD",
       "market": "Total Bases",
@@ -493,18 +493,6 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 778220
-    },
-    {
-      "player": "Feltner, Ryan",
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 778215
     },
     {
       "player": "Feltner, Ryan",
@@ -541,18 +529,6 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 778220
-    },
-    {
-      "player": "Kremer, Dean",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 778222
     },
     {
       "player": "Leiter, Jack",
@@ -593,18 +569,6 @@
     {
       "player": "May, Dustin",
       "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 778220
-    },
-    {
-      "player": "May, Dustin",
-      "opponent": "LAD",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -639,6 +603,18 @@
       "game_pk": 778210
     },
     {
+      "player": "Pallante, Andre",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -162,
+      "stars": 1,
+      "game_pk": 778229
+    },
+    {
       "player": "Peralta, Sammy",
       "opponent": "CIN",
       "market": "Hits",
@@ -649,18 +625,6 @@
       "best_price": 196,
       "stars": 1,
       "game_pk": 778219
-    },
-    {
-      "player": "Pivetta, Nick",
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -137,
-      "stars": 1,
-      "game_pk": 778221
     },
     {
       "player": "Sands, Cole",

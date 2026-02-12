@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.903127+00:00",
+  "generated_at": "2026-02-12T20:49:09.939412+00:00",
   "date": "2025-06-30",
   "picks": [
     {
@@ -123,18 +123,6 @@
       "game_pk": 777299
     },
     {
-      "player": "Scherzer, Max",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -148,
-      "stars": 3,
-      "game_pk": 777295
-    },
-    {
       "player": "Crochet, Garrett",
       "opponent": "BOS",
       "market": "Outs Recorded",
@@ -193,18 +181,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 777296
-    },
-    {
-      "player": "Heaney, Andrew",
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -182,
-      "stars": 1,
-      "game_pk": 777299
     },
     {
       "player": "Iglesias, Raisel",
@@ -277,6 +253,18 @@
       "best_price": -244,
       "stars": 1,
       "game_pk": 777299
+    },
+    {
+      "player": "Scherzer, Max",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 777295
     },
     {
       "player": "Scherzer, Max",

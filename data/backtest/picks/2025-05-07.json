@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.825964+00:00",
+  "generated_at": "2026-02-12T20:49:09.855412+00:00",
   "date": "2025-05-07",
   "picks": [
     {
@@ -87,18 +87,6 @@
       "game_pk": 778022
     },
     {
-      "player": "Soroka, Michael",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 3,
-      "game_pk": 778022
-    },
-    {
       "player": "Bednar, David",
       "opponent": "BAL",
       "market": "Hits",
@@ -123,18 +111,6 @@
       "game_pk": 778017
     },
     {
-      "player": "Brown, Ben",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 2,
-      "game_pk": 778020
-    },
-    {
       "player": "Cannon, Jonathan",
       "opponent": "CWS",
       "market": "Earned Runs",
@@ -149,6 +125,18 @@
     {
       "player": "Gray, Sonny",
       "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 119,
+      "stars": 2,
+      "game_pk": 778016
+    },
+    {
+      "player": "Gray, Sonny",
+      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -157,6 +145,18 @@
       "best_price": -104,
       "stars": 2,
       "game_pk": 778016
+    },
+    {
+      "player": "Greene, Hunter",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 7.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 778023
     },
     {
       "player": "Holmes, Grant",
@@ -207,18 +207,6 @@
       "game_pk": 778018
     },
     {
-      "player": "Priester, Quinn",
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -173,
-      "stars": 2,
-      "game_pk": 778015
-    },
-    {
       "player": "Ray, Robbie",
       "opponent": "SF",
       "market": "Walks",
@@ -229,6 +217,18 @@
       "best_price": -110,
       "stars": 2,
       "game_pk": 778020
+    },
+    {
+      "player": "Soroka, Michael",
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -154,
+      "stars": 2,
+      "game_pk": 778022
     },
     {
       "player": "Soto, Gregory",
@@ -253,18 +253,6 @@
       "best_price": -130,
       "stars": 2,
       "game_pk": 778010
-    },
-    {
-      "player": "Allen, Logan",
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 778022
     },
     {
       "player": "Avila, Luinder",
@@ -303,18 +291,6 @@
       "game_pk": 778017
     },
     {
-      "player": "Bellozo, Valente",
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": -156,
-      "stars": 1,
-      "game_pk": 778017
-    },
-    {
       "player": "Bibee, Tanner",
       "opponent": "DET",
       "market": "Total Bases",
@@ -325,6 +301,30 @@
       "best_price": -165,
       "stars": 1,
       "game_pk": 778013
+    },
+    {
+      "player": "Brown, Ben",
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778020
+    },
+    {
+      "player": "Cannon, Jonathan",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 778012
     },
     {
       "player": "Cease, Dylan",
@@ -483,18 +483,6 @@
       "game_pk": 778019
     },
     {
-      "player": "Gray, Sonny",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 119,
-      "stars": 1,
-      "game_pk": 778016
-    },
-    {
       "player": "Greene, Hunter",
       "opponent": "CIN",
       "market": "Earned Runs",
@@ -507,38 +495,14 @@
       "game_pk": 778023
     },
     {
-      "player": "Holmes, Grant",
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 778023
-    },
-    {
-      "player": "Houck, Tanner",
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778018
-    },
-    {
       "player": "Keller, Mitch",
       "opponent": "PIT",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 4.5,
       "best_book": null,
-      "best_price": -172,
+      "best_price": 132,
       "stars": 1,
       "game_pk": 778016
     },
@@ -655,10 +619,10 @@
       "opponent": "BAL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 4.5,
       "best_book": null,
-      "best_price": -160,
+      "best_price": 123,
       "stars": 1,
       "game_pk": 778011
     },
@@ -771,18 +735,6 @@
       "game_pk": 778022
     },
     {
-      "player": "Wacha, Michael",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 778012
-    },
-    {
       "player": "Wicks, Jordan",
       "opponent": "PIT",
       "market": "Hits",
@@ -793,18 +745,6 @@
       "best_price": 122,
       "stars": 1,
       "game_pk": 778016
-    },
-    {
-      "player": "Woods Richardson, Simeon",
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 778011
     },
     {
       "player": "Zerpa, Angel",

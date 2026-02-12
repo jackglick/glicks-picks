@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.958912+00:00",
+  "generated_at": "2026-02-12T20:49:09.997051+00:00",
   "date": "2025-08-11",
   "picks": [
     {
@@ -25,6 +25,18 @@
       "best_price": -129,
       "stars": 3,
       "game_pk": 776783
+    },
+    {
+      "player": "Heaney, Andrew",
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -100,
+      "stars": 3,
+      "game_pk": 776786
     },
     {
       "player": "Ohl, Pierson",
@@ -147,18 +159,6 @@
       "game_pk": 776786
     },
     {
-      "player": "Quintana, Jose",
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -123,
-      "stars": 2,
-      "game_pk": 776786
-    },
-    {
       "player": "Smith, Cade",
       "opponent": "DET",
       "market": "Total Bases",
@@ -179,6 +179,18 @@
       "line": 0.5,
       "best_book": null,
       "best_price": 185,
+      "stars": 2,
+      "game_pk": 776792
+    },
+    {
+      "player": "Walker, Taijuan",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 116,
       "stars": 2,
       "game_pk": 776792
     },
@@ -235,10 +247,10 @@
       "opponent": "COL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 3.5,
       "best_book": null,
-      "best_price": -167,
+      "best_price": 128,
       "stars": 1,
       "game_pk": 776783
     },
@@ -265,6 +277,18 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 776786
+    },
+    {
+      "player": "Matthews, Zebby",
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": -100,
+      "stars": 1,
+      "game_pk": 776790
     },
     {
       "player": "Matthews, Zebby",
@@ -311,6 +335,18 @@
       "line": 1.5,
       "best_book": null,
       "best_price": -118,
+      "stars": 1,
+      "game_pk": 776786
+    },
+    {
+      "player": "Quintana, Jose",
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -123,
       "stars": 1,
       "game_pk": 776786
     },
@@ -409,6 +445,18 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 776792
+    },
+    {
+      "player": "Warren, Will",
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -152,
+      "stars": 1,
+      "game_pk": 776790
     },
     {
       "player": "Weissert, Greg",

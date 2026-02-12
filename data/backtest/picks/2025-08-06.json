@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.951631+00:00",
+  "generated_at": "2026-02-12T20:49:09.989836+00:00",
   "date": "2025-08-06",
   "picks": [
     {
@@ -205,18 +205,6 @@
       "best_price": 115,
       "stars": 3,
       "game_pk": 776847
-    },
-    {
-      "player": "Ohtani, Shohei",
-      "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -135,
-      "stars": 3,
-      "game_pk": 776839
     },
     {
       "player": "Peralta, Wandy",
@@ -447,6 +435,18 @@
       "game_pk": 776843
     },
     {
+      "player": "Rogers, Trevor",
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 111,
+      "stars": 2,
+      "game_pk": 776851
+    },
+    {
       "player": "Seymour, Ian",
       "opponent": "TOR",
       "market": "Total Bases",
@@ -529,6 +529,30 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 776836
+    },
+    {
+      "player": "Abbott, Andrew",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 776847
+    },
+    {
+      "player": "Anderson, Tyler",
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 124,
+      "stars": 1,
+      "game_pk": 776843
     },
     {
       "player": "Ashcraft, Graham",
@@ -723,18 +747,6 @@
       "game_pk": 776859
     },
     {
-      "player": "Gausman, Kevin",
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -126,
-      "stars": 1,
-      "game_pk": 776836
-    },
-    {
       "player": "Gore, MacKenzie",
       "opponent": "MIL",
       "market": "Total Bases",
@@ -855,6 +867,18 @@
       "game_pk": 776844
     },
     {
+      "player": "Ohtani, Shohei",
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 776839
+    },
+    {
       "player": "Peterson, David",
       "opponent": "NYM",
       "market": "Outs Recorded",
@@ -927,18 +951,6 @@
       "game_pk": 776845
     },
     {
-      "player": "Rogers, Trevor",
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 111,
-      "stars": 1,
-      "game_pk": 776851
-    },
-    {
       "player": "Sale, Chris",
       "opponent": "SF",
       "market": "Hits",
@@ -987,18 +999,6 @@
       "game_pk": 776850
     },
     {
-      "player": "Springs, Jeffrey",
-      "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -161,
-      "stars": 1,
-      "game_pk": 776850
-    },
-    {
       "player": "Suter, Brent",
       "opponent": "STL",
       "market": "Hits",
@@ -1023,18 +1023,6 @@
       "game_pk": 776839
     },
     {
-      "player": "Su\u00e1rez, Ranger",
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 776851
-    },
-    {
       "player": "Vesia, Alex",
       "opponent": "CWS",
       "market": "Total Bases",
@@ -1057,18 +1045,6 @@
       "best_price": -156,
       "stars": 1,
       "game_pk": 776846
-    },
-    {
-      "player": "Wacha, Michael",
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 776856
     },
     {
       "player": "Wacha, Michael",

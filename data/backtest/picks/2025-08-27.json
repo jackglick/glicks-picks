@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.984705+00:00",
+  "generated_at": "2026-02-12T20:49:10.022215+00:00",
   "date": "2025-08-27",
   "picks": [
     {
@@ -219,6 +219,30 @@
       "game_pk": 776570
     },
     {
+      "player": "Civale, Aaron",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -126,
+      "stars": 2,
+      "game_pk": 776569
+    },
+    {
+      "player": "Gray, Sonny",
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": null,
+      "best_price": -128,
+      "stars": 2,
+      "game_pk": 776568
+    },
+    {
       "player": "Gray, Sonny",
       "opponent": "STL",
       "market": "Outs Recorded",
@@ -351,6 +375,18 @@
       "game_pk": 776570
     },
     {
+      "player": "Cecconi, Slade",
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 109,
+      "stars": 1,
+      "game_pk": 776580
+    },
+    {
       "player": "Darvish, Yu",
       "opponent": "SD",
       "market": "Outs Recorded",
@@ -397,18 +433,6 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 776563
-    },
-    {
-      "player": "Fried, Max",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 776570
     },
     {
       "player": "Gaddis, Hunter",
@@ -495,18 +519,6 @@
       "game_pk": 776563
     },
     {
-      "player": "Gray, Sonny",
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": null,
-      "best_price": -128,
-      "stars": 1,
-      "game_pk": 776568
-    },
-    {
       "player": "Kent, Zak",
       "opponent": "LAA",
       "market": "Total Bases",
@@ -553,6 +565,18 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 776570
+    },
+    {
+      "player": "Lauer, Eric",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 116,
+      "stars": 1,
+      "game_pk": 776567
     },
     {
       "player": "Little, Brendon",
@@ -687,6 +711,18 @@
       "game_pk": 776565
     },
     {
+      "player": "Walker, Taijuan",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 776566
+    },
+    {
       "player": "Weissert, Greg",
       "opponent": "DET",
       "market": "Hits",
@@ -709,18 +745,6 @@
       "best_price": 186,
       "stars": 1,
       "game_pk": 776579
-    },
-    {
-      "player": "Woo, Bryan",
-      "opponent": "SEA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 776561
     }
   ]
 }

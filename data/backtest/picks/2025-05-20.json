@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:10:35.844240+00:00",
+  "generated_at": "2026-02-12T20:49:09.876396+00:00",
   "date": "2025-05-20",
   "picks": [
     {
@@ -231,18 +231,6 @@
       "game_pk": 777840
     },
     {
-      "player": "Holmes, Clay",
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -152,
-      "stars": 2,
-      "game_pk": 777851
-    },
-    {
       "player": "Laweryson, Cody",
       "opponent": "PHI",
       "market": "Total Bases",
@@ -265,18 +253,6 @@
       "best_price": 115,
       "stars": 2,
       "game_pk": 777847
-    },
-    {
-      "player": "Parker, Mitchell",
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": 104,
-      "stars": 2,
-      "game_pk": 777841
     },
     {
       "player": "Sands, Cole",
@@ -337,18 +313,6 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 777845
-    },
-    {
-      "player": "Corbin, Patrick",
-      "opponent": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": -156,
-      "stars": 1,
-      "game_pk": 777849
     },
     {
       "player": "Falter, Bailey",
@@ -531,6 +495,18 @@
       "game_pk": 777842
     },
     {
+      "player": "Littell, Zack",
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": null,
+      "best_price": -128,
+      "stars": 1,
+      "game_pk": 777848
+    },
+    {
       "player": "Miller, Mason",
       "opponent": "CHC",
       "market": "Hits",
@@ -565,6 +541,18 @@
       "best_price": 131,
       "stars": 1,
       "game_pk": 777850
+    },
+    {
+      "player": "Parker, Mitchell",
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": 104,
+      "stars": 1,
+      "game_pk": 777841
     },
     {
       "player": "Peralta, Sammy",
@@ -653,6 +641,18 @@
     {
       "player": "Strider, Spencer",
       "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": null,
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777841
+    },
+    {
+      "player": "Strider, Spencer",
+      "opponent": "ATL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -661,30 +661,6 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 777841
-    },
-    {
-      "player": "Taillon, Jameson",
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -177,
-      "stars": 1,
-      "game_pk": 777850
-    },
-    {
-      "player": "Warren, Will",
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": null,
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777849
     },
     {
       "player": "Warren, Will",
