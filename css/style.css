@@ -215,7 +215,7 @@ button:focus-visible,
   margin-left: 0;
 }
 
-/* --- Dev/Prod Toggle --- */
+/* --- Backtest/Prod Toggle --- */
 .env-toggle-wrapper {
   display: flex;
   align-items: center;
@@ -280,8 +280,60 @@ button:focus-visible,
   outline-offset: 2px;
 }
 
-/* Dev Banner */
-.dev-banner {
+/* --- Backtest Date Picker --- */
+.backtest-date-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.backtest-date-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+
+.backtest-date-select {
+  font-family: var(--font);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235a6478' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  min-width: 200px;
+}
+
+.backtest-date-select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+  .backtest-date-picker {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .backtest-date-select {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+/* Backtest Banner */
+.backtest-banner {
   position: fixed;
   top: 60px;
   left: 0;
@@ -296,16 +348,16 @@ button:focus-visible,
   letter-spacing: 0.03em;
 }
 
-/* Extra top padding when dev banner is visible */
-body.dev-mode .page-hero {
+/* Extra top padding when backtest banner is visible */
+body.backtest-mode .page-hero {
   padding-top: calc(7rem + 2rem);
 }
 
-body.dev-mode .hero {
+body.backtest-mode .hero {
   padding-top: calc(9rem + 2rem);
 }
 
-body.dev-mode .mobile-nav {
+body.backtest-mode .mobile-nav {
   top: calc(60px + 2rem);
 }
 
@@ -870,7 +922,7 @@ body.dev-mode .mobile-nav {
   .nav-links { display: flex; }
   .hamburger { display: none; }
   .hero { padding: 11rem 0 6rem; }
-  body.dev-mode .hero { padding-top: calc(11rem + 2rem); }
+  body.backtest-mode .hero { padding-top: calc(11rem + 2rem); }
 
   .market-grid {
     grid-template-columns: repeat(4, 1fr);

@@ -81,7 +81,7 @@
   // Picks & Results Pages
   // ============================================
 
-  // --- Dev/Prod Toggle ---
+  // --- Backtest/Prod Toggle ---
   function getEnv() {
     return localStorage.getItem('glicks-env') || 'prod';
   }
@@ -92,12 +92,12 @@
 
   function getDataPath(filename) {
     var env = getEnv();
-    return env === 'dev' ? 'data/dev/' + filename : 'data/' + filename;
+    return env === 'dev' ? 'data/backtest/' + filename : 'data/' + filename;
   }
 
   function initEnvToggle() {
     var env = getEnv();
-    updateDevBanner(env);
+    updateBacktestBanner(env);
 
     var toggles = [
       document.getElementById('env-toggle'),
@@ -115,15 +115,15 @@
     });
   }
 
-  function updateDevBanner(env) {
-    var banner = document.getElementById('dev-banner');
+  function updateBacktestBanner(env) {
+    var banner = document.getElementById('backtest-banner');
     if (banner) {
       banner.style.display = (env === 'dev') ? 'block' : 'none';
     }
     if (env === 'dev') {
-      document.body.classList.add('dev-mode');
+      document.body.classList.add('backtest-mode');
     } else {
-      document.body.classList.remove('dev-mode');
+      document.body.classList.remove('backtest-mode');
     }
   }
 
@@ -176,6 +176,12 @@
     return node;
   }
 
+  function clearChildren(node) {
+    while (node.firstChild) {
+      node.removeChild(node.firstChild);
+    }
+  }
+
   function reobserveReveals() {
     // Delay one frame so layout recalculates after display changes
     requestAnimationFrame(function () {
@@ -185,11 +191,132 @@
     });
   }
 
+  // --- Shared Pick Card Renderer ---
+  function renderPickCard(pick) {
+    var card = el('div', 'pick-card');
+    card.setAttribute('data-stars', pick.stars);
+
+    // Header row
+    var header = el('div', 'pick-card-header');
+    var headerLeft = el('div');
+    headerLeft.appendChild(el('div', 'pick-card-player', pick.player));
+    headerLeft.appendChild(el('div', 'pick-card-opponent', 'vs ' + pick.opponent));
+    header.appendChild(headerLeft);
+    header.appendChild(el('div', 'pick-stars', renderStars(pick.stars)));
+    card.appendChild(header);
+
+    // Body row
+    var body = el('div', 'pick-card-body');
+    var dirClass = pick.direction === 'OVER' ? 'over' : 'under';
+    body.appendChild(el('span', 'pick-direction ' + dirClass, pick.direction));
+    body.appendChild(el('span', 'pick-line', String(pick.line)));
+    body.appendChild(el('span', 'pick-card-market', pick.market));
+    card.appendChild(body);
+
+    // Book info
+    if (pick.best_book) {
+      var bookDiv = el('div', 'pick-card-book', pick.best_book + ' ');
+      if (pick.best_price !== null) {
+        bookDiv.appendChild(el('span', 'pick-card-price', formatPrice(pick.best_price)));
+      }
+      card.appendChild(bookDiv);
+    }
+
+    return card;
+  }
+
+  // --- Backtest Date Picker ---
+  function initBacktestDatePicker() {
+    var picker = document.getElementById('backtest-date-picker');
+    var select = document.getElementById('backtest-date-select');
+    var container = document.getElementById('picks-container');
+    if (!picker || !select || !container) return;
+
+    fetch('data/backtest/picks_index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.status);
+        return res.json();
+      })
+      .then(function (index) {
+        if (!index || !index.dates || index.dates.length === 0) return;
+
+        // Populate dropdown (most recent first)
+        var dates = index.dates.slice().reverse();
+        dates.forEach(function (entry) {
+          var opt = document.createElement('option');
+          opt.value = entry.date;
+          opt.textContent = formatFullDate(entry.date) + ' (' + entry.count + ' picks)';
+          select.appendChild(opt);
+        });
+
+        // Show picker
+        picker.style.display = '';
+
+        // Load most recent date
+        loadBacktestPicks(dates[0].date, container);
+
+        // Handle date change
+        select.addEventListener('change', function () {
+          loadBacktestPicks(select.value, container);
+        });
+      })
+      .catch(function () {
+        // Index not available — fall through to empty state
+      });
+  }
+
+  function loadBacktestPicks(dateStr, container) {
+    var dateEl = document.getElementById('picks-date');
+    var emptyEl = document.getElementById('picks-empty');
+
+    // Update subtitle
+    if (dateEl) {
+      dateEl.textContent = formatFullDate(dateStr);
+    }
+
+    // Clear existing cards
+    clearChildren(container);
+    container.style.display = '';
+    if (emptyEl) emptyEl.style.display = 'none';
+
+    fetch('data/backtest/picks/' + dateStr + '.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        if (!data || !data.picks || data.picks.length === 0) {
+          container.style.display = 'none';
+          if (emptyEl) emptyEl.style.display = '';
+          return;
+        }
+
+        data.picks.forEach(function (pick) {
+          container.appendChild(renderPickCard(pick));
+        });
+
+        reobserveReveals();
+      })
+      .catch(function () {
+        container.style.display = 'none';
+        if (emptyEl) emptyEl.style.display = '';
+      });
+  }
+
   // --- Picks Page ---
   function initPicksPage() {
     var container = document.getElementById('picks-container');
     if (!container) return;
 
+    // Backtest mode: show date picker and browsable picks
+    if (getEnv() === 'dev') {
+      var titleEl = document.getElementById('picks-title');
+      if (titleEl) titleEl.textContent = '2025 Backtest Picks';
+      initBacktestDatePicker();
+      return;
+    }
+
+    // Prod mode: single day's picks
     fetchJSON('picks_today.json', function (data) {
       var dateEl = document.getElementById('picks-date');
       var emptyEl = document.getElementById('picks-empty');
@@ -213,36 +340,7 @@
       }
 
       data.picks.forEach(function (pick) {
-        var card = el('div', 'pick-card');
-        card.setAttribute('data-stars', pick.stars);
-
-        // Header row
-        var header = el('div', 'pick-card-header');
-        var headerLeft = el('div');
-        headerLeft.appendChild(el('div', 'pick-card-player', pick.player));
-        headerLeft.appendChild(el('div', 'pick-card-opponent', 'vs ' + pick.opponent));
-        header.appendChild(headerLeft);
-        header.appendChild(el('div', 'pick-stars', renderStars(pick.stars)));
-        card.appendChild(header);
-
-        // Body row
-        var body = el('div', 'pick-card-body');
-        var dirClass = pick.direction === 'OVER' ? 'over' : 'under';
-        body.appendChild(el('span', 'pick-direction ' + dirClass, pick.direction));
-        body.appendChild(el('span', 'pick-line', String(pick.line)));
-        body.appendChild(el('span', 'pick-card-market', pick.market));
-        card.appendChild(body);
-
-        // Book info
-        if (pick.best_book) {
-          var bookDiv = el('div', 'pick-card-book', pick.best_book + ' ');
-          if (pick.best_price !== null) {
-            bookDiv.appendChild(el('span', 'pick-card-price', formatPrice(pick.best_price)));
-          }
-          card.appendChild(bookDiv);
-        }
-
-        container.appendChild(card);
+        container.appendChild(renderPickCard(pick));
       });
 
       reobserveReveals();

@@ -38,7 +38,7 @@
       </nav>
       <div class="env-toggle-wrapper">
         <label class="env-toggle-label" for="env-toggle">
-          <span class="env-toggle-text">Demo</span>
+          <span class="env-toggle-text">Backtest</span>
           <input type="checkbox" id="env-toggle" class="env-toggle-input">
           <span class="env-toggle-slider"></span>
         </label>
@@ -58,23 +58,27 @@
     <a href="index.html">About</a>
     <div class="env-toggle-wrapper">
       <label class="env-toggle-label" for="env-toggle-mobile">
-        <span class="env-toggle-text">Demo</span>
+        <span class="env-toggle-text">Backtest</span>
         <input type="checkbox" id="env-toggle-mobile" class="env-toggle-input">
         <span class="env-toggle-slider"></span>
       </label>
     </div>
   </div>
 
-  <!-- Dev Banner -->
-  <div id="dev-banner" class="dev-banner" style="display:none">
-    Viewing 2025 Historical Demo Data
+  <!-- Backtest Banner -->
+  <div id="backtest-banner" class="backtest-banner" style="display:none">
+    Viewing 2025 Backtest Data
   </div>
 
   <!-- Page Hero -->
   <section class="page-hero">
     <div class="container">
-      <h1 class="page-title reveal">Today's Picks</h1>
+      <h1 class="page-title reveal" id="picks-title">Today's Picks</h1>
       <p class="page-subtitle reveal" id="picks-date"></p>
+      <div class="backtest-date-picker" id="backtest-date-picker" style="display:none">
+        <label for="backtest-date-select" class="backtest-date-label">Select date</label>
+        <select id="backtest-date-select" class="backtest-date-select"></select>
+      </div>
     </div>
   </section>
 
