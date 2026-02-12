@@ -23,7 +23,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -123,17 +123,20 @@
         <div class="edge-tier skip">
           <div class="edge-tier-range">&lt; 10%</div>
           <div class="edge-tier-label">Below threshold</div>
-          <div class="edge-tier-bar"><div class="edge-tier-fill" style="width: 0%"></div></div>
+          <div class="edge-tier-bar"><div class="edge-tier-fill" data-width="0"></div></div>
+          <div class="edge-tier-value">~50%</div>
         </div>
         <div class="edge-tier caution">
           <div class="edge-tier-range">10 &ndash; 15%</div>
           <div class="edge-tier-label">Marginal signal</div>
-          <div class="edge-tier-bar"><div class="edge-tier-fill" style="width: 45%"></div></div>
+          <div class="edge-tier-bar"><div class="edge-tier-fill" data-width="45"></div></div>
+          <div class="edge-tier-value">58%</div>
         </div>
         <div class="edge-tier go">
           <div class="edge-tier-range">15%+</div>
           <div class="edge-tier-label">Strong signal</div>
-          <div class="edge-tier-bar"><div class="edge-tier-fill" style="width: 100%"></div></div>
+          <div class="edge-tier-bar"><div class="edge-tier-fill" data-width="100"></div></div>
+          <div class="edge-tier-value">64.4%</div>
         </div>
       </div>
 

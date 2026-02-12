@@ -5,6 +5,12 @@
 (function () {
   'use strict';
 
+  // Mark that JS is active (for CSS fallback on .reveal)
+  document.documentElement.classList.add('js');
+
+  // Check reduced motion preference
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
   // --- Scroll Reveal ---
   var revealObserver = new IntersectionObserver(
     function (entries) {
@@ -21,6 +27,33 @@
   document.querySelectorAll('.reveal').forEach(function (el) {
     revealObserver.observe(el);
   });
+
+  // --- Edge-Tier Bar Animation on Scroll ---
+  var barObserver = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var fills = entry.target.querySelectorAll('.edge-tier-fill');
+          fills.forEach(function (fill) {
+            var targetWidth = fill.getAttribute('data-width');
+            if (targetWidth !== null) {
+              if (prefersReducedMotion) {
+                fill.style.transition = 'none';
+              }
+              fill.style.width = targetWidth + '%';
+            }
+          });
+          barObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  var edgeTiers = document.querySelector('.edge-tiers');
+  if (edgeTiers) {
+    barObserver.observe(edgeTiers);
+  }
 
   // --- Mobile Menu ---
   var hamburger = document.querySelector('.hamburger');
