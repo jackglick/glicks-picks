@@ -485,6 +485,9 @@
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        layout: {
+          padding: { left: 8, right: 8 }
+        },
         interaction: {
           mode: 'index',
           intersect: false
@@ -521,7 +524,10 @@
             grid: { color: 'rgba(27, 42, 74, 0.06)' },
             ticks: {
               font: { family: "'JetBrains Mono'", size: 11 },
-              callback: function (val) { return '$' + val.toLocaleString(); }
+              callback: function (val) {
+                if (Math.abs(val) >= 1000) return '$' + (val / 1000) + 'K';
+                return '$' + val;
+              }
             }
           },
           y2: {
@@ -531,7 +537,10 @@
             ticks: {
               font: { family: "'JetBrains Mono'", size: 11 },
               color: 'rgba(99, 102, 241, 0.7)',
-              callback: function (val) { return '$' + val.toLocaleString(); }
+              callback: function (val) {
+                if (Math.abs(val) >= 1000) return '$' + (val / 1000) + 'K';
+                return '$' + val;
+              }
             }
           }
         }
