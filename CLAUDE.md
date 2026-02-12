@@ -1,6 +1,6 @@
 # Glick's Picks
 
-A static website for an MLB strikeout prop analytics project. Hosted on GitHub Pages at glicks-picks.com.
+A static website for an MLB player prop analytics project (7 markets: 5 pitcher props + 2 batter props). Hosted on GitHub Pages at glicks-picks.com.
 
 ## Project structure
 

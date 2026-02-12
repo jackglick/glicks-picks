@@ -518,6 +518,73 @@ button:focus-visible,
   line-height: 1.65;
 }
 
+/* --- Market Grid (The Edge) --- */
+.market-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.market-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+}
+
+.market-type {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.market-type.pitcher {
+  color: var(--accent);
+  background: rgba(26, 127, 109, 0.15);
+}
+
+.market-type.batter {
+  color: var(--yellow);
+  background: rgba(212, 148, 10, 0.15);
+}
+
+.market-card h3 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.market-nums {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0.5rem;
+}
+
+.market-val {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.market-val.accent {
+  color: var(--accent);
+}
+
+.market-sample {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.35);
+}
+
 /* --- What's Next --- */
 .whats-next {
   padding: 4rem 0;
@@ -689,6 +756,10 @@ button:focus-visible,
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .market-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .next-items {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -701,4 +772,8 @@ button:focus-visible,
   .nav-links { display: flex; }
   .hamburger { display: none; }
   .hero { padding: 11rem 0 6rem; }
+
+  .market-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
