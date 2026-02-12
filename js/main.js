@@ -79,6 +79,7 @@
   var sections = document.querySelectorAll('section[id]');
   var navLinks = document.querySelectorAll('.nav-links a, .mobile-nav a');
 
+  var navTicking = false;
   function highlightNav() {
     var scrollY = window.scrollY + 100;
     sections.forEach(function (section) {
@@ -94,8 +95,14 @@
         });
       }
     });
+    navTicking = false;
   }
 
-  window.addEventListener('scroll', highlightNav, { passive: true });
+  window.addEventListener('scroll', function () {
+    if (!navTicking) {
+      navTicking = true;
+      requestAnimationFrame(highlightNav);
+    }
+  }, { passive: true });
   highlightNav();
 })();
