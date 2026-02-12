@@ -133,11 +133,8 @@ button:focus-visible,
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(250, 247, 242, 0.95);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(250, 247, 242, 0.97);
   border-bottom: 1px solid var(--border);
-  will-change: transform;
 }
 
 .header-inner {
@@ -196,9 +193,7 @@ button:focus-visible,
   display: none;
   position: fixed;
   inset: 60px 0 0 0;
-  background: rgba(250, 247, 242, 0.97);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(250, 247, 242, 0.98);
   z-index: 99;
 }
 .mobile-nav.open {
@@ -229,9 +224,7 @@ button:focus-visible,
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(250, 247, 242, 0.62) 0%, rgba(250, 247, 242, 0.70) 100%);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  background: linear-gradient(180deg, rgba(250, 247, 242, 0.68) 0%, rgba(250, 247, 242, 0.76) 100%);
   pointer-events: none;
 }
 
