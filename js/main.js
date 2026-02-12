@@ -81,9 +81,55 @@
   // Picks & Results Pages
   // ============================================
 
+  // --- Dev/Prod Toggle ---
+  function getEnv() {
+    return localStorage.getItem('glicks-env') || 'prod';
+  }
+
+  function setEnv(env) {
+    localStorage.setItem('glicks-env', env);
+  }
+
+  function getDataPath(filename) {
+    var env = getEnv();
+    return env === 'dev' ? 'data/dev/' + filename : 'data/' + filename;
+  }
+
+  function initEnvToggle() {
+    var env = getEnv();
+    updateDevBanner(env);
+
+    var toggles = [
+      document.getElementById('env-toggle'),
+      document.getElementById('env-toggle-mobile')
+    ];
+
+    toggles.forEach(function (toggle) {
+      if (!toggle) return;
+      toggle.checked = (env === 'dev');
+      toggle.addEventListener('change', function () {
+        var newEnv = toggle.checked ? 'dev' : 'prod';
+        setEnv(newEnv);
+        location.reload();
+      });
+    });
+  }
+
+  function updateDevBanner(env) {
+    var banner = document.getElementById('dev-banner');
+    if (banner) {
+      banner.style.display = (env === 'dev') ? 'block' : 'none';
+    }
+    if (env === 'dev') {
+      document.body.classList.add('dev-mode');
+    } else {
+      document.body.classList.remove('dev-mode');
+    }
+  }
+
   // --- Utilities ---
   function fetchJSON(filename, callback) {
-    fetch('data/' + filename)
+    fetch(getDataPath(filename))
       .then(function (res) {
         if (!res.ok) throw new Error(res.status);
         return res.json();
@@ -342,6 +388,7 @@
   }
 
   // --- Page Router ---
+  initEnvToggle();
   initPicksPage();
   initResultsPage();
 

@@ -1,0 +1,1186 @@
+{
+  "generated_at": "2026-02-12T18:47:09.482401+00:00",
+  "summary": {
+    "total_bets": 10073,
+    "wins": 6046,
+    "losses": 3959,
+    "pushes": 68,
+    "win_rate": 60.4,
+    "total_pnl": 196893.14,
+    "roi": 19.5,
+    "current_streak": 1,
+    "streak_type": "W",
+    "max_drawdown": -3409.46
+  },
+  "by_market": [
+    {
+      "market": "Hits",
+      "category": "batter",
+      "bets": 3484,
+      "wins": 1940,
+      "losses": 1515,
+      "win_rate": 56.2,
+      "pnl": 73270.55,
+      "roi": 21.0
+    },
+    {
+      "market": "Total Bases",
+      "category": "batter",
+      "bets": 4255,
+      "wins": 2800,
+      "losses": 1441,
+      "win_rate": 66.0,
+      "pnl": 103432.16,
+      "roi": 24.3
+    },
+    {
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "bets": 284,
+      "wins": 191,
+      "losses": 77,
+      "win_rate": 71.3,
+      "pnl": 9042.69,
+      "roi": 31.8
+    },
+    {
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "bets": 190,
+      "wins": 133,
+      "losses": 51,
+      "win_rate": 72.3,
+      "pnl": 6356.4,
+      "roi": 33.5
+    },
+    {
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "bets": 982,
+      "wins": 524,
+      "losses": 456,
+      "win_rate": 53.5,
+      "pnl": 7647.71,
+      "roi": 7.8
+    },
+    {
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "bets": 668,
+      "wins": 339,
+      "losses": 328,
+      "win_rate": 50.8,
+      "pnl": -4970.93,
+      "roi": -7.4
+    },
+    {
+      "market": "Walks",
+      "category": "pitcher",
+      "bets": 210,
+      "wins": 119,
+      "losses": 91,
+      "win_rate": 56.7,
+      "pnl": 2114.56,
+      "roi": 10.1
+    }
+  ],
+  "recent": [
+    {
+      "date": "2025-08-30",
+      "player": "Arrighetti, Spencer",
+      "market": "Strikeouts",
+      "direction": "UNDER",
+      "line": 6.5,
+      "actual": 8,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 3
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Gilbert, Logan",
+      "market": "Strikeouts",
+      "direction": "UNDER",
+      "line": 6.5,
+      "actual": 6,
+      "result": "win",
+      "pnl": 95.24,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "May, Dustin",
+      "market": "Strikeouts",
+      "direction": "UNDER",
+      "line": 5.5,
+      "actual": 5,
+      "result": "win",
+      "pnl": 64.52,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Hendricks, Kyle",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 2.5,
+      "actual": 2,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Cabrera, Edward",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 5.5,
+      "actual": 4,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Irvin, Jake",
+      "market": "Strikeouts",
+      "direction": "UNDER",
+      "line": 3.5,
+      "actual": 3,
+      "result": "win",
+      "pnl": 110.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Williams, Gavin",
+      "market": "Strikeouts",
+      "direction": "UNDER",
+      "line": 5.5,
+      "actual": 8,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Rogers, Trevor",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 5.5,
+      "actual": 5,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "S\u00e1nchez, Cristopher",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 5.5,
+      "actual": 8,
+      "result": "win",
+      "pnl": 75.19,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Pepiot, Ryan",
+      "market": "Strikeouts",
+      "direction": "UNDER",
+      "line": 5.5,
+      "actual": 6,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "May, Dustin",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 7.5,
+      "actual": 8,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Oviedo, Johan",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 3.5,
+      "actual": 2,
+      "result": "win",
+      "pnl": 95.24,
+      "stars": 3
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Irvin, Jake",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 9.0,
+      "actual": 5,
+      "result": "win",
+      "pnl": 62.5,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Priester, Quinn",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 8.0,
+      "actual": 5,
+      "result": "win",
+      "pnl": 90.91,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Cabrera, Edward",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 7.0,
+      "actual": 8,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Cabrera, Edward",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 3.5,
+      "actual": 5,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Pepiot, Ryan",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 4.0,
+      "actual": 0,
+      "result": "win",
+      "pnl": 80.0,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Gausman, Kevin",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 7.5,
+      "actual": 4,
+      "result": "win",
+      "pnl": 62.5,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Gilbert, Logan",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Hendricks, Kyle",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 3.5,
+      "actual": 1,
+      "result": "win",
+      "pnl": 64.52,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Gausman, Kevin",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 20,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Sale, Chris",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 3.0,
+      "actual": 1,
+      "result": "win",
+      "pnl": 110.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Pivetta, Nick",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 110.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Abbott, Andrew",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 84.75,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "May, Dustin",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 16.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 90.91,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Peterson, David",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 18.5,
+      "actual": 6,
+      "result": "win",
+      "pnl": 54.64,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Arrighetti, Spencer",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 16.5,
+      "actual": 19,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Schlittler, Cam",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 16.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Smith, Shane",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 14.5,
+      "actual": 20,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2025-08-30",
+      "player": "Flaherty, Jack",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 16,
+      "result": "win",
+      "pnl": 86.96,
+      "stars": 1
+    }
+  ],
+  "cumulative_pnl": [
+    {
+      "date": "2025-03-27",
+      "pnl": 1524.66,
+      "cumulative": 1524.66
+    },
+    {
+      "date": "2025-03-28",
+      "pnl": 1097.85,
+      "cumulative": 2622.51
+    },
+    {
+      "date": "2025-03-29",
+      "pnl": 451.29,
+      "cumulative": 3073.8
+    },
+    {
+      "date": "2025-03-30",
+      "pnl": -920.94,
+      "cumulative": 2152.86
+    },
+    {
+      "date": "2025-03-31",
+      "pnl": 2587.15,
+      "cumulative": 4740.01
+    },
+    {
+      "date": "2025-04-01",
+      "pnl": 1026.94,
+      "cumulative": 5766.95
+    },
+    {
+      "date": "2025-04-02",
+      "pnl": -1738.44,
+      "cumulative": 4028.51
+    },
+    {
+      "date": "2025-04-03",
+      "pnl": 1079.64,
+      "cumulative": 5108.15
+    },
+    {
+      "date": "2025-04-04",
+      "pnl": 258.21,
+      "cumulative": 5366.36
+    },
+    {
+      "date": "2025-04-05",
+      "pnl": 665.32,
+      "cumulative": 6031.68
+    },
+    {
+      "date": "2025-04-06",
+      "pnl": 1021.82,
+      "cumulative": 7053.5
+    },
+    {
+      "date": "2025-04-07",
+      "pnl": -193.57,
+      "cumulative": 6859.93
+    },
+    {
+      "date": "2025-04-08",
+      "pnl": 1532.88,
+      "cumulative": 8392.81
+    },
+    {
+      "date": "2025-04-09",
+      "pnl": 1291.72,
+      "cumulative": 9684.53
+    },
+    {
+      "date": "2025-04-10",
+      "pnl": 133.46,
+      "cumulative": 9817.99
+    },
+    {
+      "date": "2025-04-11",
+      "pnl": 425.4,
+      "cumulative": 10243.39
+    },
+    {
+      "date": "2025-04-12",
+      "pnl": -209.47,
+      "cumulative": 10033.92
+    },
+    {
+      "date": "2025-04-13",
+      "pnl": -940.58,
+      "cumulative": 9093.34
+    },
+    {
+      "date": "2025-04-14",
+      "pnl": -1024.35,
+      "cumulative": 8068.99
+    },
+    {
+      "date": "2025-04-15",
+      "pnl": 488.81,
+      "cumulative": 8557.8
+    },
+    {
+      "date": "2025-04-16",
+      "pnl": 919.94,
+      "cumulative": 9477.74
+    },
+    {
+      "date": "2025-04-17",
+      "pnl": -979.65,
+      "cumulative": 8498.09
+    },
+    {
+      "date": "2025-04-18",
+      "pnl": 119.17,
+      "cumulative": 8617.26
+    },
+    {
+      "date": "2025-04-19",
+      "pnl": 842.1,
+      "cumulative": 9459.36
+    },
+    {
+      "date": "2025-04-20",
+      "pnl": 508.76,
+      "cumulative": 9968.12
+    },
+    {
+      "date": "2025-04-21",
+      "pnl": -463.22,
+      "cumulative": 9504.9
+    },
+    {
+      "date": "2025-04-22",
+      "pnl": -332.01,
+      "cumulative": 9172.89
+    },
+    {
+      "date": "2025-04-23",
+      "pnl": 942.25,
+      "cumulative": 10115.14
+    },
+    {
+      "date": "2025-04-24",
+      "pnl": -82.28,
+      "cumulative": 10032.86
+    },
+    {
+      "date": "2025-04-25",
+      "pnl": -96.32,
+      "cumulative": 9936.54
+    },
+    {
+      "date": "2025-04-26",
+      "pnl": -899.12,
+      "cumulative": 9037.42
+    },
+    {
+      "date": "2025-04-27",
+      "pnl": 1039.93,
+      "cumulative": 10077.35
+    },
+    {
+      "date": "2025-04-28",
+      "pnl": -106.58,
+      "cumulative": 9970.77
+    },
+    {
+      "date": "2025-04-29",
+      "pnl": -47.67,
+      "cumulative": 9923.1
+    },
+    {
+      "date": "2025-04-30",
+      "pnl": -593.62,
+      "cumulative": 9329.48
+    },
+    {
+      "date": "2025-05-01",
+      "pnl": 666.4,
+      "cumulative": 9995.88
+    },
+    {
+      "date": "2025-05-02",
+      "pnl": 2505.26,
+      "cumulative": 12501.14
+    },
+    {
+      "date": "2025-05-03",
+      "pnl": 1571.67,
+      "cumulative": 14072.81
+    },
+    {
+      "date": "2025-05-04",
+      "pnl": 1563.45,
+      "cumulative": 15636.26
+    },
+    {
+      "date": "2025-05-05",
+      "pnl": 788.37,
+      "cumulative": 16424.63
+    },
+    {
+      "date": "2025-05-06",
+      "pnl": 1262.34,
+      "cumulative": 17686.97
+    },
+    {
+      "date": "2025-05-07",
+      "pnl": 1346.91,
+      "cumulative": 19033.88
+    },
+    {
+      "date": "2025-05-08",
+      "pnl": 323.51,
+      "cumulative": 19357.39
+    },
+    {
+      "date": "2025-05-09",
+      "pnl": 1236.74,
+      "cumulative": 20594.13
+    },
+    {
+      "date": "2025-05-10",
+      "pnl": 2743.72,
+      "cumulative": 23337.85
+    },
+    {
+      "date": "2025-05-11",
+      "pnl": 4334.02,
+      "cumulative": 27671.87
+    },
+    {
+      "date": "2025-05-12",
+      "pnl": -134.3,
+      "cumulative": 27537.57
+    },
+    {
+      "date": "2025-05-13",
+      "pnl": 597.7,
+      "cumulative": 28135.27
+    },
+    {
+      "date": "2025-05-14",
+      "pnl": 1148.97,
+      "cumulative": 29284.24
+    },
+    {
+      "date": "2025-05-15",
+      "pnl": 1421.87,
+      "cumulative": 30706.11
+    },
+    {
+      "date": "2025-05-16",
+      "pnl": 2603.71,
+      "cumulative": 33309.82
+    },
+    {
+      "date": "2025-05-17",
+      "pnl": 1532.89,
+      "cumulative": 34842.71
+    },
+    {
+      "date": "2025-05-18",
+      "pnl": 2422.21,
+      "cumulative": 37264.92
+    },
+    {
+      "date": "2025-05-19",
+      "pnl": 515.73,
+      "cumulative": 37780.65
+    },
+    {
+      "date": "2025-05-20",
+      "pnl": 1672.35,
+      "cumulative": 39453.0
+    },
+    {
+      "date": "2025-05-21",
+      "pnl": 866.86,
+      "cumulative": 40319.86
+    },
+    {
+      "date": "2025-05-22",
+      "pnl": 2845.81,
+      "cumulative": 43165.67
+    },
+    {
+      "date": "2025-05-23",
+      "pnl": 8902.11,
+      "cumulative": 52067.78
+    },
+    {
+      "date": "2025-05-24",
+      "pnl": 9387.39,
+      "cumulative": 61455.17
+    },
+    {
+      "date": "2025-05-25",
+      "pnl": 609.42,
+      "cumulative": 62064.59
+    },
+    {
+      "date": "2025-05-26",
+      "pnl": 1040.62,
+      "cumulative": 63105.21
+    },
+    {
+      "date": "2025-05-27",
+      "pnl": 671.73,
+      "cumulative": 63776.94
+    },
+    {
+      "date": "2025-05-28",
+      "pnl": 1414.79,
+      "cumulative": 65191.73
+    },
+    {
+      "date": "2025-05-29",
+      "pnl": 1502.75,
+      "cumulative": 66694.48
+    },
+    {
+      "date": "2025-05-30",
+      "pnl": 937.79,
+      "cumulative": 67632.27
+    },
+    {
+      "date": "2025-05-31",
+      "pnl": 783.71,
+      "cumulative": 68415.98
+    },
+    {
+      "date": "2025-06-01",
+      "pnl": 4970.42,
+      "cumulative": 73386.4
+    },
+    {
+      "date": "2025-06-02",
+      "pnl": 1058.11,
+      "cumulative": 74444.51
+    },
+    {
+      "date": "2025-06-03",
+      "pnl": 2780.24,
+      "cumulative": 77224.75
+    },
+    {
+      "date": "2025-06-04",
+      "pnl": 6063.8,
+      "cumulative": 83288.55
+    },
+    {
+      "date": "2025-06-05",
+      "pnl": 1975.57,
+      "cumulative": 85264.12
+    },
+    {
+      "date": "2025-06-06",
+      "pnl": 1956.59,
+      "cumulative": 87220.71
+    },
+    {
+      "date": "2025-06-07",
+      "pnl": 1592.15,
+      "cumulative": 88812.86
+    },
+    {
+      "date": "2025-06-08",
+      "pnl": 1634.44,
+      "cumulative": 90447.3
+    },
+    {
+      "date": "2025-06-09",
+      "pnl": 66.33,
+      "cumulative": 90513.63
+    },
+    {
+      "date": "2025-06-10",
+      "pnl": 1329.12,
+      "cumulative": 91842.75
+    },
+    {
+      "date": "2025-06-11",
+      "pnl": -588.73,
+      "cumulative": 91254.02
+    },
+    {
+      "date": "2025-06-12",
+      "pnl": 1161.28,
+      "cumulative": 92415.3
+    },
+    {
+      "date": "2025-06-13",
+      "pnl": 1116.34,
+      "cumulative": 93531.64
+    },
+    {
+      "date": "2025-06-14",
+      "pnl": 2517.72,
+      "cumulative": 96049.36
+    },
+    {
+      "date": "2025-06-15",
+      "pnl": 1667.1,
+      "cumulative": 97716.46
+    },
+    {
+      "date": "2025-06-16",
+      "pnl": -42.73,
+      "cumulative": 97673.73
+    },
+    {
+      "date": "2025-06-17",
+      "pnl": 2326.5,
+      "cumulative": 100000.23
+    },
+    {
+      "date": "2025-06-18",
+      "pnl": 3056.78,
+      "cumulative": 103057.01
+    },
+    {
+      "date": "2025-06-19",
+      "pnl": 1010.77,
+      "cumulative": 104067.78
+    },
+    {
+      "date": "2025-06-20",
+      "pnl": 570.79,
+      "cumulative": 104638.57
+    },
+    {
+      "date": "2025-06-21",
+      "pnl": 1633.78,
+      "cumulative": 106272.35
+    },
+    {
+      "date": "2025-06-22",
+      "pnl": 341.12,
+      "cumulative": 106613.47
+    },
+    {
+      "date": "2025-06-23",
+      "pnl": 493.33,
+      "cumulative": 107106.8
+    },
+    {
+      "date": "2025-06-24",
+      "pnl": -17.2,
+      "cumulative": 107089.6
+    },
+    {
+      "date": "2025-06-25",
+      "pnl": 2349.1,
+      "cumulative": 109438.7
+    },
+    {
+      "date": "2025-06-26",
+      "pnl": 1366.98,
+      "cumulative": 110805.68
+    },
+    {
+      "date": "2025-06-27",
+      "pnl": 1422.62,
+      "cumulative": 112228.3
+    },
+    {
+      "date": "2025-06-28",
+      "pnl": 744.11,
+      "cumulative": 112972.41
+    },
+    {
+      "date": "2025-06-29",
+      "pnl": 5300.69,
+      "cumulative": 118273.1
+    },
+    {
+      "date": "2025-06-30",
+      "pnl": 461.13,
+      "cumulative": 118734.23
+    },
+    {
+      "date": "2025-07-01",
+      "pnl": 947.24,
+      "cumulative": 119681.47
+    },
+    {
+      "date": "2025-07-02",
+      "pnl": 1160.67,
+      "cumulative": 120842.14
+    },
+    {
+      "date": "2025-07-03",
+      "pnl": 544.17,
+      "cumulative": 121386.31
+    },
+    {
+      "date": "2025-07-04",
+      "pnl": 1910.84,
+      "cumulative": 123297.15
+    },
+    {
+      "date": "2025-07-05",
+      "pnl": 1376.5,
+      "cumulative": 124673.65
+    },
+    {
+      "date": "2025-07-06",
+      "pnl": 1240.73,
+      "cumulative": 125914.38
+    },
+    {
+      "date": "2025-07-07",
+      "pnl": 51.66,
+      "cumulative": 125966.04
+    },
+    {
+      "date": "2025-07-08",
+      "pnl": 1563.18,
+      "cumulative": 127529.22
+    },
+    {
+      "date": "2025-07-09",
+      "pnl": 1170.77,
+      "cumulative": 128699.99
+    },
+    {
+      "date": "2025-07-10",
+      "pnl": 84.87,
+      "cumulative": 128784.86
+    },
+    {
+      "date": "2025-07-11",
+      "pnl": 358.01,
+      "cumulative": 129142.87
+    },
+    {
+      "date": "2025-07-12",
+      "pnl": 842.8,
+      "cumulative": 129985.67
+    },
+    {
+      "date": "2025-07-13",
+      "pnl": 827.26,
+      "cumulative": 130812.93
+    },
+    {
+      "date": "2025-07-18",
+      "pnl": 2276.65,
+      "cumulative": 133089.58
+    },
+    {
+      "date": "2025-07-19",
+      "pnl": 199.87,
+      "cumulative": 133289.45
+    },
+    {
+      "date": "2025-07-20",
+      "pnl": 273.16,
+      "cumulative": 133562.61
+    },
+    {
+      "date": "2025-07-21",
+      "pnl": 2078.44,
+      "cumulative": 135641.05
+    },
+    {
+      "date": "2025-07-22",
+      "pnl": 471.34,
+      "cumulative": 136112.39
+    },
+    {
+      "date": "2025-07-23",
+      "pnl": 3475.17,
+      "cumulative": 139587.56
+    },
+    {
+      "date": "2025-07-24",
+      "pnl": 97.35,
+      "cumulative": 139684.91
+    },
+    {
+      "date": "2025-07-25",
+      "pnl": 784.59,
+      "cumulative": 140469.5
+    },
+    {
+      "date": "2025-07-26",
+      "pnl": 1962.26,
+      "cumulative": 142431.76
+    },
+    {
+      "date": "2025-07-27",
+      "pnl": 2936.96,
+      "cumulative": 145368.72
+    },
+    {
+      "date": "2025-07-28",
+      "pnl": 341.39,
+      "cumulative": 145710.11
+    },
+    {
+      "date": "2025-07-29",
+      "pnl": 492.62,
+      "cumulative": 146202.73
+    },
+    {
+      "date": "2025-07-30",
+      "pnl": 1752.38,
+      "cumulative": 147955.11
+    },
+    {
+      "date": "2025-07-31",
+      "pnl": -173.48,
+      "cumulative": 147781.63
+    },
+    {
+      "date": "2025-08-01",
+      "pnl": 3026.67,
+      "cumulative": 150808.3
+    },
+    {
+      "date": "2025-08-02",
+      "pnl": 2886.69,
+      "cumulative": 153694.99
+    },
+    {
+      "date": "2025-08-03",
+      "pnl": 181.41,
+      "cumulative": 153876.4
+    },
+    {
+      "date": "2025-08-04",
+      "pnl": 2068.0,
+      "cumulative": 155944.4
+    },
+    {
+      "date": "2025-08-05",
+      "pnl": 2631.9,
+      "cumulative": 158576.3
+    },
+    {
+      "date": "2025-08-06",
+      "pnl": 630.21,
+      "cumulative": 159206.51
+    },
+    {
+      "date": "2025-08-07",
+      "pnl": 763.76,
+      "cumulative": 159970.27
+    },
+    {
+      "date": "2025-08-08",
+      "pnl": 367.6,
+      "cumulative": 160337.87
+    },
+    {
+      "date": "2025-08-09",
+      "pnl": 2301.98,
+      "cumulative": 162639.85
+    },
+    {
+      "date": "2025-08-10",
+      "pnl": 1823.63,
+      "cumulative": 164463.48
+    },
+    {
+      "date": "2025-08-11",
+      "pnl": -402.44,
+      "cumulative": 164061.04
+    },
+    {
+      "date": "2025-08-12",
+      "pnl": 2873.79,
+      "cumulative": 166934.83
+    },
+    {
+      "date": "2025-08-13",
+      "pnl": 4513.28,
+      "cumulative": 171448.11
+    },
+    {
+      "date": "2025-08-14",
+      "pnl": 1333.73,
+      "cumulative": 172781.84
+    },
+    {
+      "date": "2025-08-15",
+      "pnl": 2265.68,
+      "cumulative": 175047.52
+    },
+    {
+      "date": "2025-08-16",
+      "pnl": 2271.13,
+      "cumulative": 177318.65
+    },
+    {
+      "date": "2025-08-17",
+      "pnl": 442.42,
+      "cumulative": 177761.07
+    },
+    {
+      "date": "2025-08-18",
+      "pnl": -460.44,
+      "cumulative": 177300.63
+    },
+    {
+      "date": "2025-08-19",
+      "pnl": 2537.28,
+      "cumulative": 179837.91
+    },
+    {
+      "date": "2025-08-20",
+      "pnl": 2686.44,
+      "cumulative": 182524.35
+    },
+    {
+      "date": "2025-08-21",
+      "pnl": 1795.78,
+      "cumulative": 184320.13
+    },
+    {
+      "date": "2025-08-22",
+      "pnl": 1604.34,
+      "cumulative": 185924.47
+    },
+    {
+      "date": "2025-08-23",
+      "pnl": 4095.52,
+      "cumulative": 190019.99
+    },
+    {
+      "date": "2025-08-24",
+      "pnl": 2174.33,
+      "cumulative": 192194.32
+    },
+    {
+      "date": "2025-08-25",
+      "pnl": 808.41,
+      "cumulative": 193002.73
+    },
+    {
+      "date": "2025-08-26",
+      "pnl": 1604.24,
+      "cumulative": 194606.97
+    },
+    {
+      "date": "2025-08-27",
+      "pnl": 1402.27,
+      "cumulative": 196009.24
+    },
+    {
+      "date": "2025-08-28",
+      "pnl": 1044.98,
+      "cumulative": 197054.22
+    },
+    {
+      "date": "2025-08-29",
+      "pnl": -561.62,
+      "cumulative": 196492.6
+    },
+    {
+      "date": "2025-08-30",
+      "pnl": 400.54,
+      "cumulative": 196893.14
+    }
+  ]
+}

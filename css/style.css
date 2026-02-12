@@ -211,6 +211,104 @@ button:focus-visible,
   letter-spacing: 0.06em;
 }
 
+.mobile-nav .env-toggle-wrapper {
+  margin-left: 0;
+}
+
+/* --- Dev/Prod Toggle --- */
+.env-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.env-toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.env-toggle-text {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+
+.env-toggle-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.env-toggle-slider {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  background: var(--border);
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.env-toggle-slider::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.env-toggle-input:checked + .env-toggle-slider {
+  background: var(--accent);
+}
+
+.env-toggle-input:checked + .env-toggle-slider::after {
+  transform: translateX(16px);
+}
+
+.env-toggle-input:focus-visible + .env-toggle-slider {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Dev Banner */
+.dev-banner {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: var(--accent);
+  color: #ffffff;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* Extra top padding when dev banner is visible */
+body.dev-mode .page-hero {
+  padding-top: calc(7rem + 2rem);
+}
+
+body.dev-mode .hero {
+  padding-top: calc(9rem + 2rem);
+}
+
+body.dev-mode .mobile-nav {
+  top: calc(60px + 2rem);
+}
+
 /* --- Hero --- */
 .hero {
   position: relative;
@@ -772,6 +870,7 @@ button:focus-visible,
   .nav-links { display: flex; }
   .hamburger { display: none; }
   .hero { padding: 11rem 0 6rem; }
+  body.dev-mode .hero { padding-top: calc(11rem + 2rem); }
 
   .market-grid {
     grid-template-columns: repeat(4, 1fr);
