@@ -1,19 +1,45 @@
 {
-  "generated_at": "2026-02-12T22:44:37.092452+00:00",
+  "generated_at": "2026-02-12T23:06:23.930150+00:00",
   "date": "2025-03-27",
   "picks": [
     {
       "player": "Crochet, Garrett",
       "player_id": 676979,
-      "opponent": "BOS",
+      "opponent": "TEX",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 15.5,
       "best_book": "draftkings",
       "best_price": -145,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 778553
+    },
+    {
+      "player": "Skubal, Tarik",
+      "player_id": 669373,
+      "opponent": "LAD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 3,
+      "game_pk": 778546
+    },
+    {
+      "player": "Cabrera, Edward",
+      "player_id": 641313,
+      "opponent": "LAA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 160,
+      "stars": 2,
+      "game_pk": 778554
     },
     {
       "player": "Cruz, Fernando",
@@ -42,58 +68,6 @@
       "game_pk": 778546
     },
     {
-      "player": "Snell, Blake",
-      "player_id": 605483,
-      "opponent": "LAD",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -120,
-      "stars": 2,
-      "game_pk": 778546
-    },
-    {
-      "player": "Snell, Blake",
-      "player_id": 605483,
-      "opponent": "LAD",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": -195,
-      "stars": 2,
-      "game_pk": 778546
-    },
-    {
-      "player": "Alcantara, Sandy",
-      "player_id": 645261,
-      "opponent": "MIA",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 778562
-    },
-    {
-      "player": "Alcantara, Sandy",
-      "player_id": 645261,
-      "opponent": "MIA",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 778562
-    },
-    {
       "player": "Bednar, David",
       "player_id": 668939,
       "opponent": "BAL",
@@ -107,22 +81,9 @@
       "game_pk": 778556
     },
     {
-      "player": "Cabrera, Edward",
-      "player_id": 641313,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 778554
-    },
-    {
       "player": "Crochet, Garrett",
       "player_id": 676979,
-      "opponent": "BOS",
+      "opponent": "TEX",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -148,7 +109,7 @@
     {
       "player": "Greene, Hunter",
       "player_id": 668881,
-      "opponent": "CIN",
+      "opponent": "SF",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -170,19 +131,6 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 778551
-    },
-    {
-      "player": "King, Michael",
-      "player_id": 650633,
-      "opponent": "SD",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 778545
     },
     {
       "player": "Mejia, Juan",
@@ -224,19 +172,6 @@
       "game_pk": 778557
     },
     {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "NYY",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 778557
-    },
-    {
       "player": "Sabrowski, Erik",
       "player_id": 681481,
       "opponent": "DET",
@@ -263,22 +198,35 @@
       "game_pk": 778562
     },
     {
-      "player": "Simpson, Josh",
-      "player_id": 687952,
-      "opponent": "SF",
+      "player": "Sale, Chris",
+      "player_id": 668804,
+      "opponent": "PIT",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 155,
+      "best_price": 175,
       "stars": 1,
-      "game_pk": 778561
+      "game_pk": 778562
     },
     {
       "player": "Skenes, Paul",
       "player_id": 694973,
-      "opponent": "PIT",
+      "opponent": "MIA",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778562
+    },
+    {
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "MIA",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "OVER",
@@ -298,6 +246,19 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": -125,
+      "stars": 1,
+      "game_pk": 778546
+    },
+    {
+      "player": "Snell, Blake",
+      "player_id": 605483,
+      "opponent": "DET",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -120,
       "stars": 1,
       "game_pk": 778546
     },
@@ -330,7 +291,7 @@
     {
       "player": "Valdez, Framber",
       "player_id": 664285,
-      "opponent": "HOU",
+      "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "OVER",
@@ -356,7 +317,7 @@
     {
       "player": "Webb, Logan",
       "player_id": 657277,
-      "opponent": "SF",
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -365,6 +326,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 778561
+    },
+    {
+      "player": "Williams, Devin",
+      "player_id": 680776,
+      "opponent": "BOS",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -230,
+      "stars": 1,
+      "game_pk": 778553
     }
   ]
 }

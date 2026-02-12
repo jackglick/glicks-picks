@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-12T22:44:37.217216+00:00",
+  "generated_at": "2026-02-12T23:06:24.044499+00:00",
   "date": "2025-06-02",
   "picks": [
     {
       "player": "Flaherty, Jack",
       "player_id": 656427,
-      "opponent": "DET",
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -44,20 +44,7 @@
     {
       "player": "Meyer, Max",
       "player_id": 676974,
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 3,
-      "game_pk": 777673
-    },
-    {
-      "player": "Meyer, Max",
-      "player_id": 676974,
-      "opponent": "MIA",
+      "opponent": "COL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -66,19 +53,6 @@
       "best_price": 142,
       "stars": 3,
       "game_pk": 777673
-    },
-    {
-      "player": "Rodriguez, Carlos",
-      "player_id": 666181,
-      "opponent": "MIL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777671
     },
     {
       "player": "Treinen, Blake",
@@ -107,19 +81,6 @@
       "game_pk": 777671
     },
     {
-      "player": "Cannon, Jonathan",
-      "player_id": 686563,
-      "opponent": "CWS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -122,
-      "stars": 2,
-      "game_pk": 777674
-    },
-    {
       "player": "Hart, Kyle",
       "player_id": 656555,
       "opponent": "MIL",
@@ -133,17 +94,30 @@
       "game_pk": 777671
     },
     {
-      "player": "M\u00e1rquez, Germ\u00e1n",
-      "player_id": 608566,
+      "player": "Meyer, Max",
+      "player_id": 676974,
       "opponent": "COL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
+      "direction": "UNDER",
+      "line": 6.5,
       "best_book": "draftkings",
-      "best_price": 130,
+      "best_price": -125,
       "stars": 2,
       "game_pk": 777673
+    },
+    {
+      "player": "Rodriguez, Carlos",
+      "player_id": 666181,
+      "opponent": "MIL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 777671
     },
     {
       "player": "Soto, Gregory",
@@ -172,22 +146,9 @@
       "game_pk": 777674
     },
     {
-      "player": "Cannon, Jonathan",
-      "player_id": 686563,
-      "opponent": "CWS",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 777674
-    },
-    {
       "player": "Civale, Aaron",
       "player_id": 650644,
-      "opponent": "MIL",
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -224,17 +185,17 @@
       "game_pk": 777671
     },
     {
-      "player": "Graceffo, Gordon",
-      "player_id": 669289,
-      "opponent": "MIL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
+      "player": "Fitts, Richard",
+      "player_id": 690916,
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": "draftkings",
-      "best_price": 190,
+      "best_price": 140,
       "stars": 1,
-      "game_pk": 777671
+      "game_pk": 777670
     },
     {
       "player": "Murray, Jayden",
@@ -252,7 +213,20 @@
     {
       "player": "M\u00e1rquez, Germ\u00e1n",
       "player_id": 608566,
-      "opponent": "COL",
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777673
+    },
+    {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "player_id": 608566,
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -265,7 +239,7 @@
     {
       "player": "Singer, Brady",
       "player_id": 663903,
-      "opponent": "CIN",
+      "opponent": "MIL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",

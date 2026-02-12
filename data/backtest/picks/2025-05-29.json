@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.210724+00:00",
+  "generated_at": "2026-02-12T23:06:24.038609+00:00",
   "date": "2025-05-29",
   "picks": [
     {
@@ -29,35 +29,9 @@
       "game_pk": 777727
     },
     {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 3,
-      "game_pk": 777735
-    },
-    {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "PHI",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 3,
-      "game_pk": 777735
-    },
-    {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
-      "opponent": "TOR",
+      "opponent": "ATH",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -94,6 +68,45 @@
       "game_pk": 777723
     },
     {
+      "player": "Ram\u00edrez, Yohan",
+      "player_id": 621566,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 777735
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 777735
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 777735
+    },
+    {
       "player": "Uceta, Edwin",
       "player_id": 623993,
       "opponent": "ATH",
@@ -122,7 +135,7 @@
     {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
-      "opponent": "TOR",
+      "opponent": "ATH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -135,7 +148,7 @@
     {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
-      "opponent": "TOR",
+      "opponent": "ATH",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -172,6 +185,19 @@
       "game_pk": 777723
     },
     {
+      "player": "Gore, MacKenzie",
+      "player_id": 645277,
+      "opponent": "ATL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.0,
+      "best_book": "draftkings",
+      "best_price": 190,
+      "stars": 1,
+      "game_pk": 777723
+    },
+    {
       "player": "Knack, Landon",
       "player_id": 663728,
       "opponent": "WSH",
@@ -183,19 +209,6 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777722
-    },
-    {
-      "player": "Ram\u00edrez, Yohan",
-      "player_id": 621566,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 777735
     },
     {
       "player": "Smith, Shane",
@@ -211,19 +224,6 @@
       "game_pk": 777722
     },
     {
-      "player": "Smith-Shawver, AJ",
-      "player_id": 700363,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 104,
-      "stars": 1,
-      "game_pk": 777735
-    },
-    {
       "player": "Treinen, Blake",
       "player_id": 677594,
       "opponent": "WSH",
@@ -233,6 +233,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -235,
+      "stars": 1,
+      "game_pk": 777722
+    },
+    {
+      "player": "Treinen, Blake",
+      "player_id": 593871,
+      "opponent": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 165,
       "stars": 1,
       "game_pk": 777722
     },

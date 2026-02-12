@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-12T22:44:37.106023+00:00",
+  "generated_at": "2026-02-12T23:06:23.943666+00:00",
   "date": "2025-04-04",
   "picks": [
     {
       "player": "Flaherty, Jack",
       "player_id": 656427,
-      "opponent": "DET",
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -18,7 +18,20 @@
     {
       "player": "Yamamoto, Yoshinobu",
       "player_id": 808967,
-      "opponent": "LAD",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 3,
+      "game_pk": 778459
+    },
+    {
+      "player": "Yamamoto, Yoshinobu",
+      "player_id": 808967,
+      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -31,7 +44,7 @@
     {
       "player": "Fedde, Erick",
       "player_id": 607200,
-      "opponent": "STL",
+      "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -42,35 +55,35 @@
       "game_pk": 778463
     },
     {
-      "player": "V\u00e1squez, Randy",
-      "player_id": 681190,
-      "opponent": "SD",
-      "market": "Walks",
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "NYM",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": -150,
+      "best_price": 125,
       "stars": 2,
-      "game_pk": 778460
+      "game_pk": 778465
     },
     {
-      "player": "Yamamoto, Yoshinobu",
-      "player_id": 808967,
-      "opponent": "LAD",
+      "player": "Pfaadt, Brandon",
+      "player_id": 694297,
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 120,
+      "best_book": "fanduel",
+      "best_price": -122,
       "stars": 2,
-      "game_pk": 778459
+      "game_pk": 778457
     },
     {
       "player": "Yamamoto, Yoshinobu",
       "player_id": 808967,
-      "opponent": "LAD",
+      "opponent": "PHI",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -83,7 +96,7 @@
     {
       "player": "Gausman, Kevin",
       "player_id": 592332,
-      "opponent": "TOR",
+      "opponent": "NYM",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -94,35 +107,9 @@
       "game_pk": 778465
     },
     {
-      "player": "Gausman, Kevin",
-      "player_id": 592332,
-      "opponent": "TOR",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 778465
-    },
-    {
       "player": "Lugo, Seth",
       "player_id": 607625,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -102,
-      "stars": 1,
-      "game_pk": 778455
-    },
-    {
-      "player": "Lugo, Seth",
-      "player_id": 607625,
-      "opponent": "KC",
+      "opponent": "BAL",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -133,17 +120,43 @@
       "game_pk": 778455
     },
     {
-      "player": "Pfaadt, Brandon",
-      "player_id": 694297,
-      "opponent": "AZ",
+      "player": "Megill, Tylor",
+      "player_id": 656731,
+      "opponent": "TOR",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 4.5,
       "best_book": "fanduel",
-      "best_price": -122,
+      "best_price": -106,
       "stars": 1,
-      "game_pk": 778457
+      "game_pk": 778465
+    },
+    {
+      "player": "Schwellenbach, Spencer",
+      "player_id": 680885,
+      "opponent": "MIA",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778464
+    },
+    {
+      "player": "V\u00e1squez, Randy",
+      "player_id": 681190,
+      "opponent": "CHC",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 778460
     }
   ]
 }

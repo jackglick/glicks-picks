@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.093668+00:00",
+  "generated_at": "2026-02-12T23:06:23.931337+00:00",
   "date": "2025-03-28",
   "picks": [
     {
@@ -29,19 +29,6 @@
       "game_pk": 778543
     },
     {
-      "player": "Yesavage, Trey",
-      "player_id": 650490,
-      "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 778560
-    },
-    {
       "player": "Agnos, Zach",
       "player_id": 645302,
       "opponent": "ATH",
@@ -64,19 +51,6 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 195,
-      "stars": 1,
-      "game_pk": 778549
-    },
-    {
-      "player": "Baker, Bryan",
-      "player_id": 665489,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -135,
       "stars": 1,
       "game_pk": 778549
     },
@@ -133,6 +107,32 @@
       "game_pk": 778543
     },
     {
+      "player": "Keller, Mitch",
+      "player_id": 656605,
+      "opponent": "MIA",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 778548
+    },
+    {
+      "player": "Morejon, Adrian",
+      "player_id": 663656,
+      "opponent": "CHC",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 778543
+    },
+    {
       "player": "Nance, Tommy",
       "player_id": 666624,
       "opponent": "COL",
@@ -144,6 +144,19 @@
       "best_price": 170,
       "stars": 1,
       "game_pk": 778560
+    },
+    {
+      "player": "Peralta, Wandy",
+      "player_id": 664023,
+      "opponent": "CHC",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 778543
     },
     {
       "player": "Sale, Chris",
@@ -222,6 +235,19 @@
       "best_price": -140,
       "stars": 1,
       "game_pk": 778549
+    },
+    {
+      "player": "Yesavage, Trey",
+      "player_id": 650490,
+      "opponent": "COL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778560
     },
     {
       "player": "Yesavage, Trey",

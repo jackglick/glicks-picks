@@ -250,8 +250,11 @@
 
     // Body row
     var body = el('div', 'pick-card-body');
+    var callWrapper = el('div', 'pick-call-wrapper');
+    callWrapper.appendChild(el('span', 'pick-call-label', 'Our Call'));
     var dirClass = pick.direction === 'OVER' ? 'over' : 'under';
-    body.appendChild(el('span', 'pick-direction ' + dirClass, pick.direction));
+    callWrapper.appendChild(el('span', 'pick-direction ' + dirClass, pick.direction));
+    body.appendChild(callWrapper);
     body.appendChild(el('span', 'pick-line', String(pick.line)));
     body.appendChild(el('span', 'pick-card-market', pick.market));
     card.appendChild(body);

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.133218+00:00",
+  "generated_at": "2026-02-12T23:06:23.970221+00:00",
   "date": "2025-04-17",
   "picks": [
     {
@@ -18,7 +18,7 @@
     {
       "player": "Heaney, Andrew",
       "player_id": 571760,
-      "opponent": "PIT",
+      "opponent": "WSH",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -57,7 +57,7 @@
     {
       "player": "Olson, Reese",
       "player_id": 681857,
-      "opponent": "DET",
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -70,7 +70,7 @@
     {
       "player": "Rodriguez, Eduardo",
       "player_id": 593958,
-      "opponent": "AZ",
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -83,7 +83,7 @@
     {
       "player": "Sears, JP",
       "player_id": 676664,
-      "opponent": "ATH",
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -107,22 +107,9 @@
       "game_pk": 778285
     },
     {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "PHI",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 145,
-      "stars": 3,
-      "game_pk": 778279
-    },
-    {
       "player": "Canning, Griffin",
       "player_id": 656288,
-      "opponent": "NYM",
+      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -185,6 +172,32 @@
       "game_pk": 778281
     },
     {
+      "player": "Manaea, Sean",
+      "player_id": 624585,
+      "opponent": "LAA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 778281
+    },
+    {
+      "player": "Martin, Davis",
+      "player_id": 663436,
+      "opponent": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 15.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 778283
+    },
+    {
       "player": "McCullers Jr., Lance",
       "player_id": 545361,
       "opponent": "LAA",
@@ -211,30 +224,17 @@
       "game_pk": 778281
     },
     {
-      "player": "Pallante, Andre",
-      "player_id": 669467,
-      "opponent": "STL",
-      "market": "Walks",
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "SF",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": -115,
+      "best_price": 145,
       "stars": 2,
-      "game_pk": 778278
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 165,
-      "stars": 2,
-      "game_pk": 778280
+      "game_pk": 778279
     },
     {
       "player": "Williams, Devin",
@@ -380,35 +380,22 @@
       "game_pk": 778283
     },
     {
-      "player": "Helsley, Ryan",
-      "player_id": 672640,
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 200,
-      "stars": 1,
-      "game_pk": 778291
-    },
-    {
-      "player": "Hicks, Jordan",
-      "player_id": 663855,
-      "opponent": "SF",
+      "player": "Heaney, Andrew",
+      "player_id": 571760,
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
       "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -113,
+      "best_book": "draftkings",
+      "best_price": -110,
       "stars": 1,
-      "game_pk": 778279
+      "game_pk": 778280
     },
     {
       "player": "Hicks, Jordan",
       "player_id": 663855,
-      "opponent": "SF",
+      "opponent": "PHI",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -458,17 +445,30 @@
       "game_pk": 778281
     },
     {
-      "player": "Little, Brendon",
-      "player_id": 663968,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
+      "player": "Lorenzen, Michael",
+      "player_id": 547179,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 4.5,
       "best_book": "draftkings",
-      "best_price": 150,
+      "best_price": -130,
       "stars": 1,
-      "game_pk": 778282
+      "game_pk": 778286
+    },
+    {
+      "player": "Lorenzen, Michael",
+      "player_id": 547179,
+      "opponent": "DET",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 15.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 778286
     },
     {
       "player": "Lorenzen, Michael",
@@ -495,32 +495,6 @@
       "best_price": -165,
       "stars": 1,
       "game_pk": 778281
-    },
-    {
-      "player": "Manaea, Sean",
-      "player_id": 624585,
-      "opponent": "LAA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778281
-    },
-    {
-      "player": "Martin, Davis",
-      "player_id": 663436,
-      "opponent": "CWS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 15.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 778283
     },
     {
       "player": "McCullers Jr., Lance",
@@ -601,17 +575,17 @@
       "game_pk": 778281
     },
     {
-      "player": "Parker, Mitchell",
-      "player_id": 672820,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
+      "player": "Pallante, Andre",
+      "player_id": 669467,
+      "opponent": "NYM",
+      "market": "Walks",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 2.5,
       "best_book": "draftkings",
-      "best_price": -170,
+      "best_price": -115,
       "stars": 1,
-      "game_pk": 778283
+      "game_pk": 778278
     },
     {
       "player": "Phillips, Connor",
@@ -654,14 +628,14 @@
     },
     {
       "player": "Sale, Chris",
-      "player_id": 502054,
+      "player_id": 668804,
       "opponent": "WSH",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 160,
+      "best_price": 165,
       "stars": 1,
       "game_pk": 778280
     },
@@ -695,19 +669,6 @@
       "player": "Treinen, Blake",
       "player_id": 677594,
       "opponent": "SEA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 778285
-    },
-    {
-      "player": "Treinen, Blake",
-      "player_id": 677594,
-      "opponent": "SEA",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
@@ -719,14 +680,14 @@
     },
     {
       "player": "Treinen, Blake",
-      "player_id": 666158,
+      "player_id": 677594,
       "opponent": "SEA",
-      "market": "Hits",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 135,
+      "best_price": -145,
       "stars": 1,
       "game_pk": 778285
     },

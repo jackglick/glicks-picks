@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.244701+00:00",
+  "generated_at": "2026-02-12T23:06:24.065600+00:00",
   "date": "2025-06-18",
   "picks": [
     {
@@ -187,7 +187,7 @@
     {
       "player": "Castillo, Luis",
       "player_id": 622491,
-      "opponent": "SEA",
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -250,19 +250,6 @@
       "game_pk": 777466
     },
     {
-      "player": "Kochanowicz, Jack",
-      "player_id": 608369,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 2,
-      "game_pk": 777460
-    },
-    {
       "player": "O'Brien, Riley",
       "player_id": 650489,
       "opponent": "MIN",
@@ -276,9 +263,22 @@
       "game_pk": 777474
     },
     {
+      "player": "Ober, Bailey",
+      "player_id": 641927,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777474
+    },
+    {
       "player": "Rodriguez, Eduardo",
       "player_id": 593958,
-      "opponent": "AZ",
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -315,6 +315,19 @@
       "game_pk": 777456
     },
     {
+      "player": "Bachman, Sam",
+      "player_id": 605170,
+      "opponent": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 160,
+      "stars": 1,
+      "game_pk": 777456
+    },
+    {
       "player": "Bednar, David",
       "player_id": 668939,
       "opponent": "BAL",
@@ -341,17 +354,30 @@
       "game_pk": 777461
     },
     {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
-      "opponent": "TB",
+      "player": "Bivens, Spencer",
+      "player_id": 687597,
+      "opponent": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 190,
+      "stars": 1,
+      "game_pk": 777461
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "SEA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 18.5,
       "best_book": "draftkings",
-      "best_price": -110,
+      "best_price": -180,
       "stars": 1,
-      "game_pk": 777463
+      "game_pk": 777453
     },
     {
       "player": "Dreyer, Jack",
@@ -407,16 +433,16 @@
     },
     {
       "player": "Kochanowicz, Jack",
-      "player_id": 686799,
-      "opponent": "LAA",
-      "market": "Earned Runs",
-      "category": "pitcher",
+      "player_id": 608369,
+      "opponent": "KC",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 2.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 125,
+      "best_price": 175,
       "stars": 1,
-      "game_pk": 777466
+      "game_pk": 777460
     },
     {
       "player": "Leasure, Jordan",
@@ -484,15 +510,15 @@
       "game_pk": 777456
     },
     {
-      "player": "Ober, Bailey",
-      "player_id": 641927,
+      "player": "O'Brien, Riley",
+      "player_id": 650489,
       "opponent": "MIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 16.5,
+      "line": 1.0,
       "best_book": "draftkings",
-      "best_price": 110,
+      "best_price": -275,
       "stars": 1,
       "game_pk": 777474
     },
@@ -521,19 +547,6 @@
       "best_price": 125,
       "stars": 1,
       "game_pk": 777470
-    },
-    {
-      "player": "Rodriguez, Eduardo",
-      "player_id": 593958,
-      "opponent": "AZ",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777462
     },
     {
       "player": "Sears, JP",
@@ -577,7 +590,7 @@
     {
       "player": "Su\u00e1rez, Ranger",
       "player_id": 624133,
-      "opponent": "PHI",
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -586,6 +599,19 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 777465
+    },
+    {
+      "player": "Ure\u00f1a, Jos\u00e9",
+      "player_id": 572233,
+      "opponent": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 175,
+      "stars": 1,
+      "game_pk": 777456
     },
     {
       "player": "Vest, Will",

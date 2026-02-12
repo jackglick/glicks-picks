@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.184376+00:00",
+  "generated_at": "2026-02-12T23:06:24.015823+00:00",
   "date": "2025-05-16",
   "picks": [
     {
@@ -16,9 +16,22 @@
       "game_pk": 777899
     },
     {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "MIA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 3,
+      "game_pk": 777903
+    },
+    {
       "player": "Crochet, Garrett",
       "player_id": 676979,
-      "opponent": "BOS",
+      "opponent": "ATL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -56,32 +69,6 @@
     },
     {
       "player": "Ragans, Cole",
-      "player_id": 666142,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 3,
-      "game_pk": 777901
-    },
-    {
-      "player": "Ragans, Cole",
-      "player_id": 666142,
-      "opponent": "KC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 105,
-      "stars": 3,
-      "game_pk": 777901
-    },
-    {
-      "player": "Ragans, Cole",
       "player_id": 667670,
       "opponent": "ATH",
       "market": "Hits",
@@ -92,19 +79,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 777891
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "ATL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 3,
-      "game_pk": 777908
     },
     {
       "player": "Treinen, Blake",
@@ -146,22 +120,9 @@
       "game_pk": 777891
     },
     {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
-      "opponent": "TB",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 105,
-      "stars": 2,
-      "game_pk": 777903
-    },
-    {
       "player": "Flaherty, Jack",
       "player_id": 656427,
-      "opponent": "DET",
+      "opponent": "TOR",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -174,7 +135,20 @@
     {
       "player": "Francis, Bowden",
       "player_id": 670102,
-      "opponent": "TOR",
+      "opponent": "DET",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777906
+    },
+    {
+      "player": "Francis, Bowden",
+      "player_id": 670102,
+      "opponent": "DET",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -183,19 +157,6 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 777906
-    },
-    {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 108,
-      "stars": 2,
-      "game_pk": 777905
     },
     {
       "player": "Lao, Sauryn",
@@ -213,20 +174,7 @@
     {
       "player": "Megill, Tylor",
       "player_id": 656731,
-      "opponent": "NYM",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -120,
-      "stars": 2,
-      "game_pk": 777904
-    },
-    {
-      "player": "Megill, Tylor",
-      "player_id": 656731,
-      "opponent": "NYM",
+      "opponent": "NYY",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -239,7 +187,7 @@
     {
       "player": "Povich, Cade",
       "player_id": 700249,
-      "opponent": "BAL",
+      "opponent": "WSH",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -250,9 +198,48 @@
       "game_pk": 777907
     },
     {
+      "player": "Ragans, Cole",
+      "player_id": 666142,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 777901
+    },
+    {
+      "player": "Ragans, Cole",
+      "player_id": 666142,
+      "opponent": "STL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 2,
+      "game_pk": 777901
+    },
+    {
       "player": "Sale, Chris",
       "player_id": 519242,
-      "opponent": "ATL",
+      "opponent": "BOS",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 2,
+      "game_pk": 777908
+    },
+    {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -265,13 +252,26 @@
     {
       "player": "Su\u00e1rez, Ranger",
       "player_id": 624133,
-      "opponent": "PHI",
+      "opponent": "PIT",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 6.5,
       "best_book": "draftkings",
       "best_price": 120,
+      "stars": 2,
+      "game_pk": 777905
+    },
+    {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "PIT",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 125,
       "stars": 2,
       "game_pk": 777905
     },
@@ -315,17 +315,30 @@
       "game_pk": 777907
     },
     {
-      "player": "Bido, Osvaldo",
-      "player_id": 521692,
-      "opponent": "STL",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Bibee, Tanner",
+      "player_id": 676440,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -240,
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": 100,
       "stars": 1,
-      "game_pk": 777901
+      "game_pk": 777902
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "ATL",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777908
     },
     {
       "player": "Dreyer, Jack",
@@ -352,58 +365,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 777902
-    },
-    {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -154,
-      "stars": 1,
-      "game_pk": 777906
-    },
-    {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "DET",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 777906
-    },
-    {
-      "player": "Francis, Bowden",
-      "player_id": 670102,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 777906
-    },
-    {
-      "player": "Francis, Bowden",
-      "player_id": 670102,
-      "opponent": "TOR",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 777906
     },
     {
       "player": "Gore, MacKenzie",
@@ -434,26 +395,26 @@
     {
       "player": "Heaney, Andrew",
       "player_id": 571760,
-      "opponent": "PIT",
-      "market": "Hits Allowed",
+      "opponent": "PHI",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "draftkings",
-      "best_price": -155,
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 108,
       "stars": 1,
       "game_pk": 777905
     },
     {
       "player": "Heaney, Andrew",
       "player_id": 571760,
-      "opponent": "PIT",
-      "market": "Earned Runs",
+      "opponent": "PHI",
+      "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.0,
+      "line": 7.5,
       "best_book": "draftkings",
-      "best_price": 125,
+      "best_price": -155,
       "stars": 1,
       "game_pk": 777905
     },
@@ -497,22 +458,22 @@
       "game_pk": 777900
     },
     {
-      "player": "Pallante, Andre",
-      "player_id": 669467,
-      "opponent": "STL",
-      "market": "Strikeouts",
+      "player": "Megill, Tylor",
+      "player_id": 656731,
+      "opponent": "NYY",
+      "market": "Hits Allowed",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
+      "direction": "UNDER",
+      "line": 6.5,
       "best_book": "draftkings",
-      "best_price": -150,
+      "best_price": -120,
       "stars": 1,
-      "game_pk": 777901
+      "game_pk": 777904
     },
     {
       "player": "Pallante, Andre",
       "player_id": 669467,
-      "opponent": "STL",
+      "opponent": "KC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -525,7 +486,7 @@
     {
       "player": "Pallante, Andre",
       "player_id": 669467,
-      "opponent": "STL",
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -573,32 +534,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 777900
-    },
-    {
-      "player": "Povich, Cade",
-      "player_id": 700249,
-      "opponent": "BAL",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 777907
-    },
-    {
-      "player": "Su\u00e1rez, Ranger",
-      "player_id": 624133,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -118,
-      "stars": 1,
-      "game_pk": 777905
     },
     {
       "player": "Vest, Will",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.258256+00:00",
+  "generated_at": "2026-02-12T23:06:24.078725+00:00",
   "date": "2025-06-27",
   "picks": [
     {
@@ -31,7 +31,7 @@
     {
       "player": "Bello, Brayan",
       "player_id": 678394,
-      "opponent": "BOS",
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -81,9 +81,35 @@
       "game_pk": 777349
     },
     {
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 2,
+      "game_pk": 777345
+    },
+    {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
-      "opponent": "TOR",
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -158,
+      "stars": 2,
+      "game_pk": 777345
+    },
+    {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -94,9 +120,61 @@
       "game_pk": 777345
     },
     {
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777346
+    },
+    {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 777349
+    },
+    {
+      "player": "Little, Brendon",
+      "player_id": 663968,
+      "opponent": "TB",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 2,
+      "game_pk": 777343
+    },
+    {
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777346
+    },
+    {
       "player": "Pepiot, Ryan",
       "player_id": 686752,
-      "opponent": "TB",
+      "opponent": "BAL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -120,6 +198,19 @@
       "game_pk": 777341
     },
     {
+      "player": "Agnos, Zach",
+      "player_id": 642715,
+      "opponent": "SF",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 170,
+      "stars": 1,
+      "game_pk": 777338
+    },
+    {
       "player": "Baker, Bryan",
       "player_id": 665926,
       "opponent": "TOR",
@@ -131,45 +222,6 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 777345
-    },
-    {
-      "player": "Bello, Brayan",
-      "player_id": 678394,
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -112,
-      "stars": 1,
-      "game_pk": 777345
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -158,
-      "stars": 1,
-      "game_pk": 777345
-    },
-    {
-      "player": "Cease, Dylan",
-      "player_id": 656302,
-      "opponent": "SD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 777346
     },
     {
       "player": "Chapman, Aroldis",
@@ -200,7 +252,20 @@
     {
       "player": "Civale, Aaron",
       "player_id": 650644,
-      "opponent": "CWS",
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 777338
+    },
+    {
+      "player": "Civale, Aaron",
+      "player_id": 650644,
+      "opponent": "SF",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -237,17 +302,17 @@
       "game_pk": 777346
     },
     {
-      "player": "Gray, Sonny",
-      "player_id": 543243,
-      "opponent": "STL",
+      "player": "Gipson-Long, Sawyer",
+      "player_id": 687830,
+      "opponent": "MIN",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 115,
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 1,
-      "game_pk": 777349
+      "game_pk": 777334
     },
     {
       "player": "Keller, Brad",
@@ -302,35 +367,22 @@
       "game_pk": 777346
     },
     {
-      "player": "Little, Brendon",
-      "player_id": 663968,
-      "opponent": "TB",
-      "market": "Total Bases",
+      "player": "Kittredge, Andrew",
+      "player_id": 665487,
+      "opponent": "SD",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 777343
-    },
-    {
-      "player": "Martinez, Nick",
-      "player_id": 607259,
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 110,
+      "best_price": -195,
       "stars": 1,
       "game_pk": 777346
     },
     {
       "player": "Martinez, Nick",
       "player_id": 607259,
-      "opponent": "CIN",
+      "opponent": "SD",
       "market": "Walks",
       "category": "pitcher",
       "direction": "OVER",
@@ -352,6 +404,19 @@
       "best_price": 185,
       "stars": 1,
       "game_pk": 777338
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 116,
+      "stars": 1,
+      "game_pk": 777343
     },
     {
       "player": "Rodriguez, Carlos",
@@ -382,7 +447,7 @@
     {
       "player": "Sugano, Tomoyuki",
       "player_id": 608372,
-      "opponent": "BAL",
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -391,6 +456,19 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 777343
+    },
+    {
+      "player": "Trivino, Lou",
+      "player_id": 621439,
+      "opponent": "MIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 777334
     },
     {
       "player": "Williams, Devin",
@@ -407,16 +485,16 @@
     },
     {
       "player": "Williams, Devin",
-      "player_id": 683002,
-      "opponent": "TB",
+      "player_id": 680776,
+      "opponent": "TOR",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 180,
+      "best_price": -220,
       "stars": 1,
-      "game_pk": 777343
+      "game_pk": 777345
     }
   ]
 }

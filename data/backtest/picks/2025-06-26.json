@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.257212+00:00",
+  "generated_at": "2026-02-12T23:06:24.077572+00:00",
   "date": "2025-06-26",
   "picks": [
     {
@@ -16,30 +16,17 @@
       "game_pk": 777354
     },
     {
-      "player": "Brown, Hunter",
-      "player_id": 686613,
-      "opponent": "HOU",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 3,
-      "game_pk": 777350
-    },
-    {
-      "player": "Harris, Hogan",
-      "player_id": 676694,
-      "opponent": "PHI",
+      "player": "Contreras, Roansy",
+      "player_id": 669257,
+      "opponent": "LAD",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 2.5,
       "best_book": "draftkings",
-      "best_price": -195,
+      "best_price": -150,
       "stars": 3,
-      "game_pk": 777350
+      "game_pk": 777344
     },
     {
       "player": "Holton, Tyler",
@@ -146,6 +133,19 @@
       "game_pk": 777352
     },
     {
+      "player": "Springs, Jeffrey",
+      "player_id": 605488,
+      "opponent": "DET",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 3,
+      "game_pk": 777351
+    },
+    {
       "player": "Vest, Will",
       "player_id": 700932,
       "opponent": "TOR",
@@ -157,6 +157,19 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 777354
+    },
+    {
+      "player": "Brown, Hunter",
+      "player_id": 686613,
+      "opponent": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 777350
     },
     {
       "player": "Cabrera, G\u00e9nesis",
@@ -172,17 +185,17 @@
       "game_pk": 777350
     },
     {
-      "player": "Contreras, Roansy",
-      "player_id": 669257,
-      "opponent": "LAD",
+      "player": "Harris, Hogan",
+      "player_id": 676694,
+      "opponent": "PHI",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 2.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -150,
+      "best_price": -195,
       "stars": 2,
-      "game_pk": 777344
+      "game_pk": 777350
     },
     {
       "player": "Knack, Landon",
@@ -235,6 +248,32 @@
       "best_price": -210,
       "stars": 2,
       "game_pk": 777344
+    },
+    {
+      "player": "Phillips, Connor",
+      "player_id": 669242,
+      "opponent": "LAD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 2,
+      "game_pk": 777344
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "HOU",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 135,
+      "stars": 2,
+      "game_pk": 777350
     },
     {
       "player": "Vest, Will",
@@ -354,6 +393,19 @@
       "game_pk": 777344
     },
     {
+      "player": "Miller, Mason",
+      "player_id": 673548,
+      "opponent": "CHC",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -225,
+      "stars": 1,
+      "game_pk": 777348
+    },
+    {
       "player": "O'Brien, Riley",
       "player_id": 650489,
       "opponent": "SEA",
@@ -365,19 +417,6 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 777356
-    },
-    {
-      "player": "Phillips, Connor",
-      "player_id": 669242,
-      "opponent": "LAD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 777344
     },
     {
       "player": "Phillips, Tyler",
@@ -406,19 +445,6 @@
       "game_pk": 777347
     },
     {
-      "player": "Springs, Jeffrey",
-      "player_id": 605488,
-      "opponent": "ATH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 777351
-    },
-    {
       "player": "Suter, Brent",
       "player_id": 660271,
       "opponent": "LAD",
@@ -443,19 +469,6 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 777344
-    },
-    {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "PHI",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 777350
     },
     {
       "player": "Vest, Will",

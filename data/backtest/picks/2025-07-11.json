@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.280459+00:00",
+  "generated_at": "2026-02-12T23:06:24.099502+00:00",
   "date": "2025-07-11",
   "picks": [
     {
@@ -13,7 +13,7 @@
       "best_book": null,
       "best_price": null,
       "stars": 3,
-      "game_pk": 777164
+      "game_pk": 777146
     },
     {
       "player": "Corniell, Jose",
@@ -26,7 +26,7 @@
       "best_book": null,
       "best_price": null,
       "stars": 3,
-      "game_pk": 777146
+      "game_pk": 777164
     },
     {
       "player": "Ferguson, Caleb",
@@ -135,7 +135,7 @@
     {
       "player": "Rasmussen, Drew",
       "player_id": 656876,
-      "opponent": "TB",
+      "opponent": "BOS",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -146,17 +146,17 @@
       "game_pk": 777155
     },
     {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "NYY",
-      "market": "Outs Recorded",
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
+      "opponent": "BOS",
+      "market": "Earned Runs",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -110,
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 125,
       "stars": 3,
-      "game_pk": 777153
+      "game_pk": 777155
     },
     {
       "player": "Skubal, Tarik",
@@ -276,9 +276,35 @@
       "game_pk": 777160
     },
     {
+      "player": "Flexen, Chris",
+      "player_id": 623167,
+      "opponent": "NYY",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 777153
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 645277,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 2,
+      "game_pk": 777147
+    },
+    {
       "player": "Kremer, Dean",
       "player_id": 665152,
-      "opponent": "BAL",
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -304,13 +330,13 @@
     {
       "player": "Rasmussen, Drew",
       "player_id": 656876,
-      "opponent": "TB",
-      "market": "Earned Runs",
+      "opponent": "BOS",
+      "market": "Walks",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 125,
+      "line": 0.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 2,
       "game_pk": 777155
     },
@@ -380,17 +406,30 @@
       "game_pk": 777147
     },
     {
-      "player": "Cano, Yennier",
-      "player_id": 647351,
-      "opponent": "TB",
-      "market": "Total Bases",
+      "player": "Corniell, Jose",
+      "player_id": 682177,
+      "opponent": "CLE",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -150,
+      "best_price": 140,
       "stars": 1,
-      "game_pk": 777155
+      "game_pk": 777164
+    },
+    {
+      "player": "Corniell, Jose",
+      "player_id": 682177,
+      "opponent": "CLE",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 777146
     },
     {
       "player": "Dreyer, Jack",
@@ -406,26 +445,13 @@
       "game_pk": 777160
     },
     {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -240,
-      "stars": 1,
-      "game_pk": 777160
-    },
-    {
       "player": "Flexen, Chris",
       "player_id": 623167,
-      "opponent": "CHC",
-      "market": "Walks",
+      "opponent": "NYY",
+      "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 1.5,
+      "line": 5.0,
       "best_book": null,
       "best_price": null,
       "stars": 1,
@@ -471,34 +497,8 @@
       "game_pk": 777150
     },
     {
-      "player": "Gore, MacKenzie",
-      "player_id": 645277,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777147
-    },
-    {
       "player": "Jarvis, Bryce",
       "player_id": 578428,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 777139
-    },
-    {
-      "player": "Keller, Brad",
-      "player_id": 701538,
       "opponent": "PHI",
       "market": "Hits",
       "category": "batter",
@@ -601,19 +601,6 @@
       "game_pk": 777164
     },
     {
-      "player": "Parker, Mitchell",
-      "player_id": 805367,
-      "opponent": "CLE",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777146
-    },
-    {
       "player": "Peterson, David",
       "player_id": 467793,
       "opponent": "CLE",
@@ -679,17 +666,17 @@
       "game_pk": 777147
     },
     {
-      "player": "Rasmussen, Drew",
-      "player_id": 656876,
-      "opponent": "TB",
-      "market": "Walks",
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "CHC",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": null,
-      "best_price": null,
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -110,
       "stars": 1,
-      "game_pk": 777155
+      "game_pk": 777153
     },
     {
       "player": "Rogers, Trevor",
@@ -718,22 +705,22 @@
       "game_pk": 777164
     },
     {
-      "player": "Rogers, Trevor",
-      "player_id": 596103,
-      "opponent": "CLE",
+      "player": "Sears, JP",
+      "player_id": 606466,
+      "opponent": "AZ",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -180,
+      "best_price": -135,
       "stars": 1,
-      "game_pk": 777164
+      "game_pk": 777150
     },
     {
       "player": "Skubal, Tarik",
       "player_id": 669373,
-      "opponent": "DET",
+      "opponent": "SEA",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "OVER",
@@ -744,17 +731,17 @@
       "game_pk": 777161
     },
     {
-      "player": "Smith, Cade",
-      "player_id": 672761,
-      "opponent": "SEA",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Smith, Shane",
+      "player_id": 681343,
+      "opponent": "CLE",
+      "market": "Earned Runs",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 2.5,
       "best_book": "draftkings",
-      "best_price": 135,
+      "best_price": -105,
       "stars": 1,
-      "game_pk": 777161
+      "game_pk": 777164
     },
     {
       "player": "Snell, Blake",
@@ -822,32 +809,6 @@
       "game_pk": 777160
     },
     {
-      "player": "Treinen, Blake",
-      "player_id": 680574,
-      "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 777160
-    },
-    {
-      "player": "Vesia, Alex",
-      "player_id": 682622,
-      "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -195,
-      "stars": 1,
-      "game_pk": 777160
-    },
-    {
       "player": "Vest, Will",
       "player_id": 700932,
       "opponent": "CLE",
@@ -870,6 +831,19 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 170,
+      "stars": 1,
+      "game_pk": 777164
+    },
+    {
+      "player": "Vest, Will",
+      "player_id": 608070,
+      "opponent": "CLE",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -245,
       "stars": 1,
       "game_pk": 777164
     }

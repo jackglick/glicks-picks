@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.378431+00:00",
+  "generated_at": "2026-02-12T23:06:24.195784+00:00",
   "date": "2025-09-11",
   "picks": [
     {
@@ -120,19 +120,6 @@
       "game_pk": 776367
     },
     {
-      "player": "Williams, Gavin",
-      "player_id": 668909,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -106,
-      "stars": 3,
-      "game_pk": 776370
-    },
-    {
       "player": "Baker, Bryan",
       "player_id": 664770,
       "opponent": "HOU",
@@ -142,19 +129,6 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -192,
-      "stars": 2,
-      "game_pk": 776369
-    },
-    {
-      "player": "Gausman, Kevin",
-      "player_id": 592332,
-      "opponent": "TOR",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 132,
       "stars": 2,
       "game_pk": 776369
     },
@@ -172,6 +146,19 @@
       "game_pk": 776371
     },
     {
+      "player": "Oviedo, Johan",
+      "player_id": 670912,
+      "opponent": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 15.5,
+      "best_book": "fanduel",
+      "best_price": -160,
+      "stars": 2,
+      "game_pk": 776372
+    },
+    {
       "player": "Parker, Mitchell",
       "player_id": 678246,
       "opponent": "TB",
@@ -185,15 +172,15 @@
       "game_pk": 776364
     },
     {
-      "player": "Vest, Will",
-      "player_id": 608070,
+      "player": "Williams, Gavin",
+      "player_id": 668909,
       "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -128,
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -106,
       "stars": 2,
       "game_pk": 776370
     },
@@ -224,17 +211,30 @@
       "game_pk": 776368
     },
     {
-      "player": "Gore, MacKenzie",
-      "player_id": 669022,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 116,
+      "player": "Dom\u00ednguez, Seranthony",
+      "player_id": 802415,
+      "opponent": "TB",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -215,
       "stars": 1,
-      "game_pk": 776367
+      "game_pk": 776364
+    },
+    {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "HOU",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 132,
+      "stars": 1,
+      "game_pk": 776369
     },
     {
       "player": "Holton, Tyler",
@@ -248,19 +248,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776370
-    },
-    {
-      "player": "Keller, Brad",
-      "player_id": 701538,
-      "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -183,
-      "stars": 1,
-      "game_pk": 776365
     },
     {
       "player": "Kelly, Kevin",
@@ -328,45 +315,6 @@
       "game_pk": 776364
     },
     {
-      "player": "Oviedo, Johan",
-      "player_id": 670912,
-      "opponent": "PIT",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 109,
-      "stars": 1,
-      "game_pk": 776372
-    },
-    {
-      "player": "Oviedo, Johan",
-      "player_id": 670912,
-      "opponent": "PIT",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -138,
-      "stars": 1,
-      "game_pk": 776372
-    },
-    {
-      "player": "Oviedo, Johan",
-      "player_id": 670912,
-      "opponent": "PIT",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 15.5,
-      "best_book": "fanduel",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 776372
-    },
-    {
       "player": "Phillips, Tyler",
       "player_id": 596019,
       "opponent": "NYM",
@@ -391,6 +339,19 @@
       "best_price": 148,
       "stars": 1,
       "game_pk": 776372
+    },
+    {
+      "player": "Smith, Shane",
+      "player_id": 681343,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -136,
+      "stars": 1,
+      "game_pk": 776364
     },
     {
       "player": "Soto, Gregory",
@@ -432,9 +393,22 @@
       "game_pk": 776362
     },
     {
+      "player": "Vest, Will",
+      "player_id": 608070,
+      "opponent": "KC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -128,
+      "stars": 1,
+      "game_pk": 776370
+    },
+    {
       "player": "Weathers, Ryan",
       "player_id": 677960,
-      "opponent": "MIA",
+      "opponent": "WSH",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -447,20 +421,7 @@
     {
       "player": "Weathers, Ryan",
       "player_id": 677960,
-      "opponent": "MIA",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776367
-    },
-    {
-      "player": "Weathers, Ryan",
-      "player_id": 677960,
-      "opponent": "MIA",
+      "opponent": "WSH",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "OVER",

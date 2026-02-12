@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.367634+00:00",
+  "generated_at": "2026-02-12T23:06:24.185012+00:00",
   "date": "2025-09-04",
   "picks": [
     {
@@ -31,7 +31,7 @@
     {
       "player": "Cameron, Noah",
       "player_id": 702070,
-      "opponent": "KC",
+      "opponent": "LAA",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -44,7 +44,7 @@
     {
       "player": "Hendricks, Kyle",
       "player_id": 543294,
-      "opponent": "LAA",
+      "opponent": "KC",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
@@ -159,17 +159,17 @@
       "game_pk": 776461
     },
     {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
-      "opponent": "MIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Gordon, Colton",
+      "player_id": 650859,
+      "opponent": "LAA",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -114,
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 175,
       "stars": 2,
-      "game_pk": 776462
+      "game_pk": 776463
     },
     {
       "player": "Lodolo, Nick",
@@ -211,6 +211,19 @@
       "game_pk": 776458
     },
     {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 776459
+    },
+    {
       "player": "Woods Richardson, Simeon",
       "player_id": 669016,
       "opponent": "PHI",
@@ -237,6 +250,19 @@
       "game_pk": 776461
     },
     {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "CWS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -114,
+      "stars": 1,
+      "game_pk": 776462
+    },
+    {
       "player": "Dom\u00ednguez, Seranthony",
       "player_id": 663743,
       "opponent": "CLE",
@@ -248,19 +274,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776458
-    },
-    {
-      "player": "Gordon, Colton",
-      "player_id": 650859,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 776463
     },
     {
       "player": "McCullers Jr., Lance",
@@ -302,45 +315,6 @@
       "game_pk": 776459
     },
     {
-      "player": "Peralta, Sammy",
-      "player_id": 660821,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 776464
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 776464
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 776464
-    },
-    {
       "player": "Sale, Chris",
       "player_id": 457705,
       "opponent": "LAD",
@@ -367,30 +341,17 @@
       "game_pk": 776459
     },
     {
-      "player": "Su\u00e1rez, Ranger",
-      "player_id": 624133,
-      "opponent": "PHI",
+      "player": "Snell, Blake",
+      "player_id": 605483,
+      "opponent": "PIT",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -132,
-      "stars": 1,
-      "game_pk": 776459
-    },
-    {
-      "player": "Su\u00e1rez, Ranger",
-      "player_id": 624133,
-      "opponent": "PHI",
-      "market": "Outs Recorded",
-      "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 130,
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": 120,
       "stars": 1,
-      "game_pk": 776459
+      "game_pk": 776461
     },
     {
       "player": "Vest, Will",
@@ -415,6 +376,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -180,
+      "stars": 1,
+      "game_pk": 776458
+    },
+    {
+      "player": "Vest, Will",
+      "player_id": 692216,
+      "opponent": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 1,
       "game_pk": 776458
     }

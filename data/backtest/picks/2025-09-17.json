@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.387544+00:00",
+  "generated_at": "2026-02-12T23:06:24.205116+00:00",
   "date": "2025-09-17",
   "picks": [
     {
@@ -14,19 +14,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776288
-    },
-    {
-      "player": "Iglesias, Raisel",
-      "player_id": 694377,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 776287
     },
     {
       "player": "Leasure, Jordan",
@@ -66,19 +53,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776288
-    },
-    {
-      "player": "Ragans, Cole",
-      "player_id": 666142,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 123,
-      "stars": 3,
-      "game_pk": 776289
     },
     {
       "player": "Ram\u00edrez, Yohan",
@@ -135,7 +109,7 @@
     {
       "player": "Soriano, Jos\u00e9",
       "player_id": 667755,
-      "opponent": "LAA",
+      "opponent": "MIL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
@@ -159,22 +133,22 @@
       "game_pk": 776285
     },
     {
-      "player": "Verlander, Justin",
-      "player_id": 434378,
-      "opponent": "SF",
-      "market": "Strikeouts",
+      "player": "Wells, Tyler",
+      "player_id": 669330,
+      "opponent": "CWS",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
       "best_price": -112,
       "stars": 3,
-      "game_pk": 776279
+      "game_pk": 776285
     },
     {
       "player": "Woodruff, Brandon",
       "player_id": 605540,
-      "opponent": "MIL",
+      "opponent": "LAA",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -224,17 +198,17 @@
       "game_pk": 776296
     },
     {
-      "player": "Gil, Luis",
-      "player_id": 661563,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -112,
+      "player": "Iglesias, Raisel",
+      "player_id": 694377,
+      "opponent": "CHC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 2,
-      "game_pk": 776284
+      "game_pk": 776287
     },
     {
       "player": "Jarvis, Bryce",
@@ -248,58 +222,6 @@
       "best_price": null,
       "stars": 2,
       "game_pk": 776288
-    },
-    {
-      "player": "King, Michael",
-      "player_id": 677942,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 165,
-      "stars": 2,
-      "game_pk": 776279
-    },
-    {
-      "player": "Miller, Bryce",
-      "player_id": 682243,
-      "opponent": "SEA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -106,
-      "stars": 2,
-      "game_pk": 776289
-    },
-    {
-      "player": "Morgan, David",
-      "player_id": 677950,
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776279
-    },
-    {
-      "player": "Parker, Mitchell",
-      "player_id": 695657,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776285
     },
     {
       "player": "Pomeranz, Drew",
@@ -328,17 +250,17 @@
       "game_pk": 776283
     },
     {
-      "player": "P\u00e9rez, Mart\u00edn",
-      "player_id": 527048,
-      "opponent": "CWS",
-      "market": "Outs Recorded",
+      "player": "Ragans, Cole",
+      "player_id": 666142,
+      "opponent": "SEA",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -138,
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 123,
       "stars": 2,
-      "game_pk": 776285
+      "game_pk": 776289
     },
     {
       "player": "Skubal, Tarik",
@@ -367,6 +289,19 @@
       "game_pk": 776296
     },
     {
+      "player": "Verlander, Justin",
+      "player_id": 434378,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 2,
+      "game_pk": 776279
+    },
+    {
       "player": "Vest, Will",
       "player_id": 666310,
       "opponent": "CLE",
@@ -380,19 +315,6 @@
       "game_pk": 776296
     },
     {
-      "player": "Wells, Tyler",
-      "player_id": 669330,
-      "opponent": "BAL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -112,
-      "stars": 2,
-      "game_pk": 776285
-    },
-    {
       "player": "Alcantara, Sandy",
       "player_id": 683146,
       "opponent": "SD",
@@ -404,6 +326,32 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776288
+    },
+    {
+      "player": "Allard, Kolby",
+      "player_id": 696030,
+      "opponent": "TEX",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 776292
+    },
+    {
+      "player": "Armstrong, Shawn",
+      "player_id": 667472,
+      "opponent": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 202,
+      "stars": 1,
+      "game_pk": 776277
     },
     {
       "player": "Baker, Bryan",
@@ -441,6 +389,19 @@
       "line": 1.5,
       "best_book": null,
       "best_price": null,
+      "stars": 1,
+      "game_pk": 776286
+    },
+    {
+      "player": "Barco, Hunter",
+      "player_id": 671739,
+      "opponent": "ATL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 169,
       "stars": 1,
       "game_pk": 776286
     },
@@ -510,6 +471,19 @@
       "game_pk": 776284
     },
     {
+      "player": "Gil, Luis",
+      "player_id": 661563,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 1,
+      "game_pk": 776284
+    },
+    {
       "player": "Helsley, Ryan",
       "player_id": 672640,
       "opponent": "MIA",
@@ -532,6 +506,32 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": 100,
+      "stars": 1,
+      "game_pk": 776277
+    },
+    {
+      "player": "Helsley, Ryan",
+      "player_id": 682663,
+      "opponent": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -176,
+      "stars": 1,
+      "game_pk": 776277
+    },
+    {
+      "player": "Helsley, Ryan",
+      "player_id": 672640,
+      "opponent": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -161,
       "stars": 1,
       "game_pk": 776277
     },
@@ -575,6 +575,19 @@
       "game_pk": 776284
     },
     {
+      "player": "King, Michael",
+      "player_id": 677942,
+      "opponent": "SF",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 165,
+      "stars": 1,
+      "game_pk": 776279
+    },
+    {
       "player": "Long, Sam",
       "player_id": 687231,
       "opponent": "ATH",
@@ -586,6 +599,19 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776299
+    },
+    {
+      "player": "Lord, Brad",
+      "player_id": 695418,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 776286
     },
     {
       "player": "McGough, Scott",
@@ -601,9 +627,35 @@
       "game_pk": 776289
     },
     {
+      "player": "Miller, Bryce",
+      "player_id": 682243,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 776289
+    },
+    {
+      "player": "Morgan, David",
+      "player_id": 677950,
+      "opponent": "SF",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 776279
+    },
+    {
       "player": "Oviedo, Johan",
       "player_id": 670912,
-      "opponent": "PIT",
+      "opponent": "CHC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -615,6 +667,19 @@
     },
     {
       "player": "Parker, Mitchell",
+      "player_id": 695657,
+      "opponent": "BAL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 776285
+    },
+    {
+      "player": "Parker, Mitchell",
       "player_id": 678246,
       "opponent": "BAL",
       "market": "Total Bases",
@@ -623,6 +688,32 @@
       "line": 1.5,
       "best_book": null,
       "best_price": null,
+      "stars": 1,
+      "game_pk": 776285
+    },
+    {
+      "player": "Peterson, David",
+      "player_id": 656849,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 776288
+    },
+    {
+      "player": "P\u00e9rez, Mart\u00edn",
+      "player_id": 527048,
+      "opponent": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -138,
       "stars": 1,
       "game_pk": 776285
     },
@@ -692,17 +783,17 @@
       "game_pk": 776283
     },
     {
-      "player": "Verlander, Justin",
-      "player_id": 434378,
-      "opponent": "SF",
-      "market": "Earned Runs",
-      "category": "pitcher",
+      "player": "Treinen, Blake",
+      "player_id": 666158,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 2.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 100,
+      "best_price": 165,
       "stars": 1,
-      "game_pk": 776279
+      "game_pk": 776283
     },
     {
       "player": "Vesia, Alex",
@@ -755,32 +846,6 @@
       "best_price": 176,
       "stars": 1,
       "game_pk": 776285
-    },
-    {
-      "player": "Williams, Devin",
-      "player_id": 680776,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -131,
-      "stars": 1,
-      "game_pk": 776299
-    },
-    {
-      "player": "Williams, Gavin",
-      "player_id": 668909,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 776296
     }
   ]
 }

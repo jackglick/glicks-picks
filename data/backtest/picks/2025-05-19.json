@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-12T22:44:37.190024+00:00",
+  "generated_at": "2026-02-12T23:06:24.020121+00:00",
   "date": "2025-05-19",
   "picks": [
-    {
-      "player": "Allen, Logan",
-      "player_id": 671106,
-      "opponent": "CLE",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 3,
-      "game_pk": 777861
-    },
     {
       "player": "Banks, Tanner",
       "player_id": 680577,
@@ -31,7 +18,7 @@
     {
       "player": "Castillo, Luis",
       "player_id": 622491,
-      "opponent": "SEA",
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -44,7 +31,7 @@
     {
       "player": "Keller, Mitch",
       "player_id": 656605,
-      "opponent": "PIT",
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -57,7 +44,7 @@
     {
       "player": "Pepiot, Ryan",
       "player_id": 686752,
-      "opponent": "TB",
+      "opponent": "HOU",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -109,7 +96,7 @@
     {
       "player": "Senga, Kodai",
       "player_id": 673540,
-      "opponent": "NYM",
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -130,6 +117,19 @@
       "best_book": null,
       "best_price": null,
       "stars": 3,
+      "game_pk": 777861
+    },
+    {
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "MIN",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 2,
       "game_pk": 777861
     },
     {
@@ -161,7 +161,7 @@
     {
       "player": "Lodolo, Nick",
       "player_id": 666157,
-      "opponent": "CIN",
+      "opponent": "PIT",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -211,6 +211,19 @@
       "game_pk": 777861
     },
     {
+      "player": "Vest, Will",
+      "player_id": 608070,
+      "opponent": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 2,
+      "game_pk": 777861
+    },
+    {
       "player": "Walker, Taijuan",
       "player_id": 663616,
       "opponent": "CLE",
@@ -221,19 +234,6 @@
       "best_book": null,
       "best_price": null,
       "stars": 2,
-      "game_pk": 777861
-    },
-    {
-      "player": "Allen, Logan",
-      "player_id": 671106,
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
       "game_pk": 777861
     },
     {
@@ -263,6 +263,19 @@
       "game_pk": 777860
     },
     {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "MIA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -114,
+      "stars": 1,
+      "game_pk": 777863
+    },
+    {
       "player": "Dana, Caden",
       "player_id": 514888,
       "opponent": "HOU",
@@ -278,7 +291,7 @@
     {
       "player": "Dobbins, Hunter",
       "player_id": 690928,
-      "opponent": "BOS",
+      "opponent": "NYM",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -291,7 +304,7 @@
     {
       "player": "Dobbins, Hunter",
       "player_id": 690928,
-      "opponent": "BOS",
+      "opponent": "NYM",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -311,6 +324,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -155,
+      "stars": 1,
+      "game_pk": 777859
+    },
+    {
+      "player": "Dreyer, Jack",
+      "player_id": 682829,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 190,
       "stars": 1,
       "game_pk": 777859
     },
@@ -369,7 +395,7 @@
     {
       "player": "Keller, Mitch",
       "player_id": 656605,
-      "opponent": "PIT",
+      "opponent": "CIN",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -382,20 +408,7 @@
     {
       "player": "Kremer, Dean",
       "player_id": 665152,
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 777860
-    },
-    {
-      "player": "Kremer, Dean",
-      "player_id": 665152,
-      "opponent": "BAL",
+      "opponent": "MIL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -406,17 +419,17 @@
       "game_pk": 777860
     },
     {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 145,
+      "player": "Ober, Bailey",
+      "player_id": 641927,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -164,
       "stars": 1,
-      "game_pk": 777859
+      "game_pk": 777861
     },
     {
       "player": "Sale, Chris",
@@ -430,19 +443,6 @@
       "best_price": -205,
       "stars": 1,
       "game_pk": 777859
-    },
-    {
-      "player": "Vest, Will",
-      "player_id": 608070,
-      "opponent": "CLE",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 777861
     },
     {
       "player": "Wilson, Justin",

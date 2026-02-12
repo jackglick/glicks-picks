@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.298047+00:00",
+  "generated_at": "2026-02-12T23:06:24.117753+00:00",
   "date": "2025-07-25",
   "picks": [
     {
@@ -42,6 +42,19 @@
       "game_pk": 777013
     },
     {
+      "player": "Littell, Zack",
+      "player_id": 641793,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 777013
+    },
+    {
       "player": "Pag\u00e1n, Emilio",
       "player_id": 661388,
       "opponent": "MIA",
@@ -57,7 +70,7 @@
     {
       "player": "Peralta, Freddy",
       "player_id": 642547,
-      "opponent": "MIL",
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -66,6 +79,19 @@
       "best_price": 135,
       "stars": 3,
       "game_pk": 777008
+    },
+    {
+      "player": "Pivetta, Nick",
+      "player_id": 601713,
+      "opponent": "STL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 777005
     },
     {
       "player": "Soto, Gregory",
@@ -81,17 +107,30 @@
       "game_pk": 777008
     },
     {
-      "player": "Littell, Zack",
-      "player_id": 641793,
-      "opponent": "TB",
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 777016
+    },
+    {
+      "player": "Imanaga, Shota",
+      "player_id": 684007,
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": null,
-      "best_price": null,
+      "best_book": "fanduel",
+      "best_price": 100,
       "stars": 2,
-      "game_pk": 777013
+      "game_pk": 777017
     },
     {
       "player": "Murray, Jayden",
@@ -120,32 +159,6 @@
       "game_pk": 777020
     },
     {
-      "player": "Pivetta, Nick",
-      "player_id": 601713,
-      "opponent": "SD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 777005
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "AZ",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 2,
-      "game_pk": 777014
-    },
-    {
       "player": "Smith, Cade",
       "player_id": 672761,
       "opponent": "TOR",
@@ -170,19 +183,6 @@
       "best_price": -210,
       "stars": 1,
       "game_pk": 777012
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 777016
     },
     {
       "player": "Cabrera, G\u00e9nesis",
@@ -261,32 +261,6 @@
       "best_price": -240,
       "stars": 1,
       "game_pk": 777013
-    },
-    {
-      "player": "Houser, Adrian",
-      "player_id": 605288,
-      "opponent": "CWS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -148,
-      "stars": 1,
-      "game_pk": 777017
-    },
-    {
-      "player": "Imanaga, Shota",
-      "player_id": 684007,
-      "opponent": "CHC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 777017
     },
     {
       "player": "Jarvis, Bryce",
@@ -395,13 +369,13 @@
     {
       "player": "Martinez, Nick",
       "player_id": 607259,
-      "opponent": "CIN",
-      "market": "Outs Recorded",
+      "opponent": "TB",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": null,
-      "best_price": null,
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -105,
       "stars": 1,
       "game_pk": 777013
     },
@@ -417,6 +391,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777006
+    },
+    {
+      "player": "Montero, Keider",
+      "player_id": 672456,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": "fanduel",
+      "best_price": -176,
+      "stars": 1,
+      "game_pk": 777016
     },
     {
       "player": "Morgan, David",
@@ -456,6 +443,32 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 777017
+    },
+    {
+      "player": "Quantrill, Cal",
+      "player_id": 615698,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777008
+    },
+    {
+      "player": "Sale, Chris",
+      "player_id": 668804,
+      "opponent": "AZ",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777014
     },
     {
       "player": "Sale, Chris",
@@ -525,7 +538,7 @@
     {
       "player": "Walker, Taijuan",
       "player_id": 592836,
-      "opponent": "PHI",
+      "opponent": "NYY",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",

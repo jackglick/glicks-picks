@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.206209+00:00",
+  "generated_at": "2026-02-12T23:06:24.034173+00:00",
   "date": "2025-05-26",
   "picks": [
     {
@@ -18,7 +18,7 @@
     {
       "player": "Crochet, Garrett",
       "player_id": 676979,
-      "opponent": "BOS",
+      "opponent": "MIL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -57,7 +57,7 @@
     {
       "player": "Littell, Zack",
       "player_id": 641793,
-      "opponent": "TB",
+      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -70,7 +70,7 @@
     {
       "player": "Paddack, Chris",
       "player_id": 663978,
-      "opponent": "MIN",
+      "opponent": "TB",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -96,7 +96,7 @@
     {
       "player": "Taillon, Jameson",
       "player_id": 592791,
-      "opponent": "CHC",
+      "opponent": "COL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -107,22 +107,9 @@
       "game_pk": 777757
     },
     {
-      "player": "Taillon, Jameson",
-      "player_id": 592791,
-      "opponent": "CHC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 18.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 3,
-      "game_pk": 777757
-    },
-    {
       "player": "Birdsong, Hayden",
       "player_id": 806185,
-      "opponent": "SF",
+      "opponent": "DET",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -135,7 +122,7 @@
     {
       "player": "Gausman, Kevin",
       "player_id": 592332,
-      "opponent": "TOR",
+      "opponent": "TEX",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -148,7 +135,7 @@
     {
       "player": "Holmes, Clay",
       "player_id": 605280,
-      "opponent": "NYM",
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -157,45 +144,6 @@
       "best_price": 108,
       "stars": 2,
       "game_pk": 777758
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "player_id": 547179,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 2,
-      "game_pk": 777760
-    },
-    {
-      "player": "Martinez, Nick",
-      "player_id": 607259,
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 105,
-      "stars": 2,
-      "game_pk": 777760
-    },
-    {
-      "player": "Patrick, Chad",
-      "player_id": 694477,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 777764
     },
     {
       "player": "Phillips, Tyler",
@@ -211,9 +159,22 @@
       "game_pk": 777758
     },
     {
+      "player": "Taillon, Jameson",
+      "player_id": 592791,
+      "opponent": "COL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 18.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 2,
+      "game_pk": 777757
+    },
+    {
       "player": "Williams, Gavin",
       "player_id": 668909,
-      "opponent": "CLE",
+      "opponent": "LAD",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -226,7 +187,7 @@
     {
       "player": "Yamamoto, Yoshinobu",
       "player_id": 808967,
-      "opponent": "LAD",
+      "opponent": "CLE",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -289,6 +250,19 @@
       "game_pk": 777760
     },
     {
+      "player": "Birdsong, Hayden",
+      "player_id": 806185,
+      "opponent": "DET",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777770
+    },
+    {
       "player": "Dom\u00ednguez, Seranthony",
       "player_id": 802415,
       "opponent": "MIN",
@@ -328,6 +302,32 @@
       "game_pk": 777758
     },
     {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -114,
+      "stars": 1,
+      "game_pk": 777759
+    },
+    {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "TEX",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 18.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 777759
+    },
+    {
       "player": "Henriquez, Ronny",
       "player_id": 665742,
       "opponent": "CWS",
@@ -343,7 +343,7 @@
     {
       "player": "Holmes, Clay",
       "player_id": 605280,
-      "opponent": "NYM",
+      "opponent": "CWS",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -356,7 +356,7 @@
     {
       "player": "Holmes, Clay",
       "player_id": 605280,
-      "opponent": "NYM",
+      "opponent": "CWS",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -369,7 +369,7 @@
     {
       "player": "Houser, Adrian",
       "player_id": 605288,
-      "opponent": "CWS",
+      "opponent": "NYM",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -393,9 +393,48 @@
       "game_pk": 777762
     },
     {
+      "player": "Littell, Zack",
+      "player_id": 641793,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777762
+    },
+    {
+      "player": "Lorenzen, Michael",
+      "player_id": 547179,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777760
+    },
+    {
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 777760
+    },
+    {
       "player": "Morton, Charlie",
       "player_id": 450203,
-      "opponent": "BAL",
+      "opponent": "STL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -406,17 +445,17 @@
       "game_pk": 777771
     },
     {
-      "player": "Paddack, Chris",
-      "player_id": 663978,
-      "opponent": "MIN",
+      "player": "Patrick, Chad",
+      "player_id": 694477,
+      "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -145,
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -160,
       "stars": 1,
-      "game_pk": 777762
+      "game_pk": 777764
     },
     {
       "player": "Peralta, Wandy",
@@ -447,7 +486,7 @@
     {
       "player": "Taillon, Jameson",
       "player_id": 592791,
-      "opponent": "CHC",
+      "opponent": "COL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -458,22 +497,9 @@
       "game_pk": 777757
     },
     {
-      "player": "Taillon, Jameson",
-      "player_id": 592791,
-      "opponent": "CHC",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 777757
-    },
-    {
       "player": "Williams, Gavin",
       "player_id": 668909,
-      "opponent": "CLE",
+      "opponent": "LAD",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -484,9 +510,35 @@
       "game_pk": 777769
     },
     {
+      "player": "Yamamoto, Yoshinobu",
+      "player_id": 808967,
+      "opponent": "CLE",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 777769
+    },
+    {
       "player": "deGrom, Jacob",
       "player_id": 594798,
-      "opponent": "TEX",
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 777759
+    },
+    {
+      "player": "deGrom, Jacob",
+      "player_id": 594798,
+      "opponent": "TOR",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",

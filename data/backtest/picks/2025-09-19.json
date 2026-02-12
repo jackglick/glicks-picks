@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.389869+00:00",
+  "generated_at": "2026-02-12T23:06:24.207644+00:00",
   "date": "2025-09-19",
   "picks": [
     {
@@ -96,13 +96,26 @@
     {
       "player": "Cease, Dylan",
       "player_id": 656302,
-      "opponent": "SD",
+      "opponent": "CWS",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 6.5,
       "best_book": "draftkings",
       "best_price": -121,
+      "stars": 2,
+      "game_pk": 776264
+    },
+    {
+      "player": "Martin, Davis",
+      "player_id": 663436,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 117,
       "stars": 2,
       "game_pk": 776264
     },
@@ -133,15 +146,15 @@
       "game_pk": 776264
     },
     {
-      "player": "Povich, Cade",
-      "player_id": 677592,
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
       "opponent": "BOS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 123,
       "stars": 2,
       "game_pk": 776261
     },
@@ -172,6 +185,19 @@
       "game_pk": 776273
     },
     {
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "CWS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -114,
+      "stars": 1,
+      "game_pk": 776264
+    },
+    {
       "player": "Chapman, Aroldis",
       "player_id": 502671,
       "opponent": "NYY",
@@ -198,19 +224,6 @@
       "game_pk": 776267
     },
     {
-      "player": "Gaddis, Hunter",
-      "player_id": 650402,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776268
-    },
-    {
       "player": "Iglesias, Raisel",
       "player_id": 665833,
       "opponent": "ATH",
@@ -224,22 +237,35 @@
       "game_pk": 776266
     },
     {
-      "player": "Keller, Mitch",
-      "player_id": 656605,
-      "opponent": "PIT",
-      "market": "Earned Runs",
+      "player": "Imanaga, Shota",
+      "player_id": 684007,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": -108,
+      "best_price": -118,
       "stars": 1,
-      "game_pk": 776266
+      "game_pk": 776267
+    },
+    {
+      "player": "Keller, Brad",
+      "player_id": 701538,
+      "opponent": "SD",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 178,
+      "stars": 1,
+      "game_pk": 776264
     },
     {
       "player": "Keller, Mitch",
       "player_id": 656605,
-      "opponent": "PIT",
+      "opponent": "ATH",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -265,7 +291,7 @@
     {
       "player": "Lodolo, Nick",
       "player_id": 666157,
-      "opponent": "CIN",
+      "opponent": "CHC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -289,32 +315,6 @@
       "game_pk": 776266
     },
     {
-      "player": "Lorenzen, Michael",
-      "player_id": 547179,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -174,
-      "stars": 1,
-      "game_pk": 776260
-    },
-    {
-      "player": "Martin, Davis",
-      "player_id": 663436,
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 117,
-      "stars": 1,
-      "game_pk": 776264
-    },
-    {
       "player": "Miller, Mason",
       "player_id": 673548,
       "opponent": "CHC",
@@ -328,17 +328,30 @@
       "game_pk": 776267
     },
     {
-      "player": "Nance, Tommy",
-      "player_id": 666624,
-      "opponent": "BOS",
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -118,
+      "stars": 1,
+      "game_pk": 776268
+    },
+    {
+      "player": "Peralta, Wandy",
+      "player_id": 664023,
+      "opponent": "CHC",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "best_book": "draftkings",
+      "best_price": -153,
       "stars": 1,
-      "game_pk": 776261
+      "game_pk": 776267
     },
     {
       "player": "Peterson, David",
@@ -380,30 +393,17 @@
       "game_pk": 776264
     },
     {
-      "player": "Rasmussen, Drew",
-      "player_id": 656876,
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 123,
-      "stars": 1,
-      "game_pk": 776261
-    },
-    {
-      "player": "Sabrowski, Erik",
-      "player_id": 681481,
-      "opponent": "ATL",
-      "market": "Hits",
+      "player": "Povich, Cade",
+      "player_id": 677592,
+      "opponent": "BOS",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 143,
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 1,
-      "game_pk": 776268
+      "game_pk": 776261
     },
     {
       "player": "Sale, Chris",
@@ -432,15 +432,15 @@
       "game_pk": 776266
     },
     {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -171,
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "PIT",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 15.5,
+      "best_book": "fanduel",
+      "best_price": 125,
       "stars": 1,
       "game_pk": 776266
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.238839+00:00",
+  "generated_at": "2026-02-12T23:06:24.062719+00:00",
   "date": "2025-06-16",
   "picks": [
     {
@@ -31,54 +31,15 @@
     {
       "player": "Soriano, Jos\u00e9",
       "player_id": 667755,
-      "opponent": "LAA",
+      "opponent": "NYY",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
       "line": 4.5,
       "best_book": "draftkings",
       "best_price": -105,
-      "stars": 3,
-      "game_pk": 777487
-    },
-    {
-      "player": "Soriano, Jos\u00e9",
-      "player_id": 667755,
-      "opponent": "LAA",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 3,
-      "game_pk": 777487
-    },
-    {
-      "player": "Irvin, Jake",
-      "player_id": 663623,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -135,
       "stars": 2,
-      "game_pk": 777488
-    },
-    {
-      "player": "Alcantara, Sandy",
-      "player_id": 645261,
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -102,
-      "stars": 1,
-      "game_pk": 777483
+      "game_pk": 777487
     },
     {
       "player": "Bednar, David",
@@ -120,41 +81,41 @@
       "game_pk": 777487
     },
     {
-      "player": "Crochet, Garrett",
-      "player_id": 642708,
+      "player": "Irvin, Jake",
+      "player_id": 663623,
       "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
+      "market": "Strikeouts",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 5.5,
       "best_book": "draftkings",
-      "best_price": -120,
+      "best_price": -135,
       "stars": 1,
       "game_pk": 777488
     },
     {
-      "player": "Eflin, Zach",
-      "player_id": 621107,
-      "opponent": "BAL",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777484
-    },
-    {
       "player": "Irvin, Jake",
       "player_id": 663623,
-      "opponent": "WSH",
+      "opponent": "COL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 18.5,
       "best_book": "draftkings",
       "best_price": -150,
+      "stars": 1,
+      "game_pk": 777488
+    },
+    {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "COL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 165,
       "stars": 1,
       "game_pk": 777488
     },
@@ -185,19 +146,6 @@
       "game_pk": 777484
     },
     {
-      "player": "Little, Brendon",
-      "player_id": 663968,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 777484
-    },
-    {
       "player": "Smith, Shane",
       "player_id": 605137,
       "opponent": "COL",
@@ -209,6 +157,19 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 777488
+    },
+    {
+      "player": "Soriano, Jos\u00e9",
+      "player_id": 667755,
+      "opponent": "NYY",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777487
     },
     {
       "player": "Soto, Gregory",

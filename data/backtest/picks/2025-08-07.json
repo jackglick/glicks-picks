@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.325119+00:00",
+  "generated_at": "2026-02-12T23:06:24.139869+00:00",
   "date": "2025-08-07",
   "picks": [
     {
@@ -120,32 +120,6 @@
       "game_pk": 776842
     },
     {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "PIT",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 118,
-      "stars": 3,
-      "game_pk": 776840
-    },
-    {
-      "player": "Smith, Shane",
-      "player_id": 681343,
-      "opponent": "CWS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 14.5,
-      "best_book": "fanduel",
-      "best_price": 130,
-      "stars": 3,
-      "game_pk": 776830
-    },
-    {
       "player": "Treinen, Blake",
       "player_id": 666158,
       "opponent": "CIN",
@@ -174,7 +148,7 @@
     {
       "player": "Gilbert, Logan",
       "player_id": 669302,
-      "opponent": "SEA",
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -224,6 +198,19 @@
       "game_pk": 776840
     },
     {
+      "player": "Smith, Shane",
+      "player_id": 681343,
+      "opponent": "SEA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "fanduel",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 776830
+    },
+    {
       "player": "Snell, Blake",
       "player_id": 669720,
       "opponent": "CIN",
@@ -263,6 +250,19 @@
       "game_pk": 776837
     },
     {
+      "player": "Avila, Luinder",
+      "player_id": 687515,
+      "opponent": "ATH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 135,
+      "stars": 1,
+      "game_pk": 776837
+    },
+    {
       "player": "Barco, Hunter",
       "player_id": 671739,
       "opponent": "MIA",
@@ -278,7 +278,7 @@
     {
       "player": "Carrasco, Carlos",
       "player_id": 471911,
-      "opponent": "ATL",
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -302,19 +302,6 @@
       "game_pk": 776830
     },
     {
-      "player": "Knack, Landon",
-      "player_id": 663728,
-      "opponent": "CWS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 776830
-    },
-    {
       "player": "Leasure, Jordan",
       "player_id": 656180,
       "opponent": "ATH",
@@ -328,30 +315,17 @@
       "game_pk": 776837
     },
     {
-      "player": "Lopez, Jacob",
-      "player_id": 682052,
-      "opponent": "ATH",
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 15.5,
-      "best_book": "draftkings",
-      "best_price": -125,
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 118,
       "stars": 1,
-      "game_pk": 776837
-    },
-    {
-      "player": "Smith, Shane",
-      "player_id": 695578,
-      "opponent": "ATH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 776837
+      "game_pk": 776840
     },
     {
       "player": "Soto, Gregory",
@@ -389,6 +363,19 @@
       "line": 1.5,
       "best_book": null,
       "best_price": null,
+      "stars": 1,
+      "game_pk": 776840
+    },
+    {
+      "player": "Treinen, Blake",
+      "player_id": 680574,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 130,
       "stars": 1,
       "game_pk": 776840
     },

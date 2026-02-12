@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-12T22:44:37.278750+00:00",
+  "generated_at": "2026-02-12T23:06:24.097793+00:00",
   "date": "2025-07-10",
   "picks": [
     {
-      "player": "Buehler, Walker",
-      "player_id": 621111,
+      "player": "Bradley, Taj",
+      "player_id": 671737,
       "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 15.5,
-      "best_book": "draftkings",
-      "best_price": -125,
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -128,
       "stars": 3,
       "game_pk": 777170
     },
@@ -57,7 +57,7 @@
     {
       "player": "Lodolo, Nick",
       "player_id": 666157,
-      "opponent": "CIN",
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -122,7 +122,7 @@
     {
       "player": "Peterson, David",
       "player_id": 656849,
-      "opponent": "NYM",
+      "opponent": "BAL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -148,7 +148,7 @@
     {
       "player": "Soroka, Michael",
       "player_id": 647336,
-      "opponent": "WSH",
+      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -161,6 +161,19 @@
     {
       "player": "Soto, Gregory",
       "player_id": 681393,
+      "opponent": "MIA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -170,
+      "stars": 2,
+      "game_pk": 777168
+    },
+    {
+      "player": "Soto, Gregory",
+      "player_id": 669364,
       "opponent": "MIA",
       "market": "Total Bases",
       "category": "batter",
@@ -198,15 +211,15 @@
       "game_pk": 777156
     },
     {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
+      "player": "Buehler, Walker",
+      "player_id": 621111,
       "opponent": "TB",
-      "market": "Outs Recorded",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -128,
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -140,
       "stars": 1,
       "game_pk": 777170
     },
@@ -380,6 +393,19 @@
       "game_pk": 777170
     },
     {
+      "player": "Lorenzen, Michael",
+      "player_id": 543760,
+      "opponent": "TEX",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 777159
+    },
+    {
       "player": "McCullers Jr., Lance",
       "player_id": 545361,
       "opponent": "TEX",
@@ -393,19 +419,6 @@
       "game_pk": 777159
     },
     {
-      "player": "Mikolas, Miles",
-      "player_id": 571945,
-      "opponent": "STL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 777167
-    },
-    {
       "player": "Miller, Mason",
       "player_id": 673548,
       "opponent": "CHC",
@@ -417,6 +430,19 @@
       "best_price": 195,
       "stars": 1,
       "game_pk": 777166
+    },
+    {
+      "player": "Peterson, David",
+      "player_id": 656849,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 777165
     },
     {
       "player": "Phillips, Tyler",
@@ -434,7 +460,7 @@
     {
       "player": "Quantrill, Cal",
       "player_id": 615698,
-      "opponent": "MIA",
+      "opponent": "CIN",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -486,7 +512,7 @@
     {
       "player": "Rea, Colin",
       "player_id": 607067,
-      "opponent": "CHC",
+      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -523,17 +549,17 @@
       "game_pk": 777166
     },
     {
-      "player": "Robertson, David",
-      "player_id": 668904,
-      "opponent": "CHC",
+      "player": "Smith, Shane",
+      "player_id": 605137,
+      "opponent": "WSH",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -160,
+      "best_price": -155,
       "stars": 1,
-      "game_pk": 777166
+      "game_pk": 777167
     },
     {
       "player": "Snell, Blake",
@@ -552,12 +578,12 @@
       "player": "Soto, Gregory",
       "player_id": 669364,
       "opponent": "MIA",
-      "market": "Total Bases",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -170,
+      "best_price": -235,
       "stars": 1,
       "game_pk": 777168
     },
@@ -573,32 +599,6 @@
       "best_price": -235,
       "stars": 1,
       "game_pk": 777169
-    },
-    {
-      "player": "Treinen, Blake",
-      "player_id": 680574,
-      "opponent": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -260,
-      "stars": 1,
-      "game_pk": 777168
-    },
-    {
-      "player": "Treinen, Blake",
-      "player_id": 680574,
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 777168
     },
     {
       "player": "Zerpa, Angel",

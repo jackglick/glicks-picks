@@ -1,24 +1,11 @@
 {
-  "generated_at": "2026-02-12T22:44:37.150405+00:00",
+  "generated_at": "2026-02-12T23:06:23.987131+00:00",
   "date": "2025-04-28",
   "picks": [
     {
-      "player": "Martinez, Nick",
-      "player_id": 607259,
-      "opponent": "CIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 3,
-      "game_pk": 778141
-    },
-    {
       "player": "Ober, Bailey",
       "player_id": 641927,
-      "opponent": "MIN",
+      "opponent": "CLE",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -29,22 +16,22 @@
       "game_pk": 778139
     },
     {
-      "player": "Williams, Gavin",
-      "player_id": 668909,
-      "opponent": "CLE",
-      "market": "Strikeouts",
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "STL",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 105,
+      "best_price": -115,
       "stars": 2,
-      "game_pk": 778139
+      "game_pk": 778141
     },
     {
       "player": "Williams, Gavin",
       "player_id": 668909,
-      "opponent": "CLE",
+      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -53,19 +40,6 @@
       "best_price": -104,
       "stars": 2,
       "game_pk": 778139
-    },
-    {
-      "player": "Williams, Trevor",
-      "player_id": 592866,
-      "opponent": "WSH",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 2,
-      "game_pk": 778138
     },
     {
       "player": "Bednar, David",
@@ -79,6 +53,19 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 778140
+    },
+    {
+      "player": "Canning, Griffin",
+      "player_id": 656288,
+      "opponent": "WSH",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 778138
     },
     {
       "player": "Chapman, Aroldis",
@@ -107,6 +94,19 @@
       "game_pk": 778139
     },
     {
+      "player": "Faucher, Calvin",
+      "player_id": 643446,
+      "opponent": "NYM",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 778138
+    },
+    {
       "player": "Henriquez, Edgardo",
       "player_id": 668715,
       "opponent": "STL",
@@ -120,15 +120,15 @@
       "game_pk": 778141
     },
     {
-      "player": "Martinez, Nick",
-      "player_id": 607259,
+      "player": "Pallante, Andre",
+      "player_id": 669467,
       "opponent": "CIN",
-      "market": "Walks",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 105,
+      "direction": "UNDER",
+      "line": 15.5,
+      "best_book": "fanduel",
+      "best_price": 110,
       "stars": 1,
       "game_pk": 778141
     },
@@ -146,19 +146,6 @@
       "game_pk": 778138
     },
     {
-      "player": "Snell, Blake",
-      "player_id": 669720,
-      "opponent": "STL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 778141
-    },
-    {
       "player": "Vest, Will",
       "player_id": 608070,
       "opponent": "MIN",
@@ -170,6 +157,32 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 778139
+    },
+    {
+      "player": "Williams, Gavin",
+      "player_id": 668909,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 778139
+    },
+    {
+      "player": "Williams, Trevor",
+      "player_id": 592866,
+      "opponent": "NYM",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 778138
     }
   ]
 }

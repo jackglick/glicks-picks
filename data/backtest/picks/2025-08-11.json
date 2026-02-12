@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.331647+00:00",
+  "generated_at": "2026-02-12T23:06:24.146608+00:00",
   "date": "2025-08-11",
   "picks": [
     {
@@ -29,19 +29,6 @@
       "game_pk": 776783
     },
     {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 106,
-      "stars": 3,
-      "game_pk": 776786
-    },
-    {
       "player": "Ohl, Pierson",
       "player_id": 664056,
       "opponent": "PHI",
@@ -53,19 +40,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776792
-    },
-    {
-      "player": "Quintana, Jose",
-      "player_id": 500779,
-      "opponent": "MIL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 3,
-      "game_pk": 776786
     },
     {
       "player": "Wicks, Jordan",
@@ -120,17 +94,17 @@
       "game_pk": 776792
     },
     {
-      "player": "Falter, Bailey",
-      "player_id": 663559,
-      "opponent": "KC",
+      "player": "Heaney, Andrew",
+      "player_id": 571760,
+      "opponent": "MIL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 3.5,
       "best_book": "fanduel",
-      "best_price": 112,
+      "best_price": 106,
       "stars": 2,
-      "game_pk": 776784
+      "game_pk": 776786
     },
     {
       "player": "Lodolo, Nick",
@@ -144,6 +118,19 @@
       "best_price": -175,
       "stars": 2,
       "game_pk": 776786
+    },
+    {
+      "player": "Mikolas, Miles",
+      "player_id": 571945,
+      "opponent": "COL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 776783
     },
     {
       "player": "Smith, Cade",
@@ -173,19 +160,6 @@
     },
     {
       "player": "Walker, Taijuan",
-      "player_id": 592836,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 776792
-    },
-    {
-      "player": "Walker, Taijuan",
       "player_id": 663616,
       "opponent": "MIN",
       "market": "Total Bases",
@@ -198,9 +172,22 @@
       "game_pk": 776790
     },
     {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 2,
+      "game_pk": 776790
+    },
+    {
       "player": "Abbott, Andrew",
       "player_id": 671096,
-      "opponent": "CIN",
+      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -237,19 +224,6 @@
       "game_pk": 776784
     },
     {
-      "player": "Dollander, Chase",
-      "player_id": 801403,
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 134,
-      "stars": 1,
-      "game_pk": 776783
-    },
-    {
       "player": "Dreyer, Jack",
       "player_id": 682829,
       "opponent": "PHI",
@@ -263,56 +237,69 @@
       "game_pk": 776792
     },
     {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "PIT",
-      "market": "Earned Runs",
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "WSH",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.0,
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 112,
+      "stars": 1,
+      "game_pk": 776784
+    },
+    {
+      "player": "Heaney, Andrew",
+      "player_id": 571760,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
       "best_book": "draftkings",
-      "best_price": -150,
+      "best_price": 105,
       "stars": 1,
       "game_pk": 776786
     },
     {
-      "player": "Matthews, Zebby",
-      "player_id": 805673,
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
+      "player": "Hill, Tim",
+      "player_id": 663993,
+      "opponent": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 100,
+      "best_price": 170,
       "stars": 1,
-      "game_pk": 776790
+      "game_pk": 776784
     },
     {
-      "player": "Matthews, Zebby",
-      "player_id": 805673,
-      "opponent": "MIN",
-      "market": "Walks",
-      "category": "pitcher",
+      "player": "Laweryson, Cody",
+      "player_id": 642215,
+      "opponent": "PHI",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
       "best_price": null,
       "stars": 1,
-      "game_pk": 776790
+      "game_pk": 776792
     },
     {
-      "player": "Mikolas, Miles",
-      "player_id": 571945,
-      "opponent": "STL",
-      "market": "Walks",
+      "player": "Matthews, Zebby",
+      "player_id": 805673,
+      "opponent": "NYY",
+      "market": "Earned Runs",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": null,
-      "best_price": null,
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 105,
       "stars": 1,
-      "game_pk": 776783
+      "game_pk": 776790
     },
     {
       "player": "Murphy, Chris",
@@ -328,28 +315,15 @@
       "game_pk": 776781
     },
     {
-      "player": "Phillips, Connor",
-      "player_id": 668930,
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776786
-    },
-    {
       "player": "Quintana, Jose",
       "player_id": 500779,
-      "opponent": "MIL",
-      "market": "Strikeouts",
+      "opponent": "PIT",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -112,
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -125,
       "stars": 1,
       "game_pk": 776786
     },
@@ -407,19 +381,6 @@
     },
     {
       "player": "Smith, Shane",
-      "player_id": 605137,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 776784
-    },
-    {
-      "player": "Smith, Shane",
       "player_id": 695578,
       "opponent": "WSH",
       "market": "Hits",
@@ -428,6 +389,19 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": -265,
+      "stars": 1,
+      "game_pk": 776784
+    },
+    {
+      "player": "Smith, Shane",
+      "player_id": 605137,
+      "opponent": "WSH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -170,
       "stars": 1,
       "game_pk": 776784
     },
@@ -447,7 +421,20 @@
     {
       "player": "Walker, Taijuan",
       "player_id": 592836,
-      "opponent": "PHI",
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 776792
+    },
+    {
+      "player": "Walker, Taijuan",
+      "player_id": 592836,
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -456,19 +443,6 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 776792
-    },
-    {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 776790
     },
     {
       "player": "Weissert, Greg",

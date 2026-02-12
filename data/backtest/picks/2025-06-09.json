@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-12T22:44:37.230343+00:00",
+  "generated_at": "2026-02-12T23:06:24.054140+00:00",
   "date": "2025-06-09",
   "picks": [
     {
       "player": "Bello, Brayan",
       "player_id": 678394,
-      "opponent": "BOS",
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -16,56 +16,43 @@
       "game_pk": 777584
     },
     {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
+      "player": "Pallante, Andre",
+      "player_id": 669467,
       "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "fanduel",
-      "best_price": 134,
+      "best_price": 106,
       "stars": 3,
       "game_pk": 777581
     },
     {
-      "player": "Ortiz, Luis",
-      "player_id": 682847,
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 3,
-      "game_pk": 777580
-    },
-    {
-      "player": "Ortiz, Luis",
-      "player_id": 682847,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -108,
-      "stars": 2,
-      "game_pk": 777580
-    },
-    {
-      "player": "Pallante, Andre",
-      "player_id": 669467,
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
       "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "fanduel",
-      "best_price": 106,
+      "best_price": 134,
       "stars": 2,
       "game_pk": 777581
+    },
+    {
+      "player": "Ortiz, Luis",
+      "player_id": 682847,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 777580
     },
     {
       "player": "Vest, Will",
@@ -81,9 +68,22 @@
       "game_pk": 777580
     },
     {
+      "player": "Baker, Bryan",
+      "player_id": 665489,
+      "opponent": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -205,
+      "stars": 1,
+      "game_pk": 777581
+    },
+    {
       "player": "Baz, Shane",
       "player_id": 669358,
-      "opponent": "TB",
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -96,7 +96,7 @@
     {
       "player": "Boyd, Matthew",
       "player_id": 571510,
-      "opponent": "CHC",
+      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -120,6 +120,19 @@
       "game_pk": 777581
     },
     {
+      "player": "Dreyer, Jack",
+      "player_id": 682829,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 777580
+    },
+    {
       "player": "Little, Brendon",
       "player_id": 663968,
       "opponent": "TB",
@@ -133,6 +146,32 @@
       "game_pk": 777584
     },
     {
+      "player": "Ortiz, Luis",
+      "player_id": 682847,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -108,
+      "stars": 1,
+      "game_pk": 777580
+    },
+    {
+      "player": "Pallante, Andre",
+      "player_id": 669467,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777581
+    },
+    {
       "player": "Peterson, David",
       "player_id": 467793,
       "opponent": "CIN",
@@ -144,19 +183,6 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 777580
-    },
-    {
-      "player": "P\u00e9rez, Eury",
-      "player_id": 691587,
-      "opponent": "MIA",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 777574
     },
     {
       "player": "Ram\u00edrez, Yohan",

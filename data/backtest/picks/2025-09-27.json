@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.402001+00:00",
+  "generated_at": "2026-02-12T23:06:24.219428+00:00",
   "date": "2025-09-27",
   "picks": [
     {
@@ -29,19 +29,6 @@
       "game_pk": 776153
     },
     {
-      "player": "Strider, Spencer",
-      "player_id": 675911,
-      "opponent": "ATL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 102,
-      "stars": 3,
-      "game_pk": 776156
-    },
-    {
       "player": "Vest, Will",
       "player_id": 692216,
       "opponent": "TEX",
@@ -53,6 +40,19 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776158
+    },
+    {
+      "player": "V\u00e1squez, Randy",
+      "player_id": 672695,
+      "opponent": "AZ",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 776152
     },
     {
       "player": "Banks, Tanner",
@@ -70,7 +70,7 @@
     {
       "player": "Boyle, Joe",
       "player_id": 671212,
-      "opponent": "TB",
+      "opponent": "TOR",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -133,32 +133,6 @@
       "game_pk": 776158
     },
     {
-      "player": "Sugano, Tomoyuki",
-      "player_id": 608372,
-      "opponent": "BAL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -148,
-      "stars": 2,
-      "game_pk": 776162
-    },
-    {
-      "player": "V\u00e1squez, Randy",
-      "player_id": 672695,
-      "opponent": "AZ",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776152
-    },
-    {
       "player": "Agnos, Zach",
       "player_id": 642715,
       "opponent": "COL",
@@ -181,6 +155,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -209,
+      "stars": 1,
+      "game_pk": 776155
+    },
+    {
+      "player": "Bachman, Sam",
+      "player_id": 673237,
+      "opponent": "HOU",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -122,
       "stars": 1,
       "game_pk": 776155
     },
@@ -239,7 +226,7 @@
     {
       "player": "Boyle, Joe",
       "player_id": 671212,
-      "opponent": "TB",
+      "opponent": "TOR",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -252,7 +239,7 @@
     {
       "player": "Boyle, Joe",
       "player_id": 671212,
-      "opponent": "TB",
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -316,19 +303,6 @@
     },
     {
       "player": "Estrada, Jeremiah",
-      "player_id": 663538,
-      "opponent": "STL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -182,
-      "stars": 1,
-      "game_pk": 776164
-    },
-    {
-      "player": "Estrada, Jeremiah",
       "player_id": 807713,
       "opponent": "STL",
       "market": "Total Bases",
@@ -341,17 +315,17 @@
       "game_pk": 776164
     },
     {
-      "player": "Freeland, Kyle",
-      "player_id": 607536,
-      "opponent": "COL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 15.5,
+      "player": "Estrada, Jeremiah",
+      "player_id": 663538,
+      "opponent": "STL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -108,
+      "best_price": -182,
       "stars": 1,
-      "game_pk": 776146
+      "game_pk": 776164
     },
     {
       "player": "Gordon, Colton",
@@ -367,19 +341,6 @@
       "game_pk": 776155
     },
     {
-      "player": "Kelly, Kevin",
-      "player_id": 676391,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776159
-    },
-    {
       "player": "Kinley, Tyler",
       "player_id": 687462,
       "opponent": "PIT",
@@ -391,19 +352,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776156
-    },
-    {
-      "player": "Knack, Landon",
-      "player_id": 663728,
-      "opponent": "LAD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -138,
-      "stars": 1,
-      "game_pk": 776150
     },
     {
       "player": "Lao, Sauryn",
@@ -447,7 +395,7 @@
     {
       "player": "McGreevy, Michael",
       "player_id": 700241,
-      "opponent": "STL",
+      "opponent": "CHC",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -510,6 +458,19 @@
       "game_pk": 776155
     },
     {
+      "player": "Peralta, Sammy",
+      "player_id": 660821,
+      "opponent": "HOU",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -153,
+      "stars": 1,
+      "game_pk": 776155
+    },
+    {
       "player": "Peralta, Wandy",
       "player_id": 664023,
       "opponent": "STL",
@@ -536,9 +497,22 @@
       "game_pk": 776164
     },
     {
+      "player": "Phillips, Tyler",
+      "player_id": 596019,
+      "opponent": "NYM",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 776161
+    },
+    {
       "player": "P\u00e9rez, Eury",
       "player_id": 691587,
-      "opponent": "MIA",
+      "opponent": "NYM",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -588,19 +562,6 @@
       "game_pk": 776162
     },
     {
-      "player": "Senzatela, Antonio",
-      "player_id": 669477,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 185,
-      "stars": 1,
-      "game_pk": 776146
-    },
-    {
       "player": "Smith, Shane",
       "player_id": 605137,
       "opponent": "CWS",
@@ -627,17 +588,17 @@
       "game_pk": 776161
     },
     {
-      "player": "Soto, Gregory",
-      "player_id": 669364,
-      "opponent": "NYM",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Strider, Spencer",
+      "player_id": 675911,
+      "opponent": "PIT",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": -242,
+      "best_price": 102,
       "stars": 1,
-      "game_pk": 776161
+      "game_pk": 776156
     },
     {
       "player": "Treinen, Blake",
@@ -664,19 +625,6 @@
       "best_price": 178,
       "stars": 1,
       "game_pk": 776155
-    },
-    {
-      "player": "Verlander, Justin",
-      "player_id": 434378,
-      "opponent": "SF",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 123,
-      "stars": 1,
-      "game_pk": 776146
     },
     {
       "player": "Vest, Will",

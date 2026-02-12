@@ -1,58 +1,19 @@
 {
-  "generated_at": "2026-02-12T22:44:37.396836+00:00",
+  "generated_at": "2026-02-12T23:06:24.214378+00:00",
   "date": "2025-09-24",
   "picks": [
     {
-      "player": "Elder, Bryce",
-      "player_id": 693821,
-      "opponent": "ATL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 111,
-      "stars": 3,
-      "game_pk": 776200
-    },
-    {
       "player": "Greene, Hunter",
       "player_id": 668881,
-      "opponent": "CIN",
+      "opponent": "PIT",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "fanduel",
       "best_price": 102,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 776202
-    },
-    {
-      "player": "Alvarez, Andrew",
-      "player_id": 674841,
-      "opponent": "WSH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 13.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776200
-    },
-    {
-      "player": "Bibee, Tanner",
-      "player_id": 676440,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776204
     },
     {
       "player": "Sale, Chris",
@@ -79,19 +40,6 @@
       "best_price": 157,
       "stars": 2,
       "game_pk": 776200
-    },
-    {
-      "player": "Wells, Tyler",
-      "player_id": 669330,
-      "opponent": "BAL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -106,
-      "stars": 2,
-      "game_pk": 776203
     },
     {
       "player": "Agnos, Zach",
@@ -131,32 +79,6 @@
       "best_price": -193,
       "stars": 1,
       "game_pk": 776192
-    },
-    {
-      "player": "Alvarez, Andrew",
-      "player_id": 674841,
-      "opponent": "WSH",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 776200
-    },
-    {
-      "player": "Alvarez, Andrew",
-      "player_id": 674841,
-      "opponent": "WSH",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 124,
-      "stars": 1,
-      "game_pk": 776200
     },
     {
       "player": "Ashcraft, Graham",
@@ -276,17 +198,43 @@
       "game_pk": 776199
     },
     {
-      "player": "Fried, Max",
-      "player_id": 608331,
-      "opponent": "NYY",
-      "market": "Earned Runs",
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "TOR",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 124,
       "stars": 1,
-      "game_pk": 776199
+      "game_pk": 776206
+    },
+    {
+      "player": "Dom\u00ednguez, Seranthony",
+      "player_id": 802415,
+      "opponent": "TB",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -214,
+      "stars": 1,
+      "game_pk": 776203
+    },
+    {
+      "player": "Elder, Bryce",
+      "player_id": 693821,
+      "opponent": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 111,
+      "stars": 1,
+      "game_pk": 776200
     },
     {
       "player": "Gaddis, Hunter",
@@ -339,6 +287,19 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776200
+    },
+    {
+      "player": "Little, Brendon",
+      "player_id": 663968,
+      "opponent": "TB",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -186,
+      "stars": 1,
+      "game_pk": 776203
     },
     {
       "player": "Long, Sam",
@@ -404,19 +365,6 @@
       "best_price": 173,
       "stars": 1,
       "game_pk": 776196
-    },
-    {
-      "player": "Ober, Bailey",
-      "player_id": 669701,
-      "opponent": "MIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "draftkings",
-      "best_price": 127,
-      "stars": 1,
-      "game_pk": 776192
     },
     {
       "player": "Phillips, Connor",
@@ -521,6 +469,32 @@
       "best_price": -135,
       "stars": 1,
       "game_pk": 776204
+    },
+    {
+      "player": "Wells, Tyler",
+      "player_id": 669330,
+      "opponent": "TB",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 776203
+    },
+    {
+      "player": "Williams, Devin",
+      "player_id": 678882,
+      "opponent": "BOS",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 776206
     }
   ]
 }

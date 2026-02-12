@@ -1,11 +1,24 @@
 {
-  "generated_at": "2026-02-12T22:44:37.146534+00:00",
+  "generated_at": "2026-02-12T23:06:23.983224+00:00",
   "date": "2025-04-25",
   "picks": [
     {
+      "player": "Carrasco, Carlos",
+      "player_id": 471911,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 112,
+      "stars": 3,
+      "game_pk": 778185
+    },
+    {
       "player": "Lugo, Seth",
       "player_id": 607625,
-      "opponent": "KC",
+      "opponent": "HOU",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -29,28 +42,15 @@
       "game_pk": 778172
     },
     {
-      "player": "Carrasco, Carlos",
-      "player_id": 471911,
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
       "opponent": "NYY",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 112,
-      "stars": 2,
-      "game_pk": 778185
-    },
-    {
-      "player": "Carrasco, Carlos",
-      "player_id": 471911,
-      "opponent": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
       "direction": "UNDER",
-      "line": 14.5,
+      "line": 4.5,
       "best_book": "draftkings",
-      "best_price": 130,
+      "best_price": 120,
       "stars": 2,
       "game_pk": 778185
     },
@@ -81,9 +81,22 @@
       "game_pk": 778185
     },
     {
+      "player": "Dreyer, Jack",
+      "player_id": 663647,
+      "opponent": "PIT",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 190,
+      "stars": 2,
+      "game_pk": 778176
+    },
+    {
       "player": "Hendricks, Kyle",
       "player_id": 543294,
-      "opponent": "LAA",
+      "opponent": "MIN",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
@@ -94,56 +107,30 @@
       "game_pk": 778186
     },
     {
-      "player": "Hendricks, Kyle",
-      "player_id": 543294,
+      "player": "L\u00f3pez, Pablo",
+      "player_id": 641154,
       "opponent": "LAA",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 2,
-      "game_pk": 778186
-    },
-    {
-      "player": "L\u00f3pez, Pablo",
-      "player_id": 641154,
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 2,
-      "game_pk": 778186
-    },
-    {
-      "player": "L\u00f3pez, Pablo",
-      "player_id": 641154,
-      "opponent": "MIN",
-      "market": "Hits Allowed",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -125,
+      "line": 15.5,
+      "best_book": "fanduel",
+      "best_price": 136,
       "stars": 2,
       "game_pk": 778186
     },
     {
-      "player": "L\u00f3pez, Pablo",
-      "player_id": 641154,
-      "opponent": "MIN",
-      "market": "Earned Runs",
+      "player": "Wesneski, Hayden",
+      "player_id": 669713,
+      "opponent": "KC",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
+      "direction": "UNDER",
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 120,
+      "best_price": -110,
       "stars": 2,
-      "game_pk": 778186
+      "game_pk": 778187
     },
     {
       "player": "Baker, Bryan",
@@ -185,45 +172,6 @@
       "game_pk": 778185
     },
     {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 778185
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "TOR",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 778185
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "TOR",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 778185
-    },
-    {
       "player": "Cabrera, Edward",
       "player_id": 677347,
       "opponent": "LAA",
@@ -250,6 +198,19 @@
       "game_pk": 778185
     },
     {
+      "player": "Cruz, Fernando",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778185
+    },
+    {
       "player": "Dana, Caden",
       "player_id": 621043,
       "opponent": "LAA",
@@ -261,19 +222,6 @@
       "best_price": 165,
       "stars": 1,
       "game_pk": 778186
-    },
-    {
-      "player": "Dreyer, Jack",
-      "player_id": 663647,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 778176
     },
     {
       "player": "Faucher, Calvin",
@@ -302,17 +250,30 @@
       "game_pk": 778186
     },
     {
-      "player": "Irvin, Jake",
-      "player_id": 663623,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "player": "Kent, Zak",
+      "player_id": 592626,
+      "opponent": "TEX",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -116,
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 120,
       "stars": 1,
-      "game_pk": 778183
+      "game_pk": 778171
+    },
+    {
+      "player": "Kent, Zak",
+      "player_id": 666969,
+      "opponent": "TEX",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 185,
+      "stars": 1,
+      "game_pk": 778171
     },
     {
       "player": "Knack, Landon",
@@ -339,6 +300,58 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 778171
+    },
+    {
+      "player": "Lorenzen, Michael",
+      "player_id": 543760,
+      "opponent": "TEX",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -175,
+      "stars": 1,
+      "game_pk": 778171
+    },
+    {
+      "player": "L\u00f3pez, Pablo",
+      "player_id": 641154,
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 778186
+    },
+    {
+      "player": "L\u00f3pez, Pablo",
+      "player_id": 641154,
+      "opponent": "LAA",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 778186
+    },
+    {
+      "player": "L\u00f3pez, Pablo",
+      "player_id": 641154,
+      "opponent": "LAA",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 778186
     },
     {
       "player": "Matthews, Zebby",
@@ -430,19 +443,6 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 778185
-    },
-    {
-      "player": "Wesneski, Hayden",
-      "player_id": 669713,
-      "opponent": "HOU",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 778187
     }
   ]
 }

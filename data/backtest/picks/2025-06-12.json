@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.233942+00:00",
+  "generated_at": "2026-02-12T23:06:24.057938+00:00",
   "date": "2025-06-12",
   "picks": [
     {
@@ -83,7 +83,7 @@
     {
       "player": "Ober, Bailey",
       "player_id": 641927,
-      "opponent": "MIN",
+      "opponent": "TEX",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -118,19 +118,6 @@
       "best_price": -250,
       "stars": 3,
       "game_pk": 777534
-    },
-    {
-      "player": "Senga, Kodai",
-      "player_id": 673540,
-      "opponent": "NYM",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 158,
-      "stars": 3,
-      "game_pk": 777544
     },
     {
       "player": "Smith, Cade",
@@ -172,17 +159,17 @@
       "game_pk": 777534
     },
     {
-      "player": "Garc\u00eda, Luis",
-      "player_id": 671289,
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
+      "player": "Senga, Kodai",
+      "player_id": 673540,
+      "opponent": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -190,
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 158,
       "stars": 2,
-      "game_pk": 777534
+      "game_pk": 777544
     },
     {
       "player": "Senzatela, Antonio",
@@ -211,17 +198,17 @@
       "game_pk": 777532
     },
     {
-      "player": "Bachman, Sam",
-      "player_id": 673237,
-      "opponent": "CWS",
-      "market": "Hits",
+      "player": "Yamamoto, Yoshinobu",
+      "player_id": 642086,
+      "opponent": "SF",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -245,
-      "stars": 1,
-      "game_pk": 777546
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 777534
     },
     {
       "player": "Bido, Osvaldo",
@@ -263,6 +250,19 @@
       "game_pk": 777536
     },
     {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777533
+    },
+    {
       "player": "Faucher, Calvin",
       "player_id": 607043,
       "opponent": "WSH",
@@ -302,6 +302,32 @@
       "game_pk": 777540
     },
     {
+      "player": "Gaddis, Hunter",
+      "player_id": 595879,
+      "opponent": "DET",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 777540
+    },
+    {
+      "player": "Garc\u00eda, Luis",
+      "player_id": 671289,
+      "opponent": "SF",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -190,
+      "stars": 1,
+      "game_pk": 777534
+    },
+    {
       "player": "Kremer, Dean",
       "player_id": 641857,
       "opponent": "SF",
@@ -315,30 +341,17 @@
       "game_pk": 777534
     },
     {
-      "player": "Lugo, Seth",
-      "player_id": 607625,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -102,
-      "stars": 1,
-      "game_pk": 777536
-    },
-    {
-      "player": "Lugo, Seth",
-      "player_id": 607625,
-      "opponent": "KC",
-      "market": "Walks",
-      "category": "pitcher",
+      "player": "Littell, Zack",
+      "player_id": 575929,
+      "opponent": "STL",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 130,
+      "best_book": null,
+      "best_price": null,
       "stars": 1,
-      "game_pk": 777536
+      "game_pk": 777532
     },
     {
       "player": "Mejia, Juan",
@@ -406,6 +419,19 @@
       "game_pk": 777534
     },
     {
+      "player": "Peralta, Wandy",
+      "player_id": 666149,
+      "opponent": "SF",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -205,
+      "stars": 1,
+      "game_pk": 777534
+    },
+    {
       "player": "Phillips, Tyler",
       "player_id": 596019,
       "opponent": "WSH",
@@ -419,28 +445,28 @@
       "game_pk": 777544
     },
     {
-      "player": "Robertson, David",
-      "player_id": 668904,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 777533
-    },
-    {
       "player": "Senzatela, Antonio",
       "player_id": 622608,
-      "opponent": "COL",
+      "opponent": "SF",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
       "line": 2.5,
       "best_book": "fanduel",
       "best_price": -152,
+      "stars": 1,
+      "game_pk": 777534
+    },
+    {
+      "player": "Senzatela, Antonio",
+      "player_id": 622608,
+      "opponent": "SF",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 110,
       "stars": 1,
       "game_pk": 777534
     },
@@ -471,6 +497,19 @@
       "game_pk": 777533
     },
     {
+      "player": "Smith, Cade",
+      "player_id": 682985,
+      "opponent": "DET",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 180,
+      "stars": 1,
+      "game_pk": 777540
+    },
+    {
       "player": "Smith, Shane",
       "player_id": 695578,
       "opponent": "WSH",
@@ -484,30 +523,17 @@
       "game_pk": 777544
     },
     {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "NYY",
+      "player": "Soroka, Michael",
+      "player_id": 647336,
+      "opponent": "NYM",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
+      "direction": "UNDER",
       "line": 4.5,
       "best_book": "fanduel",
-      "best_price": -136,
+      "best_price": 102,
       "stars": 1,
-      "game_pk": 777536
-    },
-    {
-      "player": "Yamamoto, Yoshinobu",
-      "player_id": 642086,
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777534
+      "game_pk": 777544
     },
     {
       "player": "Yamamoto, Yoshinobu",

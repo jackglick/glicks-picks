@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.158415+00:00",
+  "generated_at": "2026-02-12T23:06:23.990862+00:00",
   "date": "2025-05-01",
   "picks": [
     {
@@ -42,9 +42,22 @@
       "game_pk": 778094
     },
     {
+      "player": "Est\u00e9vez, Carlos",
+      "player_id": 805779,
+      "opponent": "ATH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -185,
+      "stars": 3,
+      "game_pk": 778096
+    },
+    {
       "player": "Houck, Tanner",
       "player_id": 656557,
-      "opponent": "BOS",
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -68,19 +81,6 @@
       "game_pk": 778096
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 682657,
-      "opponent": "MIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -195,
-      "stars": 3,
-      "game_pk": 778108
-    },
-    {
       "player": "Treinen, Blake",
       "player_id": 666158,
       "opponent": "STL",
@@ -94,9 +94,22 @@
       "game_pk": 778107
     },
     {
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "STL",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 2,
+      "game_pk": 778107
+    },
+    {
       "player": "Baz, Shane",
       "player_id": 669358,
-      "opponent": "TB",
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -109,7 +122,7 @@
     {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
-      "opponent": "TOR",
+      "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -122,20 +135,7 @@
     {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
-      "opponent": "TOR",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.0,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 2,
-      "game_pk": 778095
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "TOR",
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -146,56 +146,17 @@
       "game_pk": 778095
     },
     {
-      "player": "Est\u00e9vez, Carlos",
-      "player_id": 805779,
-      "opponent": "ATH",
+      "player": "Skubal, Tarik",
+      "player_id": 682657,
+      "opponent": "MIN",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -185,
+      "best_price": -195,
       "stars": 2,
-      "game_pk": 778096
-    },
-    {
-      "player": "Gallen, Zac",
-      "player_id": 668678,
-      "opponent": "AZ",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 778103
-    },
-    {
-      "player": "Mahle, Tyler",
-      "player_id": 641816,
-      "opponent": "TEX",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 778096
-    },
-    {
-      "player": "Senga, Kodai",
-      "player_id": 673540,
-      "opponent": "NYM",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 2,
-      "game_pk": 778103
+      "game_pk": 778108
     },
     {
       "player": "Treinen, Blake",
@@ -291,7 +252,20 @@
     {
       "player": "Gallen, Zac",
       "player_id": 668678,
-      "opponent": "AZ",
+      "opponent": "NYM",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778103
+    },
+    {
+      "player": "Gallen, Zac",
+      "player_id": 668678,
+      "opponent": "NYM",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -300,19 +274,6 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 778103
-    },
-    {
-      "player": "Henriquez, Edgardo",
-      "player_id": 668715,
-      "opponent": "STL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 778107
     },
     {
       "player": "Holton, Tyler",
@@ -341,28 +302,15 @@
       "game_pk": 778108
     },
     {
-      "player": "Iglesias, Raisel",
-      "player_id": 665833,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "TOR",
+      "market": "Earned Runs",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 4.0,
       "best_book": "draftkings",
-      "best_price": -275,
-      "stars": 1,
-      "game_pk": 778100
-    },
-    {
-      "player": "Kelly, Kevin",
-      "player_id": 676391,
-      "opponent": "BOS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 140,
+      "best_price": -135,
       "stars": 1,
       "game_pk": 778095
     },
@@ -382,7 +330,7 @@
     {
       "player": "Lugo, Seth",
       "player_id": 607625,
-      "opponent": "KC",
+      "opponent": "TB",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -395,13 +343,26 @@
     {
       "player": "Mahle, Tyler",
       "player_id": 641816,
-      "opponent": "TEX",
+      "opponent": "ATH",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 3.0,
       "best_book": "draftkings",
       "best_price": 125,
+      "stars": 1,
+      "game_pk": 778096
+    },
+    {
+      "player": "Mahle, Tyler",
+      "player_id": 641816,
+      "opponent": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -110,
       "stars": 1,
       "game_pk": 778096
     },
@@ -432,6 +393,19 @@
       "game_pk": 778100
     },
     {
+      "player": "Senga, Kodai",
+      "player_id": 673540,
+      "opponent": "AZ",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 778103
+    },
+    {
       "player": "Smith, Shane",
       "player_id": 605137,
       "opponent": "WSH",
@@ -456,6 +430,19 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 778099
+    },
+    {
+      "player": "Trivino, Lou",
+      "player_id": 621439,
+      "opponent": "MIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -260,
+      "stars": 1,
+      "game_pk": 778108
     },
     {
       "player": "Uceta, Edwin",

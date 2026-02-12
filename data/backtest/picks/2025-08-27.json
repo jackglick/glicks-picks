@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.356805+00:00",
+  "generated_at": "2026-02-12T23:06:24.174013+00:00",
   "date": "2025-08-27",
   "picks": [
     {
@@ -16,6 +16,19 @@
       "game_pk": 776567
     },
     {
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 3,
+      "game_pk": 776579
+    },
+    {
       "player": "Cannon, Jonathan",
       "player_id": 691781,
       "opponent": "WSH",
@@ -29,17 +42,17 @@
       "game_pk": 776570
     },
     {
-      "player": "Cecconi, Slade",
-      "player_id": 677944,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
+      "player": "Civale, Aaron",
+      "player_id": 650644,
+      "opponent": "KC",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -115,
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -122,
       "stars": 3,
-      "game_pk": 776580
+      "game_pk": 776569
     },
     {
       "player": "Crochet, Garrett",
@@ -79,6 +92,19 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776570
+    },
+    {
+      "player": "Nelson, Ryne",
+      "player_id": 669194,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 3,
+      "game_pk": 776572
     },
     {
       "player": "Pomeranz, Drew",
@@ -198,61 +224,35 @@
       "game_pk": 776579
     },
     {
-      "player": "Bello, Brayan",
-      "player_id": 678394,
-      "opponent": "BOS",
+      "player": "Cecconi, Slade",
+      "player_id": 677944,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 776580
+    },
+    {
+      "player": "Cecconi, Slade",
+      "player_id": 677944,
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 125,
+      "best_price": -115,
       "stars": 2,
-      "game_pk": 776579
-    },
-    {
-      "player": "Cavalli, Cade",
-      "player_id": 676917,
-      "opponent": "WSH",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776570
-    },
-    {
-      "player": "Civale, Aaron",
-      "player_id": 650644,
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -122,
-      "stars": 2,
-      "game_pk": 776569
+      "game_pk": 776580
     },
     {
       "player": "Gray, Sonny",
       "player_id": 543243,
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 2,
-      "game_pk": 776568
-    },
-    {
-      "player": "Gray, Sonny",
-      "player_id": 543243,
-      "opponent": "STL",
+      "opponent": "PIT",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -276,17 +276,17 @@
       "game_pk": 776563
     },
     {
-      "player": "Nelson, Ryne",
-      "player_id": 669194,
-      "opponent": "AZ",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Smith, Cade",
+      "player_id": 672761,
+      "opponent": "DET",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 125,
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 2,
-      "game_pk": 776572
+      "game_pk": 776559
     },
     {
       "player": "Smith, Shane",
@@ -328,6 +328,19 @@
       "game_pk": 776579
     },
     {
+      "player": "Woo, Bryan",
+      "player_id": 693433,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 114,
+      "stars": 2,
+      "game_pk": 776561
+    },
+    {
       "player": "Alexander, Tyler",
       "player_id": 682928,
       "opponent": "WSH",
@@ -354,6 +367,19 @@
       "game_pk": 776570
     },
     {
+      "player": "Barco, Hunter",
+      "player_id": 671739,
+      "opponent": "ATL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -250,
+      "stars": 1,
+      "game_pk": 776565
+    },
+    {
       "player": "Barlow, Scott",
       "player_id": 702332,
       "opponent": "AZ",
@@ -378,45 +404,6 @@
       "best_price": 195,
       "stars": 1,
       "game_pk": 776563
-    },
-    {
-      "player": "Cavalli, Cade",
-      "player_id": 676917,
-      "opponent": "WSH",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 776570
-    },
-    {
-      "player": "Cecconi, Slade",
-      "player_id": 677944,
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 776580
-    },
-    {
-      "player": "Darvish, Yu",
-      "player_id": 506433,
-      "opponent": "SD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 15.5,
-      "best_book": "fanduel",
-      "best_price": 132,
-      "stars": 1,
-      "game_pk": 776561
     },
     {
       "player": "Dreyer, Jack",
@@ -549,6 +536,32 @@
       "game_pk": 776563
     },
     {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 776568
+    },
+    {
+      "player": "Gusto, Ryan",
+      "player_id": 687473,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 1,
+      "game_pk": 776565
+    },
+    {
       "player": "Kent, Zak",
       "player_id": 677649,
       "opponent": "LAA",
@@ -575,19 +588,6 @@
       "game_pk": 776567
     },
     {
-      "player": "Knack, Landon",
-      "player_id": 553993,
-      "opponent": "SD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776561
-    },
-    {
       "player": "Kremer, Dean",
       "player_id": 641857,
       "opponent": "WSH",
@@ -599,19 +599,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776570
-    },
-    {
-      "player": "Lauer, Eric",
-      "player_id": 641778,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 776567
     },
     {
       "player": "Little, Brendon",
@@ -666,19 +653,6 @@
       "game_pk": 776571
     },
     {
-      "player": "Nelson, Ryne",
-      "player_id": 669194,
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -108,
-      "stars": 1,
-      "game_pk": 776572
-    },
-    {
       "player": "Patrick, Chad",
       "player_id": 657656,
       "opponent": "SD",
@@ -692,17 +666,17 @@
       "game_pk": 776561
     },
     {
-      "player": "Smith, Cade",
-      "player_id": 672761,
-      "opponent": "DET",
-      "market": "Total Bases",
-      "category": "batter",
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
+      "opponent": "CLE",
+      "market": "Earned Runs",
+      "category": "pitcher",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "best_book": "draftkings",
+      "best_price": 105,
       "stars": 1,
-      "game_pk": 776559
+      "game_pk": 776580
     },
     {
       "player": "Smith, Cade",
@@ -755,19 +729,6 @@
       "best_price": -260,
       "stars": 1,
       "game_pk": 776565
-    },
-    {
-      "player": "Walker, Taijuan",
-      "player_id": 592836,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 776566
     },
     {
       "player": "Weissert, Greg",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.253812+00:00",
+  "generated_at": "2026-02-12T23:06:24.074816+00:00",
   "date": "2025-06-24",
   "picks": [
     {
@@ -29,19 +29,6 @@
       "game_pk": 777372
     },
     {
-      "player": "Peralta, Freddy",
-      "player_id": 642547,
-      "opponent": "MIL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 3,
-      "game_pk": 777374
-    },
-    {
       "player": "Williams, Devin",
       "player_id": 665966,
       "opponent": "BOS",
@@ -57,7 +44,7 @@
     {
       "player": "Bubic, Kris",
       "player_id": 663460,
-      "opponent": "KC",
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -83,7 +70,20 @@
     {
       "player": "Nelson, Ryne",
       "player_id": 669194,
-      "opponent": "AZ",
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 777383
+    },
+    {
+      "player": "Nelson, Ryne",
+      "player_id": 669194,
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -94,55 +94,29 @@
       "game_pk": 777383
     },
     {
-      "player": "Olson, Reese",
-      "player_id": 657041,
-      "opponent": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 2,
-      "game_pk": 777384
-    },
-    {
       "player": "Peralta, Freddy",
       "player_id": 642547,
-      "opponent": "MIL",
-      "market": "Strikeouts",
+      "opponent": "PIT",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 104,
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 120,
       "stars": 2,
       "game_pk": 777374
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "DET",
-      "market": "Earned Runs",
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "TOR",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 777386
-    },
-    {
-      "player": "Vest, Will",
-      "player_id": 608070,
-      "opponent": "TOR",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 2,
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 1,
       "game_pk": 777384
     },
     {
@@ -185,17 +159,17 @@
       "game_pk": 777375
     },
     {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
-      "opponent": "TB",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Bednar, David",
+      "player_id": 596115,
+      "opponent": "BOS",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -130,
+      "best_price": 170,
       "stars": 1,
-      "game_pk": 777378
+      "game_pk": 777376
     },
     {
       "player": "Cano, Yennier",
@@ -213,7 +187,7 @@
     {
       "player": "Castillo, Luis",
       "player_id": 622491,
-      "opponent": "SEA",
+      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -250,41 +224,15 @@
       "game_pk": 777380
     },
     {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 777374
-    },
-    {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "PIT",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 777374
-    },
-    {
       "player": "Lauer, Eric",
       "player_id": 641778,
-      "opponent": "TOR",
-      "market": "Outs Recorded",
+      "opponent": "CLE",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 14.5,
+      "line": 4.5,
       "best_book": "draftkings",
-      "best_price": 110,
+      "best_price": -170,
       "stars": 1,
       "game_pk": 777384
     },
@@ -315,6 +263,19 @@
       "game_pk": 777386
     },
     {
+      "player": "Lorenzen, Michael",
+      "player_id": 543760,
+      "opponent": "TEX",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 185,
+      "stars": 1,
+      "game_pk": 777380
+    },
+    {
       "player": "McCullers Jr., Lance",
       "player_id": 545361,
       "opponent": "BOS",
@@ -328,17 +289,17 @@
       "game_pk": 777376
     },
     {
-      "player": "Nelson, Ryne",
-      "player_id": 669194,
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "player": "Olson, Reese",
+      "player_id": 657041,
+      "opponent": "TOR",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 4.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 115,
+      "best_price": 140,
       "stars": 1,
-      "game_pk": 777383
+      "game_pk": 777384
     },
     {
       "player": "Olson, Reese",
@@ -354,6 +315,19 @@
       "game_pk": 777384
     },
     {
+      "player": "Paddack, Chris",
+      "player_id": 663978,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 777375
+    },
+    {
       "player": "Pag\u00e1n, Emilio",
       "player_id": 661388,
       "opponent": "PIT",
@@ -363,6 +337,19 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 190,
+      "stars": 1,
+      "game_pk": 777374
+    },
+    {
+      "player": "Peralta, Freddy",
+      "player_id": 642547,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 104,
       "stars": 1,
       "game_pk": 777374
     },
@@ -419,6 +406,19 @@
       "game_pk": 777387
     },
     {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 112,
+      "stars": 1,
+      "game_pk": 777385
+    },
+    {
       "player": "Sabrowski, Erik",
       "player_id": 681481,
       "opponent": "ATH",
@@ -445,30 +445,43 @@
       "game_pk": 777383
     },
     {
-      "player": "Severino, Luis",
-      "player_id": 622663,
+      "player": "Skubal, Tarik",
+      "player_id": 669373,
       "opponent": "ATH",
-      "market": "Strikeouts",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 100,
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 120,
       "stars": 1,
       "game_pk": 777386
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "DET",
-      "market": "Walks",
+      "player": "Taillon, Jameson",
+      "player_id": 592791,
+      "opponent": "STL",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 0.5,
+      "direction": "UNDER",
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": -200,
+      "best_price": -105,
       "stars": 1,
-      "game_pk": 777386
+      "game_pk": 777373
+    },
+    {
+      "player": "Vest, Will",
+      "player_id": 608070,
+      "opponent": "TOR",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777384
     },
     {
       "player": "V\u00e1squez, Randy",
@@ -547,19 +560,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 777376
-    },
-    {
-      "player": "Williams, Devin",
-      "player_id": 683002,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -255,
-      "stars": 1,
-      "game_pk": 777380
     }
   ]
 }

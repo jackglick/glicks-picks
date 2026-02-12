@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.145467+00:00",
+  "generated_at": "2026-02-12T23:06:23.982123+00:00",
   "date": "2025-04-24",
   "picks": [
     {
@@ -18,7 +18,7 @@
     {
       "player": "Gore, MacKenzie",
       "player_id": 669022,
-      "opponent": "WSH",
+      "opponent": "BAL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -31,7 +31,7 @@
     {
       "player": "Woo, Bryan",
       "player_id": 693433,
-      "opponent": "SEA",
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -53,19 +53,6 @@
       "best_price": -215,
       "stars": 2,
       "game_pk": 778193
-    },
-    {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "BOS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 18.5,
-      "best_book": "draftkings",
-      "best_price": -175,
-      "stars": 2,
-      "game_pk": 778196
     },
     {
       "player": "Gordon, Colton",
@@ -94,19 +81,6 @@
       "game_pk": 778192
     },
     {
-      "player": "Roupp, Landen",
-      "player_id": 694738,
-      "opponent": "SF",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -106,
-      "stars": 2,
-      "game_pk": 778194
-    },
-    {
       "player": "Sale, Chris",
       "player_id": 668804,
       "opponent": "PIT",
@@ -118,6 +92,19 @@
       "best_price": -155,
       "stars": 2,
       "game_pk": 778191
+    },
+    {
+      "player": "Allard, Kolby",
+      "player_id": 669394,
+      "opponent": "TEX",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 170,
+      "stars": 1,
+      "game_pk": 778192
     },
     {
       "player": "Allard, Kolby",
@@ -146,43 +133,17 @@
       "game_pk": 778190
     },
     {
-      "player": "Bido, Osvaldo",
-      "player_id": 521692,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "SEA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 18.5,
       "best_book": "draftkings",
-      "best_price": 185,
+      "best_price": -175,
       "stars": 1,
-      "game_pk": 778190
-    },
-    {
-      "player": "Bido, Osvaldo",
-      "player_id": 686469,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 185,
-      "stars": 1,
-      "game_pk": 778195
-    },
-    {
-      "player": "Bido, Osvaldo",
-      "player_id": 521692,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 185,
-      "stars": 1,
-      "game_pk": 778195
+      "game_pk": 778196
     },
     {
       "player": "Dana, Caden",
@@ -237,6 +198,32 @@
       "game_pk": 778192
     },
     {
+      "player": "Kent, Zak",
+      "player_id": 641680,
+      "opponent": "TEX",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 155,
+      "stars": 1,
+      "game_pk": 778192
+    },
+    {
+      "player": "Lao, Sauryn",
+      "player_id": 700337,
+      "opponent": "CWS",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 135,
+      "stars": 1,
+      "game_pk": 778189
+    },
+    {
       "player": "Lorenzen, Michael",
       "player_id": 543760,
       "opponent": "TEX",
@@ -261,58 +248,6 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 778191
-    },
-    {
-      "player": "McGough, Scott",
-      "player_id": 663697,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 778195
-    },
-    {
-      "player": "McGough, Scott",
-      "player_id": 686681,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 778195
-    },
-    {
-      "player": "McGough, Scott",
-      "player_id": 663697,
-      "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 778195
-    },
-    {
-      "player": "McGough, Scott",
-      "player_id": 686681,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 778190
     },
     {
       "player": "Murray, Jayden",
@@ -352,6 +287,19 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 778189
+    },
+    {
+      "player": "Roupp, Landen",
+      "player_id": 694738,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 778194
     },
     {
       "player": "Sale, Chris",

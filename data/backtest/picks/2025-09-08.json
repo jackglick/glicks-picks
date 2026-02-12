@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.373956+00:00",
+  "generated_at": "2026-02-12T23:06:24.191205+00:00",
   "date": "2025-09-08",
   "picks": [
     {
@@ -27,32 +27,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776405
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 672356,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 776413
-    },
-    {
-      "player": "Cavalli, Cade",
-      "player_id": 676917,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 776409
     },
     {
       "player": "D\u00edaz, Edwin",
@@ -105,6 +79,19 @@
       "best_price": null,
       "stars": 2,
       "game_pk": 776405
+    },
+    {
+      "player": "Skubal, Tarik",
+      "player_id": 672356,
+      "opponent": "KC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 776413
     },
     {
       "player": "Soto, Gregory",
@@ -172,17 +159,17 @@
       "game_pk": 776413
     },
     {
-      "player": "Cecconi, Slade",
-      "player_id": 677944,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
+      "player": "Cavalli, Cade",
+      "player_id": 676917,
+      "opponent": "MIA",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
+      "direction": "OVER",
+      "line": 4.5,
       "best_book": "fanduel",
-      "best_price": 102,
+      "best_price": 120,
       "stars": 1,
-      "game_pk": 776413
+      "game_pk": 776409
     },
     {
       "player": "Corniell, Jose",
@@ -200,7 +187,7 @@
     {
       "player": "Elder, Bryce",
       "player_id": 693821,
-      "opponent": "ATL",
+      "opponent": "CHC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -237,19 +224,6 @@
       "game_pk": 776408
     },
     {
-      "player": "Imanaga, Shota",
-      "player_id": 684007,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 776412
-    },
-    {
       "player": "Leasure, Jordan",
       "player_id": 656180,
       "opponent": "WSH",
@@ -261,6 +235,19 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776409
+    },
+    {
+      "player": "Miller, Mason",
+      "player_id": 673548,
+      "opponent": "CHC",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 165,
+      "stars": 1,
+      "game_pk": 776412
     },
     {
       "player": "Montero, Keider",
@@ -287,6 +274,19 @@
       "best_price": -165,
       "stars": 1,
       "game_pk": 776412
+    },
+    {
+      "player": "Phillips, Tyler",
+      "player_id": 596019,
+      "opponent": "NYM",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 776405
     },
     {
       "player": "Ram\u00edrez, Yohan",
@@ -337,19 +337,6 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 180,
-      "stars": 1,
-      "game_pk": 776409
-    },
-    {
-      "player": "Soto, Gregory",
-      "player_id": 681715,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
       "stars": 1,
       "game_pk": 776409
     },

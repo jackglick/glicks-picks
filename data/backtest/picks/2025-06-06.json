@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.226571+00:00",
+  "generated_at": "2026-02-12T23:06:24.050176+00:00",
   "date": "2025-06-06",
   "picks": [
     {
@@ -29,22 +29,9 @@
       "game_pk": 777621
     },
     {
-      "player": "Littell, Zack",
-      "player_id": 641793,
-      "opponent": "TB",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 18.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 3,
-      "game_pk": 777625
-    },
-    {
       "player": "Martin, Davis",
       "player_id": 663436,
-      "opponent": "CWS",
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -120,17 +107,82 @@
       "game_pk": 777621
     },
     {
-      "player": "Buehler, Walker",
-      "player_id": 621111,
-      "opponent": "BOS",
-      "market": "Earned Runs",
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "DET",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777626
+    },
+    {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 777624
+    },
+    {
+      "player": "Littell, Zack",
+      "player_id": 641793,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 777627
+      "game_pk": 777625
+    },
+    {
+      "player": "Lodolo, Nick",
+      "player_id": 666157,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 777623
+    },
+    {
+      "player": "Lugo, Seth",
+      "player_id": 607625,
+      "opponent": "CWS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 135,
+      "stars": 2,
+      "game_pk": 777618
+    },
+    {
+      "player": "Martin, Davis",
+      "player_id": 663436,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -108,
+      "stars": 2,
+      "game_pk": 777618
     },
     {
       "player": "Sale, Chris",
@@ -159,32 +211,6 @@
       "game_pk": 777623
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "DET",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 19.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 2,
-      "game_pk": 777626
-    },
-    {
-      "player": "Soroka, Michael",
-      "player_id": 647336,
-      "opponent": "WSH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 777624
-    },
-    {
       "player": "Vest, Will",
       "player_id": 608070,
       "opponent": "HOU",
@@ -198,17 +224,30 @@
       "game_pk": 777622
     },
     {
-      "player": "Brown, Ben",
-      "player_id": 676962,
-      "opponent": "CHC",
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "HOU",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": 110,
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -120,
       "stars": 1,
-      "game_pk": 777626
+      "game_pk": 777622
+    },
+    {
+      "player": "Buehler, Walker",
+      "player_id": 621111,
+      "opponent": "NYY",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777627
     },
     {
       "player": "Cabrera, G\u00e9nesis",
@@ -222,19 +261,6 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 777621
-    },
-    {
-      "player": "Corbin, Patrick",
-      "player_id": 571578,
-      "opponent": "TEX",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 777624
     },
     {
       "player": "Dreyer, Jack",
@@ -274,6 +300,19 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 777623
+    },
+    {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 118,
+      "stars": 1,
+      "game_pk": 777621
     },
     {
       "player": "Graceffo, Gordon",
@@ -356,13 +395,13 @@
     {
       "player": "Littell, Zack",
       "player_id": 641793,
-      "opponent": "TB",
-      "market": "Strikeouts",
+      "opponent": "MIA",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 120,
+      "direction": "UNDER",
+      "line": 18.5,
+      "best_book": "draftkings",
+      "best_price": -135,
       "stars": 1,
       "game_pk": 777625
     },
@@ -380,45 +419,6 @@
       "game_pk": 777625
     },
     {
-      "player": "Lodolo, Nick",
-      "player_id": 666157,
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777623
-    },
-    {
-      "player": "Lugo, Seth",
-      "player_id": 607625,
-      "opponent": "KC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 777618
-    },
-    {
-      "player": "Martin, Davis",
-      "player_id": 663436,
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -108,
-      "stars": 1,
-      "game_pk": 777618
-    },
-    {
       "player": "Miller, Mason",
       "player_id": 691718,
       "opponent": "CHC",
@@ -428,6 +428,19 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": -135,
+      "stars": 1,
+      "game_pk": 777626
+    },
+    {
+      "player": "Miller, Mason",
+      "player_id": 673548,
+      "opponent": "CHC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 130,
       "stars": 1,
       "game_pk": 777626
     },
@@ -459,42 +472,29 @@
     },
     {
       "player": "Skubal, Tarik",
-      "player_id": 678877,
-      "opponent": "HOU",
-      "market": "Total Bases",
-      "category": "batter",
+      "player_id": 669373,
+      "opponent": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 19.5,
       "best_book": "draftkings",
-      "best_price": 125,
+      "best_price": -115,
       "stars": 1,
-      "game_pk": 777622
+      "game_pk": 777626
     },
     {
       "player": "Skubal, Tarik",
-      "player_id": 678877,
-      "opponent": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
+      "player_id": 669373,
+      "opponent": "CHC",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "OVER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 125,
+      "best_price": -165,
       "stars": 1,
-      "game_pk": 777622
-    },
-    {
-      "player": "Soroka, Michael",
-      "player_id": 647336,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 106,
-      "stars": 1,
-      "game_pk": 777624
+      "game_pk": 777626
     },
     {
       "player": "Soto, Gregory",

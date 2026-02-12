@@ -1,30 +1,17 @@
 {
-  "generated_at": "2026-02-12T22:44:37.394409+00:00",
+  "generated_at": "2026-02-12T23:06:24.211921+00:00",
   "date": "2025-09-22",
   "picks": [
     {
       "player": "Sale, Chris",
       "player_id": 519242,
-      "opponent": "ATL",
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 8.5,
       "best_book": "fanduel",
       "best_price": 102,
-      "stars": 3,
-      "game_pk": 776221
-    },
-    {
-      "player": "Gore, MacKenzie",
-      "player_id": 669022,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -132,
       "stars": 2,
       "game_pk": 776221
     },
@@ -43,6 +30,19 @@
     },
     {
       "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -132,
+      "stars": 1,
+      "game_pk": 776221
+    },
+    {
+      "player": "Gore, MacKenzie",
       "player_id": 645277,
       "opponent": "WSH",
       "market": "Total Bases",
@@ -51,19 +51,6 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -154,
-      "stars": 1,
-      "game_pk": 776221
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "ATL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -112,
       "stars": 1,
       "game_pk": 776221
     }

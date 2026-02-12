@@ -1,19 +1,45 @@
 {
-  "generated_at": "2026-02-12T22:44:37.404061+00:00",
+  "generated_at": "2026-02-12T23:06:24.221557+00:00",
   "date": "2025-09-30",
   "picks": [
     {
       "player": "Skubal, Tarik",
       "player_id": 669373,
-      "opponent": "DET",
+      "opponent": "CLE",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 7.5,
       "best_book": "draftkings",
       "best_price": -115,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 813072
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 128,
+      "stars": 2,
+      "game_pk": 813074
+    },
+    {
+      "player": "Boyd, Matthew",
+      "player_id": 571510,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -143,
+      "stars": 1,
+      "game_pk": 813066
     },
     {
       "player": "Chapman, Aroldis",
@@ -29,17 +55,30 @@
       "game_pk": 813074
     },
     {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
+      "player": "Fried, Max",
+      "player_id": 608331,
       "opponent": "BOS",
-      "market": "Outs Recorded",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 128,
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -144,
       "stars": 1,
       "game_pk": 813074
+    },
+    {
+      "player": "Keller, Brad",
+      "player_id": 701538,
+      "opponent": "SD",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 177,
+      "stars": 1,
+      "game_pk": 813066
     },
     {
       "player": "Kittredge, Andrew",
@@ -53,6 +92,19 @@
       "best_price": -218,
       "stars": 1,
       "game_pk": 813066
+    },
+    {
+      "player": "Skubal, Tarik",
+      "player_id": 669373,
+      "opponent": "CLE",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 813072
     },
     {
       "player": "Vest, Will",

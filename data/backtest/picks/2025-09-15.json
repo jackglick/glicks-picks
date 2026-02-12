@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.384352+00:00",
+  "generated_at": "2026-02-12T23:06:24.201769+00:00",
   "date": "2025-09-15",
   "picks": [
     {
@@ -18,7 +18,7 @@
     {
       "player": "Littell, Zack",
       "player_id": 641793,
-      "opponent": "CIN",
+      "opponent": "STL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -51,6 +51,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -261,
+      "stars": 3,
+      "game_pk": 776315
+    },
+    {
+      "player": "Strider, Spencer",
+      "player_id": 675911,
+      "opponent": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -110,
       "stars": 3,
       "game_pk": 776315
     },
@@ -96,7 +109,7 @@
     {
       "player": "Littell, Zack",
       "player_id": 641793,
-      "opponent": "CIN",
+      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -120,45 +133,6 @@
       "game_pk": 776314
     },
     {
-      "player": "Parker, Mitchell",
-      "player_id": 695657,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776314
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 2,
-      "game_pk": 776318
-    },
-    {
-      "player": "Strider, Spencer",
-      "player_id": 675911,
-      "opponent": "ATL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 776315
-    },
-    {
       "player": "Wicks, Jordan",
       "player_id": 669357,
       "opponent": "CIN",
@@ -170,19 +144,6 @@
       "best_price": null,
       "stars": 2,
       "game_pk": 776312
-    },
-    {
-      "player": "Woods Richardson, Simeon",
-      "player_id": 680573,
-      "opponent": "MIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 14.5,
-      "best_book": "fanduel",
-      "best_price": 102,
-      "stars": 2,
-      "game_pk": 776313
     },
     {
       "player": "Barco, Hunter",
@@ -246,19 +207,6 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 174,
-      "stars": 1,
-      "game_pk": 776312
-    },
-    {
-      "player": "Gage, Matt",
-      "player_id": 680977,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -207,
       "stars": 1,
       "game_pk": 776312
     },
@@ -342,7 +290,20 @@
     },
     {
       "player": "Parker, Mitchell",
-      "player_id": 678246,
+      "player_id": 680730,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 116,
+      "stars": 1,
+      "game_pk": 776315
+    },
+    {
+      "player": "Parker, Mitchell",
+      "player_id": 695657,
       "opponent": "BAL",
       "market": "Total Bases",
       "category": "batter",
@@ -367,15 +328,28 @@
       "game_pk": 776315
     },
     {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 776313
+    },
+    {
       "player": "Sale, Chris",
       "player_id": 668804,
       "opponent": "CHC",
-      "market": "Total Bases",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -184,
+      "best_price": 170,
       "stars": 1,
       "game_pk": 776318
     },
@@ -421,7 +395,7 @@
     {
       "player": "Strider, Spencer",
       "player_id": 675911,
-      "opponent": "ATL",
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -430,6 +404,32 @@
       "best_price": -133,
       "stars": 1,
       "game_pk": 776315
+    },
+    {
+      "player": "Treinen, Blake",
+      "player_id": 680574,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 123,
+      "stars": 1,
+      "game_pk": 776312
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 776313
     }
   ]
 }

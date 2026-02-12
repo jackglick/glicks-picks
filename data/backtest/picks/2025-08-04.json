@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.319975+00:00",
+  "generated_at": "2026-02-12T23:06:24.134482+00:00",
   "date": "2025-08-04",
   "picks": [
     {
@@ -31,7 +31,7 @@
     {
       "player": "Bello, Brayan",
       "player_id": 678394,
-      "opponent": "BOS",
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -79,19 +79,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776877
-    },
-    {
-      "player": "Cano, Yennier",
-      "player_id": 647351,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -200,
-      "stars": 3,
-      "game_pk": 776880
     },
     {
       "player": "D\u00edaz, Edwin",
@@ -146,6 +133,19 @@
       "game_pk": 776882
     },
     {
+      "player": "Luzardo, Jes\u00fas",
+      "player_id": 666200,
+      "opponent": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 120,
+      "stars": 3,
+      "game_pk": 776877
+    },
+    {
       "player": "Peterson, David",
       "player_id": 467793,
       "opponent": "CLE",
@@ -185,6 +185,19 @@
       "game_pk": 776876
     },
     {
+      "player": "Ure\u00f1a, Jos\u00e9",
+      "player_id": 666211,
+      "opponent": "HOU",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 776875
+    },
+    {
       "player": "Williams, Devin",
       "player_id": 678882,
       "opponent": "KC",
@@ -211,17 +224,43 @@
       "game_pk": 776882
     },
     {
-      "player": "Cecconi, Slade",
-      "player_id": 677944,
-      "opponent": "CLE",
+      "player": "Bednar, David",
+      "player_id": 681297,
+      "opponent": "BAL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 776877
+    },
+    {
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "KC",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 4.5,
+      "line": 3.5,
       "best_book": "fanduel",
-      "best_price": 110,
+      "best_price": -142,
       "stars": 2,
-      "game_pk": 776876
+      "game_pk": 776880
+    },
+    {
+      "player": "Cano, Yennier",
+      "player_id": 647351,
+      "opponent": "KC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -200,
+      "stars": 2,
+      "game_pk": 776880
     },
     {
       "player": "Cruz, Fernando",
@@ -237,17 +276,17 @@
       "game_pk": 776877
     },
     {
-      "player": "Luzardo, Jes\u00fas",
-      "player_id": 666200,
-      "opponent": "PHI",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Lazar, Max",
+      "player_id": 678011,
+      "opponent": "MIL",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 120,
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 2,
-      "game_pk": 776877
+      "game_pk": 776882
     },
     {
       "player": "Phillips, Tyler",
@@ -315,19 +354,6 @@
       "game_pk": 776875
     },
     {
-      "player": "Ure\u00f1a, Jos\u00e9",
-      "player_id": 666211,
-      "opponent": "HOU",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776875
-    },
-    {
       "player": "Williams, Devin",
       "player_id": 702616,
       "opponent": "BAL",
@@ -354,32 +380,6 @@
       "game_pk": 776877
     },
     {
-      "player": "Alcantara, Sandy",
-      "player_id": 645261,
-      "opponent": "MIA",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 138,
-      "stars": 1,
-      "game_pk": 776875
-    },
-    {
-      "player": "Bednar, David",
-      "player_id": 681297,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776877
-    },
-    {
       "player": "Bednar, David",
       "player_id": 668939,
       "opponent": "BAL",
@@ -391,19 +391,6 @@
       "best_price": -180,
       "stars": 1,
       "game_pk": 776877
-    },
-    {
-      "player": "Bello, Brayan",
-      "player_id": 678394,
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -142,
-      "stars": 1,
-      "game_pk": 776880
     },
     {
       "player": "Bibee, Tanner",
@@ -432,30 +419,17 @@
       "game_pk": 776880
     },
     {
-      "player": "Lazar, Max",
-      "player_id": 678011,
-      "opponent": "MIL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776882
-    },
-    {
-      "player": "Luzardo, Jes\u00fas",
-      "player_id": 666200,
-      "opponent": "PHI",
+      "player": "Cecconi, Slade",
+      "player_id": 677944,
+      "opponent": "NYM",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
+      "direction": "OVER",
+      "line": 4.5,
       "best_book": "fanduel",
-      "best_price": -106,
+      "best_price": 110,
       "stars": 1,
-      "game_pk": 776877
+      "game_pk": 776876
     },
     {
       "player": "Mejia, Juan",
@@ -610,6 +584,19 @@
       "line": 1.5,
       "best_book": null,
       "best_price": null,
+      "stars": 1,
+      "game_pk": 776877
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 607208,
+      "opponent": "BAL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -240,
       "stars": 1,
       "game_pk": 776877
     }

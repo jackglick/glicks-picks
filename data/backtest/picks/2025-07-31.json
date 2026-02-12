@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-12T22:44:37.313304+00:00",
+  "generated_at": "2026-02-12T23:06:24.127757+00:00",
   "date": "2025-07-31",
   "picks": [
-    {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 3,
-      "game_pk": 776928
-    },
     {
       "player": "Kent, Zak",
       "player_id": 592626,
@@ -44,7 +31,7 @@
     {
       "player": "Abbott, Andrew",
       "player_id": 671096,
-      "opponent": "CIN",
+      "opponent": "ATL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -68,6 +55,19 @@
       "game_pk": 776927
     },
     {
+      "player": "Dreyer, Jack",
+      "player_id": 682829,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 776928
+    },
+    {
       "player": "Little, Brendon",
       "player_id": 663968,
       "opponent": "TB",
@@ -77,6 +77,19 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 185,
+      "stars": 2,
+      "game_pk": 776927
+    },
+    {
+      "player": "Stroman, Marcus",
+      "player_id": 573186,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 112,
       "stars": 2,
       "game_pk": 776927
     },
@@ -92,6 +105,19 @@
       "best_price": -205,
       "stars": 2,
       "game_pk": 776923
+    },
+    {
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "ATL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 776928
     },
     {
       "player": "Barco, Hunter",
@@ -170,19 +196,6 @@
       "best_price": 170,
       "stars": 1,
       "game_pk": 776928
-    },
-    {
-      "player": "Garcia, Rico",
-      "player_id": 700250,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -175,
-      "stars": 1,
-      "game_pk": 776927
     },
     {
       "player": "Gore, MacKenzie",
@@ -315,6 +328,19 @@
       "game_pk": 776923
     },
     {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 776927
+    },
+    {
       "player": "Ram\u00edrez, Yohan",
       "player_id": 595777,
       "opponent": "ATL",
@@ -328,30 +354,17 @@
       "game_pk": 776928
     },
     {
-      "player": "Rodriguez, Carlos",
-      "player_id": 666181,
+      "player": "Ram\u00edrez, Yohan",
+      "player_id": 595777,
       "opponent": "ATL",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 115,
+      "best_price": 180,
       "stars": 1,
       "game_pk": 776928
-    },
-    {
-      "player": "Stroman, Marcus",
-      "player_id": 573186,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 112,
-      "stars": 1,
-      "game_pk": 776927
     },
     {
       "player": "Treinen, Blake",

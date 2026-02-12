@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.194792+00:00",
+  "generated_at": "2026-02-12T23:06:24.023136+00:00",
   "date": "2025-05-21",
   "picks": [
     {
@@ -16,30 +16,17 @@
       "game_pk": 777837
     },
     {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
+      "player": "Brown, Hunter",
+      "player_id": 686613,
       "opponent": "TB",
-      "market": "Outs Recorded",
+      "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 7.0,
       "best_book": "draftkings",
-      "best_price": 105,
+      "best_price": -105,
       "stars": 3,
       "game_pk": 777832
-    },
-    {
-      "player": "Gausman, Kevin",
-      "player_id": 592332,
-      "opponent": "TOR",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 138,
-      "stars": 3,
-      "game_pk": 777837
     },
     {
       "player": "McGough, Scott",
@@ -53,19 +40,6 @@
       "best_price": -205,
       "stars": 3,
       "game_pk": 777819
-    },
-    {
-      "player": "Pallante, Andre",
-      "player_id": 669467,
-      "opponent": "STL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 3,
-      "game_pk": 777827
     },
     {
       "player": "Parker, Mitchell",
@@ -83,7 +57,7 @@
     {
       "player": "Patrick, Chad",
       "player_id": 694477,
-      "opponent": "MIL",
+      "opponent": "BAL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -94,22 +68,22 @@
       "game_pk": 777826
     },
     {
-      "player": "Brown, Hunter",
-      "player_id": 686613,
+      "player": "Bradley, Taj",
+      "player_id": 671737,
       "opponent": "HOU",
-      "market": "Hits Allowed",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 7.0,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": -105,
+      "best_price": 105,
       "stars": 2,
       "game_pk": 777832
     },
     {
       "player": "Brown, Hunter",
       "player_id": 686613,
-      "opponent": "HOU",
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -118,6 +92,19 @@
       "best_price": 144,
       "stars": 2,
       "game_pk": 777832
+    },
+    {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "SD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 138,
+      "stars": 2,
+      "game_pk": 777837
     },
     {
       "player": "Knack, Landon",
@@ -133,15 +120,67 @@
       "game_pk": 777830
     },
     {
+      "player": "Pallante, Andre",
+      "player_id": 669467,
+      "opponent": "DET",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 2,
+      "game_pk": 777827
+    },
+    {
+      "player": "Robert, Daniel",
+      "player_id": 678391,
+      "opponent": "TEX",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 777835
+    },
+    {
+      "player": "Skubal, Tarik",
+      "player_id": 682657,
+      "opponent": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 2,
+      "game_pk": 777829
+    },
+    {
       "player": "Sugano, Tomoyuki",
       "player_id": 608372,
-      "opponent": "BAL",
+      "opponent": "MIL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 4.0,
       "best_book": "draftkings",
       "best_price": -120,
+      "stars": 2,
+      "game_pk": 777826
+    },
+    {
+      "player": "Sugano, Tomoyuki",
+      "player_id": 608372,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 115,
       "stars": 2,
       "game_pk": 777826
     },
@@ -172,32 +211,6 @@
       "game_pk": 777829
     },
     {
-      "player": "deGrom, Jacob",
-      "player_id": 594798,
-      "opponent": "TEX",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 105,
-      "stars": 2,
-      "game_pk": 777835
-    },
-    {
-      "player": "Agnos, Zach",
-      "player_id": 642715,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777819
-    },
-    {
       "player": "Alcantara, Sandy",
       "player_id": 683146,
       "opponent": "NYM",
@@ -209,6 +222,19 @@
       "best_price": 105,
       "stars": 1,
       "game_pk": 777831
+    },
+    {
+      "player": "Bachman, Sam",
+      "player_id": 673237,
+      "opponent": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -235,
+      "stars": 1,
+      "game_pk": 777832
     },
     {
       "player": "Barlow, Scott",
@@ -276,45 +302,6 @@
       "game_pk": 777819
     },
     {
-      "player": "Bivens, Spencer",
-      "player_id": 686668,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777823
-    },
-    {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
-      "opponent": "TB",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 777832
-    },
-    {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "BOS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 18.5,
-      "best_book": "draftkings",
-      "best_price": -205,
-      "stars": 1,
-      "game_pk": 777831
-    },
-    {
       "player": "Dana, Caden",
       "player_id": 514888,
       "opponent": "HOU",
@@ -341,6 +328,32 @@
       "game_pk": 777828
     },
     {
+      "player": "Gordon, Colton",
+      "player_id": 650859,
+      "opponent": "LAA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 777828
+    },
+    {
+      "player": "Gordon, Colton",
+      "player_id": 650859,
+      "opponent": "LAA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 777828
+    },
+    {
       "player": "Hart, Kyle",
       "player_id": 656555,
       "opponent": "BAL",
@@ -352,19 +365,6 @@
       "best_price": -180,
       "stars": 1,
       "game_pk": 777826
-    },
-    {
-      "player": "Helsley, Ryan",
-      "player_id": 672640,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 777833
     },
     {
       "player": "Hern\u00e1ndez, Carlos",
@@ -419,6 +419,19 @@
       "game_pk": 777830
     },
     {
+      "player": "Knack, Landon",
+      "player_id": 663728,
+      "opponent": "SEA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 170,
+      "stars": 1,
+      "game_pk": 777830
+    },
+    {
       "player": "Lao, Sauryn",
       "player_id": 700337,
       "opponent": "SEA",
@@ -458,19 +471,6 @@
       "game_pk": 777823
     },
     {
-      "player": "Mejia, Juan",
-      "player_id": 808982,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 200,
-      "stars": 1,
-      "game_pk": 777819
-    },
-    {
       "player": "Murray, Jayden",
       "player_id": 621493,
       "opponent": "LAA",
@@ -482,19 +482,6 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777828
-    },
-    {
-      "player": "Patrick, Chad",
-      "player_id": 694477,
-      "opponent": "MIL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 777826
     },
     {
       "player": "Peralta, Wandy",
@@ -578,19 +565,6 @@
       "player": "Robert, Daniel",
       "player_id": 678391,
       "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 777835
-    },
-    {
-      "player": "Robert, Daniel",
-      "player_id": 678391,
-      "opponent": "TEX",
       "market": "Hits",
       "category": "batter",
       "direction": "OVER",
@@ -629,7 +603,7 @@
     {
       "player": "Singer, Brady",
       "player_id": 663903,
-      "opponent": "CIN",
+      "opponent": "PIT",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -638,19 +612,6 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 777834
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 682657,
-      "opponent": "CLE",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 777829
     },
     {
       "player": "Smith, Cade",
@@ -668,7 +629,7 @@
     {
       "player": "Smith, Shane",
       "player_id": 681343,
-      "opponent": "CWS",
+      "opponent": "SEA",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -679,41 +640,28 @@
       "game_pk": 777830
     },
     {
-      "player": "Sugano, Tomoyuki",
-      "player_id": 608372,
-      "opponent": "BAL",
-      "market": "Outs Recorded",
+      "player": "Smith, Shane",
+      "player_id": 681343,
+      "opponent": "SEA",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 3.0,
       "best_book": "draftkings",
-      "best_price": 115,
+      "best_price": -130,
       "stars": 1,
-      "game_pk": 777826
-    },
-    {
-      "player": "Uceta, Edwin",
-      "player_id": 623993,
-      "opponent": "SD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 777837
+      "game_pk": 777830
     },
     {
       "player": "V\u00e1squez, Randy",
       "player_id": 681190,
-      "opponent": "SD",
-      "market": "Earned Runs",
+      "opponent": "TOR",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.0,
+      "line": 15.5,
       "best_book": "draftkings",
-      "best_price": -115,
+      "best_price": -135,
       "stars": 1,
       "game_pk": 777837
     },

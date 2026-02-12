@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.197368+00:00",
+  "generated_at": "2026-02-12T23:06:24.024943+00:00",
   "date": "2025-05-22",
   "picks": [
     {
@@ -118,6 +118,19 @@
       "best_price": 100,
       "stars": 3,
       "game_pk": 777814
+    },
+    {
+      "player": "Bibee, Tanner",
+      "player_id": 676440,
+      "opponent": "DET",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 3,
+      "game_pk": 777821
     },
     {
       "player": "Burns, Chase",
@@ -302,19 +315,6 @@
       "game_pk": 777820
     },
     {
-      "player": "Severino, Luis",
-      "player_id": 622663,
-      "opponent": "ATH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 3,
-      "game_pk": 777812
-    },
-    {
       "player": "Smith, Shane",
       "player_id": 695578,
       "opponent": "ATL",
@@ -343,7 +343,20 @@
     {
       "player": "Su\u00e1rez, Ranger",
       "player_id": 624133,
-      "opponent": "PHI",
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 3,
+      "game_pk": 777817
+    },
+    {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "COL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -352,19 +365,6 @@
       "best_price": 100,
       "stars": 3,
       "game_pk": 777817
-    },
-    {
-      "player": "Anderson, Tyler",
-      "player_id": 542881,
-      "opponent": "LAA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 777812
     },
     {
       "player": "Barlow, Scott",
@@ -382,26 +382,13 @@
     {
       "player": "Bibee, Tanner",
       "player_id": 676440,
-      "opponent": "CLE",
+      "opponent": "DET",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 8.0,
       "best_book": "draftkings",
       "best_price": -125,
-      "stars": 2,
-      "game_pk": 777821
-    },
-    {
-      "player": "Bibee, Tanner",
-      "player_id": 676440,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 125,
       "stars": 2,
       "game_pk": 777821
     },
@@ -419,30 +406,17 @@
       "game_pk": 777817
     },
     {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "DET",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Cabrera, G\u00e9nesis",
+      "player_id": 596146,
+      "opponent": "PHI",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 16.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 100,
+      "best_price": -200,
       "stars": 2,
-      "game_pk": 777821
-    },
-    {
-      "player": "Francis, Bowden",
-      "player_id": 670102,
-      "opponent": "TOR",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 2,
-      "game_pk": 777816
+      "game_pk": 777817
     },
     {
       "player": "Kelly, Kevin",
@@ -456,6 +430,19 @@
       "best_price": -195,
       "stars": 2,
       "game_pk": 777816
+    },
+    {
+      "player": "Laweryson, Cody",
+      "player_id": 592206,
+      "opponent": "PHI",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 777817
     },
     {
       "player": "Manaea, Sean",
@@ -510,17 +497,56 @@
       "game_pk": 777814
     },
     {
-      "player": "Su\u00e1rez, Ranger",
-      "player_id": 624133,
-      "opponent": "PHI",
-      "market": "Strikeouts",
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "LAA",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -112,
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 125,
       "stars": 2,
-      "game_pk": 777817
+      "game_pk": 777812
+    },
+    {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "LAA",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 777812
+    },
+    {
+      "player": "Anderson, Tyler",
+      "player_id": 542881,
+      "opponent": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777812
+    },
+    {
+      "player": "Anderson, Tyler",
+      "player_id": 542881,
+      "opponent": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 777812
     },
     {
       "player": "Baker, Bryan",
@@ -536,19 +562,6 @@
       "game_pk": 777816
     },
     {
-      "player": "Baker, Bryan",
-      "player_id": 662139,
-      "opponent": "SD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "draftkings",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 777816
-    },
-    {
       "player": "Bivens, Spencer",
       "player_id": 686668,
       "opponent": "PHI",
@@ -558,19 +571,6 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 190,
-      "stars": 1,
-      "game_pk": 777817
-    },
-    {
-      "player": "Cabrera, G\u00e9nesis",
-      "player_id": 596146,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -200,
       "stars": 1,
       "game_pk": 777817
     },
@@ -601,9 +601,35 @@
       "game_pk": 777816
     },
     {
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "CLE",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.0,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777821
+    },
+    {
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "CLE",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777821
+    },
+    {
       "player": "Francis, Bowden",
       "player_id": 670102,
-      "opponent": "TOR",
+      "opponent": "SD",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -669,19 +695,6 @@
       "player": "Laweryson, Cody",
       "player_id": 592206,
       "opponent": "PHI",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 777817
-    },
-    {
-      "player": "Laweryson, Cody",
-      "player_id": 592206,
-      "opponent": "PHI",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
@@ -720,7 +733,20 @@
     {
       "player": "M\u00e1rquez, Germ\u00e1n",
       "player_id": 608566,
-      "opponent": "COL",
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -180,
+      "stars": 1,
+      "game_pk": 777817
+    },
+    {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "player_id": 608566,
+      "opponent": "PHI",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -729,6 +755,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777817
+    },
+    {
+      "player": "Pomeranz, Drew",
+      "player_id": 630105,
+      "opponent": "SD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -180,
+      "stars": 1,
+      "game_pk": 777816
     },
     {
       "player": "Robert, Daniel",
@@ -759,20 +798,7 @@
     {
       "player": "Severino, Luis",
       "player_id": 622663,
-      "opponent": "ATH",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777812
-    },
-    {
-      "player": "Severino, Luis",
-      "player_id": 622663,
-      "opponent": "ATH",
+      "opponent": "LAA",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -798,7 +824,7 @@
     {
       "player": "Williams, Trevor",
       "player_id": 592866,
-      "opponent": "WSH",
+      "opponent": "ATL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",

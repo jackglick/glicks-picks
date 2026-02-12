@@ -1,32 +1,19 @@
 {
-  "generated_at": "2026-02-12T22:44:37.264429+00:00",
+  "generated_at": "2026-02-12T23:06:24.083484+00:00",
   "date": "2025-06-30",
   "picks": [
     {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "BOS",
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 18.5,
+      "line": 17.5,
       "best_book": "fanduel",
-      "best_price": -118,
+      "best_price": 120,
       "stars": 2,
-      "game_pk": 777300
-    },
-    {
-      "player": "Lopez, Jacob",
-      "player_id": 682052,
-      "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 777296
+      "game_pk": 777295
     },
     {
       "player": "Cano, Yennier",
@@ -38,6 +25,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -160,
+      "stars": 1,
+      "game_pk": 777300
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 18.5,
+      "best_book": "fanduel",
+      "best_price": -118,
       "stars": 1,
       "game_pk": 777300
     },
@@ -55,19 +55,6 @@
       "game_pk": 777300
     },
     {
-      "player": "Iglesias, Raisel",
-      "player_id": 665833,
-      "opponent": "STL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 777299
-    },
-    {
       "player": "Little, Brendon",
       "player_id": 663968,
       "opponent": "ATH",
@@ -83,28 +70,15 @@
     {
       "player": "Lopez, Jacob",
       "player_id": 682052,
-      "opponent": "ATH",
-      "market": "Earned Runs",
+      "opponent": "TB",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
+      "direction": "OVER",
+      "line": 4.5,
       "best_book": "draftkings",
-      "best_price": -115,
+      "best_price": -160,
       "stars": 1,
       "game_pk": 777296
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 777295
     },
     {
       "player": "Sale, Chris",
@@ -135,20 +109,7 @@
     {
       "player": "Scherzer, Max",
       "player_id": 453286,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 777295
-    },
-    {
-      "player": "Scherzer, Max",
-      "player_id": 453286,
-      "opponent": "TOR",
+      "opponent": "NYY",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",

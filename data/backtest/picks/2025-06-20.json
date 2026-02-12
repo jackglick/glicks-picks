@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.247303+00:00",
+  "generated_at": "2026-02-12T23:06:24.068169+00:00",
   "date": "2025-06-20",
   "picks": [
     {
@@ -31,7 +31,7 @@
     {
       "player": "Kirby, George",
       "player_id": 669923,
-      "opponent": "SEA",
+      "opponent": "CHC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -83,7 +83,7 @@
     {
       "player": "deGrom, Jacob",
       "player_id": 594798,
-      "opponent": "TEX",
+      "opponent": "PIT",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -109,7 +109,7 @@
     {
       "player": "Flaherty, Jack",
       "player_id": 656427,
-      "opponent": "DET",
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -120,9 +120,22 @@
       "game_pk": 777431
     },
     {
+      "player": "Kirby, George",
+      "player_id": 669923,
+      "opponent": "CHC",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 2,
+      "game_pk": 777436
+    },
+    {
       "player": "Pallante, Andre",
       "player_id": 669467,
-      "opponent": "STL",
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -144,6 +157,19 @@
       "best_price": -160,
       "stars": 2,
       "game_pk": 777439
+    },
+    {
+      "player": "Sugano, Tomoyuki",
+      "player_id": 608372,
+      "opponent": "NYY",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 777438
     },
     {
       "player": "Allen, Logan",
@@ -185,22 +211,9 @@
       "game_pk": 777428
     },
     {
-      "player": "Baker, Bryan",
-      "player_id": 665926,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "draftkings",
-      "best_price": 165,
-      "stars": 1,
-      "game_pk": 777435
-    },
-    {
       "player": "Boyd, Matthew",
       "player_id": 571510,
-      "opponent": "CHC",
+      "opponent": "SEA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -224,30 +237,17 @@
       "game_pk": 777437
     },
     {
-      "player": "Chapman, Aroldis",
-      "player_id": 519317,
-      "opponent": "BAL",
-      "market": "Hits",
+      "player": "Dreyer, Jack",
+      "player_id": 682829,
+      "opponent": "CIN",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 160,
+      "best_price": -140,
       "stars": 1,
-      "game_pk": 777438
-    },
-    {
-      "player": "Kirby, George",
-      "player_id": 669923,
-      "opponent": "SEA",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777436
+      "game_pk": 777433
     },
     {
       "player": "Kochanowicz, Jack",
@@ -315,17 +315,17 @@
       "game_pk": 777431
     },
     {
-      "player": "Sugano, Tomoyuki",
-      "player_id": 608372,
-      "opponent": "BAL",
-      "market": "Earned Runs",
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "STL",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 3.5,
+      "line": 16.5,
       "best_book": "draftkings",
-      "best_price": -125,
+      "best_price": -115,
       "stars": 1,
-      "game_pk": 777438
+      "game_pk": 777433
     },
     {
       "player": "Treinen, Blake",

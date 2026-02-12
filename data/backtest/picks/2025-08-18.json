@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.342753+00:00",
+  "generated_at": "2026-02-12T23:06:24.158776+00:00",
   "date": "2025-08-18",
   "picks": [
     {
@@ -120,6 +120,32 @@
       "game_pk": 776696
     },
     {
+      "player": "Parker, Mitchell",
+      "player_id": 691019,
+      "opponent": "CWS",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 776696
+    },
+    {
+      "player": "Pomeranz, Drew",
+      "player_id": 663457,
+      "opponent": "STL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -170,
+      "stars": 3,
+      "game_pk": 776688
+    },
+    {
       "player": "Sale, Chris",
       "player_id": 669707,
       "opponent": "TOR",
@@ -144,19 +170,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 776692
-    },
-    {
-      "player": "Strider, Spencer",
-      "player_id": 675911,
-      "opponent": "ATL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 3,
-      "game_pk": 776696
     },
     {
       "player": "Suarez, Robert",
@@ -211,19 +224,6 @@
       "game_pk": 776695
     },
     {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "DET",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -112,
-      "stars": 2,
-      "game_pk": 776692
-    },
-    {
       "player": "Kelly, Kevin",
       "player_id": 680718,
       "opponent": "TOR",
@@ -264,19 +264,6 @@
     },
     {
       "player": "Parker, Mitchell",
-      "player_id": 691019,
-      "opponent": "CWS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 776696
-    },
-    {
-      "player": "Parker, Mitchell",
       "player_id": 678246,
       "opponent": "CWS",
       "market": "Total Bases",
@@ -289,28 +276,15 @@
       "game_pk": 776696
     },
     {
-      "player": "Pomeranz, Drew",
-      "player_id": 663457,
-      "opponent": "STL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 2,
-      "game_pk": 776688
-    },
-    {
       "player": "Rogers, Trevor",
       "player_id": 669432,
-      "opponent": "BAL",
-      "market": "Strikeouts",
+      "opponent": "BOS",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
+      "direction": "UNDER",
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 120,
+      "best_price": -115,
       "stars": 2,
       "game_pk": 776695
     },
@@ -367,6 +341,19 @@
       "game_pk": 776688
     },
     {
+      "player": "Bachman, Sam",
+      "player_id": 673237,
+      "opponent": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.0,
+      "best_book": "draftkings",
+      "best_price": -260,
+      "stars": 1,
+      "game_pk": 776692
+    },
+    {
       "player": "Barco, Hunter",
       "player_id": 671739,
       "opponent": "CWS",
@@ -380,28 +367,28 @@
       "game_pk": 776696
     },
     {
-      "player": "Barco, Hunter",
-      "player_id": 805373,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 776696
-    },
-    {
-      "player": "Gausman, Kevin",
-      "player_id": 592332,
-      "opponent": "TOR",
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "HOU",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 1,
+      "game_pk": 776692
+    },
+    {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
       "best_book": "draftkings",
-      "best_price": 105,
+      "best_price": 100,
       "stars": 1,
       "game_pk": 776694
     },
@@ -430,32 +417,6 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 776690
-    },
-    {
-      "player": "Liberatore, Matthew",
-      "player_id": 669461,
-      "opponent": "STL",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 776688
-    },
-    {
-      "player": "Liberatore, Matthew",
-      "player_id": 669461,
-      "opponent": "STL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.0,
-      "best_book": "draftkings",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 776688
     },
     {
       "player": "Lorenzen, Michael",
@@ -499,13 +460,13 @@
     {
       "player": "Rogers, Trevor",
       "player_id": 669432,
-      "opponent": "BAL",
-      "market": "Outs Recorded",
+      "opponent": "BOS",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
+      "direction": "OVER",
+      "line": 5.5,
       "best_book": "draftkings",
-      "best_price": -115,
+      "best_price": 120,
       "stars": 1,
       "game_pk": 776695
     },
@@ -521,6 +482,19 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776689
+    },
+    {
+      "player": "Strider, Spencer",
+      "player_id": 675911,
+      "opponent": "CWS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 776696
     },
     {
       "player": "Wicks, Jordan",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.347568+00:00",
+  "generated_at": "2026-02-12T23:06:24.164021+00:00",
   "date": "2025-08-21",
   "picks": [
     {
@@ -31,7 +31,7 @@
     {
       "player": "Gore, MacKenzie",
       "player_id": 669022,
-      "opponent": "WSH",
+      "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -96,7 +96,7 @@
     {
       "player": "Young, Brandon",
       "player_id": 687064,
-      "opponent": "BAL",
+      "opponent": "HOU",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -133,30 +133,17 @@
       "game_pk": 776644
     },
     {
-      "player": "Cease, Dylan",
-      "player_id": 656302,
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "player": "Burrows, Mike",
+      "player_id": 690976,
+      "opponent": "LAD",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 132,
-      "stars": 2,
-      "game_pk": 776642
-    },
-    {
-      "player": "Cease, Dylan",
-      "player_id": 656302,
-      "opponent": "SD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 110,
+      "best_price": 145,
       "stars": 2,
-      "game_pk": 776642
+      "game_pk": 776644
     },
     {
       "player": "Estrada, Jeremiah",
@@ -187,7 +174,7 @@
     {
       "player": "Manaea, Sean",
       "player_id": 640455,
-      "opponent": "NYM",
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -225,19 +212,6 @@
     },
     {
       "player": "Ashcraft, Graham",
-      "player_id": 681624,
-      "opponent": "LAD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 776644
-    },
-    {
-      "player": "Ashcraft, Graham",
       "player_id": 605141,
       "opponent": "LAD",
       "market": "Hits",
@@ -246,6 +220,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -125,
+      "stars": 1,
+      "game_pk": 776644
+    },
+    {
+      "player": "Ashcraft, Graham",
+      "player_id": 681624,
+      "opponent": "LAD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 115,
       "stars": 1,
       "game_pk": 776644
     },
@@ -315,19 +302,6 @@
       "game_pk": 776644
     },
     {
-      "player": "Bednar, David",
-      "player_id": 681297,
-      "opponent": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 776655
-    },
-    {
       "player": "Burrows, Mike",
       "player_id": 690976,
       "opponent": "LAD",
@@ -341,17 +315,17 @@
       "game_pk": 776644
     },
     {
-      "player": "Burrows, Mike",
-      "player_id": 690976,
-      "opponent": "LAD",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "SF",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 145,
+      "best_price": 110,
       "stars": 1,
-      "game_pk": 776644
+      "game_pk": 776642
     },
     {
       "player": "Contreras, Roansy",
@@ -380,6 +354,19 @@
       "game_pk": 776644
     },
     {
+      "player": "Dollander, Chase",
+      "player_id": 801403,
+      "opponent": "LAD",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 776644
+    },
+    {
       "player": "Garc\u00eda, Luis",
       "player_id": 671289,
       "opponent": "LAD",
@@ -395,15 +382,41 @@
     {
       "player": "Gore, MacKenzie",
       "player_id": 669022,
-      "opponent": "WSH",
-      "market": "Strikeouts",
+      "opponent": "NYM",
+      "market": "Earned Runs",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
+      "direction": "OVER",
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 110,
+      "best_price": -155,
       "stars": 1,
       "game_pk": 776650
+    },
+    {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "TB",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 776631
+    },
+    {
+      "player": "Imanaga, Shota",
+      "player_id": 684007,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 776651
     },
     {
       "player": "Kent, Zak",
@@ -419,21 +432,21 @@
       "game_pk": 776657
     },
     {
-      "player": "Leasure, Jordan",
-      "player_id": 686611,
-      "opponent": "NYM",
-      "market": "Total Bases",
+      "player": "Kent, Zak",
+      "player_id": 677649,
+      "opponent": "TEX",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 135,
       "stars": 1,
-      "game_pk": 776650
+      "game_pk": 776657
     },
     {
       "player": "Leasure, Jordan",
-      "player_id": 656180,
+      "player_id": 686611,
       "opponent": "NYM",
       "market": "Total Bases",
       "category": "batter",
@@ -523,19 +536,6 @@
       "game_pk": 776651
     },
     {
-      "player": "Verlander, Justin",
-      "player_id": 434378,
-      "opponent": "SF",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 776642
-    },
-    {
       "player": "Weaver, Luke",
       "player_id": 691723,
       "opponent": "HOU",
@@ -560,6 +560,19 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776631
+    },
+    {
+      "player": "Young, Brandon",
+      "player_id": 687064,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 122,
+      "stars": 1,
+      "game_pk": 776655
     }
   ]
 }

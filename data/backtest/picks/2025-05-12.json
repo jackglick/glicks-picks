@@ -1,17 +1,30 @@
 {
-  "generated_at": "2026-02-12T22:44:37.179325+00:00",
+  "generated_at": "2026-02-12T23:06:24.010857+00:00",
   "date": "2025-05-12",
   "picks": [
     {
-      "player": "Peterson, David",
-      "player_id": 656849,
+      "player": "Liberatore, Matthew",
+      "player_id": 669461,
+      "opponent": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -130,
+      "stars": 3,
+      "game_pk": 777953
+    },
+    {
+      "player": "Skenes, Paul",
+      "player_id": 694973,
       "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 105,
+      "best_price": 135,
       "stars": 3,
       "game_pk": 777950
     },
@@ -29,30 +42,17 @@
       "game_pk": 777959
     },
     {
-      "player": "Liberatore, Matthew",
-      "player_id": 669461,
-      "opponent": "STL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -130,
-      "stars": 2,
-      "game_pk": 777953
-    },
-    {
-      "player": "Rea, Colin",
-      "player_id": 607067,
-      "opponent": "CHC",
+      "player": "Peterson, David",
+      "player_id": 656849,
+      "opponent": "PIT",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "draftkings",
-      "best_price": -110,
+      "best_price": 105,
       "stars": 2,
-      "game_pk": 777952
+      "game_pk": 777950
     },
     {
       "player": "Soto, Gregory",
@@ -68,17 +68,17 @@
       "game_pk": 777952
     },
     {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "PHI",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Soto, Gregory",
+      "player_id": 669364,
+      "opponent": "MIA",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -110,
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -160,
       "stars": 2,
-      "game_pk": 777953
+      "game_pk": 777952
     },
     {
       "player": "Barco, Hunter",
@@ -94,19 +94,6 @@
       "game_pk": 777959
     },
     {
-      "player": "Barco, Hunter",
-      "player_id": 542303,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777959
-    },
-    {
       "player": "Barlow, Scott",
       "player_id": 592885,
       "opponent": "MIL",
@@ -116,6 +103,32 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -245,
+      "stars": 1,
+      "game_pk": 777960
+    },
+    {
+      "player": "Barlow, Scott",
+      "player_id": 592885,
+      "opponent": "MIL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777960
+    },
+    {
+      "player": "Burns, Chase",
+      "player_id": 686217,
+      "opponent": "MIL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 195,
       "stars": 1,
       "game_pk": 777960
     },
@@ -144,6 +157,45 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 777959
+    },
+    {
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "DET",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 777951
+    },
+    {
+      "player": "Lively, Ben",
+      "player_id": 594902,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777960
+    },
+    {
+      "player": "Pag\u00e1n, Emilio",
+      "player_id": 661388,
+      "opponent": "MIL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -265,
+      "stars": 1,
+      "game_pk": 777960
     },
     {
       "player": "Peralta, Sammy",
@@ -187,7 +239,7 @@
     {
       "player": "Rea, Colin",
       "player_id": 607067,
-      "opponent": "CHC",
+      "opponent": "MIA",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -198,43 +250,56 @@
       "game_pk": 777952
     },
     {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 777950
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "PIT",
+      "player": "Rea, Colin",
+      "player_id": 607067,
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 135,
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777952
+    },
+    {
+      "player": "Sale, Chris",
+      "player_id": 668804,
+      "opponent": "PIT",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 165,
       "stars": 1,
       "game_pk": 777950
     },
     {
-      "player": "Soto, Gregory",
-      "player_id": 669364,
-      "opponent": "MIA",
-      "market": "Total Bases",
+      "player": "Smith, Shane",
+      "player_id": 605137,
+      "opponent": "WSH",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -160,
+      "best_price": 135,
       "stars": 1,
-      "game_pk": 777952
+      "game_pk": 777959
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "STL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777953
     },
     {
       "player": "Vest, Will",

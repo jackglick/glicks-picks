@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.207601+00:00",
+  "generated_at": "2026-02-12T23:06:24.035902+00:00",
   "date": "2025-05-27",
   "picks": [
     {
@@ -18,7 +18,7 @@
     {
       "player": "Bibee, Tanner",
       "player_id": 676440,
-      "opponent": "CLE",
+      "opponent": "LAD",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -42,19 +42,6 @@
       "game_pk": 777750
     },
     {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
-      "opponent": "TB",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 3,
-      "game_pk": 777746
-    },
-    {
       "player": "Brash, Matt",
       "player_id": 671221,
       "opponent": "CIN",
@@ -66,6 +53,19 @@
       "best_price": 115,
       "stars": 3,
       "game_pk": 777750
+    },
+    {
+      "player": "Cannon, Jonathan",
+      "player_id": 686563,
+      "opponent": "NYM",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.0,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 3,
+      "game_pk": 777749
     },
     {
       "player": "Dreyer, Jack",
@@ -83,7 +83,7 @@
     {
       "player": "Flaherty, Jack",
       "player_id": 656427,
-      "opponent": "DET",
+      "opponent": "SF",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -109,20 +109,20 @@
     {
       "player": "Ryan, Joe",
       "player_id": 657746,
-      "opponent": "MIN",
-      "market": "Hits Allowed",
+      "opponent": "TB",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 7.0,
-      "best_book": "draftkings",
-      "best_price": 105,
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 136,
       "stars": 3,
       "game_pk": 777746
     },
     {
       "player": "Singer, Brady",
       "player_id": 663903,
-      "opponent": "CIN",
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -148,7 +148,7 @@
     {
       "player": "Su\u00e1rez, Ranger",
       "player_id": 624133,
-      "opponent": "PHI",
+      "opponent": "ATL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -185,35 +185,22 @@
       "game_pk": 777750
     },
     {
-      "player": "Cannon, Jonathan",
-      "player_id": 686563,
-      "opponent": "CWS",
-      "market": "Earned Runs",
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "MIN",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.0,
+      "line": 17.5,
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 777749
-    },
-    {
-      "player": "Faucher, Calvin",
-      "player_id": 607043,
-      "opponent": "CWS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -165,
-      "stars": 2,
-      "game_pk": 777749
+      "game_pk": 777746
     },
     {
       "player": "May, Dustin",
       "player_id": 669160,
-      "opponent": "LAD",
+      "opponent": "CLE",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -226,7 +213,7 @@
     {
       "player": "Megill, Tylor",
       "player_id": 656731,
-      "opponent": "NYM",
+      "opponent": "CWS",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -239,7 +226,7 @@
     {
       "player": "Megill, Tylor",
       "player_id": 656731,
-      "opponent": "NYM",
+      "opponent": "CWS",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -250,28 +237,41 @@
       "game_pk": 777749
     },
     {
-      "player": "Ryan, Joe",
-      "player_id": 657746,
-      "opponent": "MIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 136,
-      "stars": 2,
-      "game_pk": 777746
-    },
-    {
-      "player": "Sugano, Tomoyuki",
-      "player_id": 608372,
+      "player": "Pallante, Andre",
+      "player_id": 669467,
       "opponent": "BAL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 115,
+      "best_price": -130,
+      "stars": 2,
+      "game_pk": 777754
+    },
+    {
+      "player": "Ryan, Joe",
+      "player_id": 657746,
+      "opponent": "TB",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.0,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 2,
+      "game_pk": 777746
+    },
+    {
+      "player": "Sugano, Tomoyuki",
+      "player_id": 608372,
+      "opponent": "STL",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.0,
+      "best_book": "draftkings",
+      "best_price": -135,
       "stars": 2,
       "game_pk": 777754
     },
@@ -315,19 +315,6 @@
       "game_pk": 777754
     },
     {
-      "player": "Bibee, Tanner",
-      "player_id": 676440,
-      "opponent": "CLE",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 777753
-    },
-    {
       "player": "Crochet, Garrett",
       "player_id": 669224,
       "opponent": "NYY",
@@ -357,6 +344,19 @@
       "player": "Faucher, Calvin",
       "player_id": 607043,
       "opponent": "CWS",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 777749
+    },
+    {
+      "player": "Faucher, Calvin",
+      "player_id": 607043,
+      "opponent": "CWS",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
@@ -365,19 +365,6 @@
       "best_price": 170,
       "stars": 1,
       "game_pk": 777749
-    },
-    {
-      "player": "Gordon, Colton",
-      "player_id": 650859,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 777745
     },
     {
       "player": "Gore, MacKenzie",
@@ -430,6 +417,19 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 777744
+    },
+    {
+      "player": "Megill, Tylor",
+      "player_id": 656731,
+      "opponent": "CWS",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -180,
+      "stars": 1,
+      "game_pk": 777749
     },
     {
       "player": "Murray, Jayden",
@@ -497,9 +497,22 @@
       "game_pk": 777744
     },
     {
+      "player": "Sands, Cole",
+      "player_id": 656941,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 777748
+    },
+    {
       "player": "Strider, Spencer",
       "player_id": 675911,
-      "opponent": "ATL",
+      "opponent": "PHI",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -512,7 +525,7 @@
     {
       "player": "Strider, Spencer",
       "player_id": 675911,
-      "opponent": "ATL",
+      "opponent": "PHI",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -523,22 +536,9 @@
       "game_pk": 777748
     },
     {
-      "player": "Sugano, Tomoyuki",
-      "player_id": 608372,
-      "opponent": "BAL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.0,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 777754
-    },
-    {
       "player": "Su\u00e1rez, Ranger",
       "player_id": 624133,
-      "opponent": "PHI",
+      "opponent": "ATL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -564,7 +564,7 @@
     {
       "player": "Webb, Logan",
       "player_id": 657277,
-      "opponent": "SF",
+      "opponent": "DET",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",

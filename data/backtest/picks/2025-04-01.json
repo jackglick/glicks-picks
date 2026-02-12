@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.100576+00:00",
+  "generated_at": "2026-02-12T23:06:23.938242+00:00",
   "date": "2025-04-01",
   "picks": [
     {
@@ -57,7 +57,7 @@
     {
       "player": "Hendricks, Kyle",
       "player_id": 543294,
-      "opponent": "LAA",
+      "opponent": "STL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
@@ -81,17 +81,17 @@
       "game_pk": 778493
     },
     {
-      "player": "Liberatore, Matthew",
-      "player_id": 669461,
-      "opponent": "STL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Morgan, David",
+      "player_id": 677950,
+      "opponent": "AZ",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 14.5,
-      "best_book": "draftkings",
-      "best_price": -105,
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 3,
-      "game_pk": 778495
+      "game_pk": 778492
     },
     {
       "player": "Rod\u00f3n, Carlos",
@@ -135,20 +135,7 @@
     {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -140,
-      "stars": 2,
-      "game_pk": 778491
-    },
-    {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "TOR",
+      "opponent": "WSH",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -159,30 +146,17 @@
       "game_pk": 778491
     },
     {
-      "player": "Cruz, Fernando",
-      "player_id": 666182,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -200,
-      "stars": 2,
-      "game_pk": 778491
-    },
-    {
-      "player": "Morgan, David",
-      "player_id": 677950,
-      "opponent": "AZ",
+      "player": "Bido, Osvaldo",
+      "player_id": 521692,
+      "opponent": "KC",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "best_book": "draftkings",
+      "best_price": -160,
       "stars": 2,
-      "game_pk": 778492
+      "game_pk": 778488
     },
     {
       "player": "Soto, Gregory",
@@ -200,7 +174,7 @@
     {
       "player": "Warren, Will",
       "player_id": 701542,
-      "opponent": "NYY",
+      "opponent": "AZ",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "OVER",
@@ -224,17 +198,30 @@
       "game_pk": 778486
     },
     {
-      "player": "Bido, Osvaldo",
-      "player_id": 521692,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "CWS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 14.5,
       "best_book": "draftkings",
-      "best_price": -160,
+      "best_price": 145,
+      "stars": 2,
+      "game_pk": 778490
+    },
+    {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -140,
       "stars": 1,
-      "game_pk": 778488
+      "game_pk": 778491
     },
     {
       "player": "Bido, Osvaldo",
@@ -250,17 +237,17 @@
       "game_pk": 778488
     },
     {
-      "player": "Burnes, Corbin",
-      "player_id": 669203,
-      "opponent": "AZ",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 15.5,
+      "player": "Cruz, Fernando",
+      "player_id": 666182,
+      "opponent": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 105,
+      "best_price": -200,
       "stars": 1,
-      "game_pk": 778492
+      "game_pk": 778491
     },
     {
       "player": "Cruz, Fernando",
@@ -330,7 +317,20 @@
     {
       "player": "Lorenzen, Michael",
       "player_id": 547179,
-      "opponent": "KC",
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 778488
+    },
+    {
+      "player": "Lorenzen, Michael",
+      "player_id": 547179,
+      "opponent": "MIL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -339,6 +339,19 @@
       "best_price": -160,
       "stars": 1,
       "game_pk": 778488
+    },
+    {
+      "player": "Peralta, Wandy",
+      "player_id": 664023,
+      "opponent": "CHC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 778494
     },
     {
       "player": "Phillips, Tyler",
@@ -369,54 +382,15 @@
     {
       "player": "Warren, Will",
       "player_id": 701542,
-      "opponent": "NYY",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 778492
-    },
-    {
-      "player": "Williams, Trevor",
-      "player_id": 592866,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 778491
-    },
-    {
-      "player": "Woods Richardson, Simeon",
-      "player_id": 680573,
-      "opponent": "MIN",
+      "opponent": "AZ",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 2.5,
       "best_book": "draftkings",
-      "best_price": 120,
+      "best_price": -155,
       "stars": 1,
-      "game_pk": 778490
-    },
-    {
-      "player": "Woods Richardson, Simeon",
-      "player_id": 680573,
-      "opponent": "MIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 14.5,
-      "best_book": "draftkings",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 778490
+      "game_pk": 778492
     }
   ]
 }

@@ -1059,6 +1059,21 @@ body.backtest-mode .mobile-nav {
   margin-bottom: 0.5rem;
 }
 
+.pick-call-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.pick-call-label {
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
 .pick-direction {
   display: inline-block;
   font-size: 0.7rem;

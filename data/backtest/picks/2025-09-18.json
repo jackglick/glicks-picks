@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.388737+00:00",
+  "generated_at": "2026-02-12T23:06:24.206501+00:00",
   "date": "2025-09-18",
   "picks": [
     {
@@ -68,17 +68,17 @@
       "game_pk": 776270
     },
     {
-      "player": "Gordon, Tanner",
-      "player_id": 685299,
-      "opponent": "COL",
-      "market": "Outs Recorded",
+      "player": "Castillo, Luis",
+      "player_id": 622491,
+      "opponent": "KC",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 16.5,
+      "line": 3.5,
       "best_book": "draftkings",
-      "best_price": -124,
+      "best_price": -105,
       "stars": 2,
-      "game_pk": 776270
+      "game_pk": 776272
     },
     {
       "player": "Helsley, Ryan",
@@ -94,30 +94,17 @@
       "game_pk": 776270
     },
     {
-      "player": "Priester, Quinn",
-      "player_id": 682990,
-      "opponent": "MIL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Knack, Landon",
+      "player_id": 663728,
+      "opponent": "SEA",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": 114,
-      "stars": 2,
-      "game_pk": 776274
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "DET",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 141,
+      "best_price": -110,
       "stars": 2,
-      "game_pk": 776275
+      "game_pk": 776272
     },
     {
       "player": "Smith, Cade",
@@ -174,7 +161,7 @@
     {
       "player": "Bibee, Tanner",
       "player_id": 676440,
-      "opponent": "CLE",
+      "opponent": "DET",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -187,26 +174,13 @@
     {
       "player": "Castillo, Luis",
       "player_id": 622491,
-      "opponent": "SEA",
+      "opponent": "KC",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 7.0,
       "best_book": "draftkings",
       "best_price": -126,
-      "stars": 1,
-      "game_pk": 776272
-    },
-    {
-      "player": "Castillo, Luis",
-      "player_id": 622491,
-      "opponent": "SEA",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -105,
       "stars": 1,
       "game_pk": 776272
     },
@@ -250,43 +224,17 @@
       "game_pk": 776270
     },
     {
-      "player": "Faucher, Calvin",
-      "player_id": 643446,
-      "opponent": "SD",
+      "player": "Gordon, Colton",
+      "player_id": 650859,
+      "opponent": "LAA",
       "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776276
-    },
-    {
-      "player": "Gaddis, Hunter",
-      "player_id": 650402,
-      "opponent": "CLE",
-      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 169,
+      "best_price": -192,
       "stars": 1,
-      "game_pk": 776275
-    },
-    {
-      "player": "Garc\u00eda, Luis",
-      "player_id": 671289,
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -137,
-      "stars": 1,
-      "game_pk": 776270
+      "game_pk": 776274
     },
     {
       "player": "Gordon, Colton",
@@ -303,19 +251,6 @@
     },
     {
       "player": "Gordon, Colton",
-      "player_id": 650859,
-      "opponent": "LAA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": -192,
-      "stars": 1,
-      "game_pk": 776274
-    },
-    {
-      "player": "Gordon, Colton",
       "player_id": 681351,
       "opponent": "LAA",
       "market": "Hits",
@@ -326,6 +261,19 @@
       "best_price": 139,
       "stars": 1,
       "game_pk": 776274
+    },
+    {
+      "player": "Gordon, Tanner",
+      "player_id": 685299,
+      "opponent": "MIA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -124,
+      "stars": 1,
+      "game_pk": 776270
     },
     {
       "player": "Helsley, Ryan",
@@ -354,17 +302,17 @@
       "game_pk": 776276
     },
     {
-      "player": "Knack, Landon",
-      "player_id": 663728,
-      "opponent": "SEA",
-      "market": "Total Bases",
-      "category": "batter",
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -110,
+      "line": 15.5,
+      "best_book": "fanduel",
+      "best_price": -106,
       "stars": 1,
-      "game_pk": 776272
+      "game_pk": 776274
     },
     {
       "player": "Knack, Landon",
@@ -382,20 +330,7 @@
     {
       "player": "Kolek, Stephen",
       "player_id": 663568,
-      "opponent": "KC",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -157,
-      "stars": 1,
-      "game_pk": 776272
-    },
-    {
-      "player": "Kolek, Stephen",
-      "player_id": 663568,
-      "opponent": "KC",
+      "opponent": "SEA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -432,6 +367,19 @@
       "game_pk": 776274
     },
     {
+      "player": "Long, Sam",
+      "player_id": 701762,
+      "opponent": "ATH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -288,
+      "stars": 1,
+      "game_pk": 776281
+    },
+    {
       "player": "McCullers Jr., Lance",
       "player_id": 545361,
       "opponent": "LAA",
@@ -445,17 +393,17 @@
       "game_pk": 776274
     },
     {
-      "player": "McGough, Scott",
-      "player_id": 695506,
-      "opponent": "SEA",
-      "market": "Hits",
+      "player": "Peralta, Wandy",
+      "player_id": 664023,
+      "opponent": "CHC",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 140,
+      "best_price": -146,
       "stars": 1,
-      "game_pk": 776272
+      "game_pk": 776282
     },
     {
       "player": "Phillips, Tyler",
@@ -469,6 +417,32 @@
       "best_price": -151,
       "stars": 1,
       "game_pk": 776276
+    },
+    {
+      "player": "Priester, Quinn",
+      "player_id": 682990,
+      "opponent": "LAA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": 114,
+      "stars": 1,
+      "game_pk": 776274
+    },
+    {
+      "player": "Skubal, Tarik",
+      "player_id": 669373,
+      "opponent": "CLE",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 141,
+      "stars": 1,
+      "game_pk": 776275
     },
     {
       "player": "Skubal, Tarik",
@@ -497,9 +471,22 @@
       "game_pk": 776270
     },
     {
+      "player": "Soto, Gregory",
+      "player_id": 691594,
+      "opponent": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -252,
+      "stars": 1,
+      "game_pk": 776270
+    },
+    {
       "player": "V\u00e1squez, Randy",
       "player_id": 681190,
-      "opponent": "SD",
+      "opponent": "NYM",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",

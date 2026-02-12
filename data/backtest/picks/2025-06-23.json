@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.252519+00:00",
+  "generated_at": "2026-02-12T23:06:24.073568+00:00",
   "date": "2025-06-23",
   "picks": [
     {
@@ -14,19 +14,6 @@
       "best_price": -110,
       "stars": 3,
       "game_pk": 777390
-    },
-    {
-      "player": "Liberatore, Matthew",
-      "player_id": 669461,
-      "opponent": "STL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 3,
-      "game_pk": 777392
     },
     {
       "player": "Chapman, Aroldis",
@@ -55,9 +42,22 @@
       "game_pk": 777394
     },
     {
+      "player": "Liberatore, Matthew",
+      "player_id": 669461,
+      "opponent": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 777392
+    },
+    {
       "player": "Ober, Bailey",
       "player_id": 641927,
-      "opponent": "MIN",
+      "opponent": "SEA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -68,17 +68,17 @@
       "game_pk": 777388
     },
     {
-      "player": "Patrick, Chad",
-      "player_id": 694477,
-      "opponent": "MIL",
-      "market": "Outs Recorded",
+      "player": "Smith, Shane",
+      "player_id": 681343,
+      "opponent": "AZ",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -115,
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 106,
       "stars": 2,
-      "game_pk": 777391
+      "game_pk": 777393
     },
     {
       "player": "Treinen, Blake",
@@ -107,15 +107,28 @@
       "game_pk": 777391
     },
     {
-      "player": "Brash, Matt",
-      "player_id": 691026,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Blackburn, Paul",
+      "player_id": 621112,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 122,
+      "stars": 1,
+      "game_pk": 777389
+    },
+    {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "STL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 195,
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -114,
       "stars": 1,
       "game_pk": 777392
     },
@@ -198,6 +211,19 @@
       "game_pk": 777394
     },
     {
+      "player": "Kent, Zak",
+      "player_id": 677649,
+      "opponent": "TEX",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777394
+    },
+    {
       "player": "Knack, Landon",
       "player_id": 553993,
       "opponent": "AZ",
@@ -237,28 +263,15 @@
       "game_pk": 777394
     },
     {
-      "player": "Liberatore, Matthew",
-      "player_id": 669461,
-      "opponent": "STL",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777392
-    },
-    {
       "player": "Lodolo, Nick",
       "player_id": 666157,
-      "opponent": "CIN",
-      "market": "Outs Recorded",
+      "opponent": "NYY",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -108,
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 120,
       "stars": 1,
       "game_pk": 777390
     },
@@ -291,7 +304,7 @@
     {
       "player": "Patrick, Chad",
       "player_id": 694477,
-      "opponent": "MIL",
+      "opponent": "PIT",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
@@ -355,6 +368,19 @@
     },
     {
       "player": "Rogers, Trevor",
+      "player_id": 669432,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 118,
+      "stars": 1,
+      "game_pk": 777394
+    },
+    {
+      "player": "Rogers, Trevor",
       "player_id": 596103,
       "opponent": "AZ",
       "market": "Hits",
@@ -367,28 +393,15 @@
       "game_pk": 777393
     },
     {
-      "player": "Rogers, Trevor",
-      "player_id": 596103,
+      "player": "Sears, JP",
+      "player_id": 606466,
       "opponent": "AZ",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 777393
-    },
-    {
-      "player": "Smith, Shane",
-      "player_id": 681343,
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 106,
+      "best_price": -150,
       "stars": 1,
       "game_pk": 777393
     },
@@ -432,22 +445,9 @@
       "game_pk": 777394
     },
     {
-      "player": "Williams, Devin",
-      "player_id": 702616,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 200,
-      "stars": 1,
-      "game_pk": 777394
-    },
-    {
       "player": "Woo, Bryan",
       "player_id": 693433,
-      "opponent": "SEA",
+      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",

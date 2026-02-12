@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T22:44:37.235413+00:00",
+  "generated_at": "2026-02-12T23:06:24.059381+00:00",
   "date": "2025-06-13",
   "picks": [
     {
@@ -40,19 +40,6 @@
       "best_price": null,
       "stars": 3,
       "game_pk": 777538
-    },
-    {
-      "player": "Elder, Bryce",
-      "player_id": 693821,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": 126,
-      "stars": 3,
-      "game_pk": 777535
     },
     {
       "player": "Fried, Max",
@@ -146,17 +133,17 @@
       "game_pk": 777530
     },
     {
-      "player": "M\u00e1rquez, Germ\u00e1n",
-      "player_id": 608566,
-      "opponent": "COL",
-      "market": "Strikeouts",
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "DET",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -136,
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 115,
       "stars": 3,
-      "game_pk": 777535
+      "game_pk": 777538
     },
     {
       "player": "Parker, Mitchell",
@@ -250,17 +237,30 @@
       "game_pk": 777537
     },
     {
-      "player": "Bednar, David",
-      "player_id": 668939,
-      "opponent": "LAA",
-      "market": "Total Bases",
+      "player": "Dreyer, Jack",
+      "player_id": 682829,
+      "opponent": "CIN",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -145,
+      "line": 0.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 2,
-      "game_pk": 777539
+      "game_pk": 777538
+    },
+    {
+      "player": "Elder, Bryce",
+      "player_id": 693821,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 126,
+      "stars": 2,
+      "game_pk": 777535
     },
     {
       "player": "Estrada, Jeremiah",
@@ -289,30 +289,17 @@
       "game_pk": 777526
     },
     {
-      "player": "Kochanowicz, Jack",
-      "player_id": 686799,
-      "opponent": "LAA",
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "player_id": 608566,
+      "opponent": "ATL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
       "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 120,
+      "best_book": "fanduel",
+      "best_price": -136,
       "stars": 2,
-      "game_pk": 777539
-    },
-    {
-      "player": "Martinez, Nick",
-      "player_id": 607259,
-      "opponent": "CIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 2,
-      "game_pk": 777538
+      "game_pk": 777535
     },
     {
       "player": "Ram\u00edrez, Yohan",
@@ -341,6 +328,19 @@
       "game_pk": 777530
     },
     {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -116,
+      "stars": 2,
+      "game_pk": 777531
+    },
+    {
       "player": "Treinen, Blake",
       "player_id": 666158,
       "opponent": "CIN",
@@ -354,17 +354,17 @@
       "game_pk": 777538
     },
     {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
-      "opponent": "CIN",
-      "market": "Hits",
+      "player": "Bednar, David",
+      "player_id": 668939,
+      "opponent": "LAA",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
-      "best_book": null,
-      "best_price": null,
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -145,
       "stars": 1,
-      "game_pk": 777538
+      "game_pk": 777539
     },
     {
       "player": "Dreyer, Jack",
@@ -393,22 +393,9 @@
       "game_pk": 777538
     },
     {
-      "player": "Gaddis, Hunter",
-      "player_id": 595879,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 777538
-    },
-    {
       "player": "Gausman, Kevin",
       "player_id": 592332,
-      "opponent": "TOR",
+      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -471,41 +458,28 @@
       "game_pk": 777530
     },
     {
-      "player": "Holmes, Clay",
-      "player_id": 605280,
-      "opponent": "NYM",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 18.5,
-      "best_book": "draftkings",
-      "best_price": -195,
-      "stars": 1,
-      "game_pk": 777528
-    },
-    {
-      "player": "Kochanowicz, Jack",
-      "player_id": 686799,
+      "player": "King, Bryan",
+      "player_id": 694384,
       "opponent": "LAA",
-      "market": "Hits Allowed",
-      "category": "pitcher",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 6.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -155,
+      "best_price": 180,
       "stars": 1,
       "game_pk": 777539
     },
     {
       "player": "Kochanowicz, Jack",
       "player_id": 686799,
-      "opponent": "LAA",
-      "market": "Earned Runs",
+      "opponent": "BAL",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 3.5,
       "best_book": "draftkings",
-      "best_price": -160,
+      "best_price": 120,
       "stars": 1,
       "game_pk": 777539
     },
@@ -562,19 +536,6 @@
       "game_pk": 777535
     },
     {
-      "player": "Ram\u00edrez, Yohan",
-      "player_id": 669397,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 777535
-    },
-    {
       "player": "Sale, Chris",
       "player_id": 668804,
       "opponent": "PIT",
@@ -627,17 +588,17 @@
       "game_pk": 777530
     },
     {
-      "player": "Su\u00e1rez, Ranger",
-      "player_id": 624133,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -116,
+      "player": "Soto, Gregory",
+      "player_id": 669364,
+      "opponent": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -220,
       "stars": 1,
-      "game_pk": 777531
+      "game_pk": 777530
     },
     {
       "player": "Treinen, Blake",

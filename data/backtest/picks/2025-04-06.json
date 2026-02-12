@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-12T22:44:37.111942+00:00",
+  "generated_at": "2026-02-12T23:06:23.949502+00:00",
   "date": "2025-04-06",
   "picks": [
     {
       "player": "Anderson, Tyler",
       "player_id": 542881,
-      "opponent": "LAA",
+      "opponent": "CLE",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -18,7 +18,7 @@
     {
       "player": "Paddack, Chris",
       "player_id": 663978,
-      "opponent": "MIN",
+      "opponent": "HOU",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -42,17 +42,17 @@
       "game_pk": 778425
     },
     {
-      "player": "Bubic, Kris",
-      "player_id": 663460,
-      "opponent": "KC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
+      "player": "Vest, Will",
+      "player_id": 608070,
+      "opponent": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 1.5,
       "best_book": "draftkings",
       "best_price": -130,
-      "stars": 2,
-      "game_pk": 778422
+      "stars": 3,
+      "game_pk": 778425
     },
     {
       "player": "Chapman, Aroldis",
@@ -68,17 +68,17 @@
       "game_pk": 778428
     },
     {
-      "player": "Cruz, Fernando",
-      "player_id": 666182,
-      "opponent": "TOR",
+      "player": "Chapman, Aroldis",
+      "player_id": 592450,
+      "opponent": "NYY",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -195,
+      "best_price": 195,
       "stars": 2,
-      "game_pk": 778435
+      "game_pk": 778428
     },
     {
       "player": "Cruz, Fernando",
@@ -94,15 +94,41 @@
       "game_pk": 778435
     },
     {
+      "player": "Cruz, Fernando",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -195,
+      "stars": 2,
+      "game_pk": 778435
+    },
+    {
       "player": "Francis, Bowden",
       "player_id": 670102,
-      "opponent": "TOR",
+      "opponent": "NYM",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": 140,
+      "stars": 2,
+      "game_pk": 778435
+    },
+    {
+      "player": "Francis, Bowden",
+      "player_id": 670102,
+      "opponent": "NYM",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 2,
       "game_pk": 778435
     },
@@ -159,17 +185,17 @@
       "game_pk": 778425
     },
     {
-      "player": "Vest, Will",
-      "player_id": 608070,
-      "opponent": "CLE",
-      "market": "Total Bases",
-      "category": "batter",
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "PIT",
+      "market": "Walks",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 2.5,
       "best_book": "draftkings",
-      "best_price": -130,
+      "best_price": 100,
       "stars": 2,
-      "game_pk": 778425
+      "game_pk": 778428
     },
     {
       "player": "Williams, Devin",
@@ -183,6 +209,19 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 778443
+    },
+    {
+      "player": "Woo, Bryan",
+      "player_id": 693433,
+      "opponent": "SF",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 2,
+      "game_pk": 778427
     },
     {
       "player": "Barlow, Scott",
@@ -211,17 +250,30 @@
       "game_pk": 778422
     },
     {
-      "player": "Chapman, Aroldis",
-      "player_id": 592450,
-      "opponent": "NYY",
-      "market": "Hits",
-      "category": "batter",
+      "player": "Blanco, Ronel",
+      "player_id": 669854,
+      "opponent": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 17.5,
       "best_book": "draftkings",
-      "best_price": 195,
+      "best_price": -130,
       "stars": 1,
-      "game_pk": 778428
+      "game_pk": 778419
+    },
+    {
+      "player": "Bubic, Kris",
+      "player_id": 663460,
+      "opponent": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 778422
     },
     {
       "player": "Chapman, Aroldis",
@@ -248,19 +300,6 @@
       "best_price": -130,
       "stars": 1,
       "game_pk": 778423
-    },
-    {
-      "player": "Francis, Bowden",
-      "player_id": 670102,
-      "opponent": "TOR",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 778435
     },
     {
       "player": "Graceffo, Gordon",
@@ -292,19 +331,6 @@
       "player": "Littell, Zack",
       "player_id": 575929,
       "opponent": "STL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 778443
-    },
-    {
-      "player": "Littell, Zack",
-      "player_id": 575929,
-      "opponent": "STL",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
@@ -317,28 +343,15 @@
     {
       "player": "Newcomb, Sean",
       "player_id": 656794,
-      "opponent": "BOS",
-      "market": "Walks",
+      "opponent": "STL",
+      "market": "Hits Allowed",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": "draftkings",
-      "best_price": -140,
+      "best_price": -145,
       "stars": 1,
       "game_pk": 778443
-    },
-    {
-      "player": "Paddack, Chris",
-      "player_id": 663978,
-      "opponent": "MIN",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 778419
     },
     {
       "player": "Phillips, Connor",
@@ -395,7 +408,7 @@
     {
       "player": "Rasmussen, Drew",
       "player_id": 656876,
-      "opponent": "TB",
+      "opponent": "TEX",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -419,17 +432,17 @@
       "game_pk": 778433
     },
     {
-      "player": "Smith, Cade",
-      "player_id": 679529,
-      "opponent": "CWS",
+      "player": "Treinen, Blake",
+      "player_id": 677594,
+      "opponent": "SEA",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 150,
+      "best_price": 195,
       "stars": 1,
-      "game_pk": 778433
+      "game_pk": 778427
     },
     {
       "player": "Vest, Will",
@@ -460,20 +473,7 @@
     {
       "player": "Warren, Will",
       "player_id": 701542,
-      "opponent": "NYY",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778428
-    },
-    {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "NYY",
+      "opponent": "PIT",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -495,19 +495,6 @@
       "best_price": -220,
       "stars": 1,
       "game_pk": 778443
-    },
-    {
-      "player": "Woo, Bryan",
-      "player_id": 693433,
-      "opponent": "SEA",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 778427
     },
     {
       "player": "Woods Richardson, Simeon",
