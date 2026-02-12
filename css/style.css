@@ -730,6 +730,10 @@ body.backtest-mode .mobile-nav {
   color: var(--accent);
 }
 
+.market-val.accent.negative {
+  color: #ef4444;
+}
+
 .market-sample {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.35);
