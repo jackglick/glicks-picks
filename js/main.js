@@ -75,36 +75,7 @@
     });
   }
 
-  // --- Active Nav ---
-  var sections = document.querySelectorAll('section[id]');
-  var navLinks = document.querySelectorAll('.nav-links a, .mobile-nav a');
-
-  var navTicking = false;
-  function highlightNav() {
-    var scrollY = window.scrollY + 100;
-    sections.forEach(function (section) {
-      var top = section.offsetTop;
-      var height = section.offsetHeight;
-      var id = section.getAttribute('id');
-      if (scrollY >= top && scrollY < top + height) {
-        navLinks.forEach(function (link) {
-          link.classList.remove('active');
-          if (link.getAttribute('href') === '#' + id) {
-            link.classList.add('active');
-          }
-        });
-      }
-    });
-    navTicking = false;
-  }
-
-  window.addEventListener('scroll', function () {
-    if (!navTicking) {
-      navTicking = true;
-      requestAnimationFrame(highlightNav);
-    }
-  }, { passive: true });
-  highlightNav();
+  // Active nav state is set via .active class in each page's HTML
 
   // ============================================
   // Picks & Results Pages
