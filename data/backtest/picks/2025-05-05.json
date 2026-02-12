@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-12T23:06:23.996612+00:00",
+  "generated_at": "2026-02-12T23:25:56.791587+00:00",
   "date": "2025-05-05",
   "picks": [
     {
-      "player": "Fried, Max",
+      "player": "Gonz\u00e1lez, Oscar",
       "player_id": 660757,
       "opponent": "SD",
       "market": "Total Bases",
@@ -16,17 +16,17 @@
       "game_pk": 778045
     },
     {
-      "player": "Ragans, Cole",
-      "player_id": 666142,
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "player": "McLain, Matt",
+      "player_id": 680574,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 120,
-      "stars": 3,
-      "game_pk": 778043
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 145,
+      "stars": 2,
+      "game_pk": 778049
     },
     {
       "player": "Mikolas, Miles",
@@ -42,6 +42,19 @@
       "game_pk": 778036
     },
     {
+      "player": "Ragans, Cole",
+      "player_id": 666142,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 778043
+    },
+    {
       "player": "Roupp, Landen",
       "player_id": 694738,
       "opponent": "CHC",
@@ -53,32 +66,6 @@
       "best_price": 130,
       "stars": 2,
       "game_pk": 778044
-    },
-    {
-      "player": "Treinen, Blake",
-      "player_id": 680574,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 145,
-      "stars": 2,
-      "game_pk": 778049
-    },
-    {
-      "player": "Bachman, Sam",
-      "player_id": 673237,
-      "opponent": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 185,
-      "stars": 1,
-      "game_pk": 778042
     },
     {
       "player": "Boyd, Matthew",
@@ -94,33 +81,7 @@
       "game_pk": 778044
     },
     {
-      "player": "Burns, Chase",
-      "player_id": 663586,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 180,
-      "stars": 1,
-      "game_pk": 778049
-    },
-    {
-      "player": "Garcia, Rico",
-      "player_id": 700250,
-      "opponent": "SD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778045
-    },
-    {
-      "player": "Iglesias, Raisel",
+      "player": "Cruz, Oneil",
       "player_id": 665833,
       "opponent": "PIT",
       "market": "Hits",
@@ -133,33 +94,46 @@
       "game_pk": 778036
     },
     {
-      "player": "Pivetta, Nick",
-      "player_id": 601713,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "player": "Diaz, Yainer",
+      "player_id": 673237,
+      "opponent": "HOU",
+      "market": "Hits",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": 122,
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 185,
       "stars": 1,
-      "game_pk": 778045
+      "game_pk": 778042
     },
     {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -120,
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "LAD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -185,
       "stars": 1,
-      "game_pk": 778045
+      "game_pk": 778047
     },
     {
-      "player": "Sale, Chris",
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "LAD",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 190,
+      "stars": 1,
+      "game_pk": 778047
+    },
+    {
+      "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "PIT",
       "market": "Hits",
@@ -172,30 +146,30 @@
       "game_pk": 778036
     },
     {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "PIT",
+      "player": "Rice, Ben",
+      "player_id": 700250,
+      "opponent": "SD",
       "market": "Total Bases",
       "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
+      "direction": "OVER",
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -170,
+      "best_price": -125,
       "stars": 1,
-      "game_pk": 778036
+      "game_pk": 778045
     },
     {
-      "player": "Smith, Shane",
-      "player_id": 681343,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 116,
+      "player": "Riley, Austin",
+      "player_id": 663586,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 180,
       "stars": 1,
-      "game_pk": 778043
+      "game_pk": 778049
     },
     {
       "player": "Smith, Shane",
@@ -211,30 +185,17 @@
       "game_pk": 778043
     },
     {
-      "player": "Soto, Gregory",
-      "player_id": 669364,
-      "opponent": "LAD",
+      "player": "Witt, Bobby",
+      "player_id": 677951,
+      "opponent": "CWS",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -185,
+      "best_price": -105,
       "stars": 1,
-      "game_pk": 778047
-    },
-    {
-      "player": "Soto, Gregory",
-      "player_id": 669364,
-      "opponent": "LAD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 778047
+      "game_pk": 778043
     }
   ]
 }

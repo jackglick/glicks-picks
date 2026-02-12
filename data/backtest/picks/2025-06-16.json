@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-12T23:06:24.062719+00:00",
+  "generated_at": "2026-02-12T23:25:56.849761+00:00",
   "date": "2025-06-16",
   "picks": [
     {
-      "player": "Cruz, Fernando",
+      "player": "Carlson, Dylan",
       "player_id": 666185,
       "opponent": "BAL",
       "market": "Total Bases",
@@ -16,7 +16,7 @@
       "game_pk": 777484
     },
     {
-      "player": "Garc\u00eda, Luis",
+      "player": "Freeman, Tyler",
       "player_id": 671289,
       "opponent": "COL",
       "market": "Total Bases",
@@ -29,35 +29,9 @@
       "game_pk": 777488
     },
     {
-      "player": "Soriano, Jos\u00e9",
-      "player_id": 667755,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 2,
-      "game_pk": 777487
-    },
-    {
-      "player": "Bednar, David",
-      "player_id": 668939,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 777484
-    },
-    {
-      "player": "Chapman, Aroldis",
-      "player_id": 592450,
-      "opponent": "LAA",
+      "player": "Bell, Josh",
+      "player_id": 605137,
+      "opponent": "COL",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
@@ -65,33 +39,20 @@
       "best_book": "draftkings",
       "best_price": 155,
       "stars": 1,
-      "game_pk": 777487
+      "game_pk": 777488
     },
     {
-      "player": "Chapman, Aroldis",
-      "player_id": 592450,
-      "opponent": "LAA",
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "PHI",
       "market": "Total Bases",
       "category": "batter",
-      "direction": "OVER",
+      "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 130,
+      "best_price": -175,
       "stars": 1,
-      "game_pk": 777487
-    },
-    {
-      "player": "Irvin, Jake",
-      "player_id": 663623,
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 777488
+      "game_pk": 777483
     },
     {
       "player": "Irvin, Jake",
@@ -120,7 +81,20 @@
       "game_pk": 777488
     },
     {
-      "player": "Little, Brendon",
+      "player": "Judge, Aaron",
+      "player_id": 592450,
+      "opponent": "LAA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 155,
+      "stars": 1,
+      "game_pk": 777487
+    },
+    {
+      "player": "Lowe, Josh",
       "player_id": 666139,
       "opponent": "BAL",
       "market": "Hits",
@@ -133,7 +107,7 @@
       "game_pk": 777484
     },
     {
-      "player": "Little, Brendon",
+      "player": "Lowe, Josh",
       "player_id": 666139,
       "opponent": "BAL",
       "market": "Total Bases",
@@ -146,17 +120,30 @@
       "game_pk": 777484
     },
     {
-      "player": "Smith, Shane",
-      "player_id": 605137,
-      "opponent": "COL",
-      "market": "Hits",
+      "player": "Rutschman, Adley",
+      "player_id": 668939,
+      "opponent": "BAL",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 155,
+      "best_price": 135,
       "stars": 1,
-      "game_pk": 777488
+      "game_pk": 777484
+    },
+    {
+      "player": "Soriano, Jos\u00e9",
+      "player_id": 667755,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 777487
     },
     {
       "player": "Soriano, Jos\u00e9",
@@ -170,19 +157,6 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 777487
-    },
-    {
-      "player": "Soto, Gregory",
-      "player_id": 669364,
-      "opponent": "PHI",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -175,
-      "stars": 1,
-      "game_pk": 777483
     }
   ]
 }

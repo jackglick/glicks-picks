@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:06:24.044499+00:00",
+  "generated_at": "2026-02-12T23:25:56.832635+00:00",
   "date": "2025-06-02",
   "picks": [
     {
@@ -16,20 +16,7 @@
       "game_pk": 777674
     },
     {
-      "player": "Henriquez, Edgardo",
-      "player_id": 668715,
-      "opponent": "MIL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777671
-    },
-    {
-      "player": "Kittredge, Andrew",
+      "player": "Fraley, Jake",
       "player_id": 641584,
       "opponent": "MIL",
       "market": "Hits",
@@ -38,6 +25,32 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": 110,
+      "stars": 3,
+      "game_pk": 777671
+    },
+    {
+      "player": "Friedl, TJ",
+      "player_id": 670770,
+      "opponent": "MIL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 165,
+      "stars": 3,
+      "game_pk": 777671
+    },
+    {
+      "player": "Lux, Gavin",
+      "player_id": 666158,
+      "opponent": "MIL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 135,
       "stars": 3,
       "game_pk": 777671
     },
@@ -55,34 +68,8 @@
       "game_pk": 777673
     },
     {
-      "player": "Treinen, Blake",
-      "player_id": 670770,
-      "opponent": "MIL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 165,
-      "stars": 3,
-      "game_pk": 777671
-    },
-    {
-      "player": "Treinen, Blake",
-      "player_id": 666158,
-      "opponent": "MIL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 135,
-      "stars": 3,
-      "game_pk": 777671
-    },
-    {
-      "player": "Hart, Kyle",
-      "player_id": 656555,
+      "player": "Steer, Spencer",
+      "player_id": 668715,
       "opponent": "MIL",
       "market": "Total Bases",
       "category": "batter",
@@ -90,24 +77,11 @@
       "line": 1.5,
       "best_book": null,
       "best_price": null,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 777671
     },
     {
-      "player": "Meyer, Max",
-      "player_id": 676974,
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 2,
-      "game_pk": 777673
-    },
-    {
-      "player": "Rodriguez, Carlos",
+      "player": "Benson, Will",
       "player_id": 666181,
       "opponent": "MIL",
       "market": "Total Bases",
@@ -120,7 +94,7 @@
       "game_pk": 777671
     },
     {
-      "player": "Soto, Gregory",
+      "player": "Edwards, Xavier",
       "player_id": 669364,
       "opponent": "COL",
       "market": "Total Bases",
@@ -133,17 +107,17 @@
       "game_pk": 777673
     },
     {
-      "player": "Bibee, Tanner",
-      "player_id": 690993,
-      "opponent": "DET",
-      "market": "Hits",
+      "player": "Hoskins, Rhys",
+      "player_id": 656555,
+      "opponent": "MIL",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 180,
-      "stars": 1,
-      "game_pk": 777674
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 777671
     },
     {
       "player": "Civale, Aaron",
@@ -159,20 +133,7 @@
       "game_pk": 777671
     },
     {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
-      "opponent": "MIL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 777671
-    },
-    {
-      "player": "Dreyer, Jack",
+      "player": "De La Cruz, Elly",
       "player_id": 682829,
       "opponent": "MIL",
       "market": "Hits",
@@ -185,43 +146,56 @@
       "game_pk": 777671
     },
     {
-      "player": "Fitts, Richard",
-      "player_id": 690916,
-      "opponent": "LAA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
+      "player": "De La Cruz, Elly",
+      "player_id": 682829,
+      "opponent": "MIL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 140,
+      "best_price": -130,
       "stars": 1,
-      "game_pk": 777670
+      "game_pk": 777671
     },
     {
-      "player": "Murray, Jayden",
-      "player_id": 621493,
-      "opponent": "LAA",
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -200,
+      "stars": 1,
+      "game_pk": 777673
+    },
+    {
+      "player": "Greene, Riley",
+      "player_id": 682985,
+      "opponent": "DET",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -245,
+      "stars": 1,
+      "game_pk": 777674
+    },
+    {
+      "player": "Keith, Colt",
+      "player_id": 690993,
+      "opponent": "DET",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 175,
+      "best_price": 180,
       "stars": 1,
-      "game_pk": 777670
-    },
-    {
-      "player": "M\u00e1rquez, Germ\u00e1n",
-      "player_id": 608566,
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 777673
+      "game_pk": 777674
     },
     {
       "player": "M\u00e1rquez, Germ\u00e1n",
@@ -250,30 +224,17 @@
       "game_pk": 777671
     },
     {
-      "player": "Smith, Cade",
-      "player_id": 682985,
-      "opponent": "DET",
+      "player": "Ward, Taylor",
+      "player_id": 621493,
+      "opponent": "LAA",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -245,
+      "best_price": 175,
       "stars": 1,
-      "game_pk": 777674
-    },
-    {
-      "player": "Soto, Gregory",
-      "player_id": 669364,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -200,
-      "stars": 1,
-      "game_pk": 777673
+      "game_pk": 777670
     }
   ]
 }

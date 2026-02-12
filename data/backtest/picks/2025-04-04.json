@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:06:23.943666+00:00",
+  "generated_at": "2026-02-12T23:25:56.744027+00:00",
   "date": "2025-04-04",
   "picks": [
     {
@@ -19,19 +19,6 @@
       "player": "Yamamoto, Yoshinobu",
       "player_id": 808967,
       "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 3,
-      "game_pk": 778459
-    },
-    {
-      "player": "Yamamoto, Yoshinobu",
-      "player_id": 808967,
-      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -40,19 +27,6 @@
       "best_price": -120,
       "stars": 3,
       "game_pk": 778459
-    },
-    {
-      "player": "Fedde, Erick",
-      "player_id": 607200,
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 2,
-      "game_pk": 778463
     },
     {
       "player": "Gausman, Kevin",
@@ -84,6 +58,19 @@
       "player": "Yamamoto, Yoshinobu",
       "player_id": 808967,
       "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 778459
+    },
+    {
+      "player": "Yamamoto, Yoshinobu",
+      "player_id": 808967,
+      "opponent": "PHI",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -92,6 +79,19 @@
       "best_price": 110,
       "stars": 2,
       "game_pk": 778459
+    },
+    {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 778463
     },
     {
       "player": "Gausman, Kevin",
@@ -118,19 +118,6 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 778455
-    },
-    {
-      "player": "Megill, Tylor",
-      "player_id": 656731,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -106,
-      "stars": 1,
-      "game_pk": 778465
     },
     {
       "player": "Schwellenbach, Spencer",

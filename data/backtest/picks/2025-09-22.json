@@ -1,48 +1,9 @@
 {
-  "generated_at": "2026-02-12T23:06:24.211921+00:00",
+  "generated_at": "2026-02-12T23:25:56.987771+00:00",
   "date": "2025-09-22",
   "picks": [
     {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 8.5,
-      "best_book": "fanduel",
-      "best_price": 102,
-      "stars": 2,
-      "game_pk": 776221
-    },
-    {
-      "player": "Barco, Hunter",
-      "player_id": 542303,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776221
-    },
-    {
-      "player": "Gore, MacKenzie",
-      "player_id": 669022,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -132,
-      "stars": 1,
-      "game_pk": 776221
-    },
-    {
-      "player": "Gore, MacKenzie",
+      "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "WSH",
       "market": "Total Bases",
@@ -51,6 +12,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -154,
+      "stars": 1,
+      "game_pk": 776221
+    },
+    {
+      "player": "Ozuna, Marcell",
+      "player_id": 542303,
+      "opponent": "WSH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
       "stars": 1,
       "game_pk": 776221
     }

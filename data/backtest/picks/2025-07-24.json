@@ -1,35 +1,9 @@
 {
-  "generated_at": "2026-02-12T23:06:24.116520+00:00",
+  "generated_at": "2026-02-12T23:25:56.899007+00:00",
   "date": "2025-07-24",
   "picks": [
     {
-      "player": "Cruz, Fernando",
-      "player_id": 666185,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -175,
-      "stars": 3,
-      "game_pk": 777019
-    },
-    {
-      "player": "Keller, Brad",
-      "player_id": 686780,
-      "opponent": "SD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777023
-    },
-    {
-      "player": "Pomeranz, Drew",
+      "player": "Burleson, Alec",
       "player_id": 676475,
       "opponent": "SD",
       "market": "Hits",
@@ -42,20 +16,20 @@
       "game_pk": 777023
     },
     {
-      "player": "Pomeranz, Drew",
-      "player_id": 657757,
-      "opponent": "SD",
+      "player": "Carlson, Dylan",
+      "player_id": 666185,
+      "opponent": "BAL",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "best_book": "draftkings",
+      "best_price": -175,
       "stars": 3,
-      "game_pk": 777023
+      "game_pk": 777019
     },
     {
-      "player": "Pomeranz, Drew",
+      "player": "Cronenworth, Jake",
       "player_id": 630105,
       "opponent": "SD",
       "market": "Total Bases",
@@ -68,7 +42,33 @@
       "game_pk": 777023
     },
     {
-      "player": "Slaten, Justin",
+      "player": "Pag\u00e9s, Pedro",
+      "player_id": 686780,
+      "opponent": "SD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 777023
+    },
+    {
+      "player": "Sheets, Gavin",
+      "player_id": 657757,
+      "opponent": "SD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 777023
+    },
+    {
+      "player": "Loperfido, Joey",
       "player_id": 694388,
       "opponent": "TOR",
       "market": "Total Bases",
@@ -77,24 +77,11 @@
       "line": 1.5,
       "best_book": null,
       "best_price": null,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 777021
     },
     {
-      "player": "Jax, Griffin",
-      "player_id": 570482,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 777025
-    },
-    {
-      "player": "Vest, Will",
+      "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "BAL",
       "market": "Total Bases",
@@ -105,6 +92,19 @@
       "best_price": -110,
       "stars": 2,
       "game_pk": 777019
+    },
+    {
+      "player": "Urshela, Gio",
+      "player_id": 570482,
+      "opponent": "ATH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 777025
     },
     {
       "player": "Allen, Logan",
@@ -120,33 +120,7 @@
       "game_pk": 777019
     },
     {
-      "player": "Baker, Bryan",
-      "player_id": 664770,
-      "opponent": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -235,
-      "stars": 1,
-      "game_pk": 777021
-    },
-    {
-      "player": "Baker, Bryan",
-      "player_id": 664770,
-      "opponent": "TOR",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 777021
-    },
-    {
-      "player": "Gaddis, Hunter",
+      "player": "B\u00e1ez, Javier",
       "player_id": 595879,
       "opponent": "TOR",
       "market": "Total Bases",
@@ -159,41 +133,41 @@
       "game_pk": 777021
     },
     {
-      "player": "Kelly, Kevin",
-      "player_id": 676391,
+      "player": "Greene, Riley",
+      "player_id": 682985,
       "opponent": "TOR",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 190,
+      "best_price": 155,
       "stars": 1,
       "game_pk": 777021
     },
     {
-      "player": "Kittredge, Andrew",
-      "player_id": 650333,
-      "opponent": "SD",
-      "market": "Hits",
+      "player": "Heineman, Tyler",
+      "player_id": 623168,
+      "opponent": "TOR",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 777021
+    },
+    {
+      "player": "Jones, Jahmai",
+      "player_id": 663330,
+      "opponent": "TOR",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -175,
-      "stars": 1,
-      "game_pk": 777023
-    },
-    {
-      "player": "Lauer, Eric",
-      "player_id": 641778,
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 116,
+      "best_price": -165,
       "stars": 1,
       "game_pk": 777021
     },
@@ -211,46 +185,33 @@
       "game_pk": 777021
     },
     {
-      "player": "Murphy, Chris",
-      "player_id": 623168,
+      "player": "Lukes, Nathan",
+      "player_id": 664770,
       "opponent": "TOR",
-      "market": "Total Bases",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "best_book": "draftkings",
+      "best_price": -235,
       "stars": 1,
       "game_pk": 777021
     },
     {
-      "player": "Murphy, Chris",
-      "player_id": 663330,
+      "player": "Lukes, Nathan",
+      "player_id": 664770,
       "opponent": "TOR",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -165,
+      "best_price": -145,
       "stars": 1,
       "game_pk": 777021
     },
     {
-      "player": "Peralta, Sammy",
-      "player_id": 602104,
-      "opponent": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 777019
-    },
-    {
-      "player": "Raley, Brooks",
+      "player": "Maldonado, Mart\u00edn",
       "player_id": 455117,
       "opponent": "SD",
       "market": "Total Bases",
@@ -263,20 +224,7 @@
       "game_pk": 777023
     },
     {
-      "player": "Saucedo, Tayler",
-      "player_id": 649966,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 777025
-    },
-    {
-      "player": "Skubal, Tarik",
+      "player": "Mart\u00ednez, Angel",
       "player_id": 682657,
       "opponent": "BAL",
       "market": "Total Bases",
@@ -289,17 +237,30 @@
       "game_pk": 777019
     },
     {
-      "player": "Smith, Cade",
-      "player_id": 682985,
-      "opponent": "TOR",
+      "player": "Mart\u00ednez, Angel",
+      "player_id": 682657,
+      "opponent": "BAL",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 155,
+      "best_price": 190,
       "stars": 1,
-      "game_pk": 777021
+      "game_pk": 777019
+    },
+    {
+      "player": "Ur\u00edas, Ram\u00f3n",
+      "player_id": 602104,
+      "opponent": "BAL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 777019
     }
   ]
 }

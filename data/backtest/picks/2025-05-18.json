@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-12T23:06:24.018997+00:00",
+  "generated_at": "2026-02-12T23:25:56.809438+00:00",
   "date": "2025-05-18",
   "picks": [
-    {
-      "player": "Ashcraft, Graham",
-      "player_id": 571970,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777866
-    },
     {
       "player": "Baz, Shane",
       "player_id": 669358,
@@ -42,19 +29,6 @@
       "game_pk": 777866
     },
     {
-      "player": "King, Bryan",
-      "player_id": 694384,
-      "opponent": "LAA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -215,
-      "stars": 3,
-      "game_pk": 777866
-    },
-    {
       "player": "Liberatore, Matthew",
       "player_id": 669461,
       "opponent": "KC",
@@ -66,6 +40,32 @@
       "best_price": -113,
       "stars": 3,
       "game_pk": 777864
+    },
+    {
+      "player": "Muncy, Max",
+      "player_id": 571970,
+      "opponent": "LAA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 777866
+    },
+    {
+      "player": "Muncy, Max",
+      "player_id": 571970,
+      "opponent": "LAA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 777866
     },
     {
       "player": "Rea, Colin",
@@ -81,6 +81,19 @@
       "game_pk": 777872
     },
     {
+      "player": "Schanuel, Nolan",
+      "player_id": 694384,
+      "opponent": "LAA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -215,
+      "stars": 3,
+      "game_pk": 777866
+    },
+    {
       "player": "Skenes, Paul",
       "player_id": 694973,
       "opponent": "PHI",
@@ -94,33 +107,7 @@
       "game_pk": 777880
     },
     {
-      "player": "Vest, Will",
-      "player_id": 608070,
-      "opponent": "CLE",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 3,
-      "game_pk": 777874
-    },
-    {
-      "player": "Ashcraft, Graham",
-      "player_id": 571970,
-      "opponent": "LAA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 777866
-    },
-    {
-      "player": "Gore, MacKenzie",
+      "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "ATL",
       "market": "Total Bases",
@@ -133,7 +120,7 @@
       "game_pk": 777876
     },
     {
-      "player": "Gore, MacKenzie",
+      "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "ATL",
       "market": "Hits",
@@ -146,7 +133,7 @@
       "game_pk": 777876
     },
     {
-      "player": "Keller, Brad",
+      "player": "Machado, Manny",
       "player_id": 592518,
       "opponent": "SEA",
       "market": "Total Bases",
@@ -185,30 +172,17 @@
       "game_pk": 777865
     },
     {
-      "player": "Ragans, Cole",
-      "player_id": 691016,
-      "opponent": "ATH",
+      "player": "Ram\u00edrez, Jos\u00e9",
+      "player_id": 608070,
+      "opponent": "CLE",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -190,
+      "best_price": -125,
       "stars": 2,
-      "game_pk": 777867
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 2,
-      "game_pk": 777880
+      "game_pk": 777874
     },
     {
       "player": "Schwellenbach, Spencer",
@@ -237,6 +211,19 @@
       "game_pk": 777867
     },
     {
+      "player": "Turang, Brice",
+      "player_id": 668930,
+      "opponent": "MIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 175,
+      "stars": 2,
+      "game_pk": 777865
+    },
+    {
       "player": "Verlander, Justin",
       "player_id": 434378,
       "opponent": "ATH",
@@ -250,35 +237,9 @@
       "game_pk": 777867
     },
     {
-      "player": "Williams, Devin",
-      "player_id": 680776,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -205,
-      "stars": 2,
-      "game_pk": 777876
-    },
-    {
-      "player": "Ashcraft, Graham",
-      "player_id": 500743,
-      "opponent": "LAA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 777866
-    },
-    {
-      "player": "Bednar, David",
-      "player_id": 668939,
-      "opponent": "WSH",
+      "player": "Altuve, Jos\u00e9",
+      "player_id": 514888,
+      "opponent": "HOU",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
@@ -286,18 +247,18 @@
       "best_book": "draftkings",
       "best_price": 175,
       "stars": 1,
-      "game_pk": 777873
+      "game_pk": 777869
     },
     {
-      "player": "Bednar, David",
-      "player_id": 663624,
+      "player": "Bell, Josh",
+      "player_id": 605137,
       "opponent": "WSH",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 190,
+      "best_price": 150,
       "stars": 1,
       "game_pk": 777873
     },
@@ -315,17 +276,17 @@
       "game_pk": 777871
     },
     {
-      "player": "Dana, Caden",
-      "player_id": 514888,
-      "opponent": "HOU",
-      "market": "Hits",
+      "player": "De La Cruz, Elly",
+      "player_id": 682829,
+      "opponent": "CLE",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 175,
+      "best_price": -160,
       "stars": 1,
-      "game_pk": 777869
+      "game_pk": 777874
     },
     {
       "player": "Dollander, Chase",
@@ -354,17 +315,30 @@
       "game_pk": 777870
     },
     {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
-      "opponent": "CLE",
+      "player": "Duran, Jarren",
+      "player_id": 680776,
+      "opponent": "ATL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -205,
+      "stars": 1,
+      "game_pk": 777876
+    },
+    {
+      "player": "Duran, Jarren",
+      "player_id": 680776,
+      "opponent": "ATL",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -160,
+      "best_price": 100,
       "stars": 1,
-      "game_pk": 777874
+      "game_pk": 777876
     },
     {
       "player": "Eflin, Zach",
@@ -393,43 +367,17 @@
       "game_pk": 777866
     },
     {
-      "player": "Holton, Tyler",
-      "player_id": 666134,
+      "player": "Hedges, Austin",
+      "player_id": 595978,
       "opponent": "CLE",
-      "market": "Hits",
+      "market": "Total Bases",
       "category": "batter",
-      "direction": "UNDER",
+      "direction": "OVER",
       "line": 0.5,
-      "best_book": null,
-      "best_price": null,
+      "best_book": "draftkings",
+      "best_price": 115,
       "stars": 1,
       "game_pk": 777874
-    },
-    {
-      "player": "Iglesias, Raisel",
-      "player_id": 665833,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777880
-    },
-    {
-      "player": "Jansen, Kenley",
-      "player_id": 665750,
-      "opponent": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 777868
     },
     {
       "player": "Jobe, Jackson",
@@ -445,33 +393,20 @@
       "game_pk": 777871
     },
     {
-      "player": "Lazar, Max",
-      "player_id": 677588,
-      "opponent": "WSH",
-      "market": "Hits",
+      "player": "Lindor, Francisco",
+      "player_id": 596019,
+      "opponent": "NYM",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 165,
+      "best_price": -175,
       "stars": 1,
-      "game_pk": 777873
+      "game_pk": 777878
     },
     {
-      "player": "Leasure, Jordan",
-      "player_id": 686611,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 777873
-    },
-    {
-      "player": "Little, Brendon",
+      "player": "Lowe, Josh",
       "player_id": 666139,
       "opponent": "TB",
       "market": "Total Bases",
@@ -484,6 +419,32 @@
       "game_pk": 777877
     },
     {
+      "player": "Marte, Ketel",
+      "player_id": 606466,
+      "opponent": "COL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 777870
+    },
+    {
+      "player": "Mountcastle, Ryan",
+      "player_id": 663624,
+      "opponent": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 190,
+      "stars": 1,
+      "game_pk": 777873
+    },
+    {
       "player": "Peterson, David",
       "player_id": 656849,
       "opponent": "NYY",
@@ -493,58 +454,6 @@
       "line": 16.5,
       "best_book": "fanduel",
       "best_price": -104,
-      "stars": 1,
-      "game_pk": 777878
-    },
-    {
-      "player": "Peterson, David",
-      "player_id": 467793,
-      "opponent": "CLE",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 777874
-    },
-    {
-      "player": "Peterson, David",
-      "player_id": 467793,
-      "opponent": "CLE",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 777874
-    },
-    {
-      "player": "Phillips, Connor",
-      "player_id": 668930,
-      "opponent": "MIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777865
-    },
-    {
-      "player": "Phillips, Tyler",
-      "player_id": 596019,
-      "opponent": "NYM",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -175,
       "stars": 1,
       "game_pk": 777878
     },
@@ -562,7 +471,98 @@
       "game_pk": 777872
     },
     {
-      "player": "Robert, Daniel",
+      "player": "Rojas, Miguel",
+      "player_id": 500743,
+      "opponent": "LAA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777866
+    },
+    {
+      "player": "Rutschman, Adley",
+      "player_id": 668939,
+      "opponent": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 175,
+      "stars": 1,
+      "game_pk": 777873
+    },
+    {
+      "player": "Santana, Carlos",
+      "player_id": 467793,
+      "opponent": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -185,
+      "stars": 1,
+      "game_pk": 777874
+    },
+    {
+      "player": "Schwarber, Kyle",
+      "player_id": 656941,
+      "opponent": "PIT",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 777880
+    },
+    {
+      "player": "Semien, Marcus",
+      "player_id": 543760,
+      "opponent": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 777869
+    },
+    {
+      "player": "Soderstrom, Tyler",
+      "player_id": 691016,
+      "opponent": "ATH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -190,
+      "stars": 1,
+      "game_pk": 777867
+    },
+    {
+      "player": "Tena, Jos\u00e9",
+      "player_id": 677588,
+      "opponent": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 165,
+      "stars": 1,
+      "game_pk": 777873
+    },
+    {
+      "player": "Vivas, Jorbit",
       "player_id": 678391,
       "opponent": "NYM",
       "market": "Total Bases",
@@ -573,71 +573,6 @@
       "best_price": 115,
       "stars": 1,
       "game_pk": 777878
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -175,
-      "stars": 1,
-      "game_pk": 777880
-    },
-    {
-      "player": "Sears, JP",
-      "player_id": 606466,
-      "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 777870
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 678877,
-      "opponent": "CLE",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 777874
-    },
-    {
-      "player": "Smith, Shane",
-      "player_id": 605137,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 777873
-    },
-    {
-      "player": "Vargas, Carlos",
-      "player_id": 670764,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 777877
     },
     {
       "player": "Wacha, Michael",
@@ -653,28 +588,15 @@
       "game_pk": 777864
     },
     {
-      "player": "Williams, Devin",
-      "player_id": 680776,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 777876
-    },
-    {
-      "player": "Wilson, Justin",
-      "player_id": 669065,
+      "player": "Walls, Taylor",
+      "player_id": 670764,
       "opponent": "TB",
       "market": "Total Bases",
       "category": "batter",
-      "direction": "OVER",
+      "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -140,
+      "best_price": 120,
       "stars": 1,
       "game_pk": 777877
     }

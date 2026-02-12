@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:06:24.083484+00:00",
+  "generated_at": "2026-02-12T23:25:56.869438+00:00",
   "date": "2025-06-30",
   "picks": [
     {
@@ -16,15 +16,15 @@
       "game_pk": 777295
     },
     {
-      "player": "Cano, Yennier",
-      "player_id": 647351,
+      "player": "Abreu, Wilyer",
+      "player_id": 677800,
       "opponent": "CIN",
-      "market": "Total Bases",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -160,
+      "best_price": 150,
       "stars": 1,
       "game_pk": 777300
     },
@@ -42,20 +42,20 @@
       "game_pk": 777300
     },
     {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
-      "opponent": "CIN",
-      "market": "Total Bases",
+      "player": "Cruz, Oneil",
+      "player_id": 665833,
+      "opponent": "STL",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 140,
+      "best_price": 160,
       "stars": 1,
-      "game_pk": 777300
+      "game_pk": 777299
     },
     {
-      "player": "Little, Brendon",
+      "player": "Mangum, Jake",
       "player_id": 663968,
       "opponent": "ATH",
       "market": "Total Bases",
@@ -68,20 +68,20 @@
       "game_pk": 777296
     },
     {
-      "player": "Lopez, Jacob",
-      "player_id": 682052,
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
+      "player": "Mangum, Jake",
+      "player_id": 663968,
+      "opponent": "ATH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
       "best_book": "draftkings",
-      "best_price": -160,
+      "best_price": 185,
       "stars": 1,
       "game_pk": 777296
     },
     {
-      "player": "Sale, Chris",
+      "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "STL",
       "market": "Total Bases",
@@ -90,19 +90,6 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -135,
-      "stars": 1,
-      "game_pk": 777299
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "STL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -245,
       "stars": 1,
       "game_pk": 777299
     },
@@ -118,6 +105,19 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 777295
+    },
+    {
+      "player": "Toro, Abraham",
+      "player_id": 647351,
+      "opponent": "CIN",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777300
     }
   ]
 }

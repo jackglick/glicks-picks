@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:06:24.054140+00:00",
+  "generated_at": "2026-02-12T23:25:56.841382+00:00",
   "date": "2025-06-09",
   "picks": [
     {
@@ -55,7 +55,7 @@
       "game_pk": 777580
     },
     {
-      "player": "Vest, Will",
+      "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "CIN",
       "market": "Total Bases",
@@ -68,17 +68,30 @@
       "game_pk": 777580
     },
     {
-      "player": "Baker, Bryan",
-      "player_id": 665489,
-      "opponent": "TOR",
+      "player": "Acu\u00f1a, Ronald",
+      "player_id": 660670,
+      "opponent": "ATL",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -205,
+      "best_price": -225,
       "stars": 1,
-      "game_pk": 777581
+      "game_pk": 777575
+    },
+    {
+      "player": "Acu\u00f1a, Ronald",
+      "player_id": 660670,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 777575
     },
     {
       "player": "Baz, Shane",
@@ -94,6 +107,19 @@
       "game_pk": 777584
     },
     {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777581
+    },
+    {
       "player": "Boyd, Matthew",
       "player_id": 571510,
       "opponent": "PHI",
@@ -107,33 +133,20 @@
       "game_pk": 777578
     },
     {
-      "player": "Cruz, Fernando",
-      "player_id": 666182,
-      "opponent": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777581
-    },
-    {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
+      "player": "Fry, David",
+      "player_id": 681807,
       "opponent": "CIN",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 150,
+      "best_price": 155,
       "stars": 1,
       "game_pk": 777580
     },
     {
-      "player": "Little, Brendon",
+      "player": "Mangum, Jake",
       "player_id": 663968,
       "opponent": "TB",
       "market": "Total Bases",
@@ -144,6 +157,19 @@
       "best_price": -175,
       "stars": 1,
       "game_pk": 777584
+    },
+    {
+      "player": "Mart\u00ednez, Angel",
+      "player_id": 682657,
+      "opponent": "CIN",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777580
     },
     {
       "player": "Ortiz, Luis",
@@ -159,59 +185,7 @@
       "game_pk": 777580
     },
     {
-      "player": "Pallante, Andre",
-      "player_id": 669467,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 777581
-    },
-    {
-      "player": "Peterson, David",
-      "player_id": 467793,
-      "opponent": "CIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 777580
-    },
-    {
-      "player": "Ram\u00edrez, Yohan",
-      "player_id": 660670,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -225,
-      "stars": 1,
-      "game_pk": 777575
-    },
-    {
-      "player": "Ram\u00edrez, Yohan",
-      "player_id": 660670,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 777575
-    },
-    {
-      "player": "Sale, Chris",
+      "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "MIA",
       "market": "Total Bases",
@@ -224,7 +198,7 @@
       "game_pk": 777574
     },
     {
-      "player": "Sale, Chris",
+      "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "MIA",
       "market": "Hits",
@@ -237,20 +211,7 @@
       "game_pk": 777574
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 682657,
-      "opponent": "CIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777580
-    },
-    {
-      "player": "Skubal, Tarik",
+      "player": "Rodr\u00edguez, Johnathan",
       "player_id": 671286,
       "opponent": "CIN",
       "market": "Hits",
@@ -263,17 +224,30 @@
       "game_pk": 777580
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 681807,
+      "player": "Santana, Carlos",
+      "player_id": 467793,
       "opponent": "CIN",
-      "market": "Hits",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 155,
+      "best_price": -185,
       "stars": 1,
       "game_pk": 777580
+    },
+    {
+      "player": "Wheeler, Zack",
+      "player_id": 554430,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777578
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:06:23.987131+00:00",
+  "generated_at": "2026-02-12T23:25:56.782959+00:00",
   "date": "2025-04-28",
   "picks": [
     {
@@ -42,15 +42,15 @@
       "game_pk": 778139
     },
     {
-      "player": "Bednar, David",
-      "player_id": 668939,
+      "player": "Bellinger, Cody",
+      "player_id": 641355,
       "opponent": "NYY",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
       "best_book": "draftkings",
-      "best_price": 140,
+      "best_price": 155,
       "stars": 1,
       "game_pk": 778140
     },
@@ -68,20 +68,7 @@
       "game_pk": 778138
     },
     {
-      "player": "Chapman, Aroldis",
-      "player_id": 641355,
-      "opponent": "NYY",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 778140
-    },
-    {
-      "player": "Dana, Caden",
+      "player": "Correa, Carlos",
       "player_id": 621043,
       "opponent": "MIN",
       "market": "Hits",
@@ -94,30 +81,30 @@
       "game_pk": 778139
     },
     {
-      "player": "Faucher, Calvin",
-      "player_id": 643446,
+      "player": "Lindor, Francisco",
+      "player_id": 596019,
       "opponent": "NYM",
-      "market": "Hits",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
+      "line": 1.5,
       "best_book": "draftkings",
-      "best_price": 145,
+      "best_price": -115,
       "stars": 1,
       "game_pk": 778138
     },
     {
-      "player": "Henriquez, Edgardo",
-      "player_id": 668715,
-      "opponent": "STL",
+      "player": "Mountcastle, Ryan",
+      "player_id": 663624,
+      "opponent": "NYY",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 155,
+      "best_book": null,
+      "best_price": null,
       "stars": 1,
-      "game_pk": 778141
+      "game_pk": 778140
     },
     {
       "player": "Pallante, Andre",
@@ -133,20 +120,7 @@
       "game_pk": 778141
     },
     {
-      "player": "Phillips, Tyler",
-      "player_id": 596019,
-      "opponent": "NYM",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 778138
-    },
-    {
-      "player": "Vest, Will",
+      "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "MIN",
       "market": "Total Bases",
@@ -157,6 +131,32 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 778139
+    },
+    {
+      "player": "Rutschman, Adley",
+      "player_id": 668939,
+      "opponent": "NYY",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 778140
+    },
+    {
+      "player": "Steer, Spencer",
+      "player_id": 668715,
+      "opponent": "STL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 155,
+      "stars": 1,
+      "game_pk": 778141
     },
     {
       "player": "Williams, Gavin",

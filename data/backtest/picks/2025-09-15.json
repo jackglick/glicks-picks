@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-12T23:06:24.201769+00:00",
+  "generated_at": "2026-02-12T23:25:56.978386+00:00",
   "date": "2025-09-15",
   "picks": [
     {
-      "player": "Bednar, David",
+      "player": "Beavers, Dylan",
       "player_id": 687637,
       "opponent": "BAL",
       "market": "Total Bases",
@@ -29,20 +29,7 @@
       "game_pk": 776312
     },
     {
-      "player": "Parker, Mitchell",
-      "player_id": 691019,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 776314
-    },
-    {
-      "player": "Ram\u00edrez, Yohan",
+      "player": "Olson, Matt",
       "player_id": 621566,
       "opponent": "ATL",
       "market": "Hits",
@@ -68,7 +55,7 @@
       "game_pk": 776315
     },
     {
-      "player": "Suarez, Robert",
+      "player": "Tauchman, Mike",
       "player_id": 643565,
       "opponent": "BAL",
       "market": "Total Bases",
@@ -81,7 +68,33 @@
       "game_pk": 776314
     },
     {
-      "player": "Gore, MacKenzie",
+      "player": "Teel, Kyle",
+      "player_id": 691019,
+      "opponent": "BAL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 3,
+      "game_pk": 776314
+    },
+    {
+      "player": "Adams, Riley",
+      "player_id": 656180,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 776315
+    },
+    {
+      "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "ATL",
       "market": "Total Bases",
@@ -94,9 +107,9 @@
       "game_pk": 776315
     },
     {
-      "player": "Leasure, Jordan",
-      "player_id": 656180,
-      "opponent": "ATL",
+      "player": "Benintendi, Andrew",
+      "player_id": 643217,
+      "opponent": "BAL",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
@@ -104,7 +117,20 @@
       "best_book": null,
       "best_price": null,
       "stars": 2,
-      "game_pk": 776315
+      "game_pk": 776314
+    },
+    {
+      "player": "Gorman, Nolan",
+      "player_id": 669357,
+      "opponent": "CIN",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 2,
+      "game_pk": 776312
     },
     {
       "player": "Littell, Zack",
@@ -120,8 +146,8 @@
       "game_pk": 776312
     },
     {
-      "player": "Miller, Mason",
-      "player_id": 643217,
+      "player": "Montgomery, Colson",
+      "player_id": 695657,
       "opponent": "BAL",
       "market": "Total Bases",
       "category": "batter",
@@ -133,85 +159,20 @@
       "game_pk": 776314
     },
     {
-      "player": "Wicks, Jordan",
-      "player_id": 669357,
-      "opponent": "CIN",
-      "market": "Total Bases",
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "CHC",
+      "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 170,
       "stars": 2,
-      "game_pk": 776312
+      "game_pk": 776318
     },
     {
-      "player": "Barco, Hunter",
-      "player_id": 671739,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 184,
-      "stars": 1,
-      "game_pk": 776315
-    },
-    {
-      "player": "Bednar, David",
-      "player_id": 681297,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776314
-    },
-    {
-      "player": "Chapman, Aroldis",
-      "player_id": 676609,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776313
-    },
-    {
-      "player": "Dom\u00ednguez, Seranthony",
-      "player_id": 802415,
-      "opponent": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -244,
-      "stars": 1,
-      "game_pk": 776316
-    },
-    {
-      "player": "Dreyer, Jack",
-      "player_id": 682829,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 174,
-      "stars": 1,
-      "game_pk": 776312
-    },
-    {
-      "player": "Gil, Luis",
+      "player": "Wallner, Matt",
       "player_id": 670242,
       "opponent": "NYY",
       "market": "Total Bases",
@@ -220,11 +181,11 @@
       "line": 1.5,
       "best_book": null,
       "best_price": null,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 776313
     },
     {
-      "player": "Gore, MacKenzie",
+      "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "ATL",
       "market": "Hits",
@@ -237,7 +198,46 @@
       "game_pk": 776315
     },
     {
-      "player": "Iglesias, Raisel",
+      "player": "Bell, Josh",
+      "player_id": 605137,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -158,
+      "stars": 1,
+      "game_pk": 776315
+    },
+    {
+      "player": "Caballero, Jos\u00e9",
+      "player_id": 676609,
+      "opponent": "NYY",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 776313
+    },
+    {
+      "player": "Cowser, Colton",
+      "player_id": 681297,
+      "opponent": "BAL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": null,
+      "stars": 1,
+      "game_pk": 776314
+    },
+    {
+      "player": "Cruz, Oneil",
       "player_id": 665833,
       "opponent": "CHC",
       "market": "Total Bases",
@@ -250,7 +250,46 @@
       "game_pk": 776318
     },
     {
-      "player": "Kerkering, Orion",
+      "player": "De La Cruz, Elly",
+      "player_id": 682829,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 174,
+      "stars": 1,
+      "game_pk": 776312
+    },
+    {
+      "player": "Donovan, Brendan",
+      "player_id": 680977,
+      "opponent": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -207,
+      "stars": 1,
+      "game_pk": 776312
+    },
+    {
+      "player": "Harris, Michael",
+      "player_id": 671739,
+      "opponent": "ATL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 184,
+      "stars": 1,
+      "game_pk": 776315
+    },
+    {
+      "player": "Martin, Austin",
       "player_id": 668885,
       "opponent": "NYY",
       "market": "Total Bases",
@@ -263,59 +302,7 @@
       "game_pk": 776313
     },
     {
-      "player": "Kremer, Dean",
-      "player_id": 641857,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776313
-    },
-    {
-      "player": "Little, Brendon",
-      "player_id": 663968,
-      "opponent": "TOR",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -184,
-      "stars": 1,
-      "game_pk": 776316
-    },
-    {
-      "player": "Parker, Mitchell",
-      "player_id": 680730,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 116,
-      "stars": 1,
-      "game_pk": 776315
-    },
-    {
-      "player": "Parker, Mitchell",
-      "player_id": 695657,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 1,
-      "game_pk": 776314
-    },
-    {
-      "player": "Ram\u00edrez, Yohan",
+      "player": "Profar, Jurickson",
       "player_id": 595777,
       "opponent": "ATL",
       "market": "Total Bases",
@@ -326,6 +313,32 @@
       "best_price": -136,
       "stars": 1,
       "game_pk": 776315
+    },
+    {
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "CHC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -184,
+      "stars": 1,
+      "game_pk": 776318
+    },
+    {
+      "player": "Rice, Ben",
+      "player_id": 700250,
+      "opponent": "NYY",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": 180,
+      "stars": 1,
+      "game_pk": 776313
     },
     {
       "player": "Rod\u00f3n, Carlos",
@@ -341,46 +354,20 @@
       "game_pk": 776313
     },
     {
-      "player": "Sale, Chris",
-      "player_id": 668804,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776318
-    },
-    {
-      "player": "Smith, Shane",
-      "player_id": 605137,
-      "opponent": "ATL",
+      "player": "Vargas, Miguel",
+      "player_id": 678246,
+      "opponent": "BAL",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -158,
+      "best_book": null,
+      "best_price": null,
       "stars": 1,
-      "game_pk": 776315
+      "game_pk": 776314
     },
     {
-      "player": "Smith, Shane",
-      "player_id": 605137,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 171,
-      "stars": 1,
-      "game_pk": 776315
-    },
-    {
-      "player": "Smith, Shane",
+      "player": "Wood, James",
       "player_id": 695578,
       "opponent": "ATL",
       "market": "Total Bases",
@@ -391,32 +378,6 @@
       "best_price": null,
       "stars": 1,
       "game_pk": 776315
-    },
-    {
-      "player": "Strider, Spencer",
-      "player_id": 675911,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 776315
-    },
-    {
-      "player": "Treinen, Blake",
-      "player_id": 680574,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 123,
-      "stars": 1,
-      "game_pk": 776312
     },
     {
       "player": "Woods Richardson, Simeon",
