@@ -777,3 +777,323 @@ button:focus-visible,
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* ============================================
+   Picks & Results Pages
+   ============================================ */
+
+/* --- Page Hero (lighter than home hero) --- */
+.page-hero {
+  padding: 7rem 0 2.5rem;
+  text-align: center;
+}
+
+.page-title {
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+  font-size: clamp(0.9rem, 2vw, 1.05rem);
+  color: var(--text-secondary);
+}
+
+/* --- Picks Section --- */
+.picks-section {
+  padding: 1rem 0 4rem;
+}
+
+/* --- Pick Cards Grid --- */
+.picks-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pick-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: border-color 0.3s;
+}
+
+.pick-card:hover {
+  border-color: rgba(26, 127, 109, 0.20);
+}
+
+.pick-card[data-stars="3"] {
+  border-image: linear-gradient(135deg, rgba(26, 127, 109, 0.30), rgba(26, 127, 109, 0.08)) 1;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+/* Fix border-image overriding border-radius */
+@supports (background-clip: padding-box) {
+  .pick-card[data-stars="3"] {
+    border-image: none;
+    border-color: var(--accent);
+    border-width: 1.5px;
+  }
+}
+
+.pick-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.pick-card-player {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.pick-card-opponent {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.15rem;
+}
+
+.pick-stars {
+  color: #d4940a;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.pick-card-body {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.pick-direction {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+}
+
+.pick-direction.over {
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.pick-direction.under {
+  color: #c0392b;
+  background: rgba(192, 57, 43, 0.10);
+}
+
+.pick-line {
+  font-family: var(--mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.pick-card-market {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.pick-card-book {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-top: 0.25rem;
+}
+
+.pick-card-price {
+  font-family: var(--mono);
+  font-weight: 500;
+}
+
+/* --- Empty State --- */
+.picks-empty {
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.picks-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.picks-empty h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.picks-empty p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* --- Disclaimer --- */
+.picks-disclaimer {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-align: center;
+  max-width: 540px;
+  margin: 2rem auto 0;
+  line-height: 1.6;
+}
+
+/* --- Results Section --- */
+.results-section {
+  padding: 0 0 4rem;
+}
+
+/* --- Stats Banner --- */
+.results-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.results-stat-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.results-stat-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 0.35rem;
+}
+
+.results-stat-value {
+  font-family: var(--mono);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.results-stat-value.positive { color: var(--accent); }
+.results-stat-value.negative { color: #c0392b; }
+
+/* --- Chart --- */
+.results-chart-wrapper {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.results-chart-wrapper h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.results-chart-wrapper canvas {
+  max-height: 400px;
+  width: 100%;
+}
+
+/* --- Tables --- */
+.results-table-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.results-table-wrapper h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.results-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  min-width: 500px;
+}
+
+.results-table th {
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  padding: 0.75rem 0.75rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.results-table td {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.results-table tbody tr:hover {
+  background: rgba(26, 127, 109, 0.03);
+}
+
+.result-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+}
+
+.result-badge.win {
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.result-badge.loss {
+  color: #c0392b;
+  background: rgba(192, 57, 43, 0.10);
+}
+
+.result-badge.push {
+  color: var(--text-dim);
+  background: rgba(71, 85, 105, 0.10);
+}
+
+.pnl-positive { color: var(--accent); font-weight: 600; }
+.pnl-negative { color: #c0392b; font-weight: 600; }
+
+/* --- Responsive: Picks & Results --- */
+@media (min-width: 768px) {
+  .picks-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .results-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .picks-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track Record — Glick's Picks</title>
+  <meta name="description" content="Glick's Picks track record. Win rates, P&L, and performance across seven MLB player prop markets.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">GLICK'S <span>PICKS</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="picks.html">Today's Picks</a></li>
+          <li><a href="results.html" class="active">Results</a></li>
+          <li><a href="index.html#the-edge">The Edge</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav">
+    <a href="picks.html">Today's Picks</a>
+    <a href="results.html">Results</a>
+    <a href="index.html#the-edge">The Edge</a>
+    <a href="index.html#about">About</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title reveal">Track Record</h1>
+      <p class="page-subtitle reveal">Live results from paper trading all seven markets</p>
+    </div>
+  </section>
+
+  <!-- Stats Banner -->
+  <section class="results-section">
+    <div class="container">
+
+      <!-- Empty State -->
+      <div class="picks-empty" id="results-empty" style="display: none;">
+        <div class="picks-empty-icon">&#128202;</div>
+        <h3>No results yet</h3>
+        <p>Results will appear here once the season starts and bets are graded.</p>
+      </div>
+
+      <div id="results-content" style="display: none;">
+        <!-- Stats Boxes -->
+        <div class="results-stats" id="results-stats">
+          <div class="results-stat-box">
+            <div class="results-stat-label">Record</div>
+            <div class="results-stat-value" id="stat-record">--</div>
+          </div>
+          <div class="results-stat-box">
+            <div class="results-stat-label">Win Rate</div>
+            <div class="results-stat-value" id="stat-winrate">--</div>
+          </div>
+          <div class="results-stat-box">
+            <div class="results-stat-label">P&amp;L</div>
+            <div class="results-stat-value" id="stat-pnl">--</div>
+          </div>
+          <div class="results-stat-box">
+            <div class="results-stat-label">ROI</div>
+            <div class="results-stat-value" id="stat-roi">--</div>
+          </div>
+        </div>
+
+        <!-- P&L Chart -->
+        <div class="results-chart-wrapper reveal">
+          <h3>Cumulative P&amp;L</h3>
+          <canvas id="pnl-chart"></canvas>
+        </div>
+
+        <!-- Market Breakdown -->
+        <div class="results-table-wrapper reveal">
+          <h3>By Market</h3>
+          <div class="results-table-scroll">
+            <table class="results-table" id="market-table">
+              <thead>
+                <tr>
+                  <th>Market</th>
+                  <th>Bets</th>
+                  <th>Record</th>
+                  <th>Win Rate</th>
+                  <th>P&amp;L</th>
+                  <th>ROI</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Recent Picks -->
+        <div class="results-table-wrapper reveal">
+          <h3>Recent Picks</h3>
+          <div class="results-table-scroll">
+            <table class="results-table" id="recent-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Player</th>
+                  <th>Pick</th>
+                  <th>Result</th>
+                  <th>P&amp;L</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <p class="picks-disclaimer">All results are from $100 flat paper trades, not live wagering. Past performance does not guarantee future results.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">GLICK'S <span>PICKS</span></div>
+      <p class="footer-tagline">Machine learning meets baseball</p>
+      <p class="footer-copy">&copy; 2026 Glick's Picks</p>
+      <p class="footer-disclaimer">This site is for informational and educational purposes only. It is not a gambling service and does not provide betting advice. Past model performance on historical data does not guarantee future results. All statistics shown are from backtesting against out-of-sample data, not live wagering. If you or someone you know has a gambling problem, call 1-800-GAMBLER.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
