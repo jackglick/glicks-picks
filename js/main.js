@@ -191,17 +191,56 @@
     });
   }
 
+  // --- Sportsbook brand colors ---
+  var BOOK_COLORS = {
+    'DraftKings': '#53d337',
+    'FanDuel': '#1493ff',
+    'BetMGM': '#c5a05e',
+    'Caesars': '#8c1d40',
+    'PointsBet': '#e4002b',
+    'BetRivers': '#1a3668',
+    'Bovada': '#cc0000',
+    'bet365': '#027b5b'
+  };
+
   // --- Shared Pick Card Renderer ---
+  function getPlayerInitials(playerName) {
+    // Format is "Last, First" → initials = F + L
+    var parts = playerName.split(', ');
+    if (parts.length === 2) {
+      return (parts[1].charAt(0) + parts[0].charAt(0)).toUpperCase();
+    }
+    return playerName.charAt(0).toUpperCase();
+  }
+
+  function createPlayerAvatar(pick) {
+    if (pick.player_id) {
+      var img = document.createElement('img');
+      img.className = 'player-headshot';
+      img.alt = pick.player;
+      img.src = 'https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/' + pick.player_id + '/headshot/67/current';
+      img.onerror = function () {
+        var initials = el('div', 'player-initials', getPlayerInitials(pick.player));
+        img.parentNode.replaceChild(initials, img);
+      };
+      return img;
+    }
+    return el('div', 'player-initials', getPlayerInitials(pick.player));
+  }
+
   function renderPickCard(pick) {
     var card = el('div', 'pick-card');
     card.setAttribute('data-stars', pick.stars);
 
     // Header row
     var header = el('div', 'pick-card-header');
+    header.appendChild(createPlayerAvatar(pick));
+    var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
     headerLeft.appendChild(el('div', 'pick-card-player', pick.player));
     headerLeft.appendChild(el('div', 'pick-card-opponent', 'vs ' + pick.opponent));
-    header.appendChild(headerLeft);
+    headerInfo.appendChild(headerLeft);
+    header.appendChild(headerInfo);
     header.appendChild(el('div', 'pick-stars', renderStars(pick.stars)));
     card.appendChild(header);
 
@@ -215,7 +254,12 @@
 
     // Book info
     if (pick.best_book) {
-      var bookDiv = el('div', 'pick-card-book', pick.best_book + ' ');
+      var bookDiv = el('div', 'pick-card-book');
+      var bookColor = BOOK_COLORS[pick.best_book] || '#8d95a3';
+      var dot = el('span', 'book-dot');
+      dot.style.background = bookColor;
+      bookDiv.appendChild(dot);
+      bookDiv.appendChild(document.createTextNode(pick.best_book + ' '));
       if (pick.best_price !== null) {
         bookDiv.appendChild(el('span', 'pick-card-price', formatPrice(pick.best_price)));
       }

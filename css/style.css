@@ -1000,8 +1000,37 @@ body.backtest-mode .mobile-nav {
 .pick-card-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 12px;
   margin-bottom: 0.75rem;
+}
+
+.pick-card-header-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.player-headshot {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(27, 42, 74, 0.10);
+  flex-shrink: 0;
+}
+
+.player-initials {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #3b82f6;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.02em;
 }
 
 .pick-card-player {
@@ -1062,9 +1091,20 @@ body.backtest-mode .mobile-nav {
 }
 
 .pick-card-book {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.75rem;
   color: var(--text-dim);
   margin-top: 0.25rem;
+}
+
+.book-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .pick-card-price {
