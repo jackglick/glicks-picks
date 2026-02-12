@@ -432,35 +432,77 @@
 
   function initPnlChart(canvas, pnlData) {
     var labels = pnlData.map(function (d) { return formatDate(d.date); });
-    var values = pnlData.map(function (d) { return d.cumulative; });
-    var lastVal = values[values.length - 1];
+    var cumValues = pnlData.map(function (d) { return d.cumulative; });
+    var dailyValues = pnlData.map(function (d) { return d.pnl; });
+    var lastVal = cumValues[cumValues.length - 1];
     var lineColor = lastVal >= 0 ? '#1a7f6d' : '#c0392b';
     var fillColor = lastVal >= 0 ? 'rgba(26, 127, 109, 0.08)' : 'rgba(192, 57, 43, 0.08)';
+
+    // Compute rolling 7-day P&L
+    var rolling7 = [];
+    for (var i = 0; i < dailyValues.length; i++) {
+      if (i < 6) {
+        rolling7.push(null);
+      } else {
+        var sum = 0;
+        for (var j = i - 6; j <= i; j++) { sum += dailyValues[j]; }
+        rolling7.push(Math.round(sum * 100) / 100);
+      }
+    }
 
     new Chart(canvas, {
       type: 'line',
       data: {
         labels: labels,
-        datasets: [{
-          data: values,
-          borderColor: lineColor,
-          backgroundColor: fillColor,
-          fill: true,
-          tension: 0.3,
-          pointRadius: 0,
-          pointHitRadius: 8,
-          borderWidth: 2
-        }]
+        datasets: [
+          {
+            label: 'Cumulative P&L',
+            data: cumValues,
+            borderColor: lineColor,
+            backgroundColor: fillColor,
+            fill: true,
+            tension: 0.3,
+            pointRadius: 0,
+            pointHitRadius: 8,
+            borderWidth: 2,
+            yAxisID: 'y'
+          },
+          {
+            label: 'Rolling 7-Day P&L',
+            data: rolling7,
+            borderColor: 'rgba(99, 102, 241, 0.85)',
+            backgroundColor: 'transparent',
+            fill: false,
+            tension: 0.3,
+            pointRadius: 0,
+            pointHitRadius: 8,
+            borderWidth: 2,
+            borderDash: [5, 3],
+            yAxisID: 'y2'
+          }
+        ]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        interaction: {
+          mode: 'index',
+          intersect: false
+        },
         plugins: {
-          legend: { display: false },
+          legend: {
+            display: true,
+            labels: {
+              font: { family: 'Inter', size: 11 },
+              usePointStyle: true,
+              pointStyle: 'line',
+              boxWidth: 20
+            }
+          },
           tooltip: {
             callbacks: {
               label: function (ctx) {
-                return formatPnl(ctx.parsed.y);
+                return ctx.dataset.label + ': ' + formatPnl(ctx.parsed.y);
               }
             }
           }
@@ -474,10 +516,22 @@
             }
           },
           y: {
+            type: 'linear',
+            position: 'left',
             grid: { color: 'rgba(27, 42, 74, 0.06)' },
             ticks: {
               font: { family: "'JetBrains Mono'", size: 11 },
-              callback: function (val) { return '$' + val; }
+              callback: function (val) { return '$' + val.toLocaleString(); }
+            }
+          },
+          y2: {
+            type: 'linear',
+            position: 'right',
+            grid: { display: false },
+            ticks: {
+              font: { family: "'JetBrains Mono'", size: 11 },
+              color: 'rgba(99, 102, 241, 0.7)',
+              callback: function (val) { return '$' + val.toLocaleString(); }
             }
           }
         }
