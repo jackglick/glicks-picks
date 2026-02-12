@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-02-12T20:49:09.831806+00:00",
+  "generated_at": "2026-02-12T21:13:44.441284+00:00",
   "date": "2025-04-20",
   "picks": [
-    {
-      "player": "Cabrera, Edward",
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778232
-    },
-    {
-      "player": "Cabrera, G\u00e9nesis",
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778246
-    },
     {
       "player": "Castillo, Luis",
       "opponent": "SEA",
@@ -123,30 +99,6 @@
       "game_pk": 778249
     },
     {
-      "player": "Sale, Chris",
-      "opponent": "CLE",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778242
-    },
-    {
-      "player": "Sale, Chris",
-      "opponent": "CLE",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778242
-    },
-    {
       "player": "Alcala, Jorge",
       "opponent": "WSH",
       "market": "Total Bases",
@@ -157,18 +109,6 @@
       "best_price": -130,
       "stars": 2,
       "game_pk": 778266
-    },
-    {
-      "player": "Allard, Kolby",
-      "opponent": "LAD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 778234
     },
     {
       "player": "Gillispie, Connor",
@@ -217,18 +157,6 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 778234
-    },
-    {
-      "player": "Miller, Mason",
-      "opponent": "AZ",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 2,
-      "game_pk": 778236
     },
     {
       "player": "Pepiot, Ryan",
@@ -593,24 +521,24 @@
     {
       "player": "Leasure, Jordan",
       "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": -240,
-      "stars": 1,
-      "game_pk": 778266
-    },
-    {
-      "player": "Leasure, Jordan",
-      "opponent": "WSH",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
       "best_price": -133,
+      "stars": 1,
+      "game_pk": 778266
+    },
+    {
+      "player": "Leasure, Jordan",
+      "opponent": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": null,
+      "best_price": -240,
       "stars": 1,
       "game_pk": 778266
     },

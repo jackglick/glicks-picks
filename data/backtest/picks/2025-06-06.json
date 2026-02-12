@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-02-12T20:49:09.906189+00:00",
+  "generated_at": "2026-02-12T21:13:44.509359+00:00",
   "date": "2025-06-06",
   "picks": [
-    {
-      "player": "Armstrong, Shawn",
-      "opponent": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777625
-    },
-    {
-      "player": "Armstrong, Shawn",
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777625
-    },
     {
       "player": "Bido, Osvaldo",
       "opponent": "KC",
@@ -37,102 +13,6 @@
       "best_price": 190,
       "stars": 3,
       "game_pk": 777618
-    },
-    {
-      "player": "Cannon, Jonathan",
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777624
-    },
-    {
-      "player": "Cannon, Jonathan",
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777624
-    },
-    {
-      "player": "D\u00edaz, Alexis",
-      "opponent": "AZ",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777623
-    },
-    {
-      "player": "D\u00edaz, Alexis",
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777623
-    },
-    {
-      "player": "D\u00edaz, Edwin",
-      "opponent": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777625
-    },
-    {
-      "player": "D\u00edaz, Edwin",
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777625
-    },
-    {
-      "player": "Gaddis, Hunter",
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777626
-    },
-    {
-      "player": "Gaddis, Hunter",
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777626
     },
     {
       "player": "Iglesias, Raisel",
@@ -147,54 +27,6 @@
       "game_pk": 777621
     },
     {
-      "player": "Laweryson, Cody",
-      "opponent": "PHI",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777621
-    },
-    {
-      "player": "Laweryson, Cody",
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777621
-    },
-    {
-      "player": "Leasure, Jordan",
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777624
-    },
-    {
-      "player": "Leasure, Jordan",
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777624
-    },
-    {
       "player": "Littell, Zack",
       "opponent": "TB",
       "market": "Outs Recorded",
@@ -205,30 +37,6 @@
       "best_price": -140,
       "stars": 3,
       "game_pk": 777625
-    },
-    {
-      "player": "Lynch IV, Daniel",
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777624
-    },
-    {
-      "player": "Lynch IV, Daniel",
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 777624
     },
     {
       "player": "Martin, Davis",

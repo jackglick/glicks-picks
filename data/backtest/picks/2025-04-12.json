@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T20:49:09.816429+00:00",
+  "generated_at": "2026-02-12T21:13:44.426147+00:00",
   "date": "2025-04-12",
   "picks": [
     {
@@ -39,18 +39,6 @@
       "game_pk": 778346
     },
     {
-      "player": "Graceffo, Gordon",
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778357
-    },
-    {
       "player": "Heaney, Andrew",
       "opponent": "PIT",
       "market": "Outs Recorded",
@@ -63,30 +51,6 @@
       "game_pk": 778357
     },
     {
-      "player": "Henriquez, Ronny",
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778355
-    },
-    {
-      "player": "Henriquez, Ronny",
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778355
-    },
-    {
       "player": "Hicks, Jordan",
       "opponent": "SF",
       "market": "Walks",
@@ -97,42 +61,6 @@
       "best_price": 120,
       "stars": 3,
       "game_pk": 778355
-    },
-    {
-      "player": "Keller, Brad",
-      "opponent": "COL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778352
-    },
-    {
-      "player": "Miller, Mason",
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778345
-    },
-    {
-      "player": "Miller, Mason",
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": null,
-      "best_price": null,
-      "stars": 3,
-      "game_pk": 778345
     },
     {
       "player": "Woods Richardson, Simeon",
@@ -389,24 +317,24 @@
     {
       "player": "Ashcraft, Graham",
       "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": null,
-      "best_price": 148,
-      "stars": 1,
-      "game_pk": 778345
-    },
-    {
-      "player": "Ashcraft, Graham",
-      "opponent": "CHC",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": null,
       "best_price": -160,
+      "stars": 1,
+      "game_pk": 778345
+    },
+    {
+      "player": "Ashcraft, Graham",
+      "opponent": "CHC",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": null,
+      "best_price": 148,
       "stars": 1,
       "game_pk": 778345
     },
