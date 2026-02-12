@@ -172,7 +172,7 @@ a { color: var(--accent); text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(250, 247, 242, 0.80) 0%, rgba(250, 247, 242, 0.84) 100%);
+  background: linear-gradient(180deg, rgba(250, 247, 242, 0.82) 0%, rgba(250, 247, 242, 0.86) 100%);
   pointer-events: none;
 }
 
@@ -322,7 +322,7 @@ a { color: var(--accent); text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, var(--bg) 0%, rgba(250, 247, 242, 0.80) 10%, rgba(250, 247, 242, 0.80) 90%, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--bg) 0%, rgba(250, 247, 242, 0.82) 10%, rgba(250, 247, 242, 0.82) 90%, var(--bg) 100%);
   pointer-events: none;
 }
 
