@@ -1106,13 +1106,21 @@
     });
   }
 
-  function initPnlChart(canvas, pnlData) {
-    var labels = pnlData.map(function (d) { return formatDate(d.date); });
-    var cumValues = pnlData.map(function (d) { return d.cumulative; });
-    var dailyValues = pnlData.map(function (d) { return d.pnl; });
-    var lastVal = cumValues[cumValues.length - 1];
-    var lineColor = lastVal >= 0 ? '#1a7f6d' : '#c0392b';
-    var fillColor = lastVal >= 0 ? 'rgba(26, 127, 109, 0.08)' : 'rgba(192, 57, 43, 0.08)';
+	  function initPnlChart(canvas, pnlData) {
+	    var labels = pnlData.map(function (d) { return formatDate(d.date); });
+	    var cumValues = pnlData.map(function (d) { return d.cumulative; });
+	    var dailyValues = pnlData.map(function (d) { return d.pnl; });
+	    var lastVal = cumValues[cumValues.length - 1];
+	    var lineColor = lastVal >= 0 ? '#1a7f6d' : '#c0392b';
+	    var fillColor = lastVal >= 0 ? 'rgba(26, 127, 109, 0.08)' : 'rgba(192, 57, 43, 0.08)';
+	    var upArrow = '\u25b2';
+	    var downArrow = '\u25bc';
+
+	    function directionArrow(value) {
+	      if (value > 0) return upArrow;
+	      if (value < 0) return downArrow;
+	      return '\u25a0';
+	    }
 
     var rolling7 = [];
     for (var i = 0; i < dailyValues.length; i++) {
@@ -1177,13 +1185,65 @@
               boxWidth: 20
             }
           },
-          tooltip: {
-            callbacks: {
-              label: function (ctx) {
-                return ctx.dataset.label + ': ' + formatPnl(ctx.parsed.y);
-              }
-            }
-          }
+	          tooltip: {
+	            backgroundColor: 'rgba(17, 28, 48, 0.94)',
+	            borderColor: 'rgba(26, 127, 109, 0.45)',
+	            borderWidth: 1,
+	            cornerRadius: 10,
+	            caretSize: 7,
+	            caretPadding: 8,
+	            padding: 12,
+	            displayColors: true,
+	            usePointStyle: true,
+	            boxPadding: 4,
+	            titleColor: '#f5f8ff',
+	            bodyColor: '#e1e8f5',
+	            footerColor: '#b8c4d8',
+	            titleFont: { family: 'Inter', size: 12, weight: '700' },
+	            bodyFont: { family: "'JetBrains Mono'", size: 11, weight: '600' },
+	            footerFont: { family: 'Inter', size: 10, weight: '600' },
+	            titleMarginBottom: 8,
+	            bodySpacing: 6,
+	            footerMarginTop: 6,
+	            callbacks: {
+	              title: function (items) {
+	                if (!items || items.length === 0) return '';
+	                var idx = items[0].dataIndex;
+	                var row = pnlData[idx];
+	                if (!row || !row.date) return items[0].label;
+	                return new Date(row.date + 'T12:00:00').toLocaleDateString('en-US', {
+	                  weekday: 'short',
+	                  month: 'short',
+	                  day: 'numeric',
+	                  year: 'numeric'
+	                });
+	              },
+	              label: function (ctx) {
+	                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
+	                return directionArrow(val) + ' ' + ctx.dataset.label + ': ' + formatPnl(val);
+	              },
+	              labelTextColor: function (ctx) {
+	                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
+	                if (ctx.dataset && ctx.dataset.label === 'Cumulative P&L') {
+	                  return val >= 0 ? '#8ff2cf' : '#ffb3b3';
+	                }
+	                return val >= 0 ? '#f6d28a' : '#ffbe7a';
+	              },
+	              footer: function (items) {
+	                if (!items || items.length === 0) return '';
+	                var idx = items[0].dataIndex;
+	                var row = pnlData[idx];
+	                if (!row || row.pnl === null || row.pnl === undefined) return '';
+	                var lines = [];
+	                lines.push('Daily P&L: ' + directionArrow(row.pnl) + ' ' + formatPnl(row.pnl));
+	                if (idx > 0 && pnlData[idx - 1] && pnlData[idx - 1].cumulative !== null && row.cumulative !== null) {
+	                  var delta = row.cumulative - pnlData[idx - 1].cumulative;
+	                  lines.push('Change vs prior: ' + directionArrow(delta) + ' ' + formatPnl(delta));
+	                }
+	                return lines;
+	              }
+	            }
+	          }
         },
         scales: {
           x: {
