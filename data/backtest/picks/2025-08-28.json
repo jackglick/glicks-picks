@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.442903+00:00",
+  "generated_at": "2026-02-13T16:51:04.539873+00:00",
   "date": "2025-08-28",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776564
+      "game_pk": 776564,
+      "result": "win",
+      "actual": 18,
+      "pnl": 76.92
     },
     {
       "player": "Freeland, Kyle",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776555
+      "game_pk": 776555,
+      "result": "win",
+      "actual": 3,
+      "pnl": 66.67
     },
     {
       "player": "Lindor, Francisco",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 776558
+      "game_pk": 776558,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Marte, Ketel",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776553
+      "game_pk": 776553,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Povich, Cade",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776564
+      "game_pk": 776564,
+      "result": "win",
+      "actual": 15,
+      "pnl": 76.92
     },
     {
       "player": "Quantrill, Cal",
@@ -96,7 +111,10 @@
       "best_book": "fanduel",
       "best_price": 106,
       "stars": 1,
-      "game_pk": 776560
+      "game_pk": 776560,
+      "result": "win",
+      "actual": 10,
+      "pnl": 106.0
     },
     {
       "player": "Quintana, Jose",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776553
+      "game_pk": 776553,
+      "result": "win",
+      "actual": 11,
+      "pnl": 86.96
     },
     {
       "player": "\u00c1lvarez, Yordan",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776555
+      "game_pk": 776555,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     }
   ]
 }

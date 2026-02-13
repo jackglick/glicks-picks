@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.304102+00:00",
+  "generated_at": "2026-02-13T16:51:04.382695+00:00",
   "date": "2025-04-11",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 778375
+      "game_pk": 778375,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Duran, Jarren",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 778366
+      "game_pk": 778366,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Ray, Robbie",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 778370
+      "game_pk": 778370,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Singer, Brady",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 778374
+      "game_pk": 778374,
+      "result": "win",
+      "actual": 15,
+      "pnl": 110.0
     },
     {
       "player": "Bibee, Tanner",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778375
+      "game_pk": 778375,
+      "result": "win",
+      "actual": 4,
+      "pnl": 66.67
     },
     {
       "player": "Bibee, Tanner",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 778375
+      "game_pk": 778375,
+      "result": "win",
+      "actual": 13,
+      "pnl": 110.0
     },
     {
       "player": "Bubic, Kris",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 778375
+      "game_pk": 778375,
+      "result": "win",
+      "actual": 2,
+      "pnl": 110.0
     },
     {
       "player": "D\u00edaz, Yandy",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 778367
+      "game_pk": 778367,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Falter, Bailey",
@@ -144,7 +168,10 @@
       "best_book": "fanduel",
       "best_price": -138,
       "stars": 1,
-      "game_pk": 778374
+      "game_pk": 778374,
+      "result": "win",
+      "actual": 4,
+      "pnl": 72.46
     },
     {
       "player": "Falter, Bailey",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778374
+      "game_pk": 778374,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Judge, Aaron",
@@ -176,7 +206,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778370
+      "game_pk": 778370,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Parker, Mitchell",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778369
+      "game_pk": 778369,
+      "result": "win",
+      "actual": 3,
+      "pnl": 66.67
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778375
+      "game_pk": 778375,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     },
     {
       "player": "Witt, Bobby",
@@ -224,7 +263,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778375
+      "game_pk": 778375,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

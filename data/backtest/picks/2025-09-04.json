@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.448463+00:00",
+  "generated_at": "2026-02-13T16:51:04.546189+00:00",
   "date": "2025-09-04",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 776459
+      "game_pk": 776459,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Bradley, Taj",
@@ -32,7 +35,10 @@
       "best_book": "fanduel",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 776462
+      "game_pk": 776462,
+      "result": "win",
+      "actual": 14,
+      "pnl": 87.72
     },
     {
       "player": "Hendricks, Kyle",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776463
+      "game_pk": 776463,
+      "result": "win",
+      "actual": 0,
+      "pnl": 71.43
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776458
+      "game_pk": 776458,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     }
   ]
 }

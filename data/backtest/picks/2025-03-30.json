@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.291162+00:00",
+  "generated_at": "2026-02-13T16:51:04.370083+00:00",
   "date": "2025-03-30",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 778522
+      "game_pk": 778522,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Adames, Willy",
@@ -32,7 +35,10 @@
       "best_book": "betmgm",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778522
+      "game_pk": 778522,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Bohm, Alec",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778526
+      "game_pk": 778526,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "Castellanos, Nick",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778526
+      "game_pk": 778526,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "D\u00edaz, Yandy",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 778524
+      "game_pk": 778524,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Harper, Bryce",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778526
+      "game_pk": 778526,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Judge, Aaron",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778523
+      "game_pk": 778523,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Marte, Ketel",
@@ -128,7 +149,10 @@
       "best_book": "betmgm",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778515
+      "game_pk": 778515,
+      "result": "win",
+      "actual": 1,
+      "pnl": 90.91
     },
     {
       "player": "Merrill, Jackson",
@@ -144,7 +168,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778514
+      "game_pk": 778514,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Nola, Aaron",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778526
+      "game_pk": 778526,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Nola, Aaron",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 778526
+      "game_pk": 778526,
+      "result": "win",
+      "actual": 0,
+      "pnl": 110.0
     },
     {
       "player": "Raleigh, Cal",
@@ -192,7 +225,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778513
+      "game_pk": 778513,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     },
     {
       "player": "Ray, Robbie",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778522
+      "game_pk": 778522,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Rodriguez, Eduardo",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778515
+      "game_pk": 778515,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Sears, JP",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 778513
+      "game_pk": 778513,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Smith-Shawver, AJ",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 778514
+      "game_pk": 778514,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Tat\u00eds, Fernando",
@@ -272,7 +320,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778514
+      "game_pk": 778514,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     }
   ]
 }

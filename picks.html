@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; form-action 'self'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; form-action 'self'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Today's Picks — Glick's Picks</title>
   <meta name="description" content="Daily MLB player prop picks from Glick's Picks. Data-driven selections across seven markets.">
@@ -13,6 +13,7 @@
   <meta property="og:description" content="Daily MLB player prop selections from statistical models across seven markets.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://glicks-picks.com/picks.html">
+  <meta property="og:image" content="images/hero-bg.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
@@ -23,9 +24,10 @@
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
   <!-- Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -65,7 +67,7 @@
   </header>
 
   <!-- Mobile Nav -->
-  <div id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+  <nav id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation">
     <a href="picks.html">Today's Picks</a>
     <a href="results.html">Results</a>
     <a href="index.html">Home</a>
@@ -76,7 +78,7 @@
         <span class="env-toggle-slider"></span>
       </label>
     </div>
-  </div>
+  </nav>
 
   <!-- Backtest Banner -->
   <div id="backtest-banner" class="backtest-banner" style="display:none">
@@ -107,6 +109,7 @@
               <button type="button" id="backtest-prev-month" class="calendar-nav-btn" aria-label="Previous month">&#x2039;</button>
               <div id="backtest-calendar-month-label" class="backtest-calendar-month-label"></div>
               <button type="button" id="backtest-next-month" class="calendar-nav-btn" aria-label="Next month">&#x203A;</button>
+              <button class="calendar-close-btn" aria-label="Close calendar">&times;</button>
             </div>
             <div class="backtest-calendar-weekdays">
               <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
@@ -121,12 +124,42 @@
     <!-- Picks Grid -->
     <section class="picks-section">
       <div class="container">
+        <!-- Sort/Filter Controls -->
+        <div id="picks-controls" class="picks-controls">
+          <div class="picks-controls-left">
+            <label for="picks-sort">Sort by:</label>
+            <select id="picks-sort">
+              <option value="stars-desc">Confidence (High→Low)</option>
+              <option value="stars-asc">Confidence (Low→High)</option>
+              <option value="market">Market</option>
+              <option value="direction">Direction</option>
+            </select>
+          </div>
+          <div class="picks-controls-right">
+            <span class="filter-label">Markets:</span>
+            <div id="picks-market-filter" class="market-filter-chips"></div>
+          </div>
+        </div>
+
+        <p class="picks-legend"><span class="legend-stars">&#9733;&#9733;&#9733;</span> = Strongest edge &nbsp; <span class="legend-stars">&#9733;&#9733;</span> = Strong edge &nbsp; <span class="legend-stars">&#9733;</span> = Edge detected</p>
+
         <div class="books-filter-bar" id="books-filter-panel" style="display:none">
           <div class="books-filter-bar-header">
             <div class="picks-sidebar-title">Sportsbooks</div>
             <p id="books-filter-summary" class="books-filter-summary" aria-live="polite"></p>
           </div>
           <div id="books-filter-list" class="books-filter-list"></div>
+        </div>
+
+        <!-- Offseason Hero -->
+        <div id="offseason-hero" class="offseason-hero" style="display:none">
+          <div class="offseason-icon">&#9918;</div>
+          <h2>Season Starting Soon</h2>
+          <p class="offseason-subtitle">Daily MLB player prop picks will appear here when the 2026 season begins.</p>
+          <div class="offseason-cta">
+            <a href="results.html" class="btn btn-primary">View 2025 Track Record</a>
+            <button id="browse-backtest-btn" class="btn btn-secondary">Browse Historical Picks</button>
+          </div>
         </div>
 
         <div class="picks-grid" id="picks-container"></div>

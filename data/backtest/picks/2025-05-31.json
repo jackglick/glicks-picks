@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.361767+00:00",
+  "generated_at": "2026-02-13T16:51:04.442025+00:00",
   "date": "2025-05-31",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": 148,
       "stars": 3,
-      "game_pk": 777694
+      "game_pk": 777694,
+      "result": "win",
+      "actual": 0,
+      "pnl": 148.0
     },
     {
       "player": "Frelick, Sal",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 144,
       "stars": 3,
-      "game_pk": 777702
+      "game_pk": 777702,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Gray, Sonny",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 777697
+      "game_pk": 777697,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Higashioka, Kyle",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 777697
+      "game_pk": 777697,
+      "result": "win",
+      "actual": 0,
+      "pnl": 100.0
     },
     {
       "player": "Littell, Zack",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777693
+      "game_pk": 777693,
+      "result": "loss",
+      "actual": 27,
+      "pnl": -100.0
     },
     {
       "player": "Ober, Bailey",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 777695
+      "game_pk": 777695,
+      "result": "win",
+      "actual": 12,
+      "pnl": 135.0
     },
     {
       "player": "Schneemann, Daniel",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 777703
+      "game_pk": 777703,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Turang, Brice",
@@ -128,7 +149,10 @@
       "best_book": "betonlineag",
       "best_price": 123,
       "stars": 3,
-      "game_pk": 777702
+      "game_pk": 777702,
+      "result": "win",
+      "actual": 1,
+      "pnl": 123.0
     },
     {
       "player": "Cecconi, Slade",
@@ -144,7 +168,10 @@
       "best_book": "fanduel",
       "best_price": -124,
       "stars": 2,
-      "game_pk": 777703
+      "game_pk": 777703,
+      "result": "win",
+      "actual": 3,
+      "pnl": 80.65
     },
     {
       "player": "Hendricks, Kyle",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 777703
+      "game_pk": 777703,
+      "result": "win",
+      "actual": 17,
+      "pnl": 90.91
     },
     {
       "player": "Lindor, Francisco",
@@ -176,7 +206,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 777700
+      "game_pk": 777700,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ober, Bailey",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 777695
+      "game_pk": 777695,
+      "result": "win",
+      "actual": 2,
+      "pnl": 130.0
     },
     {
       "player": "Acu\u00f1a, Ronald",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777706
+      "game_pk": 777706,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Cabrera, Edward",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777705
+      "game_pk": 777705,
+      "result": "win",
+      "actual": 5,
+      "pnl": 80.0
     },
     {
       "player": "Corbin, Patrick",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 777697
+      "game_pk": 777697,
+      "result": "win",
+      "actual": 3,
+      "pnl": 74.07
     },
     {
       "player": "Gray, Sonny",
@@ -256,7 +301,10 @@
       "best_book": "betonlineag",
       "best_price": 121,
       "stars": 1,
-      "game_pk": 777697
+      "game_pk": 777697,
+      "result": "loss",
+      "actual": 10,
+      "pnl": -100.0
     },
     {
       "player": "Hendricks, Kyle",
@@ -272,7 +320,10 @@
       "best_book": "fanduel",
       "best_price": -122,
       "stars": 1,
-      "game_pk": 777703
+      "game_pk": 777703,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Hoglund, Gunnar",
@@ -288,7 +339,10 @@
       "best_book": "fanduel",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 777701
+      "game_pk": 777701,
+      "result": "loss",
+      "actual": 17,
+      "pnl": -100.0
     },
     {
       "player": "Knack, Landon",
@@ -304,7 +358,10 @@
       "best_book": "bovada",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 777698
+      "game_pk": 777698,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Lodolo, Nick",
@@ -320,7 +377,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777704
+      "game_pk": 777704,
+      "result": "win",
+      "actual": 17,
+      "pnl": 100.0
     },
     {
       "player": "Martin, Davis",
@@ -336,7 +396,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 777699
+      "game_pk": 777699,
+      "result": "win",
+      "actual": 3,
+      "pnl": 83.33
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -352,7 +415,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 777703
+      "game_pk": 777703,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Wacha, Michael",
@@ -368,7 +434,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 777694
+      "game_pk": 777694,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     }
   ]
 }

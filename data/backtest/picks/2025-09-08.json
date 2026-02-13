@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.451662+00:00",
+  "generated_at": "2026-02-13T16:51:04.550053+00:00",
   "date": "2025-09-08",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776412
+      "game_pk": 776412,
+      "result": "win",
+      "actual": 1,
+      "pnl": 130.0
     },
     {
       "player": "Sosa, Edmundo",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": -105,
       "stars": 3,
-      "game_pk": 776405
+      "game_pk": 776405,
+      "result": "win",
+      "actual": 1,
+      "pnl": 95.24
     },
     {
       "player": "Edwards, Xavier",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776409
+      "game_pk": 776409,
+      "result": "win",
+      "actual": 1,
+      "pnl": 76.92
     },
     {
       "player": "Sosa, Edmundo",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 776405
+      "game_pk": 776405,
+      "result": "win",
+      "actual": 1,
+      "pnl": 95.24
     },
     {
       "player": "Elder, Bryce",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776412
+      "game_pk": 776412,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 776413
+      "game_pk": 776413,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     }
   ]
 }

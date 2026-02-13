@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.450122+00:00",
+  "generated_at": "2026-02-13T16:51:04.548300+00:00",
   "date": "2025-09-06",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Burger, Jake",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "win",
+      "actual": 0,
+      "pnl": 135.0
     },
     {
       "player": "Burger, Jake",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Fern\u00e1ndez, Yanquiel",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 776431
+      "game_pk": 776431,
+      "result": "win",
+      "actual": 0,
+      "pnl": 135.0
     },
     {
       "player": "Heim, Jonah",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "Matos, Luis",
@@ -96,7 +111,10 @@
       "best_book": "betonlineag",
       "best_price": 143,
       "stars": 3,
-      "game_pk": 776437
+      "game_pk": 776437,
+      "result": "win",
+      "actual": 0,
+      "pnl": 143.0
     },
     {
       "player": "Pallante, Andre",
@@ -112,7 +130,10 @@
       "best_book": "betmgm",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 776437
+      "game_pk": 776437,
+      "result": "loss",
+      "actual": 17,
+      "pnl": -100.0
     },
     {
       "player": "Trammell, Taylor",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Trammell, Taylor",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 3,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "win",
+      "actual": 2,
+      "pnl": 80.0
     },
     {
       "player": "Arr\u00e1ez, Luis",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776431
+      "game_pk": 776431,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Boyd, Matthew",
@@ -176,7 +206,10 @@
       "best_book": "fanduel",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 776440
+      "game_pk": 776440,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "O'Hearn, Ryan",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 776431
+      "game_pk": 776431,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Skubal, Tarik",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 776435
+      "game_pk": 776435,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Ur\u00edas, Ram\u00f3n",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "win",
+      "actual": 1,
+      "pnl": 105.0
     },
     {
       "player": "Yamamoto, Yoshinobu",
@@ -240,7 +282,10 @@
       "best_book": "fanduel",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 776443
+      "game_pk": 776443,
+      "result": "loss",
+      "actual": 26,
+      "pnl": -100.0
     },
     {
       "player": "Arr\u00e1ez, Luis",
@@ -256,7 +301,10 @@
       "best_book": "fanatics",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776431
+      "game_pk": 776431,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Bibee, Tanner",
@@ -272,7 +320,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776438
+      "game_pk": 776438,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Freeman, Tyler",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 776431
+      "game_pk": 776431,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "Happ, Ian",
@@ -304,7 +358,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776440
+      "game_pk": 776440,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -320,7 +377,10 @@
       "best_book": "fanduel",
       "best_price": 112,
       "stars": 1,
-      "game_pk": 776433
+      "game_pk": 776433,
+      "result": "win",
+      "actual": 17,
+      "pnl": 112.0
     },
     {
       "player": "Machado, Manny",
@@ -336,7 +396,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 776431
+      "game_pk": 776431,
+      "result": "win",
+      "actual": 0,
+      "pnl": 115.0
     },
     {
       "player": "Marte, Ketel",
@@ -352,7 +415,10 @@
       "best_book": "williamhill_us",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776424
+      "game_pk": 776424,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "P\u00e9rez, Wenceel",
@@ -368,7 +434,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776435
+      "game_pk": 776435,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     },
     {
       "player": "Ryan, Joe",
@@ -384,7 +453,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776434
+      "game_pk": 776434,
+      "result": "win",
+      "actual": 6,
+      "pnl": 100.0
     },
     {
       "player": "Tat\u00eds, Fernando",
@@ -400,7 +472,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776431
+      "game_pk": 776431,
+      "result": "push",
+      "actual": 2,
+      "pnl": 0.0
     },
     {
       "player": "Trout, Mike",
@@ -416,7 +491,10 @@
       "best_book": "betonlineag",
       "best_price": -122,
       "stars": 1,
-      "game_pk": 776430
+      "game_pk": 776430,
+      "result": "win",
+      "actual": 1,
+      "pnl": 81.97
     },
     {
       "player": "deGrom, Jacob",
@@ -432,7 +510,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776432
+      "game_pk": 776432,
+      "result": "win",
+      "actual": 16,
+      "pnl": 105.0
     }
   ]
 }

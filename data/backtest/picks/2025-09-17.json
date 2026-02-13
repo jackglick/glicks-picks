@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.459319+00:00",
+  "generated_at": "2026-02-13T16:51:04.558182+00:00",
   "date": "2025-09-17",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 776285
+      "game_pk": 776285,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Baldwin, Drake",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776286
+      "game_pk": 776286,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Duran, Jarren",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776299
+      "game_pk": 776299,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Lopez, Otto",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776277
+      "game_pk": 776277,
+      "result": "win",
+      "actual": 0,
+      "pnl": 100.0
     },
     {
       "player": "Oviedo, Johan",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776287
+      "game_pk": 776287,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "P\u00e9rez, Mart\u00edn",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776285
+      "game_pk": 776285,
+      "result": "win",
+      "actual": 11,
+      "pnl": 86.96
     },
     {
       "player": "Ram\u00edrez, Agust\u00edn",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776277
+      "game_pk": 776277,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Wells, Tyler",
@@ -128,7 +149,10 @@
       "best_book": "betmgm",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776285
+      "game_pk": 776285,
+      "result": "win",
+      "actual": 4,
+      "pnl": 68.97
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.341922+00:00",
+  "generated_at": "2026-02-13T16:51:04.419324+00:00",
   "date": "2025-05-15",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 3,
-      "game_pk": 777913
+      "game_pk": 777913,
+      "result": "loss",
+      "actual": 22,
+      "pnl": -100.0
     },
     {
       "player": "Sugano, Tomoyuki",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 3,
-      "game_pk": 777911
+      "game_pk": 777911,
+      "result": "win",
+      "actual": 6,
+      "pnl": 95.24
     },
     {
       "player": "Santander, Anthony",
@@ -48,7 +54,10 @@
       "best_book": "williamhill_us",
       "best_price": -137,
       "stars": 2,
-      "game_pk": 777913
+      "game_pk": 777913,
+      "result": "win",
+      "actual": 0,
+      "pnl": 72.99
     },
     {
       "player": "Sugano, Tomoyuki",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 777911
+      "game_pk": 777911,
+      "result": "push",
+      "actual": 4,
+      "pnl": 0.0
     },
     {
       "player": "Sugano, Tomoyuki",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 777911
+      "game_pk": 777911,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Bell, Josh",
@@ -96,7 +111,10 @@
       "best_book": "betonlineag",
       "best_price": 133,
       "stars": 1,
-      "game_pk": 777909
+      "game_pk": 777909,
+      "result": "push",
+      "actual": 1,
+      "pnl": 0.0
     },
     {
       "player": "De La Cruz, Elly",
@@ -112,7 +130,10 @@
       "best_book": "williamhill_us",
       "best_price": -148,
       "stars": 1,
-      "game_pk": 777912
+      "game_pk": 777912,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Garc\u00eda, Adolis",
@@ -128,7 +149,10 @@
       "best_book": "williamhill_us",
       "best_price": -113,
       "stars": 1,
-      "game_pk": 777910
+      "game_pk": 777910,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Gausman, Kevin",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 777913
+      "game_pk": 777913,
+      "result": "win",
+      "actual": 16,
+      "pnl": 140.0
     },
     {
       "player": "Hays, Austin",
@@ -160,7 +187,10 @@
       "best_book": "betonlineag",
       "best_price": -122,
       "stars": 1,
-      "game_pk": 777912
+      "game_pk": 777912,
+      "result": "win",
+      "actual": 1,
+      "pnl": 81.97
     },
     {
       "player": "Martinez, Nick",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777912
+      "game_pk": 777912,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Martinez, Nick",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777912
+      "game_pk": 777912,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Mountcastle, Ryan",
@@ -208,7 +244,10 @@
       "best_book": "williamhill_us",
       "best_price": -133,
       "stars": 1,
-      "game_pk": 777911
+      "game_pk": 777911,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ozuna, Marcell",
@@ -224,7 +263,10 @@
       "best_book": "williamhill_us",
       "best_price": -121,
       "stars": 1,
-      "game_pk": 777909
+      "game_pk": 777909,
+      "result": "win",
+      "actual": 0,
+      "pnl": 82.64
     },
     {
       "player": "Steer, Spencer",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777912
+      "game_pk": 777912,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Stephenson, Tyler",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777912
+      "game_pk": 777912,
+      "result": "win",
+      "actual": 0,
+      "pnl": 71.43
     }
   ]
 }

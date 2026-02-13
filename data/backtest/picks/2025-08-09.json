@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.425813+00:00",
+  "generated_at": "2026-02-13T16:51:04.521567+00:00",
   "date": "2025-08-09",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 776819
+      "game_pk": 776819,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Edwards, Xavier",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 778431
+      "game_pk": 778431,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Kikuchi, Yusei",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 3,
-      "game_pk": 776813
+      "game_pk": 776813,
+      "result": "win",
+      "actual": 15,
+      "pnl": 86.96
     },
     {
       "player": "Marte, Ketel",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 3,
-      "game_pk": 776809
+      "game_pk": 776809,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Rojas, Miguel",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 122,
       "stars": 3,
-      "game_pk": 776808
+      "game_pk": 776808,
+      "result": "win",
+      "actual": 0,
+      "pnl": 122.0
     },
     {
       "player": "Rutschman, Adley",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 3,
-      "game_pk": 776811
+      "game_pk": 776811,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     },
     {
       "player": "Cameron, Noah",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 776816
+      "game_pk": 776816,
+      "result": "win",
+      "actual": 17,
+      "pnl": 140.0
     },
     {
       "player": "Cantillo, Joey",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 776814
+      "game_pk": 776814,
+      "result": "loss",
+      "actual": 17,
+      "pnl": -100.0
     },
     {
       "player": "Ozuna, Marcell",
@@ -144,7 +168,10 @@
       "best_book": "betonlineag",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 776819
+      "game_pk": 776819,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776814
+      "game_pk": 776814,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "De La Cruz, Elly",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776812
+      "game_pk": 776812,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776810
+      "game_pk": 776810,
+      "result": "win",
+      "actual": 17,
+      "pnl": 105.0
     },
     {
       "player": "Morton, Charlie",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776813
+      "game_pk": 776813,
+      "result": "win",
+      "actual": 13,
+      "pnl": 100.0
     },
     {
       "player": "Myers, Tobias",
@@ -224,7 +263,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 776817
+      "game_pk": 776817,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Perdomo, Geraldo",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776809
+      "game_pk": 776809,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -256,7 +301,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776812
+      "game_pk": 776812,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     }
   ]
 }

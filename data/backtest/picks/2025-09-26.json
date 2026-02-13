@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.467258+00:00",
+  "generated_at": "2026-02-13T16:51:04.569897+00:00",
   "date": "2025-09-26",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 776166
+      "game_pk": 776166,
+      "result": "win",
+      "actual": 0,
+      "pnl": 125.0
     },
     {
       "player": "Doyle, Brenton",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776166
+      "game_pk": 776166,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Karros, Kyle",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776166
+      "game_pk": 776166,
+      "result": "win",
+      "actual": 1,
+      "pnl": 120.0
     },
     {
       "player": "Raleigh, Cal",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -106,
       "stars": 2,
-      "game_pk": 776168
+      "game_pk": 776168,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776175
+      "game_pk": 776175,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Ritter, Ryan",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 776166
+      "game_pk": 776166,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Cavalli, Cade",
@@ -112,7 +130,10 @@
       "best_book": "fanduel",
       "best_price": -112,
       "stars": 1,
-      "game_pk": 776165
+      "game_pk": 776165,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "G\u00f3mez, Yoendrys",
@@ -128,7 +149,10 @@
       "best_book": "fanduel",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 776165
+      "game_pk": 776165,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Houser, Adrian",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": 103,
       "stars": 1,
-      "game_pk": 776177
+      "game_pk": 776177,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776173
+      "game_pk": 776173,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Mize, Casey",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776181
+      "game_pk": 776181,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -192,7 +225,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776180
+      "game_pk": 776180,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ryan, Joe",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776176
+      "game_pk": 776176,
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
     },
     {
       "player": "Schwarber, Kyle",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 1,
-      "game_pk": 776176
+      "game_pk": 776176,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Wentz, Joey",
@@ -240,7 +282,10 @@
       "best_book": "fanduel",
       "best_price": -128,
       "stars": 1,
-      "game_pk": 776180
+      "game_pk": 776180,
+      "result": "win",
+      "actual": 3,
+      "pnl": 78.12
     }
   ]
 }

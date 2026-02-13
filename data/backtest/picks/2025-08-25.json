@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.440870+00:00",
+  "generated_at": "2026-02-13T16:51:04.537551+00:00",
   "date": "2025-08-25",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 776593
+      "game_pk": 776593,
+      "result": "win",
+      "actual": 7,
+      "pnl": 100.0
     },
     {
       "player": "Cabrera, Edward",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776600
+      "game_pk": 776600,
+      "result": "win",
+      "actual": 2,
+      "pnl": 71.43
     },
     {
       "player": "Edwards, Xavier",
@@ -48,7 +54,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776600
+      "game_pk": 776600,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "McGreevy, Michael",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": 108,
       "stars": 1,
-      "game_pk": 776589
+      "game_pk": 776589,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Oviedo, Johan",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776589
+      "game_pk": 776589,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -96,7 +111,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776589
+      "game_pk": 776589,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Rodriguez, Eduardo",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776593
+      "game_pk": 776593,
+      "result": "win",
+      "actual": 1,
+      "pnl": 95.24
     },
     {
       "player": "Scherzer, Max",
@@ -128,7 +149,10 @@
       "best_book": "bovada",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776596
+      "game_pk": 776596,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Schlittler, Cam",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776597
+      "game_pk": 776597,
+      "result": "win",
+      "actual": 16,
+      "pnl": 105.0
     },
     {
       "player": "Senga, Kodai",
@@ -160,7 +187,10 @@
       "best_book": "fanduel",
       "best_price": -148,
       "stars": 1,
-      "game_pk": 776598
+      "game_pk": 776598,
+      "result": "win",
+      "actual": 4,
+      "pnl": 67.57
     },
     {
       "player": "Strider, Spencer",
@@ -176,7 +206,10 @@
       "best_book": "bovada",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 776600
+      "game_pk": 776600,
+      "result": "win",
+      "actual": 3,
+      "pnl": 140.0
     },
     {
       "player": "Strider, Spencer",
@@ -192,7 +225,10 @@
       "best_book": "fanduel",
       "best_price": 106,
       "stars": 1,
-      "game_pk": 776600
+      "game_pk": 776600,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "S\u00e1nchez, Cristopher",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": 150,
       "stars": 1,
-      "game_pk": 776598
+      "game_pk": 776598,
+      "result": "win",
+      "actual": 3,
+      "pnl": 150.0
     }
   ]
 }

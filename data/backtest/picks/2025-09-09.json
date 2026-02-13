@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.452540+00:00",
+  "generated_at": "2026-02-13T16:51:04.550998+00:00",
   "date": "2025-09-09",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Baldwin, Brooks",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 120.0
     },
     {
       "player": "Benintendi, Andrew",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 140.0
     },
     {
       "player": "Benintendi, Andrew",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 130.0
     },
     {
       "player": "Edwards, Xavier",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 776397
+      "game_pk": 776397,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Feduccia, Hunter",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 86.96
     },
     {
       "player": "Mead, Curtis",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Meidroth, Chase",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 140.0
     },
     {
       "player": "Meidroth, Chase",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 145.0
     },
     {
       "player": "Montgomery, Colson",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 130.0
     },
     {
       "player": "Montgomery, Colson",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 2,
+      "pnl": 120.0
     },
     {
       "player": "Palacios, Richie",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 776388
+      "game_pk": 776388,
+      "result": "win",
+      "actual": 1,
+      "pnl": 100.0
     },
     {
       "player": "Bell, Josh",
@@ -208,7 +244,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 776397
+      "game_pk": 776397,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Strider, Spencer",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 776402
+      "game_pk": 776402,
+      "result": "win",
+      "actual": 17,
+      "pnl": 83.33
     },
     {
       "player": "Su\u00e1rez, Ranger",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 776404
+      "game_pk": 776404,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -256,7 +301,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776404
+      "game_pk": 776404,
+      "result": "win",
+      "actual": 0,
+      "pnl": 71.43
     },
     {
       "player": "Moncada, Yo\u00e1n",
@@ -272,7 +320,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776390
+      "game_pk": 776390,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Ohtani, Shohei",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776389
+      "game_pk": 776389,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -304,7 +358,10 @@
       "best_book": "williamhill_us",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776403
+      "game_pk": 776403,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Trout, Mike",
@@ -320,7 +377,10 @@
       "best_book": "williamhill_us",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776390
+      "game_pk": 776390,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Yoshida, Masataka",
@@ -336,7 +396,10 @@
       "best_book": "williamhill_us",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 776396
+      "game_pk": 776396,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     }
   ]
 }

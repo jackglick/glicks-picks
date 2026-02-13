@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.421554+00:00",
+  "generated_at": "2026-02-13T16:51:04.516673+00:00",
   "date": "2025-08-04",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 776880
+      "game_pk": 776880,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -32,7 +35,10 @@
       "best_book": "fanduel",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776877
+      "game_pk": 776877,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 2,
-      "game_pk": 776875
+      "game_pk": 776875,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Falter, Bailey",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776880
+      "game_pk": 776880,
+      "result": "win",
+      "actual": 2,
+      "pnl": 100.0
     },
     {
       "player": "Fedde, Erick",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776882
+      "game_pk": 776882,
+      "result": "win",
+      "actual": 0,
+      "pnl": 110.0
     },
     {
       "player": "Lindor, Francisco",
@@ -96,7 +111,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776876
+      "game_pk": 776876,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Lockridge, Brandon",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 776882
+      "game_pk": 776882,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -128,7 +149,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776876
+      "game_pk": 776876,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Verlander, Justin",
@@ -144,7 +168,10 @@
       "best_book": "bovada",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 776879
+      "game_pk": 776879,
+      "result": "win",
+      "actual": 4,
+      "pnl": 90.91
     }
   ]
 }

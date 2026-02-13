@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.368595+00:00",
+  "generated_at": "2026-02-13T16:51:04.458833+00:00",
   "date": "2025-06-06",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 777621
+      "game_pk": 777621,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Martin, Davis",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 777618
+      "game_pk": 777618,
+      "result": "win",
+      "actual": 17,
+      "pnl": 125.0
     },
     {
       "player": "Corbin, Patrick",
@@ -48,7 +54,10 @@
       "best_book": "fanduel",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 777624
+      "game_pk": 777624,
+      "result": "loss",
+      "actual": 24,
+      "pnl": -100.0
     },
     {
       "player": "Lugo, Seth",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 777618
+      "game_pk": 777618,
+      "result": "win",
+      "actual": 14,
+      "pnl": 140.0
     },
     {
       "player": "Marte, Ketel",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 777623
+      "game_pk": 777623,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 777622
+      "game_pk": 777622,
+      "result": "win",
+      "actual": 1,
+      "pnl": 90.91
     },
     {
       "player": "Reynolds, Bryan",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 777621
+      "game_pk": 777621,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Allen, Logan",
@@ -128,7 +149,10 @@
       "best_book": "fanduel",
       "best_price": -104,
       "stars": 1,
-      "game_pk": 777622
+      "game_pk": 777622,
+      "result": "win",
+      "actual": 2,
+      "pnl": 96.15
     },
     {
       "player": "Buehler, Walker",
@@ -144,7 +168,10 @@
       "best_book": "bovada",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 777627
+      "game_pk": 777627,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "De La Cruz, Elly",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 777623
+      "game_pk": 777623,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Edwards, Xavier",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777625
+      "game_pk": 777625,
+      "result": "win",
+      "actual": 0,
+      "pnl": 71.43
     },
     {
       "player": "Espinal, Santiago",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777623
+      "game_pk": 777623,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Grichuk, Randal",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777623
+      "game_pk": 777623,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Littell, Zack",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 777625
+      "game_pk": 777625,
+      "result": "win",
+      "actual": 17,
+      "pnl": 74.07
     },
     {
       "player": "Skubal, Tarik",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777626
+      "game_pk": 777626,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     }
   ]
 }

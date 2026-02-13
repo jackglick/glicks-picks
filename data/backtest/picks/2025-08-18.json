@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.434352+00:00",
+  "generated_at": "2026-02-13T16:51:04.530727+00:00",
   "date": "2025-08-18",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": 118,
       "stars": 3,
-      "game_pk": 776688
+      "game_pk": 776688,
+      "result": "win",
+      "actual": 1,
+      "pnl": 118.0
     },
     {
       "player": "Liberatore, Matthew",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 776688
+      "game_pk": 776688,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Rogers, Trevor",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 776695
+      "game_pk": 776695,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Flaherty, Jack",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": -112,
       "stars": 1,
-      "game_pk": 776692
+      "game_pk": 776692,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Strider, Spencer",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 1,
-      "game_pk": 776696
+      "game_pk": 776696,
+      "result": "win",
+      "actual": 9,
+      "pnl": 135.0
     }
   ]
 }

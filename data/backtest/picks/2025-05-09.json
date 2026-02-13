@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.335223+00:00",
+  "generated_at": "2026-02-13T16:51:04.412389+00:00",
   "date": "2025-05-09",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 777998
+      "game_pk": 777998,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Carter, Evan",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 777996
+      "game_pk": 777996,
+      "result": "win",
+      "actual": 1,
+      "pnl": 100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -48,7 +54,10 @@
       "best_book": "williamhill_us",
       "best_price": -142,
       "stars": 3,
-      "game_pk": 777991
+      "game_pk": 777991,
+      "result": "win",
+      "actual": 1,
+      "pnl": 70.42
     },
     {
       "player": "Moreno, Gabriel",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 777988
+      "game_pk": 777988,
+      "result": "win",
+      "actual": 0,
+      "pnl": 135.0
     },
     {
       "player": "Moreno, Gabriel",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777988
+      "game_pk": 777988,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "Perdomo, Geraldo",
@@ -96,7 +111,10 @@
       "best_book": "betonlineag",
       "best_price": 116,
       "stars": 3,
-      "game_pk": 777988
+      "game_pk": 777988,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Perdomo, Geraldo",
@@ -112,7 +130,10 @@
       "best_book": "betonlineag",
       "best_price": 110,
       "stars": 3,
-      "game_pk": 777988
+      "game_pk": 777988,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Murphy, Sean",
@@ -128,7 +149,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 777998
+      "game_pk": 777998,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "White, Eli",
@@ -144,7 +168,10 @@
       "best_book": "betonlineag",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 777998
+      "game_pk": 777998,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Albies, Ozzie",
@@ -160,7 +187,10 @@
       "best_book": "betonlineag",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777998
+      "game_pk": 777998,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Elder, Bryce",
@@ -176,7 +206,10 @@
       "best_book": "betonlineag",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777998
+      "game_pk": 777998,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Ib\u00e1\u00f1ez, Andy",
@@ -192,7 +225,10 @@
       "best_book": "williamhill_us",
       "best_price": -137,
       "stars": 1,
-      "game_pk": 777996
+      "game_pk": 777996,
+      "result": "win",
+      "actual": 0,
+      "pnl": 72.99
     },
     {
       "player": "Meyer, Max",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 777991
+      "game_pk": 777991,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Nola, Aaron",
@@ -224,7 +263,10 @@
       "best_book": "bovada",
       "best_price": 145,
       "stars": 1,
-      "game_pk": 777997
+      "game_pk": 777997,
+      "result": "win",
+      "actual": 14,
+      "pnl": 145.0
     },
     {
       "player": "Williams, Gavin",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777997
+      "game_pk": 777997,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Witt, Bobby",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777990
+      "game_pk": 777990,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Witt, Bobby",
@@ -272,7 +320,10 @@
       "best_book": "bovada",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 777990
+      "game_pk": 777990,
+      "result": "win",
+      "actual": 0,
+      "pnl": 115.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.456710+00:00",
+  "generated_at": "2026-02-13T16:51:04.555225+00:00",
   "date": "2025-09-14",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776331
+      "game_pk": 776331,
+      "result": "win",
+      "actual": 17,
+      "pnl": 130.0
     },
     {
       "player": "Gilbert, Drew",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 3,
-      "game_pk": 776325
+      "game_pk": 776325,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Albies, Ozzie",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 776329
+      "game_pk": 776329,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Bauers, Jake",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 776326
+      "game_pk": 776326,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Marte, Ketel",
@@ -80,7 +92,10 @@
       "best_book": "williamhill_us",
       "best_price": -112,
       "stars": 2,
-      "game_pk": 776324
+      "game_pk": 776324,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "M\u00e1rquez, Germ\u00e1n",
@@ -96,7 +111,10 @@
       "best_book": "fanduel",
       "best_price": -112,
       "stars": 2,
-      "game_pk": 776323
+      "game_pk": 776323,
+      "result": "win",
+      "actual": 0,
+      "pnl": 89.29
     },
     {
       "player": "Quintana, Jose",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 776326
+      "game_pk": 776326,
+      "result": "win",
+      "actual": 11,
+      "pnl": 105.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -119,
       "stars": 2,
-      "game_pk": 776331
+      "game_pk": 776331,
+      "result": "win",
+      "actual": 1,
+      "pnl": 84.03
     },
     {
       "player": "Warren, Will",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 776330
+      "game_pk": 776330,
+      "result": "win",
+      "actual": 2,
+      "pnl": 105.0
     },
     {
       "player": "Burrows, Mike",
@@ -160,7 +187,10 @@
       "best_book": "fanduel",
       "best_price": 102,
       "stars": 1,
-      "game_pk": 776320
+      "game_pk": 776320,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Cameron, Noah",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776334
+      "game_pk": 776334,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Carroll, Corbin",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -147,
       "stars": 1,
-      "game_pk": 776324
+      "game_pk": 776324,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.03
     },
     {
       "player": "Cavalli, Cade",
@@ -208,7 +244,10 @@
       "best_book": "fanduel",
       "best_price": 126,
       "stars": 1,
-      "game_pk": 776320
+      "game_pk": 776320,
+      "result": "win",
+      "actual": 2,
+      "pnl": 126.0
     },
     {
       "player": "Cecconi, Slade",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": 116,
       "stars": 1,
-      "game_pk": 776331
+      "game_pk": 776331,
+      "result": "win",
+      "actual": 4,
+      "pnl": 116.0
     },
     {
       "player": "Crochet, Garrett",
@@ -240,7 +282,10 @@
       "best_book": "fanduel",
       "best_price": 124,
       "stars": 1,
-      "game_pk": 776330
+      "game_pk": 776330,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "De La Cruz, Elly",
@@ -256,7 +301,10 @@
       "best_book": "betonlineag",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776327
+      "game_pk": 776327,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Flores, Wilmer",
@@ -272,7 +320,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 776325
+      "game_pk": 776325,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Houser, Adrian",
@@ -288,7 +339,10 @@
       "best_book": "draftkings",
       "best_price": -143,
       "stars": 1,
-      "game_pk": 776321
+      "game_pk": 776321,
+      "result": "win",
+      "actual": 2,
+      "pnl": 69.93
     },
     {
       "player": "Houser, Adrian",
@@ -304,7 +358,10 @@
       "best_book": "fanduel",
       "best_price": 104,
       "stars": 1,
-      "game_pk": 776321
+      "game_pk": 776321,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Imanaga, Shota",
@@ -320,7 +377,10 @@
       "best_book": "draftkings",
       "best_price": 122,
       "stars": 1,
-      "game_pk": 776321
+      "game_pk": 776321,
+      "result": "win",
+      "actual": 15,
+      "pnl": 122.0
     },
     {
       "player": "Kirby, George",
@@ -336,7 +396,10 @@
       "best_book": "draftkings",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 776317
+      "game_pk": 776317,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -352,7 +415,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776335
+      "game_pk": 776335,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Morales, Luis",
@@ -368,7 +434,10 @@
       "best_book": "draftkings",
       "best_price": 119,
       "stars": 1,
-      "game_pk": 776327
+      "game_pk": 776327,
+      "result": "win",
+      "actual": 4,
+      "pnl": 119.0
     },
     {
       "player": "Nola, Aaron",
@@ -384,7 +453,10 @@
       "best_book": "betonlineag",
       "best_price": 139,
       "stars": 1,
-      "game_pk": 776334
+      "game_pk": 776334,
+      "result": "push",
+      "actual": 5,
+      "pnl": 0.0
     },
     {
       "player": "Nola, Aaron",
@@ -400,7 +472,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 776334
+      "game_pk": 776334,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Raleigh, Cal",
@@ -416,7 +491,10 @@
       "best_book": "williamhill_us",
       "best_price": -123,
       "stars": 1,
-      "game_pk": 776317
+      "game_pk": 776317,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Wentz, Joey",
@@ -432,7 +510,10 @@
       "best_book": "draftkings",
       "best_price": 118,
       "stars": 1,
-      "game_pk": 776329
+      "game_pk": 776329,
+      "result": "win",
+      "actual": 2,
+      "pnl": 118.0
     }
   ]
 }

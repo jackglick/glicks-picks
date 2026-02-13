@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.326618+00:00",
+  "generated_at": "2026-02-13T16:51:04.403866+00:00",
   "date": "2025-05-01",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": -104,
       "stars": 3,
-      "game_pk": 778094
+      "game_pk": 778094,
+      "result": "win",
+      "actual": 0,
+      "pnl": 96.15
     },
     {
       "player": "Amaya, Jacob",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 778094
+      "game_pk": 778094,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "Heim, Jonah",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 778096
+      "game_pk": 778096,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Houck, Tanner",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": -108,
       "stars": 3,
-      "game_pk": 778095
+      "game_pk": 778095,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Abbott, Andrew",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 778107
+      "game_pk": 778107,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Baz, Shane",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778097
+      "game_pk": 778097,
+      "result": "win",
+      "actual": 16,
+      "pnl": 120.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 778095
+      "game_pk": 778095,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -128,7 +149,10 @@
       "best_book": "betonlineag",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 778108
+      "game_pk": 778108,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778095
+      "game_pk": 778095,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Correa, Carlos",
@@ -160,7 +187,10 @@
       "best_book": "betonlineag",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778108
+      "game_pk": 778108,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Gallen, Zac",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778103
+      "game_pk": 778103,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Gallen, Zac",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778103
+      "game_pk": 778103,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Gallen, Zac",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778103
+      "game_pk": 778103,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Garc\u00eda, Luis",
@@ -224,7 +263,10 @@
       "best_book": "williamhill_us",
       "best_price": -148,
       "stars": 1,
-      "game_pk": 778099
+      "game_pk": 778099,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Houck, Tanner",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778095
+      "game_pk": 778095,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
     },
     {
       "player": "Lugo, Seth",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 778097
+      "game_pk": 778097,
+      "result": "win",
+      "actual": 2,
+      "pnl": 68.97
     },
     {
       "player": "Mahle, Tyler",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778096
+      "game_pk": 778096,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Mahle, Tyler",
@@ -288,7 +339,10 @@
       "best_book": "fanduel",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778096
+      "game_pk": 778096,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Rea, Colin",
@@ -304,7 +358,10 @@
       "best_book": "betonlineag",
       "best_price": -139,
       "stars": 1,
-      "game_pk": 778100
+      "game_pk": 778100,
+      "result": "win",
+      "actual": 2,
+      "pnl": 71.94
     },
     {
       "player": "Senga, Kodai",
@@ -320,7 +377,10 @@
       "best_book": "betonlineag",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 778103
+      "game_pk": 778103,
+      "result": "win",
+      "actual": 11,
+      "pnl": 100.0
     },
     {
       "player": "Walker, Taijuan",
@@ -336,7 +396,10 @@
       "best_book": "fanduel",
       "best_price": -106,
       "stars": 1,
-      "game_pk": 778099
+      "game_pk": 778099,
+      "result": "win",
+      "actual": 2,
+      "pnl": 94.34
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.438160+00:00",
+  "generated_at": "2026-02-13T16:51:04.534729+00:00",
   "date": "2025-08-22",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": 142,
       "stars": 3,
-      "game_pk": 776637
+      "game_pk": 776637,
+      "result": "win",
+      "actual": 1,
+      "pnl": 142.0
     },
     {
       "player": "Mize, Casey",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 3,
-      "game_pk": 776649
+      "game_pk": 776649,
+      "result": "win",
+      "actual": 16,
+      "pnl": 80.0
     },
     {
       "player": "Taylor, Tyrone",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776645
+      "game_pk": 776645,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Bell, Josh",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 776648
+      "game_pk": 776648,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Gusto, Ryan",
@@ -80,7 +92,10 @@
       "best_book": "fanduel",
       "best_price": -104,
       "stars": 2,
-      "game_pk": 776646
+      "game_pk": 776646,
+      "result": "win",
+      "actual": 0,
+      "pnl": 96.15
     },
     {
       "player": "Mangum, Jake",
@@ -96,7 +111,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 776633
+      "game_pk": 776633,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -112,7 +130,10 @@
       "best_book": "williamhill_us",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776637
+      "game_pk": 776637,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Bergert, Ryan",
@@ -128,7 +149,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 776649
+      "game_pk": 776649,
+      "result": "win",
+      "actual": 3,
+      "pnl": 130.0
     },
     {
       "player": "Bieber, Shane",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776646
+      "game_pk": 776646,
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
     },
     {
       "player": "Civale, Aaron",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776639
+      "game_pk": 776639,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -176,7 +206,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776646
+      "game_pk": 776646,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Fried, Max",
@@ -192,7 +225,10 @@
       "best_book": "bovada",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 776647
+      "game_pk": 776647,
+      "result": "win",
+      "actual": 17,
+      "pnl": 140.0
     },
     {
       "player": "Horwitz, Spencer",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776637
+      "game_pk": 776637,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -224,7 +263,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776645
+      "game_pk": 776645,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Simpson, Chandler",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776633
+      "game_pk": 776633,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

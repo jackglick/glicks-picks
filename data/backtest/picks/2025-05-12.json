@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.339059+00:00",
+  "generated_at": "2026-02-13T16:51:04.416305+00:00",
   "date": "2025-05-12",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 777959
+      "game_pk": 777959,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Liberatore, Matthew",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 777953
+      "game_pk": 777953,
+      "result": "win",
+      "actual": 16,
+      "pnl": 83.33
     },
     {
       "player": "Skenes, Paul",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 777950
+      "game_pk": 777950,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Peterson, David",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 777950
+      "game_pk": 777950,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Quantrill, Cal",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 2,
-      "game_pk": 777952
+      "game_pk": 777952,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
     },
     {
       "player": "Houck, Tanner",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777951
+      "game_pk": 777951,
+      "result": "win",
+      "actual": 7,
+      "pnl": 95.24
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777960
+      "game_pk": 777960,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Rea, Colin",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 777952
+      "game_pk": 777952,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "S\u00e1nchez, Cristopher",
@@ -144,7 +168,10 @@
       "best_book": "fanduel",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 777953
+      "game_pk": 777953,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Yelich, Christian",
@@ -160,7 +187,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777960
+      "game_pk": 777960,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

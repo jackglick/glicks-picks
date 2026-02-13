@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.340065+00:00",
+  "generated_at": "2026-02-13T16:51:04.417467+00:00",
   "date": "2025-05-13",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 777944
+      "game_pk": 777944,
+      "result": "win",
+      "actual": 0,
+      "pnl": 100.0
     },
     {
       "player": "Brown, Ben",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 3,
-      "game_pk": 777936
+      "game_pk": 777936,
+      "result": "win",
+      "actual": 16,
+      "pnl": 95.24
     },
     {
       "player": "Abbott, Andrew",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 2,
-      "game_pk": 777945
+      "game_pk": 777945,
+      "result": "win",
+      "actual": 4,
+      "pnl": 74.07
     },
     {
       "player": "Baz, Shane",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 777935
+      "game_pk": 777935,
+      "result": "win",
+      "actual": 4,
+      "pnl": 120.0
     },
     {
       "player": "Bellozo, Valente",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 777936
+      "game_pk": 777936,
+      "result": "win",
+      "actual": 2,
+      "pnl": 86.96
     },
     {
       "player": "Priester, Quinn",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 2,
-      "game_pk": 777944
+      "game_pk": 777944,
+      "result": "win",
+      "actual": 3,
+      "pnl": 71.43
     },
     {
       "player": "Priester, Quinn",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 777944
+      "game_pk": 777944,
+      "result": "win",
+      "actual": 1,
+      "pnl": 95.24
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -128,7 +149,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 777944
+      "game_pk": 777944,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Soroka, Michael",
@@ -144,7 +168,10 @@
       "best_book": "betonlineag",
       "best_price": -128,
       "stars": 2,
-      "game_pk": 777942
+      "game_pk": 777942,
+      "result": "win",
+      "actual": 4,
+      "pnl": 78.12
     },
     {
       "player": "Allen, Logan",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777944
+      "game_pk": 777944,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Baz, Shane",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 777935
+      "game_pk": 777935,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -192,7 +225,10 @@
       "best_book": "betonlineag",
       "best_price": 126,
       "stars": 1,
-      "game_pk": 777935
+      "game_pk": 777935,
+      "result": "win",
+      "actual": 4,
+      "pnl": 126.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 777935
+      "game_pk": 777935,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -224,7 +263,10 @@
       "best_book": "fanduel",
       "best_price": 112,
       "stars": 1,
-      "game_pk": 777935
+      "game_pk": 777935,
+      "result": "win",
+      "actual": 16,
+      "pnl": 112.0
     },
     {
       "player": "Brown, Ben",
@@ -240,7 +282,10 @@
       "best_book": "fanduel",
       "best_price": 104,
       "stars": 1,
-      "game_pk": 777936
+      "game_pk": 777936,
+      "result": "win",
+      "actual": 6,
+      "pnl": 104.0
     },
     {
       "player": "Keller, Mitch",
@@ -256,7 +301,10 @@
       "best_book": "fanduel",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777943
+      "game_pk": 777943,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777943
+      "game_pk": 777943,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Schwellenbach, Spencer",
@@ -288,7 +339,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777942
+      "game_pk": 777942,
+      "result": "win",
+      "actual": 3,
+      "pnl": 95.24
     }
   ]
 }

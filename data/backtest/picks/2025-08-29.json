@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.443498+00:00",
+  "generated_at": "2026-02-13T16:51:04.540452+00:00",
   "date": "2025-08-29",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 3,
-      "game_pk": 776545
+      "game_pk": 776545,
+      "result": "win",
+      "actual": 11,
+      "pnl": 105.0
     },
     {
       "player": "Allen, Logan",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 776547
+      "game_pk": 776547,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Kirby, George",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 1,
-      "game_pk": 776547
+      "game_pk": 776547,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Rod\u00f3n, Carlos",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776544
+      "game_pk": 776544,
+      "result": "win",
+      "actual": 17,
+      "pnl": 95.24
     },
     {
       "player": "Simpson, Chandler",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776545
+      "game_pk": 776545,
+      "result": "win",
+      "actual": 1,
+      "pnl": 86.96
     },
     {
       "player": "Skenes, Paul",
@@ -96,7 +111,10 @@
       "best_book": "fanduel",
       "best_price": 104,
       "stars": 1,
-      "game_pk": 776549
+      "game_pk": 776549,
+      "result": "win",
+      "actual": 17,
+      "pnl": 104.0
     }
   ]
 }

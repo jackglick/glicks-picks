@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.447088+00:00",
+  "generated_at": "2026-02-13T16:51:04.544675+00:00",
   "date": "2025-09-02",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776488
+      "game_pk": 776488,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Cecconi, Slade",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 776493
+      "game_pk": 776493,
+      "result": "win",
+      "actual": 15,
+      "pnl": 95.24
     },
     {
       "player": "Edwards, Xavier",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776482
+      "game_pk": 776482,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Marte, Ketel",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 776481
+      "game_pk": 776481,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Perdomo, Geraldo",
@@ -80,7 +92,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 2,
-      "game_pk": 776481
+      "game_pk": 776481,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Bell, Josh",
@@ -96,7 +111,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776482
+      "game_pk": 776482,
+      "result": "win",
+      "actual": 0,
+      "pnl": 71.43
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -112,7 +130,10 @@
       "best_book": "fanduel",
       "best_price": -128,
       "stars": 1,
-      "game_pk": 776491
+      "game_pk": 776491,
+      "result": "win",
+      "actual": 6,
+      "pnl": 78.12
     },
     {
       "player": "Crochet, Garrett",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776493
+      "game_pk": 776493,
+      "result": "win",
+      "actual": 18,
+      "pnl": 76.92
     },
     {
       "player": "Imanaga, Shota",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 776487
+      "game_pk": 776487,
+      "result": "win",
+      "actual": 17,
+      "pnl": 120.0
     },
     {
       "player": "Mazur, Adam",
@@ -160,7 +187,10 @@
       "best_book": "betrivers",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 776482
+      "game_pk": 776482,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     }
   ]
 }

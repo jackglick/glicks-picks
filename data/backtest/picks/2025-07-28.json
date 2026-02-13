@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.415050+00:00",
+  "generated_at": "2026-02-13T16:51:04.509901+00:00",
   "date": "2025-07-28",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 776965
+      "game_pk": 776965,
+      "result": "win",
+      "actual": 15,
+      "pnl": 145.0
     },
     {
       "player": "Cecconi, Slade",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 776968
+      "game_pk": 776968,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Kim, Hyeseong",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 776967
+      "game_pk": 776967,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "Pallante, Andre",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776960
+      "game_pk": 776960,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Bassitt, Chris",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 776966
+      "game_pk": 776966,
+      "result": "win",
+      "actual": 7,
+      "pnl": 125.0
     },
     {
       "player": "Eflin, Zach",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 776966
+      "game_pk": 776966,
+      "result": "win",
+      "actual": 13,
+      "pnl": 105.0
     },
     {
       "player": "Fitts, Richard",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 776961
+      "game_pk": 776961,
+      "result": "win",
+      "actual": 12,
+      "pnl": 120.0
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -128,7 +149,10 @@
       "best_book": "betonlineag",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776968
+      "game_pk": 776968,
+      "result": "win",
+      "actual": 1,
+      "pnl": 76.92
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -144,7 +168,10 @@
       "best_book": "betonlineag",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 776968
+      "game_pk": 776968,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Albies, Ozzie",
@@ -160,7 +187,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 776971
+      "game_pk": 776971,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     },
     {
       "player": "Bassitt, Chris",
@@ -176,7 +206,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776966
+      "game_pk": 776966,
+      "result": "win",
+      "actual": 4,
+      "pnl": 86.96
     },
     {
       "player": "Blalock, Bradley",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776968
+      "game_pk": 776968,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Blalock, Bradley",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 776968
+      "game_pk": 776968,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -224,7 +263,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776960
+      "game_pk": 776960,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Fitts, Richard",
@@ -240,7 +282,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 776961
+      "game_pk": 776961,
+      "result": "win",
+      "actual": 4,
+      "pnl": 130.0
     },
     {
       "player": "Hill, Rich",
@@ -256,7 +301,10 @@
       "best_book": "fanduel",
       "best_price": -102,
       "stars": 1,
-      "game_pk": 776971
+      "game_pk": 776971,
+      "result": "win",
+      "actual": 3,
+      "pnl": 98.04
     },
     {
       "player": "Hill, Rich",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 776971
+      "game_pk": 776971,
+      "result": "win",
+      "actual": 3,
+      "pnl": 115.0
     },
     {
       "player": "Lukes, Nathan",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776966
+      "game_pk": 776966,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Profar, Jurickson",
@@ -304,7 +358,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776971
+      "game_pk": 776971,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Rasmussen, Drew",
@@ -320,7 +377,10 @@
       "best_book": "bovada",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776970
+      "game_pk": 776970,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Rasmussen, Drew",
@@ -336,7 +396,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776970
+      "game_pk": 776970,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Rodriguez, Eduardo",
@@ -352,7 +415,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 776973
+      "game_pk": 776973,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     }
   ]
 }

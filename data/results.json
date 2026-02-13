@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.287934+00:00",
+  "generated_at": "2026-02-13T17:02:43.857114+00:00",
   "summary": {
     "total_bets": 4203,
     "wins": 2553,
@@ -10,7 +10,7 @@
     "roi": 21.8,
     "current_streak": 1,
     "streak_type": "W",
-    "max_drawdown": -1528.37
+    "max_drawdown": -1215.33
   },
   "by_market": [
     {
@@ -19,6 +19,7 @@
       "bets": 422,
       "wins": 328,
       "losses": 85,
+      "pushes": 9,
       "win_rate": 79.4,
       "pnl": 30313.9,
       "roi": 71.8
@@ -29,6 +30,7 @@
       "bets": 1772,
       "wins": 1091,
       "losses": 667,
+      "pushes": 14,
       "win_rate": 62.1,
       "pnl": 34756.12,
       "roi": 19.6
@@ -39,6 +41,7 @@
       "bets": 213,
       "wins": 137,
       "losses": 63,
+      "pushes": 13,
       "win_rate": 68.5,
       "pnl": 6470.45,
       "roi": 30.4
@@ -49,6 +52,7 @@
       "bets": 147,
       "wins": 113,
       "losses": 31,
+      "pushes": 3,
       "win_rate": 78.5,
       "pnl": 7176.77,
       "roi": 48.8
@@ -59,6 +63,7 @@
       "bets": 1001,
       "wins": 531,
       "losses": 469,
+      "pushes": 1,
       "win_rate": 53.1,
       "pnl": 9665.9,
       "roi": 9.7
@@ -69,6 +74,7 @@
       "bets": 540,
       "wins": 296,
       "losses": 243,
+      "pushes": 1,
       "win_rate": 54.9,
       "pnl": 2137.74,
       "roi": 4.0
@@ -79,11 +85,449 @@
       "bets": 108,
       "wins": 57,
       "losses": 51,
+      "pushes": 0,
       "win_rate": 52.8,
       "pnl": 982.37,
       "roi": 9.1
     }
   ],
+  "star_tier_stats": [
+    {
+      "stars": 1,
+      "bets": 2085,
+      "wins": 1187,
+      "losses": 881,
+      "pushes": 17,
+      "win_rate": 57.4,
+      "pnl": 18335.29,
+      "roi": 8.8
+    },
+    {
+      "stars": 2,
+      "bets": 1077,
+      "wins": 631,
+      "losses": 433,
+      "pushes": 13,
+      "win_rate": 59.3,
+      "pnl": 16326.35,
+      "roi": 15.2
+    },
+    {
+      "stars": 3,
+      "bets": 1041,
+      "wins": 735,
+      "losses": 295,
+      "pushes": 11,
+      "win_rate": 71.4,
+      "pnl": 56841.61,
+      "roi": 54.6
+    }
+  ],
+  "direction_stats": [
+    {
+      "direction": "OVER",
+      "bets": 20,
+      "wins": 13,
+      "losses": 7,
+      "pushes": 0,
+      "win_rate": 65.0,
+      "pnl": 772.83,
+      "roi": 38.6
+    },
+    {
+      "direction": "UNDER",
+      "bets": 4183,
+      "wins": 2540,
+      "losses": 1602,
+      "pushes": 41,
+      "win_rate": 61.3,
+      "pnl": 90730.42,
+      "roi": 21.7
+    }
+  ],
+  "player_attention": {
+    "available": true,
+    "method": {
+      "attention_proxy": "player bet frequency within scored paper trades",
+      "high_attention_quantile": 0.8,
+      "high_attention_min_bets": 10.0,
+      "tracked_players": [
+        "Ohtani, Shohei",
+        "Judge, Aaron"
+      ]
+    },
+    "overall": {
+      "bets": 4203,
+      "unique_players": 645,
+      "mean_edge": 0.1853,
+      "median_edge": 0.159
+    },
+    "tier_comparison": [
+      {
+        "bets": 2443,
+        "wins": 1381,
+        "losses": 1045,
+        "pushes": 17,
+        "win_rate": 56.9,
+        "pnl": 24250.45,
+        "stake": 244300.0,
+        "roi": 9.9,
+        "mean_edge": 0.1667,
+        "median_edge": 0.154,
+        "tier": "high_attention_players",
+        "unique_players": 140,
+        "avg_bets_per_player": 25.5
+      },
+      {
+        "bets": 1760,
+        "wins": 1172,
+        "losses": 564,
+        "pushes": 24,
+        "win_rate": 67.5,
+        "pnl": 67252.8,
+        "stake": 176000.0,
+        "roi": 38.2,
+        "mean_edge": 0.211,
+        "median_edge": 0.172,
+        "tier": "other_players",
+        "unique_players": 505,
+        "avg_bets_per_player": 4.99
+      }
+    ],
+    "frequency_deciles": [
+      {
+        "bets": 538,
+        "wins": 382,
+        "losses": 147,
+        "pushes": 9,
+        "win_rate": 72.2,
+        "pnl": 26022.49,
+        "stake": 53800.0,
+        "roi": 48.4,
+        "mean_edge": 0.228,
+        "median_edge": 0.2,
+        "bucket": "(0.999, 3.0]",
+        "unique_players": 294,
+        "avg_bets_per_player": 2.17
+      },
+      {
+        "bets": 494,
+        "wins": 325,
+        "losses": 164,
+        "pushes": 5,
+        "win_rate": 66.5,
+        "pnl": 17881.34,
+        "stake": 49400.0,
+        "roi": 36.2,
+        "mean_edge": 0.2075,
+        "median_edge": 0.166,
+        "bucket": "(3.0, 5.0]",
+        "unique_players": 110,
+        "avg_bets_per_player": 4.55
+      },
+      {
+        "bets": 423,
+        "wins": 264,
+        "losses": 150,
+        "pushes": 9,
+        "win_rate": 63.8,
+        "pnl": 13071.74,
+        "stake": 42300.0,
+        "roi": 30.9,
+        "mean_edge": 0.2049,
+        "median_edge": 0.169,
+        "bucket": "(5.0, 7.0]",
+        "unique_players": 65,
+        "avg_bets_per_player": 6.55
+      },
+      {
+        "bets": 305,
+        "wins": 201,
+        "losses": 103,
+        "pushes": 1,
+        "win_rate": 66.1,
+        "pnl": 10277.23,
+        "stake": 30500.0,
+        "roi": 33.7,
+        "mean_edge": 0.1952,
+        "median_edge": 0.16,
+        "bucket": "(7.0, 9.0]",
+        "unique_players": 36,
+        "avg_bets_per_player": 8.5
+      },
+      {
+        "bets": 529,
+        "wins": 301,
+        "losses": 224,
+        "pushes": 4,
+        "win_rate": 57.3,
+        "pnl": 6814.58,
+        "stake": 52900.0,
+        "roi": 12.9,
+        "mean_edge": 0.1637,
+        "median_edge": 0.151,
+        "bucket": "(9.0, 12.0]",
+        "unique_players": 48,
+        "avg_bets_per_player": 11.08
+      },
+      {
+        "bets": 310,
+        "wins": 171,
+        "losses": 135,
+        "pushes": 4,
+        "win_rate": 55.9,
+        "pnl": 2457.84,
+        "stake": 31000.0,
+        "roi": 7.9,
+        "mean_edge": 0.1653,
+        "median_edge": 0.155,
+        "bucket": "(12.0, 14.0]",
+        "unique_players": 23,
+        "avg_bets_per_player": 13.5
+      },
+      {
+        "bets": 390,
+        "wins": 228,
+        "losses": 158,
+        "pushes": 4,
+        "win_rate": 59.1,
+        "pnl": 6502.39,
+        "stake": 39000.0,
+        "roi": 16.7,
+        "mean_edge": 0.175,
+        "median_edge": 0.1595,
+        "bucket": "(14.0, 17.0]",
+        "unique_players": 25,
+        "avg_bets_per_player": 15.64
+      },
+      {
+        "bets": 403,
+        "wins": 224,
+        "losses": 179,
+        "pushes": 0,
+        "win_rate": 55.6,
+        "pnl": 3283.62,
+        "stake": 40300.0,
+        "roi": 8.1,
+        "mean_edge": 0.1731,
+        "median_edge": 0.158,
+        "bucket": "(17.0, 21.0]",
+        "unique_players": 21,
+        "avg_bets_per_player": 19.24
+      },
+      {
+        "bets": 397,
+        "wins": 226,
+        "losses": 167,
+        "pushes": 4,
+        "win_rate": 57.5,
+        "pnl": 4994.49,
+        "stake": 39700.0,
+        "roi": 12.6,
+        "mean_edge": 0.1711,
+        "median_edge": 0.162,
+        "bucket": "(21.0, 33.0]",
+        "unique_players": 16,
+        "avg_bets_per_player": 25.19
+      },
+      {
+        "bets": 414,
+        "wins": 231,
+        "losses": 182,
+        "pushes": 1,
+        "win_rate": 55.9,
+        "pnl": 197.53,
+        "stake": 41400.0,
+        "roi": 0.5,
+        "mean_edge": 0.1535,
+        "median_edge": 0.1465,
+        "bucket": "(33.0, 108.0]",
+        "unique_players": 7,
+        "avg_bets_per_player": 68.57
+      }
+    ],
+    "top_players_by_bets": [
+      {
+        "player": "Ram\u00edrez, Jos\u00e9",
+        "bets": 108,
+        "win_rate": 56.5,
+        "roi": 1.9,
+        "mean_edge": 0.1493
+      },
+      {
+        "player": "Lindor, Francisco",
+        "bets": 74,
+        "win_rate": 62.2,
+        "roi": 10.9,
+        "mean_edge": 0.1404
+      },
+      {
+        "player": "Edwards, Xavier",
+        "bets": 60,
+        "win_rate": 60.0,
+        "roi": 4.2,
+        "mean_edge": 0.1599
+      },
+      {
+        "player": "De La Cruz, Elly",
+        "bets": 54,
+        "win_rate": 53.7,
+        "roi": -3.4,
+        "mean_edge": 0.1614
+      },
+      {
+        "player": "Marte, Ketel",
+        "bets": 47,
+        "win_rate": 53.2,
+        "roi": -0.3,
+        "mean_edge": 0.1527
+      },
+      {
+        "player": "Reynolds, Bryan",
+        "bets": 37,
+        "win_rate": 44.4,
+        "roi": -20.5,
+        "mean_edge": 0.1592
+      },
+      {
+        "player": "Raleigh, Cal",
+        "bets": 34,
+        "win_rate": 52.9,
+        "roi": -3.1,
+        "mean_edge": 0.167
+      },
+      {
+        "player": "Gore, MacKenzie",
+        "bets": 33,
+        "win_rate": 63.6,
+        "roi": 24.4,
+        "mean_edge": 0.1969
+      },
+      {
+        "player": "Duran, Jarren",
+        "bets": 29,
+        "win_rate": 51.7,
+        "roi": -2.3,
+        "mean_edge": 0.1466
+      },
+      {
+        "player": "Irvin, Jake",
+        "bets": 27,
+        "win_rate": 61.5,
+        "roi": 12.6,
+        "mean_edge": 0.1733
+      },
+      {
+        "player": "Albies, Ozzie",
+        "bets": 27,
+        "win_rate": 74.1,
+        "roi": 30.9,
+        "mean_edge": 0.1746
+      },
+      {
+        "player": "Bello, Brayan",
+        "bets": 26,
+        "win_rate": 50.0,
+        "roi": -0.9,
+        "mean_edge": 0.1873
+      },
+      {
+        "player": "Witt, Bobby",
+        "bets": 26,
+        "win_rate": 46.2,
+        "roi": -13.3,
+        "mean_edge": 0.1358
+      },
+      {
+        "player": "Littell, Zack",
+        "bets": 25,
+        "win_rate": 68.0,
+        "roi": 40.8,
+        "mean_edge": 0.2037
+      },
+      {
+        "player": "Crochet, Garrett",
+        "bets": 25,
+        "win_rate": 52.0,
+        "roi": 3.7,
+        "mean_edge": 0.1727
+      },
+      {
+        "player": "Pepiot, Ryan",
+        "bets": 24,
+        "win_rate": 50.0,
+        "roi": -2.1,
+        "mean_edge": 0.1811
+      },
+      {
+        "player": "Boyd, Matthew",
+        "bets": 23,
+        "win_rate": 47.8,
+        "roi": -0.0,
+        "mean_edge": 0.1673
+      },
+      {
+        "player": "Bibee, Tanner",
+        "bets": 22,
+        "win_rate": 70.0,
+        "roi": 36.5,
+        "mean_edge": 0.1753
+      },
+      {
+        "player": "Berr\u00edos, Jos\u00e9",
+        "bets": 22,
+        "win_rate": 59.1,
+        "roi": 17.5,
+        "mean_edge": 0.1666
+      },
+      {
+        "player": "Kremer, Dean",
+        "bets": 22,
+        "win_rate": 54.5,
+        "roi": 6.7,
+        "mean_edge": 0.1555
+      }
+    ],
+    "top_player_bet_share": {
+      "top_10_players": 0.1197,
+      "top_25_players": 0.1773,
+      "top_50_players": 0.1773,
+      "top_100_players": 0.1773
+    },
+    "tracked_players": [
+      {
+        "player": "Ohtani, Shohei",
+        "bets": 14,
+        "wins": 9,
+        "losses": 5,
+        "pushes": 0,
+        "win_rate": 64.3,
+        "roi": 15.2,
+        "mean_edge": 0.1548,
+        "median_edge": 0.137,
+        "markets": {
+          "batter_total_bases": 9,
+          "batter_hits": 3,
+          "pitcher_strikeouts": 2
+        }
+      },
+      {
+        "player": "Judge, Aaron",
+        "bets": 19,
+        "wins": 8,
+        "losses": 11,
+        "pushes": 0,
+        "win_rate": 42.1,
+        "roi": -20.2,
+        "mean_edge": 0.1771,
+        "median_edge": 0.165,
+        "markets": {
+          "batter_total_bases": 17,
+          "batter_hits": 2
+        }
+      }
+    ]
+  },
   "recent": [
     {
       "date": "2025-09-30",

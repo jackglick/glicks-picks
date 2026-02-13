@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.394139+00:00",
+  "generated_at": "2026-02-13T16:51:04.485929+00:00",
   "date": "2025-07-03",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 3,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "win",
+      "actual": 1,
+      "pnl": 86.96
     },
     {
       "player": "Schneider, Davis",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 777260
+      "game_pk": 777260,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Schneider, Davis",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 777260
+      "game_pk": 777260,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Altuve, Jos\u00e9",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 121,
       "stars": 2,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Altuve, Jos\u00e9",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Irvin, Jake",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 777258
+      "game_pk": 777258,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Meyers, Jake",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Peterson, David",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": 115,
       "stars": 2,
-      "game_pk": 777257
+      "game_pk": 777257,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Schmidt, Clarke",
@@ -144,7 +168,10 @@
       "best_book": "fanduel",
       "best_price": 116,
       "stars": 2,
-      "game_pk": 777260
+      "game_pk": 777260,
+      "result": "win",
+      "actual": 9,
+      "pnl": 116.0
     },
     {
       "player": "Diaz, Yainer",
@@ -160,7 +187,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "win",
+      "actual": 1,
+      "pnl": 120.0
     },
     {
       "player": "Diaz, Yainer",
@@ -176,7 +206,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
     },
     {
       "player": "Festa, David",
@@ -192,7 +225,10 @@
       "best_book": "fanduel",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777263
+      "game_pk": 777263,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Grichuk, Randal",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777256
+      "game_pk": 777256,
+      "result": "win",
+      "actual": 0,
+      "pnl": 71.43
     },
     {
       "player": "Irvin, Jake",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 777258
+      "game_pk": 777258,
+      "result": "win",
+      "actual": 4,
+      "pnl": 74.07
     },
     {
       "player": "Keith, Colt",
@@ -240,7 +282,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777258
+      "game_pk": 777258,
+      "result": "win",
+      "actual": 1,
+      "pnl": 86.96
     },
     {
       "player": "Lindor, Francisco",
@@ -256,7 +301,10 @@
       "best_book": "williamhill_us",
       "best_price": -137,
       "stars": 1,
-      "game_pk": 777257
+      "game_pk": 777257,
+      "result": "win",
+      "actual": 1,
+      "pnl": 72.99
     },
     {
       "player": "Meyers, Jake",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Paredes, Isaac",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "P\u00e9rez, Eury",
@@ -304,7 +358,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777263
+      "game_pk": 777263,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "P\u00e9rez, Eury",
@@ -320,7 +377,10 @@
       "best_book": "bovada",
       "best_price": 150,
       "stars": 1,
-      "game_pk": 777263
+      "game_pk": 777263,
+      "result": "win",
+      "actual": 1,
+      "pnl": 150.0
     },
     {
       "player": "Quintana, Jose",
@@ -336,7 +396,10 @@
       "best_book": "fanduel",
       "best_price": 128,
       "stars": 1,
-      "game_pk": 777257
+      "game_pk": 777257,
+      "result": "win",
+      "actual": 3,
+      "pnl": 128.0
     },
     {
       "player": "Quintana, Jose",
@@ -352,7 +415,10 @@
       "best_book": "fanduel",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777257
+      "game_pk": 777257,
+      "result": "win",
+      "actual": 16,
+      "pnl": 100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -368,7 +434,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777259
+      "game_pk": 777259,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Ritter, Ryan",
@@ -384,7 +453,10 @@
       "best_book": "betonlineag",
       "best_price": 113,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "win",
+      "actual": 1,
+      "pnl": 113.0
     },
     {
       "player": "Smith, Cam",
@@ -400,7 +472,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Walker, Christian",
@@ -416,7 +491,10 @@
       "best_book": "williamhill_us",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "win",
+      "actual": 1,
+      "pnl": 100.0
     },
     {
       "player": "Whitcomb, Shay",
@@ -432,7 +510,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777264
+      "game_pk": 777264,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     }
   ]
 }

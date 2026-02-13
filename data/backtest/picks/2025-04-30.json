@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.325632+00:00",
+  "generated_at": "2026-02-13T16:51:04.402979+00:00",
   "date": "2025-04-30",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanduel",
       "best_price": 110,
       "stars": 3,
-      "game_pk": 778112
+      "game_pk": 778112,
+      "result": "win",
+      "actual": 12,
+      "pnl": 110.0
     },
     {
       "player": "Albies, Ozzie",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 778102
+      "game_pk": 778102,
+      "result": "win",
+      "actual": 1,
+      "pnl": 86.96
     },
     {
       "player": "De La Cruz, Elly",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 778134
+      "game_pk": 778134,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "De La Cruz, Elly",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 778119
+      "game_pk": 778119,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Happ, Ian",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 778112
+      "game_pk": 778112,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Irvin, Jake",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 778118
+      "game_pk": 778118,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 778112
+      "game_pk": 778112,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Anderson, Tyler",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778104
+      "game_pk": 778104,
+      "result": "win",
+      "actual": 2,
+      "pnl": 83.33
     },
     {
       "player": "Bichette, Bo",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778114
+      "game_pk": 778114,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Boyd, Matthew",
@@ -160,7 +187,10 @@
       "best_book": "fanduel",
       "best_price": 112,
       "stars": 1,
-      "game_pk": 778112
+      "game_pk": 778112,
+      "result": "win",
+      "actual": 15,
+      "pnl": 112.0
     },
     {
       "player": "Burnes, Corbin",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778117
+      "game_pk": 778117,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Freeman, Freddie",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778109
+      "game_pk": 778109,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Hancock, Emerson",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778104
+      "game_pk": 778104,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Harris, Michael",
@@ -224,7 +263,10 @@
       "best_book": "betonlineag",
       "best_price": -109,
       "stars": 1,
-      "game_pk": 778102
+      "game_pk": 778102,
+      "result": "win",
+      "actual": 0,
+      "pnl": 91.74
     },
     {
       "player": "King, Michael",
@@ -240,7 +282,10 @@
       "best_book": "betonlineag",
       "best_price": 135,
       "stars": 1,
-      "game_pk": 778105
+      "game_pk": 778105,
+      "result": "win",
+      "actual": 16,
+      "pnl": 135.0
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778112
+      "game_pk": 778112,
+      "result": "win",
+      "actual": 2,
+      "pnl": 95.24
     },
     {
       "player": "Quantrill, Cal",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 778109
+      "game_pk": 778109,
+      "result": "win",
+      "actual": 11,
+      "pnl": 105.0
     },
     {
       "player": "Sale, Chris",
@@ -288,7 +339,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 778102
+      "game_pk": 778102,
+      "result": "win",
+      "actual": 2,
+      "pnl": 71.43
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.371146+00:00",
+  "generated_at": "2026-02-13T16:51:04.461527+00:00",
   "date": "2025-06-09",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanduel",
       "best_price": -122,
       "stars": 3,
-      "game_pk": 777584
+      "game_pk": 777584,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Pallante, Andre",
@@ -32,7 +35,10 @@
       "best_book": "fanduel",
       "best_price": 106,
       "stars": 3,
-      "game_pk": 777581
+      "game_pk": 777581,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 777581
+      "game_pk": 777581,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 777580
+      "game_pk": 777580,
+      "result": "win",
+      "actual": 1,
+      "pnl": 100.0
     },
     {
       "player": "Acu\u00f1a, Ronald",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 777575
+      "game_pk": 777575,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Baz, Shane",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777584
+      "game_pk": 777584,
+      "result": "win",
+      "actual": 16,
+      "pnl": 80.0
     },
     {
       "player": "Boyd, Matthew",
@@ -112,7 +130,10 @@
       "best_book": "fanduel",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 777578
+      "game_pk": 777578,
+      "result": "win",
+      "actual": 16,
+      "pnl": 87.72
     },
     {
       "player": "Civale, Aaron",
@@ -128,7 +149,10 @@
       "best_book": "fanduel",
       "best_price": -142,
       "stars": 1,
-      "game_pk": 777575
+      "game_pk": 777575,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777580
+      "game_pk": 777580,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Miley, Wade",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 777580
+      "game_pk": 777580,
+      "result": "win",
+      "actual": 2,
+      "pnl": 105.0
     },
     {
       "player": "Ortiz, Luis",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777580
+      "game_pk": 777580,
+      "result": "win",
+      "actual": 14,
+      "pnl": 95.24
     }
   ]
 }

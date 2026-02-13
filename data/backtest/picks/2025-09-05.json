@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.449126+00:00",
+  "generated_at": "2026-02-13T16:51:04.547152+00:00",
   "date": "2025-09-05",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776456
+      "game_pk": 776456,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "Steer, Spencer",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 133,
       "stars": 3,
-      "game_pk": 776450
+      "game_pk": 776450,
+      "result": "win",
+      "actual": 1,
+      "pnl": 133.0
     },
     {
       "player": "Gilbert, Logan",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 776460
+      "game_pk": 776460,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Williams, Gavin",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776451
+      "game_pk": 776451,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Abbott, Andrew",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776450
+      "game_pk": 776450,
+      "result": "win",
+      "actual": 14,
+      "pnl": 76.92
     },
     {
       "player": "Happ, Ian",
@@ -96,7 +111,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776455
+      "game_pk": 776455,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Hoerner, Nico",
@@ -112,7 +130,10 @@
       "best_book": "williamhill_us",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776455
+      "game_pk": 776455,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Irvin, Jake",
@@ -128,7 +149,10 @@
       "best_book": "fanduel",
       "best_price": -146,
       "stars": 1,
-      "game_pk": 776455
+      "game_pk": 776455,
+      "result": "win",
+      "actual": 2,
+      "pnl": 68.49
     },
     {
       "player": "Lindor, Francisco",
@@ -144,7 +168,10 @@
       "best_book": "williamhill_us",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776450
+      "game_pk": 776450,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Priester, Quinn",
@@ -160,7 +187,10 @@
       "best_book": "fanduel",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776453
+      "game_pk": 776453,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Wacha, Michael",
@@ -176,7 +206,10 @@
       "best_book": "betonlineag",
       "best_price": -132,
       "stars": 1,
-      "game_pk": 776446
+      "game_pk": 776446,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.391367+00:00",
+  "generated_at": "2026-02-13T16:51:04.482898+00:00",
   "date": "2025-06-30",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanduel",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 777295
+      "game_pk": 777295,
+      "result": "win",
+      "actual": 15,
+      "pnl": 120.0
     },
     {
       "player": "Crochet, Garrett",
@@ -32,7 +35,10 @@
       "best_book": "fanduel",
       "best_price": -118,
       "stars": 1,
-      "game_pk": 777300
+      "game_pk": 777300,
+      "result": "win",
+      "actual": 18,
+      "pnl": 84.75
     },
     {
       "player": "Reynolds, Bryan",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777299
+      "game_pk": 777299,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Scherzer, Max",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777295
+      "game_pk": 777295,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Scherzer, Max",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": 135,
       "stars": 1,
-      "game_pk": 777295
+      "game_pk": 777295,
+      "result": "win",
+      "actual": 0,
+      "pnl": 135.0
     },
     {
       "player": "Toro, Abraham",
@@ -96,7 +111,10 @@
       "best_book": "betonlineag",
       "best_price": -149,
       "stars": 1,
-      "game_pk": 777300
+      "game_pk": 777300,
+      "result": "win",
+      "actual": 1,
+      "pnl": 67.11
     }
   ]
 }

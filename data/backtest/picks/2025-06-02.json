@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.364527+00:00",
+  "generated_at": "2026-02-13T16:51:04.454373+00:00",
   "date": "2025-06-02",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 777674
+      "game_pk": 777674,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Fraley, Jake",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 3,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 0,
+      "pnl": 110.0
     },
     {
       "player": "Lux, Gavin",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 1,
+      "pnl": 140.0
     },
     {
       "player": "Meyer, Max",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 777673
+      "game_pk": 777673,
+      "result": "win",
+      "actual": 14,
+      "pnl": 150.0
     },
     {
       "player": "Steer, Spencer",
@@ -80,7 +92,10 @@
       "best_book": "williamhill_us",
       "best_price": 139,
       "stars": 3,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 1,
+      "pnl": 139.0
     },
     {
       "player": "Benson, Will",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Edwards, Xavier",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 777673
+      "game_pk": 777673,
+      "result": "win",
+      "actual": 1,
+      "pnl": 76.92
     },
     {
       "player": "Hoskins, Rhys",
@@ -128,7 +149,10 @@
       "best_book": "williamhill_us",
       "best_price": 133,
       "stars": 2,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 0,
+      "pnl": 133.0
     },
     {
       "player": "Civale, Aaron",
@@ -144,7 +168,10 @@
       "best_book": "fanduel",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "De La Cruz, Elly",
@@ -160,7 +187,10 @@
       "best_book": "williamhill_us",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "M\u00e1rquez, Germ\u00e1n",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777673
+      "game_pk": 777673,
+      "result": "win",
+      "actual": 15,
+      "pnl": 80.0
     },
     {
       "player": "Singer, Brady",
@@ -192,7 +225,10 @@
       "best_book": "fanduel",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 4,
+      "pnl": 76.92
     },
     {
       "player": "Singer, Brady",
@@ -208,7 +244,10 @@
       "best_book": "fanduel",
       "best_price": -104,
       "stars": 1,
-      "game_pk": 777671
+      "game_pk": 777671,
+      "result": "win",
+      "actual": 15,
+      "pnl": 96.15
     }
   ]
 }

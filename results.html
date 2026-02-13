@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; form-action 'self'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; form-action 'self'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Track Record — Glick's Picks</title>
   <meta name="description" content="Glick's Picks track record. Win rates, P&L, and performance across seven MLB player prop markets.">
@@ -13,6 +13,7 @@
   <meta property="og:description" content="Backtested MLB player prop performance across seven markets.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://glicks-picks.com/results.html">
+  <meta property="og:image" content="images/hero-bg.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
@@ -23,12 +24,13 @@
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
   <!-- Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 
   <!-- Chart.js -->
-  <script src="js/vendor/chart.umd.min.js"></script>
+  <script defer src="js/vendor/chart.umd.min.js"></script>
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -68,7 +70,7 @@
   </header>
 
   <!-- Mobile Nav -->
-  <div id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+  <nav id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation">
     <a href="picks.html">Today's Picks</a>
     <a href="results.html">Results</a>
     <a href="index.html">Home</a>
@@ -79,7 +81,7 @@
         <span class="env-toggle-slider"></span>
       </label>
     </div>
-  </div>
+  </nav>
 
   <!-- Backtest Banner -->
   <div id="backtest-banner" class="backtest-banner" style="display:none">
@@ -128,6 +130,9 @@
             </div>
           </div>
 
+          <!-- Drawdown & Streak -->
+          <div id="drawdown-streak-row" class="stat-boxes"></div>
+
           <!-- P&L Chart -->
           <div class="results-chart-wrapper reveal">
             <h3>Cumulative P&amp;L</h3>
@@ -136,7 +141,7 @@
           </div>
 
           <!-- Market Breakdown -->
-          <div class="results-table-wrapper reveal">
+          <div class="results-table-wrapper">
             <h3>By Market</h3>
             <div class="results-table-scroll">
               <table class="results-table" id="market-table">
@@ -156,8 +161,14 @@
             </div>
           </div>
 
+          <!-- Star Tier Stats -->
+          <div id="star-tier-stats" class="stats-breakdown"></div>
+
+          <!-- Direction Stats -->
+          <div id="direction-stats" class="stats-breakdown"></div>
+
           <!-- Recent Picks -->
-          <div class="results-table-wrapper reveal">
+          <div class="results-table-wrapper">
             <h3>Recent Picks</h3>
             <div class="results-table-scroll">
               <table class="results-table" id="recent-table">

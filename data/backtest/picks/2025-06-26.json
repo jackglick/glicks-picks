@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.387395+00:00",
+  "generated_at": "2026-02-13T16:51:04.478893+00:00",
   "date": "2025-06-26",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "williamhill_us",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 777356
+      "game_pk": 777356,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Meyers, Jake",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 127,
       "stars": 3,
-      "game_pk": 777350
+      "game_pk": 777350,
+      "result": "win",
+      "actual": 1,
+      "pnl": 127.0
     },
     {
       "player": "Springs, Jeffrey",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 777351
+      "game_pk": 777351,
+      "result": "win",
+      "actual": 15,
+      "pnl": 83.33
     },
     {
       "player": "Brown, Hunter",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 777350
+      "game_pk": 777350,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Garver, Mitch",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 777356
+      "game_pk": 777356,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Hern\u00e1ndez, Enrique",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 777344
+      "game_pk": 777344,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "Mangum, Jake",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 777353
+      "game_pk": 777353,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Marsh, Brandon",
@@ -128,7 +149,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 777350
+      "game_pk": 777350,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Smith, Will",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 777344
+      "game_pk": 777344,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "S\u00e1nchez, Cristopher",
@@ -160,7 +187,10 @@
       "best_book": "betonlineag",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 777350
+      "game_pk": 777350,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Edman, Tommy",
@@ -176,7 +206,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777344
+      "game_pk": 777344,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Freeman, Freddie",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 777344
+      "game_pk": 777344,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "Kepler, Max",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777350
+      "game_pk": 777350,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Lindor, Francisco",
@@ -224,7 +263,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777352
+      "game_pk": 777352,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     },
     {
       "player": "Ohtani, Shohei",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777344
+      "game_pk": 777344,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Ohtani, Shohei",
@@ -256,7 +301,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777344
+      "game_pk": 777344,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -272,7 +320,10 @@
       "best_book": "betonlineag",
       "best_price": -133,
       "stars": 1,
-      "game_pk": 777354
+      "game_pk": 777354,
+      "result": "win",
+      "actual": 0,
+      "pnl": 75.19
     },
     {
       "player": "Toglia, Michael",
@@ -288,7 +339,10 @@
       "best_book": "williamhill_us",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777344
+      "game_pk": 777344,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Yastrzemski, Mike",
@@ -304,7 +358,10 @@
       "best_book": "betonlineag",
       "best_price": 132,
       "stars": 1,
-      "game_pk": 777347
+      "game_pk": 777347,
+      "result": "win",
+      "actual": 0,
+      "pnl": 132.0
     }
   ]
 }

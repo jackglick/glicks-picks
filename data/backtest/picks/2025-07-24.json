@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.411104+00:00",
+  "generated_at": "2026-02-13T16:51:04.505490+00:00",
   "date": "2025-07-24",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 777019
+      "game_pk": 777019,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Allen, Logan",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777019
+      "game_pk": 777019,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Lauer, Eric",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 777021
+      "game_pk": 777021,
+      "result": "loss",
+      "actual": 0,
+      "pnl": -100.0
     },
     {
       "player": "Lukes, Nathan",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777021
+      "game_pk": 777021,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -80,7 +92,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777019
+      "game_pk": 777019,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Olson, Reese",
@@ -96,7 +111,10 @@
       "best_book": "fanduel",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777021
+      "game_pk": 777021,
+      "result": "win",
+      "actual": 4,
+      "pnl": 71.43
     }
   ]
 }

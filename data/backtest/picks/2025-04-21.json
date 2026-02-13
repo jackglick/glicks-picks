@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.317036+00:00",
+  "generated_at": "2026-02-13T16:51:04.394177+00:00",
   "date": "2025-04-21",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 778233
+      "game_pk": 778233,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Lodolo, Nick",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 778230
+      "game_pk": 778230,
+      "result": "win",
+      "actual": 16,
+      "pnl": 135.0
     },
     {
       "player": "Buehler, Walker",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 778238
+      "game_pk": 778238,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Duran, Jarren",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 778238
+      "game_pk": 778238,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Buehler, Walker",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778238
+      "game_pk": 778238,
+      "result": "win",
+      "actual": 4,
+      "pnl": 95.24
     },
     {
       "player": "Buehler, Walker",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778238
+      "game_pk": 778238,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Fedde, Erick",
@@ -112,7 +130,10 @@
       "best_book": "betonlineag",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778233
+      "game_pk": 778233,
+      "result": "win",
+      "actual": 3,
+      "pnl": 125.0
     },
     {
       "player": "Lodolo, Nick",
@@ -128,7 +149,10 @@
       "best_book": "betonlineag",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778230
+      "game_pk": 778230,
+      "result": "win",
+      "actual": 4,
+      "pnl": 125.0
     },
     {
       "player": "Meyer, Max",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778230
+      "game_pk": 778230,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Montero, Keider",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778228
+      "game_pk": 778228,
+      "result": "win",
+      "actual": 13,
+      "pnl": 95.24
     },
     {
       "player": "Nola, Aaron",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 778225
+      "game_pk": 778225,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Nola, Aaron",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 778225
+      "game_pk": 778225,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Nola, Aaron",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 778225
+      "game_pk": 778225,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Schmidt, Clarke",
@@ -224,7 +263,10 @@
       "best_book": "fanduel",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778227
+      "game_pk": 778227,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Williams, Gavin",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778227
+      "game_pk": 778227,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     }
   ]
 }

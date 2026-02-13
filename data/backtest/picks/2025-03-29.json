@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.290282+00:00",
+  "generated_at": "2026-02-13T16:51:04.369131+00:00",
   "date": "2025-03-29",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 778529
+      "game_pk": 778529,
+      "result": "win",
+      "actual": 0,
+      "pnl": 115.0
     },
     {
       "player": "Judge, Aaron",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 778538
+      "game_pk": 778538,
+      "result": "loss",
+      "actual": 14,
+      "pnl": -100.0
     },
     {
       "player": "Senzatela, Antonio",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 778537
+      "game_pk": 778537,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Garc\u00eda, Adolis",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": 145,
       "stars": 2,
-      "game_pk": 778531
+      "game_pk": 778531,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Olson, Matt",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778520
+      "game_pk": 778520,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 778539
+      "game_pk": 778539,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Senzatela, Antonio",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 778537
+      "game_pk": 778537,
+      "result": "win",
+      "actual": 0,
+      "pnl": 80.0
     },
     {
       "player": "Soto, Juan",
@@ -128,7 +149,10 @@
       "best_book": "bovada",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 778530
+      "game_pk": 778530,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Verlander, Justin",
@@ -144,7 +168,10 @@
       "best_book": "fanduel",
       "best_price": -102,
       "stars": 2,
-      "game_pk": 778540
+      "game_pk": 778540,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Vientos, Mark",
@@ -160,7 +187,10 @@
       "best_book": "bovada",
       "best_price": 145,
       "stars": 2,
-      "game_pk": 778530
+      "game_pk": 778530,
+      "result": "win",
+      "actual": 0,
+      "pnl": 145.0
     },
     {
       "player": "Witt, Bobby",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 778529
+      "game_pk": 778529,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Alonso, Pete",
@@ -192,7 +225,10 @@
       "best_book": "bovada",
       "best_price": 150,
       "stars": 1,
-      "game_pk": 778530
+      "game_pk": 778530,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Bichette, Bo",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 778536
+      "game_pk": 778536,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Carroll, Corbin",
@@ -224,7 +263,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778532
+      "game_pk": 778532,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Chapman, Matt",
@@ -240,7 +282,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778540
+      "game_pk": 778540,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Cruz, Oneil",
@@ -256,7 +301,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778539
+      "game_pk": 778539,
+      "result": "win",
+      "actual": 0,
+      "pnl": 80.0
     },
     {
       "player": "Duran, Jarren",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778531
+      "game_pk": 778531,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "D\u00edaz, Yandy",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778537
+      "game_pk": 778537,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Encarnacion-Strand, Christian",
@@ -304,7 +358,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778540
+      "game_pk": 778540,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Falter, Bailey",
@@ -320,7 +377,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 1,
-      "game_pk": 778539
+      "game_pk": 778539,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Fedde, Erick",
@@ -336,7 +396,10 @@
       "best_book": "betmgm",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 778528
+      "game_pk": 778528,
+      "result": "win",
+      "actual": 2,
+      "pnl": 100.0
     },
     {
       "player": "Goldschmidt, Paul",
@@ -352,7 +415,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778538
+      "game_pk": 778538,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Harper, Bryce",
@@ -368,7 +434,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778535
+      "game_pk": 778535,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ramos, Heliot",
@@ -384,7 +453,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778540
+      "game_pk": 778540,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -400,7 +472,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778529
+      "game_pk": 778529,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     },
     {
       "player": "Scherzer, Max",
@@ -416,7 +491,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 778536
+      "game_pk": 778536,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "Seager, Corey",
@@ -432,7 +510,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778531
+      "game_pk": 778531,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "V\u00e1squez, Randy",
@@ -448,7 +529,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778520
+      "game_pk": 778520,
+      "result": "win",
+      "actual": 3,
+      "pnl": 74.07
     }
   ]
 }

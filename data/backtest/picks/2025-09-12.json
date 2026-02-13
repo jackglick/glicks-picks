@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.454672+00:00",
+  "generated_at": "2026-02-13T16:51:04.553268+00:00",
   "date": "2025-09-12",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 776352
+      "game_pk": 776352,
+      "result": "win",
+      "actual": 14,
+      "pnl": 150.0
     },
     {
       "player": "Bell, Josh",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 776351
+      "game_pk": 776351,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Bibee, Tanner",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 776361
+      "game_pk": 776361,
+      "result": "loss",
+      "actual": 27,
+      "pnl": -100.0
     },
     {
       "player": "Fry, David",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": 134,
       "stars": 2,
-      "game_pk": 776361
+      "game_pk": 776361,
+      "result": "push",
+      "actual": 1,
+      "pnl": 0.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -80,7 +92,10 @@
       "best_book": "williamhill_us",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 776361
+      "game_pk": 776361,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Rogers, Trevor",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 134,
       "stars": 2,
-      "game_pk": 776353
+      "game_pk": 776353,
+      "result": "win",
+      "actual": 15,
+      "pnl": 134.0
     },
     {
       "player": "Skubal, Tarik",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": -111,
       "stars": 2,
-      "game_pk": 776366
+      "game_pk": 776366,
+      "result": "win",
+      "actual": 10,
+      "pnl": 90.09
     },
     {
       "player": "Bassitt, Chris",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 776353
+      "game_pk": 776353,
+      "result": "win",
+      "actual": 15,
+      "pnl": 115.0
     },
     {
       "player": "Keller, Mitch",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776351
+      "game_pk": 776351,
+      "result": "win",
+      "actual": 16,
+      "pnl": 80.0
     },
     {
       "player": "Lord, Brad",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 776351
+      "game_pk": 776351,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     }
   ]
 }

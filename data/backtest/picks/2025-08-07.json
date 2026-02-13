@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.424357+00:00",
+  "generated_at": "2026-02-13T16:51:04.519868+00:00",
   "date": "2025-08-07",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776842
+      "game_pk": 776842,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Gilbert, Logan",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": 150,
       "stars": 2,
-      "game_pk": 776830
+      "game_pk": 776830,
+      "result": "win",
+      "actual": 15,
+      "pnl": 150.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 2,
-      "game_pk": 776840
+      "game_pk": 776840,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Smith, Shane",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 776830
+      "game_pk": 776830,
+      "result": "loss",
+      "actual": 15,
+      "pnl": -100.0
     },
     {
       "player": "Skenes, Paul",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 776840
+      "game_pk": 776840,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.331978+00:00",
+  "generated_at": "2026-02-13T16:51:04.409187+00:00",
   "date": "2025-05-06",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 778034
+      "game_pk": 778034,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Arias, Gabriel",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 778026
+      "game_pk": 778026,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Arias, Gabriel",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 778046
+      "game_pk": 778046,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Larnach, Trevor",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 778028
+      "game_pk": 778028,
+      "result": "win",
+      "actual": 1,
+      "pnl": 140.0
     },
     {
       "player": "Peraza, Oswald",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 778041
+      "game_pk": 778041,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Rortvedt, Ben",
@@ -96,7 +111,10 @@
       "best_book": "betonlineag",
       "best_price": -127,
       "stars": 3,
-      "game_pk": 778040
+      "game_pk": 778040,
+      "result": "win",
+      "actual": 1,
+      "pnl": 78.74
     },
     {
       "player": "Giolito, Lucas",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 778037
+      "game_pk": 778037,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Gonsolin, Tony",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 778035
+      "game_pk": 778035,
+      "result": "win",
+      "actual": 15,
+      "pnl": 90.91
     },
     {
       "player": "Povich, Cade",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 778028
+      "game_pk": 778028,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Sale, Chris",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 778034
+      "game_pk": 778034,
+      "result": "win",
+      "actual": 0,
+      "pnl": 125.0
     },
     {
       "player": "Sale, Chris",
@@ -176,7 +206,10 @@
       "best_book": "betonlineag",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778034
+      "game_pk": 778034,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Wheeler, Zack",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778040
+      "game_pk": 778040,
+      "result": "win",
+      "actual": 2,
+      "pnl": 120.0
     },
     {
       "player": "Correa, Carlos",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778028
+      "game_pk": 778028,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Liberatore, Matthew",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778030
+      "game_pk": 778030,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -240,7 +282,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778032
+      "game_pk": 778032,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "L\u00f3pez, Pablo",
@@ -256,7 +301,10 @@
       "best_book": "fanduel",
       "best_price": 126,
       "stars": 1,
-      "game_pk": 778028
+      "game_pk": 778028,
+      "result": "win",
+      "actual": 15,
+      "pnl": 126.0
     },
     {
       "player": "Ortiz, Luis",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 778026
+      "game_pk": 778026,
+      "result": "win",
+      "actual": 5,
+      "pnl": 120.0
     },
     {
       "player": "Quantrill, Cal",
@@ -288,7 +339,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778035
+      "game_pk": 778035,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -304,7 +358,10 @@
       "best_book": "betonlineag",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778046
+      "game_pk": 778046,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -320,7 +377,10 @@
       "best_book": "betonlineag",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778026
+      "game_pk": 778026,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
     },
     {
       "player": "Rortvedt, Ben",
@@ -336,7 +396,10 @@
       "best_book": "betonlineag",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778040
+      "game_pk": 778040,
+      "result": "win",
+      "actual": 1,
+      "pnl": 76.92
     },
     {
       "player": "Rutschman, Adley",
@@ -352,7 +415,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778028
+      "game_pk": 778028,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.372918+00:00",
+  "generated_at": "2026-02-13T16:51:04.463512+00:00",
   "date": "2025-06-11",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 777548
+      "game_pk": 777548,
+      "result": "win",
+      "actual": 0,
+      "pnl": 145.0
     },
     {
       "player": "Eflin, Zach",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 777562
+      "game_pk": 777562,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Hendricks, Kyle",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 777542
+      "game_pk": 777542,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Rengifo, Luis",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 136,
       "stars": 3,
-      "game_pk": 777542
+      "game_pk": 777542,
+      "result": "win",
+      "actual": 1,
+      "pnl": 136.0
     },
     {
       "player": "Woo, Bryan",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 777548
+      "game_pk": 777548,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Acu\u00f1a, Ronald",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 777554
+      "game_pk": 777554,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 777555
+      "game_pk": 777555,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Littell, Zack",
@@ -128,7 +149,10 @@
       "best_book": "fanduel",
       "best_price": -114,
       "stars": 2,
-      "game_pk": 777561
+      "game_pk": 777561,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Patrick, Chad",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 777554
+      "game_pk": 777554,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 777549
+      "game_pk": 777549,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -176,7 +206,10 @@
       "best_book": "williamhill_us",
       "best_price": -137,
       "stars": 2,
-      "game_pk": 777552
+      "game_pk": 777552,
+      "result": "win",
+      "actual": 0,
+      "pnl": 72.99
     },
     {
       "player": "Schmidt, Clarke",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 777551
+      "game_pk": 777551,
+      "result": "win",
+      "actual": 17,
+      "pnl": 83.33
     },
     {
       "player": "Sears, JP",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 777542
+      "game_pk": 777542,
+      "result": "win",
+      "actual": 16,
+      "pnl": 100.0
     },
     {
       "player": "Smith, Will",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 777543
+      "game_pk": 777543,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Adames, Willy",
@@ -240,7 +282,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 777547
+      "game_pk": 777547,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Espinal, Santiago",
@@ -256,7 +301,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777549
+      "game_pk": 777549,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     },
     {
       "player": "Fitzgerald, Tyler",
@@ -272,7 +320,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777547
+      "game_pk": 777547,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Mangum, Jake",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777561
+      "game_pk": 777561,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ramos, Heliot",
@@ -304,7 +358,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777547
+      "game_pk": 777547,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Ramos, Heliot",
@@ -320,7 +377,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 777547
+      "game_pk": 777547,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Smith, Dominic",
@@ -336,7 +396,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777547
+      "game_pk": 777547,
+      "result": "win",
+      "actual": 1,
+      "pnl": 86.96
     },
     {
       "player": "Soler, Jorge",
@@ -352,7 +415,10 @@
       "best_book": "draftkings",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 777542
+      "game_pk": 777542,
+      "result": "win",
+      "actual": 1,
+      "pnl": 76.92
     },
     {
       "player": "Toro, Abraham",
@@ -368,7 +434,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777561
+      "game_pk": 777561,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.397780+00:00",
+  "generated_at": "2026-02-13T16:51:04.489768+00:00",
   "date": "2025-07-07",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "williamhill_us",
       "best_price": 126,
       "stars": 3,
-      "game_pk": 777211
+      "game_pk": 777211,
+      "result": "win",
+      "actual": 0,
+      "pnl": 126.0
     },
     {
       "player": "Hernandez, Heriberto",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777208
+      "game_pk": 777208,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "McKinstry, Zach",
@@ -48,7 +54,10 @@
       "best_book": "williamhill_us",
       "best_price": 126,
       "stars": 3,
-      "game_pk": 777211
+      "game_pk": 777211,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Baz, Shane",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 777211
+      "game_pk": 777211,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 777212
+      "game_pk": 777212,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "De La Cruz, Elly",
@@ -96,7 +111,10 @@
       "best_book": "williamhill_us",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 777208
+      "game_pk": 777208,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Mangum, Jake",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 777211
+      "game_pk": 777211,
+      "result": "win",
+      "actual": 0,
+      "pnl": 80.0
     },
     {
       "player": "Edwards, Xavier",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777208
+      "game_pk": 777208,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Heaney, Andrew",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777204
+      "game_pk": 777204,
+      "result": "win",
+      "actual": 2,
+      "pnl": 100.0
     },
     {
       "player": "Toro, Abraham",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777209
+      "game_pk": 777209,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

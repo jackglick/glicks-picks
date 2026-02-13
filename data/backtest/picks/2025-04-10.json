@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.303195+00:00",
+  "generated_at": "2026-02-13T16:51:04.381939+00:00",
   "date": "2025-04-10",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 2,
-      "game_pk": 778384
+      "game_pk": 778384,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Bassitt, Chris",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 778377
+      "game_pk": 778377,
+      "result": "win",
+      "actual": 17,
+      "pnl": 110.0
     },
     {
       "player": "Chourio, Jackson",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 778371
+      "game_pk": 778371,
+      "result": "win",
+      "actual": 1,
+      "pnl": 105.0
     },
     {
       "player": "Chourio, Jackson",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 778371
+      "game_pk": 778371,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     },
     {
       "player": "Duran, Jarren",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 778377
+      "game_pk": 778377,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Littell, Zack",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 778382
+      "game_pk": 778382,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Bichette, Bo",
@@ -112,7 +130,10 @@
       "best_book": "williamhill_us",
       "best_price": -117,
       "stars": 1,
-      "game_pk": 778377
+      "game_pk": 778377,
+      "result": "win",
+      "actual": 1,
+      "pnl": 85.47
     },
     {
       "player": "Contreras, William",
@@ -128,7 +149,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778371
+      "game_pk": 778371,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Doyle, Brenton",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778371
+      "game_pk": 778371,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Guerrero, Vladimir",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778377
+      "game_pk": 778377,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Littell, Zack",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778382
+      "game_pk": 778382,
+      "result": "win",
+      "actual": 12,
+      "pnl": 95.24
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778378
+      "game_pk": 778378,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     },
     {
       "player": "Turang, Brice",
@@ -208,7 +244,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778371
+      "game_pk": 778371,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Turang, Brice",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778371
+      "game_pk": 778371,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Wacha, Michael",
@@ -240,7 +282,10 @@
       "best_book": "betonlineag",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 778373
+      "game_pk": 778373,
+      "result": "win",
+      "actual": 16,
+      "pnl": 100.0
     },
     {
       "player": "Williams, Gavin",
@@ -256,7 +301,10 @@
       "best_book": "fanatics",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 778378
+      "game_pk": 778378,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Witt, Bobby",
@@ -272,7 +320,10 @@
       "best_book": "williamhill_us",
       "best_price": -129,
       "stars": 1,
-      "game_pk": 778373
+      "game_pk": 778373,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Yelich, Christian",
@@ -288,7 +339,10 @@
       "best_book": "williamhill_us",
       "best_price": -113,
       "stars": 1,
-      "game_pk": 778371
+      "game_pk": 778371,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

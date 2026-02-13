@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.296168+00:00",
+  "generated_at": "2026-02-13T16:51:04.375577+00:00",
   "date": "2025-04-04",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 778458
+      "game_pk": 778458,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Pfaadt, Brandon",
@@ -32,7 +35,10 @@
       "best_book": "fanduel",
       "best_price": -122,
       "stars": 3,
-      "game_pk": 778457
+      "game_pk": 778457,
+      "result": "win",
+      "actual": 4,
+      "pnl": 81.97
     },
     {
       "player": "Yamamoto, Yoshinobu",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 778459
+      "game_pk": 778459,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Clement, Ernie",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778465
+      "game_pk": 778465,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Gausman, Kevin",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 778465
+      "game_pk": 778465,
+      "result": "win",
+      "actual": 16,
+      "pnl": 130.0
     },
     {
       "player": "Yamamoto, Yoshinobu",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778459
+      "game_pk": 778459,
+      "result": "win",
+      "actual": 5,
+      "pnl": 120.0
     },
     {
       "player": "Yamamoto, Yoshinobu",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778459
+      "game_pk": 778459,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Cannon, Jonathan",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778458
+      "game_pk": 778458,
+      "result": "win",
+      "actual": 3,
+      "pnl": 95.24
     },
     {
       "player": "Fedde, Erick",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 778463
+      "game_pk": 778463,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "Gausman, Kevin",
@@ -160,7 +187,10 @@
       "best_book": "bovada",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778465
+      "game_pk": 778465,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Lugo, Seth",
@@ -176,7 +206,10 @@
       "best_book": "bovada",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 778455
+      "game_pk": 778455,
+      "result": "win",
+      "actual": 1,
+      "pnl": 140.0
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778459
+      "game_pk": 778459,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Perdomo, Geraldo",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 778457
+      "game_pk": 778457,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Verlander, Justin",
@@ -224,7 +263,10 @@
       "best_book": "fanduel",
       "best_price": -122,
       "stars": 1,
-      "game_pk": 778444
+      "game_pk": 778444,
+      "result": "win",
+      "actual": 2,
+      "pnl": 81.97
     },
     {
       "player": "V\u00e1squez, Randy",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778460
+      "game_pk": 778460,
+      "result": "win",
+      "actual": 2,
+      "pnl": 125.0
     },
     {
       "player": "V\u00e1squez, Randy",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778460
+      "game_pk": 778460,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     }
   ]
 }

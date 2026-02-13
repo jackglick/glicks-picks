@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.299673+00:00",
+  "generated_at": "2026-02-13T16:51:04.378849+00:00",
   "date": "2025-04-07",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 778426
+      "game_pk": 778426,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Duran, Jarren",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 3,
-      "game_pk": 778426
+      "game_pk": 778426,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Gore, MacKenzie",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 3,
-      "game_pk": 778418
+      "game_pk": 778418,
+      "result": "win",
+      "actual": 5,
+      "pnl": 110.0
     },
     {
       "player": "Guerrero, Vladimir",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -121,
       "stars": 3,
-      "game_pk": 778426
+      "game_pk": 778426,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Judge, Aaron",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": 105,
       "stars": 3,
-      "game_pk": 778424
+      "game_pk": 778424,
+      "result": "win",
+      "actual": 1,
+      "pnl": 105.0
     },
     {
       "player": "Lorenzen, Michael",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 778412
+      "game_pk": 778412,
+      "result": "win",
+      "actual": 5,
+      "pnl": 120.0
     },
     {
       "player": "Lorenzen, Michael",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 3,
-      "game_pk": 778412
+      "game_pk": 778412,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -128,7 +149,10 @@
       "best_book": "betonlineag",
       "best_price": -123,
       "stars": 3,
-      "game_pk": 778415
+      "game_pk": 778415,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Steele, Justin",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 778411
+      "game_pk": 778411,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Witt, Bobby",
@@ -160,7 +187,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 3,
-      "game_pk": 778412
+      "game_pk": 778412,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Betts, Mookie",
@@ -176,7 +206,10 @@
       "best_book": "williamhill_us",
       "best_price": -148,
       "stars": 2,
-      "game_pk": 778418
+      "game_pk": 778418,
+      "result": "win",
+      "actual": 1,
+      "pnl": 67.57
     },
     {
       "player": "Gore, MacKenzie",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 778418
+      "game_pk": 778418,
+      "result": "win",
+      "actual": 2,
+      "pnl": 76.92
     },
     {
       "player": "Hayes, Ke'Bryan",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 778415
+      "game_pk": 778415,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Lorenzen, Michael",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 778412
+      "game_pk": 778412,
+      "result": "win",
+      "actual": 3,
+      "pnl": 86.96
     },
     {
       "player": "May, Dustin",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 2,
-      "game_pk": 778418
+      "game_pk": 778418,
+      "result": "win",
+      "actual": 3,
+      "pnl": 74.07
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 778415
+      "game_pk": 778415,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -272,7 +320,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 778415
+      "game_pk": 778415,
+      "result": "win",
+      "actual": 1,
+      "pnl": 110.0
     },
     {
       "player": "Ohtani, Shohei",
@@ -288,7 +339,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 778418
+      "game_pk": 778418,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Woods Richardson, Simeon",
@@ -304,7 +358,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 778412
+      "game_pk": 778412,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Woods Richardson, Simeon",
@@ -320,7 +377,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 778412
+      "game_pk": 778412,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Bregman, Alex",
@@ -336,7 +396,10 @@
       "best_book": "betonlineag",
       "best_price": -147,
       "stars": 1,
-      "game_pk": 778426
+      "game_pk": 778426,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.03
     },
     {
       "player": "Eovaldi, Nathan",
@@ -352,7 +415,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 778411
+      "game_pk": 778411,
+      "result": "win",
+      "actual": 4,
+      "pnl": 90.91
     },
     {
       "player": "Liberatore, Matthew",
@@ -368,7 +434,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778415
+      "game_pk": 778415,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "May, Dustin",
@@ -384,7 +453,10 @@
       "best_book": "williamhill_us",
       "best_price": 112,
       "stars": 1,
-      "game_pk": 778418
+      "game_pk": 778418,
+      "result": "win",
+      "actual": 1,
+      "pnl": 112.0
     },
     {
       "player": "May, Dustin",
@@ -400,7 +472,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778418
+      "game_pk": 778418,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Mize, Casey",
@@ -416,7 +491,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 778424
+      "game_pk": 778424,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Nimmo, Brandon",
@@ -432,7 +510,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 1,
-      "game_pk": 778416
+      "game_pk": 778416,
+      "result": "win",
+      "actual": 0,
+      "pnl": 135.0
     },
     {
       "player": "Soto, Juan",
@@ -448,7 +529,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 778416
+      "game_pk": 778416,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Steele, Justin",
@@ -464,7 +548,10 @@
       "best_book": "draftkings",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778411
+      "game_pk": 778411,
+      "result": "win",
+      "actual": 3,
+      "pnl": 74.07
     },
     {
       "player": "Vientos, Mark",
@@ -480,7 +567,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 1,
-      "game_pk": 778416
+      "game_pk": 778416,
+      "result": "win",
+      "actual": 0,
+      "pnl": 135.0
     },
     {
       "player": "Vientos, Mark",
@@ -496,7 +586,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 778416
+      "game_pk": 778416,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Woods Richardson, Simeon",
@@ -512,7 +605,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 778412
+      "game_pk": 778412,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     }
   ]
 }

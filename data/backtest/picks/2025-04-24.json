@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.320086+00:00",
+  "generated_at": "2026-02-13T16:51:04.397148+00:00",
   "date": "2025-04-24",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 778193
+      "game_pk": 778193,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Woo, Bryan",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 778196
+      "game_pk": 778196,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Rengifo, Luis",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 778191
+      "game_pk": 778191,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Reynolds, Bryan",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 2,
-      "game_pk": 778191
+      "game_pk": 778191,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Semien, Marcus",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 778192
+      "game_pk": 778192,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Burger, Jake",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 778192
+      "game_pk": 778192,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     },
     {
       "player": "Duran, Jarren",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 778196
+      "game_pk": 778196,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Roupp, Landen",
@@ -128,7 +149,10 @@
       "best_book": "williamhill_us",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 778194
+      "game_pk": 778194,
+      "result": "win",
+      "actual": 12,
+      "pnl": 100.0
     }
   ]
 }

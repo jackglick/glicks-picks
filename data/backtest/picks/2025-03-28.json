@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.289154+00:00",
+  "generated_at": "2026-02-13T16:51:04.367734+00:00",
   "date": "2025-03-28",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 778543
+      "game_pk": 778543,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Pepiot, Ryan",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 778560
+      "game_pk": 778560,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Bichette, Bo",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778549
+      "game_pk": 778549,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "D\u00edaz, Yandy",
@@ -64,7 +73,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778560
+      "game_pk": 778560,
+      "result": "win",
+      "actual": 1,
+      "pnl": 86.96
     },
     {
       "player": "Guerrero, Vladimir",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778549
+      "game_pk": 778549,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Westburg, Jordan",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778549
+      "game_pk": 778549,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     }
   ]
 }

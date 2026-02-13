@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.442287+00:00",
+  "generated_at": "2026-02-13T16:51:04.539118+00:00",
   "date": "2025-08-27",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776579
+      "game_pk": 776579,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "France, Ty",
@@ -32,7 +35,10 @@
       "best_book": "betonlineag",
       "best_price": 127,
       "stars": 3,
-      "game_pk": 776567
+      "game_pk": 776567,
+      "result": "win",
+      "actual": 1,
+      "pnl": 127.0
     },
     {
       "player": "Lukes, Nathan",
@@ -48,7 +54,10 @@
       "best_book": "betonlineag",
       "best_price": 146,
       "stars": 3,
-      "game_pk": 776567
+      "game_pk": 776567,
+      "result": "win",
+      "actual": 1,
+      "pnl": 146.0
     },
     {
       "player": "Nelson, Ryne",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776572
+      "game_pk": 776572,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Cecconi, Slade",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 776580
+      "game_pk": 776580,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Gray, Sonny",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 776568
+      "game_pk": 776568,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776565
+      "game_pk": 776565,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Gray, Sonny",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776568
+      "game_pk": 776568,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "P\u00e9rez, Wenceel",
@@ -144,7 +168,10 @@
       "best_book": "betonlineag",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776559
+      "game_pk": 776559,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Rasmussen, Drew",
@@ -160,7 +187,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 776580
+      "game_pk": 776580,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

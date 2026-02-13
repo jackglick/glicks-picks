@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.454024+00:00",
+  "generated_at": "2026-02-13T16:51:04.552527+00:00",
   "date": "2025-09-11",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": -128,
       "stars": 2,
-      "game_pk": 776370
+      "game_pk": 776370,
+      "result": "win",
+      "actual": 0,
+      "pnl": 78.12
     },
     {
       "player": "Williams, Gavin",
@@ -32,7 +35,10 @@
       "best_book": "betmgm",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 776370
+      "game_pk": 776370,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -142,
       "stars": 1,
-      "game_pk": 776367
+      "game_pk": 776367,
+      "result": "win",
+      "actual": 1,
+      "pnl": 70.42
     },
     {
       "player": "Gausman, Kevin",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 1,
-      "game_pk": 776369
+      "game_pk": 776369,
+      "result": "loss",
+      "actual": 27,
+      "pnl": -100.0
     },
     {
       "player": "Gore, MacKenzie",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 776367
+      "game_pk": 776367,
+      "result": "win",
+      "actual": 4,
+      "pnl": 74.07
     },
     {
       "player": "Javier, Cristian",
@@ -96,7 +111,10 @@
       "best_book": "betmgm",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776369
+      "game_pk": 776369,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Kolek, Stephen",
@@ -112,7 +130,10 @@
       "best_book": "betmgm",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 776370
+      "game_pk": 776370,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Mangum, Jake",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776364
+      "game_pk": 776364,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     }
   ]
 }

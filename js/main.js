@@ -10,9 +10,6 @@
   // Mark that JS is active (for CSS fallback on .reveal)
   document.documentElement.classList.add('js');
 
-  // Check reduced motion preference
-  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
   // --- Scroll Reveal ---
   var revealObserver = new IntersectionObserver(
     function (entries) {
@@ -29,33 +26,6 @@
   document.querySelectorAll('.reveal').forEach(function (el) {
     revealObserver.observe(el);
   });
-
-  // --- Edge-Tier Bar Animation on Scroll ---
-  var barObserver = new IntersectionObserver(
-    function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          var fills = entry.target.querySelectorAll('.edge-tier-fill');
-          fills.forEach(function (fill) {
-            var targetWidth = fill.getAttribute('data-width');
-            if (targetWidth !== null) {
-              if (prefersReducedMotion) {
-                fill.style.transition = 'none';
-              }
-              fill.style.width = targetWidth + '%';
-            }
-          });
-          barObserver.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.2 }
-  );
-
-  var edgeTiers = document.querySelector('.edge-tiers');
-  if (edgeTiers) {
-    barObserver.observe(edgeTiers);
-  }
 
   // --- Mobile Menu ---
   function initMobileMenu() {
@@ -185,6 +155,7 @@
 
   function formatPrice(price) {
     if (price === null || price === undefined) return '';
+    if (price === 0) return 'EVEN';
     return (price > 0 ? '+' : '') + price;
   }
 
@@ -280,6 +251,8 @@
   var picksState = {
     allPicks: [],
     selectedBooks: {},
+    selectedMarkets: {},
+    sortBy: 'stars-desc',
     backtestIndex: null,
     selectedBacktestDate: null
   };
@@ -408,6 +381,7 @@
       var img = document.createElement('img');
       img.className = 'player-headshot';
       img.alt = pick.player;
+      img.loading = 'lazy';
       img.src = 'https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/' + pick.player_id + '/headshot/67/current';
       img.onerror = function () {
         var initials = el('div', 'player-initials', getPlayerInitials(pick.player));
@@ -427,9 +401,8 @@
     var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
     headerLeft.appendChild(el('div', 'pick-card-player', pick.player));
-    var playerTeamCode = getPlayerTeamCode(pick);
-    var subline = playerTeamCode && pick.opponent ? (playerTeamCode + ' vs ' + normalizeTeamCode(pick.opponent)) : ('vs ' + pick.opponent);
-    headerLeft.appendChild(el('div', 'pick-card-opponent', subline));
+    var roleText = pick.category === 'batter' ? 'Batter' : 'Starting Pitcher';
+    headerLeft.appendChild(el('div', 'pick-card-role', roleText));
     headerInfo.appendChild(headerLeft);
     header.appendChild(headerInfo);
     header.appendChild(el('div', 'pick-stars', renderStars(pick.stars)));
@@ -463,6 +436,26 @@
         bookDiv.appendChild(el('span', 'pick-card-price', formatPrice(pick.best_price)));
       }
       card.appendChild(bookDiv);
+    }
+
+    // Backtest outcome badge (item 19)
+    if (pick.result) {
+      var footer = el('div', 'pick-card-footer');
+      var resultKey = String(pick.result).toLowerCase();
+      var badgeClass = 'pick-outcome';
+      if (resultKey === 'win') badgeClass += ' win';
+      else if (resultKey === 'loss') badgeClass += ' loss';
+      else if (resultKey === 'push') badgeClass += ' push';
+      var badge = el('span', badgeClass, String(pick.result).toUpperCase());
+      footer.appendChild(badge);
+      if (pick.actual !== null && pick.actual !== undefined) {
+        footer.appendChild(el('span', 'pick-outcome-actual', 'Actual: ' + pick.actual));
+      }
+      if (pick.pnl !== null && pick.pnl !== undefined) {
+        var pnlClass = pick.pnl >= 0 ? 'pnl-positive' : 'pnl-negative';
+        footer.appendChild(el('span', 'pick-outcome-pnl ' + pnlClass, formatPnl(pick.pnl)));
+      }
+      card.appendChild(footer);
     }
 
     return card;
@@ -512,6 +505,18 @@
           sample.textContent = m.bets.toLocaleString('en-US') + ' bets';
         }
       });
+
+      // Sort market cards by ROI descending (item 26)
+      var cardsContainer = cards.length > 0 ? cards[0].parentNode : null;
+      if (cardsContainer && byMarket.length > 1) {
+        var sortedByRoi = byMarket.slice().sort(function (a, b) {
+          return (b.roi || 0) - (a.roi || 0);
+        });
+        sortedByRoi.forEach(function (m) {
+          var card = cardsContainer.querySelector('.market-card[data-market="' + m.market + '"]');
+          if (card) cardsContainer.appendChild(card);
+        });
+      }
     });
   }
 
@@ -632,23 +637,124 @@
     });
   }
 
+  function sortPicks(picks, sortKey) {
+    var sorted = picks.slice();
+    switch (sortKey) {
+      case 'stars-asc':
+        sorted.sort(function (a, b) { return (a.stars || 0) - (b.stars || 0); });
+        break;
+      case 'market':
+        sorted.sort(function (a, b) { return String(a.market || '').localeCompare(String(b.market || '')); });
+        break;
+      case 'direction':
+        sorted.sort(function (a, b) {
+          var da = a.direction === 'OVER' ? 0 : 1;
+          var db = b.direction === 'OVER' ? 0 : 1;
+          return da - db;
+        });
+        break;
+      case 'stars-desc':
+      default:
+        sorted.sort(function (a, b) {
+          var diff = (b.stars || 0) - (a.stars || 0);
+          if (diff !== 0) return diff;
+          return String(a.player || '').localeCompare(String(b.player || ''));
+        });
+        break;
+    }
+    return sorted;
+  }
+
+  function applyMarketFilter(picks) {
+    var keys = Object.keys(picksState.selectedMarkets || {});
+    if (keys.length === 0) return picks;
+    var anyEnabled = keys.some(function (k) { return picksState.selectedMarkets[k]; });
+    if (!anyEnabled) return [];
+    return picks.filter(function (pick) {
+      var m = String(pick.market || '');
+      return !!picksState.selectedMarkets[m];
+    });
+  }
+
+  function initPicksSort() {
+    var sortEl = document.getElementById('picks-sort');
+    if (!sortEl) return;
+    sortEl.value = picksState.sortBy;
+    sortEl.addEventListener('change', function () {
+      picksState.sortBy = sortEl.value;
+      renderPicksWithFilters();
+    });
+  }
+
+  function initMarketFilter(picks) {
+    var container = document.getElementById('picks-market-filter');
+    if (!container) return;
+    clearChildren(container);
+    var markets = {};
+    picks.forEach(function (p) {
+      if (p.market) markets[p.market] = true;
+    });
+    var marketList = Object.keys(markets).sort();
+    if (marketList.length <= 1) {
+      container.style.display = 'none';
+      return;
+    }
+    container.style.display = '';
+    var chipsWrap = el('div', 'market-filter-chips');
+    marketList.forEach(function (market) {
+      if (!Object.prototype.hasOwnProperty.call(picksState.selectedMarkets, market)) {
+        picksState.selectedMarkets[market] = true;
+      }
+      var chip = el('button', 'market-chip' + (picksState.selectedMarkets[market] ? ' active' : ''), market);
+      chip.type = 'button';
+      chip.addEventListener('click', function () {
+        picksState.selectedMarkets[market] = !picksState.selectedMarkets[market];
+        chip.classList.toggle('active', picksState.selectedMarkets[market]);
+        renderPicksWithFilters();
+      });
+      chipsWrap.appendChild(chip);
+    });
+    container.appendChild(chipsWrap);
+  }
+
+  function showLoadingSkeletons(container, count) {
+    clearChildren(container);
+    container.style.display = '';
+    for (var i = 0; i < count; i++) {
+      container.appendChild(el('div', 'pick-card loading-skeleton'));
+    }
+  }
+
   function renderPicksWithFilters() {
     var container = document.getElementById('picks-container');
     var emptyEl = document.getElementById('picks-empty');
     var summary = document.getElementById('books-filter-summary');
+    var offseasonHero = document.getElementById('offseason-hero');
     if (!container || !emptyEl) return;
 
     clearChildren(container);
     var allPicks = picksState.allPicks || [];
     var filtered = getFilteredPicks();
+    filtered = applyMarketFilter(filtered);
+    filtered = sortPicks(filtered, picksState.sortBy);
+
+    // Hide offseason hero by default
+    if (offseasonHero) offseasonHero.style.display = 'none';
 
     if (allPicks.length === 0) {
       container.style.display = 'none';
       emptyEl.style.display = '';
-      setPicksEmptyState(
-        'No picks available',
-        'Try a different date in backtest mode or check again after the next data refresh.'
-      );
+
+      // Offseason state: 0 picks and not in backtest mode
+      if (getEnv() !== 'dev' && offseasonHero) {
+        offseasonHero.style.display = 'block';
+        emptyEl.style.display = 'none';
+      } else {
+        setPicksEmptyState(
+          'No picks available',
+          'Try a different date in backtest mode or check again after the next data refresh.'
+        );
+      }
       if (summary) summary.textContent = '';
       return;
     }
@@ -657,8 +763,8 @@
       container.style.display = 'none';
       emptyEl.style.display = '';
       setPicksEmptyState(
-        'No picks match your book filters',
-        'Enable one or more sportsbooks above to see matching picks.'
+        'No picks match your filters',
+        'Adjust your sportsbook or market filters above to see matching picks.'
       );
       if (summary) {
         summary.textContent = 'Showing 0 of ' + allPicks.length + ' picks';
@@ -668,7 +774,33 @@
 
     container.style.display = '';
     emptyEl.style.display = 'none';
-    filtered.forEach(function (pick) {
+
+    // Best bets section: 3-star picks get their own callout
+    var bestBetsSection = container.parentNode ? container.parentNode.querySelector('.best-bets-section') : null;
+    if (bestBetsSection) {
+      clearChildren(bestBetsSection);
+      bestBetsSection.style.display = 'none';
+    }
+    var threeStarPicks = filtered.filter(function (p) { return p.stars >= 3; });
+    var regularPicks = threeStarPicks.length > 0
+      ? filtered.filter(function (p) { return p.stars < 3; })
+      : filtered;
+
+    if (threeStarPicks.length > 0) {
+      if (!bestBetsSection) {
+        bestBetsSection = el('div', 'best-bets-section');
+        container.parentNode.insertBefore(bestBetsSection, container);
+      }
+      bestBetsSection.style.display = '';
+      bestBetsSection.appendChild(el('h3', 'best-bets-heading', 'Top Picks'));
+      var bestGrid = el('div', 'picks-grid');
+      threeStarPicks.forEach(function (pick) {
+        bestGrid.appendChild(renderPickCard(pick));
+      });
+      bestBetsSection.appendChild(bestGrid);
+    }
+
+    regularPicks.forEach(function (pick) {
       container.appendChild(renderPickCard(pick));
     });
     if (summary) {
@@ -804,6 +936,7 @@
       btn.className = 'calendar-day';
       btn.textContent = String(entry.day);
       btn.disabled = !isAvailable;
+      btn.setAttribute('aria-label', formatFullDate(dateKey));
 
       if (!isAvailable) {
         btn.classList.add('no-picks');
@@ -925,6 +1058,13 @@
         document.addEventListener('keydown', function (evt) {
           if (evt.key === 'Escape') closeBacktestCalendar();
         });
+
+        var calCloseBtn = popover.querySelector('.calendar-close-btn');
+        if (calCloseBtn) {
+          calCloseBtn.addEventListener('click', function () {
+            closeBacktestCalendar();
+          });
+        }
       })
       .catch(function () {
         setStatusText('picks-status', 'Could not load backtest date index.');
@@ -933,12 +1073,16 @@
 
   function loadBacktestPicks(dateStr) {
     var dateEl = document.getElementById('picks-date');
+    var container = document.getElementById('picks-container');
     var count = picksState.backtestIndex && picksState.backtestIndex.countByDate[dateStr]
       ? picksState.backtestIndex.countByDate[dateStr]
       : 0;
     if (dateEl) {
-      dateEl.textContent = formatFullDate(dateStr) + ' • ' + count + ' picks';
+      dateEl.textContent = formatFullDate(dateStr) + ' \u2022 ' + count + ' picks \u2022 Backtest Archive';
     }
+
+    // Show loading skeletons
+    if (container) showLoadingSkeletons(container, 4);
 
     fetch('data/backtest/picks/' + dateStr + '.json')
       .then(function (res) {
@@ -949,13 +1093,9 @@
         picksState.allPicks = data && data.picks ? data.picks : [];
         syncBookFilterState();
         renderBooksFilterPanel();
+        initMarketFilter(picksState.allPicks);
         renderPicksWithFilters();
-
-        if (picksState.allPicks.length === 0) {
-          setStatusText('picks-status', 'No picks found for this archive date.');
-        } else {
-          setStatusText('picks-status', 'Archive mode uses 2025 out-of-sample data.');
-        }
+        setStatusText('picks-status', '');
       })
       .catch(function () {
         picksState.allPicks = [];
@@ -970,12 +1110,26 @@
     var container = document.getElementById('picks-container');
     if (!container) return;
 
+    initPicksSort();
+
+    // Offseason hero browse-backtest button
+    var browseBtn = document.getElementById('browse-backtest-btn');
+    if (browseBtn) {
+      browseBtn.addEventListener('click', function () {
+        setEnv('dev');
+        location.reload();
+      });
+    }
+
     if (getEnv() === 'dev') {
       var titleEl = document.getElementById('picks-title');
       if (titleEl) titleEl.textContent = '2025 Backtest Picks';
       initBacktestDatePicker();
       return;
     }
+
+    // Show loading skeletons while fetching
+    showLoadingSkeletons(container, 4);
 
     fetchJSON('picks_today.json', function (data, err) {
       var dateEl = document.getElementById('picks-date');
@@ -989,36 +1143,193 @@
         return;
       }
 
+      // Consolidated status line (item 18)
       if (dateEl) {
+        var parts = [];
         if (data.date) {
-          var updated = data.generated_at ? formatTimestamp(data.generated_at) : '';
-          dateEl.textContent = formatFullDate(data.date) + (updated ? ' • Updated ' + updated : '');
-        } else {
-          dateEl.textContent = 'Season starts soon';
+          parts.push(formatFullDate(data.date));
         }
+        if (data.picks && data.picks.length > 0) {
+          parts.push(data.picks.length + ' picks');
+        }
+        if (data.generated_at) {
+          parts.push('Updated ' + formatTimestamp(data.generated_at));
+        }
+        dateEl.textContent = parts.length > 0 ? parts.join(' \u2022 ') : 'Season starts soon';
       }
 
       picksState.allPicks = data.picks || [];
       syncBookFilterState();
       renderBooksFilterPanel();
+      initMarketFilter(picksState.allPicks);
       renderPicksWithFilters();
 
       if (picksState.allPicks.length === 0) {
-        setStatusText('picks-status', 'No picks posted for this slate yet.');
+        setStatusText('picks-status', '');
       } else {
-        setStatusText('picks-status', 'Current mode data feed loaded.');
+        setStatusText('picks-status', '');
       }
     });
   }
 
   // --- Results Page ---
+  function renderStarTierStats(data) {
+    var container = document.getElementById('star-tier-stats');
+    if (!container || !data || !Array.isArray(data.star_tier_stats)) return;
+    clearChildren(container);
+    var tiers = data.star_tier_stats;
+    if (tiers.length === 0) return;
+
+    var table = document.createElement('table');
+    table.className = 'results-table';
+    var thead = document.createElement('thead');
+    var headRow = document.createElement('tr');
+    ['Stars', 'Bets', 'Record', 'Win Rate', 'P&L', 'ROI'].forEach(function (h) {
+      headRow.appendChild(el('th', '', h));
+    });
+    thead.appendChild(headRow);
+    table.appendChild(thead);
+
+    var tbody = document.createElement('tbody');
+    tiers.forEach(function (t) {
+      var tr = document.createElement('tr');
+      tr.appendChild(el('td', '', renderStars(t.stars || 0)));
+      tr.appendChild(el('td', '', String(t.bets || 0)));
+      var record = (t.wins || 0) + '-' + (t.losses || 0);
+      if (t.pushes > 0) record += '-' + t.pushes;
+      tr.appendChild(el('td', '', record));
+      tr.appendChild(el('td', '', (t.win_rate != null ? t.win_rate.toFixed(1) : '0.0') + '%'));
+      tr.appendChild(el('td', (t.pnl || 0) >= 0 ? 'pnl-positive' : 'pnl-negative', formatPnl(t.pnl)));
+      var roiVal = t.roi || 0;
+      tr.appendChild(el('td', roiVal >= 0 ? 'pnl-positive' : 'pnl-negative',
+        (roiVal >= 0 ? '+' : '') + roiVal.toFixed(1) + '%'));
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    container.appendChild(table);
+  }
+
+  function renderDirectionStats(data) {
+    var container = document.getElementById('direction-stats');
+    if (!container || !data || !Array.isArray(data.direction_stats)) return;
+    clearChildren(container);
+    var stats = data.direction_stats;
+    if (stats.length === 0) return;
+
+    var table = document.createElement('table');
+    table.className = 'results-table';
+    var thead = document.createElement('thead');
+    var headRow = document.createElement('tr');
+    ['Direction', 'Bets', 'Win Rate', 'ROI'].forEach(function (h) {
+      headRow.appendChild(el('th', '', h));
+    });
+    thead.appendChild(headRow);
+    table.appendChild(thead);
+
+    var tbody = document.createElement('tbody');
+    stats.forEach(function (d) {
+      var tr = document.createElement('tr');
+      tr.appendChild(el('td', '', String(d.direction || '')));
+      tr.appendChild(el('td', '', String(d.bets || 0)));
+      tr.appendChild(el('td', '', (d.win_rate != null ? d.win_rate.toFixed(1) : '0.0') + '%'));
+      var roiVal = d.roi || 0;
+      tr.appendChild(el('td', roiVal >= 0 ? 'pnl-positive' : 'pnl-negative',
+        (roiVal >= 0 ? '+' : '') + roiVal.toFixed(1) + '%'));
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    container.appendChild(table);
+  }
+
+  function renderDrawdownStreak(summary) {
+    var container = document.getElementById('drawdown-streak-row');
+    if (!container) return;
+    clearChildren(container);
+
+    if (summary.max_drawdown !== undefined && summary.max_drawdown !== null) {
+      var ddBox = el('div', 'results-stat-box');
+      ddBox.appendChild(el('div', 'results-stat-label', 'Max Drawdown'));
+      var ddVal = el('div', 'results-stat-value negative', formatPnl(summary.max_drawdown));
+      ddBox.appendChild(ddVal);
+      container.appendChild(ddBox);
+    }
+
+    if (summary.current_streak !== undefined && summary.current_streak !== null) {
+      var stBox = el('div', 'results-stat-box');
+      stBox.appendChild(el('div', 'results-stat-label', 'Current Streak'));
+      var streakType = summary.streak_type || '';
+      var streakClass = streakType === 'W' ? 'positive' : (streakType === 'L' ? 'negative' : '');
+      var streakText = summary.current_streak + (streakType ? streakType : '');
+      stBox.appendChild(el('div', 'results-stat-value ' + streakClass, streakText));
+      container.appendChild(stBox);
+    }
+  }
+
+  function renderRecentPicks(data) {
+    var recentBody = document.querySelector('#recent-table tbody');
+    if (!recentBody || !data.recent) return;
+    clearChildren(recentBody);
+
+    var recent = data.recent;
+    var INITIAL_LIMIT = 50;
+    var showAll = recent.length <= INITIAL_LIMIT;
+
+    function renderRows(items) {
+      clearChildren(recentBody);
+      items.forEach(function (r) {
+        var tr = document.createElement('tr');
+        tr.appendChild(el('td', '', formatDate(r.date)));
+        tr.appendChild(el('td', '', r.player));
+        tr.appendChild(el('td', '', r.direction + ' ' + r.line + ' ' + r.market));
+
+        var tdResult = document.createElement('td');
+        var badge = el('span', 'result-badge ' + r.result, r.result.toUpperCase());
+        tdResult.appendChild(badge);
+        if (r.actual !== null) {
+          tdResult.appendChild(document.createTextNode(' (' + r.actual + ')'));
+        }
+        tr.appendChild(tdResult);
+
+        tr.appendChild(el('td', r.pnl >= 0 ? 'pnl-positive' : 'pnl-negative', formatPnl(r.pnl)));
+        recentBody.appendChild(tr);
+      });
+    }
+
+    renderRows(showAll ? recent : recent.slice(0, INITIAL_LIMIT));
+
+    if (!showAll) {
+      var toggleRow = document.createElement('tr');
+      var toggleTd = document.createElement('td');
+      toggleTd.colSpan = 5;
+      toggleTd.style.textAlign = 'center';
+      var toggleBtn = el('button', 'show-all-btn', 'Show all ' + recent.length + ' picks');
+      toggleBtn.type = 'button';
+      toggleBtn.addEventListener('click', function () {
+        renderRows(recent);
+      });
+      toggleTd.appendChild(toggleBtn);
+      toggleRow.appendChild(toggleTd);
+      recentBody.appendChild(toggleRow);
+    }
+  }
+
   function initResultsPage() {
     var statsEl = document.getElementById('results-stats');
     if (!statsEl) return;
 
+    // Add loading class to stat boxes
+    statsEl.querySelectorAll('.results-stat-box').forEach(function (box) {
+      box.classList.add('loading');
+    });
+
     fetchJSON('results.json', function (data, err) {
       var emptyEl = document.getElementById('results-empty');
       var contentEl = document.getElementById('results-content');
+
+      // Remove loading class
+      statsEl.querySelectorAll('.results-stat-box').forEach(function (box) {
+        box.classList.remove('loading');
+      });
 
       if (err || !data || !data.summary) {
         if (emptyEl) emptyEl.style.display = '';
@@ -1044,17 +1355,21 @@
       roiEl.textContent = (s.roi >= 0 ? '+' : '') + s.roi.toFixed(1) + '%';
       roiEl.className = 'results-stat-value ' + (s.roi >= 0 ? 'positive' : 'negative');
 
+      // Market table — sort by ROI descending (item 24)
       var marketBody = document.querySelector('#market-table tbody');
       if (marketBody && data.by_market) {
         clearChildren(marketBody);
-        data.by_market.forEach(function (m) {
+        var sortedMarkets = data.by_market.slice().sort(function (a, b) {
+          return (b.roi || 0) - (a.roi || 0);
+        });
+        sortedMarkets.forEach(function (m) {
           var tr = document.createElement('tr');
           var tdMarket = el('td');
           var strong = el('strong', '', m.market);
           tdMarket.appendChild(strong);
           tr.appendChild(tdMarket);
           tr.appendChild(el('td', '', String(m.bets)));
-          tr.appendChild(el('td', '', m.wins + '-' + m.losses));
+          tr.appendChild(el('td', '', m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : '')));
           tr.appendChild(el('td', '', m.win_rate.toFixed(1) + '%'));
           var tdPnl = el('td', m.pnl >= 0 ? 'pnl-positive' : 'pnl-negative', formatPnl(m.pnl));
           tr.appendChild(tdPnl);
@@ -1065,34 +1380,24 @@
         });
       }
 
-      var recentBody = document.querySelector('#recent-table tbody');
-      if (recentBody && data.recent) {
-        clearChildren(recentBody);
-        data.recent.forEach(function (r) {
-          var tr = document.createElement('tr');
-          tr.appendChild(el('td', '', formatDate(r.date)));
-          tr.appendChild(el('td', '', r.player));
-          tr.appendChild(el('td', '', r.direction + ' ' + r.line + ' ' + r.market));
+      // Recent picks with pagination (item 23)
+      renderRecentPicks(data);
 
-          var tdResult = document.createElement('td');
-          var badge = el('span', 'result-badge ' + r.result, r.result.toUpperCase());
-          tdResult.appendChild(badge);
-          if (r.actual !== null) {
-            tdResult.appendChild(document.createTextNode(' (' + r.actual + ')'));
-          }
-          tr.appendChild(tdResult);
+      // Star tier stats (item 20)
+      renderStarTierStats(data);
 
-          tr.appendChild(el('td', r.pnl >= 0 ? 'pnl-positive' : 'pnl-negative', formatPnl(r.pnl)));
-          recentBody.appendChild(tr);
-        });
-      }
+      // Direction stats (item 21)
+      renderDirectionStats(data);
+
+      // Drawdown and streak (item 22)
+      renderDrawdownStreak(s);
 
       if (data.cumulative_pnl && data.cumulative_pnl.length > 1) {
         var first = data.cumulative_pnl[0];
         var last = data.cumulative_pnl[data.cumulative_pnl.length - 1];
         setStatusText(
           'pnl-chart-summary',
-          'From ' + first.date + ' to ' + last.date + ', cumulative P&L moved from ' +
+          'From ' + formatDate(first.date) + ' to ' + formatDate(last.date) + ', cumulative P&L moved from ' +
           formatPnl(first.cumulative) + ' to ' + formatPnl(last.cumulative) + '.'
         );
       }
@@ -1106,21 +1411,21 @@
     });
   }
 
-	  function initPnlChart(canvas, pnlData) {
-	    var labels = pnlData.map(function (d) { return formatDate(d.date); });
-	    var cumValues = pnlData.map(function (d) { return d.cumulative; });
-	    var dailyValues = pnlData.map(function (d) { return d.pnl; });
-	    var lastVal = cumValues[cumValues.length - 1];
-	    var lineColor = lastVal >= 0 ? '#1a7f6d' : '#c0392b';
-	    var fillColor = lastVal >= 0 ? 'rgba(26, 127, 109, 0.08)' : 'rgba(192, 57, 43, 0.08)';
-	    var upArrow = '\u25b2';
-	    var downArrow = '\u25bc';
+  function initPnlChart(canvas, pnlData) {
+    var labels = pnlData.map(function (d) { return formatDate(d.date); });
+    var cumValues = pnlData.map(function (d) { return d.cumulative; });
+    var dailyValues = pnlData.map(function (d) { return d.pnl; });
+    var lastVal = cumValues[cumValues.length - 1];
+    var lineColor = lastVal >= 0 ? '#1a7f6d' : '#c0392b';
+    var fillColor = lastVal >= 0 ? 'rgba(26, 127, 109, 0.08)' : 'rgba(192, 57, 43, 0.08)';
+    var upArrow = '\u25b2';
+    var downArrow = '\u25bc';
 
-	    function directionArrow(value) {
-	      if (value > 0) return upArrow;
-	      if (value < 0) return downArrow;
-	      return '\u25a0';
-	    }
+    function directionArrow(value) {
+      if (value > 0) return upArrow;
+      if (value < 0) return downArrow;
+      return '\u25a0';
+    }
 
     var rolling7 = [];
     for (var i = 0; i < dailyValues.length; i++) {
@@ -1133,7 +1438,9 @@
       }
     }
 
-    new Chart(canvas, {
+    var responsiveTicksLimit = window.innerWidth < 640 ? 5 : 10;
+
+    var chart = new Chart(canvas, {
       type: 'line',
       data: {
         labels: labels,
@@ -1185,72 +1492,72 @@
               boxWidth: 20
             }
           },
-	          tooltip: {
-	            backgroundColor: 'rgba(17, 28, 48, 0.94)',
-	            borderColor: 'rgba(26, 127, 109, 0.45)',
-	            borderWidth: 1,
-	            cornerRadius: 10,
-	            caretSize: 7,
-	            caretPadding: 8,
-	            padding: 12,
-	            displayColors: true,
-	            usePointStyle: true,
-	            boxPadding: 4,
-	            titleColor: '#f5f8ff',
-	            bodyColor: '#e1e8f5',
-	            footerColor: '#b8c4d8',
-	            titleFont: { family: 'Inter', size: 12, weight: '700' },
-	            bodyFont: { family: "'JetBrains Mono'", size: 11, weight: '600' },
-	            footerFont: { family: 'Inter', size: 10, weight: '600' },
-	            titleMarginBottom: 8,
-	            bodySpacing: 6,
-	            footerMarginTop: 6,
-	            callbacks: {
-	              title: function (items) {
-	                if (!items || items.length === 0) return '';
-	                var idx = items[0].dataIndex;
-	                var row = pnlData[idx];
-	                if (!row || !row.date) return items[0].label;
-	                return new Date(row.date + 'T12:00:00').toLocaleDateString('en-US', {
-	                  weekday: 'short',
-	                  month: 'short',
-	                  day: 'numeric',
-	                  year: 'numeric'
-	                });
-	              },
-	              label: function (ctx) {
-	                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
-	                return directionArrow(val) + ' ' + ctx.dataset.label + ': ' + formatPnl(val);
-	              },
-	              labelTextColor: function (ctx) {
-	                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
-	                if (ctx.dataset && ctx.dataset.label === 'Cumulative P&L') {
-	                  return val >= 0 ? '#8ff2cf' : '#ffb3b3';
-	                }
-	                return val >= 0 ? '#f6d28a' : '#ffbe7a';
-	              },
-	              footer: function (items) {
-	                if (!items || items.length === 0) return '';
-	                var idx = items[0].dataIndex;
-	                var row = pnlData[idx];
-	                if (!row || row.pnl === null || row.pnl === undefined) return '';
-	                var lines = [];
-	                lines.push('Daily P&L: ' + directionArrow(row.pnl) + ' ' + formatPnl(row.pnl));
-	                if (idx > 0 && pnlData[idx - 1] && pnlData[idx - 1].cumulative !== null && row.cumulative !== null) {
-	                  var delta = row.cumulative - pnlData[idx - 1].cumulative;
-	                  lines.push('Change vs prior: ' + directionArrow(delta) + ' ' + formatPnl(delta));
-	                }
-	                return lines;
-	              }
-	            }
-	          }
+          tooltip: {
+            backgroundColor: 'rgba(17, 28, 48, 0.94)',
+            borderColor: 'rgba(26, 127, 109, 0.45)',
+            borderWidth: 1,
+            cornerRadius: 10,
+            caretSize: 7,
+            caretPadding: 8,
+            padding: 12,
+            displayColors: true,
+            usePointStyle: true,
+            boxPadding: 4,
+            titleColor: '#f5f8ff',
+            bodyColor: '#e1e8f5',
+            footerColor: '#b8c4d8',
+            titleFont: { family: 'Inter', size: 12, weight: '700' },
+            bodyFont: { family: "'JetBrains Mono'", size: 11, weight: '600' },
+            footerFont: { family: 'Inter', size: 10, weight: '600' },
+            titleMarginBottom: 8,
+            bodySpacing: 6,
+            footerMarginTop: 6,
+            callbacks: {
+              title: function (items) {
+                if (!items || items.length === 0) return '';
+                var idx = items[0].dataIndex;
+                var row = pnlData[idx];
+                if (!row || !row.date) return items[0].label;
+                return new Date(row.date + 'T12:00:00').toLocaleDateString('en-US', {
+                  weekday: 'short',
+                  month: 'short',
+                  day: 'numeric',
+                  year: 'numeric'
+                });
+              },
+              label: function (ctx) {
+                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
+                return directionArrow(val) + ' ' + ctx.dataset.label + ': ' + formatPnl(val);
+              },
+              labelTextColor: function (ctx) {
+                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
+                if (ctx.dataset && ctx.dataset.label === 'Cumulative P&L') {
+                  return val >= 0 ? '#8ff2cf' : '#ffb3b3';
+                }
+                return val >= 0 ? '#f6d28a' : '#ffbe7a';
+              },
+              footer: function (items) {
+                if (!items || items.length === 0) return '';
+                var idx = items[0].dataIndex;
+                var row = pnlData[idx];
+                if (!row || row.pnl === null || row.pnl === undefined) return '';
+                var lines = [];
+                lines.push('Daily P&L: ' + directionArrow(row.pnl) + ' ' + formatPnl(row.pnl));
+                if (idx > 0 && pnlData[idx - 1] && pnlData[idx - 1].cumulative !== null && row.cumulative !== null) {
+                  var delta = row.cumulative - pnlData[idx - 1].cumulative;
+                  lines.push('Change vs prior: ' + directionArrow(delta) + ' ' + formatPnl(delta));
+                }
+                return lines;
+              }
+            }
+          }
         },
         scales: {
           x: {
             grid: { display: false },
             ticks: {
               font: { family: 'Inter', size: 11 },
-              maxTicksLimit: 10
+              maxTicksLimit: responsiveTicksLimit
             }
           },
           y: {
@@ -1281,6 +1588,23 @@
         }
       }
     });
+
+    window.addEventListener('resize', function () {
+      var newLimit = window.innerWidth < 640 ? 5 : 10;
+      if (chart.options.scales.x.ticks.maxTicksLimit !== newLimit) {
+        chart.options.scales.x.ticks.maxTicksLimit = newLimit;
+        chart.update('none');
+      }
+    });
+
+    // Populate chart aria-describedby after data loads
+    var chartDesc = document.getElementById('pnl-chart-summary');
+    if (chartDesc) {
+      var first = pnlData[0];
+      var last = pnlData[pnlData.length - 1];
+      chartDesc.textContent = 'From ' + formatDate(first.date) + ' to ' + formatDate(last.date) +
+        ', cumulative P&L moved from ' + formatPnl(first.cumulative) + ' to ' + formatPnl(last.cumulative) + '.';
+    }
   }
 
   // --- Page Router ---

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.444535+00:00",
+  "generated_at": "2026-02-13T16:51:04.541557+00:00",
   "date": "2025-08-30",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 3,
-      "game_pk": 776539
+      "game_pk": 776539,
+      "result": "win",
+      "actual": 2,
+      "pnl": 95.24
     },
     {
       "player": "Cabrera, Edward",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 776535
+      "game_pk": 776535,
+      "result": "win",
+      "actual": 11,
+      "pnl": 80.0
     },
     {
       "player": "Flaherty, Jack",
@@ -48,7 +54,10 @@
       "best_book": "fanduel",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 776528
+      "game_pk": 776528,
+      "result": "win",
+      "actual": 16,
+      "pnl": 86.96
     },
     {
       "player": "Gilbert, Logan",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 776537
+      "game_pk": 776537,
+      "result": "win",
+      "actual": 6,
+      "pnl": 100.0
     },
     {
       "player": "Gilbert, Logan",
@@ -80,7 +92,10 @@
       "best_book": "fanduel",
       "best_price": 116,
       "stars": 2,
-      "game_pk": 776537
+      "game_pk": 776537,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Happ, Ian",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776526
+      "game_pk": 776526,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Mangum, Jake",
@@ -112,7 +130,10 @@
       "best_book": "williamhill_us",
       "best_price": -135,
       "stars": 2,
-      "game_pk": 776525
+      "game_pk": 776525,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
     },
     {
       "player": "May, Dustin",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776539
+      "game_pk": 776539,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Pepiot, Ryan",
@@ -144,7 +168,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 776525
+      "game_pk": 776525,
+      "result": "win",
+      "actual": 0,
+      "pnl": 80.0
     },
     {
       "player": "Pivetta, Nick",
@@ -160,7 +187,10 @@
       "best_book": "fanduel",
       "best_price": 126,
       "stars": 2,
-      "game_pk": 776530
+      "game_pk": 776530,
+      "result": "win",
+      "actual": 15,
+      "pnl": 126.0
     },
     {
       "player": "Priester, Quinn",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776527
+      "game_pk": 776527,
+      "result": "win",
+      "actual": 5,
+      "pnl": 90.91
     },
     {
       "player": "Arrighetti, Spencer",
@@ -192,7 +225,10 @@
       "best_book": "fanduel",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 776531
+      "game_pk": 776531,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Arr\u00e1ez, Luis",
@@ -208,7 +244,10 @@
       "best_book": "betonlineag",
       "best_price": -111,
       "stars": 1,
-      "game_pk": 776530
+      "game_pk": 776530,
+      "result": "win",
+      "actual": 1,
+      "pnl": 90.09
     },
     {
       "player": "Busch, Michael",
@@ -224,7 +263,10 @@
       "best_book": "williamhill_us",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776526
+      "game_pk": 776526,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Cabrera, Edward",
@@ -240,7 +282,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776535
+      "game_pk": 776535,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Cabrera, Edward",
@@ -256,7 +301,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776535
+      "game_pk": 776535,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "De La Cruz, Elly",
@@ -272,7 +320,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776536
+      "game_pk": 776536,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Kelly, Carson",
@@ -288,7 +339,10 @@
       "best_book": "williamhill_us",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776526
+      "game_pk": 776526,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Marte, Ketel",
@@ -304,7 +358,10 @@
       "best_book": "williamhill_us",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776523
+      "game_pk": 776523,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "May, Dustin",
@@ -320,7 +377,10 @@
       "best_book": "fanduel",
       "best_price": -148,
       "stars": 1,
-      "game_pk": 776539
+      "game_pk": 776539,
+      "result": "win",
+      "actual": 5,
+      "pnl": 67.57
     },
     {
       "player": "Pepiot, Ryan",
@@ -336,7 +396,10 @@
       "best_book": "fanduel",
       "best_price": -128,
       "stars": 1,
-      "game_pk": 776525
+      "game_pk": 776525,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Pepiot, Ryan",
@@ -352,7 +415,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776525
+      "game_pk": 776525,
+      "result": "win",
+      "actual": 15,
+      "pnl": 105.0
     },
     {
       "player": "Sale, Chris",
@@ -368,7 +434,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776532
+      "game_pk": 776532,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Simpson, Chandler",
@@ -384,7 +453,10 @@
       "best_book": "williamhill_us",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 776525
+      "game_pk": 776525,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Smith, Shane",
@@ -400,7 +472,10 @@
       "best_book": "fanduel",
       "best_price": 122,
       "stars": 1,
-      "game_pk": 776529
+      "game_pk": 776529,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Tucker, Kyle",
@@ -416,7 +491,10 @@
       "best_book": "williamhill_us",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776526
+      "game_pk": 776526,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Williams, Gavin",
@@ -432,7 +510,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776537
+      "game_pk": 776537,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Yoshida, Masataka",
@@ -448,7 +529,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776539
+      "game_pk": 776539,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "\u00c1lvarez, Yordan",
@@ -464,7 +548,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776531
+      "game_pk": 776531,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

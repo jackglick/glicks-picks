@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; form-action 'self'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; form-action 'self'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Glick's Picks — MLB Player Prop Analytics</title>
   <meta name="description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data and backtested against real sportsbook odds across seven markets.">
@@ -13,6 +13,7 @@
   <meta property="og:description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data and backtested against real sportsbook odds across seven markets.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://glicks-picks.com/">
+  <meta property="og:image" content="images/hero-bg.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
@@ -23,9 +24,10 @@
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
   <!-- Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -65,7 +67,7 @@
   </header>
 
   <!-- Mobile Nav -->
-  <div id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+  <nav id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation">
     <a href="picks.html">Today's Picks</a>
     <a href="results.html">Results</a>
     <a href="index.html">Home</a>
@@ -76,7 +78,7 @@
         <span class="env-toggle-slider"></span>
       </label>
     </div>
-  </div>
+  </nav>
 
   <!-- Backtest Banner -->
   <div id="backtest-banner" class="backtest-banner" style="display:none">
@@ -260,6 +262,12 @@
           <p>This is a research project, not a picks service. All statistics shown on this site are from backtested, out-of-sample 2025 archive data &mdash; not live wagering.</p>
         </div>
       </div>
+    </section>
+    <!-- Email Capture -->
+    <section class="email-capture-section">
+      <h3>Get Notified</h3>
+      <p>Want to know when 2026 picks go live?</p>
+      <a href="mailto:glickspicks@gmail.com?subject=Notify me when 2026 season starts" class="btn btn-primary">Get Notified</a>
     </section>
   </main>
 

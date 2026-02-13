@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.405039+00:00",
+  "generated_at": "2026-02-13T16:51:04.497838+00:00",
   "date": "2025-07-18",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 777101
+      "game_pk": 777101,
+      "result": "win",
+      "actual": 1,
+      "pnl": 135.0
     },
     {
       "player": "Jansen, Danny",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "win",
+      "actual": 1,
+      "pnl": 90.91
     },
     {
       "player": "Kim, Ha-Seong",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "win",
+      "actual": 0,
+      "pnl": 125.0
     },
     {
       "player": "Rea, Colin",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 3,
-      "game_pk": 777101
+      "game_pk": 777101,
+      "result": "win",
+      "actual": 15,
+      "pnl": 83.33
     },
     {
       "player": "Stallings, Jacob",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "win",
+      "actual": 0,
+      "pnl": 100.0
     },
     {
       "player": "Happ, Ian",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 777101
+      "game_pk": 777101,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Laureano, Ram\u00f3n",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Mangum, Jake",
@@ -128,7 +149,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Strider, Spencer",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 777114
+      "game_pk": 777114,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Swanson, Dansby",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 777101
+      "game_pk": 777101,
+      "result": "win",
+      "actual": 0,
+      "pnl": 125.0
     },
     {
       "player": "Walls, Taylor",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "win",
+      "actual": 0,
+      "pnl": 105.0
     },
     {
       "player": "Cowser, Colton",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -208,7 +244,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777109
+      "game_pk": 777109,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Giolito, Lucas",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777101
+      "game_pk": 777101,
+      "result": "win",
+      "actual": 16,
+      "pnl": 86.96
     },
     {
       "player": "Kelly, Carson",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 777101
+      "game_pk": 777101,
+      "result": "win",
+      "actual": 0,
+      "pnl": 110.0
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -256,7 +301,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 777106
+      "game_pk": 777106,
+      "result": "win",
+      "actual": 14,
+      "pnl": 105.0
     },
     {
       "player": "Morton, Charlie",
@@ -272,7 +320,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Morton, Charlie",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 777110
+      "game_pk": 777110,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -304,7 +358,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777105
+      "game_pk": 777105,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -320,7 +377,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777107
+      "game_pk": 777107,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Soroka, Michael",
@@ -336,7 +396,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777112
+      "game_pk": 777112,
+      "result": "win",
+      "actual": 14,
+      "pnl": 100.0
     },
     {
       "player": "Verlander, Justin",
@@ -352,7 +415,10 @@
       "best_book": "fanduel",
       "best_price": 128,
       "stars": 1,
-      "game_pk": 777108
+      "game_pk": 777108,
+      "result": "win",
+      "actual": 0,
+      "pnl": 128.0
     }
   ]
 }

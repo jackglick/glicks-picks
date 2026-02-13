@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.384635+00:00",
+  "generated_at": "2026-02-13T16:51:04.476093+00:00",
   "date": "2025-06-23",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "betonlineag",
       "best_price": -109,
       "stars": 3,
-      "game_pk": 777390
+      "game_pk": 777390,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Liberatore, Matthew",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 777392
+      "game_pk": 777392,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Ober, Bailey",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 777388
+      "game_pk": 777388,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Brown, Ben",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 777392
+      "game_pk": 777392,
+      "result": "win",
+      "actual": 14,
+      "pnl": 87.72
     },
     {
       "player": "Haggerty, Sam",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777394
+      "game_pk": 777394,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Happ, Ian",
@@ -96,7 +111,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777392
+      "game_pk": 777392,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Lindor, Francisco",
@@ -112,7 +130,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777389
+      "game_pk": 777389,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Lodolo, Nick",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 777390
+      "game_pk": 777390,
+      "result": "win",
+      "actual": 1,
+      "pnl": 120.0
     },
     {
       "player": "Marte, Ketel",
@@ -144,7 +168,10 @@
       "best_book": "betonlineag",
       "best_price": -141,
       "stars": 1,
-      "game_pk": 777393
+      "game_pk": 777393,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "McLain, Matt",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777390
+      "game_pk": 777390,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Stanton, Giancarlo",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 777390
+      "game_pk": 777390,
+      "result": "win",
+      "actual": 1,
+      "pnl": 90.91
     }
   ]
 }

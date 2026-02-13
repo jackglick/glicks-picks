@@ -165,7 +165,7 @@
       return {
         market: m.market,
         bets: m.bets,
-        record: m.wins + '-' + m.losses,
+        record: m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : ''),
         winRate: Number(m.win_rate).toFixed(1) + '%',
         pnlText: formatPnl(m.pnl),
         pnlClass: m.pnl >= 0 ? 'pnl-positive' : 'pnl-negative',

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.374747+00:00",
+  "generated_at": "2026-02-13T16:51:04.465532+00:00",
   "date": "2025-06-13",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 777535
+      "game_pk": 777535,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Martinez, Nick",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 777538
+      "game_pk": 777538,
+      "result": "win",
+      "actual": 14,
+      "pnl": 120.0
     },
     {
       "player": "McCutchen, Andrew",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 777526
+      "game_pk": 777526,
+      "result": "win",
+      "actual": 0,
+      "pnl": 135.0
     },
     {
       "player": "McLain, Matt",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 777538
+      "game_pk": 777538,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "Meidroth, Chase",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 143,
       "stars": 3,
-      "game_pk": 777524
+      "game_pk": 777524,
+      "result": "win",
+      "actual": 0,
+      "pnl": 143.0
     },
     {
       "player": "Peraza, Oswald",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 777537
+      "game_pk": 777537,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     },
     {
       "player": "Quero, Edgar",
@@ -112,7 +130,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777524
+      "game_pk": 777524,
+      "result": "win",
+      "actual": 1,
+      "pnl": 130.0
     },
     {
       "player": "Rafaela, Ceddanne",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 777537
+      "game_pk": 777537,
+      "result": "win",
+      "actual": 1,
+      "pnl": 145.0
     },
     {
       "player": "Reynolds, Bryan",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 777526
+      "game_pk": 777526,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Slater, Austin",
@@ -160,7 +187,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777524
+      "game_pk": 777524,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "Steer, Spencer",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 777538
+      "game_pk": 777538,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Acu\u00f1a, Ronald",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 777535
+      "game_pk": 777535,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Busch, Michael",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 777526
+      "game_pk": 777526,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Rutschman, Adley",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 777539
+      "game_pk": 777539,
+      "result": "win",
+      "actual": 1,
+      "pnl": 80.0
     },
     {
       "player": "Albies, Ozzie",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777535
+      "game_pk": 777535,
+      "result": "win",
+      "actual": 0,
+      "pnl": 68.97
     },
     {
       "player": "Crow-Armstrong, Pete",
@@ -256,7 +301,10 @@
       "best_book": "betonlineag",
       "best_price": 129,
       "stars": 1,
-      "game_pk": 777526
+      "game_pk": 777526,
+      "result": "win",
+      "actual": 1,
+      "pnl": 129.0
     },
     {
       "player": "Edwards, Xavier",
@@ -272,7 +320,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777530
+      "game_pk": 777530,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Gausman, Kevin",
@@ -288,7 +339,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 777531
+      "game_pk": 777531,
+      "result": "win",
+      "actual": 14,
+      "pnl": 130.0
     },
     {
       "player": "Martinez, Nick",
@@ -304,7 +358,10 @@
       "best_book": "fanduel",
       "best_price": -122,
       "stars": 1,
-      "game_pk": 777538
+      "game_pk": 777538,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     }
   ]
 }

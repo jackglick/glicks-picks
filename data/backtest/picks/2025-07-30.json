@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.416768+00:00",
+  "generated_at": "2026-02-13T16:51:04.511722+00:00",
   "date": "2025-07-30",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 776935
+      "game_pk": 776935,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Ohtani, Shohei",
@@ -32,7 +35,10 @@
       "best_book": "mybookieag",
       "best_price": 146,
       "stars": 3,
-      "game_pk": 776941
+      "game_pk": 776941,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 2,
-      "game_pk": 776934
+      "game_pk": 776934,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Gore, MacKenzie",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": -113,
       "stars": 2,
-      "game_pk": 776937
+      "game_pk": 776937,
+      "result": "win",
+      "actual": 4,
+      "pnl": 88.5
     },
     {
       "player": "Littell, Zack",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 776938
+      "game_pk": 776938,
+      "result": "win",
+      "actual": 15,
+      "pnl": 86.96
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 776942
+      "game_pk": 776942,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Rutschman, Adley",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 776948
+      "game_pk": 776948,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Wentz, Joey",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776936
+      "game_pk": 776936,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Betts, Mookie",
@@ -144,7 +168,10 @@
       "best_book": "williamhill_us",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776941
+      "game_pk": 776941,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Burrows, Mike",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776933
+      "game_pk": 776933,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Freeland, Kyle",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 776942
+      "game_pk": 776942,
+      "result": "win",
+      "actual": 9,
+      "pnl": 90.91
     },
     {
       "player": "Gore, MacKenzie",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776937
+      "game_pk": 776937,
+      "result": "win",
+      "actual": 16,
+      "pnl": 95.24
     },
     {
       "player": "Heim, Jonah",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": 140,
       "stars": 1,
-      "game_pk": 776932
+      "game_pk": 776932,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Holmes, Clay",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776931
+      "game_pk": 776931,
+      "result": "win",
+      "actual": 3,
+      "pnl": 86.96
     },
     {
       "player": "Imanaga, Shota",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776929
+      "game_pk": 776929,
+      "result": "win",
+      "actual": 15,
+      "pnl": 100.0
     },
     {
       "player": "Littell, Zack",
@@ -256,7 +301,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 776938
+      "game_pk": 776938,
+      "result": "win",
+      "actual": 0,
+      "pnl": 125.0
     },
     {
       "player": "Martinez, Nick",
@@ -272,7 +320,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776941
+      "game_pk": 776941,
+      "result": "win",
+      "actual": 2,
+      "pnl": 76.92
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -288,7 +339,10 @@
       "best_book": "williamhill_us",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 776942
+      "game_pk": 776942,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     },
     {
       "player": "Nelson, Ryne",
@@ -304,7 +358,10 @@
       "best_book": "fanduel",
       "best_price": -106,
       "stars": 1,
-      "game_pk": 776940
+      "game_pk": 776940,
+      "result": "win",
+      "actual": 16,
+      "pnl": 94.34
     },
     {
       "player": "Paddack, Chris",
@@ -320,7 +377,10 @@
       "best_book": "draftkings",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776940
+      "game_pk": 776940,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Raleigh, Cal",
@@ -336,7 +396,10 @@
       "best_book": "draftkings",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776930
+      "game_pk": 776930,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Walker, Taijuan",
@@ -352,7 +415,10 @@
       "best_book": "fanduel",
       "best_price": -106,
       "stars": 1,
-      "game_pk": 776939
+      "game_pk": 776939,
+      "result": "win",
+      "actual": 0,
+      "pnl": 94.34
     }
   ]
 }

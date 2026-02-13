@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.441619+00:00",
+  "generated_at": "2026-02-13T16:51:04.538316+00:00",
   "date": "2025-08-26",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 3,
-      "game_pk": 776581
+      "game_pk": 776581,
+      "result": "win",
+      "actual": 15,
+      "pnl": 110.0
     },
     {
       "player": "Giolito, Lucas",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 776591
+      "game_pk": 776591,
+      "result": "loss",
+      "actual": 24,
+      "pnl": -100.0
     },
     {
       "player": "Gore, MacKenzie",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 776588
+      "game_pk": 776588,
+      "result": "win",
+      "actual": 15,
+      "pnl": 83.33
     },
     {
       "player": "Keller, Mitch",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 776578
+      "game_pk": 776578,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Pfaadt, Brandon",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 2,
-      "game_pk": 776586
+      "game_pk": 776586,
+      "result": "win",
+      "actual": 8,
+      "pnl": 105.0
     },
     {
       "player": "Bassitt, Chris",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776582
+      "game_pk": 776582,
+      "result": "win",
+      "actual": 17,
+      "pnl": 86.96
     },
     {
       "player": "Baz, Shane",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776584
+      "game_pk": 776584,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -128,7 +149,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776581
+      "game_pk": 776581,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Keller, Mitch",
@@ -144,7 +168,10 @@
       "best_book": "bovada",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776578
+      "game_pk": 776578,
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -160,7 +187,10 @@
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 776585
+      "game_pk": 776585,
+      "result": "win",
+      "actual": 11,
+      "pnl": 86.96
     },
     {
       "player": "Pallante, Andre",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776578
+      "game_pk": 776578,
+      "result": "win",
+      "actual": 15,
+      "pnl": 80.0
     },
     {
       "player": "Pfaadt, Brandon",
@@ -192,7 +225,10 @@
       "best_book": "fanduel",
       "best_price": 102,
       "stars": 1,
-      "game_pk": 776586
+      "game_pk": 776586,
+      "result": "win",
+      "actual": 4,
+      "pnl": 102.0
     },
     {
       "player": "Raleigh, Cal",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 776577
+      "game_pk": 776577,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Waldrep, Hurston",
@@ -224,7 +263,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 776581
+      "game_pk": 776581,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     }
   ]
 }

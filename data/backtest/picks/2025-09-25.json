@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.466453+00:00",
+  "generated_at": "2026-02-13T16:51:04.565288+00:00",
   "date": "2025-09-25",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "Arias, Gabriel",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 125.0
     },
     {
       "player": "Beck, Jordan",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 100.0
     },
     {
       "player": "B\u00e1ez, Javier",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "push",
+      "actual": 2,
+      "pnl": 0.0
     },
     {
       "player": "Cole, Zach",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776182
+      "game_pk": 776182,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Doyle, Brenton",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Fitzgerald, Ryan",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": -112,
       "stars": 3,
-      "game_pk": 776183
+      "game_pk": 776183,
+      "result": "win",
+      "actual": 0,
+      "pnl": 89.29
     },
     {
       "player": "Goodman, Hunter",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Hernaiz, Darell",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 776182
+      "game_pk": 776182,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     },
     {
       "player": "Ib\u00e1\u00f1ez, Andy",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 115.0
     },
     {
       "player": "Jones, Jahmai",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Kayfus, C. J.",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Kayfus, C. J.",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Meadows, Parker",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -106,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 94.34
     },
     {
       "player": "Moniak, Mickey",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 1,
+      "pnl": 150.0
     },
     {
       "player": "Naylor, Bo",
@@ -256,7 +301,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Polanco, Jorge",
@@ -272,7 +320,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 145.0
     },
     {
       "player": "Raleigh, Cal",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -304,7 +358,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 2,
+      "pnl": 76.92
     },
     {
       "player": "Ritter, Ryan",
@@ -320,7 +377,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Robles, V\u00edctor",
@@ -336,7 +396,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Robles, V\u00edctor",
@@ -352,7 +415,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 145.0
     },
     {
       "player": "Rocchio, Brayan",
@@ -368,7 +434,10 @@
       "best_book": "fanatics",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 150.0
     },
     {
       "player": "Rocchio, Brayan",
@@ -384,7 +453,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Su\u00e1rez, Eugenio",
@@ -400,7 +472,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Teodosio, Bryce",
@@ -416,7 +491,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 776178
+      "game_pk": 776178,
+      "result": "win",
+      "actual": 0,
+      "pnl": 115.0
     },
     {
       "player": "Tovar, Ezequiel",
@@ -432,7 +510,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "Tovar, Ezequiel",
@@ -448,7 +529,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "V\u00e1zquez, Christian",
@@ -464,7 +548,10 @@
       "best_book": "draftkings",
       "best_price": -121,
       "stars": 3,
-      "game_pk": 776183
+      "game_pk": 776183,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Beck, Jordan",
@@ -480,7 +567,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Bello, Brayan",
@@ -496,7 +586,10 @@
       "best_book": "fanatics",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776186
+      "game_pk": 776186,
+      "result": "win",
+      "actual": 2,
+      "pnl": 90.91
     },
     {
       "player": "Dingler, Dillon",
@@ -512,7 +605,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "push",
+      "actual": 2,
+      "pnl": 0.0
     },
     {
       "player": "Dub\u00f3n, Mauricio",
@@ -528,7 +624,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 776182
+      "game_pk": 776182,
+      "result": "push",
+      "actual": 2,
+      "pnl": 0.0
     },
     {
       "player": "Fitzgerald, Ryan",
@@ -544,7 +643,10 @@
       "best_book": "mybookieag",
       "best_price": -106,
       "stars": 2,
-      "game_pk": 776183
+      "game_pk": 776183,
+      "result": "win",
+      "actual": 0,
+      "pnl": 94.34
     },
     {
       "player": "Greene, Riley",
@@ -560,7 +662,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 2,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Julien, Edouard",
@@ -576,7 +681,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 776183
+      "game_pk": 776183,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Kwan, Steven",
@@ -592,7 +700,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Naylor, Josh",
@@ -608,7 +719,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Su\u00e1rez, Eugenio",
@@ -624,7 +738,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 2,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Yamamoto, Yoshinobu",
@@ -640,7 +757,10 @@
       "best_book": "fanatics",
       "best_price": 135,
       "stars": 2,
-      "game_pk": 776185
+      "game_pk": 776185,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Ashcraft, Braxton",
@@ -656,7 +776,10 @@
       "best_book": "fanduel",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 776190
+      "game_pk": 776190,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Bello, Brayan",
@@ -672,7 +795,10 @@
       "best_book": "draftkings",
       "best_price": -114,
       "stars": 1,
-      "game_pk": 776186
+      "game_pk": 776186,
+      "result": "win",
+      "actual": 3,
+      "pnl": 87.72
     },
     {
       "player": "Doyle, Brenton",
@@ -688,7 +814,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Goodman, Hunter",
@@ -704,7 +833,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Lodolo, Nick",
@@ -720,7 +852,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776190
+      "game_pk": 776190,
+      "result": "win",
+      "actual": 2,
+      "pnl": 105.0
     },
     {
       "player": "Ritter, Ryan",
@@ -736,7 +871,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 776179
+      "game_pk": 776179,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Torkelson, Spencer",
@@ -752,7 +890,10 @@
       "best_book": "fanatics",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 776189
+      "game_pk": 776189,
+      "result": "win",
+      "actual": 0,
+      "pnl": 120.0
     }
   ]
 }

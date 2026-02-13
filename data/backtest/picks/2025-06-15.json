@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.376645+00:00",
+  "generated_at": "2026-02-13T16:51:04.467550+00:00",
   "date": "2025-06-15",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 777496
+      "game_pk": 777496,
+      "result": "win",
+      "actual": 17,
+      "pnl": 90.91
     },
     {
       "player": "Acu\u00f1a, Ronald",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 777504
+      "game_pk": 777504,
+      "result": "win",
+      "actual": 1,
+      "pnl": 110.0
     },
     {
       "player": "Albies, Ozzie",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -135,
       "stars": 2,
-      "game_pk": 777504
+      "game_pk": 777504,
+      "result": "win",
+      "actual": 0,
+      "pnl": 74.07
     },
     {
       "player": "Canning, Griffin",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 777502
+      "game_pk": 777502,
+      "result": "win",
+      "actual": 13,
+      "pnl": 80.0
     },
     {
       "player": "Edman, Tommy",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": 145,
       "stars": 2,
-      "game_pk": 777498
+      "game_pk": 777498,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "May, Dustin",
@@ -96,7 +111,10 @@
       "best_book": "fanduel",
       "best_price": 114,
       "stars": 2,
-      "game_pk": 777498
+      "game_pk": 777498,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Priester, Quinn",
@@ -112,7 +130,10 @@
       "best_book": "betonlineag",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 777492
+      "game_pk": 777492,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Bello, Brayan",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777500
+      "game_pk": 777500,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Canning, Griffin",
@@ -144,7 +168,10 @@
       "best_book": "bovada",
       "best_price": 130,
       "stars": 1,
-      "game_pk": 777502
+      "game_pk": 777502,
+      "result": "win",
+      "actual": 2,
+      "pnl": 130.0
     },
     {
       "player": "Gore, MacKenzie",
@@ -160,7 +187,10 @@
       "best_book": "fanduel",
       "best_price": -142,
       "stars": 1,
-      "game_pk": 777503
+      "game_pk": 777503,
+      "result": "win",
+      "actual": 5,
+      "pnl": 70.42
     },
     {
       "player": "Jones, Jahmai",
@@ -176,7 +206,10 @@
       "best_book": "williamhill_us",
       "best_price": -145,
       "stars": 1,
-      "game_pk": 777505
+      "game_pk": 777505,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Keller, Mitch",
@@ -192,7 +225,10 @@
       "best_book": "bovada",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 777497
+      "game_pk": 777497,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Kikuchi, Yusei",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777501
+      "game_pk": 777501,
+      "result": "loss",
+      "actual": 10,
+      "pnl": -100.0
     },
     {
       "player": "Mikolas, Miles",
@@ -224,7 +263,10 @@
       "best_book": "draftkings",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777492
+      "game_pk": 777492,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Miley, Wade",
@@ -240,7 +282,10 @@
       "best_book": "fanduel",
       "best_price": 122,
       "stars": 1,
-      "game_pk": 777505
+      "game_pk": 777505,
+      "result": "loss",
+      "actual": 15,
+      "pnl": -100.0
     },
     {
       "player": "Pivetta, Nick",
@@ -256,7 +301,10 @@
       "best_book": "betonlineag",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777491
+      "game_pk": 777491,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "P\u00e9rez, Eury",
@@ -272,7 +320,10 @@
       "best_book": "bovada",
       "best_price": 115,
       "stars": 1,
-      "game_pk": 777503
+      "game_pk": 777503,
+      "result": "win",
+      "actual": 0,
+      "pnl": 115.0
     },
     {
       "player": "Rea, Colin",
@@ -288,7 +339,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 777497
+      "game_pk": 777497,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Rocker, Kumar",
@@ -304,7 +358,10 @@
       "best_book": "draftkings",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777493
+      "game_pk": 777493,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     }
   ]
 }

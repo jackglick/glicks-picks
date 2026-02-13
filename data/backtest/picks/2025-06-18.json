@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.379086+00:00",
+  "generated_at": "2026-02-13T16:51:04.470108+00:00",
   "date": "2025-06-18",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 777462
+      "game_pk": 777462,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "Heineman, Tyler",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 777462
+      "game_pk": 777462,
+      "result": "win",
+      "actual": 1,
+      "pnl": 115.0
     },
     {
       "player": "Schneider, Davis",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 3,
-      "game_pk": 777462
+      "game_pk": 777462,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Walls, Taylor",
@@ -64,7 +73,10 @@
       "best_book": "betonlineag",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777463
+      "game_pk": 777463,
+      "result": "win",
+      "actual": 1,
+      "pnl": 130.0
     },
     {
       "player": "Castro, Willi",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -145,
       "stars": 2,
-      "game_pk": 777474
+      "game_pk": 777474,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.97
     },
     {
       "player": "Ober, Bailey",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 2,
-      "game_pk": 777474
+      "game_pk": 777474,
+      "result": "win",
+      "actual": 16,
+      "pnl": 110.0
     },
     {
       "player": "Rodriguez, Eduardo",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 777462
+      "game_pk": 777462,
+      "result": "win",
+      "actual": 14,
+      "pnl": 86.96
     },
     {
       "player": "Schneider, Davis",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 2,
-      "game_pk": 777462
+      "game_pk": 777462,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "De La Cruz, Elly",
@@ -144,7 +168,10 @@
       "best_book": "williamhill_us",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777474
+      "game_pk": 777474,
+      "result": "win",
+      "actual": 0,
+      "pnl": 80.0
     },
     {
       "player": "Diaz, Yainer",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 777456
+      "game_pk": 777456,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Marte, Ketel",
@@ -176,7 +206,10 @@
       "best_book": "williamhill_us",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777462
+      "game_pk": 777462,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Raleigh, Cal",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 777453
+      "game_pk": 777453,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 1,
-      "game_pk": 777454
+      "game_pk": 777454,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
     },
     {
       "player": "Su\u00e1rez, Ranger",
@@ -224,7 +263,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 777465
+      "game_pk": 777465,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     }
   ]
 }

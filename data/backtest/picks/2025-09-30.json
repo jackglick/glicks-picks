@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.469283+00:00",
+  "generated_at": "2026-02-13T16:51:04.572060+00:00",
   "date": "2025-09-30",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": 128,
       "stars": 2,
-      "game_pk": 813074
+      "game_pk": 813074,
+      "result": "loss",
+      "actual": 23,
+      "pnl": -100.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": -146,
       "stars": 1,
-      "game_pk": 813072
+      "game_pk": 813072,
+      "result": "win",
+      "actual": 1,
+      "pnl": 68.49
     }
   ]
 }

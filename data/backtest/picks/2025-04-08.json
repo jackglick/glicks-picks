@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.300598+00:00",
+  "generated_at": "2026-02-13T16:51:04.379653+00:00",
   "date": "2025-04-08",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 778404
+      "game_pk": 778404,
+      "result": "win",
+      "actual": 17,
+      "pnl": 115.0
     },
     {
       "player": "Tauchman, Mike",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 778402
+      "game_pk": 778402,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "Tauchman, Mike",
@@ -48,7 +54,10 @@
       "best_book": "fanatics",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 778402
+      "game_pk": 778402,
+      "result": "win",
+      "actual": 0,
+      "pnl": 145.0
     },
     {
       "player": "Crochet, Garrett",
@@ -64,7 +73,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 778404
+      "game_pk": 778404,
+      "result": "win",
+      "actual": 5,
+      "pnl": 83.33
     },
     {
       "player": "D\u00edaz, Yandy",
@@ -80,7 +92,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 778417
+      "game_pk": 778417,
+      "result": "win",
+      "actual": 0,
+      "pnl": 80.0
     },
     {
       "player": "Gray, Sonny",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": 125,
       "stars": 2,
-      "game_pk": 778408
+      "game_pk": 778408,
+      "result": "win",
+      "actual": 15,
+      "pnl": 125.0
     },
     {
       "player": "Sale, Chris",
@@ -112,7 +130,10 @@
       "best_book": "draftkings",
       "best_price": 150,
       "stars": 2,
-      "game_pk": 778406
+      "game_pk": 778406,
+      "result": "win",
+      "actual": 14,
+      "pnl": 150.0
     },
     {
       "player": "Crochet, Garrett",
@@ -128,7 +149,10 @@
       "best_book": "draftkings",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778404
+      "game_pk": 778404,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Duran, Jarren",
@@ -144,7 +168,10 @@
       "best_book": "bovada",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 778404
+      "game_pk": 778404,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
     },
     {
       "player": "Lively, Ben",
@@ -160,7 +187,10 @@
       "best_book": "betrivers",
       "best_price": 107,
       "stars": 1,
-      "game_pk": 778402
+      "game_pk": 778402,
+      "result": "win",
+      "actual": 4,
+      "pnl": 107.0
     },
     {
       "player": "Skenes, Paul",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778408
+      "game_pk": 778408,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Skubal, Tarik",
@@ -192,7 +225,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778403
+      "game_pk": 778403,
+      "result": "win",
+      "actual": 6,
+      "pnl": 66.67
     },
     {
       "player": "Tat\u00eds, Fernando",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778395
+      "game_pk": 778395,
+      "result": "win",
+      "actual": 0,
+      "pnl": 76.92
     },
     {
       "player": "Witt, Bobby",
@@ -224,7 +263,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 778400
+      "game_pk": 778400,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Wrobleski, Justin",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": 125,
       "stars": 1,
-      "game_pk": 778409
+      "game_pk": 778409,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     }
   ]
 }

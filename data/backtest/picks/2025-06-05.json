@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.367844+00:00",
+  "generated_at": "2026-02-13T16:51:04.458042+00:00",
   "date": "2025-06-05",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 145,
       "stars": 3,
-      "game_pk": 777628
+      "game_pk": 777628,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Irvin, Jake",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 777632
+      "game_pk": 777632,
+      "result": "win",
+      "actual": 15,
+      "pnl": 120.0
     },
     {
       "player": "Moore, Dylan",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 3,
-      "game_pk": 777628
+      "game_pk": 777628,
+      "result": "win",
+      "actual": 0,
+      "pnl": 90.91
     },
     {
       "player": "Pepiot, Ryan",
@@ -64,7 +73,10 @@
       "best_book": "fanduel",
       "best_price": 122,
       "stars": 3,
-      "game_pk": 777629
+      "game_pk": 777629,
+      "result": "win",
+      "actual": 17,
+      "pnl": 122.0
     },
     {
       "player": "Vilade, Ryan",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777635
+      "game_pk": 777635,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "Vilade, Ryan",
@@ -96,7 +111,10 @@
       "best_book": "draftkings",
       "best_price": 130,
       "stars": 3,
-      "game_pk": 777642
+      "game_pk": 777642,
+      "result": "win",
+      "actual": 0,
+      "pnl": 130.0
     },
     {
       "player": "Waters, Drew",
@@ -112,7 +130,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 777642
+      "game_pk": 777642,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Waters, Drew",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": 140,
       "stars": 3,
-      "game_pk": 777635
+      "game_pk": 777635,
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
     },
     {
       "player": "Cease, Dylan",
@@ -144,7 +168,10 @@
       "best_book": "fanduel",
       "best_price": 112,
       "stars": 2,
-      "game_pk": 777633
+      "game_pk": 777633,
+      "result": "win",
+      "actual": 15,
+      "pnl": 112.0
     },
     {
       "player": "Happ, Ian",
@@ -160,7 +187,10 @@
       "best_book": "fanatics",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 777632
+      "game_pk": 777632,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Mize, Casey",
@@ -176,7 +206,10 @@
       "best_book": "fanduel",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 777634
+      "game_pk": 777634,
+      "result": "win",
+      "actual": 14,
+      "pnl": 86.96
     },
     {
       "player": "Acu\u00f1a, Ronald",
@@ -192,7 +225,10 @@
       "best_book": "fanatics",
       "best_price": -115,
       "stars": 1,
-      "game_pk": 777640
+      "game_pk": 777640,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Holmes, Grant",
@@ -208,7 +244,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 777640
+      "game_pk": 777640,
+      "result": "win",
+      "actual": 10,
+      "pnl": 95.24
     },
     {
       "player": "Luzardo, Jes\u00fas",
@@ -224,7 +263,10 @@
       "best_book": "fanduel",
       "best_price": 120,
       "stars": 1,
-      "game_pk": 777637
+      "game_pk": 777637,
+      "result": "win",
+      "actual": 7,
+      "pnl": 120.0
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -240,7 +282,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 777644
+      "game_pk": 777644,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     }
   ]
 }

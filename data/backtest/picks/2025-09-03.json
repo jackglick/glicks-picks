@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.447818+00:00",
+  "generated_at": "2026-02-13T16:51:04.545524+00:00",
   "date": "2025-09-03",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "draftkings",
       "best_price": 115,
       "stars": 3,
-      "game_pk": 776475
+      "game_pk": 776475,
+      "result": "win",
+      "actual": 13,
+      "pnl": 115.0
     },
     {
       "player": "Flores, Wilmer",
@@ -32,7 +35,10 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 2,
-      "game_pk": 776467
+      "game_pk": 776467,
+      "result": "win",
+      "actual": 1,
+      "pnl": 100.0
     },
     {
       "player": "Liberatore, Matthew",
@@ -48,7 +54,10 @@
       "best_book": "draftkings",
       "best_price": -130,
       "stars": 2,
-      "game_pk": 776470
+      "game_pk": 776470,
+      "result": "win",
+      "actual": 4,
+      "pnl": 76.92
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 776474
+      "game_pk": 776474,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     },
     {
       "player": "Matthews, Zebby",
@@ -80,7 +92,10 @@
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 2,
-      "game_pk": 776469
+      "game_pk": 776469,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Parker, Mitchell",
@@ -96,7 +111,10 @@
       "best_book": "fanduel",
       "best_price": -104,
       "stars": 2,
-      "game_pk": 776477
+      "game_pk": 776477,
+      "result": "win",
+      "actual": 15,
+      "pnl": 96.15
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -112,7 +130,10 @@
       "best_book": "williamhill_us",
       "best_price": -120,
       "stars": 2,
-      "game_pk": 776474
+      "game_pk": 776474,
+      "result": "win",
+      "actual": 0,
+      "pnl": 83.33
     },
     {
       "player": "Adames, Willy",
@@ -128,7 +149,10 @@
       "best_book": "williamhill_us",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776467
+      "game_pk": 776467,
+      "result": "win",
+      "actual": 1,
+      "pnl": 105.0
     },
     {
       "player": "Chapman, Matt",
@@ -144,7 +168,10 @@
       "best_book": "williamhill_us",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776467
+      "game_pk": 776467,
+      "result": "loss",
+      "actual": 10,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -160,7 +187,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776477
+      "game_pk": 776477,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Gallen, Zac",
@@ -176,7 +206,10 @@
       "best_book": "draftkings",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 776468
+      "game_pk": 776468,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Nola, Aaron",
@@ -192,7 +225,10 @@
       "best_book": "fanduel",
       "best_price": 112,
       "stars": 1,
-      "game_pk": 776471
+      "game_pk": 776471,
+      "result": "win",
+      "actual": 15,
+      "pnl": 112.0
     },
     {
       "player": "Ramos, Heliot",
@@ -208,7 +244,10 @@
       "best_book": "williamhill_us",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776467
+      "game_pk": 776467,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Schmitt, Casey",
@@ -224,7 +263,10 @@
       "best_book": "betonlineag",
       "best_price": -125,
       "stars": 1,
-      "game_pk": 776467
+      "game_pk": 776467,
+      "result": "win",
+      "actual": 0,
+      "pnl": 80.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.323189+00:00",
+  "generated_at": "2026-02-13T16:51:04.400400+00:00",
   "date": "2025-04-27",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 778148
+      "game_pk": 778148,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Gausman, Kevin",
@@ -32,7 +35,10 @@
       "best_book": "bovada",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 778156
+      "game_pk": 778156,
+      "result": "win",
+      "actual": 8,
+      "pnl": 135.0
     },
     {
       "player": "Littell, Zack",
@@ -48,7 +54,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 778146
+      "game_pk": 778146,
+      "result": "win",
+      "actual": 15,
+      "pnl": 120.0
     },
     {
       "player": "Lodolo, Nick",
@@ -64,7 +73,10 @@
       "best_book": "williamhill_us",
       "best_price": -113,
       "stars": 3,
-      "game_pk": 778148
+      "game_pk": 778148,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Parker, Mitchell",
@@ -80,7 +92,10 @@
       "best_book": "betonlineag",
       "best_price": 135,
       "stars": 3,
-      "game_pk": 778153
+      "game_pk": 778153,
+      "result": "win",
+      "actual": 15,
+      "pnl": 135.0
     },
     {
       "player": "Ryan, Joe",
@@ -96,7 +111,10 @@
       "best_book": "bovada",
       "best_price": 120,
       "stars": 3,
-      "game_pk": 778144
+      "game_pk": 778144,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Bido, Osvaldo",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 778149
+      "game_pk": 778149,
+      "result": "win",
+      "actual": 16,
+      "pnl": 80.0
     },
     {
       "player": "Bubic, Kris",
@@ -128,7 +149,10 @@
       "best_book": "betonlineag",
       "best_price": 120,
       "stars": 2,
-      "game_pk": 778152
+      "game_pk": 778152,
+      "result": "win",
+      "actual": 15,
+      "pnl": 120.0
     },
     {
       "player": "Kremer, Dean",
@@ -144,7 +168,10 @@
       "best_book": "betonlineag",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 778155
+      "game_pk": 778155,
+      "result": "win",
+      "actual": 16,
+      "pnl": 80.0
     },
     {
       "player": "Megill, Tylor",
@@ -160,7 +187,10 @@
       "best_book": "williamhill_us",
       "best_price": -106,
       "stars": 2,
-      "game_pk": 778153
+      "game_pk": 778153,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Nola, Aaron",
@@ -176,7 +206,10 @@
       "best_book": "bovada",
       "best_price": 145,
       "stars": 2,
-      "game_pk": 778158
+      "game_pk": 778158,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Pfaadt, Brandon",
@@ -192,7 +225,10 @@
       "best_book": "williamhill_us",
       "best_price": -103,
       "stars": 2,
-      "game_pk": 778147
+      "game_pk": 778147,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Raleigh, Cal",
@@ -208,7 +244,10 @@
       "best_book": "bovada",
       "best_price": -135,
       "stars": 2,
-      "game_pk": 778136
+      "game_pk": 778136,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Schwellenbach, Spencer",
@@ -224,7 +263,10 @@
       "best_book": "williamhill_us",
       "best_price": 112,
       "stars": 2,
-      "game_pk": 778147
+      "game_pk": 778147,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Taillon, Jameson",
@@ -240,7 +282,10 @@
       "best_book": "bovada",
       "best_price": 115,
       "stars": 2,
-      "game_pk": 778158
+      "game_pk": 778158,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
     },
     {
       "player": "Toglia, Michael",
@@ -256,7 +301,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 2,
-      "game_pk": 778148
+      "game_pk": 778148,
+      "result": "win",
+      "actual": 0,
+      "pnl": 66.67
     },
     {
       "player": "Beck, Jordan",
@@ -272,7 +320,10 @@
       "best_book": "bovada",
       "best_price": -120,
       "stars": 1,
-      "game_pk": 778148
+      "game_pk": 778148,
+      "result": "win",
+      "actual": 1,
+      "pnl": 83.33
     },
     {
       "player": "Bello, Brayan",
@@ -288,7 +339,10 @@
       "best_book": "betonlineag",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 778157
+      "game_pk": 778157,
+      "result": "win",
+      "actual": 17,
+      "pnl": 76.92
     },
     {
       "player": "Doyle, Brenton",
@@ -304,7 +358,10 @@
       "best_book": "bovada",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 778148
+      "game_pk": 778148,
+      "result": "win",
+      "actual": 0,
+      "pnl": 105.0
     },
     {
       "player": "Falter, Bailey",
@@ -320,7 +377,10 @@
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 778145
+      "game_pk": 778145,
+      "result": "win",
+      "actual": 14,
+      "pnl": 110.0
     },
     {
       "player": "Gausman, Kevin",
@@ -336,7 +396,10 @@
       "best_book": "draftkings",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778156
+      "game_pk": 778156,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
     },
     {
       "player": "Grisham, Trent",
@@ -352,7 +415,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778170
+      "game_pk": 778170,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Hays, Austin",
@@ -368,7 +434,10 @@
       "best_book": "fanatics",
       "best_price": 105,
       "stars": 1,
-      "game_pk": 778148
+      "game_pk": 778148,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Su\u00e1rez, Eugenio",
@@ -384,7 +453,10 @@
       "best_book": "bovada",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 778147
+      "game_pk": 778147,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
     }
   ]
 }

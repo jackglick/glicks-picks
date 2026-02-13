@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T04:00:59.430409+00:00",
+  "generated_at": "2026-02-13T16:51:04.526862+00:00",
   "date": "2025-08-14",
   "picks": [
     {
@@ -16,7 +16,10 @@
       "best_book": "bovada",
       "best_price": 150,
       "stars": 3,
-      "game_pk": 776745
+      "game_pk": 776745,
+      "result": "win",
+      "actual": 17,
+      "pnl": 150.0
     },
     {
       "player": "Lindor, Francisco",
@@ -32,7 +35,10 @@
       "best_book": "fanatics",
       "best_price": -125,
       "stars": 2,
-      "game_pk": 776748
+      "game_pk": 776748,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Bibee, Tanner",
@@ -48,7 +54,10 @@
       "best_book": "fanduel",
       "best_price": -128,
       "stars": 1,
-      "game_pk": 776745
+      "game_pk": 776745,
+      "result": "win",
+      "actual": 5,
+      "pnl": 78.12
     },
     {
       "player": "Boyd, Matthew",
@@ -64,7 +73,10 @@
       "best_book": "fanatics",
       "best_price": 100,
       "stars": 1,
-      "game_pk": 776747
+      "game_pk": 776747,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Cabrera, Edward",
@@ -80,7 +92,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776745
+      "game_pk": 776745,
+      "result": "win",
+      "actual": 16,
+      "pnl": 76.92
     },
     {
       "player": "Edwards, Xavier",
@@ -96,7 +111,10 @@
       "best_book": "fanatics",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776745
+      "game_pk": 776745,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Lord, Brad",
@@ -112,7 +130,10 @@
       "best_book": "bovada",
       "best_price": 110,
       "stars": 1,
-      "game_pk": 776743
+      "game_pk": 776743,
+      "result": "win",
+      "actual": 1,
+      "pnl": 110.0
     },
     {
       "player": "Mountcastle, Ryan",
@@ -128,7 +149,10 @@
       "best_book": "fanatics",
       "best_price": -130,
       "stars": 1,
-      "game_pk": 776750
+      "game_pk": 776750,
+      "result": "win",
+      "actual": 1,
+      "pnl": 76.92
     },
     {
       "player": "Raleigh, Cal",
@@ -144,7 +168,10 @@
       "best_book": "fanatics",
       "best_price": -105,
       "stars": 1,
-      "game_pk": 776750
+      "game_pk": 776750,
+      "result": "win",
+      "actual": 0,
+      "pnl": 95.24
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -160,7 +187,10 @@
       "best_book": "williamhill_us",
       "best_price": -140,
       "stars": 1,
-      "game_pk": 776745
+      "game_pk": 776745,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Senga, Kodai",
@@ -176,7 +206,10 @@
       "best_book": "fanatics",
       "best_price": -150,
       "stars": 1,
-      "game_pk": 776748
+      "game_pk": 776748,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     }
   ]
 }
