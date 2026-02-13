@@ -217,11 +217,12 @@ button:focus-visible,
 .season-pill {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   border: 1.5px solid var(--chip-border);
-  border-radius: 20px;
-  padding: 2px;
-  margin-left: 1.5rem;
+  border-radius: 28px;
+  padding: 3px;
   background: var(--bg-surface-2);
+  margin-bottom: 1.25rem;
 }
 
 .season-pill-btn {
@@ -230,11 +231,11 @@ button:focus-visible,
   background: transparent;
   color: var(--text-secondary);
   font-family: inherit;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  padding: 0.3rem 0.8rem;
-  border-radius: 18px;
+  padding: 0.45rem 1.3rem;
+  border-radius: 24px;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
   line-height: 1;
@@ -1537,11 +1538,6 @@ a {
   top: 0.75rem;
 }
 
-.season-pill-btn {
-  font-size: 0.65rem;
-  padding: 0.25rem 0.6rem;
-}
-
 .cta-group {
   display: flex;
   flex-direction: column;
@@ -1622,11 +1618,11 @@ a {
   }
 }
 
-/* --- Compact season pill on mobile --- */
-@media (max-width: 767px) {
-  .header .season-pill {
-    margin-left: auto;
-    margin-right: 0.75rem;
+/* --- Season pill mobile --- */
+@media (max-width: 480px) {
+  .season-pill-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
   }
 }
 
