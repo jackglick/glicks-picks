@@ -103,8 +103,9 @@
   function updateSeasonBanner() {
     var banner = document.getElementById('backtest-banner');
     var season = getSeason();
+    var hasPill = document.querySelector('.season-pill');
     if (banner) {
-      if (isArchiveSeason()) {
+      if (isArchiveSeason() && hasPill) {
         banner.textContent = 'Viewing ' + season + ' Season Archive';
         banner.style.display = 'block';
       } else {
@@ -112,7 +113,7 @@
       }
     }
 
-    if (isArchiveSeason()) {
+    if (isArchiveSeason() && hasPill) {
       document.body.classList.add('backtest-mode');
     } else {
       document.body.classList.remove('backtest-mode');
