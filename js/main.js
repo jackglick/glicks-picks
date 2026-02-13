@@ -1422,8 +1422,22 @@
       }
 
       var canvas = document.getElementById('pnl-chart');
-      if (canvas && data.cumulative_pnl && data.cumulative_pnl.length > 0 && typeof Chart !== 'undefined') {
-        initPnlChart(canvas, data.cumulative_pnl);
+      if (canvas && data.cumulative_pnl && data.cumulative_pnl.length > 0) {
+        if (typeof Chart !== 'undefined') {
+          initPnlChart(canvas, data.cumulative_pnl);
+        } else {
+          // Chart.js defer script may not have executed yet — wait for it
+          var attempts = 0;
+          var waitForChart = setInterval(function () {
+            attempts++;
+            if (typeof Chart !== 'undefined') {
+              clearInterval(waitForChart);
+              initPnlChart(canvas, data.cumulative_pnl);
+            } else if (attempts > 50) {
+              clearInterval(waitForChart);
+            }
+          }, 100);
+        }
       }
 
       reobserveReveals();
