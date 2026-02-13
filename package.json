@@ -1,0 +1,9 @@
+{
+  "name": "glicks-picks-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Test harness for the Glick's Picks static site",
+  "scripts": {
+    "test": "node --test"
+  }
+}

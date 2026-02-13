@@ -5,6 +5,8 @@
 (function () {
   'use strict';
 
+  var SiteLogic = window.GlicksSiteLogic || null;
+
   // Mark that JS is active (for CSS fallback on .reveal)
   document.documentElement.classList.add('js');
 
@@ -115,6 +117,9 @@
 
   function getDataPath(filename) {
     var env = getEnv();
+    if (SiteLogic && typeof SiteLogic.getDataPath === 'function') {
+      return SiteLogic.getDataPath(env, filename);
+    }
     return env === 'dev' ? 'data/backtest/' + filename : 'data/' + filename;
   }
 
@@ -511,6 +516,9 @@
   }
 
   function normalizeBookKey(book) {
+    if (SiteLogic && typeof SiteLogic.normalizeBookKey === 'function') {
+      return SiteLogic.normalizeBookKey(book);
+    }
     return String(book || '').trim().toLowerCase();
   }
 
@@ -526,6 +534,14 @@
   }
 
   function syncBookFilterState() {
+    if (SiteLogic && typeof SiteLogic.syncBookFilterState === 'function') {
+      picksState.selectedBooks = SiteLogic.syncBookFilterState(
+        picksState.allPicks || [],
+        picksState.selectedBooks || {}
+      );
+      return;
+    }
+
     var present = {};
     (picksState.allPicks || []).forEach(function (pick) {
       var key = normalizeBookKey(pick.best_book);
@@ -542,6 +558,13 @@
   }
 
   function getFilteredPicks() {
+    if (SiteLogic && typeof SiteLogic.getFilteredPicks === 'function') {
+      return SiteLogic.getFilteredPicks(
+        picksState.allPicks || [],
+        picksState.selectedBooks || {}
+      );
+    }
+
     var picks = picksState.allPicks || [];
     if (picks.length === 0) return [];
 
@@ -665,6 +688,9 @@
   }
 
   function getCalendarMonthIndex(year, month) {
+    if (SiteLogic && typeof SiteLogic.getCalendarMonthIndex === 'function') {
+      return SiteLogic.getCalendarMonthIndex(year, month);
+    }
     return year * 12 + month;
   }
 
@@ -694,6 +720,21 @@
 
   function shiftBacktestCalendarMonth(delta) {
     if (!picksState.backtestIndex) return;
+    if (SiteLogic && typeof SiteLogic.shiftCalendarMonth === 'function') {
+      var prevIdx = getCalendarMonthIndex(
+        picksState.backtestIndex.viewYear,
+        picksState.backtestIndex.viewMonth
+      );
+      SiteLogic.shiftCalendarMonth(picksState.backtestIndex, delta);
+      var nextIdx = getCalendarMonthIndex(
+        picksState.backtestIndex.viewYear,
+        picksState.backtestIndex.viewMonth
+      );
+      if (nextIdx === prevIdx) return;
+      renderBacktestCalendar();
+      return;
+    }
+
     var year = picksState.backtestIndex.viewYear;
     var month = picksState.backtestIndex.viewMonth + delta;
     var d = new Date(year, month, 1);
@@ -723,29 +764,52 @@
 
     var firstWeekday = first.getDay();
     var daysInMonth = new Date(year, month + 1, 0).getDate();
+    var calendarModel = null;
+    if (SiteLogic && typeof SiteLogic.computeCalendarDays === 'function') {
+      calendarModel = SiteLogic.computeCalendarDays(picksState.backtestIndex, picksState.selectedBacktestDate);
+    }
 
-    for (var i = 0; i < firstWeekday; i++) {
+    var fillerCount = calendarModel ? calendarModel.fillers : firstWeekday;
+    for (var i = 0; i < fillerCount; i++) {
       grid.appendChild(el('span', 'calendar-day filler', ''));
     }
 
-    for (var day = 1; day <= daysInMonth; day++) {
-      var dateKey = toDateKey(year, month, day);
-      var count = picksState.backtestIndex.countByDate[dateKey] || 0;
-      var isAvailable = count > 0;
+    var entries = [];
+    if (calendarModel) {
+      entries = calendarModel.days;
+    } else {
+      for (var day = 1; day <= daysInMonth; day++) {
+        var dateKey = toDateKey(year, month, day);
+        var count = picksState.backtestIndex.countByDate[dateKey] || 0;
+        var isAvailable = count > 0;
+        var density = isAvailable ? count / picksState.backtestIndex.maxCount : 0;
+        entries.push({
+          day: day,
+          dateKey: dateKey,
+          count: count,
+          isAvailable: isAvailable,
+          alpha: Number((0.16 + (density * 0.54)).toFixed(3)),
+          selected: dateKey === picksState.selectedBacktestDate
+        });
+      }
+    }
+
+    entries.forEach(function (entry) {
+      var dateKey = entry.dateKey;
+      var count = entry.count;
+      var isAvailable = entry.isAvailable;
 
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'calendar-day';
-      btn.textContent = String(day);
+      btn.textContent = String(entry.day);
       btn.disabled = !isAvailable;
 
       if (!isAvailable) {
         btn.classList.add('no-picks');
       } else {
         btn.classList.add('has-picks');
-        var density = count / picksState.backtestIndex.maxCount;
-        var alpha = 0.16 + (density * 0.54);
-        btn.style.backgroundColor = 'rgba(26, 127, 109, ' + alpha.toFixed(3) + ')';
+        btn.style.backgroundColor = 'rgba(26, 127, 109, ' + Number(entry.alpha).toFixed(3) + ')';
         btn.title = formatFullDate(dateKey) + ' • ' + count + ' picks';
         btn.addEventListener('click', (function (pickedDate) {
           return function () {
@@ -757,12 +821,12 @@
         })(dateKey));
       }
 
-      if (dateKey === picksState.selectedBacktestDate) {
+      if (entry.selected || dateKey === picksState.selectedBacktestDate) {
         btn.classList.add('selected');
       }
 
       grid.appendChild(btn);
-    }
+    });
 
     var monthIdx = getCalendarMonthIndex(year, month);
     prevBtn.disabled = monthIdx <= picksState.backtestIndex.minMonthIdx;
@@ -789,6 +853,23 @@
           return;
         }
 
+        if (SiteLogic && typeof SiteLogic.buildBacktestIndex === 'function') {
+          var builtIndex = SiteLogic.buildBacktestIndex(index);
+          if (!builtIndex) {
+            setStatusText('picks-status', 'No backtest date index available.');
+            return;
+          }
+          picksState.backtestIndex = {
+            dates: builtIndex.dates,
+            countByDate: builtIndex.countByDate,
+            maxCount: builtIndex.maxCount,
+            minMonthIdx: builtIndex.minMonthIdx,
+            maxMonthIdx: builtIndex.maxMonthIdx,
+            viewYear: builtIndex.viewYear,
+            viewMonth: builtIndex.viewMonth
+          };
+          picksState.selectedBacktestDate = builtIndex.selectedBacktestDate;
+        } else {
         var sorted = index.dates.slice().sort(function (a, b) {
           return a.date.localeCompare(b.date);
         });
@@ -814,11 +895,12 @@
           viewMonth: maxParsed.getMonth()
         };
         picksState.selectedBacktestDate = maxDate;
+        }
 
         picker.style.display = '';
         updateBacktestDateTrigger();
         renderBacktestCalendar();
-        loadBacktestPicks(maxDate);
+        loadBacktestPicks(picksState.selectedBacktestDate);
 
         if (picker.dataset.bound === '1') return;
         picker.dataset.bound = '1';
