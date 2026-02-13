@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T14:07:49.385579",
+  "generated_at": "2026-02-13T20:16:50.348259+00:00",
   "summary": {
     "total_bets": 1406,
     "wins": 761,
@@ -7,31 +7,12 @@
     "pushes": 1,
     "win_rate": 54.2,
     "total_pnl": 14049.16,
-    "roi": 10.0
+    "roi": 10.0,
+    "current_streak": 1,
+    "streak_type": "L",
+    "max_drawdown": -1312.45
   },
   "by_market": [
-    {
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "bets": 1038,
-      "wins": 537,
-      "losses": 500,
-      "pushes": 1,
-      "pnl": 6914.9,
-      "win_rate": 51.8,
-      "roi": 6.7
-    },
-    {
-      "market": "Walks",
-      "category": "pitcher",
-      "bets": 169,
-      "wins": 99,
-      "losses": 70,
-      "pushes": 0,
-      "pnl": 3110.79,
-      "win_rate": 58.6,
-      "roi": 18.4
-    },
     {
       "market": "Earned Runs",
       "category": "pitcher",
@@ -39,8 +20,8 @@
       "wins": 82,
       "losses": 44,
       "pushes": 0,
-      "pnl": 3022.12,
       "win_rate": 65.1,
+      "pnl": 3022.12,
       "roi": 24.0
     },
     {
@@ -50,9 +31,20 @@
       "wins": 39,
       "losses": 21,
       "pushes": 0,
-      "pnl": 1592.86,
       "win_rate": 65.0,
+      "pnl": 1592.86,
       "roi": 26.5
+    },
+    {
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "bets": 1038,
+      "wins": 537,
+      "losses": 500,
+      "pushes": 1,
+      "win_rate": 51.8,
+      "pnl": 6914.9,
+      "roi": 6.7
     },
     {
       "market": "Strikeouts",
@@ -61,9 +53,766 @@
       "wins": 4,
       "losses": 9,
       "pushes": 0,
-      "pnl": -591.51,
       "win_rate": 30.8,
+      "pnl": -591.51,
       "roi": -45.5
+    },
+    {
+      "market": "Walks",
+      "category": "pitcher",
+      "bets": 169,
+      "wins": 99,
+      "losses": 70,
+      "pushes": 0,
+      "win_rate": 58.6,
+      "pnl": 3110.79,
+      "roi": 18.4
+    }
+  ],
+  "star_tier_stats": [
+    {
+      "stars": 1,
+      "bets": 711,
+      "wins": 385,
+      "losses": 325,
+      "pushes": 1,
+      "win_rate": 54.2,
+      "pnl": 5238.53,
+      "roi": 7.4
+    },
+    {
+      "stars": 2,
+      "bets": 391,
+      "wins": 213,
+      "losses": 178,
+      "pushes": 0,
+      "win_rate": 54.5,
+      "pnl": 4279.35,
+      "roi": 10.9
+    },
+    {
+      "stars": 3,
+      "bets": 304,
+      "wins": 163,
+      "losses": 141,
+      "pushes": 0,
+      "win_rate": 53.6,
+      "pnl": 4531.28,
+      "roi": 14.9
+    }
+  ],
+  "direction_stats": [
+    {
+      "direction": "OVER",
+      "bets": 24,
+      "wins": 13,
+      "losses": 11,
+      "pushes": 0,
+      "win_rate": 54.2,
+      "pnl": 493.05,
+      "roi": 20.5
+    },
+    {
+      "direction": "UNDER",
+      "bets": 1382,
+      "wins": 748,
+      "losses": 633,
+      "pushes": 1,
+      "win_rate": 54.2,
+      "pnl": 13556.11,
+      "roi": 9.8
+    }
+  ],
+  "player_attention": {
+    "available": true,
+    "method": {
+      "attention_proxy": "player bet frequency within scored paper trades",
+      "high_attention_quantile": 0.8,
+      "high_attention_min_bets": 10.0,
+      "tracked_players": [
+        "Ohtani, Shohei",
+        "Judge, Aaron"
+      ]
+    },
+    "overall": {
+      "bets": 1406,
+      "unique_players": 219,
+      "mean_edge": 0.1705,
+      "median_edge": 0.159
+    },
+    "tier_comparison": [
+      {
+        "bets": 679,
+        "wins": 362,
+        "losses": 316,
+        "pushes": 1,
+        "win_rate": 53.4,
+        "pnl": 6454.06,
+        "stake": 67900.0,
+        "roi": 9.5,
+        "mean_edge": 0.17,
+        "median_edge": 0.159,
+        "tier": "high_attention_players",
+        "unique_players": 51,
+        "avg_bets_per_player": 14.04
+      },
+      {
+        "bets": 727,
+        "wins": 399,
+        "losses": 328,
+        "pushes": 0,
+        "win_rate": 54.9,
+        "pnl": 7595.1,
+        "stake": 72700.0,
+        "roi": 10.4,
+        "mean_edge": 0.171,
+        "median_edge": 0.159,
+        "tier": "other_players",
+        "unique_players": 168,
+        "avg_bets_per_player": 5.8
+      }
+    ],
+    "frequency_deciles": [
+      {
+        "bets": 146,
+        "wins": 84,
+        "losses": 62,
+        "pushes": 0,
+        "win_rate": 57.5,
+        "pnl": 2107.39,
+        "stake": 14600.0,
+        "roi": 14.4,
+        "mean_edge": 0.1712,
+        "median_edge": 0.155,
+        "bucket": "(0.999, 3.0]",
+        "unique_players": 74,
+        "avg_bets_per_player": 2.34
+      },
+      {
+        "bets": 178,
+        "wins": 106,
+        "losses": 72,
+        "pushes": 0,
+        "win_rate": 59.6,
+        "pnl": 3132.82,
+        "stake": 17800.0,
+        "roi": 17.6,
+        "mean_edge": 0.165,
+        "median_edge": 0.154,
+        "bucket": "(3.0, 5.0]",
+        "unique_players": 40,
+        "avg_bets_per_player": 4.51
+      },
+      {
+        "bets": 191,
+        "wins": 103,
+        "losses": 88,
+        "pushes": 0,
+        "win_rate": 53.9,
+        "pnl": 1982.44,
+        "stake": 19100.0,
+        "roi": 10.4,
+        "mean_edge": 0.1746,
+        "median_edge": 0.162,
+        "bucket": "(5.0, 7.0]",
+        "unique_players": 29,
+        "avg_bets_per_player": 6.62
+      },
+      {
+        "bets": 104,
+        "wins": 53,
+        "losses": 51,
+        "pushes": 0,
+        "win_rate": 51.0,
+        "pnl": 382.18,
+        "stake": 10400.0,
+        "roi": 3.7,
+        "mean_edge": 0.175,
+        "median_edge": 0.168,
+        "bucket": "(7.0, 8.0]",
+        "unique_players": 13,
+        "avg_bets_per_player": 8.0
+      },
+      {
+        "bets": 108,
+        "wins": 53,
+        "losses": 55,
+        "pushes": 0,
+        "win_rate": 49.1,
+        "pnl": -9.73,
+        "stake": 10800.0,
+        "roi": -0.1,
+        "mean_edge": 0.1702,
+        "median_edge": 0.1605,
+        "bucket": "(8.0, 9.0]",
+        "unique_players": 12,
+        "avg_bets_per_player": 9.0
+      },
+      {
+        "bets": 166,
+        "wins": 88,
+        "losses": 78,
+        "pushes": 0,
+        "win_rate": 53.0,
+        "pnl": 974.1,
+        "stake": 16600.0,
+        "roi": 5.9,
+        "mean_edge": 0.1637,
+        "median_edge": 0.151,
+        "bucket": "(9.0, 11.0]",
+        "unique_players": 16,
+        "avg_bets_per_player": 10.4
+      },
+      {
+        "bets": 96,
+        "wins": 50,
+        "losses": 46,
+        "pushes": 0,
+        "win_rate": 52.1,
+        "pnl": 1051.17,
+        "stake": 9600.0,
+        "roi": 10.9,
+        "mean_edge": 0.1637,
+        "median_edge": 0.1565,
+        "bucket": "(11.0, 12.0]",
+        "unique_players": 8,
+        "avg_bets_per_player": 12.0
+      },
+      {
+        "bets": 201,
+        "wins": 102,
+        "losses": 99,
+        "pushes": 0,
+        "win_rate": 50.7,
+        "pnl": 1048.32,
+        "stake": 20100.0,
+        "roi": 5.2,
+        "mean_edge": 0.1762,
+        "median_edge": 0.168,
+        "bucket": "(12.0, 14.0]",
+        "unique_players": 15,
+        "avg_bets_per_player": 13.42
+      },
+      {
+        "bets": 113,
+        "wins": 67,
+        "losses": 46,
+        "pushes": 0,
+        "win_rate": 59.3,
+        "pnl": 2567.2,
+        "stake": 11300.0,
+        "roi": 22.7,
+        "mean_edge": 0.1726,
+        "median_edge": 0.166,
+        "bucket": "(14.0, 17.0]",
+        "unique_players": 7,
+        "avg_bets_per_player": 16.19
+      },
+      {
+        "bets": 103,
+        "wins": 55,
+        "losses": 47,
+        "pushes": 1,
+        "win_rate": 53.9,
+        "pnl": 813.27,
+        "stake": 10300.0,
+        "roi": 7.9,
+        "mean_edge": 0.1714,
+        "median_edge": 0.154,
+        "bucket": "(17.0, 22.0]",
+        "unique_players": 5,
+        "avg_bets_per_player": 20.69
+      }
+    ],
+    "top_players_by_bets": [
+      {
+        "player": "Irvin, Jake",
+        "bets": 22,
+        "win_rate": 40.9,
+        "roi": -16.5,
+        "mean_edge": 0.1894
+      },
+      {
+        "player": "Morton, Charlie",
+        "bets": 21,
+        "win_rate": 52.4,
+        "roi": 9.9,
+        "mean_edge": 0.1774
+      },
+      {
+        "player": "Littell, Zack",
+        "bets": 21,
+        "win_rate": 47.6,
+        "roi": -8.0,
+        "mean_edge": 0.1635
+      },
+      {
+        "player": "Quintana, Jose",
+        "bets": 21,
+        "win_rate": 70.0,
+        "roi": 36.5,
+        "mean_edge": 0.1581
+      },
+      {
+        "player": "Corbin, Patrick",
+        "bets": 18,
+        "win_rate": 61.1,
+        "roi": 20.6,
+        "mean_edge": 0.167
+      },
+      {
+        "player": "Crawford, Kutter",
+        "bets": 17,
+        "win_rate": 41.2,
+        "roi": -13.7,
+        "mean_edge": 0.1691
+      },
+      {
+        "player": "Rod\u00f3n, Carlos",
+        "bets": 17,
+        "win_rate": 58.8,
+        "roi": 23.7,
+        "mean_edge": 0.1549
+      },
+      {
+        "player": "Gibson, Kyle",
+        "bets": 17,
+        "win_rate": 58.8,
+        "roi": 23.9,
+        "mean_edge": 0.1674
+      },
+      {
+        "player": "Blanco, Ronel",
+        "bets": 16,
+        "win_rate": 68.8,
+        "roi": 41.9,
+        "mean_edge": 0.1656
+      },
+      {
+        "player": "Stroman, Marcus",
+        "bets": 16,
+        "win_rate": 68.8,
+        "roi": 36.6,
+        "mean_edge": 0.1924
+      },
+      {
+        "player": "Severino, Luis",
+        "bets": 15,
+        "win_rate": 46.7,
+        "roi": -4.2,
+        "mean_edge": 0.1809
+      },
+      {
+        "player": "Peralta, Freddy",
+        "bets": 15,
+        "win_rate": 73.3,
+        "roi": 53.1,
+        "mean_edge": 0.1805
+      },
+      {
+        "player": "Bibee, Tanner",
+        "bets": 14,
+        "win_rate": 71.4,
+        "roi": 53.1,
+        "mean_edge": 0.1619
+      },
+      {
+        "player": "Flaherty, Jack",
+        "bets": 14,
+        "win_rate": 42.9,
+        "roi": -7.1,
+        "mean_edge": 0.1932
+      },
+      {
+        "player": "L\u00f3pez, Reynaldo",
+        "bets": 14,
+        "win_rate": 50.0,
+        "roi": -3.0,
+        "mean_edge": 0.2111
+      },
+      {
+        "player": "S\u00e1nchez, Cristopher",
+        "bets": 14,
+        "win_rate": 50.0,
+        "roi": 8.8,
+        "mean_edge": 0.1817
+      },
+      {
+        "player": "Cortes, Nestor",
+        "bets": 14,
+        "win_rate": 57.1,
+        "roi": 16.9,
+        "mean_edge": 0.1631
+      },
+      {
+        "player": "Mikolas, Miles",
+        "bets": 14,
+        "win_rate": 50.0,
+        "roi": 1.0,
+        "mean_edge": 0.1394
+      },
+      {
+        "player": "Gore, MacKenzie",
+        "bets": 13,
+        "win_rate": 61.5,
+        "roi": 16.2,
+        "mean_edge": 0.1799
+      },
+      {
+        "player": "Pivetta, Nick",
+        "bets": 13,
+        "win_rate": 46.2,
+        "roi": -2.4,
+        "mean_edge": 0.1662
+      }
+    ],
+    "top_player_bet_share": {
+      "top_10_players": 0.1323,
+      "top_25_players": 0.2319,
+      "top_50_players": 0.2319,
+      "top_100_players": 0.2319
+    },
+    "tracked_players": [
+      {
+        "player": "Ohtani, Shohei",
+        "bets": 0
+      },
+      {
+        "player": "Judge, Aaron",
+        "bets": 0
+      }
+    ]
+  },
+  "recent": [
+    {
+      "date": "2024-09-29",
+      "player": "Kochanowicz, Jack",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 21,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 3
+    },
+    {
+      "date": "2024-09-28",
+      "player": "Pallante, Andre",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 110.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-26",
+      "player": "Ginn, J.T.",
+      "market": "Walks",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 2,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-26",
+      "player": "Wacha, Michael",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 125.0,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-26",
+      "player": "Bellozo, Valente",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 3.5,
+      "actual": 1,
+      "result": "win",
+      "pnl": 74.07,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-24",
+      "player": "Ober, Bailey",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 14,
+      "result": "win",
+      "pnl": 86.96,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-24",
+      "player": "Cannon, Jonathan",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 2.5,
+      "actual": 0,
+      "result": "win",
+      "pnl": 118.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-24",
+      "player": "Kochanowicz, Jack",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 21,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 3
+    },
+    {
+      "date": "2024-09-24",
+      "player": "Cannon, Jonathan",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-24",
+      "player": "Kremer, Dean",
+      "market": "Walks",
+      "direction": "UNDER",
+      "line": 2.5,
+      "actual": 2,
+      "result": "win",
+      "pnl": 105.0,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-24",
+      "player": "Schmidt, Clarke",
+      "market": "Walks",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 1,
+      "result": "win",
+      "pnl": 150.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-22",
+      "player": "Estes, Joey",
+      "market": "Walks",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 1,
+      "result": "win",
+      "pnl": 115.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-22",
+      "player": "Crawford, Kutter",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 23,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-22",
+      "player": "Canning, Griffin",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 16.5,
+      "actual": 13,
+      "result": "win",
+      "pnl": 90.91,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-22",
+      "player": "Baz, Shane",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-22",
+      "player": "Arrighetti, Spencer",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 17,
+      "result": "win",
+      "pnl": 145.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Detmers, Reid",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 6,
+      "result": "win",
+      "pnl": 120.0,
+      "stars": 3
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Detmers, Reid",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 2.5,
+      "actual": 7,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Lowder, Rhett",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 2.5,
+      "actual": 0,
+      "result": "win",
+      "pnl": 83.33,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Blanco, Ronel",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Bradley, Taj",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 100.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Hendricks, Kyle",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 16.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 83.33,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Gore, MacKenzie",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 16.5,
+      "actual": 21,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Jones, Jared",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 95.24,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Kelly, Merrill",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 89.29,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-21",
+      "player": "Su\u00e1rez, Ranger",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 15,
+      "result": "win",
+      "pnl": 105.0,
+      "stars": 3
+    },
+    {
+      "date": "2024-09-20",
+      "player": "Morton, Charlie",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 2
+    },
+    {
+      "date": "2024-09-20",
+      "player": "Martinez, Nick",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 3
+    },
+    {
+      "date": "2024-09-20",
+      "player": "Keller, Mitch",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 10,
+      "result": "win",
+      "pnl": 90.91,
+      "stars": 1
+    },
+    {
+      "date": "2024-09-19",
+      "player": "Flaherty, Jack",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 18,
+      "result": "loss",
+      "pnl": -100.0,
+      "stars": 3
     }
   ],
   "cumulative_pnl": [
