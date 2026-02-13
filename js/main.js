@@ -473,65 +473,62 @@
     var heroBets = document.getElementById('hero-total-bets');
     if (!heroBets) return;
 
-    // Update section title with season
-    var season = getSeason();
-    var sectionTitle = document.getElementById('market-section-title');
-    if (sectionTitle && isArchiveSeason()) {
-      sectionTitle.textContent = season + ' backtest results by market';
-    }
+    // Home page always shows 2025 backtest data regardless of season selection
+    fetch('data/2025/results.json')
+      .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+      .then(function (data) {
+        if (!data || !data.summary) return;
 
-    fetchJSON('results.json', function (data, err) {
-      if (err || !data || !data.summary) return;
+        var summary = data.summary;
+        setStatusText('hero-total-bets', summary.total_bets.toLocaleString('en-US'));
+        setStatusText('hero-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
+        setStatusText('hero-win-rate', summary.win_rate.toFixed(1) + '% win rate');
 
-      var summary = data.summary;
-      setStatusText('hero-total-bets', summary.total_bets.toLocaleString('en-US'));
-      setStatusText('hero-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
-      setStatusText('hero-win-rate', summary.win_rate.toFixed(1) + '% win rate');
+        setStatusText('edge-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
+        setStatusText(
+          'edge-summary',
+          'Combined ROI across ' + summary.total_bets.toLocaleString('en-US') +
+          ' backtested bets (' + summary.win_rate.toFixed(1) + '% win rate).'
+        );
 
-      setStatusText('edge-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
-      setStatusText(
-        'edge-summary',
-        'Combined ROI across ' + summary.total_bets.toLocaleString('en-US') +
-        ' backtested bets (' + summary.win_rate.toFixed(1) + '% win rate).'
-      );
-
-      var byMarket = data.by_market || [];
-      var marketMap = {};
-      byMarket.forEach(function (m) {
-        marketMap[m.market] = m;
-      });
-
-      var cards = document.querySelectorAll('.market-card[data-market]');
-      cards.forEach(function (card) {
-        var market = card.getAttribute('data-market');
-        var m = marketMap[market];
-        if (!m) return;
-
-        var vals = card.querySelectorAll('.market-val');
-        if (vals.length >= 2) {
-          vals[0].textContent = m.win_rate.toFixed(1) + '%';
-          vals[1].textContent = (m.roi >= 0 ? '+' : '') + m.roi.toFixed(1) + '%';
-          vals[1].classList.toggle('negative', m.roi < 0);
-        }
-
-        var sample = card.querySelector('.market-sample');
-        if (sample) {
-          sample.textContent = m.bets.toLocaleString('en-US') + ' bets';
-        }
-      });
-
-      // Sort market cards by ROI descending (item 26)
-      var cardsContainer = cards.length > 0 ? cards[0].parentNode : null;
-      if (cardsContainer && byMarket.length > 1) {
-        var sortedByRoi = byMarket.slice().sort(function (a, b) {
-          return (b.roi || 0) - (a.roi || 0);
+        var byMarket = data.by_market || [];
+        var marketMap = {};
+        byMarket.forEach(function (m) {
+          marketMap[m.market] = m;
         });
-        sortedByRoi.forEach(function (m) {
-          var card = cardsContainer.querySelector('.market-card[data-market="' + m.market + '"]');
-          if (card) cardsContainer.appendChild(card);
+
+        var cards = document.querySelectorAll('.market-card[data-market]');
+        cards.forEach(function (card) {
+          var market = card.getAttribute('data-market');
+          var m = marketMap[market];
+          if (!m) return;
+
+          var vals = card.querySelectorAll('.market-val');
+          if (vals.length >= 2) {
+            vals[0].textContent = m.win_rate.toFixed(1) + '%';
+            vals[1].textContent = (m.roi >= 0 ? '+' : '') + m.roi.toFixed(1) + '%';
+            vals[1].classList.toggle('negative', m.roi < 0);
+          }
+
+          var sample = card.querySelector('.market-sample');
+          if (sample) {
+            sample.textContent = m.bets.toLocaleString('en-US') + ' bets';
+          }
         });
-      }
-    });
+
+        // Sort market cards by ROI descending
+        var cardsContainer = cards.length > 0 ? cards[0].parentNode : null;
+        if (cardsContainer && byMarket.length > 1) {
+          var sortedByRoi = byMarket.slice().sort(function (a, b) {
+            return (b.roi || 0) - (a.roi || 0);
+          });
+          sortedByRoi.forEach(function (m) {
+            var card = cardsContainer.querySelector('.market-card[data-market="' + m.market + '"]');
+            if (card) cardsContainer.appendChild(card);
+          });
+        }
+      })
+      .catch(function () {});
   }
 
   function normalizeBookKey(book) {
@@ -1380,6 +1377,17 @@
     var statsEl = document.getElementById('results-stats');
     if (!statsEl) return;
 
+    // Update subtitle based on season
+    var subtitleEl = document.getElementById('results-subtitle');
+    var season = getSeason();
+    if (subtitleEl) {
+      if (isArchiveSeason()) {
+        subtitleEl.textContent = 'Out-of-sample ' + season + ' backtest archive across player-prop markets';
+      } else {
+        subtitleEl.textContent = season + ' season cumulative performance across player-prop markets';
+      }
+    }
+
     // Add loading class to stat boxes
     statsEl.querySelectorAll('.results-stat-box').forEach(function (box) {
       box.classList.add('loading');
@@ -1394,8 +1402,16 @@
         box.classList.remove('loading');
       });
 
-      if (err || !data || !data.summary) {
-        if (emptyEl) emptyEl.style.display = '';
+      if (err || !data || !data.summary || data.summary.total_bets === 0) {
+        if (emptyEl) {
+          emptyEl.style.display = '';
+          var emptyTitle = document.getElementById('results-empty-title');
+          var emptyCopy = document.getElementById('results-empty-copy');
+          if (!isArchiveSeason()) {
+            if (emptyTitle) emptyTitle.textContent = 'No results yet';
+            if (emptyCopy) emptyCopy.textContent = 'Results will appear here once the ' + season + ' season begins and picks are graded.';
+          }
+        }
         setStatusText('results-generated-at', 'Last updated: unavailable');
         return;
       }
