@@ -588,8 +588,10 @@
       input.type = 'checkbox';
       input.checked = !!picksState.selectedBooks[bookKey];
       input.setAttribute('aria-label', 'Show ' + getBookDisplayName(bookKey) + ' picks');
+      row.classList.toggle('is-selected', input.checked);
       input.addEventListener('change', function () {
         picksState.selectedBooks[bookKey] = input.checked;
+        row.classList.toggle('is-selected', input.checked);
         renderPicksWithFilters();
       });
 
@@ -633,7 +635,7 @@
       emptyEl.style.display = '';
       setPicksEmptyState(
         'No picks match your book filters',
-        'Enable one or more sportsbooks on the left to see matching picks.'
+        'Enable one or more sportsbooks above to see matching picks.'
       );
       if (summary) {
         summary.textContent = 'Showing 0 of ' + allPicks.length + ' picks';

@@ -11,10 +11,13 @@
 :root {
   --bg: #faf7f2;
   --bg-surface: #ffffff;
+  --bg-surface-2: #f6f2ec;
   --bg-elevated: #f0ebe3;
   --accent: #1a7f6d;
   --accent-hover: #15695a;
   --accent-dim: rgba(26, 127, 109, 0.10);
+  --chip-border: rgba(27, 42, 74, 0.20);
+  --chip-hover: rgba(26, 127, 109, 0.12);
   --navy: #1b2a4a;
   --yellow: #d4940a;
   --cream: #fdf8ef;
@@ -1079,11 +1082,12 @@ body.backtest-mode .mobile-nav {
 }
 
 .books-filter-bar {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
+  background: var(--bg-surface-2);
+  border: 1px solid var(--chip-border);
   border-radius: 10px;
   padding: 0.85rem 0.9rem;
   margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(19, 29, 45, 0.05);
 }
 
 .books-filter-bar-header {
@@ -1105,25 +1109,27 @@ body.backtest-mode .mobile-nav {
 .books-filter-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.45rem;
 }
 
 .book-filter-option {
   display: inline-grid;
   grid-template-columns: 14px 8px auto auto;
   align-items: center;
-  gap: 0.45rem;
-  font-size: 0.76rem;
+  gap: 0.52rem;
+  font-size: 0.82rem;
   color: var(--text);
-  padding: 0.35rem 0.48rem;
-  border: 1px solid var(--border);
+  padding: 0.48rem 0.72rem;
+  border: 1px solid var(--chip-border);
   border-radius: 999px;
-  background: var(--bg-surface-2);
+  background: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
 }
 
 .book-filter-option input {
-  width: 12px;
-  height: 12px;
+  width: 13px;
+  height: 13px;
   accent-color: var(--accent);
 }
 
@@ -1142,8 +1148,24 @@ body.backtest-mode .mobile-nav {
 
 .book-filter-count {
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 0.74rem;
   color: var(--text-dim);
+}
+
+.book-filter-option:hover {
+  background: var(--chip-hover);
+  border-color: rgba(26, 127, 109, 0.35);
+}
+
+.book-filter-option:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.book-filter-option.is-selected {
+  background: var(--accent-dim);
+  border-color: rgba(26, 127, 109, 0.45);
+  box-shadow: inset 0 0 0 1px rgba(26, 127, 109, 0.18);
 }
 
 .books-filter-summary {
