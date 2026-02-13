@@ -1377,6 +1377,53 @@
     return worstDd;
   }
 
+  function computeDailyStreaks(cumulativePnl) {
+    if (!cumulativePnl || cumulativePnl.length === 0) return null;
+
+    // Walk from end for current streak
+    var currentRun = 0;
+    var currentType = null;
+    for (var i = cumulativePnl.length - 1; i >= 0; i--) {
+      var dayPnl = cumulativePnl[i].pnl;
+      if (dayPnl === 0) continue; // skip push days
+      var dayType = dayPnl > 0 ? 'W' : 'L';
+      if (currentType === null) {
+        currentType = dayType;
+        currentRun = 1;
+      } else if (dayType === currentType) {
+        currentRun++;
+      } else {
+        break;
+      }
+    }
+
+    // Walk fully for best winning streak
+    var bestWin = 0;
+    var winRun = 0;
+    var bestLoss = 0;
+    var lossRun = 0;
+    for (var j = 0; j < cumulativePnl.length; j++) {
+      var p = cumulativePnl[j].pnl;
+      if (p > 0) {
+        winRun++;
+        lossRun = 0;
+        if (winRun > bestWin) bestWin = winRun;
+      } else if (p < 0) {
+        lossRun++;
+        winRun = 0;
+        if (lossRun > bestLoss) bestLoss = lossRun;
+      }
+      // p === 0: don't break either streak
+    }
+
+    return {
+      current: currentRun,
+      currentType: currentType,
+      bestWin: bestWin,
+      bestLoss: bestLoss
+    };
+  }
+
   function renderDrawdownStreak(data) {
     var container = document.getElementById('drawdown-streak-row');
     if (!container) return;
@@ -1396,14 +1443,26 @@
       container.appendChild(ddBox);
     }
 
-    if (summary.current_streak !== undefined && summary.current_streak !== null) {
-      var stBox = el('div', 'results-stat-box');
-      stBox.appendChild(el('div', 'results-stat-label', 'Current Streak'));
-      var streakType = summary.streak_type || '';
-      var streakClass = streakType === 'W' ? 'positive' : (streakType === 'L' ? 'negative' : '');
-      var streakText = summary.current_streak + (streakType ? streakType : '');
-      stBox.appendChild(el('div', 'results-stat-value ' + streakClass, streakText));
-      container.appendChild(stBox);
+    // Daily streaks (computed from cumulative_pnl)
+    var streaks = computeDailyStreaks(data.cumulative_pnl);
+    if (streaks) {
+      // Current daily streak
+      if (streaks.current > 0) {
+        var curBox = el('div', 'results-stat-box');
+        curBox.appendChild(el('div', 'results-stat-label', 'Daily Streak'));
+        var curClass = streaks.currentType === 'W' ? 'positive' : 'negative';
+        var curText = streaks.current + ' ' + (streaks.currentType === 'W' ? 'winning' : 'losing') + (streaks.current === 1 ? ' day' : ' days');
+        curBox.appendChild(el('div', 'results-stat-value ' + curClass, curText));
+        container.appendChild(curBox);
+      }
+
+      // Best winning streak
+      if (streaks.bestWin > 0) {
+        var bestBox = el('div', 'results-stat-box');
+        bestBox.appendChild(el('div', 'results-stat-label', 'Best Win Streak'));
+        bestBox.appendChild(el('div', 'results-stat-value positive', streaks.bestWin + ' days'));
+        container.appendChild(bestBox);
+      }
     }
   }
 
