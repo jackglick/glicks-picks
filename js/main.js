@@ -257,6 +257,27 @@
     'betonlineag': '#ff6600',
     'mybookieag': '#d4af37'
   };
+  var BOOK_DISPLAY = {
+    'draftkings': 'DraftKings',
+    'fanduel': 'FanDuel',
+    'betmgm': 'BetMGM',
+    'caesars': 'Caesars',
+    'williamhill_us': 'Caesars',
+    'pointsbet': 'PointsBet',
+    'betrivers': 'BetRivers',
+    'bovada': 'Bovada',
+    'bet365': 'bet365',
+    'fanatics': 'Fanatics',
+    'betonlineag': 'BetOnline',
+    'mybookieag': 'MyBookie'
+  };
+
+  var picksState = {
+    allPicks: [],
+    selectedBooks: {},
+    backtestIndex: null,
+    selectedBacktestDate: null
+  };
 
   var TEAM_LOGO_IDS = {
     'ATH': 133,
@@ -422,13 +443,6 @@
     body.appendChild(el('span', 'pick-card-market', pick.market));
     card.appendChild(body);
 
-    var BOOK_DISPLAY = {
-      'draftkings': 'DraftKings', 'fanduel': 'FanDuel', 'betmgm': 'BetMGM',
-      'caesars': 'Caesars', 'williamhill_us': 'Caesars', 'pointsbet': 'PointsBet',
-      'betrivers': 'BetRivers', 'bovada': 'Bovada', 'bet365': 'bet365',
-      'fanatics': 'Fanatics', 'betonlineag': 'BetOnline', 'mybookieag': 'MyBookie'
-    };
-
     if (pick.best_book || pick.best_price !== null) {
       var bookDiv = el('div', 'pick-card-book');
       if (pick.best_book) {
@@ -496,12 +510,271 @@
     });
   }
 
+  function normalizeBookKey(book) {
+    return String(book || '').trim().toLowerCase();
+  }
+
+  function getBookDisplayName(bookKey) {
+    return BOOK_DISPLAY[bookKey] || bookKey;
+  }
+
+  function setPicksEmptyState(title, copy) {
+    var titleEl = document.getElementById('picks-empty-title');
+    var copyEl = document.getElementById('picks-empty-copy');
+    if (titleEl) titleEl.textContent = title;
+    if (copyEl) copyEl.textContent = copy;
+  }
+
+  function syncBookFilterState() {
+    var present = {};
+    (picksState.allPicks || []).forEach(function (pick) {
+      var key = normalizeBookKey(pick.best_book);
+      if (!key) return;
+      present[key] = true;
+    });
+
+    var prev = picksState.selectedBooks || {};
+    var next = {};
+    Object.keys(present).forEach(function (key) {
+      next[key] = Object.prototype.hasOwnProperty.call(prev, key) ? !!prev[key] : true;
+    });
+    picksState.selectedBooks = next;
+  }
+
+  function getFilteredPicks() {
+    var picks = picksState.allPicks || [];
+    if (picks.length === 0) return [];
+
+    var keys = Object.keys(picksState.selectedBooks || {});
+    if (keys.length === 0) return picks.slice();
+
+    var hasAnyEnabled = keys.some(function (k) { return picksState.selectedBooks[k]; });
+    if (!hasAnyEnabled) return [];
+
+    return picks.filter(function (pick) {
+      var key = normalizeBookKey(pick.best_book);
+      return !!picksState.selectedBooks[key];
+    });
+  }
+
+  function renderBooksFilterPanel() {
+    var panel = document.getElementById('books-filter-panel');
+    var list = document.getElementById('books-filter-list');
+    var summary = document.getElementById('books-filter-summary');
+    if (!panel || !list) return;
+
+    clearChildren(list);
+    var counts = {};
+    (picksState.allPicks || []).forEach(function (pick) {
+      var key = normalizeBookKey(pick.best_book);
+      if (!key) return;
+      counts[key] = (counts[key] || 0) + 1;
+    });
+
+    var books = Object.keys(counts).sort(function (a, b) {
+      return getBookDisplayName(a).localeCompare(getBookDisplayName(b));
+    });
+
+    if (books.length === 0) {
+      panel.style.display = 'none';
+      if (summary) summary.textContent = '';
+      return;
+    }
+
+    panel.style.display = '';
+    books.forEach(function (bookKey) {
+      var row = el('label', 'book-filter-option');
+      var input = document.createElement('input');
+      input.type = 'checkbox';
+      input.checked = !!picksState.selectedBooks[bookKey];
+      input.setAttribute('aria-label', 'Show ' + getBookDisplayName(bookKey) + ' picks');
+      input.addEventListener('change', function () {
+        picksState.selectedBooks[bookKey] = input.checked;
+        renderPicksWithFilters();
+      });
+
+      var dot = el('span', 'book-filter-dot');
+      dot.style.background = BOOK_COLORS[bookKey] || '#8d95a3';
+
+      var name = el('span', 'book-filter-name', getBookDisplayName(bookKey));
+      var count = el('span', 'book-filter-count', String(counts[bookKey]));
+
+      row.appendChild(input);
+      row.appendChild(dot);
+      row.appendChild(name);
+      row.appendChild(count);
+      list.appendChild(row);
+    });
+  }
+
+  function renderPicksWithFilters() {
+    var container = document.getElementById('picks-container');
+    var emptyEl = document.getElementById('picks-empty');
+    var summary = document.getElementById('books-filter-summary');
+    if (!container || !emptyEl) return;
+
+    clearChildren(container);
+    var allPicks = picksState.allPicks || [];
+    var filtered = getFilteredPicks();
+
+    if (allPicks.length === 0) {
+      container.style.display = 'none';
+      emptyEl.style.display = '';
+      setPicksEmptyState(
+        'No picks available',
+        'Try a different date in backtest mode or check again after the next data refresh.'
+      );
+      if (summary) summary.textContent = '';
+      return;
+    }
+
+    if (filtered.length === 0) {
+      container.style.display = 'none';
+      emptyEl.style.display = '';
+      setPicksEmptyState(
+        'No picks match your book filters',
+        'Enable one or more sportsbooks on the left to see matching picks.'
+      );
+      if (summary) {
+        summary.textContent = 'Showing 0 of ' + allPicks.length + ' picks';
+      }
+      return;
+    }
+
+    container.style.display = '';
+    emptyEl.style.display = 'none';
+    filtered.forEach(function (pick) {
+      container.appendChild(renderPickCard(pick));
+    });
+    if (summary) {
+      summary.textContent = 'Showing ' + filtered.length + ' of ' + allPicks.length + ' picks';
+    }
+    reobserveReveals();
+  }
+
+  function toDateKey(year, month, day) {
+    var mm = String(month + 1).padStart(2, '0');
+    var dd = String(day).padStart(2, '0');
+    return String(year) + '-' + mm + '-' + dd;
+  }
+
+  function parseDateKey(dateKey) {
+    return new Date(dateKey + 'T12:00:00');
+  }
+
+  function getCalendarMonthIndex(year, month) {
+    return year * 12 + month;
+  }
+
+  function closeBacktestCalendar() {
+    var popover = document.getElementById('backtest-calendar-popover');
+    var trigger = document.getElementById('backtest-date-trigger');
+    if (!popover || !trigger) return;
+    popover.hidden = true;
+    trigger.setAttribute('aria-expanded', 'false');
+  }
+
+  function openBacktestCalendar() {
+    var popover = document.getElementById('backtest-calendar-popover');
+    var trigger = document.getElementById('backtest-date-trigger');
+    if (!popover || !trigger) return;
+    popover.hidden = false;
+    trigger.setAttribute('aria-expanded', 'true');
+  }
+
+  function updateBacktestDateTrigger() {
+    var trigger = document.getElementById('backtest-date-trigger');
+    if (!trigger || !picksState.backtestIndex) return;
+    var dateKey = picksState.selectedBacktestDate;
+    var count = picksState.backtestIndex.countByDate[dateKey] || 0;
+    trigger.textContent = formatFullDate(dateKey) + ' (' + count + ' picks)';
+  }
+
+  function shiftBacktestCalendarMonth(delta) {
+    if (!picksState.backtestIndex) return;
+    var year = picksState.backtestIndex.viewYear;
+    var month = picksState.backtestIndex.viewMonth + delta;
+    var d = new Date(year, month, 1);
+    var nextIdx = getCalendarMonthIndex(d.getFullYear(), d.getMonth());
+    if (nextIdx < picksState.backtestIndex.minMonthIdx || nextIdx > picksState.backtestIndex.maxMonthIdx) {
+      return;
+    }
+    picksState.backtestIndex.viewYear = d.getFullYear();
+    picksState.backtestIndex.viewMonth = d.getMonth();
+    renderBacktestCalendar();
+  }
+
+  function renderBacktestCalendar() {
+    var popover = document.getElementById('backtest-calendar-popover');
+    var grid = document.getElementById('backtest-calendar-grid');
+    var monthLabel = document.getElementById('backtest-calendar-month-label');
+    var prevBtn = document.getElementById('backtest-prev-month');
+    var nextBtn = document.getElementById('backtest-next-month');
+    if (!popover || !grid || !monthLabel || !prevBtn || !nextBtn || !picksState.backtestIndex) return;
+
+    clearChildren(grid);
+    var year = picksState.backtestIndex.viewYear;
+    var month = picksState.backtestIndex.viewMonth;
+    var first = new Date(year, month, 1);
+    var monthName = first.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    monthLabel.textContent = monthName;
+
+    var firstWeekday = first.getDay();
+    var daysInMonth = new Date(year, month + 1, 0).getDate();
+
+    for (var i = 0; i < firstWeekday; i++) {
+      grid.appendChild(el('span', 'calendar-day filler', ''));
+    }
+
+    for (var day = 1; day <= daysInMonth; day++) {
+      var dateKey = toDateKey(year, month, day);
+      var count = picksState.backtestIndex.countByDate[dateKey] || 0;
+      var isAvailable = count > 0;
+
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'calendar-day';
+      btn.textContent = String(day);
+      btn.disabled = !isAvailable;
+
+      if (!isAvailable) {
+        btn.classList.add('no-picks');
+      } else {
+        btn.classList.add('has-picks');
+        var density = count / picksState.backtestIndex.maxCount;
+        var alpha = 0.16 + (density * 0.54);
+        btn.style.backgroundColor = 'rgba(26, 127, 109, ' + alpha.toFixed(3) + ')';
+        btn.title = formatFullDate(dateKey) + ' • ' + count + ' picks';
+        btn.addEventListener('click', (function (pickedDate) {
+          return function () {
+            picksState.selectedBacktestDate = pickedDate;
+            updateBacktestDateTrigger();
+            closeBacktestCalendar();
+            loadBacktestPicks(pickedDate);
+          };
+        })(dateKey));
+      }
+
+      if (dateKey === picksState.selectedBacktestDate) {
+        btn.classList.add('selected');
+      }
+
+      grid.appendChild(btn);
+    }
+
+    var monthIdx = getCalendarMonthIndex(year, month);
+    prevBtn.disabled = monthIdx <= picksState.backtestIndex.minMonthIdx;
+    nextBtn.disabled = monthIdx >= picksState.backtestIndex.maxMonthIdx;
+  }
+
   // --- Backtest Date Picker ---
   function initBacktestDatePicker() {
     var picker = document.getElementById('backtest-date-picker');
-    var select = document.getElementById('backtest-date-select');
-    var container = document.getElementById('picks-container');
-    if (!picker || !select || !container) return;
+    var trigger = document.getElementById('backtest-date-trigger');
+    var popover = document.getElementById('backtest-calendar-popover');
+    var prevBtn = document.getElementById('backtest-prev-month');
+    var nextBtn = document.getElementById('backtest-next-month');
+    if (!picker || !trigger || !popover || !prevBtn || !nextBtn) return;
 
     fetch('data/backtest/picks_index.json')
       .then(function (res) {
@@ -509,21 +782,64 @@
         return res.json();
       })
       .then(function (index) {
-        if (!index || !index.dates || index.dates.length === 0) return;
+        if (!index || !index.dates || index.dates.length === 0) {
+          setStatusText('picks-status', 'No backtest date index available.');
+          return;
+        }
 
-        var dates = index.dates.slice().reverse();
-        dates.forEach(function (entry) {
-          var opt = document.createElement('option');
-          opt.value = entry.date;
-          opt.textContent = formatFullDate(entry.date) + ' (' + entry.count + ' picks)';
-          select.appendChild(opt);
+        var sorted = index.dates.slice().sort(function (a, b) {
+          return a.date.localeCompare(b.date);
+        });
+        var countByDate = {};
+        var maxCount = 1;
+        sorted.forEach(function (entry) {
+          countByDate[entry.date] = entry.count;
+          if (entry.count > maxCount) maxCount = entry.count;
         });
 
-        picker.style.display = '';
-        loadBacktestPicks(dates[0].date, container);
+        var minDate = sorted[0].date;
+        var maxDate = sorted[sorted.length - 1].date;
+        var minParsed = parseDateKey(minDate);
+        var maxParsed = parseDateKey(maxDate);
 
-        select.addEventListener('change', function () {
-          loadBacktestPicks(select.value, container);
+        picksState.backtestIndex = {
+          dates: sorted,
+          countByDate: countByDate,
+          maxCount: maxCount,
+          minMonthIdx: getCalendarMonthIndex(minParsed.getFullYear(), minParsed.getMonth()),
+          maxMonthIdx: getCalendarMonthIndex(maxParsed.getFullYear(), maxParsed.getMonth()),
+          viewYear: maxParsed.getFullYear(),
+          viewMonth: maxParsed.getMonth()
+        };
+        picksState.selectedBacktestDate = maxDate;
+
+        picker.style.display = '';
+        updateBacktestDateTrigger();
+        renderBacktestCalendar();
+        loadBacktestPicks(maxDate);
+
+        if (picker.dataset.bound === '1') return;
+        picker.dataset.bound = '1';
+
+        trigger.addEventListener('click', function () {
+          if (popover.hidden) {
+            openBacktestCalendar();
+          } else {
+            closeBacktestCalendar();
+          }
+        });
+
+        prevBtn.addEventListener('click', function () { shiftBacktestCalendarMonth(-1); });
+        nextBtn.addEventListener('click', function () { shiftBacktestCalendarMonth(1); });
+
+        document.addEventListener('click', function (evt) {
+          if (popover.hidden) return;
+          if (picker.contains(evt.target)) return;
+          closeBacktestCalendar();
+        });
+
+        document.addEventListener('keydown', function (evt) {
+          if (evt.key === 'Escape') closeBacktestCalendar();
         });
       })
       .catch(function () {
@@ -531,17 +847,14 @@
       });
   }
 
-  function loadBacktestPicks(dateStr, container) {
+  function loadBacktestPicks(dateStr) {
     var dateEl = document.getElementById('picks-date');
-    var emptyEl = document.getElementById('picks-empty');
-
+    var count = picksState.backtestIndex && picksState.backtestIndex.countByDate[dateStr]
+      ? picksState.backtestIndex.countByDate[dateStr]
+      : 0;
     if (dateEl) {
-      dateEl.textContent = formatFullDate(dateStr);
+      dateEl.textContent = formatFullDate(dateStr) + ' • ' + count + ' picks';
     }
-
-    clearChildren(container);
-    container.style.display = '';
-    if (emptyEl) emptyEl.style.display = 'none';
 
     fetch('data/backtest/picks/' + dateStr + '.json')
       .then(function (res) {
@@ -549,24 +862,21 @@
         return res.json();
       })
       .then(function (data) {
-        if (!data || !data.picks || data.picks.length === 0) {
-          container.style.display = 'none';
-          if (emptyEl) emptyEl.style.display = '';
+        picksState.allPicks = data && data.picks ? data.picks : [];
+        syncBookFilterState();
+        renderBooksFilterPanel();
+        renderPicksWithFilters();
+
+        if (picksState.allPicks.length === 0) {
           setStatusText('picks-status', 'No picks found for this archive date.');
-          return;
+        } else {
+          setStatusText('picks-status', 'Archive mode uses 2025 out-of-sample data.');
         }
-
-        setStatusText('picks-status', 'Archive mode uses 2025 out-of-sample data.');
-
-        data.picks.forEach(function (pick) {
-          container.appendChild(renderPickCard(pick));
-        });
-
-        reobserveReveals();
       })
       .catch(function () {
-        container.style.display = 'none';
-        if (emptyEl) emptyEl.style.display = '';
+        picksState.allPicks = [];
+        renderBooksFilterPanel();
+        renderPicksWithFilters();
         setStatusText('picks-status', 'Could not load picks for this date.');
       });
   }
@@ -585,38 +895,35 @@
 
     fetchJSON('picks_today.json', function (data, err) {
       var dateEl = document.getElementById('picks-date');
-      var emptyEl = document.getElementById('picks-empty');
 
       if (err || !data) {
-        container.style.display = 'none';
-        if (emptyEl) emptyEl.style.display = '';
+        picksState.allPicks = [];
+        renderBooksFilterPanel();
+        renderPicksWithFilters();
         setStatusText('picks-status', 'Could not load current picks feed.');
         if (dateEl) dateEl.textContent = 'Feed unavailable';
         return;
       }
 
-      if (!data.picks || data.picks.length === 0) {
-        container.style.display = 'none';
-        if (emptyEl) emptyEl.style.display = '';
-        if (dateEl) {
-          dateEl.textContent = data.date ? formatFullDate(data.date) : 'Season starts soon';
-        }
-        setStatusText('picks-status', 'No picks posted for this slate yet.');
-        return;
-      }
-
       if (dateEl) {
-        var updated = data.generated_at ? formatTimestamp(data.generated_at) : '';
-        dateEl.textContent = formatFullDate(data.date) + (updated ? ' • Updated ' + updated : '');
+        if (data.date) {
+          var updated = data.generated_at ? formatTimestamp(data.generated_at) : '';
+          dateEl.textContent = formatFullDate(data.date) + (updated ? ' • Updated ' + updated : '');
+        } else {
+          dateEl.textContent = 'Season starts soon';
+        }
       }
 
-      setStatusText('picks-status', 'Current mode data feed loaded.');
+      picksState.allPicks = data.picks || [];
+      syncBookFilterState();
+      renderBooksFilterPanel();
+      renderPicksWithFilters();
 
-      data.picks.forEach(function (pick) {
-        container.appendChild(renderPickCard(pick));
-      });
-
-      reobserveReveals();
+      if (picksState.allPicks.length === 0) {
+        setStatusText('picks-status', 'No picks posted for this slate yet.');
+      } else {
+        setStatusText('picks-status', 'Current mode data feed loaded.');
+      }
     });
   }
 
