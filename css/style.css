@@ -213,43 +213,52 @@ button:focus-visible,
   letter-spacing: 0.06em;
 }
 
-/* --- Season Selector --- */
-.season-select-wrapper {
-  display: flex;
+/* --- Season Pill Toggle --- */
+.season-pill {
+  display: inline-flex;
   align-items: center;
+  border: 1.5px solid var(--chip-border);
+  border-radius: 20px;
+  padding: 2px;
   margin-left: 1.5rem;
+  background: var(--bg-surface-2);
 }
 
-.mobile-nav .season-select-wrapper {
-  margin-left: 0;
-}
-
-.season-select {
+.season-pill-btn {
   appearance: none;
-  -webkit-appearance: none;
-  background: var(--surface);
-  color: var(--text-primary);
-  border: 1.5px solid var(--border);
-  border-radius: 6px;
-  padding: 0.35rem 2rem 0.35rem 0.65rem;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
   font-family: inherit;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.04em;
+  padding: 0.3rem 0.8rem;
+  border-radius: 18px;
   cursor: pointer;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23999' d='M3 5l3 3 3-3z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 0.5rem center;
-  transition: border-color 0.2s;
+  transition: background 0.2s, color 0.2s;
+  line-height: 1;
 }
 
-.season-select:hover {
+.season-pill-btn:hover:not(.active) {
+  background: var(--chip-hover);
+  color: var(--text);
+}
+
+.season-pill-btn.active {
+  background: var(--navy);
+  color: #fff;
+}
+
+/* Glow ring on pill when viewing archive season */
+.backtest-mode .season-pill {
+  box-shadow: 0 0 0 2px var(--accent);
   border-color: var(--accent);
 }
 
-.season-select:focus-visible {
+.season-pill-btn:focus-visible {
   outline: 2px solid var(--accent);
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 /* --- Backtest Date Picker --- */
@@ -1528,8 +1537,9 @@ a {
   top: 0.75rem;
 }
 
-.season-select {
-  font-size: 0.75rem;
+.season-pill-btn {
+  font-size: 0.65rem;
+  padding: 0.25rem 0.6rem;
 }
 
 .cta-group {
@@ -1612,10 +1622,11 @@ a {
   }
 }
 
-/* --- Hide header season selector on mobile (#19) --- */
+/* --- Compact season pill on mobile --- */
 @media (max-width: 767px) {
-  .header .season-select-wrapper {
-    display: none;
+  .header .season-pill {
+    margin-left: auto;
+    margin-right: 0.75rem;
   }
 }
 

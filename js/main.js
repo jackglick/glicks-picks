@@ -123,11 +123,15 @@
     var season = getSeason();
     updateSeasonBanner();
 
-    var selectors = document.querySelectorAll('.season-select');
-    selectors.forEach(function (sel) {
-      sel.value = season;
-      sel.addEventListener('change', function () {
-        setSeason(sel.value);
+    var buttons = document.querySelectorAll('.season-pill-btn');
+    buttons.forEach(function (btn) {
+      if (btn.getAttribute('data-season') === season) {
+        btn.classList.add('active');
+      }
+      btn.addEventListener('click', function () {
+        var picked = btn.getAttribute('data-season');
+        if (picked === season) return;
+        setSeason(picked);
         location.reload();
       });
     });
