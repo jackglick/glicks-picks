@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.336488+00:00",
+  "generated_at": "2026-02-13T00:00:46.547789+00:00",
   "date": "2025-07-22",
   "picks": [
     {
@@ -250,6 +250,19 @@
       "game_pk": 777056
     },
     {
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -122,
+      "stars": 2,
+      "game_pk": 777048
+    },
+    {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "DET",
@@ -274,19 +287,6 @@
       "best_price": -213,
       "stars": 2,
       "game_pk": 777056
-    },
-    {
-      "player": "Scherzer, Max",
-      "player_id": 453286,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 2,
-      "game_pk": 777046
     },
     {
       "player": "Scherzer, Max",
@@ -523,6 +523,19 @@
       "game_pk": 777052
     },
     {
+      "player": "Fitts, Richard",
+      "player_id": 690916,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777045
+    },
+    {
       "player": "Fraley, Jake",
       "player_id": 641584,
       "opponent": "CIN",
@@ -744,19 +757,6 @@
       "game_pk": 777040
     },
     {
-      "player": "Martin, Davis",
-      "player_id": 663436,
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 102,
-      "stars": 1,
-      "game_pk": 777048
-    },
-    {
       "player": "Mart\u00ednez, Angel",
       "player_id": 682657,
       "opponent": "BAL",
@@ -781,6 +781,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777049
+    },
+    {
+      "player": "Montas, Frankie",
+      "player_id": 593423,
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 777054
     },
     {
       "player": "Montas, Frankie",
@@ -864,6 +877,19 @@
       "player": "Roupp, Landen",
       "player_id": 694738,
       "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777058
+    },
+    {
+      "player": "Roupp, Landen",
+      "player_id": 694738,
+      "opponent": "ATL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -885,6 +911,19 @@
       "best_price": -255,
       "stars": 1,
       "game_pk": 777039
+    },
+    {
+      "player": "Scherzer, Max",
+      "player_id": 453286,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777046
     },
     {
       "player": "Scott, Victor",
@@ -1067,6 +1106,19 @@
       "best_price": -208,
       "stars": 1,
       "game_pk": 777045
+    },
+    {
+      "player": "Young, Brandon",
+      "player_id": 687064,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 777056
     },
     {
       "player": "Young, Jacob",

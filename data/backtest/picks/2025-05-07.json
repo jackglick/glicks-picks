@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.238250+00:00",
+  "generated_at": "2026-02-13T00:00:46.447395+00:00",
   "date": "2025-05-07",
   "picks": [
     {
@@ -27,6 +27,19 @@
       "best_price": 100,
       "stars": 3,
       "game_pk": 778018
+    },
+    {
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 778022
     },
     {
       "player": "Cannon, Jonathan",
@@ -172,6 +185,19 @@
       "game_pk": 778018
     },
     {
+      "player": "Soroka, Michael",
+      "player_id": 647336,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -154,
+      "stars": 2,
+      "game_pk": 778022
+    },
+    {
       "player": "Woo, Bryan",
       "player_id": 693433,
       "opponent": "ATH",
@@ -240,19 +266,6 @@
       "player": "Bellozo, Valente",
       "player_id": 678368,
       "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 132,
-      "stars": 1,
-      "game_pk": 778017
-    },
-    {
-      "player": "Bellozo, Valente",
-      "player_id": 678368,
-      "opponent": "LAD",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -292,6 +305,19 @@
       "player": "Brown, Ben",
       "player_id": 676962,
       "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 778020
+    },
+    {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "SF",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -313,6 +339,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 778010
+    },
+    {
+      "player": "Cannon, Jonathan",
+      "player_id": 686563,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": -123,
+      "stars": 1,
+      "game_pk": 778012
     },
     {
       "player": "Clement, Ernie",
@@ -409,6 +448,19 @@
       "player": "Gray, Sonny",
       "player_id": 543243,
       "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 778016
+    },
+    {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "PIT",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -461,6 +513,19 @@
       "player": "Houck, Tanner",
       "player_id": 656557,
       "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 778018
+    },
+    {
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "TEX",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -487,6 +552,19 @@
       "player": "Keller, Mitch",
       "player_id": 656605,
       "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -170,
+      "stars": 1,
+      "game_pk": 778016
+    },
+    {
+      "player": "Keller, Mitch",
+      "player_id": 656605,
+      "opponent": "STL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -495,6 +573,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 778016
+    },
+    {
+      "player": "Kelly, Merrill",
+      "player_id": 518876,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 778014
     },
     {
       "player": "Langeliers, Shea",
@@ -575,6 +666,32 @@
       "game_pk": 778021
     },
     {
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 778011
+    },
+    {
+      "player": "Priester, Quinn",
+      "player_id": 682990,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -169,
+      "stars": 1,
+      "game_pk": 778015
+    },
+    {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "CLE",
@@ -586,6 +703,19 @@
       "best_price": -154,
       "stars": 1,
       "game_pk": 778022
+    },
+    {
+      "player": "Ray, Robbie",
+      "player_id": 592662,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 778020
     },
     {
       "player": "Ray, Robbie",
@@ -721,6 +851,19 @@
       "player": "Valdez, Framber",
       "player_id": 664285,
       "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 778015
+    },
+    {
+      "player": "Valdez, Framber",
+      "player_id": 664285,
+      "opponent": "MIL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -742,6 +885,19 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 778010
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 778011
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.412779+00:00",
+  "generated_at": "2026-02-13T00:00:46.623478+00:00",
   "date": "2025-09-07",
   "picks": [
     {
@@ -484,19 +484,6 @@
       "game_pk": 776427
     },
     {
-      "player": "Cease, Dylan",
-      "player_id": 656302,
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 126,
-      "stars": 1,
-      "game_pk": 776417
-    },
-    {
       "player": "Chisholm, Jazz",
       "player_id": 665862,
       "opponent": "TOR",
@@ -521,6 +508,19 @@
       "best_price": 165,
       "stars": 1,
       "game_pk": 776427
+    },
+    {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 776418
     },
     {
       "player": "Cronenworth, Jake",
@@ -705,19 +705,6 @@
       "game_pk": 776417
     },
     {
-      "player": "Kershaw, Clayton",
-      "player_id": 477132,
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanatics",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 776427
-    },
-    {
       "player": "Kim, Hyeseong",
       "player_id": 808975,
       "opponent": "LAD",
@@ -786,6 +773,19 @@
       "player": "Nelson, Ryne",
       "player_id": 669194,
       "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 776415
+    },
+    {
+      "player": "Nelson, Ryne",
+      "player_id": 669194,
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -835,6 +835,19 @@
       "game_pk": 776421
     },
     {
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 776421
+    },
+    {
       "player": "Rengifo, Luis",
       "player_id": 650859,
       "opponent": "ATH",
@@ -861,6 +874,19 @@
       "game_pk": 776427
     },
     {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 776414
+    },
+    {
       "player": "Simpson, Chandler",
       "player_id": 802415,
       "opponent": "CLE",
@@ -885,6 +911,19 @@
       "best_price": -140,
       "stars": 1,
       "game_pk": 776421
+    },
+    {
+      "player": "Sugano, Tomoyuki",
+      "player_id": 608372,
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 776427
     },
     {
       "player": "Sugano, Tomoyuki",
@@ -926,6 +965,19 @@
       "game_pk": 776417
     },
     {
+      "player": "Valdez, Framber",
+      "player_id": 664285,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 118,
+      "stars": 1,
+      "game_pk": 776418
+    },
+    {
       "player": "Vientos, Mark",
       "player_id": 668901,
       "opponent": "NYM",
@@ -937,6 +989,19 @@
       "best_price": -204,
       "stars": 1,
       "game_pk": 776429
+    },
+    {
+      "player": "Walker, Taijuan",
+      "player_id": 592836,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanatics",
+      "best_price": -175,
+      "stars": 1,
+      "game_pk": 776426
     },
     {
       "player": "\u00c1lvarez, Yordan",

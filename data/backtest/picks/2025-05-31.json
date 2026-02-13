@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.272284+00:00",
+  "generated_at": "2026-02-13T00:00:46.482353+00:00",
   "date": "2025-05-31",
   "picks": [
     {
@@ -185,17 +185,17 @@
       "game_pk": 777693
     },
     {
-      "player": "Gray, Sonny",
-      "player_id": 543243,
-      "opponent": "TEX",
+      "player": "Cecconi, Slade",
+      "player_id": 677944,
+      "opponent": "LAA",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
-      "best_book": "betonlineag",
-      "best_price": 121,
+      "best_book": "fanduel",
+      "best_price": -124,
       "stars": 2,
-      "game_pk": 777697
+      "game_pk": 777703
     },
     {
       "player": "Hendricks, Kyle",
@@ -328,17 +328,30 @@
       "game_pk": 777706
     },
     {
-      "player": "Cecconi, Slade",
-      "player_id": 677944,
-      "opponent": "LAA",
+      "player": "Cabrera, Edward",
+      "player_id": 665795,
+      "opponent": "SF",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -124,
+      "best_book": "draftkings",
+      "best_price": -125,
       "stars": 1,
-      "game_pk": 777703
+      "game_pk": 777705
+    },
+    {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777697
     },
     {
       "player": "D\u00edaz, Yandy",
@@ -380,6 +393,19 @@
       "game_pk": 777705
     },
     {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": 121,
+      "stars": 1,
+      "game_pk": 777697
+    },
+    {
       "player": "Henderson, Gunnar",
       "player_id": 683002,
       "opponent": "CWS",
@@ -391,6 +417,19 @@
       "best_price": -215,
       "stars": 1,
       "game_pk": 777699
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "player_id": 543294,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -122,
+      "stars": 1,
+      "game_pk": 777703
     },
     {
       "player": "Hilliard, Sam",
@@ -469,6 +508,19 @@
       "best_price": 200,
       "stars": 1,
       "game_pk": 777693
+    },
+    {
+      "player": "Martin, Davis",
+      "player_id": 663436,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 777699
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -562,19 +614,6 @@
       "game_pk": 777703
     },
     {
-      "player": "Ray, Robbie",
-      "player_id": 592662,
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 102,
-      "stars": 1,
-      "game_pk": 777705
-    },
-    {
       "player": "Rodr\u00edguez, Julio",
       "player_id": 677594,
       "opponent": "MIN",
@@ -588,17 +627,17 @@
       "game_pk": 777695
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "KC",
+      "player": "Senzatela, Antonio",
+      "player_id": 622608,
+      "opponent": "NYM",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 6.5,
+      "line": 3.5,
       "best_book": "draftkings",
-      "best_price": -105,
+      "best_price": -165,
       "stars": 1,
-      "game_pk": 777694
+      "game_pk": 777700
     },
     {
       "player": "Trout, Mike",
@@ -612,6 +651,19 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777703
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777694
     }
   ]
 }

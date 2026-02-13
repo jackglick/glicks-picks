@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.217220+00:00",
+  "generated_at": "2026-02-13T00:00:46.425747+00:00",
   "date": "2025-04-20",
   "picks": [
     {
@@ -146,6 +146,19 @@
       "game_pk": 778244
     },
     {
+      "player": "Mahle, Tyler",
+      "player_id": 641816,
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 2,
+      "game_pk": 778234
+    },
+    {
       "player": "Rengifo, Luis",
       "player_id": 650859,
       "opponent": "SF",
@@ -196,6 +209,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 778232
+    },
+    {
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 778242
     },
     {
       "player": "Bell, Josh",
@@ -409,6 +435,19 @@
       "player": "Glasnow, Tyler",
       "player_id": 607192,
       "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 778234
+    },
+    {
+      "player": "Glasnow, Tyler",
+      "player_id": 607192,
+      "opponent": "TEX",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -445,19 +484,6 @@
       "game_pk": 778242
     },
     {
-      "player": "Houck, Tanner",
-      "player_id": 656557,
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "bovada",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 778245
-    },
-    {
       "player": "Iglesias, Jose",
       "player_id": 578428,
       "opponent": "SD",
@@ -469,6 +495,45 @@
       "best_price": 165,
       "stars": 1,
       "game_pk": 778237
+    },
+    {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 778235
+    },
+    {
+      "player": "Keller, Mitch",
+      "player_id": 656605,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -190,
+      "stars": 1,
+      "game_pk": 778242
+    },
+    {
+      "player": "Kelly, Merrill",
+      "player_id": 518876,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 778236
     },
     {
       "player": "Kikuchi, Yusei",

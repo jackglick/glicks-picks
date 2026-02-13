@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.283914+00:00",
+  "generated_at": "2026-02-13T00:00:46.494262+00:00",
   "date": "2025-06-09",
   "picks": [
     {
@@ -40,19 +40,6 @@
       "best_price": 135,
       "stars": 2,
       "game_pk": 777581
-    },
-    {
-      "player": "Ortiz, Luis",
-      "player_id": 682847,
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 777580
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -133,6 +120,19 @@
       "game_pk": 777578
     },
     {
+      "player": "Civale, Aaron",
+      "player_id": 650644,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -142,
+      "stars": 1,
+      "game_pk": 777575
+    },
+    {
       "player": "Fry, David",
       "player_id": 681807,
       "opponent": "CIN",
@@ -168,6 +168,19 @@
       "line": 1.5,
       "best_book": "fanatics",
       "best_price": -145,
+      "stars": 1,
+      "game_pk": 777580
+    },
+    {
+      "player": "Miley, Wade",
+      "player_id": 489119,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "fanatics",
+      "best_price": 105,
       "stars": 1,
       "game_pk": 777580
     },
@@ -235,19 +248,6 @@
       "best_price": -180,
       "stars": 1,
       "game_pk": 777580
-    },
-    {
-      "player": "Wheeler, Zack",
-      "player_id": 554430,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "bovada",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 777578
     }
   ]
 }

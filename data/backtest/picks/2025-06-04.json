@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.278025+00:00",
+  "generated_at": "2026-02-13T00:00:46.488472+00:00",
   "date": "2025-06-04",
   "picks": [
     {
@@ -341,6 +341,19 @@
       "game_pk": 777650
     },
     {
+      "player": "Gusto, Ryan",
+      "player_id": 687473,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -138,
+      "stars": 2,
+      "game_pk": 777648
+    },
+    {
       "player": "Hassell, Robert",
       "player_id": 690987,
       "opponent": "CHC",
@@ -461,6 +474,19 @@
       "player": "Baz, Shane",
       "player_id": 669358,
       "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777646
+    },
+    {
+      "player": "Baz, Shane",
+      "player_id": 669358,
+      "opponent": "TEX",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -469,6 +495,19 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 777646
+    },
+    {
+      "player": "Boyd, Matthew",
+      "player_id": 571510,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -136,
+      "stars": 1,
+      "game_pk": 777650
     },
     {
       "player": "Carroll, Corbin",
@@ -521,19 +560,6 @@
       "best_price": 185,
       "stars": 1,
       "game_pk": 777638
-    },
-    {
-      "player": "Gore, MacKenzie",
-      "player_id": 669022,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 777650
     },
     {
       "player": "Gore, MacKenzie",
@@ -679,6 +705,19 @@
       "game_pk": 777654
     },
     {
+      "player": "Quantrill, Cal",
+      "player_id": 615698,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 777652
+    },
+    {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "CLE",
@@ -718,6 +757,19 @@
       "game_pk": 777648
     },
     {
+      "player": "Rocker, Kumar",
+      "player_id": 677958,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 777646
+    },
+    {
       "player": "Rutschman, Adley",
       "player_id": 668939,
       "opponent": "BAL",
@@ -742,6 +794,19 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 777645
+    },
+    {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "bovada",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 777654
     },
     {
       "player": "Schmidt, Clarke",

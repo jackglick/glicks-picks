@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.254347+00:00",
+  "generated_at": "2026-02-13T00:00:46.464274+00:00",
   "date": "2025-05-19",
   "picks": [
     {
@@ -133,6 +133,19 @@
       "game_pk": 777861
     },
     {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.0,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 777863
+    },
+    {
       "player": "Keirsey, DaShawn",
       "player_id": 680577,
       "opponent": "CLE",
@@ -144,6 +157,19 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 777861
+    },
+    {
+      "player": "Keller, Mitch",
+      "player_id": 656605,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 2,
+      "game_pk": 777859
     },
     {
       "player": "Larnach, Trevor",
@@ -237,19 +263,6 @@
       "game_pk": 777860
     },
     {
-      "player": "Allen, Logan",
-      "player_id": 671106,
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 777861
-    },
-    {
       "player": "Altuve, Jos\u00e9",
       "player_id": 514888,
       "opponent": "HOU",
@@ -274,6 +287,32 @@
       "best_price": -114,
       "stars": 1,
       "game_pk": 777863
+    },
+    {
+      "player": "Cabrera, Edward",
+      "player_id": 665795,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 777863
+    },
+    {
+      "player": "Castillo, Luis",
+      "player_id": 622491,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 777857
     },
     {
       "player": "Castro, Willi",
@@ -344,6 +383,19 @@
       "player": "Kremer, Dean",
       "player_id": 665152,
       "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -146,
+      "stars": 1,
+      "game_pk": 777860
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "MIL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -365,6 +417,19 @@
       "best_price": 185,
       "stars": 1,
       "game_pk": 777863
+    },
+    {
+      "player": "Martin, Davis",
+      "player_id": 663436,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -164,
+      "stars": 1,
+      "game_pk": 777857
     },
     {
       "player": "Mead, Curtis",
@@ -389,6 +454,19 @@
       "line": 0.5,
       "best_book": "bovada",
       "best_price": 155,
+      "stars": 1,
+      "game_pk": 777858
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -150,
       "stars": 1,
       "game_pk": 777858
     },
@@ -430,6 +508,19 @@
       "best_price": 156,
       "stars": 1,
       "game_pk": 777860
+    },
+    {
+      "player": "Senga, Kodai",
+      "player_id": 673540,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777856
     },
     {
       "player": "Stowers, Kyle",

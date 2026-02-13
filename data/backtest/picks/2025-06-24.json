@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.303135+00:00",
+  "generated_at": "2026-02-13T00:00:46.513910+00:00",
   "date": "2025-06-24",
   "picks": [
     {
@@ -120,6 +120,19 @@
       "game_pk": 777387
     },
     {
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 777384
+    },
+    {
       "player": "Bichette, Bo",
       "player_id": 666182,
       "opponent": "TOR",
@@ -131,6 +144,19 @@
       "best_price": -154,
       "stars": 1,
       "game_pk": 777384
+    },
+    {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777378
     },
     {
       "player": "Carlson, Dylan",
@@ -250,6 +276,19 @@
       "game_pk": 777373
     },
     {
+      "player": "Heaney, Andrew",
+      "player_id": 571760,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -146,
+      "stars": 1,
+      "game_pk": 777374
+    },
+    {
       "player": "Kurtz, Nick",
       "player_id": 701762,
       "opponent": "ATH",
@@ -261,6 +300,19 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 777386
+    },
+    {
+      "player": "Lauer, Eric",
+      "player_id": 641778,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -170,
+      "stars": 1,
+      "game_pk": 777384
     },
     {
       "player": "Lee, Brooks",
@@ -341,17 +393,17 @@
       "game_pk": 777383
     },
     {
-      "player": "Paddack, Chris",
-      "player_id": 663978,
-      "opponent": "SEA",
+      "player": "Peralta, Freddy",
+      "player_id": 642547,
+      "opponent": "PIT",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 108,
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "bovada",
+      "best_price": 110,
       "stars": 1,
-      "game_pk": 777375
+      "game_pk": 777374
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.231997+00:00",
+  "generated_at": "2026-02-13T00:00:46.440773+00:00",
   "date": "2025-05-02",
   "picks": [
     {
@@ -27,6 +27,19 @@
       "best_price": 122,
       "stars": 3,
       "game_pk": 778089
+    },
+    {
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -164,
+      "stars": 2,
+      "game_pk": 778081
     },
     {
       "player": "Bello, Brayan",
@@ -201,6 +214,19 @@
       "player": "Cannon, Jonathan",
       "player_id": 686563,
       "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 778079
+    },
+    {
+      "player": "Cannon, Jonathan",
+      "player_id": 686563,
+      "opponent": "HOU",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -222,6 +248,19 @@
       "best_price": -165,
       "stars": 1,
       "game_pk": 778086
+    },
+    {
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": -128,
+      "stars": 1,
+      "game_pk": 778090
     },
     {
       "player": "Chapman, Matt",
@@ -396,6 +435,19 @@
       "player": "Kremer, Dean",
       "player_id": 665152,
       "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 112,
+      "stars": 1,
+      "game_pk": 778093
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "KC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -513,19 +565,6 @@
       "player": "Parker, Mitchell",
       "player_id": 680730,
       "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "bovada",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 778087
-    },
-    {
-      "player": "Parker, Mitchell",
-      "player_id": 680730,
-      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -638,6 +677,19 @@
       "best_price": 205,
       "stars": 1,
       "game_pk": 778086
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 778093
     },
     {
       "player": "Ward, Taylor",

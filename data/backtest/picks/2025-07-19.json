@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.331150+00:00",
+  "generated_at": "2026-02-13T00:00:46.542694+00:00",
   "date": "2025-07-19",
   "picks": [
     {
@@ -341,19 +341,6 @@
       "game_pk": 777093
     },
     {
-      "player": "Wentz, Joey",
-      "player_id": 666214,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanatics",
-      "best_price": 125,
-      "stars": 2,
-      "game_pk": 777097
-    },
-    {
       "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "NYY",
@@ -430,6 +417,19 @@
       "best_price": 105,
       "stars": 1,
       "game_pk": 777080
+    },
+    {
+      "player": "Darvish, Yu",
+      "player_id": 506433,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 777091
     },
     {
       "player": "De La Cruz, Elly",
@@ -552,6 +552,19 @@
       "player": "Holmes, Clay",
       "player_id": 605280,
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.0,
+      "best_book": "fanduel",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777092
+    },
+    {
+      "player": "Holmes, Clay",
+      "player_id": 605280,
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -573,6 +586,19 @@
       "best_price": 189,
       "stars": 1,
       "game_pk": 777091
+    },
+    {
+      "player": "Imanaga, Shota",
+      "player_id": 684007,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -118,
+      "stars": 1,
+      "game_pk": 777096
     },
     {
       "player": "Jeffers, Ryan",
@@ -612,6 +638,19 @@
       "best_price": 100,
       "stars": 1,
       "game_pk": 777095
+    },
+    {
+      "player": "Lauer, Eric",
+      "player_id": 641778,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 777094
     },
     {
       "player": "Lee, Brooks",
@@ -692,6 +731,19 @@
       "game_pk": 777095
     },
     {
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777092
+    },
+    {
       "player": "Mart\u00ednez, Angel",
       "player_id": 682657,
       "opponent": "ATH",
@@ -729,6 +781,19 @@
       "best_price": -278,
       "stars": 1,
       "game_pk": 777080
+    },
+    {
+      "player": "Montero, Keider",
+      "player_id": 672456,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 104,
+      "stars": 1,
+      "game_pk": 777088
     },
     {
       "player": "Montero, Keider",
@@ -783,6 +848,19 @@
       "game_pk": 777097
     },
     {
+      "player": "Quantrill, Cal",
+      "player_id": 615698,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -124,
+      "stars": 1,
+      "game_pk": 777093
+    },
+    {
       "player": "Ritter, Ryan",
       "player_id": 690022,
       "opponent": "MIN",
@@ -794,6 +872,19 @@
       "best_price": -250,
       "stars": 1,
       "game_pk": 777080
+    },
+    {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": 107,
+      "stars": 1,
+      "game_pk": 777104
     },
     {
       "player": "Su\u00e1rez, Eugenio",
@@ -820,6 +911,32 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 777080
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betrivers",
+      "best_price": -137,
+      "stars": 1,
+      "game_pk": 777093
+    },
+    {
+      "player": "Webb, Logan",
+      "player_id": 657277,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777094
     },
     {
       "player": "Wilson, Jacob",

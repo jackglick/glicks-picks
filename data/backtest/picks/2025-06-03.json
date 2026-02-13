@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.276446+00:00",
+  "generated_at": "2026-02-13T00:00:46.486878+00:00",
   "date": "2025-06-03",
   "picks": [
     {
@@ -185,17 +185,30 @@
       "game_pk": 777672
     },
     {
-      "player": "Alcantara, Sandy",
-      "player_id": 645261,
-      "opponent": "COL",
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "LAA",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 130,
+      "best_book": "draftkings",
+      "best_price": -150,
       "stars": 2,
-      "game_pk": 777666
+      "game_pk": 777667
+    },
+    {
+      "player": "Francis, Bowden",
+      "player_id": 670102,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 2,
+      "game_pk": 777665
     },
     {
       "player": "Happ, Ian",
@@ -237,6 +250,19 @@
       "game_pk": 777660
     },
     {
+      "player": "Strider, Spencer",
+      "player_id": 675911,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 2,
+      "game_pk": 777672
+    },
+    {
       "player": "S\u00e1nchez, Cristopher",
       "player_id": 650911,
       "opponent": "TOR",
@@ -250,6 +276,19 @@
       "game_pk": 777665
     },
     {
+      "player": "Alcantara, Sandy",
+      "player_id": 645261,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777666
+    },
+    {
       "player": "Bell, Josh",
       "player_id": 605137,
       "opponent": "CHC",
@@ -261,6 +300,19 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777659
+    },
+    {
+      "player": "Bibee, Tanner",
+      "player_id": 676440,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 777664
     },
     {
       "player": "Busch, Michael",
@@ -300,6 +352,19 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 777668
+    },
+    {
+      "player": "Dollander, Chase",
+      "player_id": 801403,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -146,
+      "stars": 1,
+      "game_pk": 777666
     },
     {
       "player": "Edwards, Xavier",
@@ -354,6 +419,19 @@
       "game_pk": 777666
     },
     {
+      "player": "Greene, Hunter",
+      "player_id": 668881,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777668
+    },
+    {
       "player": "Happ, Ian",
       "player_id": 664023,
       "opponent": "CHC",
@@ -393,6 +471,19 @@
       "game_pk": 777662
     },
     {
+      "player": "Mahle, Tyler",
+      "player_id": 641816,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777662
+    },
+    {
       "player": "Mangum, Jake",
       "player_id": 663968,
       "opponent": "TEX",
@@ -404,6 +495,45 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777662
+    },
+    {
+      "player": "McCullers Jr., Lance",
+      "player_id": 621121,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777663
+    },
+    {
+      "player": "Pallante, Andre",
+      "player_id": 669467,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -118,
+      "stars": 1,
+      "game_pk": 777660
+    },
+    {
+      "player": "Peralta, Freddy",
+      "player_id": 642547,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 122,
+      "stars": 1,
+      "game_pk": 777668
     },
     {
       "player": "Peralta, Freddy",
@@ -458,6 +588,19 @@
       "game_pk": 777663
     },
     {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 777664
+    },
+    {
       "player": "Smith, Shane",
       "player_id": 681343,
       "opponent": "DET",
@@ -471,19 +614,6 @@
       "game_pk": 777661
     },
     {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 777665
-    },
-    {
       "player": "Tat\u00eds, Fernando",
       "player_id": 665487,
       "opponent": "SD",
@@ -495,6 +625,19 @@
       "best_price": -195,
       "stars": 1,
       "game_pk": 777656
+    },
+    {
+      "player": "Williams, Trevor",
+      "player_id": 592866,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 777659
     },
     {
       "player": "Witt, Bobby",

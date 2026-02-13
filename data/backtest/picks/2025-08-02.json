@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.353675+00:00",
+  "generated_at": "2026-02-13T00:00:46.565275+00:00",
   "date": "2025-08-02",
   "picks": [
     {
@@ -354,19 +354,6 @@
       "game_pk": 776904
     },
     {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 2,
-      "game_pk": 776904
-    },
-    {
       "player": "Anthony, Roman",
       "player_id": 701350,
       "opponent": "HOU",
@@ -562,6 +549,19 @@
       "game_pk": 776904
     },
     {
+      "player": "Gordon, Colton",
+      "player_id": 676467,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 776909
+    },
+    {
       "player": "Gurriel, Lourdes",
       "player_id": 666971,
       "opponent": "AZ",
@@ -747,6 +747,19 @@
       "player": "Rasmussen, Drew",
       "player_id": 656876,
       "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 776901
+    },
+    {
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
+      "opponent": "LAD",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -768,6 +781,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 776897
+    },
+    {
+      "player": "Scherzer, Max",
+      "player_id": 453286,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 1,
+      "game_pk": 776900
     },
     {
       "player": "Semien, Marcus",
@@ -796,17 +822,17 @@
       "game_pk": 776911
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "PHI",
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "COL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 8.5,
-      "best_book": "bovada",
-      "best_price": -145,
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": 100,
       "stars": 1,
-      "game_pk": 776912
+      "game_pk": 776904
     },
     {
       "player": "Smith, Cam",

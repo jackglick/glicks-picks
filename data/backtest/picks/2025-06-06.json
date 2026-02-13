@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.280514+00:00",
+  "generated_at": "2026-02-13T00:00:46.490944+00:00",
   "date": "2025-06-06",
   "picks": [
     {
@@ -159,6 +159,32 @@
       "game_pk": 777621
     },
     {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": -140,
+      "stars": 2,
+      "game_pk": 777627
+    },
+    {
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -104,
+      "stars": 1,
+      "game_pk": 777622
+    },
+    {
       "player": "Bohm, Alec",
       "player_id": 664761,
       "opponent": "PHI",
@@ -248,19 +274,6 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 777623
-    },
-    {
-      "player": "Falter, Bailey",
-      "player_id": 663559,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanatics",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 777621
     },
     {
       "player": "Grichuk, Randal",

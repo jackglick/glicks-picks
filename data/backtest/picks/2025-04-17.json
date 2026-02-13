@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.211850+00:00",
+  "generated_at": "2026-02-13T00:00:46.420332+00:00",
   "date": "2025-04-17",
   "picks": [
     {
@@ -250,6 +250,19 @@
       "game_pk": 778281
     },
     {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanatics",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778282
+    },
+    {
       "player": "Candelario, Jeimer",
       "player_id": 600869,
       "opponent": "SEA",
@@ -419,17 +432,17 @@
       "game_pk": 778282
     },
     {
-      "player": "Martin, Davis",
-      "player_id": 663436,
-      "opponent": "ATH",
+      "player": "Olson, Reese",
+      "player_id": 681857,
+      "opponent": "KC",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
+      "direction": "UNDER",
       "line": 4.5,
-      "best_book": "bovada",
-      "best_price": 120,
+      "best_book": "fanduel",
+      "best_price": -108,
       "stars": 1,
-      "game_pk": 778283
+      "game_pk": 778286
     },
     {
       "player": "Pallante, Andre",
@@ -614,6 +627,19 @@
       "game_pk": 778281
     },
     {
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 778285
+    },
+    {
       "player": "Soler, Jorge",
       "player_id": 624585,
       "opponent": "LAA",
@@ -729,6 +755,19 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 778281
+    },
+    {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 778282
     },
     {
       "player": "Wilson, Jacob",

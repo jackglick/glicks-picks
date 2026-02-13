@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.363456+00:00",
+  "generated_at": "2026-02-13T00:00:46.572649+00:00",
   "date": "2025-08-06",
   "picks": [
     {
@@ -471,6 +471,19 @@
       "game_pk": 776843
     },
     {
+      "player": "Ohtani, Shohei",
+      "player_id": 660271,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -130,
+      "stars": 2,
+      "game_pk": 776839
+    },
+    {
       "player": "Pozo, Yohel",
       "player_id": 650968,
       "opponent": "STL",
@@ -755,6 +768,19 @@
       "best_price": -175,
       "stars": 1,
       "game_pk": 776838
+    },
+    {
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "bovada",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 776859
     },
     {
       "player": "France, Ty",
@@ -1134,6 +1160,19 @@
       "game_pk": 776847
     },
     {
+      "player": "Springs, Jeffrey",
+      "player_id": 605488,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 776850
+    },
+    {
       "player": "Straw, Myles",
       "player_id": 664702,
       "opponent": "TOR",
@@ -1158,6 +1197,19 @@
       "best_price": -227,
       "stars": 1,
       "game_pk": 776847
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 776856
     },
     {
       "player": "Wood, James",

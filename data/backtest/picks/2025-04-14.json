@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.206743+00:00",
+  "generated_at": "2026-02-13T00:00:46.415155+00:00",
   "date": "2025-04-14",
   "picks": [
     {
@@ -92,6 +92,19 @@
       "best_price": 215,
       "stars": 2,
       "game_pk": 778328
+    },
+    {
+      "player": "Holmes, Grant",
+      "player_id": 656550,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 2,
+      "game_pk": 778322
     },
     {
       "player": "Judge, Aaron",
@@ -313,19 +326,6 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 778328
-    },
-    {
-      "player": "Carrasco, Carlos",
-      "player_id": 471911,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 778327
     },
     {
       "player": "Castellanos, Nick",
@@ -872,6 +872,32 @@
       "best_price": -244,
       "stars": 1,
       "game_pk": 778322
+    },
+    {
+      "player": "Roupp, Landen",
+      "player_id": 694738,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 778320
+    },
+    {
+      "player": "Ryan, Joe",
+      "player_id": 657746,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "williamhill_us",
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 778324
     },
     {
       "player": "Santander, Anthony",

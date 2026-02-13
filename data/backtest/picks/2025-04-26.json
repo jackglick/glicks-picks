@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.224919+00:00",
+  "generated_at": "2026-02-13T00:00:46.433650+00:00",
   "date": "2025-04-26",
   "picks": [
     {
@@ -185,6 +185,19 @@
       "game_pk": 778164
     },
     {
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.0,
+      "best_book": "bovada",
+      "best_price": 140,
+      "stars": 2,
+      "game_pk": 778179
+    },
+    {
       "player": "Kikuchi, Yusei",
       "player_id": 579328,
       "opponent": "MIN",
@@ -292,6 +305,19 @@
       "player": "Brown, Ben",
       "player_id": 676962,
       "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 778174
+    },
+    {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "PHI",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -300,6 +326,19 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 778174
+    },
+    {
+      "player": "Buehler, Walker",
+      "player_id": 621111,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 126,
+      "stars": 1,
+      "game_pk": 778169
     },
     {
       "player": "Buxton, Byron",
@@ -419,6 +458,32 @@
       "game_pk": 778173
     },
     {
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 778166
+    },
+    {
+      "player": "Lively, Ben",
+      "player_id": 594902,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -126,
+      "stars": 1,
+      "game_pk": 778179
+    },
+    {
       "player": "Mahle, Tyler",
       "player_id": 641816,
       "opponent": "SF",
@@ -536,6 +601,19 @@
       "game_pk": 778162
     },
     {
+      "player": "Priester, Quinn",
+      "player_id": 682990,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 778164
+    },
+    {
       "player": "P\u00e9rez, Salvador",
       "player_id": 521692,
       "opponent": "HOU",
@@ -599,6 +677,19 @@
       "best_price": -140,
       "stars": 1,
       "game_pk": 778169
+    },
+    {
+      "player": "Ray, Robbie",
+      "player_id": 592662,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 1,
+      "game_pk": 778159
     },
     {
       "player": "Ray, Robbie",
@@ -744,6 +835,19 @@
       "game_pk": 778174
     },
     {
+      "player": "Valdez, Framber",
+      "player_id": 664285,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 778167
+    },
+    {
       "player": "Vientos, Mark",
       "player_id": 668901,
       "opponent": "NYM",
@@ -755,6 +859,19 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 778173
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 778167
     },
     {
       "player": "Wade, LaMonte",
@@ -794,6 +911,19 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 778168
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 778166
     }
   ]
 }

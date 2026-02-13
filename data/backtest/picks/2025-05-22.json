@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.258488+00:00",
+  "generated_at": "2026-02-13T00:00:46.468491+00:00",
   "date": "2025-05-22",
   "picks": [
     {
@@ -305,6 +305,19 @@
       "player": "Francis, Bowden",
       "player_id": 670102,
       "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777816
+    },
+    {
+      "player": "Francis, Bowden",
+      "player_id": 670102,
+      "opponent": "SD",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -357,6 +370,19 @@
       "player": "M\u00e1rquez, Germ\u00e1n",
       "player_id": 608566,
       "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 777817
+    },
+    {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "player_id": 608566,
+      "opponent": "PHI",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -365,6 +391,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777817
+    },
+    {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 777818
     },
     {
       "player": "Schanuel, Nolan",
@@ -383,6 +422,19 @@
       "player": "Severino, Luis",
       "player_id": 622663,
       "opponent": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777812
+    },
+    {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "LAA",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -391,19 +443,6 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 777812
-    },
-    {
-      "player": "Smith-Shawver, AJ",
-      "player_id": 700363,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 777820
     },
     {
       "player": "Springer, George",

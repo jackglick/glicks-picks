@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.210349+00:00",
+  "generated_at": "2026-02-13T00:00:46.418785+00:00",
   "date": "2025-04-16",
   "picks": [
     {
@@ -81,6 +81,32 @@
       "game_pk": 778293
     },
     {
+      "player": "Blanco, Ronel",
+      "player_id": 669854,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 2,
+      "game_pk": 778290
+    },
+    {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 2,
+      "game_pk": 778293
+    },
+    {
       "player": "Gonz\u00e1lez, Oscar",
       "player_id": 660757,
       "opponent": "CHC",
@@ -133,6 +159,19 @@
       "game_pk": 778301
     },
     {
+      "player": "Matz, Steven",
+      "player_id": 571927,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanatics",
+      "best_price": -165,
+      "stars": 2,
+      "game_pk": 778290
+    },
+    {
       "player": "Miller, Bryce",
       "player_id": 682243,
       "opponent": "CIN",
@@ -170,6 +209,19 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 778293
+    },
+    {
+      "player": "Williams, Gavin",
+      "player_id": 668909,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 2,
+      "game_pk": 778301
     },
     {
       "player": "Abreu, Wilyer",
@@ -510,6 +562,19 @@
       "game_pk": 778293
     },
     {
+      "player": "Festa, David",
+      "player_id": 701581,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 778299
+    },
+    {
       "player": "Goldschmidt, Paul",
       "player_id": 502671,
       "opponent": "KC",
@@ -731,19 +796,6 @@
       "game_pk": 778299
     },
     {
-      "player": "Littell, Zack",
-      "player_id": 641793,
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "williamhill_us",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 778298
-    },
-    {
       "player": "Mead, Curtis",
       "player_id": 678554,
       "opponent": "BOS",
@@ -779,6 +831,19 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -180,
+      "stars": 1,
+      "game_pk": 778298
+    },
+    {
+      "player": "Newcomb, Sean",
+      "player_id": 656794,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -138,
       "stars": 1,
       "game_pk": 778298
     },
@@ -864,6 +929,19 @@
       "player": "Quintana, Jose",
       "player_id": 500779,
       "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 778295
+    },
+    {
+      "player": "Quintana, Jose",
+      "player_id": 500779,
+      "opponent": "DET",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -872,6 +950,19 @@
       "best_price": -175,
       "stars": 1,
       "game_pk": 778295
+    },
+    {
+      "player": "Ray, Robbie",
+      "player_id": 592662,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": -146,
+      "stars": 1,
+      "game_pk": 778296
     },
     {
       "player": "Reynolds, Bryan",
@@ -1015,19 +1106,6 @@
       "best_price": 165,
       "stars": 1,
       "game_pk": 778296
-    },
-    {
-      "player": "Williams, Gavin",
-      "player_id": 668909,
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 778301
     },
     {
       "player": "Witt, Bobby",

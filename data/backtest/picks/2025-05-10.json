@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.242944+00:00",
+  "generated_at": "2026-02-13T00:00:46.452282+00:00",
   "date": "2025-05-10",
   "picks": [
     {
@@ -162,19 +162,6 @@
       "player": "Heaney, Andrew",
       "player_id": 571760,
       "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 130,
-      "stars": 2,
-      "game_pk": 777985
-    },
-    {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "ATL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -315,6 +302,19 @@
       "game_pk": 777978
     },
     {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": 108,
+      "stars": 2,
+      "game_pk": 777983
+    },
+    {
       "player": "Tat\u00eds, Fernando",
       "player_id": 665487,
       "opponent": "SD",
@@ -432,6 +432,19 @@
       "game_pk": 777974
     },
     {
+      "player": "Bibee, Tanner",
+      "player_id": 676440,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": -169,
+      "stars": 1,
+      "game_pk": 777983
+    },
+    {
       "player": "Bogaerts, Xander",
       "player_id": 593428,
       "opponent": "SD",
@@ -445,6 +458,19 @@
       "game_pk": 777976
     },
     {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 777981
+    },
+    {
       "player": "Bregman, Alex",
       "player_id": 608324,
       "opponent": "BOS",
@@ -456,6 +482,19 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 777977
+    },
+    {
+      "player": "Cabrera, Edward",
+      "player_id": 665795,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777978
     },
     {
       "player": "Castro, Willi",
@@ -482,6 +521,19 @@
       "best_price": 142,
       "stars": 1,
       "game_pk": 777974
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 777977
     },
     {
       "player": "Crochet, Garrett",
@@ -734,6 +786,19 @@
       "player": "Megill, Tylor",
       "player_id": 656731,
       "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 777982
+    },
+    {
+      "player": "Megill, Tylor",
+      "player_id": 656731,
+      "opponent": "CHC",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -768,6 +833,19 @@
       "best_price": -254,
       "stars": 1,
       "game_pk": 777973
+    },
+    {
+      "player": "Myers, Tobias",
+      "player_id": 668964,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777981
     },
     {
       "player": "Noel, Jhonkensy",
@@ -807,6 +885,19 @@
       "best_price": -213,
       "stars": 1,
       "game_pk": 777975
+    },
+    {
+      "player": "Pallante, Andre",
+      "player_id": 669467,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777980
     },
     {
       "player": "Pallante, Andre",
@@ -942,6 +1033,19 @@
       "player": "Singer, Brady",
       "player_id": 663903,
       "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777979
+    },
+    {
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "HOU",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1067,6 +1171,19 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 777974
+    },
+    {
+      "player": "Williams, Trevor",
+      "player_id": 592866,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 106,
+      "stars": 1,
+      "game_pk": 777980
     },
     {
       "player": "Williams, Trevor",

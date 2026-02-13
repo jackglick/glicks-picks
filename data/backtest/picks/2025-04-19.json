@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.215667+00:00",
+  "generated_at": "2026-02-13T00:00:46.424100+00:00",
   "date": "2025-04-19",
   "picks": [
     {
@@ -133,19 +133,6 @@
       "game_pk": 778264
     },
     {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 2,
-      "game_pk": 778264
-    },
-    {
       "player": "Duran, Jarren",
       "player_id": 680776,
       "opponent": "CWS",
@@ -253,6 +240,19 @@
       "player": "King, Michael",
       "player_id": 650633,
       "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "betonlineag",
+      "best_price": -149,
+      "stars": 2,
+      "game_pk": 778259
+    },
+    {
+      "player": "King, Michael",
+      "player_id": 650633,
+      "opponent": "HOU",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -287,6 +287,19 @@
       "best_price": -160,
       "stars": 2,
       "game_pk": 778259
+    },
+    {
+      "player": "Quantrill, Cal",
+      "player_id": 615698,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -138,
+      "stars": 2,
+      "game_pk": 778252
     },
     {
       "player": "Quantrill, Cal",
@@ -510,6 +523,19 @@
       "game_pk": 778264
     },
     {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 778257
+    },
+    {
       "player": "Butler, Lawrence",
       "player_id": 671732,
       "opponent": "ATH",
@@ -666,17 +692,17 @@
       "game_pk": 778265
     },
     {
-      "player": "Gilbert, Logan",
-      "player_id": 669302,
-      "opponent": "TOR",
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "COL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 110,
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": -140,
       "stars": 1,
-      "game_pk": 778258
+      "game_pk": 778247
     },
     {
       "player": "Guerrero, Vladimir",
@@ -885,19 +911,6 @@
       "best_price": -174,
       "stars": 1,
       "game_pk": 778253
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanatics",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 778254
     },
     {
       "player": "Stott, Bryson",

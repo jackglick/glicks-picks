@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.396161+00:00",
+  "generated_at": "2026-02-13T00:00:46.606465+00:00",
   "date": "2025-08-26",
   "picks": [
     {
@@ -445,6 +445,19 @@
       "game_pk": 776574
     },
     {
+      "player": "Keller, Mitch",
+      "player_id": 656605,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 776578
+    },
+    {
       "player": "Lowe, Brandon",
       "player_id": 664040,
       "opponent": "TB",
@@ -493,6 +506,19 @@
       "line": 0.5,
       "best_book": "fanatics",
       "best_price": 115,
+      "stars": 1,
+      "game_pk": 776586
+    },
+    {
+      "player": "Pfaadt, Brandon",
+      "player_id": 694297,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 102,
       "stars": 1,
       "game_pk": 776586
     },

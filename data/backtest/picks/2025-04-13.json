@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.204905+00:00",
+  "generated_at": "2026-02-13T00:00:46.413329+00:00",
   "date": "2025-04-13",
   "picks": [
     {
@@ -105,19 +105,6 @@
       "best_price": -130,
       "stars": 3,
       "game_pk": 778343
-    },
-    {
-      "player": "Webb, Logan",
-      "player_id": 657277,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": 130,
-      "stars": 3,
-      "game_pk": 778339
     },
     {
       "player": "Arr\u00e1ez, Luis",
@@ -274,6 +261,19 @@
       "best_price": -109,
       "stars": 2,
       "game_pk": 778343
+    },
+    {
+      "player": "Quantrill, Cal",
+      "player_id": 615698,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 778337
     },
     {
       "player": "Rodr\u00edguez, Julio",
@@ -692,6 +692,19 @@
       "game_pk": 778337
     },
     {
+      "player": "Eovaldi, Nathan",
+      "player_id": 543135,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 778334
+    },
+    {
       "player": "France, Ty",
       "player_id": 664034,
       "opponent": "DET",
@@ -716,6 +729,19 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 778331
+    },
+    {
+      "player": "Gallen, Zac",
+      "player_id": 668678,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 778332
     },
     {
       "player": "Gallen, Zac",
@@ -755,6 +781,19 @@
       "best_price": -166,
       "stars": 1,
       "game_pk": 778330
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -108,
+      "stars": 1,
+      "game_pk": 778337
     },
     {
       "player": "Greene, Riley",
@@ -820,19 +859,6 @@
       "best_price": -159,
       "stars": 1,
       "game_pk": 778340
-    },
-    {
-      "player": "Hendricks, Kyle",
-      "player_id": 543294,
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "bovada",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 778329
     },
     {
       "player": "Hoerner, Nico",
@@ -924,6 +950,19 @@
       "best_price": -225,
       "stars": 1,
       "game_pk": 778333
+    },
+    {
+      "player": "Lively, Ben",
+      "player_id": 594902,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -116,
+      "stars": 1,
+      "game_pk": 778342
     },
     {
       "player": "Machado, Manny",
@@ -1173,19 +1212,6 @@
       "game_pk": 778334
     },
     {
-      "player": "Senga, Kodai",
-      "player_id": 673540,
-      "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 778333
-    },
-    {
       "player": "Severino, Luis",
       "player_id": 622663,
       "opponent": "NYM",
@@ -1314,6 +1340,19 @@
       "best_price": -160,
       "stars": 1,
       "game_pk": 778329
+    },
+    {
+      "player": "Webb, Logan",
+      "player_id": 657277,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 778339
     },
     {
       "player": "Westburg, Jordan",

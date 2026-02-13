@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.221441+00:00",
+  "generated_at": "2026-02-13T00:00:46.429939+00:00",
   "date": "2025-04-23",
   "picks": [
     {
@@ -370,6 +370,19 @@
       "player": "Boyd, Matthew",
       "player_id": 571510,
       "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 778205
+    },
+    {
+      "player": "Boyd, Matthew",
+      "player_id": 571510,
+      "opponent": "LAD",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -627,17 +640,17 @@
       "game_pk": 778197
     },
     {
-      "player": "Mikolas, Miles",
-      "player_id": 571945,
-      "opponent": "ATL",
+      "player": "Newcomb, Sean",
+      "player_id": 656794,
+      "opponent": "SEA",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "williamhill_us",
-      "best_price": 120,
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -118,
       "stars": 1,
-      "game_pk": 778214
+      "game_pk": 778207
     },
     {
       "player": "Nootbaar, Lars",
@@ -651,6 +664,19 @@
       "best_price": 185,
       "stars": 1,
       "game_pk": 778214
+    },
+    {
+      "player": "Ortiz, Luis",
+      "player_id": 682847,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 778206
     },
     {
       "player": "Ozuna, Marcell",
@@ -833,6 +859,19 @@
       "best_price": -154,
       "stars": 1,
       "game_pk": 778197
+    },
+    {
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 778208
     },
     {
       "player": "Singer, Brady",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.425392+00:00",
+  "generated_at": "2026-02-13T00:00:46.636538+00:00",
   "date": "2025-09-16",
   "picks": [
     {
@@ -146,19 +146,6 @@
       "game_pk": 776306
     },
     {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 8.5,
-      "best_book": "fanduel",
-      "best_price": 102,
-      "stars": 3,
-      "game_pk": 776307
-    },
-    {
       "player": "Westburg, Jordan",
       "player_id": 676059,
       "opponent": "BAL",
@@ -211,6 +198,32 @@
       "game_pk": 776300
     },
     {
+      "player": "Gilbert, Logan",
+      "player_id": 669302,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 776302
+    },
+    {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -121,
+      "stars": 2,
+      "game_pk": 777825
+    },
+    {
       "player": "King, Michael",
       "player_id": 650633,
       "opponent": "NYM",
@@ -222,19 +235,6 @@
       "best_price": 120,
       "stars": 2,
       "game_pk": 776304
-    },
-    {
-      "player": "Matthews, Zebby",
-      "player_id": 805673,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 109,
-      "stars": 2,
-      "game_pk": 776298
     },
     {
       "player": "McGreevy, Michael",
@@ -261,32 +261,6 @@
       "best_price": -150,
       "stars": 2,
       "game_pk": 776295
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 118,
-      "stars": 2,
-      "game_pk": 776308
-    },
-    {
-      "player": "Smith, Shane",
-      "player_id": 681343,
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 116,
-      "stars": 2,
-      "game_pk": 776306
     },
     {
       "player": "Albies, Ozzie",
@@ -461,19 +435,6 @@
       "player": "Gilbert, Logan",
       "player_id": 669302,
       "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 776302
-    },
-    {
-      "player": "Gilbert, Logan",
-      "player_id": 669302,
-      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -482,6 +443,19 @@
       "best_price": 114,
       "stars": 1,
       "game_pk": 776302
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -128,
+      "stars": 1,
+      "game_pk": 776307
     },
     {
       "player": "Happ, Ian",
@@ -523,6 +497,19 @@
       "game_pk": 776307
     },
     {
+      "player": "Holmes, Clay",
+      "player_id": 605280,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -117,
+      "stars": 1,
+      "game_pk": 776304
+    },
+    {
       "player": "Horton, Cade",
       "player_id": 690990,
       "opponent": "PIT",
@@ -560,6 +547,19 @@
       "best_price": -204,
       "stars": 1,
       "game_pk": 776303
+    },
+    {
+      "player": "King, Michael",
+      "player_id": 650633,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 107,
+      "stars": 1,
+      "game_pk": 776304
     },
     {
       "player": "Lewis, Royce",
@@ -625,6 +625,19 @@
       "best_price": -106,
       "stars": 1,
       "game_pk": 776294
+    },
+    {
+      "player": "McGreevy, Michael",
+      "player_id": 700241,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -146,
+      "stars": 1,
+      "game_pk": 776300
     },
     {
       "player": "McLain, Matt",
@@ -744,17 +757,17 @@
       "game_pk": 776308
     },
     {
-      "player": "Schlittler, Cam",
-      "player_id": 693645,
-      "opponent": "MIN",
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "betonlineag",
-      "best_price": -108,
+      "direction": "UNDER",
+      "line": 8.5,
+      "best_book": "fanduel",
+      "best_price": 102,
       "stars": 1,
-      "game_pk": 776298
+      "game_pk": 776307
     },
     {
       "player": "Schneemann, Daniel",
@@ -781,6 +794,19 @@
       "best_price": -204,
       "stars": 1,
       "game_pk": 776305
+    },
+    {
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 118,
+      "stars": 1,
+      "game_pk": 776308
     },
     {
       "player": "Smith, Josh",
@@ -859,6 +885,19 @@
       "best_price": -222,
       "stars": 1,
       "game_pk": 776310
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanatics",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 776302
     },
     {
       "player": "Wacha, Michael",

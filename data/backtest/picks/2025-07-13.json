@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.328011+00:00",
+  "generated_at": "2026-02-13T00:00:46.539401+00:00",
   "date": "2025-07-13",
   "picks": [
     {
@@ -162,19 +162,6 @@
       "player": "Gilbert, Logan",
       "player_id": 669302,
       "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "bovada",
-      "best_price": -105,
-      "stars": 2,
-      "game_pk": 777121
-    },
-    {
-      "player": "Gilbert, Logan",
-      "player_id": 669302,
-      "opponent": "DET",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -261,19 +248,6 @@
       "best_price": -140,
       "stars": 2,
       "game_pk": 777113
-    },
-    {
-      "player": "Soriano, Jos\u00e9",
-      "player_id": 667755,
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanatics",
-      "best_price": -115,
-      "stars": 2,
-      "game_pk": 777115
     },
     {
       "player": "Springs, Jeffrey",
@@ -419,6 +393,19 @@
       "game_pk": 777129
     },
     {
+      "player": "Eovaldi, Nathan",
+      "player_id": 543135,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": 124,
+      "stars": 1,
+      "game_pk": 777125
+    },
+    {
       "player": "Espinal, Santiago",
       "player_id": 669289,
       "opponent": "COL",
@@ -456,6 +443,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777121
+    },
+    {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777118
     },
     {
       "player": "Happ, Ian",
@@ -666,6 +666,19 @@
       "game_pk": 777120
     },
     {
+      "player": "Soriano, Jos\u00e9",
+      "player_id": 667755,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777115
+    },
+    {
       "player": "Stephenson, Tyler",
       "player_id": 663886,
       "opponent": "COL",
@@ -729,19 +742,6 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777124
-    },
-    {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "betonlineag",
-      "best_price": 122,
-      "stars": 1,
-      "game_pk": 777122
     },
     {
       "player": "Wilson, Jacob",

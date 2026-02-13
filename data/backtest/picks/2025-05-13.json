@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.247055+00:00",
+  "generated_at": "2026-02-13T00:00:46.456582+00:00",
   "date": "2025-05-13",
   "picks": [
     {
@@ -55,17 +55,30 @@
       "game_pk": 777935
     },
     {
-      "player": "Brown, Ben",
-      "player_id": 676962,
-      "opponent": "MIA",
+      "player": "Bellozo, Valente",
+      "player_id": 678368,
+      "opponent": "CHC",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 104,
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -115,
       "stars": 2,
       "game_pk": 777936
+    },
+    {
+      "player": "Priester, Quinn",
+      "player_id": 682990,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 2,
+      "game_pk": 777944
     },
     {
       "player": "Priester, Quinn",
@@ -105,6 +118,19 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 777944
+    },
+    {
+      "player": "Soroka, Michael",
+      "player_id": 647336,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -128,
+      "stars": 2,
+      "game_pk": 777942
     },
     {
       "player": "Turang, Brice",
@@ -188,6 +214,19 @@
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
       "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": 126,
+      "stars": 1,
+      "game_pk": 777935
+    },
+    {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
+      "opponent": "TB",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -209,6 +248,19 @@
       "best_price": 112,
       "stars": 1,
       "game_pk": 777935
+    },
+    {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 104,
+      "stars": 1,
+      "game_pk": 777936
     },
     {
       "player": "Caratini, V\u00edctor",
@@ -274,6 +326,19 @@
       "best_price": -200,
       "stars": 1,
       "game_pk": 777944
+    },
+    {
+      "player": "Keller, Mitch",
+      "player_id": 656605,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777943
     },
     {
       "player": "Langford, Wyatt",
@@ -406,6 +471,19 @@
       "game_pk": 777945
     },
     {
+      "player": "Schwellenbach, Spencer",
+      "player_id": 680885,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 777942
+    },
+    {
       "player": "Semien, Marcus",
       "player_id": 543760,
       "opponent": "COL",
@@ -430,19 +508,6 @@
       "best_price": -230,
       "stars": 1,
       "game_pk": 777935
-    },
-    {
-      "player": "Soroka, Michael",
-      "player_id": 647336,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "betonlineag",
-      "best_price": -128,
-      "stars": 1,
-      "game_pk": 777942
     },
     {
       "player": "Steer, Spencer",

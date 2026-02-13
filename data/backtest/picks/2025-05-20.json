@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.255807+00:00",
+  "generated_at": "2026-02-13T00:00:46.465804+00:00",
   "date": "2025-05-20",
   "picks": [
     {
@@ -237,6 +237,19 @@
       "game_pk": 777846
     },
     {
+      "player": "Taillon, Jameson",
+      "player_id": 592791,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -175,
+      "stars": 2,
+      "game_pk": 777850
+    },
+    {
       "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "ATL",
@@ -315,6 +328,19 @@
       "game_pk": 777842
     },
     {
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 777845
+    },
+    {
       "player": "Chourio, Jackson",
       "player_id": 694192,
       "opponent": "BAL",
@@ -326,6 +352,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777844
+    },
+    {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777849
     },
     {
       "player": "Corbin, Patrick",
@@ -350,6 +389,19 @@
       "line": 0.5,
       "best_book": "bovada",
       "best_price": 170,
+      "stars": 1,
+      "game_pk": 777847
+    },
+    {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 138,
       "stars": 1,
       "game_pk": 777847
     },
@@ -409,6 +461,19 @@
       "player": "Holmes, Clay",
       "player_id": 605280,
       "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 777851
+    },
+    {
+      "player": "Holmes, Clay",
+      "player_id": 605280,
+      "opponent": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -417,19 +482,6 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 777851
-    },
-    {
-      "player": "Littell, Zack",
-      "player_id": 641793,
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -126,
-      "stars": 1,
-      "game_pk": 777848
     },
     {
       "player": "Marte, Ketel",
@@ -495,6 +547,19 @@
       "best_price": -173,
       "stars": 1,
       "game_pk": 777851
+    },
+    {
+      "player": "Parker, Mitchell",
+      "player_id": 680730,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777841
     },
     {
       "player": "Rengifo, Luis",
@@ -578,19 +643,6 @@
       "player": "Skubal, Tarik",
       "player_id": 669373,
       "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "draftkings",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777840
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "STL",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -612,6 +664,19 @@
       "best_price": -165,
       "stars": 1,
       "game_pk": 777851
+    },
+    {
+      "player": "Strider, Spencer",
+      "player_id": 675911,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 777841
     },
     {
       "player": "Strider, Spencer",
@@ -729,6 +794,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777848
+    },
+    {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777849
     },
     {
       "player": "Wood, James",

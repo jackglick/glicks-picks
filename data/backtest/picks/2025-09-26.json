@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.439818+00:00",
+  "generated_at": "2026-02-13T00:00:46.650666+00:00",
   "date": "2025-09-26",
   "picks": [
     {
@@ -305,6 +305,19 @@
       "player": "Houser, Adrian",
       "player_id": 605288,
       "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -163,
+      "stars": 1,
+      "game_pk": 776177
+    },
+    {
+      "player": "Houser, Adrian",
+      "player_id": 605288,
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -378,6 +391,19 @@
       "best_price": 156,
       "stars": 1,
       "game_pk": 776167
+    },
+    {
+      "player": "Mize, Casey",
+      "player_id": 663554,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 776181
     },
     {
       "player": "Moore, Christian",
@@ -523,6 +549,19 @@
       "game_pk": 776180
     },
     {
+      "player": "Rogers, Trevor",
+      "player_id": 669432,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776174
+    },
+    {
       "player": "Rutschman, Adley",
       "player_id": 668939,
       "opponent": "BAL",
@@ -534,6 +573,19 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 776174
+    },
+    {
+      "player": "Ryan, Joe",
+      "player_id": 657746,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776176
     },
     {
       "player": "Santander, Anthony",
@@ -638,6 +690,19 @@
       "best_price": 151,
       "stars": 1,
       "game_pk": 776169
+    },
+    {
+      "player": "Wentz, Joey",
+      "player_id": 666214,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -128,
+      "stars": 1,
+      "game_pk": 776180
     },
     {
       "player": "Wood, James",

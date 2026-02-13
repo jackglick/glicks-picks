@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.392018+00:00",
+  "generated_at": "2026-02-13T00:00:46.602216+00:00",
   "date": "2025-08-23",
   "picks": [
     {
@@ -380,19 +380,6 @@
       "game_pk": 776632
     },
     {
-      "player": "Webb, Logan",
-      "player_id": 657277,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 110,
-      "stars": 2,
-      "game_pk": 776621
-    },
-    {
       "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "NYM",
@@ -586,6 +573,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 776622
+    },
+    {
+      "player": "Javier, Cristian",
+      "player_id": 664299,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776629
     },
     {
       "player": "Johnson, Bryce",
@@ -807,6 +807,19 @@
       "best_price": -179,
       "stars": 1,
       "game_pk": 776628
+    },
+    {
+      "player": "Webb, Logan",
+      "player_id": 657277,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776621
     },
     {
       "player": "Wilson, Weston",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.409128+00:00",
+  "generated_at": "2026-02-13T00:00:46.619787+00:00",
   "date": "2025-09-05",
   "picks": [
     {
@@ -53,6 +53,19 @@
       "best_price": -312,
       "stars": 2,
       "game_pk": 776446
+    },
+    {
+      "player": "Gilbert, Logan",
+      "player_id": 669302,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 776460
     },
     {
       "player": "Hoerner, Nico",
@@ -250,19 +263,6 @@
       "game_pk": 776446
     },
     {
-      "player": "Gilbert, Logan",
-      "player_id": 669302,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 776460
-    },
-    {
       "player": "Happ, Ian",
       "player_id": 664023,
       "opponent": "WSH",
@@ -315,6 +315,19 @@
       "game_pk": 776455
     },
     {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -146,
+      "stars": 1,
+      "game_pk": 776455
+    },
+    {
       "player": "Keith, Colt",
       "player_id": 690993,
       "opponent": "CWS",
@@ -326,6 +339,19 @@
       "best_price": -208,
       "stars": 1,
       "game_pk": 776452
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776454
     },
     {
       "player": "Lindor, Francisco",
@@ -445,6 +471,19 @@
       "game_pk": 776460
     },
     {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 7.5,
+      "best_book": "betonlineag",
+      "best_price": -147,
+      "stars": 1,
+      "game_pk": 776460
+    },
+    {
       "player": "Shaw, Matt",
       "player_id": 807713,
       "opponent": "WSH",
@@ -484,17 +523,17 @@
       "game_pk": 776455
     },
     {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "MIA",
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "MIN",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanatics",
-      "best_price": 115,
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -132,
       "stars": 1,
-      "game_pk": 776456
+      "game_pk": 776446
     },
     {
       "player": "Wood, James",

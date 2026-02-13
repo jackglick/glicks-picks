@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.188126+00:00",
+  "generated_at": "2026-02-13T00:00:46.394761+00:00",
   "date": "2025-04-04",
   "picks": [
     {
@@ -16,6 +16,19 @@
       "game_pk": 778458
     },
     {
+      "player": "Pfaadt, Brandon",
+      "player_id": 694297,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -122,
+      "stars": 3,
+      "game_pk": 778457
+    },
+    {
       "player": "Yamamoto, Yoshinobu",
       "player_id": 808967,
       "opponent": "PHI",
@@ -27,6 +40,19 @@
       "best_price": -120,
       "stars": 3,
       "game_pk": 778459
+    },
+    {
+      "player": "Clement, Ernie",
+      "player_id": 676391,
+      "opponent": "TOR",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "fanatics",
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 778465
     },
     {
       "player": "Gausman, Kevin",
@@ -42,17 +68,17 @@
       "game_pk": 778465
     },
     {
-      "player": "Pfaadt, Brandon",
-      "player_id": 694297,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -122,
+      "player": "Siri, Jos\u00e9",
+      "player_id": 642350,
+      "opponent": "TOR",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "bovada",
+      "best_price": 120,
       "stars": 2,
-      "game_pk": 778457
+      "game_pk": 778465
     },
     {
       "player": "Yamamoto, Yoshinobu",
@@ -79,6 +105,84 @@
       "best_price": 120,
       "stars": 2,
       "game_pk": 778459
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -260,
+      "stars": 1,
+      "game_pk": 778465
+    },
+    {
+      "player": "Buehler, Walker",
+      "player_id": 621111,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -175,
+      "stars": 1,
+      "game_pk": 778463
+    },
+    {
+      "player": "Cannon, Jonathan",
+      "player_id": 686563,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 778458
+    },
+    {
+      "player": "Devers, Rafael",
+      "player_id": 646240,
+      "opponent": "STL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "bovada",
+      "best_price": 155,
+      "stars": 1,
+      "game_pk": 778463
+    },
+    {
+      "player": "D\u00edaz, El\u00edas",
+      "player_id": 553869,
+      "opponent": "SD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778460
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "fanatics",
+      "best_price": -245,
+      "stars": 1,
+      "game_pk": 778464
     },
     {
       "player": "Fedde, Erick",
@@ -94,6 +198,32 @@
       "game_pk": 778463
     },
     {
+      "player": "Frazier, Adam",
+      "player_id": 624428,
+      "opponent": "NYY",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "bovada",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 778461
+    },
+    {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 778465
+    },
+    {
       "player": "Gausman, Kevin",
       "player_id": 592332,
       "opponent": "NYM",
@@ -105,6 +235,32 @@
       "best_price": -160,
       "stars": 1,
       "game_pk": 778465
+    },
+    {
+      "player": "Imanaga, Shota",
+      "player_id": 684007,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 778460
+    },
+    {
+      "player": "Judge, Aaron",
+      "player_id": 592450,
+      "opponent": "NYY",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "fanatics",
+      "best_price": 190,
+      "stars": 1,
+      "game_pk": 778461
     },
     {
       "player": "Lugo, Seth",
@@ -120,6 +276,97 @@
       "game_pk": 778455
     },
     {
+      "player": "Luzardo, Jes\u00fas",
+      "player_id": 666200,
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778459
+    },
+    {
+      "player": "Marsh, Brandon",
+      "player_id": 669016,
+      "opponent": "LAD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "fanatics",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 778459
+    },
+    {
+      "player": "Melendez, MJ",
+      "player_id": 669004,
+      "opponent": "BAL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778455
+    },
+    {
+      "player": "Muncy, Max",
+      "player_id": 571970,
+      "opponent": "LAD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "bovada",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778459
+    },
+    {
+      "player": "Pauley, Graham",
+      "player_id": 688363,
+      "opponent": "MIA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "fanatics",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778464
+    },
+    {
+      "player": "Perdomo, Geraldo",
+      "player_id": 672695,
+      "opponent": "AZ",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "fanatics",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 778457
+    },
+    {
+      "player": "Schwarber, Kyle",
+      "player_id": 656941,
+      "opponent": "LAD",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "bovada",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 778459
+    },
+    {
       "player": "Schwellenbach, Spencer",
       "player_id": 680885,
       "opponent": "MIA",
@@ -131,6 +378,71 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 778464
+    },
+    {
+      "player": "Thaiss, Matt",
+      "player_id": 642136,
+      "opponent": "CWS",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "fanatics",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 778458
+    },
+    {
+      "player": "Torkelson, Spencer",
+      "player_id": 679529,
+      "opponent": "CWS",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 0.5,
+      "best_book": "fanatics",
+      "best_price": 155,
+      "stars": 1,
+      "game_pk": 778458
+    },
+    {
+      "player": "Vargas, Miguel",
+      "player_id": 678246,
+      "opponent": "CWS",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "OVER",
+      "line": 0.5,
+      "best_book": "bovada",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778458
+    },
+    {
+      "player": "Verlander, Justin",
+      "player_id": 434378,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -122,
+      "stars": 1,
+      "game_pk": 778444
+    },
+    {
+      "player": "V\u00e1squez, Randy",
+      "player_id": 681190,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanatics",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 778460
     },
     {
       "player": "V\u00e1squez, Randy",

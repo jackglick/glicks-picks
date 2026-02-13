@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.308014+00:00",
+  "generated_at": "2026-02-13T00:00:46.519042+00:00",
   "date": "2025-06-28",
   "picks": [
     {
@@ -79,19 +79,6 @@
       "best_price": 125,
       "stars": 3,
       "game_pk": 777315
-    },
-    {
-      "player": "Ohtani, Shohei",
-      "player_id": 660271,
-      "opponent": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 3,
-      "game_pk": 777319
     },
     {
       "player": "Pfaadt, Brandon",
@@ -302,19 +289,6 @@
       "game_pk": 777322
     },
     {
-      "player": "Abbott, Andrew",
-      "player_id": 671096,
-      "opponent": "SD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "bovada",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 777328
-    },
-    {
       "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "PHI",
@@ -328,6 +302,32 @@
       "game_pk": 777333
     },
     {
+      "player": "Alcantara, Sandy",
+      "player_id": 645261,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777318
+    },
+    {
+      "player": "Bassitt, Chris",
+      "player_id": 605135,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 777323
+    },
+    {
       "player": "Bichette, Bo",
       "player_id": 666182,
       "opponent": "TOR",
@@ -339,6 +339,19 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 777323
+    },
+    {
+      "player": "Blackburn, Paul",
+      "player_id": 621112,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777325
     },
     {
       "player": "Caratini, V\u00edctor",
@@ -365,6 +378,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777324
+    },
+    {
+      "player": "Cecconi, Slade",
+      "player_id": 677944,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 138,
+      "stars": 1,
+      "game_pk": 777329
     },
     {
       "player": "Chourio, Jackson",
@@ -456,6 +482,19 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 777319
+    },
+    {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 777325
     },
     {
       "player": "Frelick, Sal",
@@ -627,6 +666,19 @@
       "game_pk": 777328
     },
     {
+      "player": "Mikolas, Miles",
+      "player_id": 571945,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777329
+    },
+    {
       "player": "Muncy, Max",
       "player_id": 691777,
       "opponent": "ATH",
@@ -662,6 +714,19 @@
       "line": 1.5,
       "best_book": "betonlineag",
       "best_price": -179,
+      "stars": 1,
+      "game_pk": 777318
+    },
+    {
+      "player": "Pfaadt, Brandon",
+      "player_id": 694297,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 110,
       "stars": 1,
       "game_pk": 777318
     },
@@ -744,19 +809,6 @@
       "game_pk": 777322
     },
     {
-      "player": "Schmidt, Clarke",
-      "player_id": 657376,
-      "opponent": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777326
-    },
-    {
       "player": "Schwellenbach, Spencer",
       "player_id": 680885,
       "opponent": "PHI",
@@ -768,6 +820,19 @@
       "best_price": -135,
       "stars": 1,
       "game_pk": 777333
+    },
+    {
+      "player": "Sears, JP",
+      "player_id": 676664,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777326
     },
     {
       "player": "Slater, Austin",

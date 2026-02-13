@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.429304+00:00",
+  "generated_at": "2026-02-13T00:00:46.640326+00:00",
   "date": "2025-09-19",
   "picks": [
     {
@@ -188,6 +188,19 @@
       "player": "Cease, Dylan",
       "player_id": 656302,
       "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "betmgm",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 776264
+    },
+    {
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -287,6 +300,19 @@
       "best_price": -233,
       "stars": 1,
       "game_pk": 776261
+    },
+    {
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 1,
+      "game_pk": 776268
     },
     {
       "player": "O'Hearn, Ryan",

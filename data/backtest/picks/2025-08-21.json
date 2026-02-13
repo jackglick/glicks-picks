@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.388986+00:00",
+  "generated_at": "2026-02-13T00:00:46.599206+00:00",
   "date": "2025-08-21",
   "picks": [
     {
@@ -146,6 +146,19 @@
       "game_pk": 776644
     },
     {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 776650
+    },
+    {
       "player": "Mangum, Jake",
       "player_id": 663968,
       "opponent": "STL",
@@ -266,6 +279,19 @@
       "player": "Dollander, Chase",
       "player_id": 801403,
       "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betrivers",
+      "best_price": -114,
+      "stars": 1,
+      "game_pk": 776644
+    },
+    {
+      "player": "Dollander, Chase",
+      "player_id": 801403,
+      "opponent": "LAD",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -354,17 +380,17 @@
       "game_pk": 776644
     },
     {
-      "player": "Gore, MacKenzie",
-      "player_id": 669022,
-      "opponent": "NYM",
+      "player": "Giolito, Lucas",
+      "player_id": 608337,
+      "opponent": "NYY",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
       "best_book": "draftkings",
-      "best_price": 110,
+      "best_price": -135,
       "stars": 1,
-      "game_pk": 776650
+      "game_pk": 776654
     },
     {
       "player": "Gore, MacKenzie",
@@ -430,19 +456,6 @@
       "best_price": -200,
       "stars": 1,
       "game_pk": 776657
-    },
-    {
-      "player": "Kershaw, Clayton",
-      "player_id": 477132,
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanatics",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 776644
     },
     {
       "player": "Kurtz, Nick",
@@ -586,6 +599,45 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 776644
+    },
+    {
+      "player": "Ure\u00f1a, Jos\u00e9",
+      "player_id": 570632,
+      "opponent": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 776653
+    },
+    {
+      "player": "Verlander, Justin",
+      "player_id": 434378,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 776642
+    },
+    {
+      "player": "Young, Brandon",
+      "player_id": 687064,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 776655
     }
   ]
 }

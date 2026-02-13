@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.195472+00:00",
+  "generated_at": "2026-02-13T00:00:46.402802+00:00",
   "date": "2025-04-07",
   "picks": [
     {
@@ -471,6 +471,19 @@
       "game_pk": 778416
     },
     {
+      "player": "Lorenzen, Michael",
+      "player_id": 547179,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 778412
+    },
+    {
       "player": "Massey, Michael",
       "player_id": 686681,
       "opponent": "MIN",
@@ -482,19 +495,6 @@
       "best_price": -190,
       "stars": 2,
       "game_pk": 778412
-    },
-    {
-      "player": "May, Dustin",
-      "player_id": 669160,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "williamhill_us",
-      "best_price": 112,
-      "stars": 2,
-      "game_pk": 778418
     },
     {
       "player": "May, Dustin",
@@ -677,6 +677,19 @@
       "best_price": -180,
       "stars": 2,
       "game_pk": 778424
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanatics",
+      "best_price": -105,
+      "stars": 2,
+      "game_pk": 778412
     },
     {
       "player": "Woods Richardson, Simeon",
@@ -1215,6 +1228,19 @@
       "player": "Liberatore, Matthew",
       "player_id": 669461,
       "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 778415
+    },
+    {
+      "player": "Liberatore, Matthew",
+      "player_id": 669461,
+      "opponent": "PIT",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1236,19 +1262,6 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 778416
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "player_id": 547179,
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 778412
     },
     {
       "player": "Lorenzen, Michael",
@@ -1306,6 +1319,19 @@
       "player": "May, Dustin",
       "player_id": 669160,
       "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "williamhill_us",
+      "best_price": 112,
+      "stars": 1,
+      "game_pk": 778418
+    },
+    {
+      "player": "May, Dustin",
+      "player_id": 669160,
+      "opponent": "WSH",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1351,6 +1377,19 @@
       "line": 0.5,
       "best_book": "betonlineag",
       "best_price": 156,
+      "stars": 1,
+      "game_pk": 778424
+    },
+    {
+      "player": "Mize, Casey",
+      "player_id": 663554,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 100,
       "stars": 1,
       "game_pk": 778424
     },

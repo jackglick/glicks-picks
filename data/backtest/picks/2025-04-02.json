@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.184747+00:00",
+  "generated_at": "2026-02-13T00:00:46.390983+00:00",
   "date": "2025-04-02",
   "picks": [
     {
@@ -53,6 +53,19 @@
       "best_price": 115,
       "stars": 3,
       "game_pk": 778474
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "bovada",
+      "best_price": -135,
+      "stars": 3,
+      "game_pk": 778483
     },
     {
       "player": "Edwards, Xavier",
@@ -211,19 +224,6 @@
       "game_pk": 778478
     },
     {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "bovada",
-      "best_price": -135,
-      "stars": 2,
-      "game_pk": 778483
-    },
-    {
       "player": "Freeland, Kyle",
       "player_id": 607536,
       "opponent": "PHI",
@@ -263,6 +263,32 @@
       "game_pk": 778481
     },
     {
+      "player": "Lively, Ben",
+      "player_id": 594902,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -156,
+      "stars": 2,
+      "game_pk": 778476
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 778479
+    },
+    {
       "player": "Pepiot, Ryan",
       "player_id": 686752,
       "opponent": "PIT",
@@ -287,19 +313,6 @@
       "best_price": 205,
       "stars": 2,
       "game_pk": 778469
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "williamhill_us",
-      "best_price": -109,
-      "stars": 2,
-      "game_pk": 778479
     },
     {
       "player": "Alonso, Pete",
@@ -365,19 +378,6 @@
       "best_price": 115,
       "stars": 1,
       "game_pk": 778469
-    },
-    {
-      "player": "Cease, Dylan",
-      "player_id": 656302,
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 778476
     },
     {
       "player": "Chourio, Jackson",
@@ -526,6 +526,19 @@
       "player": "Gore, MacKenzie",
       "player_id": 669022,
       "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "williamhill_us",
+      "best_price": -121,
+      "stars": 1,
+      "game_pk": 778478
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -573,6 +586,19 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 778484
+    },
+    {
+      "player": "Leiter, Jack",
+      "player_id": 683004,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778480
     },
     {
       "player": "Leiter, Jack",
@@ -822,6 +848,19 @@
       "game_pk": 778471
     },
     {
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "williamhill_us",
+      "best_price": -109,
+      "stars": 1,
+      "game_pk": 778479
+    },
+    {
       "player": "Soto, Juan",
       "player_id": 665742,
       "opponent": "NYM",
@@ -846,6 +885,19 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 778481
+    },
+    {
+      "player": "Springs, Jeffrey",
+      "player_id": 605488,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -142,
+      "stars": 1,
+      "game_pk": 778471
     },
     {
       "player": "Tat\u00eds, Fernando",
@@ -887,6 +939,19 @@
       "game_pk": 778482
     },
     {
+      "player": "Valdez, Framber",
+      "player_id": 664285,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 778475
+    },
+    {
       "player": "Vientos, Mark",
       "player_id": 668901,
       "opponent": "NYM",
@@ -898,6 +963,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 778481
+    },
+    {
+      "player": "Wheeler, Zack",
+      "player_id": 554430,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 8.5,
+      "best_book": "fanduel",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 778482
     },
     {
       "player": "Wheeler, Zack",

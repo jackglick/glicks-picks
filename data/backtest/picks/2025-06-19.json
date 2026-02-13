@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.296175+00:00",
+  "generated_at": "2026-02-13T00:00:46.506632+00:00",
   "date": "2025-06-19",
   "picks": [
     {
@@ -302,6 +302,19 @@
       "game_pk": 777447
     },
     {
+      "player": "Nelson, Ryne",
+      "player_id": 669194,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanatics",
+      "best_price": 100,
+      "stars": 2,
+      "game_pk": 777448
+    },
+    {
       "player": "Seager, Corey",
       "player_id": 608369,
       "opponent": "KC",
@@ -313,6 +326,19 @@
       "best_price": 185,
       "stars": 2,
       "game_pk": 777443
+    },
+    {
+      "player": "Strider, Spencer",
+      "player_id": 675911,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "fanduel",
+      "best_price": -154,
+      "stars": 2,
+      "game_pk": 777455
     },
     {
       "player": "Triolo, Jared",
@@ -404,6 +430,19 @@
       "best_price": -192,
       "stars": 1,
       "game_pk": 777441
+    },
+    {
+      "player": "Dollander, Chase",
+      "player_id": 801403,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 777445
     },
     {
       "player": "Doyle, Brenton",
@@ -562,19 +601,6 @@
       "game_pk": 777448
     },
     {
-      "player": "Paddack, Chris",
-      "player_id": 663978,
-      "opponent": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanatics",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 777452
-    },
-    {
       "player": "Pe\u00f1a, Jeremy",
       "player_id": 665161,
       "opponent": "HOU",
@@ -703,6 +729,19 @@
       "best_price": -160,
       "stars": 1,
       "game_pk": 777450
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 777443
     },
     {
       "player": "Williams, Gavin",

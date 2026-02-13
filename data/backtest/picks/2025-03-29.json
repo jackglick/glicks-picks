@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.179141+00:00",
+  "generated_at": "2026-02-13T00:00:46.385117+00:00",
   "date": "2025-03-29",
   "picks": [
     {
@@ -146,6 +146,19 @@
       "game_pk": 778539
     },
     {
+      "player": "Senzatela, Antonio",
+      "player_id": 622608,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 778537
+    },
+    {
       "player": "Soto, Juan",
       "player_id": 665742,
       "opponent": "NYM",
@@ -157,6 +170,19 @@
       "best_price": -170,
       "stars": 2,
       "game_pk": 778530
+    },
+    {
+      "player": "Verlander, Justin",
+      "player_id": 434378,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 2,
+      "game_pk": 778540
     },
     {
       "player": "Vientos, Mark",
@@ -445,6 +471,19 @@
       "game_pk": 778539
     },
     {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betmgm",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 778528
+    },
+    {
       "player": "Freeman, Freddie",
       "player_id": 518692,
       "opponent": "DET",
@@ -456,6 +495,19 @@
       "best_price": 170,
       "stars": 1,
       "game_pk": 778533
+    },
+    {
+      "player": "Fried, Max",
+      "player_id": 608331,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 778538
     },
     {
       "player": "Goldschmidt, Paul",
@@ -731,6 +783,19 @@
       "game_pk": 778536
     },
     {
+      "player": "Scherzer, Max",
+      "player_id": 453286,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.0,
+      "best_book": "fanatics",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 778536
+    },
+    {
       "player": "Seager, Corey",
       "player_id": 608369,
       "opponent": "BOS",
@@ -755,6 +820,19 @@
       "best_price": -245,
       "stars": 1,
       "game_pk": 778531
+    },
+    {
+      "player": "Soriano, Jos\u00e9",
+      "player_id": 667755,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 778534
     },
     {
       "player": "Tat\u00eds, Fernando",
@@ -794,6 +872,19 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 778538
+    },
+    {
+      "player": "V\u00e1squez, Randy",
+      "player_id": 681190,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 778520
     }
   ]
 }

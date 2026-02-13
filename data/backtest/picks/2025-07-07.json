@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.318971+00:00",
+  "generated_at": "2026-02-13T00:00:46.530178+00:00",
   "date": "2025-07-07",
   "picks": [
     {
@@ -175,6 +175,19 @@
       "player": "Heaney, Andrew",
       "player_id": 571760,
       "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777204
+    },
+    {
+      "player": "Heaney, Andrew",
+      "player_id": 571760,
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -183,6 +196,19 @@
       "best_price": -106,
       "stars": 1,
       "game_pk": 777204
+    },
+    {
+      "player": "Junk, Janson",
+      "player_id": 676083,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -156,
+      "stars": 1,
+      "game_pk": 777208
     },
     {
       "player": "Lukes, Nathan",

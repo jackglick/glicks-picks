@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.250445+00:00",
+  "generated_at": "2026-02-13T00:00:46.460144+00:00",
   "date": "2025-05-16",
   "picks": [
     {
@@ -68,6 +68,19 @@
       "game_pk": 777902
     },
     {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 777903
+    },
+    {
       "player": "Flaherty, Jack",
       "player_id": 656427,
       "opponent": "TOR",
@@ -131,19 +144,6 @@
       "best_price": -120,
       "stars": 2,
       "game_pk": 777907
-    },
-    {
-      "player": "Ragans, Cole",
-      "player_id": 666142,
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 777901
     },
     {
       "player": "Ragans, Cole",
@@ -253,6 +253,19 @@
       "player": "Bibee, Tanner",
       "player_id": 676440,
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777902
+    },
+    {
+      "player": "Bibee, Tanner",
+      "player_id": 676440,
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -315,6 +328,19 @@
       "game_pk": 777902
     },
     {
+      "player": "Francis, Bowden",
+      "player_id": 670102,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -133,
+      "stars": 1,
+      "game_pk": 777906
+    },
+    {
       "player": "Heaney, Andrew",
       "player_id": 571760,
       "opponent": "PHI",
@@ -357,6 +383,19 @@
       "player": "Pallante, Andre",
       "player_id": 669467,
       "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "betonlineag",
+      "best_price": 121,
+      "stars": 1,
+      "game_pk": 777901
+    },
+    {
+      "player": "Pallante, Andre",
+      "player_id": 669467,
+      "opponent": "KC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -380,6 +419,19 @@
       "game_pk": 777901
     },
     {
+      "player": "Povich, Cade",
+      "player_id": 700249,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.0,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777907
+    },
+    {
       "player": "P\u00e9rez, Salvador",
       "player_id": 521692,
       "opponent": "STL",
@@ -389,6 +441,19 @@
       "line": 1.5,
       "best_book": "betonlineag",
       "best_price": -238,
+      "stars": 1,
+      "game_pk": 777901
+    },
+    {
+      "player": "Ragans, Cole",
+      "player_id": 666142,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": 120,
       "stars": 1,
       "game_pk": 777901
     },
@@ -419,6 +484,32 @@
       "game_pk": 777902
     },
     {
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 777902
+    },
+    {
+      "player": "Smith, Shane",
+      "player_id": 681343,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -154,
+      "stars": 1,
+      "game_pk": 777900
+    },
+    {
       "player": "Stephenson, Tyler",
       "player_id": 663886,
       "opponent": "CLE",
@@ -430,6 +521,19 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 777902
+    },
+    {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": -116,
+      "stars": 1,
+      "game_pk": 777905
     }
   ]
 }

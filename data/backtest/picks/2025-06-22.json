@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.300986+00:00",
+  "generated_at": "2026-02-13T00:00:46.511656+00:00",
   "date": "2025-06-22",
   "picks": [
     {
@@ -92,19 +92,6 @@
       "best_price": -260,
       "stars": 3,
       "game_pk": 777403
-    },
-    {
-      "player": "Hendricks, Kyle",
-      "player_id": 543294,
-      "opponent": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 3,
-      "game_pk": 777397
     },
     {
       "player": "Hendricks, Kyle",
@@ -209,19 +196,6 @@
       "best_price": -110,
       "stars": 3,
       "game_pk": 777408
-    },
-    {
-      "player": "Ohtani, Shohei",
-      "player_id": 660271,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "bovada",
-      "best_price": 135,
-      "stars": 3,
-      "game_pk": 777398
     },
     {
       "player": "Perdomo, Geraldo",
@@ -370,19 +344,6 @@
       "player": "Gilbert, Logan",
       "player_id": 669302,
       "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "bovada",
-      "best_price": -130,
-      "stars": 2,
-      "game_pk": 777403
-    },
-    {
-      "player": "Gilbert, Logan",
-      "player_id": 669302,
-      "opponent": "CHC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -391,6 +352,19 @@
       "best_price": -150,
       "stars": 2,
       "game_pk": 777403
+    },
+    {
+      "player": "Giolito, Lucas",
+      "player_id": 608337,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -118,
+      "stars": 2,
+      "game_pk": 777395
     },
     {
       "player": "Grichuk, Randal",
@@ -487,19 +461,6 @@
       "player": "Peterson, David",
       "player_id": 656849,
       "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -114,
-      "stars": 2,
-      "game_pk": 777405
-    },
-    {
-      "player": "Peterson, David",
-      "player_id": 656849,
-      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -508,6 +469,19 @@
       "best_price": 128,
       "stars": 2,
       "game_pk": 777405
+    },
+    {
+      "player": "Pfaadt, Brandon",
+      "player_id": 694297,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 2,
+      "game_pk": 777399
     },
     {
       "player": "Polanco, Jorge",
@@ -562,19 +536,6 @@
       "game_pk": 777403
     },
     {
-      "player": "Senzatela, Antonio",
-      "player_id": 622608,
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "fanduel",
-      "best_price": 142,
-      "stars": 2,
-      "game_pk": 777399
-    },
-    {
       "player": "Tawa, Tim",
       "player_id": 694374,
       "opponent": "AZ",
@@ -614,6 +575,19 @@
       "game_pk": 777397
     },
     {
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777407
+    },
+    {
       "player": "Acu\u00f1a, Ronald",
       "player_id": 660670,
       "opponent": "ATL",
@@ -649,6 +623,19 @@
       "line": 1.0,
       "best_book": "bovada",
       "best_price": 150,
+      "stars": 1,
+      "game_pk": 777402
+    },
+    {
+      "player": "Alcantara, Sandy",
+      "player_id": 645261,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -104,
       "stars": 1,
       "game_pk": 777402
     },
@@ -744,6 +731,19 @@
       "game_pk": 777402
     },
     {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 777404
+    },
+    {
       "player": "Freeman, Tyler",
       "player_id": 671289,
       "opponent": "AZ",
@@ -809,17 +809,17 @@
       "game_pk": 777408
     },
     {
-      "player": "Giolito, Lucas",
-      "player_id": 608337,
-      "opponent": "SF",
+      "player": "Gusto, Ryan",
+      "player_id": 687473,
+      "opponent": "LAA",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -118,
+      "best_book": "draftkings",
+      "best_price": -140,
       "stars": 1,
-      "game_pk": 777395
+      "game_pk": 777397
     },
     {
       "player": "Haggerty, Sam",
@@ -1007,6 +1007,19 @@
       "player": "Mikolas, Miles",
       "player_id": 571945,
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777407
+    },
+    {
+      "player": "Mikolas, Miles",
+      "player_id": 571945,
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1041,6 +1054,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777402
+    },
+    {
+      "player": "Ohtani, Shohei",
+      "player_id": 660271,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": "bovada",
+      "best_price": 135,
+      "stars": 1,
+      "game_pk": 777398
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",

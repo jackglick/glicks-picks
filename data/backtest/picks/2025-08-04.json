@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.356359+00:00",
+  "generated_at": "2026-02-13T00:00:46.568388+00:00",
   "date": "2025-08-04",
   "picks": [
     {
@@ -393,6 +393,32 @@
       "game_pk": 776875
     },
     {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 776880
+    },
+    {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776882
+    },
+    {
       "player": "Lindor, Francisco",
       "player_id": 596019,
       "opponent": "CLE",
@@ -443,6 +469,19 @@
       "best_price": -189,
       "stars": 1,
       "game_pk": 776877
+    },
+    {
+      "player": "Oviedo, Johan",
+      "player_id": 670912,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 776879
     },
     {
       "player": "Ramos, Heliot",
@@ -534,6 +573,19 @@
       "best_price": -330,
       "stars": 1,
       "game_pk": 776882
+    },
+    {
+      "player": "Verlander, Justin",
+      "player_id": 434378,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 776879
     },
     {
       "player": "Wong, Connor",

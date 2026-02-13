@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.334522+00:00",
+  "generated_at": "2026-02-13T00:00:46.545826+00:00",
   "date": "2025-07-21",
   "picks": [
     {
@@ -370,6 +370,19 @@
       "player": "Buehler, Walker",
       "player_id": 621111,
       "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -161,
+      "stars": 1,
+      "game_pk": 777063
+    },
+    {
+      "player": "Buehler, Walker",
+      "player_id": 621111,
+      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -601,6 +614,19 @@
       "game_pk": 777062
     },
     {
+      "player": "P\u00e9rez, Eury",
+      "player_id": 691587,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777062
+    },
+    {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "DET",
@@ -625,19 +651,6 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 777060
-    },
-    {
-      "player": "Senga, Kodai",
-      "player_id": 673540,
-      "opponent": "LAA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "fanatics",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 777061
     },
     {
       "player": "Senga, Kodai",
@@ -703,6 +716,19 @@
       "best_price": -263,
       "stars": 1,
       "game_pk": 777063
+    },
+    {
+      "player": "Sugano, Tomoyuki",
+      "player_id": 608372,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -154,
+      "stars": 1,
+      "game_pk": 777068
     },
     {
       "player": "Teel, Kyle",

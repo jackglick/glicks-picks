@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.180597+00:00",
+  "generated_at": "2026-02-13T00:00:46.386666+00:00",
   "date": "2025-03-30",
   "picks": [
     {
@@ -354,6 +354,19 @@
       "game_pk": 778523
     },
     {
+      "player": "Kochanowicz, Jack",
+      "player_id": 686799,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": "betonlineag",
+      "best_price": -175,
+      "stars": 1,
+      "game_pk": 778527
+    },
+    {
       "player": "Lopez, Otto",
       "player_id": 672640,
       "opponent": "PIT",
@@ -456,6 +469,19 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 778527
+    },
+    {
+      "player": "Nola, Aaron",
+      "player_id": 605400,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778526
     },
     {
       "player": "Nola, Aaron",
@@ -588,6 +614,19 @@
       "game_pk": 778513
     },
     {
+      "player": "Rodriguez, Eduardo",
+      "player_id": 593958,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778515
+    },
+    {
       "player": "Rodr\u00edguez, Julio",
       "player_id": 677594,
       "opponent": "ATH",
@@ -599,6 +638,32 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 778513
+    },
+    {
+      "player": "Sears, JP",
+      "player_id": 676664,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 778513
+    },
+    {
+      "player": "Smith-Shawver, AJ",
+      "player_id": 700363,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 778514
     },
     {
       "player": "Sosa, Lenyn",

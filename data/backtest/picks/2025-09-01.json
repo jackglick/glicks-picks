@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.404165+00:00",
+  "generated_at": "2026-02-13T00:00:46.614811+00:00",
   "date": "2025-09-01",
   "picks": [
     {
@@ -81,6 +81,19 @@
       "game_pk": 776505
     },
     {
+      "player": "Castillo, Luis",
+      "player_id": 622491,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 2,
+      "game_pk": 776504
+    },
+    {
       "player": "Collins, Isaac",
       "player_id": 686555,
       "opponent": "PHI",
@@ -133,6 +146,19 @@
       "game_pk": 776505
     },
     {
+      "player": "Strider, Spencer",
+      "player_id": 675911,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 2,
+      "game_pk": 776506
+    },
+    {
       "player": "Trout, Mike",
       "player_id": 545361,
       "opponent": "LAA",
@@ -144,19 +170,6 @@
       "best_price": 145,
       "stars": 2,
       "game_pk": 776499
-    },
-    {
-      "player": "Walker, Taijuan",
-      "player_id": 592836,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "fanatics",
-      "best_price": -150,
-      "stars": 2,
-      "game_pk": 776500
     },
     {
       "player": "\u00c1lvarez, Yordan",
@@ -214,19 +227,6 @@
       "player": "Castillo, Luis",
       "player_id": 622491,
       "opponent": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 776504
-    },
-    {
-      "player": "Castillo, Luis",
-      "player_id": 622491,
-      "opponent": "TB",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -259,6 +259,19 @@
       "line": 1.5,
       "best_book": "fanatics",
       "best_price": -190,
+      "stars": 1,
+      "game_pk": 776492
+    },
+    {
+      "player": "Dollander, Chase",
+      "player_id": 801403,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 110,
       "stars": 1,
       "game_pk": 776492
     },
@@ -318,6 +331,19 @@
       "player": "Greene, Hunter",
       "player_id": 668881,
       "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 776503
+    },
+    {
+      "player": "Greene, Hunter",
+      "player_id": 668881,
+      "opponent": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -339,6 +365,19 @@
       "best_price": 143,
       "stars": 1,
       "game_pk": 776505
+    },
+    {
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 124,
+      "stars": 1,
+      "game_pk": 776499
     },
     {
       "player": "Lee, Jung Hoo",
@@ -406,19 +445,6 @@
       "game_pk": 776503
     },
     {
-      "player": "Misiorowski, Jacob",
-      "player_id": 694819,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 776500
-    },
-    {
       "player": "Naylor, Bo",
       "player_id": 666310,
       "opponent": "CLE",
@@ -469,6 +495,19 @@
       "best_price": -140,
       "stars": 1,
       "game_pk": 776505
+    },
+    {
+      "player": "Rea, Colin",
+      "player_id": 607067,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 776506
     },
     {
       "player": "Saggese, Thomas",
@@ -534,19 +573,6 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 776492
-    },
-    {
-      "player": "Strider, Spencer",
-      "player_id": 675911,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 776506
     },
     {
       "player": "Vaughn, Andrew",

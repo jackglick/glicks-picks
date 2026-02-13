@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.438405+00:00",
+  "generated_at": "2026-02-13T00:00:46.649068+00:00",
   "date": "2025-09-25",
   "picks": [
     {
@@ -721,6 +721,19 @@
       "player": "Yamamoto, Yoshinobu",
       "player_id": 808967,
       "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": -145,
+      "stars": 2,
+      "game_pk": 776185
+    },
+    {
+      "player": "Yamamoto, Yoshinobu",
+      "player_id": 808967,
+      "opponent": "AZ",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -729,6 +742,32 @@
       "best_price": 135,
       "stars": 2,
       "game_pk": 776185
+    },
+    {
+      "player": "Ashcraft, Braxton",
+      "player_id": 677952,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 776190
+    },
+    {
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -114,
+      "stars": 1,
+      "game_pk": 776186
     },
     {
       "player": "Benson, Will",

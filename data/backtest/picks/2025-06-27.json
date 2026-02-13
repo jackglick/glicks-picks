@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.306421+00:00",
+  "generated_at": "2026-02-13T00:00:46.517334+00:00",
   "date": "2025-06-27",
   "picks": [
     {
@@ -172,6 +172,19 @@
       "game_pk": 777346
     },
     {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -158,
+      "stars": 1,
+      "game_pk": 777345
+    },
+    {
       "player": "Civale, Aaron",
       "player_id": 650644,
       "opponent": "SF",
@@ -222,19 +235,6 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 777345
-    },
-    {
-      "player": "Gipson-Long, Sawyer",
-      "player_id": 687830,
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanatics",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 777334
     },
     {
       "player": "Judge, Aaron",
@@ -302,6 +302,19 @@
       "game_pk": 777346
     },
     {
+      "player": "Ortiz, Luis",
+      "player_id": 682847,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": 103,
+      "stars": 1,
+      "game_pk": 777349
+    },
+    {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "NYM",
@@ -315,6 +328,32 @@
       "game_pk": 777341
     },
     {
+      "player": "Roupp, Landen",
+      "player_id": 694738,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777338
+    },
+    {
+      "player": "Spence, Mitch",
+      "player_id": 687765,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777337
+    },
+    {
       "player": "Stanton, Giancarlo",
       "player_id": 519317,
       "opponent": "ATH",
@@ -326,6 +365,19 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 777337
+    },
+    {
+      "player": "Sugano, Tomoyuki",
+      "player_id": 608372,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 777343
     },
     {
       "player": "Sugano, Tomoyuki",
@@ -350,6 +402,19 @@
       "line": 0.5,
       "best_book": "draftkings",
       "best_price": 140,
+      "stars": 1,
+      "game_pk": 777337
+    },
+    {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "betonlineag",
+      "best_price": -109,
       "stars": 1,
       "game_pk": 777337
     }

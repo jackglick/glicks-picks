@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.382997+00:00",
+  "generated_at": "2026-02-13T00:00:46.591693+00:00",
   "date": "2025-08-17",
   "picks": [
     {
@@ -133,19 +133,6 @@
       "game_pk": 776704
     },
     {
-      "player": "Abbott, Andrew",
-      "player_id": 671096,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanatics",
-      "best_price": 130,
-      "stars": 2,
-      "game_pk": 776709
-    },
-    {
       "player": "Barger, Addison",
       "player_id": 680718,
       "opponent": "TEX",
@@ -250,17 +237,17 @@
       "game_pk": 776702
     },
     {
-      "player": "Mlodzinski, Carmen",
-      "player_id": 669387,
-      "opponent": "CHC",
+      "player": "Parker, Mitchell",
+      "player_id": 680730,
+      "opponent": "PHI",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "betmgm",
-      "best_price": -125,
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -160,
       "stars": 2,
-      "game_pk": 776704
+      "game_pk": 776708
     },
     {
       "player": "Perdomo, Geraldo",
@@ -289,19 +276,6 @@
       "game_pk": 776706
     },
     {
-      "player": "Senzatela, Antonio",
-      "player_id": 622608,
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "fanduel",
-      "best_price": 118,
-      "stars": 2,
-      "game_pk": 776701
-    },
-    {
       "player": "Soriano, Jos\u00e9",
       "player_id": 667755,
       "opponent": "ATH",
@@ -328,17 +302,17 @@
       "game_pk": 776710
     },
     {
-      "player": "Webb, Logan",
-      "player_id": 657277,
-      "opponent": "TB",
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "MIL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "betonlineag",
-      "best_price": 128,
-      "stars": 2,
-      "game_pk": 776703
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 776709
     },
     {
       "player": "Albies, Ozzie",
@@ -352,6 +326,19 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 776706
+    },
+    {
+      "player": "Assad, Javier",
+      "player_id": 665871,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 776704
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -500,6 +487,19 @@
       "player": "Fedde, Erick",
       "player_id": 607200,
       "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 776706
+    },
+    {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "CLE",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -549,6 +549,19 @@
       "game_pk": 776701
     },
     {
+      "player": "Holmes, Clay",
+      "player_id": 605280,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 776707
+    },
+    {
       "player": "Horwitz, Spencer",
       "player_id": 687462,
       "opponent": "PIT",
@@ -573,6 +586,19 @@
       "best_price": -290,
       "stars": 1,
       "game_pk": 776697
+    },
+    {
+      "player": "Javier, Cristian",
+      "player_id": 664299,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 776705
     },
     {
       "player": "Kurtz, Nick",
@@ -770,6 +796,32 @@
       "game_pk": 776709
     },
     {
+      "player": "Paddack, Chris",
+      "player_id": 663978,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 776700
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 776703
+    },
+    {
       "player": "Quero, Edgar",
       "player_id": 700337,
       "opponent": "CWS",
@@ -861,19 +913,6 @@
       "game_pk": 776703
     },
     {
-      "player": "Springs, Jeffrey",
-      "player_id": 605488,
-      "opponent": "LAA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -134,
-      "stars": 1,
-      "game_pk": 776699
-    },
-    {
       "player": "Toro, Abraham",
       "player_id": 647351,
       "opponent": "MIA",
@@ -916,6 +955,19 @@
       "player": "Warren, Will",
       "player_id": 701542,
       "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 776698
+    },
+    {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -924,6 +976,19 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 776698
+    },
+    {
+      "player": "Webb, Logan",
+      "player_id": 657277,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 776703
     },
     {
       "player": "Witt, Bobby",

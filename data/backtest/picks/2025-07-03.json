@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.314032+00:00",
+  "generated_at": "2026-02-13T00:00:46.525142+00:00",
   "date": "2025-07-03",
   "picks": [
     {
@@ -211,19 +211,6 @@
       "game_pk": 777260
     },
     {
-      "player": "Soriano, Jos\u00e9",
-      "player_id": 667755,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 2,
-      "game_pk": 777261
-    },
-    {
       "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "LAA",
@@ -318,6 +305,19 @@
       "player": "Festa, David",
       "player_id": 701581,
       "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777263
+    },
+    {
+      "player": "Festa, David",
+      "player_id": 701581,
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -350,6 +350,19 @@
       "line": 1.5,
       "best_book": "betonlineag",
       "best_price": -217,
+      "stars": 1,
+      "game_pk": 777258
+    },
+    {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -135,
       "stars": 1,
       "game_pk": 777258
     },
@@ -448,6 +461,19 @@
       "player": "P\u00e9rez, Eury",
       "player_id": 691587,
       "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 777263
+    },
+    {
+      "player": "P\u00e9rez, Eury",
+      "player_id": 691587,
+      "opponent": "MIN",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -469,6 +495,19 @@
       "best_price": -172,
       "stars": 1,
       "game_pk": 777258
+    },
+    {
+      "player": "Quintana, Jose",
+      "player_id": 500779,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 777257
     },
     {
       "player": "Quintana, Jose",

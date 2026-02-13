@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.370659+00:00",
+  "generated_at": "2026-02-13T00:00:46.581094+00:00",
   "date": "2025-08-11",
   "picks": [
     {
@@ -107,6 +107,19 @@
       "game_pk": 776792
     },
     {
+      "player": "Heaney, Andrew",
+      "player_id": 571760,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 776786
+    },
+    {
       "player": "Larnach, Trevor",
       "player_id": 663616,
       "opponent": "MIN",
@@ -116,19 +129,6 @@
       "line": 1.5,
       "best_book": "betonlineag",
       "best_price": -238,
-      "stars": 2,
-      "game_pk": 776790
-    },
-    {
-      "player": "Matthews, Zebby",
-      "player_id": 805673,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 105,
       "stars": 2,
       "game_pk": 776790
     },
@@ -222,6 +222,19 @@
       "best_price": -275,
       "stars": 1,
       "game_pk": 776792
+    },
+    {
+      "player": "Dollander, Chase",
+      "player_id": 801403,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 776783
     },
     {
       "player": "Durbin, Caleb",
@@ -357,6 +370,19 @@
       "player": "Walker, Taijuan",
       "player_id": 592836,
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanatics",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 776792
+    },
+    {
+      "player": "Walker, Taijuan",
+      "player_id": 592836,
+      "opponent": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -365,19 +391,6 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 776792
-    },
-    {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 776790
     },
     {
       "player": "Witt, Bobby",

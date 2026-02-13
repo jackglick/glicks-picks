@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.269133+00:00",
+  "generated_at": "2026-02-13T00:00:46.479182+00:00",
   "date": "2025-05-28",
   "picks": [
     {
@@ -131,6 +131,19 @@
       "best_price": 110,
       "stars": 3,
       "game_pk": 777736
+    },
+    {
+      "player": "Alcantara, Sandy",
+      "player_id": 645261,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 2,
+      "game_pk": 777726
     },
     {
       "player": "Alcantara, Sandy",
@@ -331,6 +344,19 @@
       "player": "Bello, Brayan",
       "player_id": 678394,
       "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 777736
+    },
+    {
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "MIL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -339,6 +365,19 @@
       "best_price": 105,
       "stars": 1,
       "game_pk": 777736
+    },
+    {
+      "player": "Canning, Griffin",
+      "player_id": 656288,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777737
     },
     {
       "player": "Canning, Griffin",
@@ -380,6 +419,19 @@
       "game_pk": 777729
     },
     {
+      "player": "Greene, Hunter",
+      "player_id": 668881,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "betonlineag",
+      "best_price": -156,
+      "stars": 1,
+      "game_pk": 777733
+    },
+    {
       "player": "Happ, Ian",
       "player_id": 664023,
       "opponent": "COL",
@@ -415,6 +467,19 @@
       "line": 0.5,
       "best_book": "bovada",
       "best_price": 120,
+      "stars": 1,
+      "game_pk": 777739
+    },
+    {
+      "player": "Kershaw, Clayton",
+      "player_id": 477132,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.0,
+      "best_book": "betrivers",
+      "best_price": 300,
       "stars": 1,
       "game_pk": 777739
     },
@@ -523,6 +588,19 @@
       "game_pk": 777734
     },
     {
+      "player": "Mikolas, Miles",
+      "player_id": 571945,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777740
+    },
+    {
       "player": "Nimmo, Brandon",
       "player_id": 607043,
       "opponent": "CWS",
@@ -562,6 +640,32 @@
       "game_pk": 777736
     },
     {
+      "player": "Povich, Cade",
+      "player_id": 700249,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 777740
+    },
+    {
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -116,
+      "stars": 1,
+      "game_pk": 777732
+    },
+    {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "PIT",
@@ -586,6 +690,19 @@
       "best_price": -179,
       "stars": 1,
       "game_pk": 777734
+    },
+    {
+      "player": "Roupp, Landen",
+      "player_id": 694738,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777738
     },
     {
       "player": "Roupp, Landen",

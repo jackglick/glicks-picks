@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.176589+00:00",
+  "generated_at": "2026-02-13T00:00:46.382408+00:00",
   "date": "2025-03-27",
   "picks": [
     {
@@ -53,6 +53,45 @@
       "best_price": 116,
       "stars": 2,
       "game_pk": 778546
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "bovada",
+      "best_price": 135,
+      "stars": 2,
+      "game_pk": 778553
+    },
+    {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "MIL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -132,
+      "stars": 2,
+      "game_pk": 778557
+    },
+    {
+      "player": "Alcantara, Sandy",
+      "player_id": 645261,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 778562
     },
     {
       "player": "Anderson, Tim",
@@ -172,6 +211,19 @@
       "game_pk": 778546
     },
     {
+      "player": "L\u00f3pez, Pablo",
+      "player_id": 641154,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 778551
+    },
+    {
       "player": "Ohtani, Shohei",
       "player_id": 660271,
       "opponent": "DET",
@@ -263,6 +315,19 @@
       "game_pk": 778562
     },
     {
+      "player": "Skubal, Tarik",
+      "player_id": 669373,
+      "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 778546
+    },
+    {
       "player": "Snell, Blake",
       "player_id": 605483,
       "opponent": "DET",
@@ -300,6 +365,19 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 778561
+    },
+    {
+      "player": "Wheeler, Zack",
+      "player_id": 554430,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 778555
     }
   ]
 }

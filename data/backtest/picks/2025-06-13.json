@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.288690+00:00",
+  "generated_at": "2026-02-13T00:00:46.499158+00:00",
   "date": "2025-06-13",
   "picks": [
     {
@@ -419,6 +419,19 @@
       "game_pk": 777539
     },
     {
+      "player": "Holmes, Clay",
+      "player_id": 605280,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -156,
+      "stars": 1,
+      "game_pk": 777528
+    },
+    {
       "player": "Lowe, Nathaniel",
       "player_id": 663993,
       "opponent": "MIA",
@@ -443,6 +456,19 @@
       "best_price": 155,
       "stars": 1,
       "game_pk": 777528
+    },
+    {
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -122,
+      "stars": 1,
+      "game_pk": 777538
     },
     {
       "player": "Rengifo, Luis",

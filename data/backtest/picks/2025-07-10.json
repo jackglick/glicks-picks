@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.323187+00:00",
+  "generated_at": "2026-02-13T00:00:46.534349+00:00",
   "date": "2025-07-10",
   "picks": [
     {
@@ -196,6 +196,19 @@
       "best_price": -155,
       "stars": 1,
       "game_pk": 777156
+    },
+    {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 777170
     },
     {
       "player": "Clemens, Kody",
@@ -458,6 +471,19 @@
       "game_pk": 777156
     },
     {
+      "player": "Paddack, Chris",
+      "player_id": 663978,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -156,
+      "stars": 1,
+      "game_pk": 777166
+    },
+    {
       "player": "Quantrill, Cal",
       "player_id": 615698,
       "opponent": "CIN",
@@ -523,6 +549,19 @@
       "game_pk": 777159
     },
     {
+      "player": "Stroman, Marcus",
+      "player_id": 573186,
+      "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777169
+    },
+    {
       "player": "Suzuki, Seiya",
       "player_id": 673548,
       "opponent": "CHC",
@@ -573,6 +612,19 @@
       "best_price": 187,
       "stars": 1,
       "game_pk": 777165
+    },
+    {
+      "player": "Woo, Bryan",
+      "player_id": 693433,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 777169
     }
   ]
 }

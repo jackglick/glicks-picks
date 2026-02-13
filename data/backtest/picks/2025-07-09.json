@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.321945+00:00",
+  "generated_at": "2026-02-13T00:00:46.533045+00:00",
   "date": "2025-07-09",
   "picks": [
     {
@@ -120,6 +120,19 @@
       "game_pk": 777163
     },
     {
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 2,
+      "game_pk": 777183
+    },
+    {
       "player": "Albies, Ozzie",
       "player_id": 645277,
       "opponent": "ATL",
@@ -183,6 +196,19 @@
       "best_price": -150,
       "stars": 2,
       "game_pk": 777183
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 777178
     },
     {
       "player": "Houser, Adrian",
@@ -250,19 +276,6 @@
       "game_pk": 777179
     },
     {
-      "player": "Abbott, Andrew",
-      "player_id": 671096,
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 777183
-    },
-    {
       "player": "Acu\u00f1a, Ronald",
       "player_id": 660670,
       "opponent": "ATL",
@@ -300,19 +313,6 @@
       "best_price": -240,
       "stars": 1,
       "game_pk": 777179
-    },
-    {
-      "player": "Bubic, Kris",
-      "player_id": 663460,
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanatics",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777177
     },
     {
       "player": "Caglianone, Jac",
@@ -409,6 +409,19 @@
       "player": "Falter, Bailey",
       "player_id": 663559,
       "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "fanduel",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777177
+    },
+    {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -435,6 +448,19 @@
       "player": "Giolito, Lucas",
       "player_id": 608337,
       "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777179
+    },
+    {
+      "player": "Giolito, Lucas",
+      "player_id": 608337,
+      "opponent": "COL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -443,32 +469,6 @@
       "best_price": -170,
       "stars": 1,
       "game_pk": 777179
-    },
-    {
-      "player": "Glasnow, Tyler",
-      "player_id": 607192,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": 102,
-      "stars": 1,
-      "game_pk": 777175
-    },
-    {
-      "player": "Gore, MacKenzie",
-      "player_id": 669022,
-      "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 777178
     },
     {
       "player": "Gore, MacKenzie",
@@ -532,19 +532,6 @@
       "line": 1.5,
       "best_book": "mybookieag",
       "best_price": -250,
-      "stars": 1,
-      "game_pk": 777172
-    },
-    {
-      "player": "Houser, Adrian",
-      "player_id": 605288,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "betrivers",
-      "best_price": 110,
       "stars": 1,
       "game_pk": 777172
     },
@@ -697,10 +684,10 @@
       "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
+      "direction": "UNDER",
       "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": 134,
+      "best_book": "draftkings",
+      "best_price": -155,
       "stars": 1,
       "game_pk": 777179
     },

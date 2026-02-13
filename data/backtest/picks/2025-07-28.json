@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.345661+00:00",
+  "generated_at": "2026-02-13T00:00:46.557244+00:00",
   "date": "2025-07-28",
   "picks": [
     {
@@ -107,19 +107,6 @@
       "game_pk": 776961
     },
     {
-      "player": "Martin, Davis",
-      "player_id": 663436,
-      "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 2,
-      "game_pk": 776972
-    },
-    {
       "player": "Mart\u00ednez, Angel",
       "player_id": 682657,
       "opponent": "COL",
@@ -157,6 +144,32 @@
       "best_price": -135,
       "stars": 1,
       "game_pk": 776971
+    },
+    {
+      "player": "Bassitt, Chris",
+      "player_id": 605135,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 776966
+    },
+    {
+      "player": "Blalock, Bradley",
+      "player_id": 687134,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 776968
     },
     {
       "player": "Blalock, Bradley",
@@ -274,6 +287,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 776967
+    },
+    {
+      "player": "Hill, Rich",
+      "player_id": 448179,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 1,
+      "game_pk": 776971
     },
     {
       "player": "Hill, Rich",
@@ -461,6 +487,19 @@
       "player": "Rasmussen, Drew",
       "player_id": 656876,
       "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 776970
+    },
+    {
+      "player": "Rasmussen, Drew",
+      "player_id": 656876,
+      "opponent": "NYY",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -534,6 +573,19 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 776973
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 776961
     }
   ]
 }

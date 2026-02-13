@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.393653+00:00",
+  "generated_at": "2026-02-13T00:00:46.603908+00:00",
   "date": "2025-08-24",
   "picks": [
     {
@@ -185,19 +185,6 @@
       "game_pk": 776603
     },
     {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "mybookieag",
-      "best_price": 119,
-      "stars": 3,
-      "game_pk": 776610
-    },
-    {
       "player": "Beck, Jordan",
       "player_id": 687597,
       "opponent": "COL",
@@ -235,19 +222,6 @@
       "best_price": -275,
       "stars": 2,
       "game_pk": 776610
-    },
-    {
-      "player": "Elder, Bryce",
-      "player_id": 693821,
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 776624
     },
     {
       "player": "Flaherty, Jack",
@@ -365,6 +339,19 @@
       "best_price": 155,
       "stars": 2,
       "game_pk": 776612
+    },
+    {
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "mybookieag",
+      "best_price": 119,
+      "stars": 2,
+      "game_pk": 776610
     },
     {
       "player": "Skenes, Paul",
@@ -500,6 +487,19 @@
       "player": "Gilbert, Logan",
       "player_id": 669302,
       "opponent": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 776602
+    },
+    {
+      "player": "Gilbert, Logan",
+      "player_id": 669302,
+      "opponent": "ATH",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -565,19 +565,6 @@
       "player": "Hendricks, Kyle",
       "player_id": 543294,
       "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "betonlineag",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 776605
-    },
-    {
-      "player": "Hendricks, Kyle",
-      "player_id": 543294,
-      "opponent": "CHC",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -599,6 +586,19 @@
       "best_price": -250,
       "stars": 1,
       "game_pk": 776606
+    },
+    {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 776613
     },
     {
       "player": "Irvin, Jake",
@@ -653,6 +653,19 @@
       "game_pk": 776607
     },
     {
+      "player": "Liberatore, Matthew",
+      "player_id": 669461,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betmgm",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 776606
+    },
+    {
       "player": "Lindor, Francisco",
       "player_id": 596019,
       "opponent": "NYM",
@@ -677,6 +690,19 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 776602
+    },
+    {
+      "player": "Lugo, Seth",
+      "player_id": 607625,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 776615
     },
     {
       "player": "Lugo, Seth",
@@ -714,19 +740,6 @@
       "line": 0.5,
       "best_book": "fanatics",
       "best_price": 200,
-      "stars": 1,
-      "game_pk": 776624
-    },
-    {
-      "player": "Peterson, David",
-      "player_id": 656849,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -122,
       "stars": 1,
       "game_pk": 776624
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.281949+00:00",
+  "generated_at": "2026-02-13T00:00:46.492342+00:00",
   "date": "2025-06-07",
   "picks": [
     {
@@ -53,19 +53,6 @@
       "best_price": 140,
       "stars": 3,
       "game_pk": 777604
-    },
-    {
-      "player": "Holton, Tyler",
-      "player_id": 663947,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": 160,
-      "stars": 3,
-      "game_pk": 777609
     },
     {
       "player": "Houser, Adrian",
@@ -396,19 +383,6 @@
       "player": "Heaney, Andrew",
       "player_id": 571760,
       "opponent": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanduel",
-      "best_price": -142,
-      "stars": 1,
-      "game_pk": 777607
-    },
-    {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "PHI",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -430,6 +404,19 @@
       "best_price": -165,
       "stars": 1,
       "game_pk": 777610
+    },
+    {
+      "player": "Holton, Tyler",
+      "player_id": 663947,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "fanatics",
+      "best_price": -210,
+      "stars": 1,
+      "game_pk": 777609
     },
     {
       "player": "Iglesias, Jose",
@@ -690,6 +677,19 @@
       "best_price": -190,
       "stars": 1,
       "game_pk": 777607
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 777606
     },
     {
       "player": "Wilson, Jacob",

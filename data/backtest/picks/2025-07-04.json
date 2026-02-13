@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.315416+00:00",
+  "generated_at": "2026-02-13T00:00:46.526555+00:00",
   "date": "2025-07-04",
   "picks": [
     {
@@ -250,6 +250,19 @@
       "game_pk": 777244
     },
     {
+      "player": "Giolito, Lucas",
+      "player_id": 608337,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -148,
+      "stars": 2,
+      "game_pk": 777245
+    },
+    {
       "player": "Lee, Brooks",
       "player_id": 686797,
       "opponent": "TB",
@@ -313,6 +326,19 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 777245
+    },
+    {
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -154,
+      "stars": 1,
+      "game_pk": 777255
     },
     {
       "player": "Alonso, Pete",
@@ -430,19 +456,6 @@
       "best_price": 170,
       "stars": 1,
       "game_pk": 777252
-    },
-    {
-      "player": "Hendricks, Kyle",
-      "player_id": 543294,
-      "opponent": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "betonlineag",
-      "best_price": -109,
-      "stars": 1,
-      "game_pk": 777242
     },
     {
       "player": "Hendricks, Kyle",
@@ -638,6 +651,19 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 777252
+    },
+    {
+      "player": "Stroman, Marcus",
+      "player_id": 573186,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 777250
     },
     {
       "player": "Stroman, Marcus",

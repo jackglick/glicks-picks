@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.426840+00:00",
+  "generated_at": "2026-02-13T00:00:46.637992+00:00",
   "date": "2025-09-17",
   "picks": [
     {
@@ -380,17 +380,17 @@
       "game_pk": 776299
     },
     {
-      "player": "Gil, Luis",
-      "player_id": 661563,
-      "opponent": "MIN",
+      "player": "Giolito, Lucas",
+      "player_id": 608337,
+      "opponent": "ATH",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -112,
+      "line": 5.0,
+      "best_book": "betonlineag",
+      "best_price": 126,
       "stars": 1,
-      "game_pk": 776284
+      "game_pk": 776299
     },
     {
       "player": "Gonzalez, Romy",
@@ -575,19 +575,6 @@
       "game_pk": 776279
     },
     {
-      "player": "Pfaadt, Brandon",
-      "player_id": 694297,
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "betmgm",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 776279
-    },
-    {
       "player": "P\u00e9rez, Mart\u00edn",
       "player_id": 527048,
       "opponent": "BAL",
@@ -690,6 +677,19 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 776284
+    },
+    {
+      "player": "Wells, Tyler",
+      "player_id": 669330,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betmgm",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 776285
     },
     {
       "player": "Wood, James",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.311446+00:00",
+  "generated_at": "2026-02-13T00:00:46.522500+00:00",
   "date": "2025-07-01",
   "picks": [
     {
@@ -68,17 +68,17 @@
       "game_pk": 777286
     },
     {
-      "player": "Ryan, Joe",
-      "player_id": 657746,
-      "opponent": "MIA",
+      "player": "Fitts, Richard",
+      "player_id": 690916,
+      "opponent": "CIN",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": 105,
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -138,
       "stars": 2,
-      "game_pk": 777293
+      "game_pk": 777294
     },
     {
       "player": "Singer, Brady",
@@ -331,6 +331,19 @@
       "player": "Ryan, Joe",
       "player_id": 657746,
       "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 777293
+    },
+    {
+      "player": "Ryan, Joe",
+      "player_id": 657746,
+      "opponent": "MIA",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -341,17 +354,17 @@
       "game_pk": 777293
     },
     {
-      "player": "Springs, Jeffrey",
-      "player_id": 605488,
-      "opponent": "TB",
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
+      "direction": "UNDER",
+      "line": 5.5,
       "best_book": "draftkings",
-      "best_price": 100,
+      "best_price": -155,
       "stars": 1,
-      "game_pk": 777286
+      "game_pk": 777294
     },
     {
       "player": "Springs, Jeffrey",

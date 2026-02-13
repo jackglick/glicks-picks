@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.326515+00:00",
+  "generated_at": "2026-02-13T00:00:46.537912+00:00",
   "date": "2025-07-12",
   "picks": [
     {
@@ -146,6 +146,19 @@
       "game_pk": 777131
     },
     {
+      "player": "Ohtani, Shohei",
+      "player_id": 660271,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -185,
+      "stars": 3,
+      "game_pk": 777127
+    },
+    {
       "player": "P\u00e9rez, Wenceel",
       "player_id": 672761,
       "opponent": "SEA",
@@ -261,6 +274,19 @@
       "best_price": -135,
       "stars": 2,
       "game_pk": 777141
+    },
+    {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -158,
+      "stars": 2,
+      "game_pk": 777133
     },
     {
       "player": "Lukes, Nathan",
@@ -422,6 +448,19 @@
       "player": "Blalock, Bradley",
       "player_id": 687134,
       "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777140
+    },
+    {
+      "player": "Blalock, Bradley",
+      "player_id": 687134,
+      "opponent": "CIN",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -430,6 +469,19 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 777140
+    },
+    {
+      "player": "Boyd, Matthew",
+      "player_id": 571510,
+      "opponent": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betrivers",
+      "best_price": -109,
+      "stars": 1,
+      "game_pk": 777142
     },
     {
       "player": "Burke, Sean",
@@ -495,6 +547,19 @@
       "best_price": -205,
       "stars": 1,
       "game_pk": 777135
+    },
+    {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 777144
     },
     {
       "player": "Crochet, Garrett",
@@ -747,6 +812,19 @@
       "player": "Montas, Frankie",
       "player_id": 593423,
       "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "bovada",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 777136
+    },
+    {
+      "player": "Montas, Frankie",
+      "player_id": 593423,
+      "opponent": "KC",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -768,19 +846,6 @@
       "best_price": 185,
       "stars": 1,
       "game_pk": 777133
-    },
-    {
-      "player": "Ohtani, Shohei",
-      "player_id": 660271,
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 777127
     },
     {
       "player": "Pages, Andy",
@@ -846,19 +911,6 @@
       "best_price": 205,
       "stars": 1,
       "game_pk": 777134
-    },
-    {
-      "player": "Roupp, Landen",
-      "player_id": 694738,
-      "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "betrivers",
-      "best_price": -137,
-      "stars": 1,
-      "game_pk": 777127
     },
     {
       "player": "Trout, Mike",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.251983+00:00",
+  "generated_at": "2026-02-13T00:00:46.461783+00:00",
   "date": "2025-05-17",
   "picks": [
     {
@@ -159,6 +159,19 @@
       "game_pk": 777883
     },
     {
+      "player": "Mlodzinski, Carmen",
+      "player_id": 669387,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -154,
+      "stars": 2,
+      "game_pk": 777894
+    },
+    {
       "player": "Rutschman, Adley",
       "player_id": 668939,
       "opponent": "WSH",
@@ -183,6 +196,19 @@
       "best_price": -150,
       "stars": 2,
       "game_pk": 777886
+    },
+    {
+      "player": "Schmidt, Clarke",
+      "player_id": 657376,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -170,
+      "stars": 2,
+      "game_pk": 777888
     },
     {
       "player": "Walker, Christian",
@@ -222,6 +248,19 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777893
+    },
+    {
+      "player": "Alcantara, Sandy",
+      "player_id": 645261,
+      "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 135,
+      "stars": 1,
+      "game_pk": 777889
     },
     {
       "player": "Alcantara, Sandy",
@@ -274,6 +313,19 @@
       "best_price": -169,
       "stars": 1,
       "game_pk": 777890
+    },
+    {
+      "player": "Blanco, Ronel",
+      "player_id": 669854,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 777882
     },
     {
       "player": "Burke, Sean",
@@ -389,6 +441,19 @@
       "line": 1.5,
       "best_book": "bovada",
       "best_price": 100,
+      "stars": 1,
+      "game_pk": 777893
+    },
+    {
+      "player": "Giolito, Lucas",
+      "player_id": 608337,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -160,
       "stars": 1,
       "game_pk": 777893
     },
@@ -523,6 +588,19 @@
       "game_pk": 777890
     },
     {
+      "player": "Mahle, Tyler",
+      "player_id": 641816,
+      "opponent": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -134,
+      "stars": 1,
+      "game_pk": 777882
+    },
+    {
       "player": "Marsh, Brandon",
       "player_id": 669016,
       "opponent": "PIT",
@@ -567,10 +645,10 @@
       "opponent": "KC",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
+      "direction": "UNDER",
       "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -105,
+      "best_book": "bovada",
+      "best_price": -110,
       "stars": 1,
       "game_pk": 777885
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.227138+00:00",
+  "generated_at": "2026-02-13T00:00:46.435670+00:00",
   "date": "2025-04-28",
   "picks": [
     {
@@ -27,6 +27,19 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 778141
+    },
+    {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 778140
     },
     {
       "player": "Williams, Gavin",
@@ -159,17 +172,17 @@
       "game_pk": 778141
     },
     {
-      "player": "Williams, Gavin",
-      "player_id": 668909,
-      "opponent": "MIN",
+      "player": "Williams, Trevor",
+      "player_id": 592866,
+      "opponent": "NYM",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "betonlineag",
-      "best_price": 105,
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -170,
       "stars": 1,
-      "game_pk": 778139
+      "game_pk": 778138
     },
     {
       "player": "Williams, Trevor",

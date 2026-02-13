@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.407624+00:00",
+  "generated_at": "2026-02-13T00:00:46.618584+00:00",
   "date": "2025-09-04",
   "picks": [
     {
@@ -227,6 +227,19 @@
       "player": "Bradley, Taj",
       "player_id": 671737,
       "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -152,
+      "stars": 1,
+      "game_pk": 776462
+    },
+    {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -274,6 +287,19 @@
       "best_price": -185,
       "stars": 1,
       "game_pk": 776459
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "player_id": 543294,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "fanatics",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 776463
     },
     {
       "player": "Manzardo, Kyle",

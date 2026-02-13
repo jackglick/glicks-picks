@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.394922+00:00",
+  "generated_at": "2026-02-13T00:00:46.605203+00:00",
   "date": "2025-08-25",
   "picks": [
     {
@@ -211,6 +211,19 @@
       "game_pk": 776593
     },
     {
+      "player": "Ryan, Joe",
+      "player_id": 657746,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 2,
+      "game_pk": 776596
+    },
+    {
       "player": "Saggese, Thomas",
       "player_id": 695336,
       "opponent": "PIT",
@@ -396,12 +409,38 @@
       "player": "McGreevy, Michael",
       "player_id": 700241,
       "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 776589
+    },
+    {
+      "player": "McGreevy, Michael",
+      "player_id": 700241,
+      "opponent": "PIT",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
       "best_book": "fanduel",
       "best_price": 108,
+      "stars": 1,
+      "game_pk": 776589
+    },
+    {
+      "player": "Oviedo, Johan",
+      "player_id": 670912,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -130,
       "stars": 1,
       "game_pk": 776589
     },
@@ -432,17 +471,17 @@
       "game_pk": 776589
     },
     {
-      "player": "Ryan, Joe",
-      "player_id": 657746,
-      "opponent": "TOR",
+      "player": "Rodriguez, Eduardo",
+      "player_id": 593958,
+      "opponent": "MIL",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -160,
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -105,
       "stars": 1,
-      "game_pk": 776596
+      "game_pk": 776593
     },
     {
       "player": "Scherzer, Max",
@@ -469,6 +508,19 @@
       "best_price": 105,
       "stars": 1,
       "game_pk": 776597
+    },
+    {
+      "player": "Senga, Kodai",
+      "player_id": 673540,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -148,
+      "stars": 1,
+      "game_pk": 776598
     },
     {
       "player": "Simon, Ronny",
@@ -560,19 +612,6 @@
       "best_price": -263,
       "stars": 1,
       "game_pk": 776589
-    },
-    {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 776598
     },
     {
       "player": "S\u00e1nchez, Cristopher",

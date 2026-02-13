@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.228215+00:00",
+  "generated_at": "2026-02-13T00:00:46.436762+00:00",
   "date": "2025-04-29",
   "picks": [
     {
@@ -14,6 +14,19 @@
       "best_price": 110,
       "stars": 3,
       "game_pk": 778131
+    },
+    {
+      "player": "Bibee, Tanner",
+      "player_id": 676440,
+      "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -130,
+      "stars": 2,
+      "game_pk": 778129
     },
     {
       "player": "Crochet, Garrett",
@@ -159,6 +172,19 @@
       "game_pk": 778130
     },
     {
+      "player": "Crochet, Garrett",
+      "player_id": 676979,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": -164,
+      "stars": 1,
+      "game_pk": 778127
+    },
+    {
       "player": "Devers, Rafael",
       "player_id": 646240,
       "opponent": "BOS",
@@ -183,6 +209,19 @@
       "best_price": 175,
       "stars": 1,
       "game_pk": 778124
+    },
+    {
+      "player": "Francis, Bowden",
+      "player_id": 670102,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 778127
     },
     {
       "player": "Grichuk, Randal",
@@ -289,6 +328,19 @@
       "game_pk": 778133
     },
     {
+      "player": "Paddack, Chris",
+      "player_id": 663978,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 122,
+      "stars": 1,
+      "game_pk": 778129
+    },
+    {
       "player": "Peralta, Freddy",
       "player_id": 642547,
       "opponent": "CWS",
@@ -300,19 +352,6 @@
       "best_price": -180,
       "stars": 1,
       "game_pk": 778125
-    },
-    {
-      "player": "Peterson, David",
-      "player_id": 656849,
-      "opponent": "AZ",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 778130
     },
     {
       "player": "Peterson, David",
@@ -365,19 +404,6 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 778130
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": -138,
-      "stars": 1,
-      "game_pk": 778133
     },
     {
       "player": "Rutschman, Adley",

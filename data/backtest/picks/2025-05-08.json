@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.239737+00:00",
+  "generated_at": "2026-02-13T00:00:46.448948+00:00",
   "date": "2025-05-08",
   "picks": [
     {
@@ -201,6 +201,19 @@
       "player": "Kremer, Dean",
       "player_id": 665152,
       "opponent": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -149,
+      "stars": 2,
+      "game_pk": 778007
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "MIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -263,6 +276,19 @@
       "game_pk": 778029
     },
     {
+      "player": "Martin, Davis",
+      "player_id": 663436,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": -161,
+      "stars": 2,
+      "game_pk": 778008
+    },
+    {
       "player": "McKinstry, Zach",
       "player_id": 656716,
       "opponent": "DET",
@@ -274,6 +300,19 @@
       "best_price": -145,
       "stars": 2,
       "game_pk": 778004
+    },
+    {
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 778006
     },
     {
       "player": "Bello, Brayan",
@@ -474,6 +513,19 @@
       "player": "Leiter, Jack",
       "player_id": 683004,
       "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 778006
+    },
+    {
+      "player": "Leiter, Jack",
+      "player_id": 683004,
+      "opponent": "BOS",
       "market": "Walks",
       "category": "pitcher",
       "direction": "UNDER",
@@ -495,19 +547,6 @@
       "best_price": 102,
       "stars": 1,
       "game_pk": 778006
-    },
-    {
-      "player": "Lodolo, Nick",
-      "player_id": 666157,
-      "opponent": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 778003
     },
     {
       "player": "Lodolo, Nick",

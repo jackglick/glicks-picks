@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.266408+00:00",
+  "generated_at": "2026-02-13T00:00:46.476541+00:00",
   "date": "2025-05-26",
   "picks": [
     {
@@ -162,6 +162,19 @@
       "player": "Williams, Gavin",
       "player_id": 668909,
       "opponent": "LAD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 2,
+      "game_pk": 777769
+    },
+    {
+      "player": "Williams, Gavin",
+      "player_id": 668909,
+      "opponent": "LAD",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -211,6 +224,19 @@
       "game_pk": 777770
     },
     {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": 118,
+      "stars": 1,
+      "game_pk": 777771
+    },
+    {
       "player": "France, Ty",
       "player_id": 664034,
       "opponent": "MIN",
@@ -222,6 +248,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777762
+    },
+    {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "TEX",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -114,
+      "stars": 1,
+      "game_pk": 777759
     },
     {
       "player": "Gausman, Kevin",
@@ -248,6 +287,19 @@
       "best_price": 160,
       "stars": 1,
       "game_pk": 777757
+    },
+    {
+      "player": "Holmes, Clay",
+      "player_id": 605280,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -154,
+      "stars": 1,
+      "game_pk": 777758
     },
     {
       "player": "Holmes, Clay",
@@ -315,6 +367,32 @@
       "game_pk": 777758
     },
     {
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -132,
+      "stars": 1,
+      "game_pk": 777760
+    },
+    {
+      "player": "Montero, Keider",
+      "player_id": 672456,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777770
+    },
+    {
       "player": "Morton, Charlie",
       "player_id": 450203,
       "opponent": "STL",
@@ -367,17 +445,17 @@
       "game_pk": 777758
     },
     {
-      "player": "Paddack, Chris",
-      "player_id": 663978,
-      "opponent": "TB",
+      "player": "Patrick, Chad",
+      "player_id": 694477,
+      "opponent": "BOS",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -145,
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -160,
       "stars": 1,
-      "game_pk": 777762
+      "game_pk": 777764
     },
     {
       "player": "P\u00e9rez, Salvador",
@@ -409,6 +487,19 @@
       "player": "Taillon, Jameson",
       "player_id": 592791,
       "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 777757
+    },
+    {
+      "player": "Taillon, Jameson",
+      "player_id": 592791,
+      "opponent": "COL",
       "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
@@ -417,19 +508,6 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 777757
-    },
-    {
-      "player": "Williams, Gavin",
-      "player_id": 668909,
-      "opponent": "LAD",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 777769
     },
     {
       "player": "Williams, Gavin",

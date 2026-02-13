@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.417212+00:00",
+  "generated_at": "2026-02-13T00:00:46.627837+00:00",
   "date": "2025-09-10",
   "picks": [
     {
@@ -432,6 +432,32 @@
       "game_pk": 776383
     },
     {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "betmgm",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 776381
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -147,
+      "stars": 2,
+      "game_pk": 776384
+    },
+    {
       "player": "Tolbert, Tyler",
       "player_id": 686475,
       "opponent": "KC",
@@ -666,6 +692,19 @@
       "game_pk": 776375
     },
     {
+      "player": "Holmes, Clay",
+      "player_id": 605280,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -154,
+      "stars": 1,
+      "game_pk": 776384
+    },
+    {
       "player": "Kim, Hyeseong",
       "player_id": 808975,
       "opponent": "COL",
@@ -809,6 +848,19 @@
       "game_pk": 776387
     },
     {
+      "player": "Rodriguez, Eduardo",
+      "player_id": 593958,
+      "opponent": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -108,
+      "stars": 1,
+      "game_pk": 776374
+    },
+    {
       "player": "Rortvedt, Ben",
       "player_id": 666163,
       "opponent": "COL",
@@ -835,17 +887,17 @@
       "game_pk": 776380
     },
     {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "CHC",
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "BAL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 6.5,
-      "best_book": "betmgm",
-      "best_price": -115,
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "draftkings",
+      "best_price": -122,
       "stars": 1,
-      "game_pk": 776381
+      "game_pk": 776387
     },
     {
       "player": "Sogard, Nick",
@@ -898,6 +950,19 @@
       "best_price": -126,
       "stars": 1,
       "game_pk": 776376
+    },
+    {
+      "player": "Wells, Tyler",
+      "player_id": 669330,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 122,
+      "stars": 1,
+      "game_pk": 776387
     },
     {
       "player": "Yoshida, Masataka",

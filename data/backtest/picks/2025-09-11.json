@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.418221+00:00",
+  "generated_at": "2026-02-13T00:00:46.628914+00:00",
   "date": "2025-09-11",
   "picks": [
     {
@@ -250,6 +250,32 @@
       "game_pk": 776369
     },
     {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 776367
+    },
+    {
+      "player": "Javier, Cristian",
+      "player_id": 664299,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betmgm",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 776369
+    },
+    {
       "player": "Jones, Nolan",
       "player_id": 666134,
       "opponent": "KC",
@@ -274,6 +300,19 @@
       "best_price": -213,
       "stars": 1,
       "game_pk": 776368
+    },
+    {
+      "player": "Kolek, Stephen",
+      "player_id": 663568,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betmgm",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 776370
     },
     {
       "player": "Kwan, Steven",
@@ -339,6 +378,19 @@
       "best_price": -250,
       "stars": 1,
       "game_pk": 776367
+    },
+    {
+      "player": "Schlittler, Cam",
+      "player_id": 693645,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 776368
     },
     {
       "player": "Smith, Shane",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.422697+00:00",
+  "generated_at": "2026-02-13T00:00:46.633676+00:00",
   "date": "2025-09-14",
   "picks": [
     {
@@ -198,6 +198,19 @@
       "game_pk": 776327
     },
     {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "player_id": 608566,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -112,
+      "stars": 2,
+      "game_pk": 776323
+    },
+    {
       "player": "Quintana, Jose",
       "player_id": 500779,
       "opponent": "STL",
@@ -261,6 +274,19 @@
       "best_price": -217,
       "stars": 2,
       "game_pk": 776317
+    },
+    {
+      "player": "Warren, Will",
+      "player_id": 701542,
+      "opponent": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": 105,
+      "stars": 2,
+      "game_pk": 776330
     },
     {
       "player": "Acosta, Maximo",
@@ -341,6 +367,19 @@
       "game_pk": 776322
     },
     {
+      "player": "Burrows, Mike",
+      "player_id": 681347,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 776320
+    },
+    {
       "player": "Caglianone, Jac",
       "player_id": 695506,
       "opponent": "KC",
@@ -350,6 +389,19 @@
       "line": 1.5,
       "best_book": "mybookieag",
       "best_price": -224,
+      "stars": 1,
+      "game_pk": 776334
+    },
+    {
+      "player": "Cameron, Noah",
+      "player_id": 702070,
+      "opponent": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanatics",
+      "best_price": -150,
       "stars": 1,
       "game_pk": 776334
     },
@@ -380,6 +432,32 @@
       "game_pk": 776334
     },
     {
+      "player": "Cavalli, Cade",
+      "player_id": 676917,
+      "opponent": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 126,
+      "stars": 1,
+      "game_pk": 776320
+    },
+    {
+      "player": "Cecconi, Slade",
+      "player_id": 677944,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 116,
+      "stars": 1,
+      "game_pk": 776331
+    },
+    {
       "player": "Conforto, Michael",
       "player_id": 624424,
       "opponent": "LAD",
@@ -391,19 +469,6 @@
       "best_price": -227,
       "stars": 1,
       "game_pk": 776325
-    },
-    {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "fanduel",
-      "best_price": 118,
-      "stars": 1,
-      "game_pk": 776330
     },
     {
       "player": "Crochet, Garrett",
@@ -484,19 +549,6 @@
       "game_pk": 776325
     },
     {
-      "player": "Glasnow, Tyler",
-      "player_id": 607192,
-      "opponent": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 776325
-    },
-    {
       "player": "Gorman, Nolan",
       "player_id": 669357,
       "opponent": "STL",
@@ -534,6 +586,19 @@
       "best_price": 171,
       "stars": 1,
       "game_pk": 776332
+    },
+    {
+      "player": "Houser, Adrian",
+      "player_id": 605288,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -143,
+      "stars": 1,
+      "game_pk": 776321
     },
     {
       "player": "Houser, Adrian",
@@ -640,19 +705,6 @@
       "game_pk": 776323
     },
     {
-      "player": "Mikolas, Miles",
-      "player_id": 571945,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "fanduel",
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 776326
-    },
-    {
       "player": "Morales, Luis",
       "player_id": 806960,
       "opponent": "CIN",
@@ -664,6 +716,19 @@
       "best_price": 119,
       "stars": 1,
       "game_pk": 776327
+    },
+    {
+      "player": "Nola, Aaron",
+      "player_id": 605400,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.0,
+      "best_book": "betonlineag",
+      "best_price": 139,
+      "stars": 1,
+      "game_pk": 776334
     },
     {
       "player": "Nola, Aaron",

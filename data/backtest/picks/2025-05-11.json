@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.245069+00:00",
+  "generated_at": "2026-02-13T00:00:46.454517+00:00",
   "date": "2025-05-11",
   "picks": [
     {
@@ -266,6 +266,19 @@
       "player": "Alcantara, Sandy",
       "player_id": 645261,
       "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": -164,
+      "stars": 2,
+      "game_pk": 777966
+    },
+    {
+      "player": "Alcantara, Sandy",
+      "player_id": 645261,
+      "opponent": "CWS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -357,19 +370,6 @@
       "player": "Gore, MacKenzie",
       "player_id": 669022,
       "opponent": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": -102,
-      "stars": 2,
-      "game_pk": 777962
-    },
-    {
-      "player": "Gore, MacKenzie",
-      "player_id": 669022,
-      "opponent": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -391,6 +391,19 @@
       "best_price": 125,
       "stars": 2,
       "game_pk": 777956
+    },
+    {
+      "player": "Mikolas, Miles",
+      "player_id": 571945,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -135,
+      "stars": 2,
+      "game_pk": 777962
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -601,6 +614,19 @@
       "game_pk": 777962
     },
     {
+      "player": "Blanco, Ronel",
+      "player_id": 669854,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 777963
+    },
+    {
       "player": "Bogaerts, Xander",
       "player_id": 593428,
       "opponent": "SD",
@@ -625,6 +651,19 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 777968
+    },
+    {
+      "player": "Burke, Sean",
+      "player_id": 680732,
+      "opponent": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 777966
     },
     {
       "player": "Burke, Sean",
@@ -809,19 +848,6 @@
       "game_pk": 777966
     },
     {
-      "player": "Eovaldi, Nathan",
-      "player_id": 543135,
-      "opponent": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 777969
-    },
-    {
       "player": "Gallen, Zac",
       "player_id": 668678,
       "opponent": "LAD",
@@ -833,6 +859,32 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 777954
+    },
+    {
+      "player": "Gonsolin, Tony",
+      "player_id": 664062,
+      "opponent": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 777954
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 1,
+      "game_pk": 777962
     },
     {
       "player": "Harris, Michael",
@@ -965,6 +1017,19 @@
       "game_pk": 777958
     },
     {
+      "player": "Mlodzinski, Carmen",
+      "player_id": 669387,
+      "opponent": "ATL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 777967
+    },
+    {
       "player": "Mountcastle, Ryan",
       "player_id": 663624,
       "opponent": "BAL",
@@ -1004,6 +1069,19 @@
       "game_pk": 777961
     },
     {
+      "player": "M\u00e1rquez, Germ\u00e1n",
+      "player_id": 608566,
+      "opponent": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "betonlineag",
+      "best_price": 104,
+      "stars": 1,
+      "game_pk": 777955
+    },
+    {
       "player": "Olson, Reese",
       "player_id": 681857,
       "opponent": "TEX",
@@ -1033,6 +1111,19 @@
       "player": "Patrick, Chad",
       "player_id": 694477,
       "opponent": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 777964
+    },
+    {
+      "player": "Patrick, Chad",
+      "player_id": 694477,
+      "opponent": "TB",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1041,6 +1132,19 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 777964
+    },
+    {
+      "player": "Pivetta, Nick",
+      "player_id": 601713,
+      "opponent": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 777955
     },
     {
       "player": "Raleigh, Cal",
@@ -1150,6 +1254,19 @@
       "player": "Ure\u00f1a, Jos\u00e9",
       "player_id": 570632,
       "opponent": "SEA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777958
+    },
+    {
+      "player": "Ure\u00f1a, Jos\u00e9",
+      "player_id": 570632,
+      "opponent": "SEA",
       "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
@@ -1171,6 +1288,19 @@
       "best_price": 159,
       "stars": 1,
       "game_pk": 777961
+    },
+    {
+      "player": "Wheeler, Zack",
+      "player_id": 554430,
+      "opponent": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "draftkings",
+      "best_price": -155,
+      "stars": 1,
+      "game_pk": 777971
     },
     {
       "player": "Witt, Bobby",

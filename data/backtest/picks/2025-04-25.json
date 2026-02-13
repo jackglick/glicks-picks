@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.223434+00:00",
+  "generated_at": "2026-02-13T00:00:46.432020+00:00",
   "date": "2025-04-25",
   "picks": [
     {
@@ -107,6 +107,19 @@
       "game_pk": 778186
     },
     {
+      "player": "Carrasco, Carlos",
+      "player_id": 471911,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 778185
+    },
+    {
       "player": "Correa, Carlos",
       "player_id": 621043,
       "opponent": "LAA",
@@ -183,6 +196,19 @@
       "best_price": 200,
       "stars": 1,
       "game_pk": 778176
+    },
+    {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanatics",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 778183
     },
     {
       "player": "Langford, Wyatt",
@@ -302,6 +328,19 @@
       "game_pk": 778171
     },
     {
+      "player": "Senga, Kodai",
+      "player_id": 673540,
+      "opponent": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -142,
+      "stars": 1,
+      "game_pk": 778183
+    },
+    {
       "player": "Springer, George",
       "player_id": 543807,
       "opponent": "TOR",
@@ -341,6 +380,19 @@
       "game_pk": 778183
     },
     {
+      "player": "Walker, Taijuan",
+      "player_id": 592836,
+      "opponent": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 778182
+    },
+    {
       "player": "Ward, Taylor",
       "player_id": 621493,
       "opponent": "LAA",
@@ -352,6 +404,19 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 778186
+    },
+    {
+      "player": "Wesneski, Hayden",
+      "player_id": 669713,
+      "opponent": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 778187
     }
   ]
 }

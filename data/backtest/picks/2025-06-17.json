@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-12T23:42:17.293252+00:00",
+  "generated_at": "2026-02-13T00:00:46.503818+00:00",
   "date": "2025-06-17",
   "picks": [
     {
@@ -157,19 +157,6 @@
       "best_price": 125,
       "stars": 2,
       "game_pk": 777478
-    },
-    {
-      "player": "Hendricks, Kyle",
-      "player_id": 543294,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "fanatics",
-      "best_price": 115,
-      "stars": 2,
-      "game_pk": 777476
     },
     {
       "player": "Liberatore, Matthew",
@@ -406,6 +393,32 @@
       "game_pk": 777481
     },
     {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 777475
+    },
+    {
+      "player": "Festa, David",
+      "player_id": 701581,
+      "opponent": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 777478
+    },
+    {
       "player": "Garc\u00eda, Luis",
       "player_id": 671277,
       "opponent": "COL",
@@ -456,6 +469,19 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 777477
+    },
+    {
+      "player": "Liberatore, Matthew",
+      "player_id": 669461,
+      "opponent": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": 107,
+      "stars": 1,
+      "game_pk": 777467
     },
     {
       "player": "Lindor, Francisco",
@@ -510,19 +536,6 @@
       "game_pk": 777477
     },
     {
-      "player": "Luzardo, Jes\u00fas",
-      "player_id": 666200,
-      "opponent": "MIA",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 777481
-    },
-    {
       "player": "Mangum, Jake",
       "player_id": 663968,
       "opponent": "BAL",
@@ -560,6 +573,19 @@
       "best_price": 190,
       "stars": 1,
       "game_pk": 777489
+    },
+    {
+      "player": "Pfaadt, Brandon",
+      "player_id": 694297,
+      "opponent": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 777479
     },
     {
       "player": "Quero, Edgar",
@@ -640,17 +666,17 @@
       "game_pk": 777480
     },
     {
-      "player": "Schwellenbach, Spencer",
-      "player_id": 680885,
-      "opponent": "NYM",
+      "player": "Senzatela, Antonio",
+      "player_id": 622608,
+      "opponent": "WSH",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 115,
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "fanatics",
+      "best_price": 100,
       "stars": 1,
-      "game_pk": 777489
+      "game_pk": 777480
     },
     {
       "player": "Slater, Austin",
