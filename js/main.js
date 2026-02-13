@@ -1301,15 +1301,34 @@
     container.appendChild(scrollWrap);
   }
 
-  function renderDrawdownStreak(summary) {
+  function computeMaxDrawdown(cumulativePnl) {
+    if (!cumulativePnl || cumulativePnl.length === 0) return null;
+    var peak = 0;
+    var worstDd = 0;
+    for (var i = 0; i < cumulativePnl.length; i++) {
+      var c = cumulativePnl[i].cumulative;
+      if (c > peak) peak = c;
+      var dd = c - peak;
+      if (dd < worstDd) worstDd = dd;
+    }
+    return worstDd;
+  }
+
+  function renderDrawdownStreak(data) {
     var container = document.getElementById('drawdown-streak-row');
     if (!container) return;
     clearChildren(container);
 
-    if (summary.max_drawdown !== undefined && summary.max_drawdown !== null) {
+    var summary = data.summary || data;
+    var maxDd = summary.max_drawdown;
+    if (maxDd === undefined || maxDd === null) {
+      maxDd = computeMaxDrawdown(data.cumulative_pnl);
+    }
+
+    if (maxDd !== null && maxDd !== undefined) {
       var ddBox = el('div', 'results-stat-box');
       ddBox.appendChild(el('div', 'results-stat-label', 'Max Drawdown'));
-      var ddVal = el('div', 'results-stat-value negative', formatPnl(summary.max_drawdown));
+      var ddVal = el('div', 'results-stat-value negative', formatPnl(maxDd));
       ddBox.appendChild(ddVal);
       container.appendChild(ddBox);
     }
@@ -1469,7 +1488,7 @@
       renderDirectionStats(data);
 
       // Drawdown and streak (item 22)
-      renderDrawdownStreak(s);
+      renderDrawdownStreak(data);
 
       if (data.cumulative_pnl && data.cumulative_pnl.length > 1) {
         var first = data.cumulative_pnl[0];
