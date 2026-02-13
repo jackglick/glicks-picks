@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.383449+00:00",
+  "generated_at": "2026-02-13T00:49:16.106517+00:00",
   "date": "2025-03-28",
   "picks": [
-    {
-      "player": "Jansen, Danny",
-      "player_id": 643376,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 140,
-      "stars": 2,
-      "game_pk": 778560
-    },
     {
       "player": "Marte, Ketel",
       "player_id": 606466,
@@ -42,19 +29,6 @@
       "game_pk": 778560
     },
     {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "ATH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 185,
-      "stars": 2,
-      "game_pk": 778541
-    },
-    {
       "player": "Bichette, Bo",
       "player_id": 666182,
       "opponent": "BAL",
@@ -68,19 +42,6 @@
       "game_pk": 778549
     },
     {
-      "player": "Caminero, Junior",
-      "player_id": 691406,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 778560
-    },
-    {
       "player": "D\u00edaz, Yandy",
       "player_id": 650490,
       "opponent": "COL",
@@ -89,48 +50,9 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -110,
+      "best_price": -115,
       "stars": 1,
       "game_pk": 778560
-    },
-    {
-      "player": "D\u00edaz, Yandy",
-      "player_id": 650490,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 778560
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -270,
-      "stars": 1,
-      "game_pk": 778548
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 778548
     },
     {
       "player": "Guerrero, Vladimir",
@@ -142,84 +64,6 @@
       "line": 1.5,
       "best_book": "bovada",
       "best_price": -125,
-      "stars": 1,
-      "game_pk": 778549
-    },
-    {
-      "player": "Keller, Mitch",
-      "player_id": 656605,
-      "opponent": "MIA",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778548
-    },
-    {
-      "player": "Kirk, Alejandro",
-      "player_id": 672386,
-      "opponent": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 778549
-    },
-    {
-      "player": "Morel, Christopher",
-      "player_id": 666624,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 778560
-    },
-    {
-      "player": "Robles, V\u00edctor",
-      "player_id": 645302,
-      "opponent": "ATH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 778541
-    },
-    {
-      "player": "Rutschman, Adley",
-      "player_id": 668939,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778549
-    },
-    {
-      "player": "Santander, Anthony",
-      "player_id": 623993,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -170,
       "stars": 1,
       "game_pk": 778549
     },

@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-13T00:00:46.490944+00:00",
+  "generated_at": "2026-02-13T00:49:16.182149+00:00",
   "date": "2025-06-06",
   "picks": [
+    {
+      "player": "Davis, Henry",
+      "player_id": 680779,
+      "opponent": "PHI",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "fanatics",
+      "best_price": 125,
+      "stars": 3,
+      "game_pk": 777621
+    },
     {
       "player": "Martin, Davis",
       "player_id": 663436,
@@ -12,84 +25,6 @@
       "line": 17.5,
       "best_book": "draftkings",
       "best_price": 125,
-      "stars": 3,
-      "game_pk": 777618
-    },
-    {
-      "player": "Norby, Connor",
-      "player_id": 681393,
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -185,
-      "stars": 3,
-      "game_pk": 777625
-    },
-    {
-      "player": "P\u00e9rez, Salvador",
-      "player_id": 521692,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -265,
-      "stars": 3,
-      "game_pk": 777618
-    },
-    {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -250,
-      "stars": 3,
-      "game_pk": 777621
-    },
-    {
-      "player": "Rojas, Johan",
-      "player_id": 679032,
-      "opponent": "PHI",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -200,
-      "stars": 3,
-      "game_pk": 777621
-    },
-    {
-      "player": "Santana, Carlos",
-      "player_id": 467793,
-      "opponent": "HOU",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -170,
-      "stars": 3,
-      "game_pk": 777622
-    },
-    {
-      "player": "Tauchman, Mike",
-      "player_id": 643565,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -185,
       "stars": 3,
       "game_pk": 777618
     },
@@ -159,19 +94,6 @@
       "game_pk": 777621
     },
     {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "fanatics",
-      "best_price": -140,
-      "stars": 2,
-      "game_pk": 777627
-    },
-    {
       "player": "Allen, Logan",
       "player_id": 671106,
       "opponent": "HOU",
@@ -185,19 +107,6 @@
       "game_pk": 777622
     },
     {
-      "player": "Bohm, Alec",
-      "player_id": 664761,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 777621
-    },
-    {
       "player": "Buehler, Walker",
       "player_id": 621111,
       "opponent": "NYY",
@@ -209,32 +118,6 @@
       "best_price": 125,
       "stars": 1,
       "game_pk": 777627
-    },
-    {
-      "player": "Crow-Armstrong, Pete",
-      "player_id": 691718,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 777626
-    },
-    {
-      "player": "Cruz, Oneil",
-      "player_id": 665833,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 185,
-      "stars": 1,
-      "game_pk": 777621
     },
     {
       "player": "De La Cruz, Elly",
@@ -289,19 +172,6 @@
       "game_pk": 777623
     },
     {
-      "player": "Gurriel, Lourdes",
-      "player_id": 666971,
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -215,
-      "stars": 1,
-      "game_pk": 777623
-    },
-    {
       "player": "Littell, Zack",
       "player_id": 641793,
       "opponent": "MIA",
@@ -315,71 +185,6 @@
       "game_pk": 777625
     },
     {
-      "player": "Mangum, Jake",
-      "player_id": 663968,
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 777625
-    },
-    {
-      "player": "McLain, Matt",
-      "player_id": 680574,
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 777623
-    },
-    {
-      "player": "Noel, Jhonkensy",
-      "player_id": 678877,
-      "opponent": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 777622
-    },
-    {
-      "player": "Noel, Jhonkensy",
-      "player_id": 678877,
-      "opponent": "HOU",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 777622
-    },
-    {
-      "player": "Rojas, Johan",
-      "player_id": 679032,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 136,
-      "stars": 1,
-      "game_pk": 777621
-    },
-    {
       "player": "Skubal, Tarik",
       "player_id": 669373,
       "opponent": "CHC",
@@ -391,84 +196,6 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 777626
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "CHC",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 777626
-    },
-    {
-      "player": "Steer, Spencer",
-      "player_id": 668715,
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 777623
-    },
-    {
-      "player": "Stephenson, Tyler",
-      "player_id": 663886,
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777623
-    },
-    {
-      "player": "Stott, Bryson",
-      "player_id": 681082,
-      "opponent": "PHI",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 777621
-    },
-    {
-      "player": "Tucker, Kyle",
-      "player_id": 663656,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 777626
-    },
-    {
-      "player": "Turner, Trea",
-      "player_id": 607208,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 777621
     }
   ]
 }

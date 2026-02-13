@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T00:00:46.458941+00:00",
+  "generated_at": "2026-02-13T00:49:16.156708+00:00",
   "date": "2025-05-15",
   "picks": [
     {
@@ -29,32 +29,6 @@
       "game_pk": 777911
     },
     {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 2,
-      "game_pk": 777909
-    },
-    {
-      "player": "Rutschman, Adley",
-      "player_id": 668939,
-      "opponent": "MIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 185,
-      "stars": 2,
-      "game_pk": 777911
-    },
-    {
       "player": "Santander, Anthony",
       "player_id": 623993,
       "opponent": "TB",
@@ -66,32 +40,6 @@
       "best_price": -137,
       "stars": 2,
       "game_pk": 777913
-    },
-    {
-      "player": "Semien, Marcus",
-      "player_id": 543760,
-      "opponent": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 186,
-      "stars": 2,
-      "game_pk": 777910
-    },
-    {
-      "player": "Steer, Spencer",
-      "player_id": 668715,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 185,
-      "stars": 2,
-      "game_pk": 777912
     },
     {
       "player": "Sugano, Tomoyuki",
@@ -120,32 +68,6 @@
       "game_pk": 777911
     },
     {
-      "player": "Williams, Trevor",
-      "player_id": 592866,
-      "opponent": "ATL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.0,
-      "best_book": "draftkings",
-      "best_price": -165,
-      "stars": 2,
-      "game_pk": 777909
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -166,
-      "stars": 1,
-      "game_pk": 777909
-    },
-    {
       "player": "Bell, Josh",
       "player_id": 605137,
       "opponent": "WSH",
@@ -159,19 +81,6 @@
       "game_pk": 777909
     },
     {
-      "player": "Castro, Willi",
-      "player_id": 650489,
-      "opponent": "MIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -194,
-      "stars": 1,
-      "game_pk": 777911
-    },
-    {
       "player": "De La Cruz, Elly",
       "player_id": 682829,
       "opponent": "CWS",
@@ -181,19 +90,6 @@
       "line": 1.5,
       "best_book": "williamhill_us",
       "best_price": -148,
-      "stars": 1,
-      "game_pk": 777912
-    },
-    {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 190,
       "stars": 1,
       "game_pk": 777912
     },
@@ -224,19 +120,6 @@
       "game_pk": 777913
     },
     {
-      "player": "Harris, Michael",
-      "player_id": 671739,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "draftkings",
-      "best_price": 195,
-      "stars": 1,
-      "game_pk": 777909
-    },
-    {
       "player": "Hays, Austin",
       "player_id": 669720,
       "opponent": "CWS",
@@ -246,45 +129,6 @@
       "line": 1.5,
       "best_book": "betonlineag",
       "best_price": -122,
-      "stars": 1,
-      "game_pk": 777912
-    },
-    {
-      "player": "Heim, Jonah",
-      "player_id": 641680,
-      "opponent": "HOU",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 777910
-    },
-    {
-      "player": "Kjerstad, Heston",
-      "player_id": 677008,
-      "opponent": "MIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 777911
-    },
-    {
-      "player": "Martinez, Nick",
-      "player_id": 607259,
-      "opponent": "CWS",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 8.0,
-      "best_book": "draftkings",
-      "best_price": -160,
       "stars": 1,
       "game_pk": 777912
     },
@@ -315,19 +159,6 @@
       "game_pk": 777912
     },
     {
-      "player": "McLain, Matt",
-      "player_id": 680574,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 146,
-      "stars": 1,
-      "game_pk": 777912
-    },
-    {
       "player": "Mountcastle, Ryan",
       "player_id": 663624,
       "opponent": "MIN",
@@ -339,32 +170,6 @@
       "best_price": -133,
       "stars": 1,
       "game_pk": 777911
-    },
-    {
-      "player": "Mountcastle, Ryan",
-      "player_id": 663624,
-      "opponent": "MIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -220,
-      "stars": 1,
-      "game_pk": 777911
-    },
-    {
-      "player": "Olson, Matt",
-      "player_id": 621566,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "betonlineag",
-      "best_price": 179,
-      "stars": 1,
-      "game_pk": 777909
     },
     {
       "player": "Ozuna, Marcell",
@@ -380,58 +185,6 @@
       "game_pk": 777909
     },
     {
-      "player": "Pederson, Joc",
-      "player_id": 592626,
-      "opponent": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777910
-    },
-    {
-      "player": "Rutschman, Adley",
-      "player_id": 668939,
-      "opponent": "MIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 777911
-    },
-    {
-      "player": "Santander, Anthony",
-      "player_id": 623993,
-      "opponent": "TB",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "draftkings",
-      "best_price": 165,
-      "stars": 1,
-      "game_pk": 777913
-    },
-    {
-      "player": "Semien, Marcus",
-      "player_id": 543760,
-      "opponent": "HOU",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777910
-    },
-    {
       "player": "Steer, Spencer",
       "player_id": 668715,
       "opponent": "CWS",
@@ -441,19 +194,6 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -140,
-      "stars": 1,
-      "game_pk": 777912
-    },
-    {
-      "player": "Stephenson, Tyler",
-      "player_id": 663886,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
       "stars": 1,
       "game_pk": 777912
     },

@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.654473+00:00",
+  "generated_at": "2026-02-13T00:49:16.297894+00:00",
   "date": "2025-09-30",
   "picks": [
-    {
-      "player": "Fried, Max",
-      "player_id": 608331,
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "betonlineag",
-      "best_price": -141,
-      "stars": 3,
-      "game_pk": 813074
-    },
-    {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": "fanatics",
-      "best_price": -125,
-      "stars": 2,
-      "game_pk": 813074
-    },
     {
       "player": "Crochet, Garrett",
       "player_id": 676979,
@@ -36,22 +10,9 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 135,
+      "best_book": "draftkings",
+      "best_price": 128,
       "stars": 2,
-      "game_pk": 813074
-    },
-    {
-      "player": "Grisham, Trent",
-      "player_id": 663757,
-      "opponent": "BOS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "betmgm",
-      "best_price": 105,
-      "stars": 1,
       "game_pk": 813074
     },
     {
@@ -64,19 +25,6 @@
       "line": 1.5,
       "best_book": "draftkings",
       "best_price": -146,
-      "stars": 1,
-      "game_pk": 813072
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "CLE",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": 118,
       "stars": 1,
       "game_pk": 813072
     }

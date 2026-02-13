@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-13T00:00:46.479958+00:00",
+  "generated_at": "2026-02-13T00:49:16.173800+00:00",
   "date": "2025-05-29",
   "picks": [
+    {
+      "player": "Barger, Addison",
+      "player_id": 680718,
+      "opponent": "ATH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 3,
+      "game_pk": 777727
+    },
     {
       "player": "Lukes, Nathan",
       "player_id": 664770,
@@ -29,6 +42,19 @@
       "game_pk": 777727
     },
     {
+      "player": "Olson, Matt",
+      "player_id": 621566,
+      "opponent": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "williamhill_us",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 777735
+    },
+    {
       "player": "Raleigh, Cal",
       "player_id": 663728,
       "opponent": "WSH",
@@ -50,7 +76,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "draftkings",
-      "best_price": -165,
+      "best_price": 125,
       "stars": 2,
       "game_pk": 777727
     },
@@ -68,58 +94,6 @@
       "game_pk": 777735
     },
     {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 777735
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 777723
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.0,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777735
-    },
-    {
-      "player": "Bell, Josh",
-      "player_id": 605137,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 777722
-    },
-    {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
       "opponent": "ATH",
@@ -133,69 +107,17 @@
       "game_pk": 777727
     },
     {
-      "player": "Polanco, Jorge",
-      "player_id": 593871,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 777722
-    },
-    {
-      "player": "Raleigh, Cal",
-      "player_id": 663728,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 777722
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -235,
-      "stars": 1,
-      "game_pk": 777722
-    },
-    {
-      "player": "Ruiz, Keibert",
-      "player_id": 660688,
-      "opponent": "WSH",
+      "player": "Olson, Matt",
+      "player_id": 621566,
+      "opponent": "ATL",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 155,
+      "line": 1.5,
+      "best_book": "williamhill_us",
+      "best_price": 130,
       "stars": 1,
-      "game_pk": 777722
-    },
-    {
-      "player": "Santander, Anthony",
-      "player_id": 623993,
-      "opponent": "ATH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 777727
+      "game_pk": 777723
     }
   ]
 }

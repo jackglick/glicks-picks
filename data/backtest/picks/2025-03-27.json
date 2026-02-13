@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.382408+00:00",
+  "generated_at": "2026-02-13T00:49:16.104804+00:00",
   "date": "2025-03-27",
   "picks": [
-    {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "TEX",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 15.5,
-      "best_book": "draftkings",
-      "best_price": -145,
-      "stars": 3,
-      "game_pk": 778553
-    },
     {
       "player": "Skubal, Tarik",
       "player_id": 669373,
@@ -26,32 +13,6 @@
       "best_book": "draftkings",
       "best_price": 100,
       "stars": 3,
-      "game_pk": 778546
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betmgm",
-      "best_price": -235,
-      "stars": 2,
-      "game_pk": 778556
-    },
-    {
-      "player": "Carpenter, Kerry",
-      "player_id": 681481,
-      "opponent": "DET",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "williamhill_us",
-      "best_price": 116,
-      "stars": 2,
       "game_pk": 778546
     },
     {
@@ -68,45 +29,6 @@
       "game_pk": 778553
     },
     {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "fanduel",
-      "best_price": -132,
-      "stars": 2,
-      "game_pk": 778557
-    },
-    {
-      "player": "Alcantara, Sandy",
-      "player_id": 645261,
-      "opponent": "PIT",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanatics",
-      "best_price": -150,
-      "stars": 1,
-      "game_pk": 778562
-    },
-    {
-      "player": "Anderson, Tim",
-      "player_id": 641313,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 778554
-    },
-    {
       "player": "Bichette, Bo",
       "player_id": 666182,
       "opponent": "BAL",
@@ -118,97 +40,6 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 778556
-    },
-    {
-      "player": "Carpenter, Kerry",
-      "player_id": 681481,
-      "opponent": "DET",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "williamhill_us",
-      "best_price": 116,
-      "stars": 1,
-      "game_pk": 778546
-    },
-    {
-      "player": "Chourio, Jackson",
-      "player_id": 694192,
-      "opponent": "MIL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 778557
-    },
-    {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "TEX",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778553
-    },
-    {
-      "player": "Encarnacion-Strand, Christian",
-      "player_id": 687952,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 165,
-      "stars": 1,
-      "game_pk": 778561
-    },
-    {
-      "player": "Fitzgerald, Tyler",
-      "player_id": 666149,
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 107,
-      "stars": 1,
-      "game_pk": 778561
-    },
-    {
-      "player": "Greene, Hunter",
-      "player_id": 668881,
-      "opponent": "SF",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "williamhill_us",
-      "best_price": -109,
-      "stars": 1,
-      "game_pk": 778561
-    },
-    {
-      "player": "Greene, Riley",
-      "player_id": 682985,
-      "opponent": "DET",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": -116,
-      "stars": 1,
-      "game_pk": 778546
     },
     {
       "player": "L\u00f3pez, Pablo",
@@ -224,19 +55,6 @@
       "game_pk": 778551
     },
     {
-      "player": "Ohtani, Shohei",
-      "player_id": 660271,
-      "opponent": "DET",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 778546
-    },
-    {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "CLE",
@@ -248,19 +66,6 @@
       "best_price": -145,
       "stars": 1,
       "game_pk": 778558
-    },
-    {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 778562
     },
     {
       "player": "Rutschman, Adley",
@@ -276,45 +81,6 @@
       "game_pk": 778556
     },
     {
-      "player": "Santander, Anthony",
-      "player_id": 623993,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778556
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "MIA",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "williamhill_us",
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 778562
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "MIA",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": -200,
-      "stars": 1,
-      "game_pk": 778562
-    },
-    {
       "player": "Skubal, Tarik",
       "player_id": 669373,
       "opponent": "LAD",
@@ -328,32 +94,6 @@
       "game_pk": 778546
     },
     {
-      "player": "Snell, Blake",
-      "player_id": 605483,
-      "opponent": "DET",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 778546
-    },
-    {
-      "player": "Valdez, Framber",
-      "player_id": 664285,
-      "opponent": "NYM",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 15.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 778559
-    },
-    {
       "player": "Webb, Logan",
       "player_id": 657277,
       "opponent": "CIN",
@@ -365,19 +105,6 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 778561
-    },
-    {
-      "player": "Wheeler, Zack",
-      "player_id": 554430,
-      "opponent": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 778555
     }
   ]
 }

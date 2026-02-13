@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.522500+00:00",
+  "generated_at": "2026-02-13T00:49:16.205636+00:00",
   "date": "2025-07-01",
   "picks": [
-    {
-      "player": "Buxton, Byron",
-      "player_id": 621439,
-      "opponent": "MIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -265,
-      "stars": 3,
-      "game_pk": 777293
-    },
     {
       "player": "De La Cruz, Elly",
       "player_id": 682829,
@@ -29,43 +16,17 @@
       "game_pk": 777294
     },
     {
-      "player": "Rengifo, Luis",
-      "player_id": 650859,
-      "opponent": "LAA",
+      "player": "Lewis, Royce",
+      "player_id": 668904,
+      "opponent": "MIN",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -204,
+      "best_book": "bovada",
+      "best_price": 145,
       "stars": 3,
-      "game_pk": 777298
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "LAA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 2,
-      "game_pk": 777298
-    },
-    {
-      "player": "Aranda, Jonathan",
-      "player_id": 666018,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -185,
-      "stars": 2,
-      "game_pk": 777286
+      "game_pk": 777293
     },
     {
       "player": "Fitts, Richard",
@@ -110,19 +71,6 @@
       "player": "Abreu, Wilyer",
       "player_id": 677800,
       "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 178,
-      "stars": 1,
-      "game_pk": 777294
-    },
-    {
-      "player": "Abreu, Wilyer",
-      "player_id": 677800,
-      "opponent": "CIN",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
@@ -131,19 +79,6 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 777294
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 195,
-      "stars": 1,
-      "game_pk": 777298
     },
     {
       "player": "Caglianone, Jac",
@@ -159,19 +94,6 @@
       "game_pk": 777281
     },
     {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -205,
-      "stars": 1,
-      "game_pk": 777294
-    },
-    {
       "player": "Duran, Jarren",
       "player_id": 680776,
       "opponent": "CIN",
@@ -183,45 +105,6 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 777294
-    },
-    {
-      "player": "Duran, Jarren",
-      "player_id": 680776,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -196,
-      "stars": 1,
-      "game_pk": 777294
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "MIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777293
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "MIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 777293
     },
     {
       "player": "Gausman, Kevin",
@@ -237,32 +120,6 @@
       "game_pk": 777283
     },
     {
-      "player": "Haggerty, Sam",
-      "player_id": 664059,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 777282
-    },
-    {
-      "player": "McLain, Matt",
-      "player_id": 680574,
-      "opponent": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 777294
-    },
-    {
       "player": "McLain, Matt",
       "player_id": 680574,
       "opponent": "CIN",
@@ -276,19 +133,6 @@
       "game_pk": 777294
     },
     {
-      "player": "Mead, Curtis",
-      "player_id": 678554,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 777286
-    },
-    {
       "player": "Pallante, Andre",
       "player_id": 669467,
       "opponent": "PIT",
@@ -298,19 +142,6 @@
       "line": 16.5,
       "best_book": "bovada",
       "best_price": -105,
-      "stars": 1,
-      "game_pk": 777288
-    },
-    {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "STL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -152,
       "stars": 1,
       "game_pk": 777288
     },
@@ -341,32 +172,6 @@
       "game_pk": 777293
     },
     {
-      "player": "Ryan, Joe",
-      "player_id": 657746,
-      "opponent": "MIA",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 777293
-    },
-    {
-      "player": "Singer, Brady",
-      "player_id": 663903,
-      "opponent": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 777294
-    },
-    {
       "player": "Springs, Jeffrey",
       "player_id": 605488,
       "opponent": "TB",
@@ -378,19 +183,6 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 777286
-    },
-    {
-      "player": "Trout, Mike",
-      "player_id": 545361,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777298
     }
   ]
 }

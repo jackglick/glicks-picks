@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T00:00:46.529277+00:00",
+  "generated_at": "2026-02-13T00:49:16.210336+00:00",
   "date": "2025-07-06",
   "picks": [
     {
@@ -16,19 +16,6 @@
       "game_pk": 777220
     },
     {
-      "player": "Chapman, Matt",
-      "player_id": 656305,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betmgm",
-      "best_price": 180,
-      "stars": 3,
-      "game_pk": 777210
-    },
-    {
       "player": "Dollander, Chase",
       "player_id": 801403,
       "opponent": "CWS",
@@ -42,6 +29,19 @@
       "game_pk": 777215
     },
     {
+      "player": "Gelof, Zack",
+      "player_id": 680869,
+      "opponent": "SF",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "fanatics",
+      "best_price": 105,
+      "stars": 3,
+      "game_pk": 777210
+    },
+    {
       "player": "Nootbaar, Lars",
       "player_id": 663457,
       "opponent": "STL",
@@ -53,45 +53,6 @@
       "best_price": 140,
       "stars": 3,
       "game_pk": 777219
-    },
-    {
-      "player": "Rave, John",
-      "player_id": 670231,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -265,
-      "stars": 3,
-      "game_pk": 777218
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -265,
-      "stars": 3,
-      "game_pk": 777205
-    },
-    {
-      "player": "Tat\u00eds, Fernando",
-      "player_id": 665487,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betmgm",
-      "best_price": -235,
-      "stars": 3,
-      "game_pk": 777207
     },
     {
       "player": "Baldwin, Brooks",
@@ -133,71 +94,6 @@
       "game_pk": 777219
     },
     {
-      "player": "Walls, Taylor",
-      "player_id": 670764,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -275,
-      "stars": 2,
-      "game_pk": 777220
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777222
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777222
-    },
-    {
-      "player": "Baldwin, Brooks",
-      "player_id": 681460,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -205,
-      "stars": 1,
-      "game_pk": 777215
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -208,
-      "stars": 1,
-      "game_pk": 777214
-    },
-    {
       "player": "Boyd, Matthew",
       "player_id": 571510,
       "opponent": "STL",
@@ -224,19 +120,6 @@
       "game_pk": 777224
     },
     {
-      "player": "Caglianone, Jac",
-      "player_id": 695506,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777218
-    },
-    {
       "player": "Clement, Ernie",
       "player_id": 676391,
       "opponent": "LAA",
@@ -248,19 +131,6 @@
       "best_price": -130,
       "stars": 1,
       "game_pk": 777214
-    },
-    {
-      "player": "Contreras, William",
-      "player_id": 661388,
-      "opponent": "MIL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 777224
     },
     {
       "player": "Crochet, Garrett",
@@ -289,19 +159,6 @@
       "game_pk": 777215
     },
     {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "MIL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 777224
-    },
-    {
       "player": "Fedde, Erick",
       "player_id": 607200,
       "opponent": "CHC",
@@ -315,19 +172,6 @@
       "game_pk": 777219
     },
     {
-      "player": "Fitzgerald, Tyler",
-      "player_id": 666149,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 777210
-    },
-    {
       "player": "Flores, Wilmer",
       "player_id": 527038,
       "opponent": "SF",
@@ -339,19 +183,6 @@
       "best_price": -130,
       "stars": 1,
       "game_pk": 777210
-    },
-    {
-      "player": "Fried, Max",
-      "player_id": 608331,
-      "opponent": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 777216
     },
     {
       "player": "Fried, Max",
@@ -393,32 +224,6 @@
       "game_pk": 777206
     },
     {
-      "player": "Harris, Michael",
-      "player_id": 671739,
-      "opponent": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 777222
-    },
-    {
-      "player": "Hays, Austin",
-      "player_id": 669720,
-      "opponent": "CIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777217
-    },
-    {
       "player": "Holmes, Grant",
       "player_id": 656550,
       "opponent": "BAL",
@@ -443,58 +248,6 @@
       "best_price": 105,
       "stars": 1,
       "game_pk": 777222
-    },
-    {
-      "player": "Iglesias, Jose",
-      "player_id": 578428,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betmgm",
-      "best_price": 180,
-      "stars": 1,
-      "game_pk": 777207
-    },
-    {
-      "player": "Lee, Brooks",
-      "player_id": 686797,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 777220
-    },
-    {
-      "player": "Lindor, Francisco",
-      "player_id": 596019,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777216
-    },
-    {
-      "player": "Loftin, Nick",
-      "player_id": 679845,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777218
     },
     {
       "player": "Lorenzen, Michael",
@@ -549,19 +302,6 @@
       "game_pk": 777205
     },
     {
-      "player": "Ritter, Ryan",
-      "player_id": 690022,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 180,
-      "stars": 1,
-      "game_pk": 777215
-    },
-    {
       "player": "Ryan, Joe",
       "player_id": 657746,
       "opponent": "TB",
@@ -586,71 +326,6 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 777215
-    },
-    {
-      "player": "Su\u00e1rez, Eugenio",
-      "player_id": 553993,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 180,
-      "stars": 1,
-      "game_pk": 777218
-    },
-    {
-      "player": "Toglia, Michael",
-      "player_id": 669911,
-      "opponent": "CWS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -164,
-      "stars": 1,
-      "game_pk": 777215
-    },
-    {
-      "player": "Toglia, Michael",
-      "player_id": 669911,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 777215
-    },
-    {
-      "player": "Turang, Brice",
-      "player_id": 668930,
-      "opponent": "MIL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 777224
-    },
-    {
-      "player": "Witt, Bobby",
-      "player_id": 677951,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -179,
-      "stars": 1,
-      "game_pk": 777218
     }
   ]
 }

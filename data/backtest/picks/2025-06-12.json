@@ -1,59 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.497891+00:00",
+  "generated_at": "2026-02-13T00:49:16.187245+00:00",
   "date": "2025-06-12",
   "picks": [
-    {
-      "player": "Altuve, Jos\u00e9",
-      "player_id": 514888,
-      "opponent": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -265,
-      "stars": 3,
-      "game_pk": 777546
-    },
-    {
-      "player": "Beck, Jordan",
-      "player_id": 687597,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -240,
-      "stars": 3,
-      "game_pk": 777534
-    },
-    {
-      "player": "Estrada, Thairo",
-      "player_id": 642731,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -215,
-      "stars": 3,
-      "game_pk": 777534
-    },
-    {
-      "player": "India, Jonathan",
-      "player_id": 663697,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -180,
-      "stars": 3,
-      "game_pk": 777536
-    },
     {
       "player": "McKinstry, Zach",
       "player_id": 656716,
@@ -81,32 +29,6 @@
       "game_pk": 777533
     },
     {
-      "player": "Rutschman, Adley",
-      "player_id": 668939,
-      "opponent": "DET",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -170,
-      "stars": 3,
-      "game_pk": 777540
-    },
-    {
-      "player": "Yastrzemski, Mike",
-      "player_id": 573262,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -220,
-      "stars": 3,
-      "game_pk": 777534
-    },
-    {
       "player": "Adames, Willy",
       "player_id": 642715,
       "opponent": "SF",
@@ -115,20 +37,7 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "fanatics",
-      "best_price": 105,
-      "stars": 2,
-      "game_pk": 777534
-    },
-    {
-      "player": "Adames, Willy",
-      "player_id": 642715,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -185,
+      "best_price": -115,
       "stars": 2,
       "game_pk": 777534
     },
@@ -140,8 +49,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -120,
+      "best_book": "fanatics",
+      "best_price": -145,
       "stars": 2,
       "game_pk": 777534
     },
@@ -157,45 +66,6 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 777534
-    },
-    {
-      "player": "Senga, Kodai",
-      "player_id": 673540,
-      "opponent": "WSH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 158,
-      "stars": 2,
-      "game_pk": 777544
-    },
-    {
-      "player": "Bride, Jonah",
-      "player_id": 681146,
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 777533
-    },
-    {
-      "player": "B\u00e1ez, Javier",
-      "player_id": 595879,
-      "opponent": "DET",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 777540
     },
     {
       "player": "Corbin, Patrick",
@@ -218,8 +88,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -115,
+      "best_book": "fanatics",
+      "best_price": -130,
       "stars": 1,
       "game_pk": 777534
     },
@@ -231,8 +101,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 110,
+      "best_book": "fanatics",
+      "best_price": -105,
       "stars": 1,
       "game_pk": 777534
     },
@@ -244,8 +114,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -160,
+      "best_book": "bovada",
+      "best_price": 135,
       "stars": 1,
       "game_pk": 777534
     },
@@ -263,32 +133,6 @@
       "game_pk": 777532
     },
     {
-      "player": "Greene, Riley",
-      "player_id": 682985,
-      "opponent": "DET",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 195,
-      "stars": 1,
-      "game_pk": 777540
-    },
-    {
-      "player": "Judge, Aaron",
-      "player_id": 592450,
-      "opponent": "NYY",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 777536
-    },
-    {
       "player": "Lee, Jung Hoo",
       "player_id": 808982,
       "opponent": "SF",
@@ -296,23 +140,10 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": 130,
+      "best_book": "fanatics",
+      "best_price": 110,
       "stars": 1,
       "game_pk": 777534
-    },
-    {
-      "player": "Lewis, Royce",
-      "player_id": 668904,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 777533
     },
     {
       "player": "Lindor, Francisco",
@@ -335,8 +166,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -150,
+      "best_book": "fanatics",
+      "best_price": 125,
       "stars": 1,
       "game_pk": 777534
     },
@@ -354,19 +185,6 @@
       "game_pk": 777534
     },
     {
-      "player": "Nimmo, Brandon",
-      "player_id": 607043,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 777544
-    },
-    {
       "player": "Ramos, Heliot",
       "player_id": 671218,
       "opponent": "SF",
@@ -374,8 +192,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -110,
+      "best_book": "bovada",
+      "best_price": -120,
       "stars": 1,
       "game_pk": 777534
     },
@@ -387,21 +205,8 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 2.5,
-      "best_book": "williamhill_us",
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 777534
-    },
-    {
-      "player": "Schmitt, Casey",
-      "player_id": 669477,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -210,
+      "best_book": "fanatics",
+      "best_price": -145,
       "stars": 1,
       "game_pk": 777534
     },
@@ -419,19 +224,6 @@
       "game_pk": 777534
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "BAL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 7.5,
-      "best_book": "fanduel",
-      "best_price": -144,
-      "stars": 1,
-      "game_pk": 777540
-    },
-    {
       "player": "Smith, Dominic",
       "player_id": 642086,
       "opponent": "SF",
@@ -441,19 +233,6 @@
       "line": 1.5,
       "best_book": "williamhill_us",
       "best_price": -110,
-      "stars": 1,
-      "game_pk": 777534
-    },
-    {
-      "player": "Smith, Dominic",
-      "player_id": 642086,
-      "opponent": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -190,
       "stars": 1,
       "game_pk": 777534
     },
@@ -469,45 +248,6 @@
       "best_price": 102,
       "stars": 1,
       "game_pk": 777544
-    },
-    {
-      "player": "Torres, Gleyber",
-      "player_id": 650402,
-      "opponent": "DET",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777540
-    },
-    {
-      "player": "Wood, James",
-      "player_id": 695578,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 777544
-    },
-    {
-      "player": "Yastrzemski, Mike",
-      "player_id": 573262,
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777534
     }
   ]
 }

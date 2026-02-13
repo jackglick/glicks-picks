@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-02-13T00:00:46.624449+00:00",
+  "generated_at": "2026-02-13T00:49:16.278412+00:00",
   "date": "2025-09-08",
   "picks": [
     {
-      "player": "Arias, Gabriel",
-      "player_id": 672356,
-      "opponent": "KC",
+      "player": "Castro, Willi",
+      "player_id": 650489,
+      "opponent": "CHC",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -238,
+      "best_book": "bovada",
+      "best_price": 130,
       "stars": 3,
-      "game_pk": 776413
+      "game_pk": 776412
     },
     {
       "player": "Sosa, Edmundo",
@@ -27,19 +27,6 @@
       "best_price": -105,
       "stars": 3,
       "game_pk": 776405
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 776412
     },
     {
       "player": "Edwards, Xavier",
@@ -55,32 +42,6 @@
       "game_pk": 776409
     },
     {
-      "player": "Hicks, Liam",
-      "player_id": 689414,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -238,
-      "stars": 2,
-      "game_pk": 776409
-    },
-    {
-      "player": "Jones, Nolan",
-      "player_id": 666134,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -300,
-      "stars": 2,
-      "game_pk": 776413
-    },
-    {
       "player": "Sosa, Edmundo",
       "player_id": 624641,
       "opponent": "NYM",
@@ -92,71 +53,6 @@
       "best_price": -105,
       "stars": 2,
       "game_pk": 776405
-    },
-    {
-      "player": "Acosta, Maximo",
-      "player_id": 691185,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -196,
-      "stars": 1,
-      "game_pk": 776409
-    },
-    {
-      "player": "Adams, Riley",
-      "player_id": 656180,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -213,
-      "stars": 1,
-      "game_pk": 776409
-    },
-    {
-      "player": "Bell, Josh",
-      "player_id": 605137,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 776409
-    },
-    {
-      "player": "Bell, Josh",
-      "player_id": 605137,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 180,
-      "stars": 1,
-      "game_pk": 776409
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -215,
-      "stars": 1,
-      "game_pk": 776409
     },
     {
       "player": "Elder, Bryce",
@@ -172,97 +68,6 @@
       "game_pk": 776412
     },
     {
-      "player": "Frazier, Adam",
-      "player_id": 624428,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -208,
-      "stars": 1,
-      "game_pk": 776413
-    },
-    {
-      "player": "Garc\u00eda, Luis",
-      "player_id": 671277,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 776409
-    },
-    {
-      "player": "Happ, Ian",
-      "player_id": 664023,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 776412
-    },
-    {
-      "player": "Loftin, Nick",
-      "player_id": 679845,
-      "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 166,
-      "stars": 1,
-      "game_pk": 776413
-    },
-    {
-      "player": "Ozuna, Marcell",
-      "player_id": 542303,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -213,
-      "stars": 1,
-      "game_pk": 776412
-    },
-    {
-      "player": "Ozuna, Marcell",
-      "player_id": 542303,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 131,
-      "stars": 1,
-      "game_pk": 776412
-    },
-    {
-      "player": "Profar, Jurickson",
-      "player_id": 595777,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 776412
-    },
-    {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "KC",
@@ -274,71 +79,6 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 776413
-    },
-    {
-      "player": "Schneemann, Daniel",
-      "player_id": 682177,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -233,
-      "stars": 1,
-      "game_pk": 776413
-    },
-    {
-      "player": "Shaw, Matt",
-      "player_id": 807713,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -217,
-      "stars": 1,
-      "game_pk": 776412
-    },
-    {
-      "player": "Soto, Juan",
-      "player_id": 665742,
-      "opponent": "NYM",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 776405
-    },
-    {
-      "player": "Suzuki, Seiya",
-      "player_id": 673548,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 165,
-      "stars": 1,
-      "game_pk": 776412
-    },
-    {
-      "player": "Wood, James",
-      "player_id": 695578,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 165,
-      "stars": 1,
-      "game_pk": 776409
     }
   ]
 }

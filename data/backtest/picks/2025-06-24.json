@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.513910+00:00",
+  "generated_at": "2026-02-13T00:49:16.198898+00:00",
   "date": "2025-06-24",
   "picks": [
-    {
-      "player": "Garc\u00eda, Luis",
-      "player_id": 671277,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -270,
-      "stars": 3,
-      "game_pk": 777372
-    },
     {
       "player": "Narv\u00e1ez, Carlos",
       "player_id": 665966,
@@ -29,19 +16,6 @@
       "game_pk": 777376
     },
     {
-      "player": "Abreu, Wilyer",
-      "player_id": 677800,
-      "opponent": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 190,
-      "stars": 2,
-      "game_pk": 777376
-    },
-    {
       "player": "Bubic, Kris",
       "player_id": 663460,
       "opponent": "TB",
@@ -53,19 +27,6 @@
       "best_price": 140,
       "stars": 2,
       "game_pk": 777378
-    },
-    {
-      "player": "Duran, Jarren",
-      "player_id": 680776,
-      "opponent": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -190,
-      "stars": 2,
-      "game_pk": 777376
     },
     {
       "player": "Nelson, Ryne",
@@ -107,19 +68,6 @@
       "game_pk": 777376
     },
     {
-      "player": "Acu\u00f1a, Ronald",
-      "player_id": 660670,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 777387
-    },
-    {
       "player": "Allen, Logan",
       "player_id": 671106,
       "opponent": "TOR",
@@ -129,19 +77,6 @@
       "line": 3.5,
       "best_book": "bovada",
       "best_price": -105,
-      "stars": 1,
-      "game_pk": 777384
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -154,
       "stars": 1,
       "game_pk": 777384
     },
@@ -159,32 +94,6 @@
       "game_pk": 777378
     },
     {
-      "player": "Carlson, Dylan",
-      "player_id": 666185,
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 777380
-    },
-    {
-      "player": "Carpenter, Kerry",
-      "player_id": 681481,
-      "opponent": "ATH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 777386
-    },
-    {
       "player": "Castillo, Luis",
       "player_id": 622491,
       "opponent": "MIN",
@@ -196,32 +105,6 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 777375
-    },
-    {
-      "player": "Collins, Isaac",
-      "player_id": 686555,
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 777374
-    },
-    {
-      "player": "Contreras, William",
-      "player_id": 661388,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777374
     },
     {
       "player": "De La Cruz, Elly",
@@ -250,19 +133,6 @@
       "game_pk": 777376
     },
     {
-      "player": "Gim\u00e9nez, Andr\u00e9s",
-      "player_id": 665926,
-      "opponent": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 777384
-    },
-    {
       "player": "Happ, Ian",
       "player_id": 664023,
       "opponent": "CHC",
@@ -289,58 +159,6 @@
       "game_pk": 777374
     },
     {
-      "player": "Kurtz, Nick",
-      "player_id": 701762,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 777386
-    },
-    {
-      "player": "Lauer, Eric",
-      "player_id": 641778,
-      "opponent": "CLE",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 777384
-    },
-    {
-      "player": "Lee, Brooks",
-      "player_id": 686797,
-      "opponent": "SEA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777375
-    },
-    {
-      "player": "Lee, Brooks",
-      "player_id": 686797,
-      "opponent": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 185,
-      "stars": 1,
-      "game_pk": 777375
-    },
-    {
       "player": "Lindor, Francisco",
       "player_id": 596019,
       "opponent": "ATL",
@@ -352,32 +170,6 @@
       "best_price": -135,
       "stars": 1,
       "game_pk": 777387
-    },
-    {
-      "player": "McLain, Matt",
-      "player_id": 680574,
-      "opponent": "NYY",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 777385
-    },
-    {
-      "player": "Narv\u00e1ez, Carlos",
-      "player_id": 665966,
-      "opponent": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -245,
-      "stars": 1,
-      "game_pk": 777376
     },
     {
       "player": "Nelson, Ryne",
@@ -432,32 +224,6 @@
       "game_pk": 777385
     },
     {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "ATH",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 777386
-    },
-    {
-      "player": "Story, Trevor",
-      "player_id": 596115,
-      "opponent": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777376
-    },
-    {
       "player": "Taillon, Jameson",
       "player_id": 592791,
       "opponent": "STL",
@@ -471,32 +237,6 @@
       "game_pk": 777373
     },
     {
-      "player": "Thomas, Lane",
-      "player_id": 657041,
-      "opponent": "TOR",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 777384
-    },
-    {
-      "player": "Thomas, Lane",
-      "player_id": 657041,
-      "opponent": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 777384
-    },
-    {
       "player": "Toro, Abraham",
       "player_id": 647351,
       "opponent": "BOS",
@@ -506,32 +246,6 @@
       "line": 1.5,
       "best_book": "williamhill_us",
       "best_price": -145,
-      "stars": 1,
-      "game_pk": 777376
-    },
-    {
-      "player": "Torrens, Luis",
-      "player_id": 620443,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -300,
-      "stars": 1,
-      "game_pk": 777387
-    },
-    {
-      "player": "Trout, Mike",
-      "player_id": 545361,
-      "opponent": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 185,
       "stars": 1,
       "game_pk": 777376
     }

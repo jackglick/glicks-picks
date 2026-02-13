@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T00:00:46.561767+00:00",
+  "generated_at": "2026-02-13T00:49:16.238735+00:00",
   "date": "2025-07-31",
   "picks": [
     {
@@ -16,32 +16,6 @@
       "game_pk": 776928
     },
     {
-      "player": "Fraley, Jake",
-      "player_id": 641584,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -217,
-      "stars": 3,
-      "game_pk": 776928
-    },
-    {
-      "player": "Pederson, Joc",
-      "player_id": 592626,
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "mybookieag",
-      "best_price": -220,
-      "stars": 3,
-      "game_pk": 776923
-    },
-    {
       "player": "Abbott, Andrew",
       "player_id": 671096,
       "opponent": "ATL",
@@ -53,32 +27,6 @@
       "best_price": 120,
       "stars": 2,
       "game_pk": 776928
-    },
-    {
-      "player": "Mangum, Jake",
-      "player_id": 663968,
-      "opponent": "TB",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 190,
-      "stars": 2,
-      "game_pk": 776927
-    },
-    {
-      "player": "Stanton, Giancarlo",
-      "player_id": 519317,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -192,
-      "stars": 2,
-      "game_pk": 776927
     },
     {
       "player": "Abbott, Andrew",
@@ -94,149 +42,6 @@
       "game_pk": 776928
     },
     {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 776928
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 776928
-    },
-    {
-      "player": "Carter, Evan",
-      "player_id": 694497,
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "mybookieag",
-      "best_price": -275,
-      "stars": 1,
-      "game_pk": 776923
-    },
-    {
-      "player": "Chisholm, Jazz",
-      "player_id": 665862,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -212,
-      "stars": 1,
-      "game_pk": 776927
-    },
-    {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -260,
-      "stars": 1,
-      "game_pk": 776928
-    },
-    {
-      "player": "Fortes, Nick",
-      "player_id": 663743,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -270,
-      "stars": 1,
-      "game_pk": 776927
-    },
-    {
-      "player": "Fraley, Jake",
-      "player_id": 641584,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 776928
-    },
-    {
-      "player": "Garc\u00eda, Adolis",
-      "player_id": 666969,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776923
-    },
-    {
-      "player": "Langford, Wyatt",
-      "player_id": 694671,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 776923
-    },
-    {
-      "player": "Lowe, Josh",
-      "player_id": 666139,
-      "opponent": "TB",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 776927
-    },
-    {
-      "player": "Mangum, Jake",
-      "player_id": 663968,
-      "opponent": "TB",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 776927
-    },
-    {
       "player": "McLain, Matt",
       "player_id": 680574,
       "opponent": "ATL",
@@ -248,32 +53,6 @@
       "best_price": -130,
       "stars": 1,
       "game_pk": 776928
-    },
-    {
-      "player": "Ozuna, Marcell",
-      "player_id": 542303,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776928
-    },
-    {
-      "player": "Pederson, Joc",
-      "player_id": 592626,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 776923
     },
     {
       "player": "Polanco, Jorge",
@@ -313,45 +92,6 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 776923
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -205,
-      "stars": 1,
-      "game_pk": 776923
-    },
-    {
-      "player": "Semien, Marcus",
-      "player_id": 543760,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776923
-    },
-    {
-      "player": "Stephenson, Tyler",
-      "player_id": 663886,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776928
     }
   ]
 }

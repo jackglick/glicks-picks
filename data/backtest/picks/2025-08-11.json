@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.581094+00:00",
+  "generated_at": "2026-02-13T00:49:16.250673+00:00",
   "date": "2025-08-11",
   "picks": [
-    {
-      "player": "Bader, Harrison",
-      "player_id": 664056,
-      "opponent": "PHI",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -200,
-      "stars": 3,
-      "game_pk": 776792
-    },
-    {
-      "player": "Lee, Brooks",
-      "player_id": 686797,
-      "opponent": "MIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -250,
-      "stars": 3,
-      "game_pk": 776790
-    },
     {
       "player": "Saggese, Thomas",
       "player_id": 695336,
@@ -42,19 +16,6 @@
       "game_pk": 776783
     },
     {
-      "player": "Teel, Kyle",
-      "player_id": 691019,
-      "opponent": "DET",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "mybookieag",
-      "best_price": -255,
-      "stars": 3,
-      "game_pk": 776781
-    },
-    {
       "player": "Walker, Jordan",
       "player_id": 691023,
       "opponent": "COL",
@@ -64,19 +25,6 @@
       "line": 1.5,
       "best_book": "betonlineag",
       "best_price": 147,
-      "stars": 3,
-      "game_pk": 776783
-    },
-    {
-      "player": "Winn, Masyn",
-      "player_id": 691026,
-      "opponent": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -323,
       "stars": 3,
       "game_pk": 776783
     },
@@ -120,45 +68,6 @@
       "game_pk": 776786
     },
     {
-      "player": "Larnach, Trevor",
-      "player_id": 663616,
-      "opponent": "MIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -238,
-      "stars": 2,
-      "game_pk": 776790
-    },
-    {
-      "player": "McLain, Matt",
-      "player_id": 680574,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 2,
-      "game_pk": 776792
-    },
-    {
-      "player": "Mead, Curtis",
-      "player_id": 678554,
-      "opponent": "DET",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -217,
-      "stars": 2,
-      "game_pk": 776781
-    },
-    {
       "player": "Mikolas, Miles",
       "player_id": 571945,
       "opponent": "COL",
@@ -172,19 +81,6 @@
       "game_pk": 776783
     },
     {
-      "player": "Volpe, Anthony",
-      "player_id": 683011,
-      "opponent": "MIN",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -217,
-      "stars": 2,
-      "game_pk": 776790
-    },
-    {
       "player": "Abbott, Andrew",
       "player_id": 671096,
       "opponent": "PHI",
@@ -194,32 +90,6 @@
       "line": 17.5,
       "best_book": "fanatics",
       "best_price": -110,
-      "stars": 1,
-      "game_pk": 776792
-    },
-    {
-      "player": "Bell, Josh",
-      "player_id": 605137,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 776784
-    },
-    {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -275,
       "stars": 1,
       "game_pk": 776792
     },
@@ -263,45 +133,6 @@
       "game_pk": 776786
     },
     {
-      "player": "Lockridge, Brandon",
-      "player_id": 663604,
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 135,
-      "stars": 1,
-      "game_pk": 776786
-    },
-    {
-      "player": "Lockridge, Brandon",
-      "player_id": 663604,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 138,
-      "stars": 1,
-      "game_pk": 776786
-    },
-    {
-      "player": "Lowe, Nathaniel",
-      "player_id": 663993,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776784
-    },
-    {
       "player": "Matthews, Zebby",
       "player_id": 805673,
       "opponent": "NYY",
@@ -341,32 +172,6 @@
       "game_pk": 776786
     },
     {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 776786
-    },
-    {
-      "player": "Turang, Brice",
-      "player_id": 668930,
-      "opponent": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -217,
-      "stars": 1,
-      "game_pk": 776786
-    },
-    {
       "player": "Walker, Taijuan",
       "player_id": 592836,
       "opponent": "CIN",
@@ -391,32 +196,6 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 776792
-    },
-    {
-      "player": "Witt, Bobby",
-      "player_id": 677951,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 776784
-    },
-    {
-      "player": "Wood, James",
-      "player_id": 695578,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 776784
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T00:00:46.389138+00:00",
+  "generated_at": "2026-02-13T00:49:16.111976+00:00",
   "date": "2025-04-01",
   "picks": [
     {
@@ -42,32 +42,6 @@
       "game_pk": 778491
     },
     {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -200,
-      "stars": 2,
-      "game_pk": 778491
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "NYM",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 200,
-      "stars": 2,
-      "game_pk": 778497
-    },
-    {
       "player": "Rogers, Jake",
       "player_id": 668670,
       "opponent": "DET",
@@ -79,32 +53,6 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 778486
-    },
-    {
-      "player": "Turang, Brice",
-      "player_id": 668930,
-      "opponent": "KC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -190,
-      "stars": 2,
-      "game_pk": 778488
-    },
-    {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "AZ",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "williamhill_us",
-      "best_price": -133,
-      "stars": 2,
-      "game_pk": 778492
     },
     {
       "player": "Woods Richardson, Simeon",
@@ -149,19 +97,6 @@
       "player": "Chourio, Jackson",
       "player_id": 694192,
       "opponent": "KC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -264,
-      "stars": 1,
-      "game_pk": 778488
-    },
-    {
-      "player": "Chourio, Jackson",
-      "player_id": 694192,
-      "opponent": "KC",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
@@ -185,32 +120,6 @@
       "game_pk": 778497
     },
     {
-      "player": "Lorenzen, Michael",
-      "player_id": 547179,
-      "opponent": "MIL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "betonlineag",
-      "best_price": -161,
-      "stars": 1,
-      "game_pk": 778488
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "player_id": 547179,
-      "opponent": "MIL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.0,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778488
-    },
-    {
       "player": "Merrill, Jackson",
       "player_id": 701538,
       "opponent": "CLE",
@@ -222,32 +131,6 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 778485
-    },
-    {
-      "player": "Moncada, Yo\u00e1n",
-      "player_id": 660162,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 132,
-      "stars": 1,
-      "game_pk": 778495
-    },
-    {
-      "player": "Nimmo, Brandon",
-      "player_id": 607043,
-      "opponent": "NYM",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 778497
     },
     {
       "player": "Ram\u00edrez, Jos\u00e9",
@@ -274,32 +157,6 @@
       "best_price": -117,
       "stars": 1,
       "game_pk": 778498
-    },
-    {
-      "player": "Torkelson, Spencer",
-      "player_id": 679529,
-      "opponent": "DET",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 778486
-    },
-    {
-      "player": "Warren, Will",
-      "player_id": 701542,
-      "opponent": "AZ",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 778492
     }
   ]
 }

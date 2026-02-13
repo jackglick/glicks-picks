@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.492342+00:00",
+  "generated_at": "2026-02-13T00:49:16.183138+00:00",
   "date": "2025-06-07",
   "picks": [
-    {
-      "player": "Bradley, Taj",
-      "player_id": 671737,
-      "opponent": "MIA",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 155,
-      "stars": 3,
-      "game_pk": 777611
-    },
-    {
-      "player": "Crochet, Garrett",
-      "player_id": 676979,
-      "opponent": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 155,
-      "stars": 3,
-      "game_pk": 777605
-    },
     {
       "player": "Doyle, Brenton",
       "player_id": 686668,
@@ -68,17 +42,17 @@
       "game_pk": 777606
     },
     {
-      "player": "Marte, Ketel",
-      "player_id": 606466,
-      "opponent": "AZ",
-      "market": "Hits",
+      "player": "Mauricio, Ronny",
+      "player_id": 677595,
+      "opponent": "NYM",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -230,
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -140,
       "stars": 3,
-      "game_pk": 777612
+      "game_pk": 777604
     },
     {
       "player": "McLain, Matt",
@@ -159,17 +133,17 @@
       "game_pk": 777612
     },
     {
-      "player": "Heim, Jonah",
-      "player_id": 641680,
-      "opponent": "TEX",
-      "market": "Hits",
+      "player": "Hilliard, Sam",
+      "player_id": 656541,
+      "opponent": "NYM",
+      "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 175,
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -120,
       "stars": 2,
-      "game_pk": 777610
+      "game_pk": 777604
     },
     {
       "player": "Marte, Starling",
@@ -207,19 +181,6 @@
       "line": 1.5,
       "best_book": "fanatics",
       "best_price": 115,
-      "stars": 2,
-      "game_pk": 777604
-    },
-    {
-      "player": "Soto, Juan",
-      "player_id": 665742,
-      "opponent": "NYM",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -185,
       "stars": 2,
       "game_pk": 777604
     },
@@ -276,32 +237,6 @@
       "game_pk": 777610
     },
     {
-      "player": "Acu\u00f1a, Ronald",
-      "player_id": 660670,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -220,
-      "stars": 1,
-      "game_pk": 777598
-    },
-    {
-      "player": "Bohm, Alec",
-      "player_id": 664761,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -185,
-      "stars": 1,
-      "game_pk": 777607
-    },
-    {
       "player": "Brown, Hunter",
       "player_id": 686613,
       "opponent": "CLE",
@@ -315,32 +250,6 @@
       "game_pk": 777608
     },
     {
-      "player": "Contreras, Willson",
-      "player_id": 575929,
-      "opponent": "LAD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 777601
-    },
-    {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 777612
-    },
-    {
       "player": "Flores, Wilmer",
       "player_id": 527038,
       "opponent": "ATL",
@@ -348,36 +257,10 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -200,
+      "best_book": "betonlineag",
+      "best_price": 141,
       "stars": 1,
       "game_pk": 777598
-    },
-    {
-      "player": "Greene, Riley",
-      "player_id": 682985,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 777609
-    },
-    {
-      "player": "Haggerty, Sam",
-      "player_id": 664059,
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -156,
-      "stars": 1,
-      "game_pk": 777610
     },
     {
       "player": "Heaney, Andrew",
@@ -393,84 +276,6 @@
       "game_pk": 777607
     },
     {
-      "player": "Heim, Jonah",
-      "player_id": 641680,
-      "opponent": "TEX",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 777610
-    },
-    {
-      "player": "Holton, Tyler",
-      "player_id": 663947,
-      "opponent": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -210,
-      "stars": 1,
-      "game_pk": 777609
-    },
-    {
-      "player": "Iglesias, Jose",
-      "player_id": 578428,
-      "opponent": "SD",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777597
-    },
-    {
-      "player": "Jung, Josh",
-      "player_id": 673962,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betmgm",
-      "best_price": -235,
-      "stars": 1,
-      "game_pk": 777610
-    },
-    {
-      "player": "Langford, Wyatt",
-      "player_id": 694671,
-      "opponent": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 777610
-    },
-    {
-      "player": "Mangum, Jake",
-      "player_id": 663968,
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -165,
-      "stars": 1,
-      "game_pk": 777611
-    },
-    {
       "player": "Marte, Ketel",
       "player_id": 606466,
       "opponent": "AZ",
@@ -484,32 +289,6 @@
       "game_pk": 777612
     },
     {
-      "player": "Marte, Starling",
-      "player_id": 516782,
-      "opponent": "NYM",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -159,
-      "stars": 1,
-      "game_pk": 777604
-    },
-    {
-      "player": "Mauricio, Ronny",
-      "player_id": 677595,
-      "opponent": "NYM",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -213,
-      "stars": 1,
-      "game_pk": 777604
-    },
-    {
       "player": "McLain, Matt",
       "player_id": 680574,
       "opponent": "AZ",
@@ -521,58 +300,6 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 777612
-    },
-    {
-      "player": "Nelson, Ryne",
-      "player_id": 669194,
-      "opponent": "CIN",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": 165,
-      "stars": 1,
-      "game_pk": 777612
-    },
-    {
-      "player": "Ohtani, Shohei",
-      "player_id": 660271,
-      "opponent": "LAD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -196,
-      "stars": 1,
-      "game_pk": 777601
-    },
-    {
-      "player": "Ozuna, Marcell",
-      "player_id": 542303,
-      "opponent": "ATL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777598
-    },
-    {
-      "player": "Polanco, Jorge",
-      "player_id": 593871,
-      "opponent": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777603
     },
     {
       "player": "Quintana, Jose",
@@ -601,45 +328,6 @@
       "game_pk": 777603
     },
     {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777607
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -230,
-      "stars": 1,
-      "game_pk": 777603
-    },
-    {
-      "player": "Soderstrom, Tyler",
-      "player_id": 691016,
-      "opponent": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777599
-    },
-    {
       "player": "Taylor, Tyrone",
       "player_id": 621438,
       "opponent": "NYM",
@@ -653,32 +341,6 @@
       "game_pk": 777604
     },
     {
-      "player": "Torres, Gleyber",
-      "player_id": 650402,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 777609
-    },
-    {
-      "player": "Turner, Trea",
-      "player_id": 607208,
-      "opponent": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -190,
-      "stars": 1,
-      "game_pk": 777607
-    },
-    {
       "player": "Wacha, Michael",
       "player_id": 608379,
       "opponent": "CWS",
@@ -690,19 +352,6 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 777606
-    },
-    {
-      "player": "Wilson, Jacob",
-      "player_id": 805779,
-      "opponent": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 777599
     }
   ]
 }

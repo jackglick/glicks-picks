@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-02-13T00:00:46.438134+00:00",
+  "generated_at": "2026-02-13T00:49:16.141612+00:00",
   "date": "2025-04-30",
   "picks": [
-    {
-      "player": "Contreras, Willson",
-      "player_id": 575929,
-      "opponent": "STL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -165,
-      "stars": 3,
-      "game_pk": 778134
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betonlineag",
-      "best_price": -256,
-      "stars": 3,
-      "game_pk": 778109
-    },
     {
       "player": "Mlodzinski, Carmen",
       "player_id": 669387,
@@ -40,32 +14,6 @@
       "best_price": 110,
       "stars": 3,
       "game_pk": 778112
-    },
-    {
-      "player": "Ruiz, Keibert",
-      "player_id": 660688,
-      "opponent": "WSH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "williamhill_us",
-      "best_price": -214,
-      "stars": 3,
-      "game_pk": 778118
-    },
-    {
-      "player": "Santander, Anthony",
-      "player_id": 623993,
-      "opponent": "BOS",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 3,
-      "game_pk": 778114
     },
     {
       "player": "Albies, Ozzie",
@@ -120,19 +68,6 @@
       "game_pk": 778112
     },
     {
-      "player": "Iglesias, Jose",
-      "player_id": 578428,
-      "opponent": "SF",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -205,
-      "stars": 2,
-      "game_pk": 778105
-    },
-    {
       "player": "Irvin, Jake",
       "player_id": 663623,
       "opponent": "PHI",
@@ -144,19 +79,6 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 778118
-    },
-    {
-      "player": "Lindor, Francisco",
-      "player_id": 596019,
-      "opponent": "AZ",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -190,
-      "stars": 2,
-      "game_pk": 778117
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -172,19 +94,6 @@
       "game_pk": 778112
     },
     {
-      "player": "Quantrill, Cal",
-      "player_id": 615698,
-      "opponent": "LAD",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 2,
-      "game_pk": 778109
-    },
-    {
       "player": "Anderson, Tyler",
       "player_id": 542881,
       "opponent": "SEA",
@@ -196,45 +105,6 @@
       "best_price": -120,
       "stars": 1,
       "game_pk": 778104
-    },
-    {
-      "player": "Bellinger, Cody",
-      "player_id": 641355,
-      "opponent": "NYY",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 778115
-    },
-    {
-      "player": "Betts, Mookie",
-      "player_id": 605141,
-      "opponent": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 190,
-      "stars": 1,
-      "game_pk": 778109
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -195,
-      "stars": 1,
-      "game_pk": 778114
     },
     {
       "player": "Bichette, Bo",
@@ -276,58 +146,6 @@
       "game_pk": 778117
     },
     {
-      "player": "Carroll, Corbin",
-      "player_id": 682998,
-      "opponent": "AZ",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": 145,
-      "stars": 1,
-      "game_pk": 778117
-    },
-    {
-      "player": "Conforto, Michael",
-      "player_id": 624424,
-      "opponent": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "betonlineag",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 778109
-    },
-    {
-      "player": "Diaz, Yainer",
-      "player_id": 673237,
-      "opponent": "DET",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 185,
-      "stars": 1,
-      "game_pk": 778110
-    },
-    {
-      "player": "Dollander, Chase",
-      "player_id": 801403,
-      "opponent": "ATL",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "williamhill_us",
-      "best_price": -121,
-      "stars": 1,
-      "game_pk": 778102
-    },
-    {
       "player": "Freeman, Freddie",
       "player_id": 518692,
       "opponent": "MIA",
@@ -336,22 +154,9 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "fanatics",
-      "best_price": -115,
+      "best_price": -135,
       "stars": 1,
       "game_pk": 778109
-    },
-    {
-      "player": "Gurriel, Lourdes",
-      "player_id": 666971,
-      "opponent": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 778117
     },
     {
       "player": "Hancock, Emerson",
@@ -380,19 +185,6 @@
       "game_pk": 778102
     },
     {
-      "player": "Heim, Jonah",
-      "player_id": 641680,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778106
-    },
-    {
       "player": "King, Michael",
       "player_id": 650633,
       "opponent": "SF",
@@ -404,71 +196,6 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 778105
-    },
-    {
-      "player": "Kjerstad, Heston",
-      "player_id": 677008,
-      "opponent": "NYY",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 778115
-    },
-    {
-      "player": "L\u00f3pez, Pablo",
-      "player_id": 641154,
-      "opponent": "CLE",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 18.5,
-      "best_book": "draftkings",
-      "best_price": -160,
-      "stars": 1,
-      "game_pk": 778116
-    },
-    {
-      "player": "McMahon, Ryan",
-      "player_id": 641857,
-      "opponent": "ATL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 778102
-    },
-    {
-      "player": "Mervis, Matt",
-      "player_id": 670223,
-      "opponent": "MIA",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "OVER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 105,
-      "stars": 1,
-      "game_pk": 778109
-    },
-    {
-      "player": "Mlodzinski, Carmen",
-      "player_id": 669387,
-      "opponent": "CHC",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 778112
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -484,45 +211,6 @@
       "game_pk": 778112
     },
     {
-      "player": "Mountcastle, Ryan",
-      "player_id": 663624,
-      "opponent": "NYY",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 205,
-      "stars": 1,
-      "game_pk": 778115
-    },
-    {
-      "player": "Myers, Tobias",
-      "player_id": 668964,
-      "opponent": "CWS",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.0,
-      "best_book": "draftkings",
-      "best_price": -175,
-      "stars": 1,
-      "game_pk": 778111
-    },
-    {
-      "player": "Ortiz, Luis",
-      "player_id": 682847,
-      "opponent": "MIN",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 778116
-    },
-    {
       "player": "Quantrill, Cal",
       "player_id": 615698,
       "opponent": "LAD",
@@ -536,45 +224,6 @@
       "game_pk": 778109
     },
     {
-      "player": "Raleigh, Cal",
-      "player_id": 663728,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 170,
-      "stars": 1,
-      "game_pk": 778104
-    },
-    {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "CHC",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -180,
-      "stars": 1,
-      "game_pk": 778112
-    },
-    {
-      "player": "Rutschman, Adley",
-      "player_id": 668939,
-      "opponent": "NYY",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -170,
-      "stars": 1,
-      "game_pk": 778115
-    },
-    {
       "player": "Sale, Chris",
       "player_id": 519242,
       "opponent": "COL",
@@ -586,84 +235,6 @@
       "best_price": -140,
       "stars": 1,
       "game_pk": 778102
-    },
-    {
-      "player": "Santander, Anthony",
-      "player_id": 623993,
-      "opponent": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 778114
-    },
-    {
-      "player": "Schanuel, Nolan",
-      "player_id": 694384,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 160,
-      "stars": 1,
-      "game_pk": 778104
-    },
-    {
-      "player": "Semien, Marcus",
-      "player_id": 543760,
-      "opponent": "ATH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "draftkings",
-      "best_price": 175,
-      "stars": 1,
-      "game_pk": 778106
-    },
-    {
-      "player": "Semien, Marcus",
-      "player_id": 543760,
-      "opponent": "ATH",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "fanatics",
-      "best_price": -155,
-      "stars": 1,
-      "game_pk": 778106
-    },
-    {
-      "player": "Swanson, Dansby",
-      "player_id": 621020,
-      "opponent": "CHC",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "bovada",
-      "best_price": 155,
-      "stars": 1,
-      "game_pk": 778112
-    },
-    {
-      "player": "Trout, Mike",
-      "player_id": 545361,
-      "opponent": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 0.5,
-      "best_book": "fanatics",
-      "best_price": 140,
-      "stars": 1,
-      "game_pk": 778104
     }
   ]
 }
