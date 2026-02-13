@@ -1463,6 +1463,14 @@
         bestBox.appendChild(el('div', 'results-stat-value positive', streaks.bestWin + ' days'));
         container.appendChild(bestBox);
       }
+
+      // Worst loss streak
+      if (streaks.bestLoss > 0) {
+        var worstBox = el('div', 'results-stat-box');
+        worstBox.appendChild(el('div', 'results-stat-label', 'Worst Loss Streak'));
+        worstBox.appendChild(el('div', 'results-stat-value negative', streaks.bestLoss + ' days'));
+        container.appendChild(worstBox);
+      }
     }
   }
 
