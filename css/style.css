@@ -1046,6 +1046,64 @@ body.backtest-mode .mobile-nav {
   margin-bottom: 0.15rem;
 }
 
+.pick-card-matchup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  margin: 0.15rem 0 0.85rem;
+}
+
+.matchup-team {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.team-logo-wrap {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.team-logo-fallback {
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-surface-2);
+  color: var(--text-secondary);
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.matchup-team-code {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.matchup-vs {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
 .pick-stars {
   color: #d4940a;
   font-size: 1rem;

@@ -258,6 +258,116 @@
     'mybookieag': '#d4af37'
   };
 
+  var TEAM_LOGO_IDS = {
+    'ATH': 133,
+    'AZ': 109,
+    'ATL': 144,
+    'BAL': 110,
+    'BOS': 111,
+    'CHC': 112,
+    'CIN': 113,
+    'CLE': 114,
+    'COL': 115,
+    'CWS': 145,
+    'DET': 116,
+    'HOU': 117,
+    'KC': 118,
+    'LAA': 108,
+    'LAD': 119,
+    'MIA': 146,
+    'MIL': 158,
+    'MIN': 142,
+    'NYM': 121,
+    'NYY': 147,
+    'PHI': 143,
+    'PIT': 134,
+    'SD': 135,
+    'SEA': 136,
+    'SF': 137,
+    'STL': 138,
+    'TB': 139,
+    'TEX': 140,
+    'TOR': 141,
+    'WSH': 120
+  };
+
+  function normalizeTeamCode(raw) {
+    if (!raw) return '';
+    var t = String(raw).trim().toUpperCase();
+    if (t === 'ARI') return 'AZ';
+    if (t === 'OAK') return 'ATH';
+    if (t === 'WAS') return 'WSH';
+    if (t === 'SDP') return 'SD';
+    if (t === 'SFG') return 'SF';
+    if (t === 'KCR') return 'KC';
+    if (t === 'TBR') return 'TB';
+    if (t === 'CHW') return 'CWS';
+    return t;
+  }
+
+  function getTeamLogoUrl(teamCode) {
+    var code = normalizeTeamCode(teamCode);
+    var teamId = TEAM_LOGO_IDS[code];
+    if (!teamId) return null;
+    return 'https://www.mlbstatic.com/team-logos/' + teamId + '.svg';
+  }
+
+  function getPlayerTeamCode(pick) {
+    var explicitTeam = normalizeTeamCode(pick.player_team || pick.team);
+    if (explicitTeam) return explicitTeam;
+
+    var opponent = normalizeTeamCode(pick.opponent);
+    var home = normalizeTeamCode(pick.home_team);
+    var away = normalizeTeamCode(pick.away_team);
+    if (!opponent || !home || !away) return '';
+
+    if (opponent === home) return away;
+    if (opponent === away) return home;
+    return '';
+  }
+
+  function createTeamBadge(teamCode, sideLabel) {
+    var code = normalizeTeamCode(teamCode);
+    if (!code) return null;
+
+    var wrap = el('div', 'matchup-team');
+    if (sideLabel) wrap.classList.add(sideLabel);
+
+    var logoWrap = el('span', 'team-logo-wrap');
+    var logo = document.createElement('img');
+    logo.className = 'team-logo';
+    logo.alt = code + ' logo';
+    logo.loading = 'lazy';
+    logo.decoding = 'async';
+    logo.src = getTeamLogoUrl(code) || '';
+
+    var fallback = el('span', 'team-logo-fallback', code);
+    fallback.style.display = 'none';
+
+    logo.onerror = function () {
+      logo.style.display = 'none';
+      fallback.style.display = 'inline-flex';
+    };
+
+    logoWrap.appendChild(logo);
+    logoWrap.appendChild(fallback);
+    wrap.appendChild(logoWrap);
+    wrap.appendChild(el('span', 'matchup-team-code', code));
+    return wrap;
+  }
+
+  function createMatchupRow(pick) {
+    var opponent = normalizeTeamCode(pick.opponent);
+    var playerTeam = getPlayerTeamCode(pick);
+    if (!opponent || !playerTeam) return null;
+
+    var row = el('div', 'pick-card-matchup');
+    row.appendChild(createTeamBadge(playerTeam, 'left'));
+    row.appendChild(el('span', 'matchup-vs', 'vs'));
+    row.appendChild(createTeamBadge(opponent, 'right'));
+    return row;
+  }
+
   // --- Shared Pick Card Renderer ---
   function getPlayerInitials(playerName) {
     var parts = playerName.split(', ');
@@ -291,11 +401,16 @@
     var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
     headerLeft.appendChild(el('div', 'pick-card-player', pick.player));
-    headerLeft.appendChild(el('div', 'pick-card-opponent', 'vs ' + pick.opponent));
+    var playerTeamCode = getPlayerTeamCode(pick);
+    var subline = playerTeamCode && pick.opponent ? (playerTeamCode + ' vs ' + normalizeTeamCode(pick.opponent)) : ('vs ' + pick.opponent);
+    headerLeft.appendChild(el('div', 'pick-card-opponent', subline));
     headerInfo.appendChild(headerLeft);
     header.appendChild(headerInfo);
     header.appendChild(el('div', 'pick-stars', renderStars(pick.stars)));
     card.appendChild(header);
+
+    var matchupRow = createMatchupRow(pick);
+    if (matchupRow) card.appendChild(matchupRow);
 
     var body = el('div', 'pick-card-body');
     var callWrapper = el('div', 'pick-call-wrapper');
