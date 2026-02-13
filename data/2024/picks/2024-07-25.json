@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.795620+00:00",
+  "date": "2024-07-25",
+  "picks": [
+    {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "NYM",
+      "player_team": "ATL",
+      "home_team": "NYM",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 136,
+      "stars": 2,
+      "game_pk": 745794,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "SD",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "SD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 744827,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "SD",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "SD",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "bovada",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 744827,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
+    }
+  ]
+}

@@ -46,12 +46,12 @@
           <li><a href="index.html">Home</a></li>
         </ul>
       </nav>
-      <div class="env-toggle-wrapper">
-        <label class="env-toggle-label" for="env-toggle">
-          <span class="env-toggle-text">2025 Backtest</span>
-          <input type="checkbox" id="env-toggle" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
-          <span class="env-toggle-slider"></span>
-        </label>
+      <div class="season-select-wrapper">
+        <select class="season-select" aria-label="Select season">
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+        </select>
       </div>
       <button
         class="hamburger"
@@ -71,12 +71,12 @@
     <a href="picks.html">Today's Picks</a>
     <a href="results.html">Results</a>
     <a href="index.html">Home</a>
-    <div class="env-toggle-wrapper">
-      <label class="env-toggle-label" for="env-toggle-mobile">
-        <span class="env-toggle-text">2025 Backtest</span>
-        <input type="checkbox" id="env-toggle-mobile" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
-        <span class="env-toggle-slider"></span>
-      </label>
+    <div class="season-select-wrapper">
+      <select class="season-select" aria-label="Select season">
+        <option value="2026">2026</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+      </select>
     </div>
   </nav>
 
@@ -90,7 +90,7 @@
     <section class="page-hero">
       <div class="container">
         <h1 class="page-title reveal">Track Record</h1>
-        <p class="page-subtitle reveal">2025 out-of-sample backtest archive across seven player-prop markets</p>
+        <p class="page-subtitle reveal" id="results-subtitle">Out-of-sample backtest archive across player-prop markets</p>
         <p class="status-meta reveal" id="results-generated-at">Last updated: --</p>
       </div>
     </section>
@@ -142,7 +142,7 @@
             <h3>By Market</h3>
             <div class="results-table-scroll">
               <table class="results-table" id="market-table">
-                <caption>Market-level backtest summary for 2025 archive</caption>
+                <caption>Market-level backtest summary</caption>
                 <thead>
                   <tr>
                     <th scope="col">Market</th>

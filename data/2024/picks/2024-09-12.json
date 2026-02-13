@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.814669+00:00",
+  "date": "2024-09-12",
+  "picks": [
+    {
+      "player": "Feltner, Ryan",
+      "player_id": 663372,
+      "opponent": "DET",
+      "player_team": "COL",
+      "home_team": "DET",
+      "away_team": "COL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "williamhill_us",
+      "best_price": -115,
+      "stars": 3,
+      "game_pk": 746427,
+      "result": "loss",
+      "actual": 17,
+      "pnl": -100.0
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "CLE",
+      "player_team": "TB",
+      "home_team": "CLE",
+      "away_team": "TB",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "williamhill_us",
+      "best_price": -129,
+      "stars": 2,
+      "game_pk": 746591,
+      "result": "win",
+      "actual": 6,
+      "pnl": 77.52
+    },
+    {
+      "player": "Criswell, Cooper",
+      "player_id": 681867,
+      "opponent": "NYY",
+      "player_team": "BOS",
+      "home_team": "NYY",
+      "away_team": "BOS",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 745695,
+      "result": "win",
+      "actual": 1,
+      "pnl": 95.24
+    }
+  ]
+}

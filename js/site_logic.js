@@ -43,8 +43,9 @@
     });
   }
 
-  function getDataPath(env, filename) {
-    return env === 'dev' ? 'data/backtest/' + filename : 'data/' + filename;
+  function getDataPath(season, filename) {
+    var current = '2026';
+    return season === current ? 'data/' + filename : 'data/' + season + '/' + filename;
   }
 
   function parseDateKey(dateKey) {

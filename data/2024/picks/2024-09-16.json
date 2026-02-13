@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.816223+00:00",
+  "date": "2024-09-16",
+  "picks": [
+    {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "NYM",
+      "player_team": "WSH",
+      "home_team": "NYM",
+      "away_team": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betmgm",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 745773,
+      "result": "loss",
+      "actual": 22,
+      "pnl": -100.0
+    },
+    {
+      "player": "Boyd, Matthew",
+      "player_id": 571510,
+      "opponent": "MIN",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -122,
+      "stars": 1,
+      "game_pk": 746588,
+      "result": "win",
+      "actual": 8,
+      "pnl": 81.97
+    },
+    {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "MIL",
+      "player_team": "PHI",
+      "home_team": "MIL",
+      "away_team": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 745939,
+      "result": "win",
+      "actual": 15,
+      "pnl": 86.96
+    }
+  ]
+}

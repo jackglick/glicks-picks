@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.800024+00:00",
+  "date": "2024-08-06",
+  "picks": [
+    {
+      "player": "Lodolo, Nick",
+      "player_id": 666157,
+      "opponent": "MIA",
+      "player_team": "CIN",
+      "home_team": "MIA",
+      "away_team": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 145,
+      "stars": 3,
+      "game_pk": 746033,
+      "result": "win",
+      "actual": 17,
+      "pnl": 145.0
+    },
+    {
+      "player": "Meyer, Max",
+      "player_id": 676974,
+      "opponent": "CIN",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "CIN",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "betmgm",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 746033,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
+    },
+    {
+      "player": "Rea, Colin",
+      "player_id": 607067,
+      "opponent": "ATL",
+      "player_team": "MIL",
+      "home_team": "ATL",
+      "away_team": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "williamhill_us",
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 747086,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    }
+  ]
+}

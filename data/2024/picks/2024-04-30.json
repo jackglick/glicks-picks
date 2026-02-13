@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.761326+00:00",
+  "date": "2024-04-30",
+  "picks": [
+    {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
+      "opponent": "KC",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 744942,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
+    },
+    {
+      "player": "Gibson, Kyle",
+      "player_id": 502043,
+      "opponent": "DET",
+      "player_team": "STL",
+      "home_team": "DET",
+      "away_team": "STL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "bovada",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 746477,
+      "result": "win",
+      "actual": 2,
+      "pnl": 150.0
+    },
+    {
+      "player": "Peralta, Freddy",
+      "player_id": 642547,
+      "opponent": "TB",
+      "player_team": "MIL",
+      "home_team": "MIL",
+      "away_team": "TB",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 745997,
+      "result": "win",
+      "actual": 16,
+      "pnl": 145.0
+    }
+  ]
+}

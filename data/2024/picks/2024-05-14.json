@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.767907+00:00",
+  "date": "2024-05-14",
+  "picks": [
+    {
+      "player": "Flexen, Chris",
+      "player_id": 623167,
+      "opponent": "WSH",
+      "player_team": "CWS",
+      "home_team": "CWS",
+      "away_team": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 2,
+      "game_pk": 746796,
+      "result": "win",
+      "actual": 14,
+      "pnl": 100.0
+    },
+    {
+      "player": "Paddack, Chris",
+      "player_id": 663978,
+      "opponent": "NYY",
+      "player_team": "MIN",
+      "home_team": "MIN",
+      "away_team": "NYY",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 745909,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
+    },
+    {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "CHC",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 747124,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    }
+  ]
+}

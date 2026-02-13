@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.795917+00:00",
+  "date": "2024-07-26",
+  "picks": [
+    {
+      "player": "Lodolo, Nick",
+      "player_id": 666157,
+      "opponent": "TB",
+      "player_team": "CIN",
+      "home_team": "TB",
+      "away_team": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 115,
+      "stars": 3,
+      "game_pk": 745068,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
+    },
+    {
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "NYM",
+      "player_team": "ATL",
+      "home_team": "NYM",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": 114,
+      "stars": 3,
+      "game_pk": 745792,
+      "result": "win",
+      "actual": 8,
+      "pnl": 114.0
+    },
+    {
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "TEX",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "TEX",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -122,
+      "stars": 2,
+      "game_pk": 744906,
+      "result": "win",
+      "actual": 14,
+      "pnl": 81.97
+    }
+  ]
+}

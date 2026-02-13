@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.817734+00:00",
+  "date": "2024-09-20",
+  "picks": [
+    {
+      "player": "Martinez, Nick",
+      "player_id": 607259,
+      "opponent": "PIT",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "PIT",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 3,
+      "game_pk": 746661,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "MIA",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 746013,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Keller, Mitch",
+      "player_id": 656605,
+      "opponent": "CIN",
+      "player_team": "PIT",
+      "home_team": "CIN",
+      "away_team": "PIT",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 746661,
+      "result": "win",
+      "actual": 10,
+      "pnl": 90.91
+    }
+  ]
+}

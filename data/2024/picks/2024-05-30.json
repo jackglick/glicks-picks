@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.774620+00:00",
+  "date": "2024-05-30",
+  "picks": [
+    {
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "BOS",
+      "player_team": "DET",
+      "home_team": "BOS",
+      "away_team": "DET",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 140,
+      "stars": 3,
+      "game_pk": 746954,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
+    },
+    {
+      "player": "Scott, Christian",
+      "player_id": 681035,
+      "opponent": "AZ",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "AZ",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "bovada",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 745819,
+      "result": "win",
+      "actual": 1,
+      "pnl": 100.0
+    },
+    {
+      "player": "Taillon, Jameson",
+      "player_id": 592791,
+      "opponent": "MIL",
+      "player_team": "CHC",
+      "home_team": "MIL",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 745985,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    }
+  ]
+}

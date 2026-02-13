@@ -213,70 +213,41 @@ button:focus-visible,
   letter-spacing: 0.06em;
 }
 
-.mobile-nav .env-toggle-wrapper {
-  margin-left: 0;
-}
-
-/* --- Backtest/Prod Toggle --- */
-.env-toggle-wrapper {
+/* --- Season Selector --- */
+.season-select-wrapper {
   display: flex;
   align-items: center;
   margin-left: 1.5rem;
 }
 
-.env-toggle-label {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  cursor: pointer;
-  user-select: none;
+.mobile-nav .season-select-wrapper {
+  margin-left: 0;
 }
 
-.env-toggle-text {
+.season-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--surface);
+  color: var(--text-primary);
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 2rem 0.35rem 0.65rem;
+  font-family: inherit;
+  font-size: 0.85rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23999' d='M3 5l3 3 3-3z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  transition: border-color 0.2s;
 }
 
-.env-toggle-input {
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
+.season-select:hover {
+  border-color: var(--accent);
 }
 
-.env-toggle-slider {
-  position: relative;
-  width: 36px;
-  height: 20px;
-  background: var(--border);
-  border-radius: 10px;
-  transition: background 0.2s;
-}
-
-.env-toggle-slider::after {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 16px;
-  height: 16px;
-  background: #ffffff;
-  border-radius: 50%;
-  transition: transform 0.2s;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-}
-
-.env-toggle-input:checked + .env-toggle-slider {
-  background: var(--accent);
-}
-
-.env-toggle-input:checked + .env-toggle-slider::after {
-  transform: translateX(16px);
-}
-
-.env-toggle-input:focus-visible + .env-toggle-slider {
+.season-select:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
@@ -1557,7 +1528,7 @@ a {
   top: 0.75rem;
 }
 
-.env-toggle-text {
+.season-select {
   font-size: 0.75rem;
 }
 
@@ -1641,9 +1612,9 @@ a {
   }
 }
 
-/* --- Hide header toggle on mobile (#19) --- */
+/* --- Hide header season selector on mobile (#19) --- */
 @media (max-width: 767px) {
-  .header .env-toggle-wrapper {
+  .header .season-select-wrapper {
     display: none;
   }
 }

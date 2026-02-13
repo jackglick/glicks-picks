@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.798464+00:00",
+  "date": "2024-08-01",
+  "picks": [
+    {
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "MIA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 130,
+      "stars": 3,
+      "game_pk": 747092,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Meyer, Max",
+      "player_id": 676974,
+      "opponent": "ATL",
+      "player_team": "MIA",
+      "home_team": "ATL",
+      "away_team": "MIA",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 747092,
+      "result": "win",
+      "actual": 1,
+      "pnl": 130.0
+    },
+    {
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "MIA",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "betmgm",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 747092,
+      "result": "win",
+      "actual": 2,
+      "pnl": 95.24
+    }
+  ]
+}

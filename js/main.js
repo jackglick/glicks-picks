@@ -77,60 +77,57 @@
   // Shared mode/data helpers
   // ============================================
 
-  function getEnv() {
-    return localStorage.getItem('glicks-env') || 'dev';
+  var CURRENT_SEASON = '2026';
+  var AVAILABLE_SEASONS = ['2026', '2025', '2024'];
+
+  function getSeason() {
+    return localStorage.getItem('glicks-season') || CURRENT_SEASON;
   }
 
-  function setEnv(env) {
-    localStorage.setItem('glicks-env', env);
+  function setSeason(season) {
+    localStorage.setItem('glicks-season', season);
+  }
+
+  function isArchiveSeason() {
+    return getSeason() !== CURRENT_SEASON;
   }
 
   function getDataPath(filename) {
-    var env = getEnv();
+    var season = getSeason();
     if (SiteLogic && typeof SiteLogic.getDataPath === 'function') {
-      return SiteLogic.getDataPath(env, filename);
+      return SiteLogic.getDataPath(season, filename);
     }
-    return env === 'dev' ? 'data/backtest/' + filename : 'data/' + filename;
+    return season === CURRENT_SEASON ? 'data/' + filename : 'data/' + season + '/' + filename;
   }
 
-  function updateBacktestBanner(env) {
+  function updateSeasonBanner() {
     var banner = document.getElementById('backtest-banner');
+    var season = getSeason();
     if (banner) {
-      banner.textContent = env === 'dev' ? 'Viewing 2025 Backtest Archive' : 'Viewing Current Mode';
-      banner.style.display = env === 'dev' ? 'block' : 'none';
+      if (isArchiveSeason()) {
+        banner.textContent = 'Viewing ' + season + ' Season Archive';
+        banner.style.display = 'block';
+      } else {
+        banner.style.display = 'none';
+      }
     }
 
-    if (env === 'dev') {
+    if (isArchiveSeason()) {
       document.body.classList.add('backtest-mode');
     } else {
       document.body.classList.remove('backtest-mode');
     }
   }
 
-  function initEnvToggle() {
-    var env = getEnv();
-    updateBacktestBanner(env);
+  function initSeasonSelector() {
+    var season = getSeason();
+    updateSeasonBanner();
 
-    var toggles = [
-      document.getElementById('env-toggle'),
-      document.getElementById('env-toggle-mobile')
-    ];
-
-    function syncToggleState(isBacktest) {
-      toggles.forEach(function (toggle) {
-        if (!toggle) return;
-        toggle.checked = isBacktest;
-      });
-    }
-
-    syncToggleState(env === 'dev');
-
-    toggles.forEach(function (toggle) {
-      if (!toggle) return;
-      toggle.addEventListener('change', function () {
-        var newEnv = toggle.checked ? 'dev' : 'prod';
-        setEnv(newEnv);
-        syncToggleState(newEnv === 'dev');
+    var selectors = document.querySelectorAll('.season-select');
+    selectors.forEach(function (sel) {
+      sel.value = season;
+      sel.addEventListener('change', function () {
+        setSeason(sel.value);
         location.reload();
       });
     });
@@ -471,6 +468,13 @@
     var heroBets = document.getElementById('hero-total-bets');
     if (!heroBets) return;
 
+    // Update section title with season
+    var season = getSeason();
+    var sectionTitle = document.getElementById('market-section-title');
+    if (sectionTitle && isArchiveSeason()) {
+      sectionTitle.textContent = season + ' backtest results by market';
+    }
+
     fetchJSON('results.json', function (data, err) {
       if (err || !data || !data.summary) return;
 
@@ -761,14 +765,14 @@
       container.style.display = 'none';
       emptyEl.style.display = '';
 
-      // Offseason state: 0 picks and not in backtest mode
-      if (getEnv() !== 'dev' && offseasonHero) {
+      // Offseason state: 0 picks and not in archive mode
+      if (!isArchiveSeason() && offseasonHero) {
         offseasonHero.style.display = 'block';
         emptyEl.style.display = 'none';
       } else {
         setPicksEmptyState(
           'No picks available',
-          'Try a different date in backtest mode or check again after the next data refresh.'
+          'Try a different date or season, or check again after the next data refresh.'
         );
       }
       if (summary) summary.textContent = '';
@@ -1021,21 +1025,21 @@
     var nextBtn = document.getElementById('backtest-next-month');
     if (!picker || !trigger || !popover || !prevBtn || !nextBtn) return;
 
-    fetch('data/backtest/picks_index.json')
+    fetch(getDataPath('picks_index.json'))
       .then(function (res) {
         if (!res.ok) throw new Error(res.status);
         return res.json();
       })
       .then(function (index) {
         if (!index || !index.dates || index.dates.length === 0) {
-          setStatusText('picks-status', 'No backtest date index available.');
+          setStatusText('picks-status', 'No date index available for this season.');
           return;
         }
 
         if (SiteLogic && typeof SiteLogic.buildBacktestIndex === 'function') {
           var builtIndex = SiteLogic.buildBacktestIndex(index);
           if (!builtIndex) {
-            setStatusText('picks-status', 'No backtest date index available.');
+            setStatusText('picks-status', 'No date index available for this season.');
             return;
           }
           picksState.backtestIndex = {
@@ -1113,7 +1117,7 @@
         }
       })
       .catch(function () {
-        setStatusText('picks-status', 'Could not load backtest date index.');
+        setStatusText('picks-status', 'Could not load date index for this season.');
       });
   }
 
@@ -1124,13 +1128,13 @@
       ? picksState.backtestIndex.countByDate[dateStr]
       : 0;
     if (dateEl) {
-      dateEl.textContent = formatFullDate(dateStr) + ' \u2022 ' + count + ' picks \u2022 Backtest Archive';
+      dateEl.textContent = formatFullDate(dateStr) + ' \u2022 ' + count + ' picks \u2022 ' + getSeason() + ' Archive';
     }
 
     // Show loading skeletons
     if (container) showLoadingSkeletons(container, 4);
 
-    fetch('data/backtest/picks/' + dateStr + '.json')
+    fetch(getDataPath('picks/' + dateStr + '.json'))
       .then(function (res) {
         if (!res.ok) throw new Error(res.status);
         return res.json();
@@ -1158,18 +1162,18 @@
 
     initPicksSort();
 
-    // Offseason hero browse-backtest button
+    // Offseason hero browse-archive button
     var browseBtn = document.getElementById('browse-backtest-btn');
     if (browseBtn) {
       browseBtn.addEventListener('click', function () {
-        setEnv('dev');
+        setSeason('2025');
         location.reload();
       });
     }
 
-    if (getEnv() === 'dev') {
+    if (isArchiveSeason()) {
       var titleEl = document.getElementById('picks-title');
-      if (titleEl) titleEl.textContent = '2025 Backtest Picks';
+      if (titleEl) titleEl.textContent = getSeason() + ' Season Picks';
       initBacktestDatePicker();
       return;
     }
@@ -1677,7 +1681,7 @@
 
   // --- Page Router ---
   initMobileMenu();
-  initEnvToggle();
+  initSeasonSelector();
   initHomePage();
   initPicksPage();
   initResultsPage();

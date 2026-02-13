@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.797307+00:00",
+  "date": "2024-07-29",
+  "picks": [
+    {
+      "player": "Pallante, Andre",
+      "player_id": 669467,
+      "opponent": "TEX",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "TEX",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 3,
+      "game_pk": 745147,
+      "result": "win",
+      "actual": 15,
+      "pnl": 110.0
+    },
+    {
+      "player": "Eovaldi, Nathan",
+      "player_id": 543135,
+      "opponent": "STL",
+      "player_team": "TEX",
+      "home_team": "STL",
+      "away_team": "TEX",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 140,
+      "stars": 2,
+      "game_pk": 745147,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Quintana, Jose",
+      "player_id": 500779,
+      "opponent": "MIN",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 1,
+      "game_pk": 745791,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    }
+  ]
+}

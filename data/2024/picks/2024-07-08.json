@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-02-13T18:51:50.790245+00:00",
+  "date": "2024-07-08",
+  "picks": [
+    {
+      "player": "Scott, Christian",
+      "player_id": 681035,
+      "opponent": "PIT",
+      "player_team": "NYM",
+      "home_team": "PIT",
+      "away_team": "NYM",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 745480,
+      "result": "win",
+      "actual": 17,
+      "pnl": 80.0
+    },
+    {
+      "player": "Mikolas, Miles",
+      "player_id": 571945,
+      "opponent": "WSH",
+      "player_team": "STL",
+      "home_team": "WSH",
+      "away_team": "STL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 744833,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
+    }
+  ]
+}

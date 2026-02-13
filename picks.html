@@ -46,12 +46,12 @@
           <li><a href="index.html">Home</a></li>
         </ul>
       </nav>
-      <div class="env-toggle-wrapper">
-        <label class="env-toggle-label" for="env-toggle">
-          <span class="env-toggle-text">2025 Backtest</span>
-          <input type="checkbox" id="env-toggle" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
-          <span class="env-toggle-slider"></span>
-        </label>
+      <div class="season-select-wrapper">
+        <select class="season-select" aria-label="Select season">
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+        </select>
       </div>
       <button
         class="hamburger"
@@ -71,12 +71,12 @@
     <a href="picks.html">Today's Picks</a>
     <a href="results.html">Results</a>
     <a href="index.html">Home</a>
-    <div class="env-toggle-wrapper">
-      <label class="env-toggle-label" for="env-toggle-mobile">
-        <span class="env-toggle-text">2025 Backtest</span>
-        <input type="checkbox" id="env-toggle-mobile" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
-        <span class="env-toggle-slider"></span>
-      </label>
+    <div class="season-select-wrapper">
+      <select class="season-select" aria-label="Select season">
+        <option value="2026">2026</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+      </select>
     </div>
   </nav>
 
@@ -91,9 +91,9 @@
       <div class="container">
         <h1 class="page-title reveal" id="picks-title">Today's Picks</h1>
         <p class="page-subtitle reveal" id="picks-date"></p>
-        <p class="status-meta reveal" id="picks-status">Archive mode uses 2025 out-of-sample data.</p>
+        <p class="status-meta reveal" id="picks-status">Select a season to browse out-of-sample picks.</p>
         <div class="backtest-date-picker" id="backtest-date-picker" style="display:none">
-          <span class="backtest-date-label">Backtest date</span>
+          <span class="backtest-date-label">Game date</span>
           <button
             type="button"
             id="backtest-date-trigger"
@@ -168,7 +168,7 @@
         <div class="picks-empty" id="picks-empty" style="display: none;">
           <div class="picks-empty-icon">&#9918;</div>
           <h3 id="picks-empty-title">No picks available</h3>
-          <p id="picks-empty-copy">Try a different date in backtest mode or check again after the next data refresh.</p>
+          <p id="picks-empty-copy">Try a different date or season, or check again after the next data refresh.</p>
         </div>
 
         <!-- Disclaimer -->

@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-02-13T18:51:50.787282+00:00",
+  "date": "2024-07-01",
+  "picks": [
+    {
+      "player": "Brown, Hunter",
+      "player_id": 686613,
+      "opponent": "TOR",
+      "player_team": "HOU",
+      "home_team": "TOR",
+      "away_team": "HOU",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "williamhill_us",
+      "best_price": 126,
+      "stars": 2,
+      "game_pk": 744914,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Peterson, David",
+      "player_id": 656849,
+      "opponent": "WSH",
+      "player_team": "NYM",
+      "home_team": "WSH",
+      "away_team": "NYM",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -114,
+      "stars": 2,
+      "game_pk": 744840,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
+    }
+  ]
+}

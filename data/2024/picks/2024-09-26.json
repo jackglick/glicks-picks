@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-13T18:51:50.819197+00:00",
+  "date": "2024-09-26",
+  "picks": [
+    {
+      "player": "Ginn, J.T.",
+      "player_id": 669372,
+      "opponent": "TEX",
+      "player_team": "ATH",
+      "home_team": "ATH",
+      "away_team": "TEX",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "betmgm",
+      "best_price": -130,
+      "stars": 2,
+      "game_pk": 745609,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "WSH",
+      "player_team": "KC",
+      "home_team": "WSH",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 744796,
+      "result": "win",
+      "actual": 15,
+      "pnl": 125.0
+    },
+    {
+      "player": "Bellozo, Valente",
+      "player_id": 678368,
+      "opponent": "MIN",
+      "player_team": "MIA",
+      "home_team": "MIN",
+      "away_team": "MIA",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betmgm",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 745853,
+      "result": "win",
+      "actual": 1,
+      "pnl": 74.07
+    }
+  ]
+}

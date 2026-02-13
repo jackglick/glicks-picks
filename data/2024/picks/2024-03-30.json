@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-02-13T18:51:50.747468+00:00",
+  "date": "2024-03-30",
+  "picks": [
+    {
+      "player": "Weathers, Ryan",
+      "player_id": 677960,
+      "opponent": "PIT",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "PIT",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "bovada",
+      "best_price": 115,
+      "stars": 3,
+      "game_pk": 746087,
+      "result": "win",
+      "actual": 12,
+      "pnl": 115.0
+    },
+    {
+      "player": "Canning, Griffin",
+      "player_id": 656288,
+      "opponent": "BAL",
+      "player_team": "LAA",
+      "home_team": "BAL",
+      "away_team": "LAA",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 747063,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
+    }
+  ]
+}
