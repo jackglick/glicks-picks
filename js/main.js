@@ -459,7 +459,7 @@
         footer.appendChild(el('span', 'pick-outcome-actual', 'Actual: ' + pick.actual));
       }
       if (pick.pnl !== null && pick.pnl !== undefined) {
-        var pnlClass = pick.pnl >= 0 ? 'pnl-positive' : 'pnl-negative';
+        var pnlClass = pick.pnl > 0 ? 'pnl-positive' : (pick.pnl < 0 ? 'pnl-negative' : '');
         footer.appendChild(el('span', 'pick-outcome-pnl ' + pnlClass, formatPnl(pick.pnl)));
       }
       card.appendChild(footer);
@@ -752,6 +752,8 @@
     var emptyEl = document.getElementById('picks-empty');
     var summary = document.getElementById('books-filter-summary');
     var offseasonHero = document.getElementById('offseason-hero');
+    var picksControls = document.getElementById('picks-controls');
+    var picksLegend = document.querySelector('.picks-legend');
     if (!container || !emptyEl) return;
 
     clearChildren(container);
@@ -766,6 +768,8 @@
     if (allPicks.length === 0) {
       container.style.display = 'none';
       emptyEl.style.display = '';
+      if (picksControls) picksControls.style.display = 'none';
+      if (picksLegend) picksLegend.style.display = 'none';
 
       // Offseason state: 0 picks and not in archive mode
       if (!isArchiveSeason() && offseasonHero) {
@@ -796,6 +800,8 @@
 
     container.style.display = '';
     emptyEl.style.display = 'none';
+    if (picksControls) picksControls.style.display = '';
+    if (picksLegend) picksLegend.style.display = '';
 
     // Remove legacy best-bets section if present
     var bestBetsSection = container.parentNode ? container.parentNode.querySelector('.best-bets-section') : null;
@@ -1165,6 +1171,14 @@
     initPicksSort();
 
     // Offseason hero browse-archive button
+    var viewResultsBtn = document.getElementById('view-2025-results-btn');
+    if (viewResultsBtn) {
+      viewResultsBtn.addEventListener('click', function () {
+        setSeason('2025');
+        window.location.href = 'results.html';
+      });
+    }
+
     var browseBtn = document.getElementById('browse-backtest-btn');
     if (browseBtn) {
       browseBtn.addEventListener('click', function () {
@@ -1362,14 +1376,14 @@
         tr.appendChild(el('td', '', r.direction + ' ' + r.line + ' ' + r.market));
 
         var tdResult = document.createElement('td');
-        var badge = el('span', 'result-badge ' + r.result, r.result.toUpperCase());
+        var badge = el('span', 'result-badge ' + String(r.result).toLowerCase(), String(r.result).toUpperCase());
         tdResult.appendChild(badge);
         if (r.actual !== null) {
           tdResult.appendChild(document.createTextNode(' (' + r.actual + ')'));
         }
         tr.appendChild(tdResult);
 
-        tr.appendChild(el('td', r.pnl >= 0 ? 'pnl-positive' : 'pnl-negative', formatPnl(r.pnl)));
+        tr.appendChild(el('td', r.pnl > 0 ? 'pnl-positive' : (r.pnl < 0 ? 'pnl-negative' : ''), formatPnl(r.pnl)));
         recentBody.appendChild(tr);
       });
     }

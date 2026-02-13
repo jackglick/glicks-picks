@@ -322,6 +322,8 @@ button:focus-visible,
   font-size: 0.84rem;
   font-weight: 700;
   color: var(--text);
+  flex: 1;
+  text-align: center;
 }
 
 .calendar-nav-btn {
@@ -1646,6 +1648,7 @@ a {
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: 6px;
+  min-height: 220px;
 }
 
 @keyframes shimmer {
@@ -1770,7 +1773,7 @@ a {
 }
 
 .legend-stars {
-  color: var(--accent);
+  color: #d4940a;
 }
 
 /* --- Offseason hero (#33) --- */
