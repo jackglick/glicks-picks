@@ -690,11 +690,13 @@
     var container = document.getElementById('picks-market-filter');
     if (!container) return;
     clearChildren(container);
-    var markets = {};
+    var marketCounts = {};
     picks.forEach(function (p) {
-      if (p.market) markets[p.market] = true;
+      if (p.market) {
+        marketCounts[p.market] = (marketCounts[p.market] || 0) + 1;
+      }
     });
-    var marketList = Object.keys(markets).sort();
+    var marketList = Object.keys(marketCounts).sort();
     if (marketList.length <= 1) {
       container.style.display = 'none';
       return;
@@ -705,13 +707,22 @@
       if (!Object.prototype.hasOwnProperty.call(picksState.selectedMarkets, market)) {
         picksState.selectedMarkets[market] = true;
       }
-      var chip = el('button', 'market-chip' + (picksState.selectedMarkets[market] ? ' active' : ''), market);
-      chip.type = 'button';
-      chip.addEventListener('click', function () {
-        picksState.selectedMarkets[market] = !picksState.selectedMarkets[market];
-        chip.classList.toggle('active', picksState.selectedMarkets[market]);
+      var isSelected = !!picksState.selectedMarkets[market];
+      var chip = el('label', 'market-filter-chip' + (isSelected ? ' active' : ''));
+      var input = document.createElement('input');
+      input.type = 'checkbox';
+      input.checked = isSelected;
+      input.setAttribute('aria-label', 'Show ' + market + ' picks');
+      var name = el('span', 'market-filter-name', market);
+      var count = el('span', 'market-filter-count', String(marketCounts[market]));
+      input.addEventListener('change', function () {
+        picksState.selectedMarkets[market] = input.checked;
+        chip.classList.toggle('active', input.checked);
         renderPicksWithFilters();
       });
+      chip.appendChild(input);
+      chip.appendChild(name);
+      chip.appendChild(count);
       chipsWrap.appendChild(chip);
     });
     container.appendChild(chipsWrap);
@@ -1180,6 +1191,9 @@
     var tiers = data.star_tier_stats;
     if (tiers.length === 0) return;
 
+    container.appendChild(el('h3', 'results-section-heading', 'By Confidence Tier'));
+
+    var scrollWrap = el('div', 'results-table-scroll');
     var table = document.createElement('table');
     table.className = 'results-table';
     var thead = document.createElement('thead');
@@ -1206,7 +1220,8 @@
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
-    container.appendChild(table);
+    scrollWrap.appendChild(table);
+    container.appendChild(scrollWrap);
   }
 
   function renderDirectionStats(data) {
@@ -1216,6 +1231,9 @@
     var stats = data.direction_stats;
     if (stats.length === 0) return;
 
+    container.appendChild(el('h3', 'results-section-heading', 'By Direction'));
+
+    var scrollWrap = el('div', 'results-table-scroll');
     var table = document.createElement('table');
     table.className = 'results-table';
     var thead = document.createElement('thead');
@@ -1238,7 +1256,8 @@
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
-    container.appendChild(table);
+    scrollWrap.appendChild(table);
+    container.appendChild(scrollWrap);
   }
 
   function renderDrawdownStreak(summary) {

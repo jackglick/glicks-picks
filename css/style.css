@@ -902,6 +902,21 @@ body.backtest-mode .mobile-nav {
   margin-bottom: 0.75rem;
 }
 
+.footer-contact {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.footer-contact a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
 .footer-copy {
   font-size: 0.75rem;
   color: var(--text-dim);
@@ -1326,6 +1341,7 @@ body.backtest-mode .mobile-nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-bottom: 2.5rem;
+  align-items: start;
 }
 
 .results-stat-box {
@@ -1334,6 +1350,13 @@ body.backtest-mode .mobile-nav {
   border-radius: 10px;
   padding: 1.25rem;
   text-align: center;
+}
+
+/* Keep long record values on one line */
+.results-stat-box .results-stat-value#stat-record {
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  letter-spacing: -0.03em;
+  white-space: nowrap;
 }
 
 .results-stat-label {
@@ -1361,7 +1384,8 @@ body.backtest-mode .mobile-nav {
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(27, 42, 74, 0.04);
 }
 
 .results-chart-wrapper h3 {
@@ -1376,11 +1400,18 @@ body.backtest-mode .mobile-nav {
 }
 
 /* --- Tables --- */
-.results-table-wrapper {
-  margin-bottom: 2.5rem;
+.results-table-wrapper,
+.stats-breakdown {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(27, 42, 74, 0.04);
 }
 
-.results-table-wrapper h3 {
+.results-table-wrapper h3,
+.results-section-heading {
   font-size: 1rem;
   font-weight: 800;
   margin-bottom: 1rem;
@@ -1681,18 +1712,41 @@ a {
 .market-filter-chips {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.45rem;
 }
 
 .market-filter-chip {
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 0.3rem 0.6rem;
-  border-radius: 999px;
+  display: inline-grid;
+  grid-template-columns: 14px auto auto;
+  align-items: center;
+  gap: 0.52rem;
+  font-size: 0.82rem;
+  color: var(--text);
+  padding: 0.48rem 0.72rem;
   border: 1px solid var(--chip-border);
+  border-radius: 999px;
   background: #ffffff;
   cursor: pointer;
-  transition: border-color 0.18s ease, background-color 0.18s ease;
+  transition: border-color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.market-filter-chip input {
+  width: 13px;
+  height: 13px;
+  accent-color: var(--accent);
+}
+
+.market-filter-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.market-filter-count {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--text-dim);
 }
 
 .market-filter-chip:hover {
@@ -1700,10 +1754,15 @@ a {
   border-color: rgba(26, 127, 109, 0.35);
 }
 
+.market-filter-chip:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .market-filter-chip.active {
   background: var(--accent-dim);
   border-color: rgba(26, 127, 109, 0.45);
-  color: var(--accent);
+  box-shadow: inset 0 0 0 1px rgba(26, 127, 109, 0.18);
 }
 
 /* --- Star legend (#32) --- */
@@ -1785,9 +1844,7 @@ a {
 }
 
 /* --- Star tier & direction stats tables (#34) --- */
-.stats-breakdown {
-  margin-bottom: 2.5rem;
-}
+/* Card styles for .stats-breakdown now live in the Tables section above */
 
 /* --- Backtest outcome badge on pick cards (#35) --- */
 .pick-outcome {
@@ -1883,4 +1940,71 @@ a {
   font-size: 0.95rem;
   color: var(--text-secondary);
   margin-bottom: 1.25rem;
+}
+
+/* ============================================
+   Additional Visual Polish
+   ============================================ */
+
+/* --- Pick card footer (outcome badge) --- */
+.pick-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+}
+
+.pick-outcome-actual {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+
+.pick-outcome-pnl {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+/* --- Pick card role label --- */
+.pick-card-role {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* --- Show All button in recent picks --- */
+.show-all-btn {
+  display: inline-block;
+  font-family: var(--font);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid rgba(26, 127, 109, 0.25);
+  border-radius: 6px;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+  margin: 0.5rem 0;
+}
+
+.show-all-btn:hover {
+  background: rgba(26, 127, 109, 0.15);
+  border-color: rgba(26, 127, 109, 0.4);
+}
+
+/* --- Results stat boxes: smaller font on mobile for drawdown row --- */
+@media (max-width: 480px) {
+  .stat-boxes .results-stat-value {
+    font-size: clamp(1rem, 3.5vw, 1.5rem);
+  }
+}
+
+/* --- Tighter table min-width for small tables --- */
+.stats-breakdown .results-table {
+  min-width: 0;
 }
