@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Today's Picks — Glick's Picks</title>
-  <meta name="description" content="Today's MLB player prop picks from Glick's Picks. Data-driven selections across seven markets.">
+  <meta name="description" content="Daily MLB player prop picks from Glick's Picks. Data-driven selections across seven markets.">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Glick's Picks — MLB Player Prop Analytics">
+  <meta property="og:title" content="Today's Picks — Glick's Picks">
   <meta property="og:description" content="Daily MLB player prop selections from statistical models across seven markets.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://glicks-picks.com">
+  <meta property="og:url" content="https://glicks-picks.com/picks.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Today's Picks — Glick's Picks">
+  <meta name="twitter:description" content="Daily MLB player prop selections from statistical models across seven markets.">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -24,26 +29,32 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <!-- Header -->
   <header class="header">
     <div class="container header-inner">
       <a href="index.html" class="brand">GLICK'S <span>PICKS</span></a>
-      <nav>
+      <nav aria-label="Primary">
         <ul class="nav-links">
           <li><a href="picks.html" class="active">Today's Picks</a></li>
           <li><a href="results.html">Results</a></li>
-          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Home</a></li>
         </ul>
       </nav>
       <div class="env-toggle-wrapper">
         <label class="env-toggle-label" for="env-toggle">
-          <span class="env-toggle-text">Backtest</span>
-          <input type="checkbox" id="env-toggle" class="env-toggle-input">
+          <span class="env-toggle-text">2025 Backtest</span>
+          <input type="checkbox" id="env-toggle" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
           <span class="env-toggle-slider"></span>
         </label>
       </div>
-      <button class="hamburger" aria-label="Toggle navigation">
+      <button
+        class="hamburger"
+        aria-label="Open navigation menu"
+        aria-controls="mobile-nav"
+        aria-expanded="false"
+      >
         <span></span>
         <span></span>
         <span></span>
@@ -52,14 +63,14 @@
   </header>
 
   <!-- Mobile Nav -->
-  <div class="mobile-nav">
+  <div id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
     <a href="picks.html">Today's Picks</a>
     <a href="results.html">Results</a>
-    <a href="index.html">About</a>
+    <a href="index.html">Home</a>
     <div class="env-toggle-wrapper">
       <label class="env-toggle-label" for="env-toggle-mobile">
-        <span class="env-toggle-text">Backtest</span>
-        <input type="checkbox" id="env-toggle-mobile" class="env-toggle-input">
+        <span class="env-toggle-text">2025 Backtest</span>
+        <input type="checkbox" id="env-toggle-mobile" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
         <span class="env-toggle-slider"></span>
       </label>
     </div>
@@ -67,37 +78,44 @@
 
   <!-- Backtest Banner -->
   <div id="backtest-banner" class="backtest-banner" style="display:none">
-    Viewing 2025 Backtest Data
+    Viewing 2025 Backtest Archive
   </div>
 
-  <!-- Page Hero -->
-  <section class="page-hero">
-    <div class="container">
-      <h1 class="page-title reveal" id="picks-title">Today's Picks</h1>
-      <p class="page-subtitle reveal" id="picks-date"></p>
-      <div class="backtest-date-picker" id="backtest-date-picker" style="display:none">
-        <label for="backtest-date-select" class="backtest-date-label">Select date</label>
-        <select id="backtest-date-select" class="backtest-date-select"></select>
+  <main id="main-content">
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-title reveal" id="picks-title">Today's Picks</h1>
+        <p class="page-subtitle reveal" id="picks-date"></p>
+        <p class="status-meta reveal" id="picks-status">Archive mode uses 2025 out-of-sample data.</p>
+        <div class="backtest-date-picker" id="backtest-date-picker" style="display:none">
+          <label for="backtest-date-select" class="backtest-date-label">Select date</label>
+          <select id="backtest-date-select" class="backtest-date-select"></select>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Picks Grid -->
-  <section class="picks-section">
-    <div class="container">
-      <div class="picks-grid" id="picks-container"></div>
+    <!-- Picks Grid -->
+    <section class="picks-section">
+      <div class="container">
+        <div class="picks-grid" id="picks-container"></div>
 
-      <!-- Empty State -->
-      <div class="picks-empty" id="picks-empty" style="display: none;">
-        <div class="picks-empty-icon">&#9918;</div>
-        <h3>No picks today</h3>
-        <p>Check back closer to game time, or when the season starts.</p>
+        <!-- Empty State -->
+        <div class="picks-empty" id="picks-empty" style="display: none;">
+          <div class="picks-empty-icon">&#9918;</div>
+          <h3>No picks available</h3>
+          <p>Try a different date in backtest mode or check again after the next data refresh.</p>
+        </div>
+
+        <div class="update-cta">
+          <a href="mailto:jack@glicks-picks.com?subject=Glick's%20Picks%20Daily%20Updates" class="cta-button secondary">Get daily update emails</a>
+        </div>
+
+        <!-- Disclaimer -->
+        <p class="picks-disclaimer">Picks are generated by statistical models and are for informational purposes only. Not betting advice. Past performance does not guarantee future results.</p>
       </div>
-
-      <!-- Disclaimer -->
-      <p class="picks-disclaimer">Picks are generated by statistical models and are for informational purposes only. Not betting advice. Past performance does not guarantee future results.</p>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">

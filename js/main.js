@@ -56,34 +56,57 @@
   }
 
   // --- Mobile Menu ---
-  var hamburger = document.querySelector('.hamburger');
-  var mobileNav = document.querySelector('.mobile-nav');
+  function initMobileMenu() {
+    var hamburger = document.querySelector('.hamburger');
+    var mobileNav = document.getElementById('mobile-nav') || document.querySelector('.mobile-nav');
 
-  if (hamburger && mobileNav) {
+    if (!hamburger || !mobileNav) return;
+
+    function setOpenState(isOpen) {
+      hamburger.classList.toggle('open', isOpen);
+      mobileNav.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+
+    function closeMenu() {
+      setOpenState(false);
+    }
+
     hamburger.addEventListener('click', function () {
-      hamburger.classList.toggle('open');
-      mobileNav.classList.toggle('open');
-      document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+      var isOpen = mobileNav.classList.contains('open');
+      setOpenState(!isOpen);
     });
 
     mobileNav.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        hamburger.classList.remove('open');
-        mobileNav.classList.remove('open');
-        document.body.style.overflow = '';
-      });
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('keydown', function (evt) {
+      if (evt.key === 'Escape' && mobileNav.classList.contains('open')) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener('click', function (evt) {
+      if (!mobileNav.classList.contains('open')) return;
+      if (mobileNav.contains(evt.target) || hamburger.contains(evt.target)) return;
+      closeMenu();
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= 768) {
+        closeMenu();
+      }
     });
   }
 
-  // Active nav state is set via .active class in each page's HTML
-
   // ============================================
-  // Picks & Results Pages
+  // Shared mode/data helpers
   // ============================================
 
-  // --- Backtest/Prod Toggle ---
   function getEnv() {
-    return localStorage.getItem('glicks-env') || 'prod';
+    return localStorage.getItem('glicks-env') || 'dev';
   }
 
   function setEnv(env) {
@@ -95,6 +118,20 @@
     return env === 'dev' ? 'data/backtest/' + filename : 'data/' + filename;
   }
 
+  function updateBacktestBanner(env) {
+    var banner = document.getElementById('backtest-banner');
+    if (banner) {
+      banner.textContent = env === 'dev' ? 'Viewing 2025 Backtest Archive' : 'Viewing Current Mode';
+      banner.style.display = env === 'dev' ? 'block' : 'none';
+    }
+
+    if (env === 'dev') {
+      document.body.classList.add('backtest-mode');
+    } else {
+      document.body.classList.remove('backtest-mode');
+    }
+  }
+
   function initEnvToggle() {
     var env = getEnv();
     updateBacktestBanner(env);
@@ -104,27 +141,24 @@
       document.getElementById('env-toggle-mobile')
     ];
 
+    function syncToggleState(isBacktest) {
+      toggles.forEach(function (toggle) {
+        if (!toggle) return;
+        toggle.checked = isBacktest;
+      });
+    }
+
+    syncToggleState(env === 'dev');
+
     toggles.forEach(function (toggle) {
       if (!toggle) return;
-      toggle.checked = (env === 'dev');
       toggle.addEventListener('change', function () {
         var newEnv = toggle.checked ? 'dev' : 'prod';
         setEnv(newEnv);
+        syncToggleState(newEnv === 'dev');
         location.reload();
       });
     });
-  }
-
-  function updateBacktestBanner(env) {
-    var banner = document.getElementById('backtest-banner');
-    if (banner) {
-      banner.style.display = (env === 'dev') ? 'block' : 'none';
-    }
-    if (env === 'dev') {
-      document.body.classList.add('backtest-mode');
-    } else {
-      document.body.classList.remove('backtest-mode');
-    }
   }
 
   // --- Utilities ---
@@ -134,8 +168,8 @@
         if (!res.ok) throw new Error(res.status);
         return res.json();
       })
-      .then(callback)
-      .catch(function () { callback(null); });
+      .then(function (data) { callback(data, null); })
+      .catch(function (err) { callback(null, err); });
   }
 
   function renderStars(n) {
@@ -169,6 +203,19 @@
     return d.toLocaleDateString('en-US', options);
   }
 
+  function formatTimestamp(ts) {
+    if (!ts) return '--';
+    var d = new Date(ts);
+    return d.toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      timeZoneName: 'short'
+    });
+  }
+
   function el(tag, className, textContent) {
     var node = document.createElement(tag);
     if (className) node.className = className;
@@ -183,12 +230,16 @@
   }
 
   function reobserveReveals() {
-    // Delay one frame so layout recalculates after display changes
     requestAnimationFrame(function () {
-      document.querySelectorAll('.reveal:not(.visible)').forEach(function (el) {
-        revealObserver.observe(el);
+      document.querySelectorAll('.reveal:not(.visible)').forEach(function (item) {
+        revealObserver.observe(item);
       });
     });
+  }
+
+  function setStatusText(id, text) {
+    var node = document.getElementById(id);
+    if (node) node.textContent = text;
   }
 
   // --- Sportsbook brand colors ---
@@ -209,7 +260,6 @@
 
   // --- Shared Pick Card Renderer ---
   function getPlayerInitials(playerName) {
-    // Format is "Last, First" → initials = F + L
     var parts = playerName.split(', ');
     if (parts.length === 2) {
       return (parts[1].charAt(0) + parts[0].charAt(0)).toUpperCase();
@@ -236,7 +286,6 @@
     var card = el('div', 'pick-card');
     card.setAttribute('data-stars', pick.stars);
 
-    // Header row
     var header = el('div', 'pick-card-header');
     header.appendChild(createPlayerAvatar(pick));
     var headerInfo = el('div', 'pick-card-header-info');
@@ -248,7 +297,6 @@
     header.appendChild(el('div', 'pick-stars', renderStars(pick.stars)));
     card.appendChild(header);
 
-    // Body row
     var body = el('div', 'pick-card-body');
     var callWrapper = el('div', 'pick-call-wrapper');
     callWrapper.appendChild(el('span', 'pick-call-label', 'Our Call'));
@@ -259,13 +307,13 @@
     body.appendChild(el('span', 'pick-card-market', pick.market));
     card.appendChild(body);
 
-    // Book info
     var BOOK_DISPLAY = {
       'draftkings': 'DraftKings', 'fanduel': 'FanDuel', 'betmgm': 'BetMGM',
       'caesars': 'Caesars', 'williamhill_us': 'Caesars', 'pointsbet': 'PointsBet',
       'betrivers': 'BetRivers', 'bovada': 'Bovada', 'bet365': 'bet365',
       'fanatics': 'Fanatics', 'betonlineag': 'BetOnline', 'mybookieag': 'MyBookie'
     };
+
     if (pick.best_book || pick.best_price !== null) {
       var bookDiv = el('div', 'pick-card-book');
       if (pick.best_book) {
@@ -286,6 +334,53 @@
     return card;
   }
 
+  // --- Home Page ---
+  function initHomePage() {
+    var heroBets = document.getElementById('hero-total-bets');
+    if (!heroBets) return;
+
+    fetchJSON('results.json', function (data, err) {
+      if (err || !data || !data.summary) return;
+
+      var summary = data.summary;
+      setStatusText('hero-total-bets', summary.total_bets.toLocaleString('en-US'));
+      setStatusText('hero-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
+      setStatusText('hero-win-rate', summary.win_rate.toFixed(1) + '% win rate');
+
+      setStatusText('edge-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
+      setStatusText(
+        'edge-summary',
+        'Combined ROI across ' + summary.total_bets.toLocaleString('en-US') +
+        ' backtested bets (' + summary.win_rate.toFixed(1) + '% win rate).'
+      );
+
+      var byMarket = data.by_market || [];
+      var marketMap = {};
+      byMarket.forEach(function (m) {
+        marketMap[m.market] = m;
+      });
+
+      var cards = document.querySelectorAll('.market-card[data-market]');
+      cards.forEach(function (card) {
+        var market = card.getAttribute('data-market');
+        var m = marketMap[market];
+        if (!m) return;
+
+        var vals = card.querySelectorAll('.market-val');
+        if (vals.length >= 2) {
+          vals[0].textContent = m.win_rate.toFixed(1) + '%';
+          vals[1].textContent = (m.roi >= 0 ? '+' : '') + m.roi.toFixed(1) + '%';
+          vals[1].classList.toggle('negative', m.roi < 0);
+        }
+
+        var sample = card.querySelector('.market-sample');
+        if (sample) {
+          sample.textContent = m.bets.toLocaleString('en-US') + ' bets';
+        }
+      });
+    });
+  }
+
   // --- Backtest Date Picker ---
   function initBacktestDatePicker() {
     var picker = document.getElementById('backtest-date-picker');
@@ -301,7 +396,6 @@
       .then(function (index) {
         if (!index || !index.dates || index.dates.length === 0) return;
 
-        // Populate dropdown (most recent first)
         var dates = index.dates.slice().reverse();
         dates.forEach(function (entry) {
           var opt = document.createElement('option');
@@ -310,19 +404,15 @@
           select.appendChild(opt);
         });
 
-        // Show picker
         picker.style.display = '';
-
-        // Load most recent date
         loadBacktestPicks(dates[0].date, container);
 
-        // Handle date change
         select.addEventListener('change', function () {
           loadBacktestPicks(select.value, container);
         });
       })
       .catch(function () {
-        // Index not available — fall through to empty state
+        setStatusText('picks-status', 'Could not load backtest date index.');
       });
   }
 
@@ -330,12 +420,10 @@
     var dateEl = document.getElementById('picks-date');
     var emptyEl = document.getElementById('picks-empty');
 
-    // Update subtitle
     if (dateEl) {
       dateEl.textContent = formatFullDate(dateStr);
     }
 
-    // Clear existing cards
     clearChildren(container);
     container.style.display = '';
     if (emptyEl) emptyEl.style.display = 'none';
@@ -349,8 +437,11 @@
         if (!data || !data.picks || data.picks.length === 0) {
           container.style.display = 'none';
           if (emptyEl) emptyEl.style.display = '';
+          setStatusText('picks-status', 'No picks found for this archive date.');
           return;
         }
+
+        setStatusText('picks-status', 'Archive mode uses 2025 out-of-sample data.');
 
         data.picks.forEach(function (pick) {
           container.appendChild(renderPickCard(pick));
@@ -361,6 +452,7 @@
       .catch(function () {
         container.style.display = 'none';
         if (emptyEl) emptyEl.style.display = '';
+        setStatusText('picks-status', 'Could not load picks for this date.');
       });
   }
 
@@ -369,7 +461,6 @@
     var container = document.getElementById('picks-container');
     if (!container) return;
 
-    // Backtest mode: show date picker and browsable picks
     if (getEnv() === 'dev') {
       var titleEl = document.getElementById('picks-title');
       if (titleEl) titleEl.textContent = '2025 Backtest Picks';
@@ -377,28 +468,34 @@
       return;
     }
 
-    // Prod mode: single day's picks
-    fetchJSON('picks_today.json', function (data) {
+    fetchJSON('picks_today.json', function (data, err) {
       var dateEl = document.getElementById('picks-date');
       var emptyEl = document.getElementById('picks-empty');
 
-      if (!data || !data.picks || data.picks.length === 0) {
+      if (err || !data) {
+        container.style.display = 'none';
+        if (emptyEl) emptyEl.style.display = '';
+        setStatusText('picks-status', 'Could not load current picks feed.');
+        if (dateEl) dateEl.textContent = 'Feed unavailable';
+        return;
+      }
+
+      if (!data.picks || data.picks.length === 0) {
         container.style.display = 'none';
         if (emptyEl) emptyEl.style.display = '';
         if (dateEl) {
-          dateEl.textContent = data && data.date
-            ? formatFullDate(data.date)
-            : 'Season starts soon';
+          dateEl.textContent = data.date ? formatFullDate(data.date) : 'Season starts soon';
         }
+        setStatusText('picks-status', 'No picks posted for this slate yet.');
         return;
       }
 
       if (dateEl) {
-        var updated = data.generated_at
-          ? new Date(data.generated_at).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
-          : '';
-        dateEl.textContent = formatFullDate(data.date) + (updated ? ' \u2022 Updated ' + updated : '');
+        var updated = data.generated_at ? formatTimestamp(data.generated_at) : '';
+        dateEl.textContent = formatFullDate(data.date) + (updated ? ' • Updated ' + updated : '');
       }
+
+      setStatusText('picks-status', 'Current mode data feed loaded.');
 
       data.picks.forEach(function (pick) {
         container.appendChild(renderPickCard(pick));
@@ -413,20 +510,21 @@
     var statsEl = document.getElementById('results-stats');
     if (!statsEl) return;
 
-    fetchJSON('results.json', function (data) {
+    fetchJSON('results.json', function (data, err) {
       var emptyEl = document.getElementById('results-empty');
       var contentEl = document.getElementById('results-content');
 
-      if (!data || !data.summary) {
+      if (err || !data || !data.summary) {
         if (emptyEl) emptyEl.style.display = '';
+        setStatusText('results-generated-at', 'Last updated: unavailable');
         return;
       }
 
       if (contentEl) contentEl.style.display = '';
 
       var s = data.summary;
+      setStatusText('results-generated-at', 'Last updated: ' + formatTimestamp(data.generated_at));
 
-      // Stats banner
       document.getElementById('stat-record').textContent =
         s.wins + '-' + s.losses + (s.pushes > 0 ? '-' + s.pushes : '');
 
@@ -440,12 +538,14 @@
       roiEl.textContent = (s.roi >= 0 ? '+' : '') + s.roi.toFixed(1) + '%';
       roiEl.className = 'results-stat-value ' + (s.roi >= 0 ? 'positive' : 'negative');
 
-      // Market breakdown table
       var marketBody = document.querySelector('#market-table tbody');
       if (marketBody && data.by_market) {
+        clearChildren(marketBody);
         data.by_market.forEach(function (m) {
           var tr = document.createElement('tr');
-          var tdMarket = el('td'); var strong = el('strong', '', m.market); tdMarket.appendChild(strong);
+          var tdMarket = el('td');
+          var strong = el('strong', '', m.market);
+          tdMarket.appendChild(strong);
           tr.appendChild(tdMarket);
           tr.appendChild(el('td', '', String(m.bets)));
           tr.appendChild(el('td', '', m.wins + '-' + m.losses));
@@ -459,9 +559,9 @@
         });
       }
 
-      // Recent picks table
       var recentBody = document.querySelector('#recent-table tbody');
       if (recentBody && data.recent) {
+        clearChildren(recentBody);
         data.recent.forEach(function (r) {
           var tr = document.createElement('tr');
           tr.appendChild(el('td', '', formatDate(r.date)));
@@ -481,7 +581,16 @@
         });
       }
 
-      // P&L chart
+      if (data.cumulative_pnl && data.cumulative_pnl.length > 1) {
+        var first = data.cumulative_pnl[0];
+        var last = data.cumulative_pnl[data.cumulative_pnl.length - 1];
+        setStatusText(
+          'pnl-chart-summary',
+          'From ' + first.date + ' to ' + last.date + ', cumulative P&L moved from ' +
+          formatPnl(first.cumulative) + ' to ' + formatPnl(last.cumulative) + '.'
+        );
+      }
+
       var canvas = document.getElementById('pnl-chart');
       if (canvas && data.cumulative_pnl && data.cumulative_pnl.length > 0 && typeof Chart !== 'undefined') {
         initPnlChart(canvas, data.cumulative_pnl);
@@ -499,14 +608,13 @@
     var lineColor = lastVal >= 0 ? '#1a7f6d' : '#c0392b';
     var fillColor = lastVal >= 0 ? 'rgba(26, 127, 109, 0.08)' : 'rgba(192, 57, 43, 0.08)';
 
-    // Compute rolling 7-day P&L
     var rolling7 = [];
     for (var i = 0; i < dailyValues.length; i++) {
       if (i < 6) {
         rolling7.push(null);
       } else {
         var sum = 0;
-        for (var j = i - 6; j <= i; j++) { sum += dailyValues[j]; }
+        for (var j = i - 6; j <= i; j++) sum += dailyValues[j];
         rolling7.push(Math.round(sum * 100) / 100);
       }
     }
@@ -531,7 +639,7 @@
           {
             label: 'Rolling 7-Day P&L',
             data: rolling7,
-            borderColor: 'rgba(99, 102, 241, 0.85)',
+            borderColor: 'rgba(212, 148, 10, 0.85)',
             backgroundColor: 'transparent',
             fill: false,
             tension: 0.3,
@@ -597,7 +705,7 @@
             grid: { display: false },
             ticks: {
               font: { family: "'JetBrains Mono'", size: 11 },
-              color: 'rgba(99, 102, 241, 0.7)',
+              color: 'rgba(212, 148, 10, 0.8)',
               callback: function (val) {
                 if (Math.abs(val) >= 1000) return '$' + (val / 1000) + 'K';
                 return '$' + val;
@@ -610,7 +718,9 @@
   }
 
   // --- Page Router ---
+  initMobileMenu();
   initEnvToggle();
+  initHomePage();
   initPicksPage();
   initResultsPage();
 

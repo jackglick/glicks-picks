@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Glick's Picks — MLB Player Prop Analytics</title>
-  <meta name="description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data, backtested against real sportsbook odds across seven markets.">
+  <meta name="description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data and backtested against real sportsbook odds across seven markets.">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Glick's Picks — MLB Player Prop Analytics">
-  <meta property="og:description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data, backtested against real sportsbook odds across seven markets.">
+  <meta property="og:description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data and backtested against real sportsbook odds across seven markets.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://glicks-picks.com">
+  <meta property="og:url" content="https://glicks-picks.com/">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Glick's Picks — MLB Player Prop Analytics">
-  <meta name="twitter:description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data, backtested against real sportsbook odds across seven markets.">
+  <meta name="twitter:description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data and backtested against real sportsbook odds across seven markets.">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -29,26 +29,32 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <!-- Header -->
   <header class="header">
     <div class="container header-inner">
       <a href="index.html" class="brand">GLICK'S <span>PICKS</span></a>
-      <nav>
+      <nav aria-label="Primary">
         <ul class="nav-links">
           <li><a href="picks.html">Today's Picks</a></li>
           <li><a href="results.html">Results</a></li>
-          <li><a href="index.html" class="active">About</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
         </ul>
       </nav>
       <div class="env-toggle-wrapper">
         <label class="env-toggle-label" for="env-toggle">
-          <span class="env-toggle-text">Backtest</span>
-          <input type="checkbox" id="env-toggle" class="env-toggle-input">
+          <span class="env-toggle-text">2025 Backtest</span>
+          <input type="checkbox" id="env-toggle" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
           <span class="env-toggle-slider"></span>
         </label>
       </div>
-      <button class="hamburger" aria-label="Toggle navigation">
+      <button
+        class="hamburger"
+        aria-label="Open navigation menu"
+        aria-controls="mobile-nav"
+        aria-expanded="false"
+      >
         <span></span>
         <span></span>
         <span></span>
@@ -57,14 +63,14 @@
   </header>
 
   <!-- Mobile Nav -->
-  <div class="mobile-nav">
+  <div id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
     <a href="picks.html">Today's Picks</a>
     <a href="results.html">Results</a>
-    <a href="index.html">About</a>
+    <a href="index.html">Home</a>
     <div class="env-toggle-wrapper">
       <label class="env-toggle-label" for="env-toggle-mobile">
-        <span class="env-toggle-text">Backtest</span>
-        <input type="checkbox" id="env-toggle-mobile" class="env-toggle-input">
+        <span class="env-toggle-text">2025 Backtest</span>
+        <input type="checkbox" id="env-toggle-mobile" class="env-toggle-input" aria-label="Toggle 2025 backtest mode">
         <span class="env-toggle-slider"></span>
       </label>
     </div>
@@ -72,184 +78,189 @@
 
   <!-- Backtest Banner -->
   <div id="backtest-banner" class="backtest-banner" style="display:none">
-    Viewing 2025 Backtest Data
+    Viewing 2025 Backtest Archive
   </div>
 
-  <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="container">
-      <div class="hero-badge reveal">MLB ANALYTICS</div>
-      <h1 class="hero-headline reveal">Pitch-Level Modeling<br>for Player Props</h1>
-      <p class="hero-sub reveal">Statistical models trained on every MLB pitch since 2022. Predicted outcomes compared to sportsbook lines across seven prop markets.</p>
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-badge reveal">MLB ANALYTICS</div>
+        <h1 class="hero-headline reveal">Pitch-Level Modeling<br>for Player Props</h1>
+        <p class="hero-sub reveal">Statistical models trained on every MLB pitch since 2022. Predicted outcomes are compared to sportsbook lines across seven prop markets.</p>
 
-      <div class="hero-stats reveal">
-        <div class="hero-stat">
-          <div class="hero-stat-number">9,792</div>
-          <div class="hero-stat-label">Bets Backtested</div>
-          <div class="hero-stat-detail">7 markets, full 2025 season</div>
-        </div>
-        <div class="hero-stat-divider"></div>
-        <div class="hero-stat">
-          <div class="hero-stat-number">+12.0%</div>
-          <div class="hero-stat-label">ROI</div>
-          <div class="hero-stat-detail">$100 flat stakes, DraftKings &amp; FanDuel odds</div>
-        </div>
-      </div>
-
-      <a href="picks.html" class="cta-button reveal">See Today's Picks</a>
-    </div>
-  </section>
-
-  <!-- How It Works -->
-  <section class="how-it-works" id="how-it-works">
-    <div class="container">
-      <div class="reveal">
-        <h2 class="section-title">How it works</h2>
-        <p class="section-subtitle">Four years of pitch-level Statcast data, distilled into outcome probabilities for each market.</p>
-      </div>
-
-      <div class="steps reveal">
-        <div class="step">
-          <div class="step-number">01</div>
-          <h3>Build features</h3>
-          <p>Every pitch from 2022&ndash;2025 &mdash; velocity, movement, location, outcome &mdash; plus context: park factors, home-plate umpire tendencies, batter/pitcher platoon splits, and rolling recent form.</p>
-        </div>
-        <div class="step">
-          <div class="step-number">02</div>
-          <h3>Predict outcomes</h3>
-          <p>ML ensembles estimate the probability distribution for each stat line &mdash; strikeouts, earned runs, outs, hits, walks, batter hits, and total bases.</p>
-        </div>
-        <div class="step">
-          <div class="step-number">03</div>
-          <h3>Compare to odds</h3>
-          <p>Model probabilities are compared to implied odds from sportsbook lines. Bets are included only when the difference exceeds a per-market threshold (10&ndash;15%).</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Edge -->
-  <section class="the-edge" id="the-edge">
-    <div class="container">
-      <div class="reveal">
-        <h2 class="section-title">2025 backtest results by market</h2>
-        <p class="section-subtitle">All results from out-of-sample holdout data with real sportsbook odds. $100 flat stakes, best available DraftKings or FanDuel lines.</p>
-      </div>
-
-      <div class="market-grid reveal">
-        <div class="market-card">
-          <span class="market-type pitcher">Pitcher</span>
-          <h3>Strikeouts</h3>
-          <div class="market-nums">
-            <div><span class="market-val">55.1%</span> win rate</div>
-            <div><span class="market-val accent">+8.0%</span> ROI</div>
+        <div class="hero-stats reveal">
+          <div class="hero-stat">
+            <div class="hero-stat-number" id="hero-total-bets">--</div>
+            <div class="hero-stat-label">Bets Backtested</div>
+            <div class="hero-stat-detail" id="hero-date-range">2025 season archive</div>
           </div>
-          <div class="market-sample">243 bets</div>
-        </div>
-        <div class="market-card">
-          <span class="market-type pitcher">Pitcher</span>
-          <h3>Earned Runs</h3>
-          <div class="market-nums">
-            <div><span class="market-val">68.3%</span> win rate</div>
-            <div><span class="market-val accent">+25.4%</span> ROI</div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-number" id="hero-roi">--</div>
+            <div class="hero-stat-label">ROI</div>
+            <div class="hero-stat-detail" id="hero-win-rate">--</div>
           </div>
-          <div class="market-sample">287 bets</div>
         </div>
-        <div class="market-card">
-          <span class="market-type pitcher">Pitcher</span>
-          <h3>Outs Recorded</h3>
-          <div class="market-nums">
-            <div><span class="market-val">52.6%</span> win rate</div>
-            <div><span class="market-val accent">+6.2%</span> ROI</div>
-          </div>
-          <div class="market-sample">1,119 bets</div>
-        </div>
-        <div class="market-card">
-          <span class="market-type pitcher">Pitcher</span>
-          <h3>Hits Allowed</h3>
-          <div class="market-nums">
-            <div><span class="market-val">74.5%</span> win rate</div>
-            <div><span class="market-val accent">+38.5%</span> ROI</div>
-          </div>
-          <div class="market-sample">201 bets</div>
-        </div>
-        <div class="market-card">
-          <span class="market-type pitcher">Pitcher</span>
-          <h3>Walks</h3>
-          <div class="market-nums">
-            <div><span class="market-val">54.1%</span> win rate</div>
-            <div><span class="market-val accent">+1.8%</span> ROI</div>
-          </div>
-          <div class="market-sample">157 bets</div>
-        </div>
-        <div class="market-card">
-          <span class="market-type batter">Batter</span>
-          <h3>Hits</h3>
-          <div class="market-nums">
-            <div><span class="market-val">50.5%</span> win rate</div>
-            <div><span class="market-val accent">+5.8%</span> ROI</div>
-          </div>
-          <div class="market-sample">3,429 bets</div>
-        </div>
-        <div class="market-card">
-          <span class="market-type batter">Batter</span>
-          <h3>Total Bases</h3>
-          <div class="market-nums">
-            <div><span class="market-val">64.1%</span> win rate</div>
-            <div><span class="market-val accent">+16.9%</span> ROI</div>
-          </div>
-          <div class="market-sample">4,356 bets</div>
-        </div>
-      </div>
 
-      <div class="edge-highlight reveal">
-        <div class="edge-highlight-inner">
-          <span class="edge-highlight-number">+12.0%</span>
-          <span class="edge-highlight-text">combined ROI across 9,792 backtested bets on 2025 out-of-sample data (58.0% win rate)</span>
+        <div class="cta-group reveal">
+          <a href="picks.html" class="cta-button">See Today's Picks</a>
+          <a href="mailto:jack@glicks-picks.com?subject=Glick's%20Picks%20Updates" class="cta-button secondary">Get Email Updates</a>
         </div>
       </div>
+    </section>
 
-      <div class="edge-explainer reveal">
-        <div class="edge-explainer-card">
-          <h3>Why player props?</h3>
-          <p>In our testing, game-level markets (totals, moneyline, run lines) showed no exploitable signal &mdash; the models couldn't beat the vig. Player props showed larger and more persistent differences between model probabilities and implied odds, particularly in batter and pitcher counting stats.</p>
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="reveal">
+          <h2 class="section-title">How it works</h2>
+          <p class="section-subtitle">Four years of pitch-level Statcast data, distilled into outcome probabilities for each market.</p>
+        </div>
+
+        <div class="steps reveal">
+          <div class="step">
+            <div class="step-number">01</div>
+            <h3>Build features</h3>
+            <p>Every pitch from 2022&ndash;2025 &mdash; velocity, movement, location, outcome &mdash; plus context: park factors, home-plate umpire tendencies, batter/pitcher platoon splits, and rolling recent form.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">02</div>
+            <h3>Predict outcomes</h3>
+            <p>ML ensembles estimate the probability distribution for each stat line &mdash; strikeouts, earned runs, outs, hits, walks, batter hits, and total bases.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">03</div>
+            <h3>Compare to odds</h3>
+            <p>Model probabilities are compared to implied odds from sportsbook lines. Bets are included only when the difference exceeds a per-market threshold (10&ndash;15%).</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- What's Next -->
-  <section class="whats-next" id="whats-next">
-    <div class="container">
-      <div class="reveal">
-        <h2 class="section-title">What's next</h2>
-      </div>
-
-      <div class="next-items reveal">
-        <div class="next-item active">
-          <div class="next-tag">Now</div>
-          <h3>Paper Trading &amp; Validation</h3>
-          <p>The pipeline runs daily during the 2026 season, posting picks to the <a href="picks.html">Today's Picks</a> page and tracking results on the <a href="results.html">Track Record</a> page. Paper trading all 7 markets against live odds.</p>
+    <!-- The Edge -->
+    <section class="the-edge" id="the-edge">
+      <div class="container">
+        <div class="reveal">
+          <h2 class="section-title">2025 backtest results by market</h2>
+          <p class="section-subtitle">Out-of-sample archive performance using real sportsbook odds and $100 flat stakes.</p>
         </div>
-        <div class="next-item">
-          <div class="next-tag">Up Next</div>
-          <h3>Monitor &amp; Evaluate</h3>
-          <p>After 200+ graded paper bets, compare live win rates and ROI to backtest expectations. Track calibration drift, per-market performance, and closing-line value. Publish periodic retrospectives here.</p>
+
+        <div class="market-grid reveal">
+          <div class="market-card" data-market="Strikeouts">
+            <span class="market-type pitcher">Pitcher</span>
+            <h3>Strikeouts</h3>
+            <div class="market-nums">
+              <div><span class="market-val">--</span> win rate</div>
+              <div><span class="market-val accent">--</span> ROI</div>
+            </div>
+            <div class="market-sample">-- bets</div>
+          </div>
+          <div class="market-card" data-market="Earned Runs">
+            <span class="market-type pitcher">Pitcher</span>
+            <h3>Earned Runs</h3>
+            <div class="market-nums">
+              <div><span class="market-val">--</span> win rate</div>
+              <div><span class="market-val accent">--</span> ROI</div>
+            </div>
+            <div class="market-sample">-- bets</div>
+          </div>
+          <div class="market-card" data-market="Outs Recorded">
+            <span class="market-type pitcher">Pitcher</span>
+            <h3>Outs Recorded</h3>
+            <div class="market-nums">
+              <div><span class="market-val">--</span> win rate</div>
+              <div><span class="market-val accent">--</span> ROI</div>
+            </div>
+            <div class="market-sample">-- bets</div>
+          </div>
+          <div class="market-card" data-market="Hits Allowed">
+            <span class="market-type pitcher">Pitcher</span>
+            <h3>Hits Allowed</h3>
+            <div class="market-nums">
+              <div><span class="market-val">--</span> win rate</div>
+              <div><span class="market-val accent">--</span> ROI</div>
+            </div>
+            <div class="market-sample">-- bets</div>
+          </div>
+          <div class="market-card" data-market="Walks">
+            <span class="market-type pitcher">Pitcher</span>
+            <h3>Walks</h3>
+            <div class="market-nums">
+              <div><span class="market-val">--</span> win rate</div>
+              <div><span class="market-val accent">--</span> ROI</div>
+            </div>
+            <div class="market-sample">-- bets</div>
+          </div>
+          <div class="market-card" data-market="Hits">
+            <span class="market-type batter">Batter</span>
+            <h3>Hits</h3>
+            <div class="market-nums">
+              <div><span class="market-val">--</span> win rate</div>
+              <div><span class="market-val accent">--</span> ROI</div>
+            </div>
+            <div class="market-sample">-- bets</div>
+          </div>
+          <div class="market-card" data-market="Total Bases">
+            <span class="market-type batter">Batter</span>
+            <h3>Total Bases</h3>
+            <div class="market-nums">
+              <div><span class="market-val">--</span> win rate</div>
+              <div><span class="market-val accent">--</span> ROI</div>
+            </div>
+            <div class="market-sample">-- bets</div>
+          </div>
+        </div>
+
+        <div class="edge-highlight reveal">
+          <div class="edge-highlight-inner">
+            <span class="edge-highlight-number" id="edge-roi">--</span>
+            <span class="edge-highlight-text" id="edge-summary">Combined archive performance across all 2025 backtested bets.</span>
+          </div>
+        </div>
+
+        <div class="edge-explainer reveal">
+          <div class="edge-explainer-card">
+            <h3>Why player props?</h3>
+            <p>In our testing, game-level markets (totals, moneyline, run lines) showed no exploitable signal. Player props showed larger and more persistent differences between model probabilities and implied odds, particularly in batter and pitcher counting stats.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about-inner reveal">
-        <h2>About this project</h2>
-        <p>Built by <strong>Jack Glick</strong>, a data scientist and lifelong baseball fan. This started as a personal project to see whether machine learning could find meaningful signal in MLB player props &mdash; and grew into a seven-market system covering pitcher and batter outcomes.</p>
-        <p>This is a research project, not a picks service. The models are trained on four years of Statcast pitch-level data and evaluated on out-of-sample holdout seasons with real sportsbook odds. All statistics shown on this site come from backtesting &mdash; not live wagering.</p>
+    <!-- What's Next -->
+    <section class="whats-next" id="whats-next">
+      <div class="container">
+        <div class="reveal">
+          <h2 class="section-title">What's next</h2>
+        </div>
+
+        <div class="next-items reveal">
+          <div class="next-item active">
+            <div class="next-tag">Now</div>
+            <h3>Backtest Transparency</h3>
+            <p>The 2025 archive powers <a href="picks.html">Today's Picks</a> and <a href="results.html">Results</a> views so methodology and outcomes stay auditable end-to-end.</p>
+          </div>
+          <div class="next-item">
+            <div class="next-tag">Up Next</div>
+            <h3>2026 Paper Tracking</h3>
+            <p>As the 2026 season progresses, this site will publish fresh paper-trade picks and model health updates with clear separation from archived backtests.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-inner reveal">
+          <h2>About this project</h2>
+          <p>Built by <strong>Jack Glick</strong>, a data scientist and lifelong baseball fan. This started as a personal project to test whether machine learning could find meaningful signal in MLB player props, then expanded into a seven-market system covering pitcher and batter outcomes.</p>
+          <p>This is a research project, not a picks service. All statistics shown on this site are from backtested, out-of-sample 2025 archive data &mdash; not live wagering.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">

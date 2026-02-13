@@ -20,7 +20,8 @@
   --cream: #fdf8ef;
   --text: #1b2a4a;
   --text-secondary: #5a6478;
-  --text-dim: #8d95a3;
+  --text-dim: #5f6d82;
+  --muted: #6a7384;
   --border: rgba(27, 42, 74, 0.10);
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --mono: 'JetBrains Mono', monospace;
@@ -1305,5 +1306,125 @@ body.backtest-mode .mobile-nav {
 @media (min-width: 1024px) {
   .picks-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ============================================
+   2026-02 UX/Product Accessibility Pass
+   ============================================ */
+
+a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.brand,
+.nav-links a,
+.mobile-nav a,
+.cta-button,
+.backtest-date-select,
+.results-table th a,
+.results-table td a {
+  text-decoration: none;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -40px;
+  z-index: 200;
+  background: #ffffff;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.env-toggle-text {
+  font-size: 0.75rem;
+}
+
+.cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.cta-button.secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.cta-button.secondary:hover {
+  background: var(--accent-dim);
+}
+
+.status-meta {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.update-cta {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.results-chart-summary {
+  margin-top: -0.3rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.results-table caption {
+  caption-side: top;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.market-sample {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.player-initials {
+  background: var(--accent);
+}
+
+.pick-call-label {
+  font-size: 0.65rem;
+  color: var(--muted);
+}
+
+.picks-disclaimer {
+  color: var(--text-secondary);
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none !important;
+  }
+
+  .cta-group {
+    flex-direction: row;
+    justify-content: center;
   }
 }
