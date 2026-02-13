@@ -1446,16 +1446,6 @@
     // Daily streaks (computed from cumulative_pnl)
     var streaks = computeDailyStreaks(data.cumulative_pnl);
     if (streaks) {
-      // Current daily streak
-      if (streaks.current > 0) {
-        var curBox = el('div', 'results-stat-box');
-        curBox.appendChild(el('div', 'results-stat-label', 'Daily Streak'));
-        var curClass = streaks.currentType === 'W' ? 'positive' : 'negative';
-        var curText = streaks.current + ' ' + (streaks.currentType === 'W' ? 'winning' : 'losing') + (streaks.current === 1 ? ' day' : ' days');
-        curBox.appendChild(el('div', 'results-stat-value ' + curClass, curText));
-        container.appendChild(curBox);
-      }
-
       // Best winning streak
       if (streaks.bestWin > 0) {
         var bestBox = el('div', 'results-stat-box');
