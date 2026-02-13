@@ -791,33 +791,63 @@
     container.style.display = '';
     emptyEl.style.display = 'none';
 
-    // Best bets section: 3-star picks get their own callout
+    // Remove legacy best-bets section if present
     var bestBetsSection = container.parentNode ? container.parentNode.querySelector('.best-bets-section') : null;
     if (bestBetsSection) {
       clearChildren(bestBetsSection);
       bestBetsSection.style.display = 'none';
     }
-    var threeStarPicks = filtered.filter(function (p) { return p.stars >= 3; });
-    var regularPicks = threeStarPicks.length > 0
-      ? filtered.filter(function (p) { return p.stars < 3; })
-      : filtered;
 
-    if (threeStarPicks.length > 0) {
-      if (!bestBetsSection) {
-        bestBetsSection = el('div', 'best-bets-section');
-        container.parentNode.insertBefore(bestBetsSection, container);
+    // Group picks by game_pk
+    var gameGroups = {};
+    var gameOrder = [];
+    filtered.forEach(function (pick) {
+      var key = pick.game_pk || (pick.home_team + '_' + pick.away_team);
+      if (!gameGroups[key]) {
+        gameGroups[key] = {
+          picks: [],
+          home_team: pick.home_team || '',
+          away_team: pick.away_team || '',
+          maxStars: 0
+        };
+        gameOrder.push(key);
       }
-      bestBetsSection.style.display = '';
-      bestBetsSection.appendChild(el('h3', 'best-bets-heading', 'Top Picks'));
-      var bestGrid = el('div', 'picks-grid');
-      threeStarPicks.forEach(function (pick) {
-        bestGrid.appendChild(renderPickCard(pick));
-      });
-      bestBetsSection.appendChild(bestGrid);
-    }
+      gameGroups[key].picks.push(pick);
+      if (pick.stars > gameGroups[key].maxStars) {
+        gameGroups[key].maxStars = pick.stars;
+      }
+    });
 
-    regularPicks.forEach(function (pick) {
-      container.appendChild(renderPickCard(pick));
+    // Sort game groups: highest max stars first, then by pick count descending
+    gameOrder.sort(function (a, b) {
+      var diff = gameGroups[b].maxStars - gameGroups[a].maxStars;
+      if (diff !== 0) return diff;
+      return gameGroups[b].picks.length - gameGroups[a].picks.length;
+    });
+
+    // Render each game group
+    gameOrder.forEach(function (key) {
+      var group = gameGroups[key];
+      var section = el('div', 'game-slate-group');
+
+      // Game header with team logos
+      var header = el('div', 'game-slate-header');
+      header.appendChild(createTeamBadge(normalizeTeamCode(group.away_team), 'left'));
+      header.appendChild(el('span', 'matchup-vs', 'at'));
+      header.appendChild(createTeamBadge(normalizeTeamCode(group.home_team), 'right'));
+      section.appendChild(header);
+
+      // Sort picks within group: 3-star first, then by current sort
+      var sorted = group.picks.slice().sort(function (a, b) {
+        return b.stars - a.stars;
+      });
+
+      var grid = el('div', 'picks-grid');
+      sorted.forEach(function (pick) {
+        grid.appendChild(renderPickCard(pick));
+      });
+      section.appendChild(grid);
+      container.appendChild(section);
     });
     if (summary) {
       summary.textContent = 'Showing ' + filtered.length + ' of ' + allPicks.length + ' picks';

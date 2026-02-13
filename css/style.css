@@ -1902,6 +1902,47 @@ a {
   gap: 0.5rem;
 }
 
+/* --- Game Slate Grouping --- */
+.game-slate-group {
+  margin-bottom: 2rem;
+}
+
+.game-slate-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.game-slate-header .matchup-team {
+  gap: 0.5rem;
+}
+
+.game-slate-header .matchup-team-code {
+  font-size: 0.82rem;
+  color: var(--text);
+}
+
+.game-slate-header .matchup-vs {
+  font-size: 0.7rem;
+}
+
+.game-slate-header .team-logo {
+  width: 26px;
+  height: 26px;
+}
+
+.game-slate-header .team-logo-fallback {
+  width: 26px;
+  height: 26px;
+  font-size: 0.55rem;
+}
+
 /* --- Calendar close button (#37) --- */
 .calendar-close-btn {
   background: none;
