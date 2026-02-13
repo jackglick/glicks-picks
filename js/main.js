@@ -820,6 +820,7 @@
           picks: [],
           home_team: pick.home_team || '',
           away_team: pick.away_team || '',
+          game_time: pick.game_time || null,
           maxStars: 0
         };
         gameOrder.push(key);
@@ -830,36 +831,84 @@
       }
     });
 
-    // Sort game groups: highest max stars first, then by pick count descending
-    gameOrder.sort(function (a, b) {
-      var diff = gameGroups[b].maxStars - gameGroups[a].maxStars;
-      if (diff !== 0) return diff;
-      return gameGroups[b].picks.length - gameGroups[a].picks.length;
-    });
-
-    // Render each game group
+    // Group games by slate (game start time), then sort within each slate
+    var slateGroups = {};
+    var slateOrder = [];
     gameOrder.forEach(function (key) {
       var group = gameGroups[key];
-      var section = el('div', 'game-slate-group');
+      var slateKey = group.game_time || '_ungrouped';
+      if (!slateGroups[slateKey]) {
+        slateGroups[slateKey] = { label: group.game_time, games: [] };
+        slateOrder.push(slateKey);
+      }
+      slateGroups[slateKey].games.push(key);
+    });
 
-      // Game header with team logos
-      var header = el('div', 'game-slate-header');
-      header.appendChild(createTeamBadge(normalizeTeamCode(group.away_team), 'left'));
-      header.appendChild(el('span', 'matchup-vs', 'at'));
-      header.appendChild(createTeamBadge(normalizeTeamCode(group.home_team), 'right'));
-      section.appendChild(header);
+    // Parse time string for sorting: "7:10 PM ET" → minutes since midnight
+    function parseTimeMinutes(label) {
+      if (!label) return 9999;
+      var m = label.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+      if (!m) return 9999;
+      var hours = parseInt(m[1], 10);
+      var mins = parseInt(m[2], 10);
+      var ampm = m[3].toUpperCase();
+      if (ampm === 'PM' && hours !== 12) hours += 12;
+      if (ampm === 'AM' && hours === 12) hours = 0;
+      return hours * 60 + mins;
+    }
 
-      // Sort picks within group: 3-star first, then by current sort
-      var sorted = group.picks.slice().sort(function (a, b) {
-        return b.stars - a.stars;
+    // Sort slates by time (earliest first), ungrouped last
+    slateOrder.sort(function (a, b) {
+      return parseTimeMinutes(slateGroups[a].label) - parseTimeMinutes(slateGroups[b].label);
+    });
+
+    // Within each slate, sort games by max stars desc, then pick count desc
+    slateOrder.forEach(function (slateKey) {
+      slateGroups[slateKey].games.sort(function (a, b) {
+        var diff = gameGroups[b].maxStars - gameGroups[a].maxStars;
+        if (diff !== 0) return diff;
+        return gameGroups[b].picks.length - gameGroups[a].picks.length;
       });
+    });
 
-      var grid = el('div', 'picks-grid');
-      sorted.forEach(function (pick) {
-        grid.appendChild(renderPickCard(pick));
+    // Only show slate headers if we have at least 2 distinct time slots
+    var hasMultipleSlates = slateOrder.length > 1 || (slateOrder.length === 1 && slateOrder[0] !== '_ungrouped');
+
+    // Render slates → games → picks
+    slateOrder.forEach(function (slateKey) {
+      var slate = slateGroups[slateKey];
+
+      // Slate header (time banner)
+      if (hasMultipleSlates && slate.label) {
+        var slateHeader = el('div', 'time-slate-header');
+        slateHeader.appendChild(el('span', 'time-slate-label', slate.label));
+        container.appendChild(slateHeader);
+      }
+
+      // Render each game within this slate
+      slate.games.forEach(function (gameKey) {
+        var group = gameGroups[gameKey];
+        var section = el('div', 'game-slate-group');
+
+        // Game header with team logos
+        var header = el('div', 'game-slate-header');
+        header.appendChild(createTeamBadge(normalizeTeamCode(group.away_team), 'left'));
+        header.appendChild(el('span', 'matchup-vs', 'at'));
+        header.appendChild(createTeamBadge(normalizeTeamCode(group.home_team), 'right'));
+        section.appendChild(header);
+
+        // Sort picks within group: 3-star first
+        var sorted = group.picks.slice().sort(function (a, b) {
+          return b.stars - a.stars;
+        });
+
+        var grid = el('div', 'picks-grid');
+        sorted.forEach(function (pick) {
+          grid.appendChild(renderPickCard(pick));
+        });
+        section.appendChild(grid);
+        container.appendChild(section);
       });
-      section.appendChild(grid);
-      container.appendChild(section);
     });
     if (summary) {
       summary.textContent = 'Showing ' + filtered.length + ' of ' + allPicks.length + ' picks';
