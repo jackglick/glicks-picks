@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; script-src 'self' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com; form-action 'self'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Today's Picks — Glick's Picks</title>
   <meta name="description" content="Daily MLB player prop picks from Glick's Picks. Data-driven selections across seven markets.">
 
@@ -123,6 +125,8 @@
     </div>
   </footer>
 
+  <script src="js/security.js"></script>
+  <script src="js/analytics.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
