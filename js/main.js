@@ -396,6 +396,11 @@
     var card = el('div', 'pick-card');
     card.setAttribute('data-stars', pick.stars);
 
+    if (pick.stars >= 3) {
+      var ribbon = el('div', 'corner-ribbon', 'TOP PICK');
+      card.appendChild(ribbon);
+    }
+
     var header = el('div', 'pick-card-header');
     header.appendChild(createPlayerAvatar(pick));
     var headerInfo = el('div', 'pick-card-header-info');
