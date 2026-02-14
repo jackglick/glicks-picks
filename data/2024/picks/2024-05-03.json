@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.762546+00:00",
+  "generated_at": "2026-02-14T18:44:31.616641+00:00",
   "date": "2024-05-03",
   "picks": [
     {
@@ -17,10 +17,30 @@
       "best_price": 115,
       "stars": 3,
       "game_pk": 746645,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 14,
-      "pnl": 115.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 115.0
+    },
+    {
+      "player": "Irvin, Cole",
+      "player_id": 608344,
+      "opponent": "CIN",
+      "player_team": "BAL",
+      "home_team": "CIN",
+      "away_team": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "betonlineag",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 746721,
+      "game_time": "6:10 PM ET",
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Kikuchi, Yusei",
@@ -37,10 +57,30 @@
       "best_price": 125,
       "stars": 2,
       "game_pk": 744868,
+      "game_time": "6:45 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:45 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Lorenzen, Michael",
+      "player_id": 547179,
+      "opponent": "KC",
+      "player_team": "TEX",
+      "home_team": "KC",
+      "away_team": "TEX",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "williamhill_us",
+      "best_price": -109,
+      "stars": 2,
+      "game_pk": 746318,
+      "game_time": "7:40 PM ET",
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Olson, Reese",
@@ -57,10 +97,10 @@
       "best_price": -110,
       "stars": 2,
       "game_pk": 745756,
+      "game_time": "7:05 PM ET",
       "result": "win",
       "actual": 2,
-      "pnl": 90.91,
-      "game_time": "7:05 PM ET"
+      "pnl": 90.91
     },
     {
       "player": "Civale, Aaron",
@@ -77,30 +117,10 @@
       "best_price": 100,
       "stars": 1,
       "game_pk": 745101,
+      "game_time": "6:50 PM ET",
       "result": "win",
       "actual": 14,
-      "pnl": 100.0,
-      "game_time": "6:50 PM ET"
-    },
-    {
-      "player": "Lorenzen, Michael",
-      "player_id": 547179,
-      "opponent": "KC",
-      "player_team": "TEX",
-      "home_team": "KC",
-      "away_team": "TEX",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "williamhill_us",
-      "best_price": -109,
-      "stars": 1,
-      "game_pk": 746318,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:40 PM ET"
+      "pnl": 100.0
     },
     {
       "player": "Quantrill, Cal",
@@ -117,10 +137,10 @@
       "best_price": -129,
       "stars": 1,
       "game_pk": 745510,
+      "game_time": "6:40 PM ET",
       "result": "win",
       "actual": 0,
-      "pnl": 77.52,
-      "game_time": "6:40 PM ET"
+      "pnl": 77.52
     },
     {
       "player": "Quintana, Jose",
@@ -137,10 +157,30 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 745101,
+      "game_time": "6:50 PM ET",
       "result": "win",
       "actual": 8,
-      "pnl": 120.0,
-      "game_time": "6:50 PM ET"
+      "pnl": 120.0
+    },
+    {
+      "player": "Quintana, Jose",
+      "player_id": 500779,
+      "opponent": "TB",
+      "player_team": "NYM",
+      "home_team": "TB",
+      "away_team": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 745101,
+      "game_time": "6:50 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 68.97
     },
     {
       "player": "Ross, Joe",
@@ -157,10 +197,10 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 746890,
+      "game_time": "2:20 PM ET",
       "result": "loss",
       "actual": 17,
-      "pnl": -100.0,
-      "game_time": "2:20 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Stroman, Marcus",
@@ -177,10 +217,10 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 745756,
+      "game_time": "7:05 PM ET",
       "result": "win",
       "actual": 16,
-      "pnl": 95.24,
-      "game_time": "7:05 PM ET"
+      "pnl": 95.24
     }
   ]
 }

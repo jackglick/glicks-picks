@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.776552+00:00",
+  "generated_at": "2026-02-14T18:44:31.634628+00:00",
   "date": "2024-06-04",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": 135,
       "stars": 3,
       "game_pk": 746060,
+      "game_time": "6:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Burnes, Corbin",
@@ -37,30 +37,30 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 744931,
+      "game_time": "7:07 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "7:07 PM ET"
+      "pnl": -100.0
     },
     {
-      "player": "Fried, Max",
-      "player_id": 608331,
-      "opponent": "BOS",
-      "player_team": "ATL",
-      "home_team": "BOS",
-      "away_team": "ATL",
-      "market": "Walks",
+      "player": "Gil, Luis",
+      "player_id": 661563,
+      "opponent": "MIN",
+      "player_team": "NYY",
+      "home_team": "NYY",
+      "away_team": "MIN",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
+      "line": 17.5,
       "best_book": "bovada",
-      "best_price": 125,
+      "best_price": 100,
       "stars": 1,
-      "game_pk": 746949,
-      "result": "win",
-      "actual": 1,
-      "pnl": 125.0,
-      "game_time": "7:10 PM ET"
+      "game_pk": 745739,
+      "game_time": "7:05 PM ET",
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Glasnow, Tyler",
@@ -77,30 +77,10 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 745497,
+      "game_time": "6:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
-    },
-    {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "MIL",
-      "player_team": "PHI",
-      "home_team": "PHI",
-      "away_team": "MIL",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "betmgm",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 745568,
-      "result": "win",
-      "actual": 1,
-      "pnl": 150.0,
-      "game_time": "6:40 PM ET"
+      "pnl": -100.0
     }
   ]
 }

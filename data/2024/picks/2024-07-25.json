@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.795620+00:00",
+  "generated_at": "2026-02-14T18:44:31.660037+00:00",
   "date": "2024-07-25",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": 136,
       "stars": 2,
       "game_pk": 745794,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Corbin, Patrick",
@@ -37,10 +37,30 @@
       "best_price": -130,
       "stars": 1,
       "game_pk": 744827,
+      "game_time": "12:05 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "12:05 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Corbin, Patrick",
+      "player_id": 571578,
+      "opponent": "SD",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "SD",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betmgm",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 744827,
+      "game_time": "12:05 PM ET",
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Corbin, Patrick",
@@ -57,10 +77,50 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 744827,
+      "game_time": "12:05 PM ET",
       "result": "loss",
       "actual": 3,
-      "pnl": -100.0,
-      "game_time": "12:05 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Mu\u00f1oz, Roddery",
+      "player_id": 682610,
+      "opponent": "BAL",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "BAL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -145,
+      "stars": 1,
+      "game_pk": 746037,
+      "game_time": "12:10 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 68.97
+    },
+    {
+      "player": "Williams, Gavin",
+      "player_id": 668909,
+      "opponent": "DET",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 746609,
+      "game_time": "1:10 PM ET",
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
     }
   ]
 }

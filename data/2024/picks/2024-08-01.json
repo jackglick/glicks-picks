@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.798464+00:00",
+  "generated_at": "2026-02-14T18:44:31.663340+00:00",
   "date": "2024-08-01",
   "picks": [
     {
@@ -15,12 +15,12 @@
       "line": 17.5,
       "best_book": "bovada",
       "best_price": 130,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 747092,
+      "game_time": "7:20 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:20 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Meyer, Max",
@@ -37,10 +37,30 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 747092,
+      "game_time": "7:20 PM ET",
       "result": "win",
       "actual": 1,
-      "pnl": 130.0,
-      "game_time": "7:20 PM ET"
+      "pnl": 130.0
+    },
+    {
+      "player": "Montero, Keider",
+      "player_id": 672456,
+      "opponent": "KC",
+      "player_team": "DET",
+      "home_team": "DET",
+      "away_team": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 746442,
+      "game_time": "6:40 PM ET",
+      "result": "win",
+      "actual": 3,
+      "pnl": 100.0
     },
     {
       "player": "Morton, Charlie",
@@ -57,10 +77,10 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 747092,
+      "game_time": "7:20 PM ET",
       "result": "win",
       "actual": 2,
-      "pnl": 95.24,
-      "game_time": "7:20 PM ET"
+      "pnl": 95.24
     }
   ]
 }

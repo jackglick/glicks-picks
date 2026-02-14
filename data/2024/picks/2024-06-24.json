@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.784723+00:00",
+  "generated_at": "2026-02-14T18:44:31.645009+00:00",
   "date": "2024-06-24",
   "picks": [
     {
@@ -15,12 +15,32 @@
       "line": 17.5,
       "best_book": "bovada",
       "best_price": 125,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 746941,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 20,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Bibee, Tanner",
+      "player_id": 676440,
+      "opponent": "BAL",
+      "player_team": "CLE",
+      "home_team": "BAL",
+      "away_team": "CLE",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 747021,
+      "game_time": "6:35 PM ET",
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Bradley, Taj",
@@ -37,10 +57,10 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 745078,
+      "game_time": "6:50 PM ET",
       "result": "win",
       "actual": 16,
-      "pnl": 95.24,
-      "game_time": "6:50 PM ET"
+      "pnl": 95.24
     },
     {
       "player": "Lynn, Lance",
@@ -49,18 +69,38 @@
       "player_team": "STL",
       "home_team": "STL",
       "away_team": "ATL",
-      "market": "Walks",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": 130,
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -115,
       "stars": 1,
       "game_pk": 745160,
-      "result": "win",
-      "actual": 0,
-      "pnl": 130.0,
-      "game_time": "7:45 PM ET"
+      "game_time": "7:45 PM ET",
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
+    },
+    {
+      "player": "Mize, Casey",
+      "player_id": 663554,
+      "opponent": "PHI",
+      "player_team": "DET",
+      "home_team": "DET",
+      "away_team": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 746458,
+      "game_time": "6:40 PM ET",
+      "result": "loss",
+      "actual": 10,
+      "pnl": -100.0
     }
   ]
 }

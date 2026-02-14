@@ -1,46 +1,26 @@
 {
-  "generated_at": "2026-02-13T18:51:50.815059+00:00",
+  "generated_at": "2026-02-14T18:44:31.686223+00:00",
   "date": "2024-09-13",
   "picks": [
     {
-      "player": "Eflin, Zach",
-      "player_id": 621107,
-      "opponent": "DET",
-      "player_team": "BAL",
-      "home_team": "DET",
-      "away_team": "BAL",
-      "market": "Outs Recorded",
+      "player": "Cabrera, Edward",
+      "player_id": 665795,
+      "opponent": "WSH",
+      "player_team": "MIA",
+      "home_team": "WSH",
+      "away_team": "MIA",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 746423,
-      "result": "loss",
-      "actual": 20,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
-    },
-    {
-      "player": "Fedde, Erick",
-      "player_id": 607200,
-      "opponent": "TOR",
-      "player_team": "STL",
-      "home_team": "TOR",
-      "away_team": "STL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
+      "line": 5.5,
       "best_book": "draftkings",
       "best_price": -110,
       "stars": 1,
-      "game_pk": 744882,
-      "result": "win",
-      "actual": 15,
-      "pnl": 90.91,
-      "game_time": "7:07 PM ET"
+      "game_pk": 744800,
+      "game_time": "6:45 PM ET",
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
     },
     {
       "player": "Knack, Landon",
@@ -57,30 +37,10 @@
       "best_price": 100,
       "stars": 1,
       "game_pk": 747069,
+      "game_time": "7:20 PM ET",
       "result": "loss",
       "actual": 5,
-      "pnl": -100.0,
-      "game_time": "7:20 PM ET"
-    },
-    {
-      "player": "Knack, Landon",
-      "player_id": 689017,
-      "opponent": "ATL",
-      "player_team": "LAD",
-      "home_team": "ATL",
-      "away_team": "LAD",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "williamhill_us",
-      "best_price": 116,
-      "stars": 1,
-      "game_pk": 747069,
-      "result": "loss",
-      "actual": 7,
-      "pnl": -100.0,
-      "game_time": "7:20 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Knack, Landon",
@@ -97,10 +57,30 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 747069,
+      "game_time": "7:20 PM ET",
       "result": "loss",
       "actual": 2,
-      "pnl": -100.0,
-      "game_time": "7:20 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Marsh, Alec",
+      "player_id": 679525,
+      "opponent": "PIT",
+      "player_team": "KC",
+      "home_team": "PIT",
+      "away_team": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 745447,
+      "game_time": "6:40 PM ET",
+      "result": "loss",
+      "actual": 11,
+      "pnl": -100.0
     },
     {
       "player": "Ortiz, Luis",
@@ -117,10 +97,10 @@
       "best_price": -114,
       "stars": 1,
       "game_pk": 745447,
+      "game_time": "6:40 PM ET",
       "result": "win",
       "actual": 12,
-      "pnl": 87.72,
-      "game_time": "6:40 PM ET"
+      "pnl": 87.72
     },
     {
       "player": "Quintana, Jose",
@@ -137,10 +117,10 @@
       "best_price": -107,
       "stars": 1,
       "game_pk": 745529,
+      "game_time": "6:40 PM ET",
       "result": "loss",
       "actual": 20,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
+      "pnl": -100.0
     }
   ]
 }

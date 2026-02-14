@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.780867+00:00",
+  "generated_at": "2026-02-14T18:44:31.640144+00:00",
   "date": "2024-06-15",
   "picks": [
     {
@@ -17,30 +17,10 @@
       "best_price": 135,
       "stars": 3,
       "game_pk": 745241,
+      "game_time": "7:15 PM ET",
       "result": "win",
       "actual": 9,
-      "pnl": 135.0,
-      "game_time": "7:15 PM ET"
-    },
-    {
-      "player": "Pepiot, Ryan",
-      "player_id": 686752,
-      "opponent": "ATL",
-      "player_team": "TB",
-      "home_team": "ATL",
-      "away_team": "TB",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "bovada",
-      "best_price": 125,
-      "stars": 3,
-      "game_pk": 747113,
-      "result": "win",
-      "actual": 14,
-      "pnl": 125.0,
-      "game_time": "4:10 PM ET"
+      "pnl": 135.0
     },
     {
       "player": "Rod\u00f3n, Carlos",
@@ -57,10 +37,10 @@
       "best_price": 106,
       "stars": 3,
       "game_pk": 746946,
+      "game_time": "7:15 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 106.0,
-      "game_time": "7:15 PM ET"
+      "pnl": 106.0
     },
     {
       "player": "Sandoval, Patrick",
@@ -75,12 +55,32 @@
       "line": 17.5,
       "best_book": "betrivers",
       "best_price": -108,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 745329,
+      "game_time": "4:05 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 92.59,
-      "game_time": "4:05 PM ET"
+      "pnl": 92.59
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "ATL",
+      "player_team": "TB",
+      "home_team": "ATL",
+      "away_team": "TB",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "bovada",
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 747113,
+      "game_time": "4:10 PM ET",
+      "result": "win",
+      "actual": 14,
+      "pnl": 125.0
     },
     {
       "player": "Walker, Taijuan",
@@ -97,30 +97,70 @@
       "best_price": 118,
       "stars": 2,
       "game_pk": 747024,
+      "game_time": "4:05 PM ET",
       "result": "loss",
       "actual": 17,
-      "pnl": -100.0,
-      "game_time": "4:05 PM ET"
+      "pnl": -100.0
     },
     {
-      "player": "Arrighetti, Spencer",
-      "player_id": 681293,
-      "opponent": "DET",
-      "player_team": "HOU",
-      "home_team": "HOU",
-      "away_team": "DET",
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "MIL",
+      "player_team": "CIN",
+      "home_team": "MIL",
+      "away_team": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 745976,
+      "game_time": "4:10 PM ET",
+      "result": "win",
+      "actual": 3,
+      "pnl": 83.33
+    },
+    {
+      "player": "Carrasco, Carlos",
+      "player_id": 471911,
+      "opponent": "TOR",
+      "player_team": "CLE",
+      "home_team": "TOR",
+      "away_team": "CLE",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -125,
+      "line": 14.5,
+      "best_book": "betonlineag",
+      "best_price": 140,
       "stars": 1,
-      "game_pk": 746381,
+      "game_pk": 744925,
+      "game_time": "3:07 PM ET",
+      "result": "loss",
+      "actual": 15,
+      "pnl": -100.0
+    },
+    {
+      "player": "Carrasco, Carlos",
+      "player_id": 471911,
+      "opponent": "TOR",
+      "player_team": "CLE",
+      "home_team": "TOR",
+      "away_team": "CLE",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 744925,
+      "game_time": "3:07 PM ET",
       "result": "win",
-      "actual": 4,
-      "pnl": 80.0,
-      "game_time": "4:10 PM ET"
+      "actual": 2,
+      "pnl": 86.96
     },
     {
       "player": "Criswell, Cooper",
@@ -137,10 +177,10 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 746946,
+      "game_time": "7:15 PM ET",
       "result": "win",
       "actual": 2,
-      "pnl": 120.0,
-      "game_time": "7:15 PM ET"
+      "pnl": 120.0
     },
     {
       "player": "Criswell, Cooper",
@@ -157,10 +197,10 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 746946,
+      "game_time": "7:15 PM ET",
       "result": "loss",
       "actual": 2,
-      "pnl": -100.0,
-      "game_time": "7:15 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Pepiot, Ryan",
@@ -177,10 +217,30 @@
       "best_price": -130,
       "stars": 1,
       "game_pk": 747113,
+      "game_time": "4:10 PM ET",
       "result": "loss",
       "actual": 5,
-      "pnl": -100.0,
-      "game_time": "4:10 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "ATL",
+      "player_team": "TB",
+      "home_team": "ATL",
+      "away_team": "TB",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "williamhill_us",
+      "best_price": 106,
+      "stars": 1,
+      "game_pk": 747113,
+      "game_time": "4:10 PM ET",
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Rodriguez, Grayson",
@@ -197,10 +257,30 @@
       "best_price": 130,
       "stars": 1,
       "game_pk": 747024,
+      "game_time": "4:05 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "4:05 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Rogers, Trevor",
+      "player_id": 669432,
+      "opponent": "WSH",
+      "player_team": "MIA",
+      "home_team": "WSH",
+      "away_team": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betrivers",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 744846,
+      "game_time": "4:05 PM ET",
+      "result": "win",
+      "actual": 3,
+      "pnl": 108.0
     }
   ]
 }

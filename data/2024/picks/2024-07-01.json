@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.787282+00:00",
+  "generated_at": "2026-02-14T18:44:31.648692+00:00",
   "date": "2024-07-01",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": 126,
       "stars": 2,
       "game_pk": 744914,
+      "game_time": "3:07 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "3:07 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Peterson, David",
@@ -37,10 +37,30 @@
       "best_price": -114,
       "stars": 2,
       "game_pk": 744840,
+      "game_time": "6:45 PM ET",
       "result": "loss",
       "actual": 19,
-      "pnl": -100.0,
-      "game_time": "6:45 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Peterson, David",
+      "player_id": 656849,
+      "opponent": "WSH",
+      "player_team": "NYM",
+      "home_team": "WSH",
+      "away_team": "NYM",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -111,
+      "stars": 1,
+      "game_pk": 744840,
+      "game_time": "6:45 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 90.09
     }
   ]
 }

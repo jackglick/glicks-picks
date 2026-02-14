@@ -1,26 +1,46 @@
 {
-  "generated_at": "2026-02-13T18:51:50.766189+00:00",
+  "generated_at": "2026-02-14T18:44:31.621219+00:00",
   "date": "2024-05-10",
   "picks": [
     {
-      "player": "Schmidt, Clarke",
-      "player_id": 657376,
-      "opponent": "TB",
-      "player_team": "NYY",
-      "home_team": "TB",
-      "away_team": "NYY",
+      "player": "Irvin, Cole",
+      "player_id": 608344,
+      "opponent": "AZ",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "AZ",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 16.5,
+      "line": 17.5,
       "best_book": "draftkings",
       "best_price": -115,
       "stars": 2,
-      "game_pk": 745094,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:50 PM ET"
+      "game_pk": 747043,
+      "game_time": "7:05 PM ET",
+      "result": "win",
+      "actual": 17,
+      "pnl": 86.96
+    },
+    {
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "WSH",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 746964,
+      "game_time": "7:10 PM ET",
+      "result": "win",
+      "actual": 4,
+      "pnl": 71.43
     },
     {
       "player": "Jones, Jared",
@@ -37,30 +57,10 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 745506,
+      "game_time": "6:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
-    },
-    {
-      "player": "Kikuchi, Yusei",
-      "player_id": 579328,
-      "opponent": "MIN",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "MIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 744940,
-      "result": "loss",
-      "actual": 23,
-      "pnl": -100.0,
-      "game_time": "7:07 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Morton, Charlie",
@@ -77,10 +77,10 @@
       "best_price": 115,
       "stars": 1,
       "game_pk": 745827,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Pfaadt, Brandon",
@@ -97,10 +97,10 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 747043,
+      "game_time": "7:05 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:05 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Ryan, Joe",
@@ -117,10 +117,30 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 744940,
+      "game_time": "7:07 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "7:07 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Schmidt, Clarke",
+      "player_id": 657376,
+      "opponent": "TB",
+      "player_team": "NYY",
+      "home_team": "TB",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 745094,
+      "game_time": "6:50 PM ET",
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     }
   ]
 }

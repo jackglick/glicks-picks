@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-02-13T18:51:50.791841+00:00",
+  "generated_at": "2026-02-14T18:44:31.655081+00:00",
   "date": "2024-07-12",
   "picks": [
     {
-      "player": "Ragans, Cole",
-      "player_id": 666142,
-      "opponent": "BOS",
-      "player_team": "KC",
-      "home_team": "BOS",
-      "away_team": "KC",
+      "player": "Manaea, Sean",
+      "player_id": 640455,
+      "opponent": "COL",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "COL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 145,
+      "best_book": "fanduel",
+      "best_price": -122,
       "stars": 3,
-      "game_pk": 746936,
+      "game_pk": 745800,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Spiers, Carson",
@@ -37,10 +37,30 @@
       "best_price": 100,
       "stars": 3,
       "game_pk": 746685,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 100.0
+    },
+    {
+      "player": "Ragans, Cole",
+      "player_id": 666142,
+      "opponent": "BOS",
+      "player_team": "KC",
+      "home_team": "BOS",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 145,
+      "stars": 2,
+      "game_pk": 746936,
+      "game_time": "7:10 PM ET",
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Su\u00e1rez, Ranger",
@@ -55,32 +75,12 @@
       "line": 17.5,
       "best_book": "bovada",
       "best_price": 150,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 745552,
+      "game_time": "6:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
-    },
-    {
-      "player": "Manaea, Sean",
-      "player_id": 640455,
-      "opponent": "COL",
-      "player_team": "NYM",
-      "home_team": "NYM",
-      "away_team": "COL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -122,
-      "stars": 2,
-      "game_pk": 745800,
-      "result": "loss",
-      "actual": 21,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Chirinos, Yonny",
@@ -97,10 +97,10 @@
       "best_price": 150,
       "stars": 1,
       "game_pk": 746685,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 15,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Criswell, Cooper",
@@ -117,10 +117,10 @@
       "best_price": -147,
       "stars": 1,
       "game_pk": 746936,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 1,
-      "pnl": 68.03,
-      "game_time": "7:10 PM ET"
+      "pnl": 68.03
     },
     {
       "player": "Harris, Hogan",
@@ -137,10 +137,10 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 745552,
+      "game_time": "6:40 PM ET",
       "result": "loss",
       "actual": 6,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Povich, Cade",
@@ -157,10 +157,10 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 747012,
+      "game_time": "7:05 PM ET",
       "result": "loss",
       "actual": 5,
-      "pnl": -100.0,
-      "game_time": "7:05 PM ET"
+      "pnl": -100.0
     }
   ]
 }

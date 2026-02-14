@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.814669+00:00",
+  "generated_at": "2026-02-14T18:44:31.685880+00:00",
   "date": "2024-09-12",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": -115,
       "stars": 3,
       "game_pk": 746427,
+      "game_time": "1:10 PM ET",
       "result": "loss",
       "actual": 17,
-      "pnl": -100.0,
-      "game_time": "1:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Pepiot, Ryan",
@@ -37,10 +37,10 @@
       "best_price": -129,
       "stars": 2,
       "game_pk": 746591,
+      "game_time": "7:15 PM ET",
       "result": "win",
       "actual": 6,
-      "pnl": 77.52,
-      "game_time": "7:15 PM ET"
+      "pnl": 77.52
     },
     {
       "player": "Criswell, Cooper",
@@ -57,10 +57,30 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 745695,
+      "game_time": "7:15 PM ET",
       "result": "win",
       "actual": 1,
-      "pnl": 95.24,
-      "game_time": "7:15 PM ET"
+      "pnl": 95.24
+    },
+    {
+      "player": "Junis, Jakob",
+      "player_id": 596001,
+      "opponent": "STL",
+      "player_team": "CIN",
+      "home_team": "STL",
+      "away_team": "CIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "consensus",
+      "best_price": 126,
+      "stars": 1,
+      "game_pk": 745129,
+      "game_time": "1:15 PM ET",
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     }
   ]
 }

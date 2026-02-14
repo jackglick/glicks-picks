@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.752464+00:00",
+  "generated_at": "2026-02-14T18:44:31.603427+00:00",
   "date": "2024-04-11",
   "picks": [
     {
@@ -13,14 +13,14 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "williamhill_us",
-      "best_price": -117,
+      "best_book": "consensus",
+      "best_price": -119,
       "stars": 3,
       "game_pk": 745029,
+      "game_time": "2:35 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 85.47,
-      "game_time": "2:35 PM ET"
+      "pnl": 84.03
     },
     {
       "player": "Sears, JP",
@@ -33,54 +33,14 @@
       "category": "pitcher",
       "direction": "UNDER",
       "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": 100,
+      "best_book": "consensus",
+      "best_price": -127,
       "stars": 2,
       "game_pk": 745029,
+      "game_time": "2:35 PM ET",
       "result": "loss",
       "actual": 19,
-      "pnl": -100.0,
-      "game_time": "2:35 PM ET"
-    },
-    {
-      "player": "Quintana, Jose",
-      "player_id": 500779,
-      "opponent": "ATL",
-      "player_team": "NYM",
-      "home_team": "ATL",
-      "away_team": "NYM",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 747137,
-      "result": "win",
-      "actual": 3,
-      "pnl": 74.07,
-      "game_time": "12:20 PM ET"
-    },
-    {
-      "player": "Quintana, Jose",
-      "player_id": 500779,
-      "opponent": "ATL",
-      "player_team": "NYM",
-      "home_team": "ATL",
-      "away_team": "NYM",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 747137,
-      "result": "win",
-      "actual": 16,
-      "pnl": 76.92,
-      "game_time": "12:20 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Rodriguez, Grayson",
@@ -97,10 +57,10 @@
       "best_price": 100,
       "stars": 1,
       "game_pk": 746977,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 17,
-      "pnl": 100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 100.0
     },
     {
       "player": "Singer, Brady",
@@ -117,10 +77,10 @@
       "best_price": 115,
       "stars": 1,
       "game_pk": 746322,
+      "game_time": "2:10 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 115.0,
-      "game_time": "2:10 PM ET"
+      "pnl": 115.0
     }
   ]
 }

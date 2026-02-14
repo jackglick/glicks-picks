@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.767576+00:00",
+  "generated_at": "2026-02-14T18:44:31.623010+00:00",
   "date": "2024-05-13",
   "picks": [
     {
@@ -17,10 +17,30 @@
       "best_price": -110,
       "stars": 3,
       "game_pk": 746471,
+      "game_time": "6:40 PM ET",
       "result": "win",
       "actual": 17,
-      "pnl": 90.91,
-      "game_time": "6:40 PM ET"
+      "pnl": 90.91
+    },
+    {
+      "player": "Burnes, Corbin",
+      "player_id": 669203,
+      "opponent": "TOR",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "TOR",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 747040,
+      "game_time": "6:35 PM ET",
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Eflin, Zach",
@@ -37,10 +57,10 @@
       "best_price": 120,
       "stars": 2,
       "game_pk": 746961,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 14,
-      "pnl": 120.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 120.0
     },
     {
       "player": "Imanaga, Shota",
@@ -49,18 +69,38 @@
       "player_team": "CHC",
       "home_team": "ATL",
       "away_team": "CHC",
-      "market": "Earned Runs",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
+      "line": 17.5,
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 2,
       "game_pk": 747128,
+      "game_time": "7:20 PM ET",
       "result": "win",
-      "actual": 0,
-      "pnl": 110.0,
-      "game_time": "7:20 PM ET"
+      "actual": 13,
+      "pnl": 110.0
+    },
+    {
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "CHC",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "CHC",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "bovada",
+      "best_price": -150,
+      "stars": 2,
+      "game_pk": 747128,
+      "game_time": "7:20 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 66.67
     },
     {
       "player": "S\u00e1nchez, Cristopher",
@@ -77,10 +117,10 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 745826,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 16,
-      "pnl": 80.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 80.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -97,10 +137,10 @@
       "best_price": 106,
       "stars": 1,
       "game_pk": 747040,
+      "game_time": "6:35 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "6:35 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Burnes, Corbin",
@@ -109,38 +149,18 @@
       "player_team": "BAL",
       "home_team": "BAL",
       "away_team": "TOR",
-      "market": "Outs Recorded",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 125,
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": 120,
       "stars": 1,
       "game_pk": 747040,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:35 PM ET"
-    },
-    {
-      "player": "Crawford, Kutter",
-      "player_id": 676710,
-      "opponent": "TB",
-      "player_team": "BOS",
-      "home_team": "BOS",
-      "away_team": "TB",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "williamhill_us",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 746961,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "game_time": "6:35 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 120.0
     },
     {
       "player": "Imanaga, Shota",
@@ -149,18 +169,18 @@
       "player_team": "CHC",
       "home_team": "ATL",
       "away_team": "CHC",
-      "market": "Outs Recorded",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 2.5,
       "best_book": "draftkings",
       "best_price": 110,
       "stars": 1,
       "game_pk": 747128,
+      "game_time": "7:20 PM ET",
       "result": "win",
-      "actual": 13,
-      "pnl": 110.0,
-      "game_time": "7:20 PM ET"
+      "actual": 0,
+      "pnl": 110.0
     },
     {
       "player": "Keller, Mitch",
@@ -177,10 +197,10 @@
       "best_price": 106,
       "stars": 1,
       "game_pk": 745991,
+      "game_time": "7:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:40 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "L\u00f3pez, Reynaldo",
@@ -189,18 +209,38 @@
       "player_team": "ATL",
       "home_team": "ATL",
       "away_team": "CHC",
-      "market": "Walks",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "bovada",
-      "best_price": -150,
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -115,
       "stars": 1,
       "game_pk": 747128,
+      "game_time": "7:20 PM ET",
       "result": "win",
-      "actual": 2,
-      "pnl": 66.67,
-      "game_time": "7:20 PM ET"
+      "actual": 14,
+      "pnl": 86.96
+    },
+    {
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "CHC",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 747128,
+      "game_time": "7:20 PM ET",
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     }
   ]
 }

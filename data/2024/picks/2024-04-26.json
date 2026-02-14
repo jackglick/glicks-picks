@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.759438+00:00",
+  "generated_at": "2026-02-14T18:44:31.612682+00:00",
   "date": "2024-04-26",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": 145,
       "stars": 3,
       "game_pk": 746808,
+      "game_time": "7:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:40 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Sale, Chris",
@@ -37,10 +37,30 @@
       "best_price": 115,
       "stars": 3,
       "game_pk": 747129,
+      "game_time": "7:20 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "7:20 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Butt\u00f3, Jos\u00e9",
+      "player_id": 676130,
+      "opponent": "STL",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "STL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "consensus",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 745835,
+      "game_time": "7:10 PM ET",
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Imanaga, Shota",
@@ -57,10 +77,10 @@
       "best_price": -115,
       "stars": 2,
       "game_pk": 746972,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 19,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Lugo, Seth",
@@ -77,10 +97,10 @@
       "best_price": 120,
       "stars": 2,
       "game_pk": 746482,
+      "game_time": "1:10 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "1:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Bassitt, Chris",
@@ -97,10 +117,10 @@
       "best_price": 125,
       "stars": 1,
       "game_pk": 744949,
+      "game_time": "7:07 PM ET",
       "result": "loss",
       "actual": 7,
-      "pnl": -100.0,
-      "game_time": "7:07 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Crawford, Kutter",
@@ -109,18 +129,38 @@
       "player_team": "BOS",
       "home_team": "BOS",
       "away_team": "CHC",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "betmgm",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 746972,
+      "game_time": "7:10 PM ET",
+      "result": "win",
+      "actual": 0,
+      "pnl": 140.0
+    },
+    {
+      "player": "Mikolas, Miles",
+      "player_id": 571945,
+      "opponent": "NYM",
+      "player_team": "STL",
+      "home_team": "NYM",
+      "away_team": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -130,
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": -125,
       "stars": 1,
-      "game_pk": 746972,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "game_pk": 745835,
+      "game_time": "7:10 PM ET",
+      "result": "win",
+      "actual": 17,
+      "pnl": 80.0
     },
     {
       "player": "Olson, Reese",
@@ -137,30 +177,10 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 746482,
+      "game_time": "1:10 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "1:10 PM ET"
-    },
-    {
-      "player": "Stripling, Ross",
-      "player_id": 548389,
-      "opponent": "BAL",
-      "player_team": "ATH",
-      "home_team": "BAL",
-      "away_team": "ATH",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 747050,
-      "result": "win",
-      "actual": 0,
-      "pnl": 76.92,
-      "game_time": "7:05 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Williams, Trevor",
@@ -177,10 +197,10 @@
       "best_price": 100,
       "stars": 1,
       "game_pk": 746078,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 1,
-      "pnl": 100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 100.0
     },
     {
       "player": "Williams, Trevor",
@@ -197,10 +217,30 @@
       "best_price": 110,
       "stars": 1,
       "game_pk": 746078,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 5,
-      "pnl": 110.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 110.0
+    },
+    {
+      "player": "Williams, Trevor",
+      "player_id": 592866,
+      "opponent": "MIA",
+      "player_team": "WSH",
+      "home_team": "MIA",
+      "away_team": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": 114,
+      "stars": 1,
+      "game_pk": 746078,
+      "game_time": "7:10 PM ET",
+      "result": "win",
+      "actual": 1,
+      "pnl": 114.0
     }
   ]
 }

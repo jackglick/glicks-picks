@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-02-14T18:43:44.009872+00:00",
+  "date": "2024-06-10",
+  "picks": [
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "BAL",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "BAL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "consensus",
+      "best_price": 119,
+      "stars": 1,
+      "game_pk": 745080,
+      "game_time": "6:50 PM ET",
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "BAL",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "BAL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 745080,
+      "game_time": "6:50 PM ET",
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
+    }
+  ]
+}

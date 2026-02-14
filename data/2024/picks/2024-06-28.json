@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.786110+00:00",
+  "generated_at": "2026-02-14T18:44:31.647096+00:00",
   "date": "2024-06-28",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": 142,
       "stars": 3,
       "game_pk": 745804,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 16,
-      "pnl": 142.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 142.0
     },
     {
       "player": "Quintana, Jose",
@@ -37,10 +37,10 @@
       "best_price": -120,
       "stars": 3,
       "game_pk": 745804,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 12,
-      "pnl": 83.33,
-      "game_time": "7:10 PM ET"
+      "pnl": 83.33
     },
     {
       "player": "Stroman, Marcus",
@@ -57,10 +57,10 @@
       "best_price": -110,
       "stars": 3,
       "game_pk": 744922,
+      "game_time": "7:07 PM ET",
       "result": "win",
       "actual": 13,
-      "pnl": 90.91,
-      "game_time": "7:07 PM ET"
+      "pnl": 90.91
     },
     {
       "player": "V\u00e1squez, Randy",
@@ -77,10 +77,10 @@
       "best_price": 130,
       "stars": 2,
       "game_pk": 746939,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 12,
-      "pnl": 130.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 130.0
     },
     {
       "player": "Eflin, Zach",
@@ -97,10 +97,10 @@
       "best_price": -148,
       "stars": 1,
       "game_pk": 745070,
+      "game_time": "6:50 PM ET",
       "result": "win",
       "actual": 18,
-      "pnl": 67.57,
-      "game_time": "6:50 PM ET"
+      "pnl": 67.57
     },
     {
       "player": "Hudson, Dakota",
@@ -117,30 +117,70 @@
       "best_price": 135,
       "stars": 1,
       "game_pk": 746776,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 5,
-      "pnl": 135.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 135.0
     },
     {
-      "player": "Su\u00e1rez, Albert",
-      "player_id": 544150,
-      "opponent": "TEX",
-      "player_team": "BAL",
-      "home_team": "BAL",
-      "away_team": "TEX",
-      "market": "Earned Runs",
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "NYY",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "NYY",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -120,
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -140,
       "stars": 1,
-      "game_pk": 747017,
+      "game_pk": 744922,
+      "game_time": "7:07 PM ET",
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
+    },
+    {
+      "player": "Stroman, Marcus",
+      "player_id": 573186,
+      "opponent": "TOR",
+      "player_team": "NYY",
+      "home_team": "TOR",
+      "away_team": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 744922,
+      "game_time": "7:07 PM ET",
       "result": "win",
-      "actual": 0,
-      "pnl": 83.33,
-      "game_time": "7:05 PM ET"
+      "actual": 3,
+      "pnl": 110.0
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "MIA",
+      "player_team": "PHI",
+      "home_team": "PHI",
+      "away_team": "MIA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 745560,
+      "game_time": "6:20 PM ET",
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
     }
   ]
 }

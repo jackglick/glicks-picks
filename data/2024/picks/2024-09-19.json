@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.817428+00:00",
+  "generated_at": "2026-02-14T18:44:31.689502+00:00",
   "date": "2024-09-19",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": 135,
       "stars": 3,
       "game_pk": 746011,
+      "game_time": "4:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "4:40 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Bello, Brayan",
@@ -37,10 +37,10 @@
       "best_price": 110,
       "stars": 2,
       "game_pk": 745041,
+      "game_time": "6:50 PM ET",
       "result": "win",
       "actual": 16,
-      "pnl": 110.0,
-      "game_time": "6:50 PM ET"
+      "pnl": 110.0
     },
     {
       "player": "Corbin, Patrick",
@@ -57,10 +57,10 @@
       "best_price": 105,
       "stars": 2,
       "game_pk": 746823,
+      "game_time": "7:40 PM ET",
       "result": "win",
       "actual": 13,
-      "pnl": 105.0,
-      "game_time": "7:40 PM ET"
+      "pnl": 105.0
     },
     {
       "player": "Fedde, Erick",
@@ -77,10 +77,10 @@
       "best_price": -107,
       "stars": 2,
       "game_pk": 745120,
+      "game_time": "7:15 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:15 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Sale, Chris",
@@ -97,10 +97,70 @@
       "best_price": 150,
       "stars": 2,
       "game_pk": 746663,
+      "game_time": "1:10 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 150.0,
-      "game_time": "1:10 PM ET"
+      "pnl": 150.0
+    },
+    {
+      "player": "Cantillo, Joey",
+      "player_id": 676282,
+      "opponent": "MIN",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betrivers",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 746579,
+      "game_time": "1:10 PM ET",
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
+    },
+    {
+      "player": "Eflin, Zach",
+      "player_id": 621107,
+      "opponent": "SF",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": -118,
+      "stars": 1,
+      "game_pk": 746985,
+      "game_time": "1:05 PM ET",
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
+    },
+    {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "PIT",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 745120,
+      "game_time": "7:15 PM ET",
+      "result": "win",
+      "actual": 3,
+      "pnl": 108.0
     },
     {
       "player": "Gausman, Kevin",
@@ -117,10 +177,10 @@
       "best_price": -125,
       "stars": 1,
       "game_pk": 744962,
+      "game_time": "2:35 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 80.0,
-      "game_time": "2:35 PM ET"
+      "pnl": 80.0
     },
     {
       "player": "Ortiz, Luis",
@@ -137,10 +197,30 @@
       "best_price": -122,
       "stars": 1,
       "game_pk": 745120,
+      "game_time": "7:15 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:15 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "PHI",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 745769,
+      "game_time": "7:15 PM ET",
+      "result": "win",
+      "actual": 7,
+      "pnl": 120.0
     }
   ]
 }

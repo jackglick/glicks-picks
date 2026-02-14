@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-02-13T18:51:50.748167+00:00",
+  "generated_at": "2026-02-14T18:44:31.597360+00:00",
   "date": "2024-04-01",
   "picks": [
+    {
+      "player": "Gonzales, Marco",
+      "player_id": 594835,
+      "opponent": "WSH",
+      "player_team": "PIT",
+      "home_team": "WSH",
+      "away_team": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "fanduel",
+      "best_price": -140,
+      "stars": 1,
+      "game_pk": 744875,
+      "game_time": "4:05 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 71.43
+    },
+    {
+      "player": "Hudson, Dakota",
+      "player_id": 641712,
+      "opponent": "CHC",
+      "player_team": "COL",
+      "home_team": "CHC",
+      "away_team": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "betonlineag",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 746899,
+      "game_time": "2:20 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 125.0
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "KC",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 106,
+      "stars": 1,
+      "game_pk": 747058,
+      "game_time": "6:35 PM ET",
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
+    },
     {
       "player": "Silseth, Chase",
       "player_id": 681217,
@@ -17,10 +77,10 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 746085,
+      "game_time": "6:40 PM ET",
       "result": "win",
       "actual": 10,
-      "pnl": 120.0,
-      "game_time": "6:40 PM ET"
+      "pnl": 120.0
     }
   ]
 }

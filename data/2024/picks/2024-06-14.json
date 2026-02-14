@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.780427+00:00",
+  "generated_at": "2026-02-14T18:44:31.639560+00:00",
   "date": "2024-06-14",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": 115,
       "stars": 3,
       "game_pk": 746869,
+      "game_time": "2:20 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "2:20 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Su\u00e1rez, Ranger",
@@ -37,10 +37,10 @@
       "best_price": 143,
       "stars": 3,
       "game_pk": 747025,
+      "game_time": "7:05 PM ET",
       "result": "loss",
       "actual": 20,
-      "pnl": -100.0,
-      "game_time": "7:05 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Waldron, Matt",
@@ -57,10 +57,10 @@
       "best_price": 108,
       "stars": 3,
       "game_pk": 745810,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 20,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Gore, MacKenzie",
@@ -77,30 +77,10 @@
       "best_price": 120,
       "stars": 2,
       "game_pk": 744847,
+      "game_time": "6:45 PM ET",
       "result": "loss",
       "actual": 22,
-      "pnl": -100.0,
-      "game_time": "6:45 PM ET"
-    },
-    {
-      "player": "Bradish, Kyle",
-      "player_id": 680694,
-      "opponent": "PHI",
-      "player_team": "BAL",
-      "home_team": "BAL",
-      "away_team": "PHI",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 747025,
-      "result": "win",
-      "actual": 3,
-      "pnl": 120.0,
-      "game_time": "7:05 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Bradish, Kyle",
@@ -117,30 +97,50 @@
       "best_price": 105,
       "stars": 1,
       "game_pk": 747025,
+      "game_time": "7:05 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 105.0,
-      "game_time": "7:05 PM ET"
+      "pnl": 105.0
     },
     {
-      "player": "Gibson, Kyle",
-      "player_id": 502043,
-      "opponent": "CHC",
-      "player_team": "STL",
-      "home_team": "CHC",
-      "away_team": "STL",
-      "market": "Walks",
+      "player": "Bradish, Kyle",
+      "player_id": 680694,
+      "opponent": "PHI",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "PHI",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "betmgm",
-      "best_price": -120,
+      "line": 5.5,
+      "best_book": "betonlineag",
+      "best_price": 110,
       "stars": 1,
-      "game_pk": 746869,
+      "game_pk": 747025,
+      "game_time": "7:05 PM ET",
       "result": "win",
-      "actual": 1,
-      "pnl": 83.33,
-      "game_time": "2:20 PM ET"
+      "actual": 4,
+      "pnl": 110.0
+    },
+    {
+      "player": "Gausman, Kevin",
+      "player_id": 592332,
+      "opponent": "CLE",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "CLE",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 18.5,
+      "best_book": "betrivers",
+      "best_price": -143,
+      "stars": 1,
+      "game_pk": 744924,
+      "game_time": "7:07 PM ET",
+      "result": "win",
+      "actual": 16,
+      "pnl": 69.93
     },
     {
       "player": "Littell, Zack",
@@ -157,10 +157,50 @@
       "best_price": -111,
       "stars": 1,
       "game_pk": 747112,
+      "game_time": "7:20 PM ET",
       "result": "win",
       "actual": 6,
-      "pnl": 90.09,
-      "game_time": "7:20 PM ET"
+      "pnl": 90.09
+    },
+    {
+      "player": "Su\u00e1rez, Ranger",
+      "player_id": 624133,
+      "opponent": "BAL",
+      "player_team": "PHI",
+      "home_team": "BAL",
+      "away_team": "PHI",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 747025,
+      "game_time": "7:05 PM ET",
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
+    },
+    {
+      "player": "Wicks, Jordan",
+      "player_id": 696136,
+      "opponent": "STL",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 746869,
+      "game_time": "2:20 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 125.0
     }
   ]
 }

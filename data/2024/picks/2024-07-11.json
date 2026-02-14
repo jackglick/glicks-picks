@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.791432+00:00",
+  "generated_at": "2026-02-14T18:44:31.654654+00:00",
   "date": "2024-07-11",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": -120,
       "stars": 2,
       "game_pk": 745065,
+      "game_time": "6:50 PM ET",
       "result": "win",
       "actual": 1,
-      "pnl": 83.33,
-      "game_time": "6:50 PM ET"
+      "pnl": 83.33
     },
     {
       "player": "Skenes, Paul",
@@ -37,10 +37,10 @@
       "best_price": 150,
       "stars": 2,
       "game_pk": 745967,
+      "game_time": "2:10 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "2:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Civale, Aaron",
@@ -57,10 +57,70 @@
       "best_price": -121,
       "stars": 1,
       "game_pk": 745967,
+      "game_time": "2:10 PM ET",
       "result": "loss",
       "actual": 19,
-      "pnl": -100.0,
-      "game_time": "2:10 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Cortes, Nestor",
+      "player_id": 641482,
+      "opponent": "TB",
+      "player_team": "NYY",
+      "home_team": "TB",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 745065,
+      "game_time": "6:50 PM ET",
+      "result": "win",
+      "actual": 13,
+      "pnl": 76.92
+    },
+    {
+      "player": "Gomber, Austin",
+      "player_id": 596295,
+      "opponent": "CIN",
+      "player_team": "COL",
+      "home_team": "CIN",
+      "away_team": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 746688,
+      "game_time": "1:10 PM ET",
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "NYM",
+      "player_team": "WSH",
+      "home_team": "NYM",
+      "away_team": "WSH",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 745799,
+      "game_time": "1:10 PM ET",
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Hicks, Jordan",
@@ -77,10 +137,30 @@
       "best_price": 125,
       "stars": 1,
       "game_pk": 745313,
+      "game_time": "3:45 PM ET",
       "result": "loss",
       "actual": 8,
-      "pnl": -100.0,
-      "game_time": "3:45 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Hicks, Jordan",
+      "player_id": 663855,
+      "opponent": "TOR",
+      "player_team": "SF",
+      "home_team": "SF",
+      "away_team": "TOR",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": -128,
+      "stars": 1,
+      "game_pk": 745313,
+      "game_time": "3:45 PM ET",
+      "result": "win",
+      "actual": 1,
+      "pnl": 78.12
     },
     {
       "player": "Medina, Luis",
@@ -97,10 +177,50 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 746935,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 14,
-      "pnl": 145.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 145.0
+    },
+    {
+      "player": "Medina, Luis",
+      "player_id": 665622,
+      "opponent": "BOS",
+      "player_team": "ATH",
+      "home_team": "BOS",
+      "away_team": "ATH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 1,
+      "game_pk": 746935,
+      "game_time": "7:10 PM ET",
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
+    },
+    {
+      "player": "Su\u00e1rez, Albert",
+      "player_id": 544150,
+      "opponent": "CHC",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 747011,
+      "game_time": "6:35 PM ET",
+      "result": "win",
+      "actual": 4,
+      "pnl": 74.07
     }
   ]
 }

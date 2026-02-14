@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.817734+00:00",
+  "generated_at": "2026-02-14T18:44:31.689808+00:00",
   "date": "2024-09-20",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": -130,
       "stars": 3,
       "game_pk": 746661,
+      "game_time": "6:40 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "6:40 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Morton, Charlie",
@@ -35,32 +35,32 @@
       "line": 17.5,
       "best_book": "betonlineag",
       "best_price": 130,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 746013,
+      "game_time": "7:10 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:10 PM ET"
+      "pnl": -100.0
     },
     {
-      "player": "Keller, Mitch",
-      "player_id": 656605,
-      "opponent": "CIN",
-      "player_team": "PIT",
-      "home_team": "CIN",
-      "away_team": "PIT",
-      "market": "Outs Recorded",
+      "player": "Bellozo, Valente",
+      "player_id": 678368,
+      "opponent": "ATL",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "ATL",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 3.5,
       "best_book": "betonlineag",
-      "best_price": -110,
+      "best_price": -125,
       "stars": 1,
-      "game_pk": 746661,
+      "game_pk": 746013,
+      "game_time": "7:10 PM ET",
       "result": "win",
-      "actual": 10,
-      "pnl": 90.91,
-      "game_time": "6:40 PM ET"
+      "actual": 3,
+      "pnl": 80.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T16:51:04.367734+00:00",
+  "generated_at": "2026-02-14T18:44:31.743627+00:00",
   "date": "2025-03-28",
   "picks": [
     {
@@ -13,34 +13,14 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -120,
+      "best_book": "consensus",
+      "best_price": -123,
       "stars": 2,
       "game_pk": 778543,
+      "game_time": "9:40 PM ET",
       "result": "loss",
       "actual": 3,
-      "pnl": -100.0,
-      "game_time": "9:40 PM ET"
-    },
-    {
-      "player": "Pepiot, Ryan",
-      "player_id": 686752,
-      "opponent": "COL",
-      "player_team": "TB",
-      "home_team": "TB",
-      "away_team": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 2,
-      "game_pk": 778560,
-      "result": "loss",
-      "actual": 8,
-      "pnl": -100.0,
-      "game_time": "4:10 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Bichette, Bo",
@@ -53,14 +33,14 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -125,
+      "best_book": "consensus",
+      "best_price": -135,
       "stars": 1,
       "game_pk": 778549,
+      "game_time": "7:07 PM ET",
       "result": "loss",
       "actual": 2,
-      "pnl": -100.0,
-      "game_time": "7:07 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "D\u00edaz, Yandy",
@@ -73,54 +53,14 @@
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -115,
+      "best_book": "consensus",
+      "best_price": -110,
       "stars": 1,
       "game_pk": 778560,
+      "game_time": "4:10 PM ET",
       "result": "win",
       "actual": 1,
-      "pnl": 86.96,
-      "game_time": "4:10 PM ET"
-    },
-    {
-      "player": "Guerrero, Vladimir",
-      "player_id": 665489,
-      "opponent": "BAL",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 778549,
-      "result": "loss",
-      "actual": 3,
-      "pnl": -100.0,
-      "game_time": "7:07 PM ET"
-    },
-    {
-      "player": "Westburg, Jordan",
-      "player_id": 676059,
-      "opponent": "BAL",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "BAL",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "bovada",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 778549,
-      "result": "win",
-      "actual": 0,
-      "pnl": 76.92,
-      "game_time": "7:07 PM ET"
+      "pnl": 90.91
     }
   ]
 }

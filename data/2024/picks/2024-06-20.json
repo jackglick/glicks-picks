@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.782860+00:00",
+  "generated_at": "2026-02-14T18:44:31.642879+00:00",
   "date": "2024-06-20",
   "picks": [
     {
@@ -17,10 +17,10 @@
       "best_price": -125,
       "stars": 2,
       "game_pk": 744841,
+      "game_time": "1:05 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 80.0,
-      "game_time": "1:05 PM ET"
+      "pnl": 80.0
     },
     {
       "player": "Nelson, Ryne",
@@ -37,10 +37,10 @@
       "best_price": -102,
       "stars": 2,
       "game_pk": 744841,
+      "game_time": "1:05 PM ET",
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0,
-      "game_time": "1:05 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Spence, Mitch",
@@ -57,10 +57,10 @@
       "best_price": -120,
       "stars": 2,
       "game_pk": 745645,
+      "game_time": "3:37 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "3:37 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Stone, Gavin",
@@ -77,10 +77,30 @@
       "best_price": -110,
       "stars": 2,
       "game_pk": 746539,
+      "game_time": "3:10 PM ET",
       "result": "win",
       "actual": 16,
-      "pnl": 90.91,
-      "game_time": "3:10 PM ET"
+      "pnl": 90.91
+    },
+    {
+      "player": "Irvin, Cole",
+      "player_id": 608344,
+      "opponent": "NYY",
+      "player_team": "BAL",
+      "home_team": "NYY",
+      "away_team": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "betrivers",
+      "best_price": -104,
+      "stars": 1,
+      "game_pk": 745734,
+      "game_time": "4:05 PM ET",
+      "result": "win",
+      "actual": 14,
+      "pnl": 96.15
     },
     {
       "player": "Littell, Zack",
@@ -97,10 +117,30 @@
       "best_price": -115,
       "stars": 1,
       "game_pk": 745889,
+      "game_time": "1:10 PM ET",
       "result": "win",
       "actual": 15,
-      "pnl": 86.96,
-      "game_time": "1:10 PM ET"
+      "pnl": 86.96
+    },
+    {
+      "player": "Nelson, Ryne",
+      "player_id": 669194,
+      "opponent": "WSH",
+      "player_team": "AZ",
+      "home_team": "WSH",
+      "away_team": "AZ",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betrivers",
+      "best_price": -121,
+      "stars": 1,
+      "game_pk": 744841,
+      "game_time": "1:05 PM ET",
+      "result": "win",
+      "actual": 2,
+      "pnl": 82.64
     },
     {
       "player": "Winn, Keaton",
@@ -117,10 +157,30 @@
       "best_price": 120,
       "stars": 1,
       "game_pk": 745164,
+      "game_time": "7:15 PM ET",
       "result": "win",
       "actual": 1,
-      "pnl": 120.0,
-      "game_time": "7:15 PM ET"
+      "pnl": 120.0
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "TB",
+      "player_team": "MIN",
+      "home_team": "MIN",
+      "away_team": "TB",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -143,
+      "stars": 1,
+      "game_pk": 745889,
+      "game_time": "1:10 PM ET",
+      "result": "win",
+      "actual": 6,
+      "pnl": 69.93
     }
   ]
 }

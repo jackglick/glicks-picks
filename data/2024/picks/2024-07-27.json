@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:51:50.796351+00:00",
+  "generated_at": "2026-02-14T18:44:31.660904+00:00",
   "date": "2024-07-27",
   "picks": [
     {
@@ -17,10 +17,30 @@
       "best_price": 120,
       "stars": 3,
       "game_pk": 745059,
+      "game_time": "4:10 PM ET",
       "result": "win",
       "actual": 11,
-      "pnl": 120.0,
-      "game_time": "4:10 PM ET"
+      "pnl": 120.0
+    },
+    {
+      "player": "Imanaga, Shota",
+      "player_id": 684007,
+      "opponent": "KC",
+      "player_team": "CHC",
+      "home_team": "KC",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 135,
+      "stars": 3,
+      "game_pk": 746278,
+      "game_time": "7:10 PM ET",
+      "result": "win",
+      "actual": 15,
+      "pnl": 135.0
     },
     {
       "player": "Littell, Zack",
@@ -37,10 +57,30 @@
       "best_price": 102,
       "stars": 3,
       "game_pk": 745059,
+      "game_time": "4:10 PM ET",
       "result": "loss",
       "actual": 20,
-      "pnl": -100.0,
-      "game_time": "4:10 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Schwellenbach, Spencer",
+      "player_id": 680885,
+      "opponent": "NYM",
+      "player_team": "ATL",
+      "home_team": "NYM",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 128,
+      "stars": 3,
+      "game_pk": 745793,
+      "game_time": "4:10 PM ET",
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Snell, Blake",
@@ -57,10 +97,10 @@
       "best_price": 125,
       "stars": 3,
       "game_pk": 745307,
+      "game_time": "7:05 PM ET",
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:05 PM ET"
+      "pnl": -100.0
     },
     {
       "player": "Crawford, Kutter",
@@ -77,50 +117,30 @@
       "best_price": 114,
       "stars": 2,
       "game_pk": 746931,
+      "game_time": "7:15 PM ET",
       "result": "win",
       "actual": 14,
-      "pnl": 114.0,
-      "game_time": "7:15 PM ET"
+      "pnl": 114.0
     },
     {
-      "player": "Imanaga, Shota",
-      "player_id": 684007,
-      "opponent": "KC",
-      "player_team": "CHC",
-      "home_team": "KC",
-      "away_team": "CHC",
+      "player": "Feltner, Ryan",
+      "player_id": 663372,
+      "opponent": "SF",
+      "player_team": "COL",
+      "home_team": "SF",
+      "away_team": "COL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 135,
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": 100,
       "stars": 2,
-      "game_pk": 746278,
-      "result": "win",
-      "actual": 15,
-      "pnl": 135.0,
-      "game_time": "7:10 PM ET"
-    },
-    {
-      "player": "Schwellenbach, Spencer",
-      "player_id": 680885,
-      "opponent": "NYM",
-      "player_team": "ATL",
-      "home_team": "NYM",
-      "away_team": "ATL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 128,
-      "stars": 2,
-      "game_pk": 745793,
+      "game_pk": 745307,
+      "game_time": "7:05 PM ET",
       "result": "loss",
-      "actual": 21,
-      "pnl": -100.0,
-      "game_time": "4:10 PM ET"
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Blanco, Ronel",
@@ -137,10 +157,10 @@
       "best_price": 125,
       "stars": 1,
       "game_pk": 746362,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 13,
-      "pnl": 125.0,
-      "game_time": "7:10 PM ET"
+      "pnl": 125.0
     },
     {
       "player": "Civale, Aaron",
@@ -157,30 +177,10 @@
       "best_price": 112,
       "stars": 1,
       "game_pk": 745966,
+      "game_time": "7:10 PM ET",
       "result": "win",
       "actual": 16,
-      "pnl": 112.0,
-      "game_time": "7:10 PM ET"
-    },
-    {
-      "player": "Feltner, Ryan",
-      "player_id": 663372,
-      "opponent": "SF",
-      "player_team": "COL",
-      "home_team": "SF",
-      "away_team": "COL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 745307,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0,
-      "game_time": "7:05 PM ET"
+      "pnl": 112.0
     },
     {
       "player": "King, Michael",
@@ -197,10 +197,30 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 747006,
+      "game_time": "4:05 PM ET",
       "result": "loss",
       "actual": 19,
-      "pnl": -100.0,
-      "game_time": "4:05 PM ET"
+      "pnl": -100.0
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "SD",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "SD",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "williamhill_us",
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 747006,
+      "game_time": "4:05 PM ET",
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     }
   ]
 }
