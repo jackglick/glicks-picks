@@ -1422,20 +1422,20 @@
     }));
     if (!streaks) return;
 
-    var parts = [];
-    if (streaks.bestWin > 0) {
-      parts.push('Best: ' + streaks.bestWin + 'W');
-    }
-    if (streaks.bestLoss > 0) {
-      parts.push('Worst: ' + streaks.bestLoss + 'L');
-    }
-
-    if (parts.length > 0) {
+    if (streaks.bestWin > 0 || streaks.bestLoss > 0) {
       streakEl.style.display = '';
       clearChildren(streakEl);
       streakEl.appendChild(el('span', 'summary-meta-label', 'Streaks'));
       streakEl.appendChild(document.createTextNode(' '));
-      streakEl.appendChild(el('strong', '', parts.join(' / ')));
+      if (streaks.bestWin > 0) {
+        streakEl.appendChild(el('strong', 'positive', streaks.bestWin + 'W'));
+      }
+      if (streaks.bestWin > 0 && streaks.bestLoss > 0) {
+        streakEl.appendChild(document.createTextNode(' / '));
+      }
+      if (streaks.bestLoss > 0) {
+        streakEl.appendChild(el('strong', 'negative', streaks.bestLoss + 'L'));
+      }
     }
   }
 
