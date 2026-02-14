@@ -1413,29 +1413,29 @@
   }
 
   function renderDrawdownStreak(data) {
-    var container = document.getElementById('drawdown-streak-row');
-    if (!container) return;
-    clearChildren(container);
+    var streakEl = document.getElementById('stat-streaks');
+    if (!streakEl) return;
 
-    // Daily streaks (computed from bankroll_curve day P&L)
     var curve = data.bankroll_curve || [];
     var streaks = computeDailyStreaks(curve.map(function (d) {
       return { pnl: d.flat_day_pnl || 0 };
     }));
-    if (streaks) {
-      if (streaks.bestWin > 0) {
-        var bestBox = el('div', 'results-stat-box');
-        bestBox.appendChild(el('div', 'results-stat-label', 'Best Win Streak'));
-        bestBox.appendChild(el('div', 'results-stat-value positive', streaks.bestWin + ' days'));
-        container.appendChild(bestBox);
-      }
+    if (!streaks) return;
 
-      if (streaks.bestLoss > 0) {
-        var worstBox = el('div', 'results-stat-box');
-        worstBox.appendChild(el('div', 'results-stat-label', 'Worst Loss Streak'));
-        worstBox.appendChild(el('div', 'results-stat-value negative', streaks.bestLoss + ' days'));
-        container.appendChild(worstBox);
-      }
+    var parts = [];
+    if (streaks.bestWin > 0) {
+      parts.push('Best: ' + streaks.bestWin + 'W');
+    }
+    if (streaks.bestLoss > 0) {
+      parts.push('Worst: ' + streaks.bestLoss + 'L');
+    }
+
+    if (parts.length > 0) {
+      streakEl.style.display = '';
+      clearChildren(streakEl);
+      streakEl.appendChild(el('span', 'summary-meta-label', 'Streaks'));
+      streakEl.appendChild(document.createTextNode(' '));
+      streakEl.appendChild(el('strong', '', parts.join(' / ')));
     }
   }
 
@@ -1502,19 +1502,9 @@
       }
     }
 
-    // Add loading class to stat boxes
-    statsEl.querySelectorAll('.results-stat-box').forEach(function (box) {
-      box.classList.add('loading');
-    });
-
     fetchJSON('results.json', function (data, err) {
       var emptyEl = document.getElementById('results-empty');
       var contentEl = document.getElementById('results-content');
-
-      // Remove loading class
-      statsEl.querySelectorAll('.results-stat-box').forEach(function (box) {
-        box.classList.remove('loading');
-      });
 
       if (err || !data || !data.summary || data.summary.total_bets === 0) {
         if (emptyEl) {
@@ -1544,40 +1534,32 @@
       var flatRetEl = document.getElementById('stat-return-flat');
       if (flatRetEl && s.flat) {
         flatRetEl.textContent = (s.flat.return_pct >= 0 ? '+' : '') + s.flat.return_pct.toFixed(1) + '%';
-        flatRetEl.className = 'results-stat-value ' + (s.flat.return_pct >= 0 ? 'positive' : 'negative');
+        flatRetEl.className = 'summary-stat-value ' + (s.flat.return_pct >= 0 ? 'positive' : 'negative');
       }
 
       var pctRetEl = document.getElementById('stat-return-pct');
       if (pctRetEl && s.pct) {
         pctRetEl.textContent = (s.pct.return_pct >= 0 ? '+' : '') + s.pct.return_pct.toFixed(1) + '%';
-        pctRetEl.className = 'results-stat-value ' + (s.pct.return_pct >= 0 ? 'positive' : 'negative');
+        pctRetEl.className = 'summary-stat-value ' + (s.pct.return_pct >= 0 ? 'positive' : 'negative');
       }
 
-      // Bankroll subtitle row
-      var initialEl = document.getElementById('stat-initial-bankroll');
-      if (initialEl) initialEl.textContent = '$' + (s.initial_bankroll || 5000).toLocaleString();
-
-      var wageredEl = document.getElementById('stat-total-wagered');
-      if (wageredEl && s.total_wagered) {
-        wageredEl.textContent = '$' + s.total_wagered.toLocaleString();
-      }
-
+      // Context row metadata
       var betRoiEl = document.getElementById('stat-bet-roi');
       if (betRoiEl && s.bet_roi != null) {
         betRoiEl.textContent = (s.bet_roi >= 0 ? '+' : '') + s.bet_roi.toFixed(1) + '%';
-        betRoiEl.className = 'results-stat-value ' + (s.bet_roi >= 0 ? 'positive' : 'negative');
+        betRoiEl.className = s.bet_roi >= 0 ? 'positive' : 'negative';
       }
 
       var ddFlatEl = document.getElementById('stat-dd-flat');
       if (ddFlatEl && s.flat) {
         ddFlatEl.textContent = s.flat.max_drawdown_pct.toFixed(1) + '%';
-        ddFlatEl.className = 'results-stat-value negative';
+        ddFlatEl.className = 'negative';
       }
 
       var ddPctEl = document.getElementById('stat-dd-pct');
       if (ddPctEl && s.pct) {
         ddPctEl.textContent = s.pct.max_drawdown_pct.toFixed(1) + '%';
-        ddPctEl.className = 'results-stat-value negative';
+        ddPctEl.className = 'negative';
       }
 
       // Market table — sort by ROI descending (item 24)

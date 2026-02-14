@@ -96,52 +96,33 @@
         </div>
 
         <div id="results-content" style="display: none;">
-          <!-- Stats Boxes -->
-          <div class="results-stats" id="results-stats">
-            <div class="results-stat-box">
-              <div class="results-stat-label">Record</div>
-              <div class="results-stat-value" id="stat-record">--</div>
+          <!-- Summary Card -->
+          <div class="summary-card" id="results-summary-card">
+            <div class="summary-headline" id="results-stats">
+              <div class="summary-stat">
+                <div class="summary-stat-label">Record</div>
+                <div class="summary-stat-value" id="stat-record">--</div>
+              </div>
+              <div class="summary-stat">
+                <div class="summary-stat-label">Win Rate</div>
+                <div class="summary-stat-value" id="stat-winrate">--</div>
+              </div>
+              <div class="summary-stat">
+                <div class="summary-stat-label">$100/Bet Return</div>
+                <div class="summary-stat-value" id="stat-return-flat">--</div>
+              </div>
+              <div class="summary-stat">
+                <div class="summary-stat-label">2% Bankroll Return</div>
+                <div class="summary-stat-value" id="stat-return-pct">--</div>
+              </div>
             </div>
-            <div class="results-stat-box">
-              <div class="results-stat-label">Win Rate</div>
-              <div class="results-stat-value" id="stat-winrate">--</div>
-            </div>
-            <div class="results-stat-box">
-              <div class="results-stat-label">Return (Flat)</div>
-              <div class="results-stat-value" id="stat-return-flat">--</div>
-            </div>
-            <div class="results-stat-box">
-              <div class="results-stat-label">Return (2%)</div>
-              <div class="results-stat-value" id="stat-return-pct">--</div>
-            </div>
-          </div>
-
-          <!-- Bankroll Subtitle Row -->
-          <div class="results-stats results-stats-sub" id="results-stats-sub">
-            <div class="results-stat-box mini">
-              <div class="results-stat-label">Starting Bankroll</div>
-              <div class="results-stat-value" id="stat-initial-bankroll">--</div>
-            </div>
-            <div class="results-stat-box mini">
-              <div class="results-stat-label">Total Wagered</div>
-              <div class="results-stat-value" id="stat-total-wagered">--</div>
-            </div>
-            <div class="results-stat-box mini">
-              <div class="results-stat-label">Bet ROI</div>
-              <div class="results-stat-value" id="stat-bet-roi">--</div>
-            </div>
-            <div class="results-stat-box mini">
-              <div class="results-stat-label">Max DD (Flat)</div>
-              <div class="results-stat-value" id="stat-dd-flat">--</div>
-            </div>
-            <div class="results-stat-box mini">
-              <div class="results-stat-label">Max DD (2%)</div>
-              <div class="results-stat-value" id="stat-dd-pct">--</div>
+            <div class="summary-context" id="results-context">
+              <span class="summary-meta"><span class="summary-meta-label">Bet ROI</span> <strong id="stat-bet-roi">--</strong></span>
+              <span class="summary-meta"><span class="summary-meta-label">Max DD (Flat)</span> <strong id="stat-dd-flat">--</strong></span>
+              <span class="summary-meta"><span class="summary-meta-label">Max DD (2%)</span> <strong id="stat-dd-pct">--</strong></span>
+              <span class="summary-meta" id="stat-streaks" style="display:none"></span>
             </div>
           </div>
-
-          <!-- Drawdown & Streak -->
-          <div id="drawdown-streak-row" class="stat-boxes"></div>
 
           <!-- Bankroll Equity Curve -->
           <div class="results-chart-wrapper reveal">
@@ -149,6 +130,9 @@
             <p class="results-chart-summary" id="pnl-chart-summary">Summary unavailable.</p>
             <canvas id="pnl-chart" aria-describedby="pnl-chart-summary"></canvas>
           </div>
+
+          <!-- Detail Breakdowns -->
+          <div class="results-details">
 
           <!-- Market Breakdown -->
           <div class="results-table-wrapper">

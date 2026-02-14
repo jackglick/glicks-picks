@@ -1336,31 +1336,28 @@ body.backtest-mode .mobile-nav {
   padding: 0 0 4rem;
 }
 
-/* --- Stats Banner --- */
-.results-stats {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-  align-items: start;
-}
-
-.results-stat-box {
+/* --- Summary Card --- */
+.summary-card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.25rem;
+  border-radius: 12px;
+  padding: 2rem 1.5rem 1.25rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(27, 42, 74, 0.04);
+}
+
+.summary-headline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.summary-stat {
   text-align: center;
 }
 
-/* Keep long record values on one line */
-.results-stat-box .results-stat-value#stat-record {
-  font-size: clamp(1.1rem, 3vw, 1.6rem);
-  letter-spacing: -0.03em;
-  white-space: nowrap;
-}
-
-.results-stat-label {
+.summary-stat-label {
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1369,34 +1366,59 @@ body.backtest-mode .mobile-nav {
   margin-bottom: 0.35rem;
 }
 
-.results-stat-value {
+.summary-stat-value {
   font-family: var(--mono);
   font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: 700;
   color: var(--text);
 }
 
-.results-stat-value.positive { color: var(--accent); }
-.results-stat-value.negative { color: #c0392b; }
+.summary-stat-value.positive { color: var(--accent); }
+.summary-stat-value.negative { color: #c0392b; }
 
-.results-stats-sub {
-  grid-template-columns: repeat(5, 1fr);
-  margin-top: -1.5rem;
-  margin-bottom: 2rem;
+/* Keep long record values on one line */
+.summary-stat-value#stat-record {
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  letter-spacing: -0.03em;
+  white-space: nowrap;
 }
 
-@media (max-width: 640px) {
-  .results-stats-sub {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.summary-context {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
 }
 
-.results-stat-box.mini {
-  padding: 0.75rem 1rem;
+.summary-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
-.results-stat-box.mini .results-stat-value {
-  font-size: clamp(0.95rem, 2.5vw, 1.2rem);
+.summary-meta-label {
+  font-weight: 600;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+}
+
+.summary-meta strong {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.summary-meta strong.positive { color: var(--accent); }
+.summary-meta strong.negative { color: #c0392b; }
+
+/* --- Detail Breakdowns --- */
+.results-details {
+  margin-top: 1.5rem;
 }
 
 /* --- Chart --- */
@@ -1505,12 +1527,8 @@ body.backtest-mode .mobile-nav {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .results-stats {
+  .summary-headline {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  .results-stats-sub {
-    grid-template-columns: repeat(5, 1fr);
   }
 }
 
@@ -2000,27 +2018,7 @@ a {
   color: var(--text);
 }
 
-/* --- Drawdown/streak stat boxes (#38) --- */
-.stat-boxes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.stat-boxes .results-stat-box {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.25rem;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .stat-boxes {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+/* (Drawdown/streak stats now rendered inline in .summary-context) */
 
 /* --- Email capture section (#12) --- */
 .email-capture-section {
@@ -2099,10 +2097,14 @@ a {
   border-color: rgba(26, 127, 109, 0.4);
 }
 
-/* --- Results stat boxes: smaller font on mobile for drawdown row --- */
+/* --- Summary card mobile tweaks --- */
 @media (max-width: 480px) {
-  .stat-boxes .results-stat-value {
-    font-size: clamp(1rem, 3.5vw, 1.5rem);
+  .summary-stat-value {
+    font-size: clamp(1.1rem, 3.5vw, 1.75rem);
+  }
+
+  .summary-card {
+    padding: 1.5rem 1rem 1rem;
   }
 }
 
