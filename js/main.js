@@ -1650,9 +1650,11 @@
     var responsiveTicksLimit = window.innerWidth < 640 ? 5 : 10;
 
     function formatDollar(val) {
-      if (Math.abs(val) >= 1000) return '$' + (val / 1000).toFixed(1) + 'K';
+      if (Math.abs(val) >= 1000) return '$' + Math.round(val / 1000) + 'K';
       return '$' + val;
     }
+
+    var isNarrow = window.innerWidth < 640;
 
     var chart = new Chart(canvas, {
       type: 'line',
@@ -1699,7 +1701,7 @@
         responsive: true,
         maintainAspectRatio: false,
         layout: {
-          padding: { left: 8, right: 8 }
+          padding: { left: isNarrow ? 0 : 8, right: isNarrow ? 0 : 8 }
         },
         interaction: {
           mode: 'index',
@@ -1798,7 +1800,8 @@
             position: 'left',
             grid: { color: 'rgba(27, 42, 74, 0.06)' },
             ticks: {
-              font: { family: "'JetBrains Mono'", size: 11 },
+              font: { family: "'JetBrains Mono'", size: isNarrow ? 9 : 11 },
+              maxTicksLimit: isNarrow ? 6 : 8,
               callback: function (val) { return formatDollar(val); }
             }
           }

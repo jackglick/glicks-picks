@@ -1656,6 +1656,13 @@ a {
   }
 }
 
+/* --- Chart mobile padding fix --- */
+@media (max-width: 640px) {
+  .results-chart-wrapper {
+    padding: 1rem 0.5rem;
+  }
+}
+
 /* --- Loading skeleton animation (#30) --- */
 .loading-skeleton {
   background: linear-gradient(90deg, var(--bg-surface) 25%, rgba(26, 127, 109, 0.05) 50%, var(--bg-surface) 75%);
