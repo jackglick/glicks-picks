@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:43:41.146865+00:00",
+  "generated_at": "2026-02-14T21:22:37.025604+00:00",
   "date": "2024-05-23",
   "picks": [
     {
@@ -15,9 +15,9 @@
       "line": 3.5,
       "best_book": "bovada",
       "best_price": 145,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 746874,
-      "game_time": "2:20 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 1,
       "pnl": -100.0
@@ -37,7 +37,7 @@
       "best_price": -105,
       "stars": 2,
       "game_pk": 745741,
-      "game_time": "12:35 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 19,
       "pnl": -100.0
@@ -57,10 +57,30 @@
       "best_price": 140,
       "stars": 2,
       "game_pk": 746792,
-      "game_time": "7:40 PM ET",
+      "game_time": null,
       "result": "win",
       "actual": 15,
       "pnl": 140.0
+    },
+    {
+      "player": "Brown, Ben",
+      "player_id": 676962,
+      "opponent": "ATL",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "ATL",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 746874,
+      "game_time": null,
+      "result": "loss",
+      "actual": 0,
+      "pnl": -100.0
     },
     {
       "player": "Castillo, Luis",
@@ -77,7 +97,7 @@
       "best_price": 140,
       "stars": 1,
       "game_pk": 745741,
-      "game_time": "12:35 PM ET",
+      "game_time": null,
       "result": "win",
       "actual": 15,
       "pnl": 140.0
@@ -97,30 +117,10 @@
       "best_price": -114,
       "stars": 1,
       "game_pk": 745660,
-      "game_time": "3:37 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "TOR",
-      "player_team": "DET",
-      "home_team": "DET",
-      "away_team": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "betmgm",
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 746474,
-      "game_time": "6:40 PM ET",
-      "result": "win",
-      "actual": 9,
-      "pnl": 68.97
     }
   ]
 }

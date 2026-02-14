@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:44:31.645009+00:00",
+  "generated_at": "2026-02-14T21:22:37.604013+00:00",
   "date": "2024-06-24",
   "picks": [
     {
@@ -15,9 +15,9 @@
       "line": 17.5,
       "best_book": "bovada",
       "best_price": 125,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 746941,
-      "game_time": "7:10 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 20,
       "pnl": -100.0
@@ -37,7 +37,7 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 747021,
-      "game_time": "6:35 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
@@ -57,50 +57,10 @@
       "best_price": -105,
       "stars": 1,
       "game_pk": 745078,
-      "game_time": "6:50 PM ET",
+      "game_time": null,
       "result": "win",
       "actual": 16,
       "pnl": 95.24
-    },
-    {
-      "player": "Lynn, Lance",
-      "player_id": 458681,
-      "opponent": "ATL",
-      "player_team": "STL",
-      "home_team": "STL",
-      "away_team": "ATL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 745160,
-      "game_time": "7:45 PM ET",
-      "result": "loss",
-      "actual": 20,
-      "pnl": -100.0
-    },
-    {
-      "player": "Mize, Casey",
-      "player_id": 663554,
-      "opponent": "PHI",
-      "player_team": "DET",
-      "home_team": "DET",
-      "away_team": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "betonlineag",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 746458,
-      "game_time": "6:40 PM ET",
-      "result": "loss",
-      "actual": 10,
-      "pnl": -100.0
     }
   ]
 }

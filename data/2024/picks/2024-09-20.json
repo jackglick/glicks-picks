@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:44:31.689808+00:00",
+  "generated_at": "2026-02-14T21:22:37.644697+00:00",
   "date": "2024-09-20",
   "picks": [
     {
@@ -15,9 +15,9 @@
       "line": 17.5,
       "best_book": "draftkings",
       "best_price": -130,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 746661,
-      "game_time": "6:40 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
@@ -35,32 +35,12 @@
       "line": 17.5,
       "best_book": "betonlineag",
       "best_price": 130,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 746013,
-      "game_time": "7:10 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "Bellozo, Valente",
-      "player_id": 678368,
-      "opponent": "ATL",
-      "player_team": "MIA",
-      "home_team": "MIA",
-      "away_team": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "betonlineag",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 746013,
-      "game_time": "7:10 PM ET",
-      "result": "win",
-      "actual": 3,
-      "pnl": 80.0
     }
   ]
 }

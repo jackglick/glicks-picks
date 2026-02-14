@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:44:31.826352+00:00",
+  "generated_at": "2026-02-14T21:22:37.875126+00:00",
   "date": "2025-07-24",
   "picks": [
     {
@@ -17,30 +17,30 @@
       "best_price": -114,
       "stars": 2,
       "game_pk": 777019,
-      "game_time": "1:10 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
     },
     {
-      "player": "Darvish, Yu",
-      "player_id": 506433,
-      "opponent": "STL",
-      "player_team": "SD",
-      "home_team": "STL",
-      "away_team": "SD",
-      "market": "Strikeouts",
+      "player": "Allen, Logan",
+      "player_id": 671106,
+      "opponent": "BAL",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "BAL",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 4.5,
+      "line": 16.5,
       "best_book": "draftkings",
-      "best_price": -145,
+      "best_price": 100,
       "stars": 1,
-      "game_pk": 777023,
-      "game_time": "7:45 PM ET",
-      "result": "win",
-      "actual": 3,
-      "pnl": 68.97
+      "game_pk": 777019,
+      "game_time": null,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Lukes, Nathan",
@@ -57,30 +57,10 @@
       "best_price": -149,
       "stars": 1,
       "game_pk": 777021,
-      "game_time": "6:40 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 6,
       "pnl": -100.0
-    },
-    {
-      "player": "Olson, Reese",
-      "player_id": 681857,
-      "opponent": "TOR",
-      "player_team": "DET",
-      "home_team": "DET",
-      "away_team": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -144,
-      "stars": 1,
-      "game_pk": 777021,
-      "game_time": "6:40 PM ET",
-      "result": "win",
-      "actual": 4,
-      "pnl": 69.44
     }
   ]
 }

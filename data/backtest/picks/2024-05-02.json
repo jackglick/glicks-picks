@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:43:37.762743+00:00",
+  "generated_at": "2026-02-14T21:22:37.014206+00:00",
   "date": "2024-05-02",
   "picks": [
     {
@@ -15,32 +15,12 @@
       "line": 16.5,
       "best_book": "williamhill_us",
       "best_price": -109,
-      "stars": 2,
+      "stars": 1,
       "game_pk": 746070,
-      "game_time": "12:10 PM ET",
+      "game_time": null,
       "result": "win",
       "actual": 11,
       "pnl": 91.74
-    },
-    {
-      "player": "Eovaldi, Nathan",
-      "player_id": 543135,
-      "opponent": "WSH",
-      "player_team": "TEX",
-      "home_team": "TEX",
-      "away_team": "WSH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 18.5,
-      "best_book": "draftkings",
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 745021,
-      "game_time": "2:35 PM ET",
-      "result": "win",
-      "actual": 16,
-      "pnl": 71.43
     },
     {
       "player": "Harrison, Kyle",
@@ -57,7 +37,7 @@
       "best_price": 145,
       "stars": 1,
       "game_pk": 746969,
-      "game_time": "1:35 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 15,
       "pnl": -100.0
@@ -77,50 +57,10 @@
       "best_price": -119,
       "stars": 1,
       "game_pk": 747044,
-      "game_time": "1:05 PM ET",
+      "game_time": null,
       "result": "win",
       "actual": 13,
       "pnl": 84.03
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "BAL",
-      "player_team": "NYY",
-      "home_team": "BAL",
-      "away_team": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 747044,
-      "game_time": "1:05 PM ET",
-      "result": "loss",
-      "actual": 6,
-      "pnl": -100.0
-    },
-    {
-      "player": "Winckowski, Josh",
-      "player_id": 670174,
-      "opponent": "SF",
-      "player_team": "BOS",
-      "home_team": "BOS",
-      "away_team": "SF",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "mybookieag",
-      "best_price": 123,
-      "stars": 1,
-      "game_pk": 746969,
-      "game_time": "1:35 PM ET",
-      "result": "win",
-      "actual": 0,
-      "pnl": 123.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:44:31.685880+00:00",
+  "generated_at": "2026-02-14T21:22:37.641436+00:00",
   "date": "2024-09-12",
   "picks": [
     {
@@ -15,9 +15,9 @@
       "line": 16.5,
       "best_book": "williamhill_us",
       "best_price": -115,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 746427,
-      "game_time": "1:10 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 17,
       "pnl": -100.0
@@ -37,10 +37,30 @@
       "best_price": -129,
       "stars": 2,
       "game_pk": 746591,
-      "game_time": "7:15 PM ET",
+      "game_time": null,
       "result": "win",
       "actual": 6,
       "pnl": 77.52
+    },
+    {
+      "player": "Cortes, Nestor",
+      "player_id": 641482,
+      "opponent": "BOS",
+      "player_team": "NYY",
+      "home_team": "NYY",
+      "away_team": "BOS",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 745695,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Criswell, Cooper",
@@ -49,38 +69,18 @@
       "player_team": "BOS",
       "home_team": "NYY",
       "away_team": "BOS",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 745695,
-      "game_time": "7:15 PM ET",
-      "result": "win",
-      "actual": 1,
-      "pnl": 95.24
-    },
-    {
-      "player": "Junis, Jakob",
-      "player_id": 596001,
-      "opponent": "STL",
-      "player_team": "CIN",
-      "home_team": "STL",
-      "away_team": "CIN",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "consensus",
-      "best_price": 126,
+      "direction": "OVER",
+      "line": 3.5,
+      "best_book": "betrivers",
+      "best_price": 123,
       "stars": 1,
-      "game_pk": 745129,
-      "game_time": "1:15 PM ET",
-      "result": "loss",
-      "actual": 3,
-      "pnl": -100.0
+      "game_pk": 745695,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 123.0
     }
   ]
 }

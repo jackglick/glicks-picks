@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T18:44:01.456656+00:00",
+  "generated_at": "2026-02-14T21:22:37.086181+00:00",
   "date": "2025-03-28",
   "picks": [
     {
@@ -17,7 +17,7 @@
       "best_price": -123,
       "stars": 2,
       "game_pk": 778543,
-      "game_time": "9:40 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 3,
       "pnl": -100.0
@@ -37,7 +37,7 @@
       "best_price": -135,
       "stars": 1,
       "game_pk": 778549,
-      "game_time": "7:07 PM ET",
+      "game_time": null,
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
@@ -57,10 +57,30 @@
       "best_price": -110,
       "stars": 1,
       "game_pk": 778560,
-      "game_time": "4:10 PM ET",
+      "game_time": null,
       "result": "win",
       "actual": 1,
       "pnl": 90.91
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "COL",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "COL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 778560,
+      "game_time": null,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     }
   ]
 }
