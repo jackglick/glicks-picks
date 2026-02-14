@@ -1557,6 +1557,17 @@
       var initialEl = document.getElementById('stat-initial-bankroll');
       if (initialEl) initialEl.textContent = '$' + (s.initial_bankroll || 5000).toLocaleString();
 
+      var wageredEl = document.getElementById('stat-total-wagered');
+      if (wageredEl && s.total_wagered) {
+        wageredEl.textContent = '$' + s.total_wagered.toLocaleString();
+      }
+
+      var betRoiEl = document.getElementById('stat-bet-roi');
+      if (betRoiEl && s.bet_roi != null) {
+        betRoiEl.textContent = (s.bet_roi >= 0 ? '+' : '') + s.bet_roi.toFixed(1) + '%';
+        betRoiEl.className = 'results-stat-value ' + (s.bet_roi >= 0 ? 'positive' : 'negative');
+      }
+
       var ddFlatEl = document.getElementById('stat-dd-flat');
       if (ddFlatEl && s.flat) {
         ddFlatEl.textContent = s.flat.max_drawdown_pct.toFixed(1) + '%';

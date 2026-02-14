@@ -1380,9 +1380,15 @@ body.backtest-mode .mobile-nav {
 .results-stat-value.negative { color: #c0392b; }
 
 .results-stats-sub {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-top: -1.5rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  .results-stats-sub {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .results-stat-box.mini {
@@ -1501,6 +1507,10 @@ body.backtest-mode .mobile-nav {
 
   .results-stats {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .results-stats-sub {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
