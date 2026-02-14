@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-02-13T20:16:50.348259+00:00",
+  "generated_at": "2026-02-14T00:37:07.055134+00:00",
   "summary": {
     "total_bets": 1406,
     "wins": 761,
     "losses": 644,
     "pushes": 1,
     "win_rate": 54.2,
-    "total_pnl": 14049.16,
-    "roi": 10.0,
-    "current_streak": 1,
-    "streak_type": "L",
-    "max_drawdown": -1312.45
+    "initial_bankroll": 5000.0,
+    "flat": {
+      "final_bankroll": 19049.07,
+      "return_pct": 281.0,
+      "max_drawdown_pct": -13.1,
+      "best_bankroll": 19149.07,
+      "bust": false
+    },
+    "pct": {
+      "final_bankroll": 58311.24,
+      "return_pct": 1066.2,
+      "max_drawdown_pct": -24.6,
+      "best_bankroll": 59501.26,
+      "bust": false
+    }
   },
   "by_market": [
     {
@@ -815,881 +825,1406 @@
       "stars": 3
     }
   ],
-  "cumulative_pnl": [
+  "bankroll_curve": [
     {
       "date": "2024-03-28",
-      "pnl": 269.02,
-      "cumulative": 269.02
+      "flat": 5269.02,
+      "pct": 5269.02,
+      "n_bets": 3,
+      "flat_day_pnl": 269.02,
+      "pct_day_pnl": 269.02
     },
     {
       "date": "2024-03-30",
-      "pnl": 15.0,
-      "cumulative": 284.02
+      "flat": 5284.02,
+      "pct": 5284.83,
+      "n_bets": 2,
+      "flat_day_pnl": 15.0,
+      "pct_day_pnl": 15.81
     },
     {
       "date": "2024-03-31",
-      "pnl": -221.43,
-      "cumulative": 62.59
+      "flat": 5062.59,
+      "pct": 5050.79,
+      "n_bets": 6,
+      "flat_day_pnl": -221.43,
+      "pct_day_pnl": -234.04
     },
     {
       "date": "2024-04-01",
-      "pnl": 120.0,
-      "cumulative": 182.59
+      "flat": 5182.59,
+      "pct": 5172.0,
+      "n_bets": 1,
+      "flat_day_pnl": 120.0,
+      "pct_day_pnl": 121.22
     },
     {
       "date": "2024-04-02",
-      "pnl": 332.16,
-      "cumulative": 514.75
+      "flat": 5514.75,
+      "pct": 5515.59,
+      "n_bets": 4,
+      "flat_day_pnl": 332.16,
+      "pct_day_pnl": 343.59
     },
     {
       "date": "2024-04-03",
-      "pnl": 216.58,
-      "cumulative": 731.33
+      "flat": 5731.33,
+      "pct": 5754.5,
+      "n_bets": 6,
+      "flat_day_pnl": 216.57,
+      "pct_day_pnl": 238.91
     },
     {
       "date": "2024-04-04",
-      "pnl": -400.0,
-      "cumulative": 331.33
+      "flat": 5331.33,
+      "pct": 5294.14,
+      "n_bets": 4,
+      "flat_day_pnl": -400.0,
+      "pct_day_pnl": -460.36
     },
     {
       "date": "2024-04-05",
-      "pnl": -350.0,
-      "cumulative": -18.67
+      "flat": 4981.33,
+      "pct": 4923.55,
+      "n_bets": 7,
+      "flat_day_pnl": -350.0,
+      "pct_day_pnl": -370.59
     },
     {
       "date": "2024-04-06",
-      "pnl": 206.15,
-      "cumulative": 187.48
+      "flat": 5187.48,
+      "pct": 5126.55,
+      "n_bets": 11,
+      "flat_day_pnl": 206.15,
+      "pct_day_pnl": 203.0
     },
     {
       "date": "2024-04-07",
-      "pnl": 566.99,
-      "cumulative": 754.47
+      "flat": 5754.46,
+      "pct": 5707.88,
+      "n_bets": 19,
+      "flat_day_pnl": 566.98,
+      "pct_day_pnl": 581.33
     },
     {
       "date": "2024-04-08",
-      "pnl": -105.24,
-      "cumulative": 649.23
+      "flat": 5649.22,
+      "pct": 5587.74,
+      "n_bets": 9,
+      "flat_day_pnl": -105.24,
+      "pct_day_pnl": -120.14
     },
     {
       "date": "2024-04-09",
-      "pnl": 6.15,
-      "cumulative": 655.38
+      "flat": 5655.37,
+      "pct": 5594.61,
+      "n_bets": 6,
+      "flat_day_pnl": 6.15,
+      "pct_day_pnl": 6.87
     },
     {
       "date": "2024-04-10",
-      "pnl": 267.99,
-      "cumulative": 923.37
+      "flat": 5923.36,
+      "pct": 5894.47,
+      "n_bets": 9,
+      "flat_day_pnl": 267.99,
+      "pct_day_pnl": 299.86
     },
     {
       "date": "2024-04-11",
-      "pnl": 351.46,
-      "cumulative": 1274.83
+      "flat": 6274.83,
+      "pct": 6308.82,
+      "n_bets": 6,
+      "flat_day_pnl": 351.47,
+      "pct_day_pnl": 414.34
     },
     {
       "date": "2024-04-12",
-      "pnl": 99.34,
-      "cumulative": 1374.17
+      "flat": 6374.17,
+      "pct": 6434.16,
+      "n_bets": 8,
+      "flat_day_pnl": 99.34,
+      "pct_day_pnl": 125.35
     },
     {
       "date": "2024-04-13",
-      "pnl": 272.28,
-      "cumulative": 1646.45
+      "flat": 6646.45,
+      "pct": 6784.54,
+      "n_bets": 9,
+      "flat_day_pnl": 272.28,
+      "pct_day_pnl": 350.37
     },
     {
       "date": "2024-04-14",
-      "pnl": 690.78,
-      "cumulative": 2337.23
+      "flat": 7337.22,
+      "pct": 7721.86,
+      "n_bets": 17,
+      "flat_day_pnl": 690.78,
+      "pct_day_pnl": 937.32
     },
     {
       "date": "2024-04-15",
-      "pnl": 144.63,
-      "cumulative": 2481.86
+      "flat": 7481.86,
+      "pct": 7945.23,
+      "n_bets": 6,
+      "flat_day_pnl": 144.63,
+      "pct_day_pnl": 223.37
     },
     {
       "date": "2024-04-16",
-      "pnl": -69.4,
-      "cumulative": 2412.46
+      "flat": 7412.45,
+      "pct": 7834.94,
+      "n_bets": 8,
+      "flat_day_pnl": -69.41,
+      "pct_day_pnl": -110.29
     },
     {
       "date": "2024-04-17",
-      "pnl": -246.7,
-      "cumulative": 2165.76
+      "flat": 7165.76,
+      "pct": 7448.38,
+      "n_bets": 21,
+      "flat_day_pnl": -246.69,
+      "pct_day_pnl": -386.56
     },
     {
       "date": "2024-04-18",
-      "pnl": 175.56,
-      "cumulative": 2341.32
+      "flat": 7341.32,
+      "pct": 7709.91,
+      "n_bets": 2,
+      "flat_day_pnl": 175.56,
+      "pct_day_pnl": 261.53
     },
     {
       "date": "2024-04-19",
-      "pnl": -349.01,
-      "cumulative": 1992.31
+      "flat": 6992.32,
+      "pct": 7171.75,
+      "n_bets": 7,
+      "flat_day_pnl": -349.0,
+      "pct_day_pnl": -538.16
     },
     {
       "date": "2024-04-20",
-      "pnl": 602.34,
-      "cumulative": 2594.65
+      "flat": 7594.66,
+      "pct": 8035.71,
+      "n_bets": 16,
+      "flat_day_pnl": 602.34,
+      "pct_day_pnl": 863.96
     },
     {
       "date": "2024-04-21",
-      "pnl": -300.0,
-      "cumulative": 2294.65
+      "flat": 7294.66,
+      "pct": 7553.57,
+      "n_bets": 10,
+      "flat_day_pnl": -300.0,
+      "pct_day_pnl": -482.14
     },
     {
       "date": "2024-04-22",
-      "pnl": -589.09,
-      "cumulative": 1705.56
+      "flat": 6705.57,
+      "pct": 6663.62,
+      "n_bets": 10,
+      "flat_day_pnl": -589.09,
+      "pct_day_pnl": -889.95
     },
     {
       "date": "2024-04-23",
-      "pnl": 403.23,
-      "cumulative": 2108.79
+      "flat": 7108.8,
+      "pct": 7201.02,
+      "n_bets": 11,
+      "flat_day_pnl": 403.23,
+      "pct_day_pnl": 537.4
     },
     {
       "date": "2024-04-24",
-      "pnl": 284.48,
-      "cumulative": 2393.27
+      "flat": 7393.28,
+      "pct": 7610.73,
+      "n_bets": 7,
+      "flat_day_pnl": 284.48,
+      "pct_day_pnl": 409.71
     },
     {
       "date": "2024-04-25",
-      "pnl": 372.3,
-      "cumulative": 2765.57
+      "flat": 7765.58,
+      "pct": 8177.43,
+      "n_bets": 15,
+      "flat_day_pnl": 372.3,
+      "pct_day_pnl": 566.7
     },
     {
       "date": "2024-04-26",
-      "pnl": -413.08,
-      "cumulative": 2352.49
+      "flat": 7352.5,
+      "pct": 7501.85,
+      "n_bets": 10,
+      "flat_day_pnl": -413.08,
+      "pct_day_pnl": -675.58
     },
     {
       "date": "2024-04-27",
-      "pnl": 96.31,
-      "cumulative": 2448.8
+      "flat": 7448.81,
+      "pct": 7646.34,
+      "n_bets": 17,
+      "flat_day_pnl": 96.3,
+      "pct_day_pnl": 144.49
     },
     {
       "date": "2024-04-28",
-      "pnl": 525.16,
-      "cumulative": 2973.96
+      "flat": 7973.97,
+      "pct": 8449.45,
+      "n_bets": 18,
+      "flat_day_pnl": 525.16,
+      "pct_day_pnl": 803.12
     },
     {
       "date": "2024-04-29",
-      "pnl": 36.96,
-      "cumulative": 3010.92
+      "flat": 8010.93,
+      "pct": 8511.91,
+      "n_bets": 5,
+      "flat_day_pnl": 36.96,
+      "pct_day_pnl": 62.45
     },
     {
       "date": "2024-04-30",
-      "pnl": 195.0,
-      "cumulative": 3205.92
+      "flat": 8205.93,
+      "pct": 8843.87,
+      "n_bets": 3,
+      "flat_day_pnl": 195.0,
+      "pct_day_pnl": 331.96
     },
     {
       "date": "2024-05-01",
-      "pnl": -228.18,
-      "cumulative": 2977.74
+      "flat": 7977.74,
+      "pct": 8440.26,
+      "n_bets": 14,
+      "flat_day_pnl": -228.19,
+      "pct_day_pnl": -403.61
     },
     {
       "date": "2024-05-02",
-      "pnl": 91.74,
-      "cumulative": 3069.48
+      "flat": 8069.49,
+      "pct": 8595.13,
+      "n_bets": 1,
+      "flat_day_pnl": 91.74,
+      "pct_day_pnl": 154.87
     },
     {
       "date": "2024-05-03",
-      "pnl": 298.67,
-      "cumulative": 3368.15
+      "flat": 8368.15,
+      "pct": 9108.54,
+      "n_bets": 9,
+      "flat_day_pnl": 298.67,
+      "pct_day_pnl": 513.42
     },
     {
       "date": "2024-05-04",
-      "pnl": 317.7,
-      "cumulative": 3685.85
+      "flat": 8685.85,
+      "pct": 9687.3,
+      "n_bets": 17,
+      "flat_day_pnl": 317.7,
+      "pct_day_pnl": 578.75
     },
     {
       "date": "2024-05-05",
-      "pnl": 236.84,
-      "cumulative": 3922.69
+      "flat": 8922.7,
+      "pct": 10146.18,
+      "n_bets": 9,
+      "flat_day_pnl": 236.85,
+      "pct_day_pnl": 458.88
     },
     {
       "date": "2024-05-06",
-      "pnl": -108.0,
-      "cumulative": 3814.69
+      "flat": 8814.7,
+      "pct": 9927.02,
+      "n_bets": 8,
+      "flat_day_pnl": -108.0,
+      "pct_day_pnl": -219.16
     },
     {
       "date": "2024-05-07",
-      "pnl": 345.94,
-      "cumulative": 4160.63
+      "flat": 9160.64,
+      "pct": 10613.86,
+      "n_bets": 15,
+      "flat_day_pnl": 345.94,
+      "pct_day_pnl": 686.84
     },
     {
       "date": "2024-05-08",
-      "pnl": 699.48,
-      "cumulative": 4860.11
+      "flat": 9860.12,
+      "pct": 12098.7,
+      "n_bets": 18,
+      "flat_day_pnl": 699.48,
+      "pct_day_pnl": 1484.84
     },
     {
       "date": "2024-05-09",
-      "pnl": -13.04,
-      "cumulative": 4847.07
+      "flat": 9847.08,
+      "pct": 12067.13,
+      "n_bets": 4,
+      "flat_day_pnl": -13.04,
+      "pct_day_pnl": -31.56
     },
     {
       "date": "2024-05-10",
-      "pnl": -600.0,
-      "cumulative": 4247.07
+      "flat": 9247.08,
+      "pct": 10619.08,
+      "n_bets": 6,
+      "flat_day_pnl": -600.0,
+      "pct_day_pnl": -1448.06
     },
     {
       "date": "2024-05-11",
-      "pnl": -87.17,
-      "cumulative": 4159.9
+      "flat": 9159.91,
+      "pct": 10433.95,
+      "n_bets": 9,
+      "flat_day_pnl": -87.17,
+      "pct_day_pnl": -185.13
     },
     {
       "date": "2024-05-12",
-      "pnl": -401.0,
-      "cumulative": 3758.9
+      "flat": 8758.91,
+      "pct": 9597.15,
+      "n_bets": 12,
+      "flat_day_pnl": -401.0,
+      "pct_day_pnl": -836.8
     },
     {
       "date": "2024-05-13",
-      "pnl": 177.58,
-      "cumulative": 3936.48
+      "flat": 8936.49,
+      "pct": 9937.99,
+      "n_bets": 10,
+      "flat_day_pnl": 177.58,
+      "pct_day_pnl": 340.84
     },
     {
       "date": "2024-05-14",
-      "pnl": -100.0,
-      "cumulative": 3836.48
+      "flat": 8836.49,
+      "pct": 9739.23,
+      "n_bets": 3,
+      "flat_day_pnl": -100.0,
+      "pct_day_pnl": -198.76
     },
     {
       "date": "2024-05-15",
-      "pnl": 129.77,
-      "cumulative": 3966.25
+      "flat": 8966.26,
+      "pct": 9992.02,
+      "n_bets": 7,
+      "flat_day_pnl": 129.78,
+      "pct_day_pnl": 252.79
     },
     {
       "date": "2024-05-16",
-      "pnl": 198.34,
-      "cumulative": 4164.59
+      "flat": 9164.6,
+      "pct": 10388.38,
+      "n_bets": 2,
+      "flat_day_pnl": 198.34,
+      "pct_day_pnl": 396.36
     },
     {
       "date": "2024-05-17",
-      "pnl": 325.76,
-      "cumulative": 4490.35
+      "flat": 9490.36,
+      "pct": 11065.19,
+      "n_bets": 10,
+      "flat_day_pnl": 325.76,
+      "pct_day_pnl": 676.82
     },
     {
       "date": "2024-05-18",
-      "pnl": 253.91,
-      "cumulative": 4744.26
+      "flat": 9744.27,
+      "pct": 11627.11,
+      "n_bets": 14,
+      "flat_day_pnl": 253.91,
+      "pct_day_pnl": 561.91
     },
     {
       "date": "2024-05-19",
-      "pnl": 249.24,
-      "cumulative": 4993.5
+      "flat": 9993.52,
+      "pct": 12206.72,
+      "n_bets": 17,
+      "flat_day_pnl": 249.25,
+      "pct_day_pnl": 579.62
     },
     {
       "date": "2024-05-20",
-      "pnl": 149.0,
-      "cumulative": 5142.5
+      "flat": 10142.52,
+      "pct": 12570.49,
+      "n_bets": 11,
+      "flat_day_pnl": 149.0,
+      "pct_day_pnl": 363.76
     },
     {
       "date": "2024-05-21",
-      "pnl": 357.18,
-      "cumulative": 5499.68
+      "flat": 10499.69,
+      "pct": 13468.45,
+      "n_bets": 8,
+      "flat_day_pnl": 357.17,
+      "pct_day_pnl": 897.97
     },
     {
       "date": "2024-05-22",
-      "pnl": -750.0,
-      "cumulative": 4749.68
+      "flat": 9749.69,
+      "pct": 11448.19,
+      "n_bets": 10,
+      "flat_day_pnl": -750.0,
+      "pct_day_pnl": -2020.27
     },
     {
       "date": "2024-05-23",
-      "pnl": 180.0,
-      "cumulative": 4929.68
+      "flat": 9929.69,
+      "pct": 11860.32,
+      "n_bets": 3,
+      "flat_day_pnl": 180.0,
+      "pct_day_pnl": 412.13
     },
     {
       "date": "2024-05-24",
-      "pnl": -201.96,
-      "cumulative": 4727.72
+      "flat": 9727.73,
+      "pct": 11381.26,
+      "n_bets": 4,
+      "flat_day_pnl": -201.96,
+      "pct_day_pnl": -479.06
     },
     {
       "date": "2024-05-25",
-      "pnl": -429.71,
-      "cumulative": 4298.01
+      "flat": 9298.02,
+      "pct": 10403.13,
+      "n_bets": 8,
+      "flat_day_pnl": -429.71,
+      "pct_day_pnl": -978.13
     },
     {
       "date": "2024-05-26",
-      "pnl": 78.7,
-      "cumulative": 4376.71
+      "flat": 9376.73,
+      "pct": 10566.88,
+      "n_bets": 11,
+      "flat_day_pnl": 78.7,
+      "pct_day_pnl": 163.75
     },
     {
       "date": "2024-05-27",
-      "pnl": 64.52,
-      "cumulative": 4441.23
+      "flat": 9441.24,
+      "pct": 10703.23,
+      "n_bets": 11,
+      "flat_day_pnl": 64.52,
+      "pct_day_pnl": 136.35
     },
     {
       "date": "2024-05-28",
-      "pnl": -254.0,
-      "cumulative": 4187.23
+      "flat": 9187.24,
+      "pct": 10159.5,
+      "n_bets": 7,
+      "flat_day_pnl": -254.0,
+      "pct_day_pnl": -543.72
     },
     {
       "date": "2024-05-29",
-      "pnl": 299.73,
-      "cumulative": 4486.96
+      "flat": 9486.97,
+      "pct": 10768.52,
+      "n_bets": 7,
+      "flat_day_pnl": 299.73,
+      "pct_day_pnl": 609.02
     },
     {
       "date": "2024-05-30",
-      "pnl": -100.0,
-      "cumulative": 4386.96
+      "flat": 9386.97,
+      "pct": 10553.15,
+      "n_bets": 3,
+      "flat_day_pnl": -100.0,
+      "pct_day_pnl": -215.37
     },
     {
       "date": "2024-05-31",
-      "pnl": 300.0,
-      "cumulative": 4686.96
+      "flat": 9686.97,
+      "pct": 11186.34,
+      "n_bets": 6,
+      "flat_day_pnl": 300.0,
+      "pct_day_pnl": 633.19
     },
     {
       "date": "2024-06-01",
-      "pnl": 111.02,
-      "cumulative": 4797.98
+      "flat": 9797.99,
+      "pct": 11434.73,
+      "n_bets": 9,
+      "flat_day_pnl": 111.02,
+      "pct_day_pnl": 248.38
     },
     {
       "date": "2024-06-02",
-      "pnl": -16.93,
-      "cumulative": 4781.05
+      "flat": 9781.07,
+      "pct": 11396.02,
+      "n_bets": 13,
+      "flat_day_pnl": -16.92,
+      "pct_day_pnl": -38.7
     },
     {
       "date": "2024-06-03",
-      "pnl": -103.85,
-      "cumulative": 4677.2
+      "flat": 9677.22,
+      "pct": 11159.34,
+      "n_bets": 3,
+      "flat_day_pnl": -103.85,
+      "pct_day_pnl": -236.69
     },
     {
       "date": "2024-06-04",
-      "pnl": -25.0,
-      "cumulative": 4652.2
+      "flat": 9652.22,
+      "pct": 11103.54,
+      "n_bets": 5,
+      "flat_day_pnl": -25.0,
+      "pct_day_pnl": -55.8
     },
     {
       "date": "2024-06-05",
-      "pnl": -58.74,
-      "cumulative": 4593.46
+      "flat": 9593.48,
+      "pct": 10973.08,
+      "n_bets": 13,
+      "flat_day_pnl": -58.75,
+      "pct_day_pnl": -130.46
     },
     {
       "date": "2024-06-06",
-      "pnl": 20.15,
-      "cumulative": 4613.61
+      "flat": 9613.62,
+      "pct": 11017.3,
+      "n_bets": 12,
+      "flat_day_pnl": 20.15,
+      "pct_day_pnl": 44.22
     },
     {
       "date": "2024-06-07",
-      "pnl": -374.0,
-      "cumulative": 4239.61
+      "flat": 9239.62,
+      "pct": 10193.2,
+      "n_bets": 6,
+      "flat_day_pnl": -374.0,
+      "pct_day_pnl": -824.09
     },
     {
       "date": "2024-06-08",
-      "pnl": 385.66,
-      "cumulative": 4625.27
+      "flat": 9625.29,
+      "pct": 10979.43,
+      "n_bets": 11,
+      "flat_day_pnl": 385.67,
+      "pct_day_pnl": 786.23
     },
     {
       "date": "2024-06-09",
-      "pnl": 179.72,
-      "cumulative": 4804.99
+      "flat": 9805.01,
+      "pct": 11374.09,
+      "n_bets": 12,
+      "flat_day_pnl": 179.72,
+      "pct_day_pnl": 394.65
     },
     {
       "date": "2024-06-11",
-      "pnl": -133.79,
-      "cumulative": 4671.2
+      "flat": 9671.22,
+      "pct": 11069.74,
+      "n_bets": 5,
+      "flat_day_pnl": -133.79,
+      "pct_day_pnl": -304.35
     },
     {
       "date": "2024-06-12",
-      "pnl": 656.67,
-      "cumulative": 5327.87
+      "flat": 10327.89,
+      "pct": 12523.57,
+      "n_bets": 10,
+      "flat_day_pnl": 656.67,
+      "pct_day_pnl": 1453.84
     },
     {
       "date": "2024-06-13",
-      "pnl": -146.37,
-      "cumulative": 5181.5
+      "flat": 10181.52,
+      "pct": 12156.94,
+      "n_bets": 5,
+      "flat_day_pnl": -146.38,
+      "pct_day_pnl": -366.63
     },
     {
       "date": "2024-06-14",
-      "pnl": -1.58,
-      "cumulative": 5179.92
+      "flat": 10179.94,
+      "pct": 12153.11,
+      "n_bets": 8,
+      "flat_day_pnl": -1.58,
+      "pct_day_pnl": -3.83
     },
     {
       "date": "2024-06-15",
-      "pnl": 258.59,
-      "cumulative": 5438.51
+      "flat": 10438.53,
+      "pct": 12781.65,
+      "n_bets": 10,
+      "flat_day_pnl": 258.59,
+      "pct_day_pnl": 628.54
     },
     {
       "date": "2024-06-16",
-      "pnl": 300.48,
-      "cumulative": 5738.99
+      "flat": 10739.01,
+      "pct": 13549.76,
+      "n_bets": 5,
+      "flat_day_pnl": 300.48,
+      "pct_day_pnl": 768.12
     },
     {
       "date": "2024-06-17",
-      "pnl": -54.0,
-      "cumulative": 5684.99
+      "flat": 10685.01,
+      "pct": 13403.43,
+      "n_bets": 5,
+      "flat_day_pnl": -54.0,
+      "pct_day_pnl": -146.34
     },
     {
       "date": "2024-06-18",
-      "pnl": -77.04,
-      "cumulative": 5607.95
+      "flat": 10607.96,
+      "pct": 13196.9,
+      "n_bets": 7,
+      "flat_day_pnl": -77.04,
+      "pct_day_pnl": -206.53
     },
     {
       "date": "2024-06-19",
-      "pnl": -365.41,
-      "cumulative": 5242.54
+      "flat": 10242.56,
+      "pct": 12232.45,
+      "n_bets": 8,
+      "flat_day_pnl": -365.41,
+      "pct_day_pnl": -964.45
     },
     {
       "date": "2024-06-20",
-      "pnl": 177.87,
-      "cumulative": 5420.41
+      "flat": 10420.42,
+      "pct": 12667.6,
+      "n_bets": 6,
+      "flat_day_pnl": 177.87,
+      "pct_day_pnl": 435.15
     },
     {
       "date": "2024-06-21",
-      "pnl": 206.0,
-      "cumulative": 5626.41
+      "flat": 10626.42,
+      "pct": 13189.5,
+      "n_bets": 7,
+      "flat_day_pnl": 206.0,
+      "pct_day_pnl": 521.9
     },
     {
       "date": "2024-06-22",
-      "pnl": -761.22,
-      "cumulative": 4865.19
+      "flat": 9865.2,
+      "pct": 11181.48,
+      "n_bets": 13,
+      "flat_day_pnl": -761.22,
+      "pct_day_pnl": -2008.02
     },
     {
       "date": "2024-06-23",
-      "pnl": -164.06,
-      "cumulative": 4701.13
+      "flat": 9701.14,
+      "pct": 10814.59,
+      "n_bets": 20,
+      "flat_day_pnl": -164.06,
+      "pct_day_pnl": -366.89
     },
     {
       "date": "2024-06-24",
-      "pnl": 125.24,
-      "cumulative": 4826.37
+      "flat": 9826.38,
+      "pct": 11085.47,
+      "n_bets": 3,
+      "flat_day_pnl": 125.24,
+      "pct_day_pnl": 270.88
     },
     {
       "date": "2024-06-25",
-      "pnl": -108.03,
-      "cumulative": 4718.34
+      "flat": 9718.35,
+      "pct": 10845.95,
+      "n_bets": 5,
+      "flat_day_pnl": -108.03,
+      "pct_day_pnl": -239.52
     },
     {
       "date": "2024-06-26",
-      "pnl": -183.04,
-      "cumulative": 4535.3
+      "flat": 9535.3,
+      "pct": 10448.89,
+      "n_bets": 6,
+      "flat_day_pnl": -183.04,
+      "pct_day_pnl": -397.06
     },
     {
       "date": "2024-06-27",
-      "pnl": 181.43,
-      "cumulative": 4716.73
+      "flat": 9716.73,
+      "pct": 10828.04,
+      "n_bets": 4,
+      "flat_day_pnl": 181.43,
+      "pct_day_pnl": 379.15
     },
     {
       "date": "2024-06-28",
-      "pnl": 732.14,
-      "cumulative": 5448.87
+      "flat": 10448.88,
+      "pct": 12413.58,
+      "n_bets": 7,
+      "flat_day_pnl": 732.14,
+      "pct_day_pnl": 1585.54
     },
     {
       "date": "2024-06-29",
-      "pnl": -180.32,
-      "cumulative": 5268.55
+      "flat": 10268.55,
+      "pct": 11965.88,
+      "n_bets": 10,
+      "flat_day_pnl": -180.32,
+      "pct_day_pnl": -447.69
     },
     {
       "date": "2024-06-30",
-      "pnl": -71.0,
-      "cumulative": 5197.55
+      "flat": 10197.56,
+      "pct": 11795.98,
+      "n_bets": 10,
+      "flat_day_pnl": -71.0,
+      "pct_day_pnl": -169.91
     },
     {
       "date": "2024-07-01",
-      "pnl": -200.0,
-      "cumulative": 4997.55
+      "flat": 9997.56,
+      "pct": 11324.14,
+      "n_bets": 2,
+      "flat_day_pnl": -200.0,
+      "pct_day_pnl": -471.84
     },
     {
       "date": "2024-07-02",
-      "pnl": 550.71,
-      "cumulative": 5548.26
+      "flat": 10548.26,
+      "pct": 12571.39,
+      "n_bets": 6,
+      "flat_day_pnl": 550.71,
+      "pct_day_pnl": 1247.26
     },
     {
       "date": "2024-07-03",
-      "pnl": 316.14,
-      "cumulative": 5864.4
+      "flat": 10864.4,
+      "pct": 13366.26,
+      "n_bets": 9,
+      "flat_day_pnl": 316.14,
+      "pct_day_pnl": 794.86
     },
     {
       "date": "2024-07-04",
-      "pnl": -247.09,
-      "cumulative": 5617.31
+      "flat": 10617.31,
+      "pct": 12705.72,
+      "n_bets": 11,
+      "flat_day_pnl": -247.09,
+      "pct_day_pnl": -660.54
     },
     {
       "date": "2024-07-05",
-      "pnl": 203.33,
-      "cumulative": 5820.64
+      "flat": 10820.65,
+      "pct": 13222.42,
+      "n_bets": 6,
+      "flat_day_pnl": 203.33,
+      "pct_day_pnl": 516.7
     },
     {
       "date": "2024-07-06",
-      "pnl": 740.35,
-      "cumulative": 6560.99
+      "flat": 11560.99,
+      "pct": 15180.25,
+      "n_bets": 15,
+      "flat_day_pnl": 740.34,
+      "pct_day_pnl": 1957.83
     },
     {
       "date": "2024-07-07",
-      "pnl": 15.0,
-      "cumulative": 6575.99
+      "flat": 11575.99,
+      "pct": 15225.79,
+      "n_bets": 9,
+      "flat_day_pnl": 15.0,
+      "pct_day_pnl": 45.54
     },
     {
       "date": "2024-07-08",
-      "pnl": -20.0,
-      "cumulative": 6555.99
+      "flat": 11555.99,
+      "pct": 15164.89,
+      "n_bets": 2,
+      "flat_day_pnl": -20.0,
+      "pct_day_pnl": -60.9
     },
     {
       "date": "2024-07-09",
-      "pnl": 108.33,
-      "cumulative": 6664.32
+      "flat": 11664.32,
+      "pct": 15493.46,
+      "n_bets": 7,
+      "flat_day_pnl": 108.33,
+      "pct_day_pnl": 328.57
     },
     {
       "date": "2024-07-10",
-      "pnl": -303.04,
-      "cumulative": 6361.28
+      "flat": 11361.28,
+      "pct": 14554.42,
+      "n_bets": 11,
+      "flat_day_pnl": -303.04,
+      "pct_day_pnl": -939.04
     },
     {
       "date": "2024-07-11",
-      "pnl": -71.67,
-      "cumulative": 6289.61
+      "flat": 11289.61,
+      "pct": 14345.81,
+      "n_bets": 5,
+      "flat_day_pnl": -71.67,
+      "pct_day_pnl": -208.61
     },
     {
       "date": "2024-07-12",
-      "pnl": -431.97,
-      "cumulative": 5857.64
+      "flat": 10857.64,
+      "pct": 13106.41,
+      "n_bets": 8,
+      "flat_day_pnl": -431.97,
+      "pct_day_pnl": -1239.4
     },
     {
       "date": "2024-07-13",
-      "pnl": -247.61,
-      "cumulative": 5610.03
+      "flat": 10610.03,
+      "pct": 12457.34,
+      "n_bets": 13,
+      "flat_day_pnl": -247.61,
+      "pct_day_pnl": -649.07
     },
     {
       "date": "2024-07-14",
-      "pnl": 666.73,
-      "cumulative": 6276.76
+      "flat": 11276.75,
+      "pct": 14118.47,
+      "n_bets": 10,
+      "flat_day_pnl": 666.73,
+      "pct_day_pnl": 1661.13
     },
     {
       "date": "2024-07-19",
-      "pnl": 429.06,
-      "cumulative": 6705.82
+      "flat": 11705.82,
+      "pct": 15330.01,
+      "n_bets": 10,
+      "flat_day_pnl": 429.06,
+      "pct_day_pnl": 1211.54
     },
     {
       "date": "2024-07-20",
-      "pnl": -126.4,
-      "cumulative": 6579.42
+      "flat": 11579.41,
+      "pct": 14942.47,
+      "n_bets": 9,
+      "flat_day_pnl": -126.4,
+      "pct_day_pnl": -387.55
     },
     {
       "date": "2024-07-21",
-      "pnl": -168.02,
-      "cumulative": 6411.4
+      "flat": 11411.39,
+      "pct": 14440.33,
+      "n_bets": 12,
+      "flat_day_pnl": -168.02,
+      "pct_day_pnl": -502.13
     },
     {
       "date": "2024-07-22",
-      "pnl": -241.59,
-      "cumulative": 6169.81
+      "flat": 11169.8,
+      "pct": 13742.6,
+      "n_bets": 6,
+      "flat_day_pnl": -241.59,
+      "pct_day_pnl": -697.73
     },
     {
       "date": "2024-07-23",
-      "pnl": -69.28,
-      "cumulative": 6100.53
+      "flat": 11100.52,
+      "pct": 13552.19,
+      "n_bets": 5,
+      "flat_day_pnl": -69.28,
+      "pct_day_pnl": -190.42
     },
     {
       "date": "2024-07-24",
-      "pnl": 19.12,
-      "cumulative": 6119.65
+      "flat": 11119.63,
+      "pct": 13603.99,
+      "n_bets": 10,
+      "flat_day_pnl": 19.11,
+      "pct_day_pnl": 51.8
     },
     {
       "date": "2024-07-25",
-      "pnl": -300.0,
-      "cumulative": 5819.65
+      "flat": 10819.63,
+      "pct": 12787.75,
+      "n_bets": 3,
+      "flat_day_pnl": -300.0,
+      "pct_day_pnl": -816.24
     },
     {
       "date": "2024-07-26",
-      "pnl": 95.97,
-      "cumulative": 5915.62
+      "flat": 10915.6,
+      "pct": 13033.19,
+      "n_bets": 3,
+      "flat_day_pnl": 95.97,
+      "pct_day_pnl": 245.44
     },
     {
       "date": "2024-07-27",
-      "pnl": 106.0,
-      "cumulative": 6021.62
+      "flat": 11021.6,
+      "pct": 13309.49,
+      "n_bets": 10,
+      "flat_day_pnl": 106.0,
+      "pct_day_pnl": 276.3
     },
     {
       "date": "2024-07-28",
-      "pnl": 582.16,
-      "cumulative": 6603.78
+      "flat": 11603.77,
+      "pct": 14859.16,
+      "n_bets": 18,
+      "flat_day_pnl": 582.17,
+      "pct_day_pnl": 1549.67
     },
     {
       "date": "2024-07-29",
-      "pnl": -90.0,
-      "cumulative": 6513.78
+      "flat": 11513.77,
+      "pct": 14591.7,
+      "n_bets": 3,
+      "flat_day_pnl": -90.0,
+      "pct_day_pnl": -267.46
     },
     {
       "date": "2024-07-30",
-      "pnl": 221.83,
-      "cumulative": 6735.61
+      "flat": 11735.6,
+      "pct": 15239.07,
+      "n_bets": 4,
+      "flat_day_pnl": 221.83,
+      "pct_day_pnl": 647.37
     },
     {
       "date": "2024-07-31",
-      "pnl": -57.32,
-      "cumulative": 6678.29
+      "flat": 11678.28,
+      "pct": 15064.37,
+      "n_bets": 11,
+      "flat_day_pnl": -57.32,
+      "pct_day_pnl": -174.69
     },
     {
       "date": "2024-08-01",
-      "pnl": 125.24,
-      "cumulative": 6803.53
+      "flat": 11803.52,
+      "pct": 15441.7,
+      "n_bets": 3,
+      "flat_day_pnl": 125.24,
+      "pct_day_pnl": 377.33
     },
     {
       "date": "2024-08-02",
-      "pnl": -77.08,
-      "cumulative": 6726.45
+      "flat": 11726.44,
+      "pct": 15203.66,
+      "n_bets": 5,
+      "flat_day_pnl": -77.08,
+      "pct_day_pnl": -238.04
     },
     {
       "date": "2024-08-03",
-      "pnl": 719.31,
-      "cumulative": 7445.76
+      "flat": 12445.74,
+      "pct": 17390.87,
+      "n_bets": 7,
+      "flat_day_pnl": 719.3,
+      "pct_day_pnl": 2187.21
     },
     {
       "date": "2024-08-04",
-      "pnl": 839.71,
-      "cumulative": 8285.47
+      "flat": 13285.45,
+      "pct": 20311.53,
+      "n_bets": 12,
+      "flat_day_pnl": 839.71,
+      "pct_day_pnl": 2920.66
     },
     {
       "date": "2024-08-06",
-      "pnl": -55.0,
-      "cumulative": 8230.47
+      "flat": 13230.45,
+      "pct": 20088.1,
+      "n_bets": 3,
+      "flat_day_pnl": -55.0,
+      "pct_day_pnl": -223.43
     },
     {
       "date": "2024-08-07",
-      "pnl": 979.4,
-      "cumulative": 9209.87
+      "flat": 14209.85,
+      "pct": 24022.97,
+      "n_bets": 10,
+      "flat_day_pnl": 979.4,
+      "pct_day_pnl": 3934.86
     },
     {
       "date": "2024-08-08",
-      "pnl": 95.91,
-      "cumulative": 9305.78
+      "flat": 14305.76,
+      "pct": 24483.75,
+      "n_bets": 9,
+      "flat_day_pnl": 95.9,
+      "pct_day_pnl": 460.78
     },
     {
       "date": "2024-08-09",
-      "pnl": -300.0,
-      "cumulative": 9005.78
+      "flat": 14005.76,
+      "pct": 23014.73,
+      "n_bets": 3,
+      "flat_day_pnl": -300.0,
+      "pct_day_pnl": -1469.03
     },
     {
       "date": "2024-08-10",
-      "pnl": 255.59,
-      "cumulative": 9261.37
+      "flat": 14261.34,
+      "pct": 24191.17,
+      "n_bets": 10,
+      "flat_day_pnl": 255.58,
+      "pct_day_pnl": 1176.44
     },
     {
       "date": "2024-08-11",
-      "pnl": 656.26,
-      "cumulative": 9917.63
+      "flat": 14917.6,
+      "pct": 27366.3,
+      "n_bets": 10,
+      "flat_day_pnl": 656.26,
+      "pct_day_pnl": 3175.13
     },
     {
       "date": "2024-08-12",
-      "pnl": 105.0,
-      "cumulative": 10022.63
+      "flat": 15022.6,
+      "pct": 27940.99,
+      "n_bets": 1,
+      "flat_day_pnl": 105.0,
+      "pct_day_pnl": 574.69
     },
     {
       "date": "2024-08-13",
-      "pnl": 118.91,
-      "cumulative": 10141.54
+      "flat": 15141.51,
+      "pct": 28605.48,
+      "n_bets": 10,
+      "flat_day_pnl": 118.91,
+      "pct_day_pnl": 664.49
     },
     {
       "date": "2024-08-14",
-      "pnl": -184.84,
-      "cumulative": 9956.7
+      "flat": 14956.67,
+      "pct": 27548.0,
+      "n_bets": 12,
+      "flat_day_pnl": -184.84,
+      "pct_day_pnl": -1057.47
     },
     {
       "date": "2024-08-15",
-      "pnl": -90.0,
-      "cumulative": 9866.7
+      "flat": 14866.67,
+      "pct": 27052.14,
+      "n_bets": 3,
+      "flat_day_pnl": -90.0,
+      "pct_day_pnl": -495.86
     },
     {
       "date": "2024-08-16",
-      "pnl": -54.0,
-      "cumulative": 9812.7
+      "flat": 14812.67,
+      "pct": 26759.97,
+      "n_bets": 5,
+      "flat_day_pnl": -54.0,
+      "pct_day_pnl": -292.16
     },
     {
       "date": "2024-08-17",
-      "pnl": 224.98,
-      "cumulative": 10037.68
+      "flat": 15037.65,
+      "pct": 27964.06,
+      "n_bets": 14,
+      "flat_day_pnl": 224.98,
+      "pct_day_pnl": 1204.09
     },
     {
       "date": "2024-08-18",
-      "pnl": 135.0,
-      "cumulative": 10172.68
+      "flat": 15172.65,
+      "pct": 28719.09,
+      "n_bets": 7,
+      "flat_day_pnl": 135.0,
+      "pct_day_pnl": 755.03
     },
     {
       "date": "2024-08-20",
-      "pnl": -34.53,
-      "cumulative": 10138.15
+      "flat": 15138.12,
+      "pct": 28520.76,
+      "n_bets": 4,
+      "flat_day_pnl": -34.53,
+      "pct_day_pnl": -198.33
     },
     {
       "date": "2024-08-21",
-      "pnl": 461.8,
-      "cumulative": 10599.95
+      "flat": 15599.92,
+      "pct": 31154.89,
+      "n_bets": 10,
+      "flat_day_pnl": 461.79,
+      "pct_day_pnl": 2634.13
     },
     {
       "date": "2024-08-22",
-      "pnl": -13.04,
-      "cumulative": 10586.91
+      "flat": 15586.87,
+      "pct": 31073.62,
+      "n_bets": 4,
+      "flat_day_pnl": -13.04,
+      "pct_day_pnl": -81.27
     },
     {
       "date": "2024-08-23",
-      "pnl": 228.07,
-      "cumulative": 10814.98
+      "flat": 15814.94,
+      "pct": 32491.01,
+      "n_bets": 5,
+      "flat_day_pnl": 228.07,
+      "pct_day_pnl": 1417.39
     },
     {
       "date": "2024-08-24",
-      "pnl": 82.52,
-      "cumulative": 10897.5
+      "flat": 15897.46,
+      "pct": 33027.24,
+      "n_bets": 10,
+      "flat_day_pnl": 82.52,
+      "pct_day_pnl": 536.23
     },
     {
       "date": "2024-08-25",
-      "pnl": -291.1,
-      "cumulative": 10606.4
+      "flat": 15606.35,
+      "pct": 31104.33,
+      "n_bets": 10,
+      "flat_day_pnl": -291.11,
+      "pct_day_pnl": -1922.91
     },
     {
       "date": "2024-08-26",
-      "pnl": -64.09,
-      "cumulative": 10542.31
+      "flat": 15542.26,
+      "pct": 30705.62,
+      "n_bets": 5,
+      "flat_day_pnl": -64.09,
+      "pct_day_pnl": -398.7
     },
     {
       "date": "2024-08-27",
-      "pnl": 578.33,
-      "cumulative": 11120.64
+      "flat": 16120.59,
+      "pct": 34257.24,
+      "n_bets": 5,
+      "flat_day_pnl": 578.33,
+      "pct_day_pnl": 3551.62
     },
     {
       "date": "2024-08-28",
-      "pnl": 220.0,
-      "cumulative": 11340.64
+      "flat": 16340.59,
+      "pct": 35764.56,
+      "n_bets": 5,
+      "flat_day_pnl": 220.0,
+      "pct_day_pnl": 1507.32
     },
     {
       "date": "2024-08-29",
-      "pnl": -188.8,
-      "cumulative": 11151.84
+      "flat": 16151.79,
+      "pct": 34414.05,
+      "n_bets": 10,
+      "flat_day_pnl": -188.81,
+      "pct_day_pnl": -1350.51
     },
     {
       "date": "2024-08-30",
-      "pnl": 91.39,
-      "cumulative": 11243.23
+      "flat": 16243.18,
+      "pct": 35043.07,
+      "n_bets": 11,
+      "flat_day_pnl": 91.39,
+      "pct_day_pnl": 629.02
     },
     {
       "date": "2024-08-31",
-      "pnl": 86.97,
-      "cumulative": 11330.2
+      "flat": 16330.14,
+      "pct": 35652.59,
+      "n_bets": 8,
+      "flat_day_pnl": 86.97,
+      "pct_day_pnl": 609.52
     },
     {
       "date": "2024-09-01",
-      "pnl": 810.19,
-      "cumulative": 12140.39
+      "flat": 17140.34,
+      "pct": 41429.67,
+      "n_bets": 9,
+      "flat_day_pnl": 810.19,
+      "pct_day_pnl": 5777.08
     },
     {
       "date": "2024-09-02",
-      "pnl": 319.22,
-      "cumulative": 12459.61
+      "flat": 17459.55,
+      "pct": 44074.67,
+      "n_bets": 7,
+      "flat_day_pnl": 319.22,
+      "pct_day_pnl": 2645.0
     },
     {
       "date": "2024-09-03",
-      "pnl": 306.02,
-      "cumulative": 12765.63
+      "flat": 17765.56,
+      "pct": 46772.15,
+      "n_bets": 7,
+      "flat_day_pnl": 306.01,
+      "pct_day_pnl": 2697.48
     },
     {
       "date": "2024-09-04",
-      "pnl": 391.52,
-      "cumulative": 13157.15
+      "flat": 18157.08,
+      "pct": 50434.59,
+      "n_bets": 7,
+      "flat_day_pnl": 391.52,
+      "pct_day_pnl": 3662.44
     },
     {
       "date": "2024-09-05",
-      "pnl": -78.0,
-      "cumulative": 13079.15
+      "flat": 18079.08,
+      "pct": 49647.81,
+      "n_bets": 5,
+      "flat_day_pnl": -78.0,
+      "pct_day_pnl": -786.78
     },
     {
       "date": "2024-09-06",
-      "pnl": -196.0,
-      "cumulative": 12883.15
+      "flat": 17883.08,
+      "pct": 47701.62,
+      "n_bets": 4,
+      "flat_day_pnl": -196.0,
+      "pct_day_pnl": -1946.19
     },
     {
       "date": "2024-09-07",
-      "pnl": -400.24,
-      "cumulative": 12482.91
+      "flat": 17482.85,
+      "pct": 43883.22,
+      "n_bets": 10,
+      "flat_day_pnl": -400.24,
+      "pct_day_pnl": -3818.4
     },
     {
       "date": "2024-09-08",
-      "pnl": 482.33,
-      "cumulative": 12965.24
+      "flat": 17965.18,
+      "pct": 48116.46,
+      "n_bets": 14,
+      "flat_day_pnl": 482.33,
+      "pct_day_pnl": 4233.24
     },
     {
       "date": "2024-09-09",
-      "pnl": -600.0,
-      "cumulative": 12365.24
+      "flat": 17365.18,
+      "pct": 42342.48,
+      "n_bets": 6,
+      "flat_day_pnl": -600.0,
+      "pct_day_pnl": -5773.97
     },
     {
       "date": "2024-09-10",
-      "pnl": 381.97,
-      "cumulative": 12747.21
+      "flat": 17747.14,
+      "pct": 45577.16,
+      "n_bets": 11,
+      "flat_day_pnl": 381.97,
+      "pct_day_pnl": 3234.67
     },
     {
       "date": "2024-09-11",
-      "pnl": 335.8,
-      "cumulative": 13083.01
+      "flat": 18082.94,
+      "pct": 48638.13,
+      "n_bets": 10,
+      "flat_day_pnl": 335.8,
+      "pct_day_pnl": 3060.98
     },
     {
       "date": "2024-09-12",
-      "pnl": 72.76,
-      "cumulative": 13155.77
+      "flat": 18155.7,
+      "pct": 49345.89,
+      "n_bets": 3,
+      "flat_day_pnl": 72.76,
+      "pct_day_pnl": 707.76
     },
     {
       "date": "2024-09-13",
-      "pnl": -321.37,
-      "cumulative": 12834.4
+      "flat": 17834.33,
+      "pct": 46174.22,
+      "n_bets": 7,
+      "flat_day_pnl": -321.37,
+      "pct_day_pnl": -3171.67
     },
     {
       "date": "2024-09-14",
-      "pnl": 336.33,
-      "cumulative": 13170.73
+      "flat": 18170.66,
+      "pct": 49280.2,
+      "n_bets": 10,
+      "flat_day_pnl": 336.33,
+      "pct_day_pnl": 3105.99
     },
     {
       "date": "2024-09-15",
-      "pnl": 140.66,
-      "cumulative": 13311.39
+      "flat": 18311.32,
+      "pct": 50666.5,
+      "n_bets": 7,
+      "flat_day_pnl": 140.65,
+      "pct_day_pnl": 1386.3
     },
     {
       "date": "2024-09-16",
-      "pnl": 68.93,
-      "cumulative": 13380.32
+      "flat": 18380.24,
+      "pct": 51364.93,
+      "n_bets": 3,
+      "flat_day_pnl": 68.92,
+      "pct_day_pnl": 698.42
     },
     {
       "date": "2024-09-17",
-      "pnl": -24.5,
-      "cumulative": 13355.82
+      "flat": 18355.74,
+      "pct": 51113.26,
+      "n_bets": 8,
+      "flat_day_pnl": -24.5,
+      "pct_day_pnl": -251.66
     },
     {
       "date": "2024-09-18",
-      "pnl": -238.7,
-      "cumulative": 13117.12
+      "flat": 18117.03,
+      "pct": 48673.03,
+      "n_bets": 8,
+      "flat_day_pnl": -238.71,
+      "pct_day_pnl": -2440.24
     },
     {
       "date": "2024-09-19",
-      "pnl": 145.0,
-      "cumulative": 13262.12
+      "flat": 18262.03,
+      "pct": 50084.54,
+      "n_bets": 7,
+      "flat_day_pnl": 145.0,
+      "pct_day_pnl": 1411.52
     },
     {
       "date": "2024-09-20",
-      "pnl": -109.09,
-      "cumulative": 13153.03
+      "flat": 18152.94,
+      "pct": 48991.79,
+      "n_bets": 3,
+      "flat_day_pnl": -109.09,
+      "pct_day_pnl": -1092.75
     },
     {
       "date": "2024-09-21",
-      "pnl": 376.19,
-      "cumulative": 13529.22
+      "flat": 18529.13,
+      "pct": 52677.84,
+      "n_bets": 10,
+      "flat_day_pnl": 376.19,
+      "pct_day_pnl": 3686.05
     },
     {
       "date": "2024-09-22",
-      "pnl": 150.91,
-      "cumulative": 13680.13
+      "flat": 18680.04,
+      "pct": 54267.75,
+      "n_bets": 5,
+      "flat_day_pnl": 150.91,
+      "pct_day_pnl": 1589.91
     },
     {
       "date": "2024-09-24",
-      "pnl": 259.96,
-      "cumulative": 13940.09
+      "flat": 18940.0,
+      "pct": 57089.2,
+      "n_bets": 6,
+      "flat_day_pnl": 259.96,
+      "pct_day_pnl": 2821.45
     },
     {
       "date": "2024-09-26",
-      "pnl": 99.07,
-      "cumulative": 14039.16
+      "flat": 19039.07,
+      "pct": 58220.41,
+      "n_bets": 3,
+      "flat_day_pnl": 99.07,
+      "pct_day_pnl": 1131.21
     },
     {
       "date": "2024-09-28",
-      "pnl": 110.0,
-      "cumulative": 14149.16
+      "flat": 19149.07,
+      "pct": 59501.26,
+      "n_bets": 1,
+      "flat_day_pnl": 110.0,
+      "pct_day_pnl": 1280.85
     },
     {
       "date": "2024-09-29",
-      "pnl": -100.0,
-      "cumulative": 14049.16
+      "flat": 19049.07,
+      "pct": 58311.24,
+      "n_bets": 1,
+      "flat_day_pnl": -100.0,
+      "pct_day_pnl": -1190.03
     }
   ]
 }

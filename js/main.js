@@ -481,13 +481,14 @@
 
         var summary = data.summary;
         setStatusText('hero-total-bets', summary.total_bets.toLocaleString('en-US'));
-        setStatusText('hero-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
+        var flatRet = summary.flat ? summary.flat.return_pct : 0;
+        setStatusText('hero-roi', (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%');
         setStatusText('hero-win-rate', summary.win_rate.toFixed(1) + '% win rate');
 
-        setStatusText('edge-roi', (summary.roi >= 0 ? '+' : '') + summary.roi.toFixed(1) + '%');
+        setStatusText('edge-roi', (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%');
         setStatusText(
           'edge-summary',
-          'Combined ROI across ' + summary.total_bets.toLocaleString('en-US') +
+          'Bankroll return across ' + summary.total_bets.toLocaleString('en-US') +
           ' backtested bets (' + summary.win_rate.toFixed(1) + '% win rate).'
         );
 
@@ -1364,19 +1365,6 @@
     container.appendChild(scrollWrap);
   }
 
-  function computeMaxDrawdown(cumulativePnl) {
-    if (!cumulativePnl || cumulativePnl.length === 0) return null;
-    var peak = 0;
-    var worstDd = 0;
-    for (var i = 0; i < cumulativePnl.length; i++) {
-      var c = cumulativePnl[i].cumulative;
-      if (c > peak) peak = c;
-      var dd = c - peak;
-      if (dd < worstDd) worstDd = dd;
-    }
-    return worstDd;
-  }
-
   function computeDailyStreaks(cumulativePnl) {
     if (!cumulativePnl || cumulativePnl.length === 0) return null;
 
@@ -1429,24 +1417,12 @@
     if (!container) return;
     clearChildren(container);
 
-    var summary = data.summary || data;
-    var maxDd = summary.max_drawdown;
-    if (maxDd === undefined || maxDd === null) {
-      maxDd = computeMaxDrawdown(data.cumulative_pnl);
-    }
-
-    if (maxDd !== null && maxDd !== undefined) {
-      var ddBox = el('div', 'results-stat-box');
-      ddBox.appendChild(el('div', 'results-stat-label', 'Max Drawdown'));
-      var ddVal = el('div', 'results-stat-value negative', formatPnl(maxDd));
-      ddBox.appendChild(ddVal);
-      container.appendChild(ddBox);
-    }
-
-    // Daily streaks (computed from cumulative_pnl)
-    var streaks = computeDailyStreaks(data.cumulative_pnl);
+    // Daily streaks (computed from bankroll_curve day P&L)
+    var curve = data.bankroll_curve || [];
+    var streaks = computeDailyStreaks(curve.map(function (d) {
+      return { pnl: d.flat_day_pnl || 0 };
+    }));
     if (streaks) {
-      // Best winning streak
       if (streaks.bestWin > 0) {
         var bestBox = el('div', 'results-stat-box');
         bestBox.appendChild(el('div', 'results-stat-label', 'Best Win Streak'));
@@ -1454,7 +1430,6 @@
         container.appendChild(bestBox);
       }
 
-      // Worst loss streak
       if (streaks.bestLoss > 0) {
         var worstBox = el('div', 'results-stat-box');
         worstBox.appendChild(el('div', 'results-stat-label', 'Worst Loss Streak'));
@@ -1565,13 +1540,34 @@
 
       document.getElementById('stat-winrate').textContent = s.win_rate.toFixed(1) + '%';
 
-      var pnlEl = document.getElementById('stat-pnl');
-      pnlEl.textContent = formatPnl(s.total_pnl);
-      pnlEl.className = 'results-stat-value ' + (s.total_pnl >= 0 ? 'positive' : 'negative');
+      // Bankroll return stats
+      var flatRetEl = document.getElementById('stat-return-flat');
+      if (flatRetEl && s.flat) {
+        flatRetEl.textContent = (s.flat.return_pct >= 0 ? '+' : '') + s.flat.return_pct.toFixed(1) + '%';
+        flatRetEl.className = 'results-stat-value ' + (s.flat.return_pct >= 0 ? 'positive' : 'negative');
+      }
 
-      var roiEl = document.getElementById('stat-roi');
-      roiEl.textContent = (s.roi >= 0 ? '+' : '') + s.roi.toFixed(1) + '%';
-      roiEl.className = 'results-stat-value ' + (s.roi >= 0 ? 'positive' : 'negative');
+      var pctRetEl = document.getElementById('stat-return-pct');
+      if (pctRetEl && s.pct) {
+        pctRetEl.textContent = (s.pct.return_pct >= 0 ? '+' : '') + s.pct.return_pct.toFixed(1) + '%';
+        pctRetEl.className = 'results-stat-value ' + (s.pct.return_pct >= 0 ? 'positive' : 'negative');
+      }
+
+      // Bankroll subtitle row
+      var initialEl = document.getElementById('stat-initial-bankroll');
+      if (initialEl) initialEl.textContent = '$' + (s.initial_bankroll || 5000).toLocaleString();
+
+      var ddFlatEl = document.getElementById('stat-dd-flat');
+      if (ddFlatEl && s.flat) {
+        ddFlatEl.textContent = s.flat.max_drawdown_pct.toFixed(1) + '%';
+        ddFlatEl.className = 'results-stat-value negative';
+      }
+
+      var ddPctEl = document.getElementById('stat-dd-pct');
+      if (ddPctEl && s.pct) {
+        ddPctEl.textContent = s.pct.max_drawdown_pct.toFixed(1) + '%';
+        ddPctEl.className = 'results-stat-value negative';
+      }
 
       // Market table — sort by ROI descending (item 24)
       var marketBody = document.querySelector('#market-table tbody');
@@ -1610,28 +1606,30 @@
       // Drawdown and streak (item 22)
       renderDrawdownStreak(data);
 
-      if (data.cumulative_pnl && data.cumulative_pnl.length > 1) {
-        var first = data.cumulative_pnl[0];
-        var last = data.cumulative_pnl[data.cumulative_pnl.length - 1];
+      if (data.bankroll_curve && data.bankroll_curve.length > 1) {
+        var first = data.bankroll_curve[0];
+        var last = data.bankroll_curve[data.bankroll_curve.length - 1];
+        var initBk = s.initial_bankroll || 5000;
         setStatusText(
           'pnl-chart-summary',
-          'From ' + formatDate(first.date) + ' to ' + formatDate(last.date) + ', cumulative P&L moved from ' +
-          formatPnl(first.cumulative) + ' to ' + formatPnl(last.cumulative) + '.'
+          'Starting from $' + initBk.toLocaleString() + ', flat strategy ended at $' +
+          last.flat.toLocaleString() + ' and 2% strategy at $' + last.pct.toLocaleString() +
+          ' over ' + data.bankroll_curve.length + ' trading days.'
         );
       }
 
       var canvas = document.getElementById('pnl-chart');
-      if (canvas && data.cumulative_pnl && data.cumulative_pnl.length > 0) {
+      if (canvas && data.bankroll_curve && data.bankroll_curve.length > 0) {
+        var initBankroll = s.initial_bankroll || 5000;
         if (typeof Chart !== 'undefined') {
-          initPnlChart(canvas, data.cumulative_pnl);
+          initBankrollChart(canvas, data.bankroll_curve, initBankroll);
         } else {
-          // Chart.js defer script may not have executed yet — wait for it
           var attempts = 0;
           var waitForChart = setInterval(function () {
             attempts++;
             if (typeof Chart !== 'undefined') {
               clearInterval(waitForChart);
-              initPnlChart(canvas, data.cumulative_pnl);
+              initBankrollChart(canvas, data.bankroll_curve, initBankroll);
             } else if (attempts > 50) {
               clearInterval(waitForChart);
             }
@@ -1643,34 +1641,18 @@
     });
   }
 
-  function initPnlChart(canvas, pnlData) {
-    var labels = pnlData.map(function (d) { return formatDate(d.date); });
-    var cumValues = pnlData.map(function (d) { return d.cumulative; });
-    var dailyValues = pnlData.map(function (d) { return d.pnl; });
-    var lastVal = cumValues[cumValues.length - 1];
-    var lineColor = lastVal >= 0 ? '#1a7f6d' : '#c0392b';
-    var fillColor = lastVal >= 0 ? 'rgba(26, 127, 109, 0.08)' : 'rgba(192, 57, 43, 0.08)';
-    var upArrow = '\u25b2';
-    var downArrow = '\u25bc';
-
-    function directionArrow(value) {
-      if (value > 0) return upArrow;
-      if (value < 0) return downArrow;
-      return '\u25a0';
-    }
-
-    var rolling7 = [];
-    for (var i = 0; i < dailyValues.length; i++) {
-      if (i < 6) {
-        rolling7.push(null);
-      } else {
-        var sum = 0;
-        for (var j = i - 6; j <= i; j++) sum += dailyValues[j];
-        rolling7.push(Math.round(sum * 100) / 100);
-      }
-    }
+  function initBankrollChart(canvas, curveData, initialBankroll) {
+    var labels = curveData.map(function (d) { return formatDate(d.date); });
+    var flatValues = curveData.map(function (d) { return d.flat; });
+    var pctValues = curveData.map(function (d) { return d.pct; });
+    var baselineValues = curveData.map(function () { return initialBankroll; });
 
     var responsiveTicksLimit = window.innerWidth < 640 ? 5 : 10;
+
+    function formatDollar(val) {
+      if (Math.abs(val) >= 1000) return '$' + (val / 1000).toFixed(1) + 'K';
+      return '$' + val;
+    }
 
     var chart = new Chart(canvas, {
       type: 'line',
@@ -1678,29 +1660,38 @@
         labels: labels,
         datasets: [
           {
-            label: 'Cumulative P&L',
-            data: cumValues,
-            borderColor: lineColor,
-            backgroundColor: fillColor,
-            fill: true,
-            tension: 0.3,
-            pointRadius: 0,
-            pointHitRadius: 8,
-            borderWidth: 2,
-            yAxisID: 'y'
-          },
-          {
-            label: 'Rolling 7-Day P&L',
-            data: rolling7,
-            borderColor: 'rgba(212, 148, 10, 0.85)',
-            backgroundColor: 'transparent',
+            label: 'Flat $100',
+            data: flatValues,
+            borderColor: '#1a7f6d',
+            backgroundColor: 'rgba(26, 127, 109, 0.06)',
             fill: false,
             tension: 0.3,
             pointRadius: 0,
             pointHitRadius: 8,
-            borderWidth: 2,
-            borderDash: [5, 3],
-            yAxisID: 'y2'
+            borderWidth: 2.5
+          },
+          {
+            label: '2% of Bankroll',
+            data: pctValues,
+            borderColor: '#d4940a',
+            backgroundColor: 'rgba(212, 148, 10, 0.06)',
+            fill: false,
+            tension: 0.3,
+            pointRadius: 0,
+            pointHitRadius: 8,
+            borderWidth: 2.5
+          },
+          {
+            label: 'Starting Bankroll',
+            data: baselineValues,
+            borderColor: 'rgba(150, 160, 175, 0.5)',
+            backgroundColor: 'transparent',
+            fill: false,
+            tension: 0,
+            pointRadius: 0,
+            pointHitRadius: 0,
+            borderWidth: 1,
+            borderDash: [6, 4]
           }
         ]
       },
@@ -1721,7 +1712,10 @@
               font: { family: 'Inter', size: 11 },
               usePointStyle: true,
               pointStyle: 'line',
-              boxWidth: 20
+              boxWidth: 20,
+              filter: function (item) {
+                return item.text !== 'Starting Bankroll';
+              }
             }
           },
           tooltip: {
@@ -1744,11 +1738,14 @@
             titleMarginBottom: 8,
             bodySpacing: 6,
             footerMarginTop: 6,
+            filter: function (item) {
+              return item.dataset.label !== 'Starting Bankroll';
+            },
             callbacks: {
               title: function (items) {
                 if (!items || items.length === 0) return '';
                 var idx = items[0].dataIndex;
-                var row = pnlData[idx];
+                var row = curveData[idx];
                 if (!row || !row.date) return items[0].label;
                 return new Date(row.date + 'T12:00:00').toLocaleDateString('en-US', {
                   weekday: 'short',
@@ -1759,25 +1756,29 @@
               },
               label: function (ctx) {
                 var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
-                return directionArrow(val) + ' ' + ctx.dataset.label + ': ' + formatPnl(val);
+                return ' ' + ctx.dataset.label + ': $' + val.toLocaleString(undefined, {
+                  minimumFractionDigits: 0,
+                  maximumFractionDigits: 0
+                });
               },
               labelTextColor: function (ctx) {
-                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
-                if (ctx.dataset && ctx.dataset.label === 'Cumulative P&L') {
-                  return val >= 0 ? '#8ff2cf' : '#ffb3b3';
-                }
-                return val >= 0 ? '#f6d28a' : '#ffbe7a';
+                if (ctx.dataset.label === 'Flat $100') return '#8ff2cf';
+                return '#f6d28a';
               },
               footer: function (items) {
                 if (!items || items.length === 0) return '';
                 var idx = items[0].dataIndex;
-                var row = pnlData[idx];
-                if (!row || row.pnl === null || row.pnl === undefined) return '';
+                var row = curveData[idx];
+                if (!row) return '';
                 var lines = [];
-                lines.push('Daily P&L: ' + directionArrow(row.pnl) + ' ' + formatPnl(row.pnl));
-                if (idx > 0 && pnlData[idx - 1] && pnlData[idx - 1].cumulative !== null && row.cumulative !== null) {
-                  var delta = row.cumulative - pnlData[idx - 1].cumulative;
-                  lines.push('Change vs prior: ' + directionArrow(delta) + ' ' + formatPnl(delta));
+                lines.push(row.n_bets + ' bet' + (row.n_bets !== 1 ? 's' : '') + ' today');
+                if (row.flat_day_pnl !== undefined) {
+                  var fSign = row.flat_day_pnl >= 0 ? '+' : '';
+                  lines.push('Flat day: ' + fSign + '$' + Math.abs(row.flat_day_pnl).toFixed(0));
+                }
+                if (row.pct_day_pnl !== undefined) {
+                  var pSign = row.pct_day_pnl >= 0 ? '+' : '';
+                  lines.push('2% day: ' + pSign + '$' + Math.abs(row.pct_day_pnl).toFixed(0));
                 }
                 return lines;
               }
@@ -1798,23 +1799,7 @@
             grid: { color: 'rgba(27, 42, 74, 0.06)' },
             ticks: {
               font: { family: "'JetBrains Mono'", size: 11 },
-              callback: function (val) {
-                if (Math.abs(val) >= 1000) return '$' + (val / 1000) + 'K';
-                return '$' + val;
-              }
-            }
-          },
-          y2: {
-            type: 'linear',
-            position: 'right',
-            grid: { display: false },
-            ticks: {
-              font: { family: "'JetBrains Mono'", size: 11 },
-              color: 'rgba(212, 148, 10, 0.8)',
-              callback: function (val) {
-                if (Math.abs(val) >= 1000) return '$' + (val / 1000) + 'K';
-                return '$' + val;
-              }
+              callback: function (val) { return formatDollar(val); }
             }
           }
         }
@@ -1828,15 +1813,6 @@
         chart.update('none');
       }
     });
-
-    // Populate chart aria-describedby after data loads
-    var chartDesc = document.getElementById('pnl-chart-summary');
-    if (chartDesc) {
-      var first = pnlData[0];
-      var last = pnlData[pnlData.length - 1];
-      chartDesc.textContent = 'From ' + formatDate(first.date) + ' to ' + formatDate(last.date) +
-        ', cumulative P&L moved from ' + formatPnl(first.cumulative) + ' to ' + formatPnl(last.cumulative) + '.';
-    }
   }
 
   // --- Page Router ---
