@@ -1303,7 +1303,7 @@
     table.className = 'results-table';
     var thead = document.createElement('thead');
     var headRow = document.createElement('tr');
-    ['Stars', 'Bets', 'Record', 'Win Rate', '$100', '2%'].forEach(function (h) {
+    ['Stars', 'Bets', 'Record', 'Win Rate', 'Flat Return', '2% Return'].forEach(function (h) {
       headRow.appendChild(el('th', '', h));
     });
     thead.appendChild(headRow);
@@ -1345,7 +1345,7 @@
     table.className = 'results-table';
     var thead = document.createElement('thead');
     var headRow = document.createElement('tr');
-    ['Direction', 'Bets', 'Win Rate', '$100', '2%'].forEach(function (h) {
+    ['Direction', 'Bets', 'Win Rate', 'Flat Return', '2% Return'].forEach(function (h) {
       headRow.appendChild(el('th', '', h));
     });
     thead.appendChild(headRow);
