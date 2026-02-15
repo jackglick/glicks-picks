@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.110084+00:00",
+  "generated_at": "2026-02-15T02:06:45.855591+00:00",
   "date": "2025-05-14",
   "picks": [
     {
@@ -41,26 +41,6 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "Albies, Ozzie",
-      "player_id": 645277,
-      "opponent": "WSH",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -250,
-      "stars": 2,
-      "game_pk": 777929,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 40.0
     },
     {
       "player": "Albies, Ozzie",
@@ -301,6 +281,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 76.34
+    },
+    {
+      "player": "Albies, Ozzie",
+      "player_id": 645277,
+      "opponent": "WSH",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -250,
+      "stars": 1,
+      "game_pk": 777929,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 40.0
     },
     {
       "player": "De La Cruz, Elly",

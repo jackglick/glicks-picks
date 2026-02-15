@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.150663+00:00",
+  "generated_at": "2026-02-15T02:06:45.895519+00:00",
   "date": "2025-07-02",
   "picks": [
     {
@@ -21,26 +21,6 @@
       "result": "win",
       "actual": 12,
       "pnl": 69.44
-    },
-    {
-      "player": "Diaz, Yainer",
-      "player_id": 673237,
-      "opponent": "HOU",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -152,
-      "stars": 2,
-      "game_pk": 777269,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -101,26 +81,6 @@
       "result": "loss",
       "actual": 4,
       "pnl": -100.0
-    },
-    {
-      "player": "Meyers, Jake",
-      "player_id": 676694,
-      "opponent": "HOU",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -167,
-      "stars": 2,
-      "game_pk": 777269,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 59.88
     },
     {
       "player": "Toglia, Michael",
@@ -220,6 +180,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 4,
+      "pnl": -100.0
+    },
+    {
+      "player": "Diaz, Yainer",
+      "player_id": 673237,
+      "opponent": "HOU",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -152,
+      "stars": 1,
+      "game_pk": 777269,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -501,6 +481,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Meyers, Jake",
+      "player_id": 676694,
+      "opponent": "HOU",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -167,
+      "stars": 1,
+      "game_pk": 777269,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 59.88
     },
     {
       "player": "Meyers, Jake",

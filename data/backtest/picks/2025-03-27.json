@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.173256+00:00",
+  "generated_at": "2026-02-15T02:06:44.958576+00:00",
   "date": "2025-03-27",
   "picks": [
     {
@@ -21,26 +21,6 @@
       "result": "win",
       "actual": 4,
       "pnl": 130.0
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "BAL",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -245,
-      "stars": 2,
-      "game_pk": 778556,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 40.82
     },
     {
       "player": "Crochet, Garrett",
@@ -81,6 +61,26 @@
       "result": "win",
       "actual": 5,
       "pnl": 128.0
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "BAL",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "BAL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -245,
+      "stars": 1,
+      "game_pk": 778556,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 40.82
     },
     {
       "player": "Bichette, Bo",

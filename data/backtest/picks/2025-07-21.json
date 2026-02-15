@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.271515+00:00",
+  "generated_at": "2026-02-15T02:06:45.066596+00:00",
   "date": "2025-07-21",
   "picks": [
     {
@@ -41,26 +41,6 @@
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
-    },
-    {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "CIN",
-      "player_team": "WSH",
-      "home_team": "WSH",
-      "away_team": "CIN",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -213,
-      "stars": 2,
-      "game_pk": 777064,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 46.95
     },
     {
       "player": "Edwards, Xavier",
@@ -181,6 +161,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 120.0
+    },
+    {
+      "player": "De La Cruz, Elly",
+      "player_id": 682829,
+      "opponent": "CIN",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "CIN",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -213,
+      "stars": 1,
+      "game_pk": 777064,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 46.95
     },
     {
       "player": "Elder, Bryce",

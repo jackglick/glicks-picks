@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.157204+00:00",
+  "generated_at": "2026-02-15T02:06:45.901784+00:00",
   "date": "2025-07-09",
   "picks": [
     {
@@ -103,26 +103,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Duran, Jarren",
-      "player_id": 680776,
-      "opponent": "COL",
-      "player_team": "BOS",
-      "home_team": "BOS",
-      "away_team": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -163,
-      "stars": 2,
-      "game_pk": 777179,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
       "player": "Edwards, Xavier",
       "player_id": 669364,
       "opponent": "MIA",
@@ -157,6 +137,26 @@
       "best_price": -184,
       "stars": 1,
       "game_pk": 777173,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
+    },
+    {
+      "player": "Duran, Jarren",
+      "player_id": 680776,
+      "opponent": "COL",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -163,
+      "stars": 1,
+      "game_pk": 777179,
       "game_time": null,
       "result": "loss",
       "actual": 2,

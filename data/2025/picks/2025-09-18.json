@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.218025+00:00",
+  "generated_at": "2026-02-15T02:06:45.960137+00:00",
   "date": "2025-09-18",
   "picks": [
     {
@@ -61,26 +61,6 @@
       "result": "win",
       "actual": 0,
       "pnl": 57.14
-    },
-    {
-      "player": "Lopez, Otto",
-      "player_id": 672640,
-      "opponent": "MIA",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -150,
-      "stars": 2,
-      "game_pk": 776270,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 66.67
     },
     {
       "player": "Lopez, Otto",
@@ -357,6 +337,26 @@
       "best_price": -150,
       "stars": 1,
       "game_pk": 776276,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 66.67
+    },
+    {
+      "player": "Lopez, Otto",
+      "player_id": 672640,
+      "opponent": "MIA",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 776270,
       "game_time": null,
       "result": "win",
       "actual": 1,

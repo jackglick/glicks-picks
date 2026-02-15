@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.289083+00:00",
+  "generated_at": "2026-02-15T02:06:45.083420+00:00",
   "date": "2025-08-08",
   "picks": [
     {
@@ -21,26 +21,6 @@
       "result": "win",
       "actual": 16,
       "pnl": 130.0
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -180,
-      "stars": 3,
-      "game_pk": 776834,
-      "game_time": null,
-      "result": "loss",
-      "actual": 3,
-      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -161,6 +141,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 68.97
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -180,
+      "stars": 1,
+      "game_pk": 776834,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Ginn, J.T.",

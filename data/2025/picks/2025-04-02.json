@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.067869+00:00",
+  "generated_at": "2026-02-15T02:06:45.823644+00:00",
   "date": "2025-04-02",
   "picks": [
     {
@@ -61,26 +61,6 @@
       "result": "loss",
       "actual": 15,
       "pnl": -100.0
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "WSH",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -202,
-      "stars": 2,
-      "game_pk": 778478,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 49.5
     },
     {
       "player": "Castillo, Luis",
@@ -221,6 +201,26 @@
       "result": "win",
       "actual": 15,
       "pnl": 135.0
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "WSH",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -202,
+      "stars": 1,
+      "game_pk": 778478,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 49.5
     },
     {
       "player": "Bichette, Bo",

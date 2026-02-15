@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.217124+00:00",
+  "generated_at": "2026-02-15T02:06:45.959228+00:00",
   "date": "2025-09-17",
   "picks": [
     {
@@ -23,26 +23,6 @@
       "pnl": 100.0
     },
     {
-      "player": "Ram\u00edrez, Agust\u00edn",
-      "player_id": 682663,
-      "opponent": "MIA",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -172,
-      "stars": 3,
-      "game_pk": 776277,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 58.14
-    },
-    {
       "player": "Giolito, Lucas",
       "player_id": 608337,
       "opponent": "ATH",
@@ -61,26 +41,6 @@
       "result": "loss",
       "actual": 5,
       "pnl": -100.0
-    },
-    {
-      "player": "Lopez, Otto",
-      "player_id": 672640,
-      "opponent": "MIA",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -161,
-      "stars": 2,
-      "game_pk": 776277,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 62.11
     },
     {
       "player": "P\u00e9rez, Mart\u00edn",
@@ -221,6 +181,26 @@
       "result": "win",
       "actual": 13,
       "pnl": 76.34
+    },
+    {
+      "player": "Lopez, Otto",
+      "player_id": 672640,
+      "opponent": "MIA",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -161,
+      "stars": 1,
+      "game_pk": 776277,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 62.11
     },
     {
       "player": "Lopez, Otto",
@@ -421,6 +401,26 @@
       "result": "win",
       "actual": 5,
       "pnl": 110.0
+    },
+    {
+      "player": "Ram\u00edrez, Agust\u00edn",
+      "player_id": 682663,
+      "opponent": "MIA",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -172,
+      "stars": 1,
+      "game_pk": 776277,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 58.14
     },
     {
       "player": "Ram\u00edrez, Agust\u00edn",

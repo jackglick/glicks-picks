@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.179514+00:00",
+  "generated_at": "2026-02-15T02:06:44.964615+00:00",
   "date": "2025-04-05",
   "picks": [
     {
@@ -120,26 +120,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0
-    },
-    {
-      "player": "Rosario, Amed",
-      "player_id": 642708,
-      "opponent": "AZ",
-      "player_team": "WSH",
-      "home_team": "WSH",
-      "away_team": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -220,
-      "stars": 2,
-      "game_pk": 778452,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -421,6 +401,26 @@
       "result": "win",
       "actual": 8,
       "pnl": 120.0
+    },
+    {
+      "player": "Rosario, Amed",
+      "player_id": 642708,
+      "opponent": "AZ",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "AZ",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -220,
+      "stars": 1,
+      "game_pk": 778452,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Smith-Shawver, AJ",

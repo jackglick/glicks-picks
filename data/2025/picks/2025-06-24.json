@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.143247+00:00",
+  "generated_at": "2026-02-15T02:06:45.888026+00:00",
   "date": "2025-06-24",
   "picks": [
     {
@@ -61,26 +61,6 @@
       "result": "win",
       "actual": 15,
       "pnl": 120.0
-    },
-    {
-      "player": "Duran, Jarren",
-      "player_id": 680776,
-      "opponent": "BOS",
-      "player_team": "LAA",
-      "home_team": "LAA",
-      "away_team": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -191,
-      "stars": 2,
-      "game_pk": 777376,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 52.36
     },
     {
       "player": "Lauer, Eric",
@@ -201,6 +181,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Duran, Jarren",
+      "player_id": 680776,
+      "opponent": "BOS",
+      "player_team": "LAA",
+      "home_team": "LAA",
+      "away_team": "BOS",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -191,
+      "stars": 1,
+      "game_pk": 777376,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 52.36
     },
     {
       "player": "Duran, Jarren",

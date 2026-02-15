@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.303290+00:00",
+  "generated_at": "2026-02-15T02:06:45.113917+00:00",
   "date": "2025-08-22",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "win",
       "actual": 6,
       "pnl": 90.91
-    },
-    {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "COL",
-      "player_team": "PIT",
-      "home_team": "PIT",
-      "away_team": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -204,
-      "stars": 2,
-      "game_pk": 776637,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 49.02
     },
     {
       "player": "Bieber, Shane",
@@ -281,6 +261,26 @@
       "result": "loss",
       "actual": 1,
       "pnl": -100.0
+    },
+    {
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "COL",
+      "player_team": "PIT",
+      "home_team": "PIT",
+      "away_team": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -204,
+      "stars": 1,
+      "game_pk": 776637,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 49.02
     },
     {
       "player": "Senzatela, Antonio",

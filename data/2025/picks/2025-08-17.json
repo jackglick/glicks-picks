@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.190964+00:00",
+  "generated_at": "2026-02-15T02:06:45.934265+00:00",
   "date": "2025-08-17",
   "picks": [
     {
@@ -63,26 +63,6 @@
       "pnl": 64.52
     },
     {
-      "player": "Carroll, Corbin",
-      "player_id": 682998,
-      "opponent": "AZ",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -165,
-      "stars": 2,
-      "game_pk": 776701,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
       "player": "Darvish, Yu",
       "player_id": 506433,
       "opponent": "LAD",
@@ -101,26 +81,6 @@
       "result": "win",
       "actual": 12,
       "pnl": 130.0
-    },
-    {
-      "player": "Freeman, Tyler",
-      "player_id": 671289,
-      "opponent": "AZ",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -170,
-      "stars": 2,
-      "game_pk": 776701,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 58.82
     },
     {
       "player": "Freeman, Tyler",
@@ -180,26 +140,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0
-    },
-    {
-      "player": "Locklear, Tyler",
-      "player_id": 682988,
-      "opponent": "AZ",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "AZ",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -210,
-      "stars": 2,
-      "game_pk": 776701,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -403,6 +343,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Carroll, Corbin",
+      "player_id": 682998,
+      "opponent": "AZ",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "AZ",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 776701,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
+    },
+    {
       "player": "Castellanos, Nick",
       "player_id": 592206,
       "opponent": "PHI",
@@ -483,6 +443,26 @@
       "pnl": 64.94
     },
     {
+      "player": "Freeman, Tyler",
+      "player_id": 671289,
+      "opponent": "AZ",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "AZ",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -170,
+      "stars": 1,
+      "game_pk": 776701,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 58.82
+    },
+    {
       "player": "Glasnow, Tyler",
       "player_id": 607192,
       "opponent": "SD",
@@ -560,6 +540,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 4,
+      "pnl": -100.0
+    },
+    {
+      "player": "Locklear, Tyler",
+      "player_id": 682988,
+      "opponent": "AZ",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "AZ",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -210,
+      "stars": 1,
+      "game_pk": 776701,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
       "pnl": -100.0
     },
     {

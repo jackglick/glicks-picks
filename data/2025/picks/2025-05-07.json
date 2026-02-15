@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.104048+00:00",
+  "generated_at": "2026-02-15T02:06:45.849961+00:00",
   "date": "2025-05-07",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "win",
       "actual": 15,
       "pnl": 90.91
-    },
-    {
-      "player": "Rosario, Amed",
-      "player_id": 642708,
-      "opponent": "CLE",
-      "player_team": "WSH",
-      "home_team": "WSH",
-      "away_team": "CLE",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -202,
-      "stars": 2,
-      "game_pk": 778022,
-      "game_time": null,
-      "result": "loss",
-      "actual": 3,
-      "pnl": -100.0
     },
     {
       "player": "S\u00e1nchez, Cristopher",
@@ -240,6 +220,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Rosario, Amed",
+      "player_id": 642708,
+      "opponent": "CLE",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "CLE",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -202,
+      "stars": 1,
+      "game_pk": 778022,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
       "pnl": -100.0
     },
     {

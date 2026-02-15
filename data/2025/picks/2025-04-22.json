@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.091298+00:00",
+  "generated_at": "2026-02-15T02:06:45.838559+00:00",
   "date": "2025-04-22",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "loss",
       "actual": 24,
       "pnl": -100.0
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "SEA",
-      "player_team": "BOS",
-      "home_team": "BOS",
-      "away_team": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -200,
-      "stars": 2,
-      "game_pk": 778224,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 50.0
     },
     {
       "player": "S\u00e1nchez, Cristopher",
@@ -321,6 +301,26 @@
       "result": "loss",
       "actual": 1,
       "pnl": -100.0
+    },
+    {
+      "player": "Rodr\u00edguez, Julio",
+      "player_id": 677594,
+      "opponent": "SEA",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "SEA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -200,
+      "stars": 1,
+      "game_pk": 778224,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 50.0
     },
     {
       "player": "Ruiz, Keibert",

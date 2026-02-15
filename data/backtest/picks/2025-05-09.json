@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.207527+00:00",
+  "generated_at": "2026-02-15T02:06:44.991772+00:00",
   "date": "2025-05-09",
   "picks": [
     {
@@ -41,26 +41,6 @@
       "result": "win",
       "actual": 0,
       "pnl": 68.97
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "CWS",
-      "home_team": "CWS",
-      "away_team": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -210,
-      "stars": 2,
-      "game_pk": 777991,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 47.62
     },
     {
       "player": "Elder, Bryce",
@@ -163,24 +143,24 @@
       "pnl": 95.24
     },
     {
-      "player": "Witt, Bobby",
-      "player_id": 677951,
-      "opponent": "BOS",
-      "player_team": "KC",
-      "home_team": "KC",
-      "away_team": "BOS",
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "MIA",
+      "player_team": "CWS",
+      "home_team": "CWS",
+      "away_team": "MIA",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "consensus",
-      "best_price": -153,
-      "stars": 2,
-      "game_pk": 777990,
+      "best_price": -210,
+      "stars": 1,
+      "game_pk": 777991,
       "game_time": null,
       "result": "win",
-      "actual": 0,
-      "pnl": 65.36
+      "actual": 1,
+      "pnl": 47.62
     },
     {
       "player": "Fedde, Erick",
@@ -321,6 +301,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 115.0
+    },
+    {
+      "player": "Witt, Bobby",
+      "player_id": 677951,
+      "opponent": "BOS",
+      "player_team": "KC",
+      "home_team": "KC",
+      "away_team": "BOS",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -153,
+      "stars": 1,
+      "game_pk": 777990,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 65.36
     }
   ]
 }

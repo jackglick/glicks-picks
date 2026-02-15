@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.206438+00:00",
+  "generated_at": "2026-02-15T02:06:45.948701+00:00",
   "date": "2025-09-03",
   "picks": [
     {
@@ -23,26 +23,6 @@
       "pnl": 112.0
     },
     {
-      "player": "Adames, Willy",
-      "player_id": 642715,
-      "opponent": "SF",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -196,
-      "stars": 2,
-      "game_pk": 776467,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 51.02
-    },
-    {
       "player": "Bailey, Patrick",
       "player_id": 672275,
       "opponent": "SF",
@@ -61,26 +41,6 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
-    },
-    {
-      "player": "Devers, Rafael",
-      "player_id": 646240,
-      "opponent": "SF",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -167,
-      "stars": 2,
-      "game_pk": 776467,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 59.88
     },
     {
       "player": "Edwards, Xavier",
@@ -163,26 +123,6 @@
       "pnl": 100.0
     },
     {
-      "player": "Ramos, Heliot",
-      "player_id": 671218,
-      "opponent": "SF",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "SF",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -154,
-      "stars": 2,
-      "game_pk": 776467,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "CLE",
@@ -201,6 +141,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 80.0
+    },
+    {
+      "player": "Adames, Willy",
+      "player_id": 642715,
+      "opponent": "SF",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "SF",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -196,
+      "stars": 1,
+      "game_pk": 776467,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 51.02
     },
     {
       "player": "Adames, Willy",
@@ -321,6 +281,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 58.82
+    },
+    {
+      "player": "Devers, Rafael",
+      "player_id": 646240,
+      "opponent": "SF",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "SF",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -167,
+      "stars": 1,
+      "game_pk": 776467,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 59.88
     },
     {
       "player": "Elder, Bryce",
@@ -541,6 +521,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 55.56
+    },
+    {
+      "player": "Ramos, Heliot",
+      "player_id": 671218,
+      "opponent": "SF",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "SF",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -154,
+      "stars": 1,
+      "game_pk": 776467,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Ramos, Heliot",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.180422+00:00",
+  "generated_at": "2026-02-15T02:06:44.965471+00:00",
   "date": "2025-04-06",
   "picks": [
     {
@@ -41,26 +41,6 @@
       "result": "win",
       "actual": 4,
       "pnl": 100.0
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "TOR",
-      "player_team": "NYM",
-      "home_team": "NYM",
-      "away_team": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -204,
-      "stars": 2,
-      "game_pk": 778435,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 49.02
     },
     {
       "player": "Bubic, Kris",
@@ -201,6 +181,26 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -204,
+      "stars": 1,
+      "game_pk": 778435,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 49.02
     },
     {
       "player": "Bichette, Bo",

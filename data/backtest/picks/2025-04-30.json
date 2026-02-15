@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.200043+00:00",
+  "generated_at": "2026-02-15T02:06:44.984444+00:00",
   "date": "2025-04-30",
   "picks": [
     {
@@ -143,26 +143,6 @@
       "pnl": 84.03
     },
     {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "BOS",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "BOS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -197,
-      "stars": 2,
-      "game_pk": 778114,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
       "player": "Burnes, Corbin",
       "player_id": 669203,
       "opponent": "NYM",
@@ -223,24 +203,24 @@
       "pnl": 120.0
     },
     {
-      "player": "Riley, Austin",
-      "player_id": 663586,
-      "opponent": "ATL",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "ATL",
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "BOS",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "BOS",
       "market": "Hits",
       "category": "batter",
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "consensus",
-      "best_price": -168,
-      "stars": 2,
-      "game_pk": 778102,
+      "best_price": -197,
+      "stars": 1,
+      "game_pk": 778114,
       "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 59.52
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Bichette, Bo",
@@ -401,6 +381,26 @@
       "result": "loss",
       "actual": 3,
       "pnl": -100.0
+    },
+    {
+      "player": "Riley, Austin",
+      "player_id": 663586,
+      "opponent": "ATL",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "ATL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -168,
+      "stars": 1,
+      "game_pk": 778102,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 59.52
     },
     {
       "player": "Rutschman, Adley",

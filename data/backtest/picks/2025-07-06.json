@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.260042+00:00",
+  "generated_at": "2026-02-15T02:06:45.055048+00:00",
   "date": "2025-07-06",
   "picks": [
     {
@@ -21,26 +21,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 78.74
-    },
-    {
-      "player": "Baldwin, Brooks",
-      "player_id": 681460,
-      "opponent": "CWS",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "CWS",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -228,
-      "stars": 2,
-      "game_pk": 777215,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 43.86
     },
     {
       "player": "Crochet, Garrett",
@@ -181,6 +161,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 54.95
+    },
+    {
+      "player": "Baldwin, Brooks",
+      "player_id": 681460,
+      "opponent": "CWS",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "CWS",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -228,
+      "stars": 1,
+      "game_pk": 777215,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 43.86
     },
     {
       "player": "Cabrera, Edward",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.233300+00:00",
+  "generated_at": "2026-02-15T02:06:45.026888+00:00",
   "date": "2025-06-08",
   "picks": [
     {
@@ -161,26 +161,6 @@
       "result": "win",
       "actual": 17,
       "pnl": 100.0
-    },
-    {
-      "player": "Lindor, Francisco",
-      "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "NYM",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -164,
-      "stars": 2,
-      "game_pk": 777583,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 60.98
     },
     {
       "player": "Megill, Tylor",
@@ -401,6 +381,26 @@
       "result": "loss",
       "actual": 6,
       "pnl": -100.0
+    },
+    {
+      "player": "Lindor, Francisco",
+      "player_id": 596019,
+      "opponent": "NYM",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "NYM",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -164,
+      "stars": 1,
+      "game_pk": 777583,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 60.98
     },
     {
       "player": "Lopez, Jacob",

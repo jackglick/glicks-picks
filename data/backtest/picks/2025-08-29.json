@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.308730+00:00",
+  "generated_at": "2026-02-15T02:06:45.119057+00:00",
   "date": "2025-08-29",
   "picks": [
     {
@@ -61,26 +61,6 @@
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
-    },
-    {
-      "player": "Simpson, Chandler",
-      "player_id": 802415,
-      "opponent": "TB",
-      "player_team": "WSH",
-      "home_team": "WSH",
-      "away_team": "TB",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -178,
-      "stars": 2,
-      "game_pk": 776545,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 56.18
     },
     {
       "player": "Albies, Ozzie",
@@ -181,6 +161,26 @@
       "result": "loss",
       "actual": 3,
       "pnl": -100.0
+    },
+    {
+      "player": "Simpson, Chandler",
+      "player_id": 802415,
+      "opponent": "TB",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "TB",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -178,
+      "stars": 1,
+      "game_pk": 776545,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 56.18
     },
     {
       "player": "Simpson, Chandler",

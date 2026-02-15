@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.174732+00:00",
+  "generated_at": "2026-02-15T02:06:45.918581+00:00",
   "date": "2025-07-30",
   "picks": [
     {
@@ -221,26 +221,6 @@
       "result": "loss",
       "actual": 3,
       "pnl": -100.0
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "SEA",
-      "player_team": "ATH",
-      "home_team": "ATH",
-      "away_team": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -182,
-      "stars": 2,
-      "game_pk": 776930,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 54.95
     },
     {
       "player": "Rutschman, Adley",
@@ -721,6 +701,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Rodr\u00edguez, Julio",
+      "player_id": 677594,
+      "opponent": "SEA",
+      "player_team": "ATH",
+      "home_team": "ATH",
+      "away_team": "SEA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -182,
+      "stars": 1,
+      "game_pk": 776930,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 54.95
     }
   ]
 }

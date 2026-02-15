@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.176120+00:00",
+  "generated_at": "2026-02-15T02:06:45.919915+00:00",
   "date": "2025-08-01",
   "picks": [
     {
@@ -61,26 +61,6 @@
       "result": "win",
       "actual": 17,
       "pnl": 140.0
-    },
-    {
-      "player": "Betts, Mookie",
-      "player_id": 605141,
-      "opponent": "LAD",
-      "player_team": "TB",
-      "home_team": "TB",
-      "away_team": "LAD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -218,
-      "stars": 2,
-      "game_pk": 776918,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 45.87
     },
     {
       "player": "Edwards, Xavier",
@@ -201,6 +181,26 @@
       "result": "loss",
       "actual": 5,
       "pnl": -100.0
+    },
+    {
+      "player": "Betts, Mookie",
+      "player_id": 605141,
+      "opponent": "LAD",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "LAD",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -218,
+      "stars": 1,
+      "game_pk": 776918,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 45.87
     },
     {
       "player": "Betts, Mookie",

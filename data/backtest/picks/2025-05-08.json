@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.206806+00:00",
+  "generated_at": "2026-02-15T02:06:44.990997+00:00",
   "date": "2025-05-08",
   "picks": [
     {
@@ -83,26 +83,6 @@
       "pnl": 83.33
     },
     {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "TOR",
-      "player_team": "LAA",
-      "home_team": "LAA",
-      "away_team": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -189,
-      "stars": 2,
-      "game_pk": 778000,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 52.91
-    },
-    {
       "player": "Ib\u00e1\u00f1ez, Andy",
       "player_id": 628451,
       "opponent": "DET",
@@ -181,6 +161,26 @@
       "result": "win",
       "actual": 16,
       "pnl": 120.0
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "player_team": "LAA",
+      "home_team": "LAA",
+      "away_team": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -189,
+      "stars": 1,
+      "game_pk": 778000,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 52.91
     },
     {
       "player": "Bichette, Bo",

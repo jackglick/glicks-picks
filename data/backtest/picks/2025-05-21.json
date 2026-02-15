@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.218372+00:00",
+  "generated_at": "2026-02-15T02:06:45.006798+00:00",
   "date": "2025-05-21",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "win",
       "actual": 14,
       "pnl": 140.0
-    },
-    {
-      "player": "Castellanos, Nick",
-      "player_id": 592206,
-      "opponent": "PHI",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -165,
-      "stars": 2,
-      "game_pk": 777823,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -243,8 +223,8 @@
       "pnl": 59.88
     },
     {
-      "player": "Turner, Trea",
-      "player_id": 607208,
+      "player": "Castellanos, Nick",
+      "player_id": 592206,
       "opponent": "PHI",
       "player_team": "COL",
       "home_team": "COL",
@@ -254,8 +234,8 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "consensus",
-      "best_price": -160,
-      "stars": 2,
+      "best_price": -165,
+      "stars": 1,
       "game_pk": 777823,
       "game_time": null,
       "result": "loss",
@@ -461,6 +441,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 64.52
+    },
+    {
+      "player": "Turner, Trea",
+      "player_id": 607208,
+      "opponent": "PHI",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "PHI",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777823,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Yarbrough, Ryan",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.335813+00:00",
+  "generated_at": "2026-02-15T02:06:45.144577+00:00",
   "summary": {
     "total_bets": 5670,
     "wins": 3201,
@@ -43,6 +43,7 @@
       "win_rate": 64.1,
       "pnl": 330.21,
       "roi": 1.7,
+      "bankroll_pct": 6.6,
       "ci_win_rate": [
         56.3,
         72.0
@@ -62,6 +63,7 @@
       "win_rate": 60.6,
       "pnl": 2628.2,
       "roi": 1.4,
+      "bankroll_pct": 52.6,
       "ci_win_rate": [
         58.2,
         63.0
@@ -81,6 +83,7 @@
       "win_rate": 57.0,
       "pnl": 3435.17,
       "roi": 11.5,
+      "bankroll_pct": 68.7,
       "ci_win_rate": [
         51.3,
         62.8
@@ -100,6 +103,7 @@
       "win_rate": 55.9,
       "pnl": 1932.92,
       "roi": 12.0,
+      "bankroll_pct": 38.7,
       "ci_win_rate": [
         47.8,
         63.4
@@ -119,6 +123,7 @@
       "win_rate": 52.8,
       "pnl": 20505.56,
       "roi": 8.9,
+      "bankroll_pct": 410.1,
       "ci_win_rate": [
         50.7,
         54.9
@@ -138,6 +143,7 @@
       "win_rate": 55.4,
       "pnl": 5410.09,
       "roi": 10.9,
+      "bankroll_pct": 108.2,
       "ci_win_rate": [
         51.1,
         59.8
@@ -157,6 +163,7 @@
       "win_rate": 54.9,
       "pnl": 3917.61,
       "roi": 12.0,
+      "bankroll_pct": 78.4,
       "ci_win_rate": [
         49.5,
         60.4
@@ -170,33 +177,36 @@
   "star_tier_stats": [
     {
       "stars": 1,
-      "bets": 3280,
-      "wins": 1881,
-      "losses": 1399,
+      "bets": 3457,
+      "wins": 1995,
+      "losses": 1462,
       "pushes": 0,
-      "win_rate": 57.3,
-      "pnl": 18495.03,
-      "roi": 5.6
+      "win_rate": 57.7,
+      "pnl": 18821.87,
+      "roi": 5.4,
+      "bankroll_pct": 376.4
     },
     {
       "stars": 2,
-      "bets": 1577,
-      "wins": 884,
-      "losses": 693,
+      "bets": 1433,
+      "wins": 786,
+      "losses": 647,
       "pushes": 0,
-      "win_rate": 56.1,
-      "pnl": 10659.26,
-      "roi": 6.8
+      "win_rate": 54.8,
+      "pnl": 9787.02,
+      "roi": 6.8,
+      "bankroll_pct": 195.7
     },
     {
       "stars": 3,
-      "bets": 813,
-      "wins": 436,
-      "losses": 377,
+      "bets": 780,
+      "wins": 420,
+      "losses": 360,
       "pushes": 0,
-      "win_rate": 53.6,
-      "pnl": 9005.47,
-      "roi": 11.1
+      "win_rate": 53.8,
+      "pnl": 9550.87,
+      "roi": 12.2,
+      "bankroll_pct": 191.0
     }
   ],
   "direction_stats": [
@@ -208,7 +218,8 @@
       "pushes": 0,
       "win_rate": 53.0,
       "pnl": 3312.93,
-      "roi": 9.1
+      "roi": 9.1,
+      "bankroll_pct": 66.3
     },
     {
       "direction": "UNDER",
@@ -218,7 +229,8 @@
       "pushes": 0,
       "win_rate": 56.7,
       "pnl": 34846.83,
-      "roi": 6.6
+      "roi": 6.6,
+      "bankroll_pct": 696.9
     }
   ],
   "player_attention": {
@@ -903,7 +915,7 @@
       "actual": 1,
       "result": "win",
       "pnl": 46.95,
-      "stars": 2
+      "stars": 1
     },
     {
       "date": "2025-09-27",

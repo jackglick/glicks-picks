@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.312910+00:00",
+  "generated_at": "2026-02-15T02:06:45.123020+00:00",
   "date": "2025-09-02",
   "picks": [
     {
@@ -61,26 +61,6 @@
       "result": "win",
       "actual": 0,
       "pnl": 70.92
-    },
-    {
-      "player": "Marte, Ketel",
-      "player_id": 606466,
-      "opponent": "TEX",
-      "player_team": "AZ",
-      "home_team": "AZ",
-      "away_team": "TEX",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -179,
-      "stars": 2,
-      "game_pk": 776481,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
     },
     {
       "player": "Marte, Ketel",
@@ -281,6 +261,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 50.0
+    },
+    {
+      "player": "Marte, Ketel",
+      "player_id": 606466,
+      "opponent": "TEX",
+      "player_team": "AZ",
+      "home_team": "AZ",
+      "away_team": "TEX",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -179,
+      "stars": 1,
+      "game_pk": 776481,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Mart\u00ednez, Angel",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.194991+00:00",
+  "generated_at": "2026-02-15T02:06:45.937956+00:00",
   "date": "2025-08-21",
   "picks": [
     {
@@ -40,26 +40,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 15,
-      "pnl": -100.0
-    },
-    {
-      "player": "Betts, Mookie",
-      "player_id": 605141,
-      "opponent": "LAD",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "LAD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -145,
-      "stars": 2,
-      "game_pk": 776644,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -123,26 +103,6 @@
       "pnl": 78.74
     },
     {
-      "player": "Freeman, Freddie",
-      "player_id": 518692,
-      "opponent": "LAD",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "LAD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -135,
-      "stars": 2,
-      "game_pk": 776644,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
       "player": "Imanaga, Shota",
       "player_id": 684007,
       "opponent": "MIL",
@@ -203,8 +163,8 @@
       "pnl": -100.0
     },
     {
-      "player": "Smith, Will",
-      "player_id": 669257,
+      "player": "Betts, Mookie",
+      "player_id": 605141,
       "opponent": "LAD",
       "player_team": "COL",
       "home_team": "COL",
@@ -214,13 +174,13 @@
       "direction": "UNDER",
       "line": 1.5,
       "best_book": "consensus",
-      "best_price": -159,
-      "stars": 2,
+      "best_price": -145,
+      "stars": 1,
       "game_pk": 776644,
       "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 62.89
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Cease, Dylan",
@@ -280,6 +240,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 6,
+      "pnl": -100.0
+    },
+    {
+      "player": "Freeman, Freddie",
+      "player_id": 518692,
+      "opponent": "LAD",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "LAD",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -135,
+      "stars": 1,
+      "game_pk": 776644,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -461,6 +441,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 58.48
+    },
+    {
+      "player": "Smith, Will",
+      "player_id": 669257,
+      "opponent": "LAD",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "LAD",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -159,
+      "stars": 1,
+      "game_pk": 776644,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 62.89
     },
     {
       "player": "Smith, Will",

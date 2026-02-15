@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.265840+00:00",
+  "generated_at": "2026-02-15T02:06:45.060733+00:00",
   "date": "2025-07-12",
   "picks": [
     {
@@ -123,26 +123,6 @@
       "pnl": 54.35
     },
     {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "COL",
-      "player_team": "CIN",
-      "home_team": "CIN",
-      "away_team": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -200,
-      "stars": 2,
-      "game_pk": 777140,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
       "player": "Edwards, Xavier",
       "player_id": 669364,
       "opponent": "MIA",
@@ -181,26 +161,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 77.52
-    },
-    {
-      "player": "Lukes, Nathan",
-      "player_id": 664770,
-      "opponent": "TOR",
-      "player_team": "ATH",
-      "home_team": "ATH",
-      "away_team": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -190,
-      "stars": 2,
-      "game_pk": 777132,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 52.63
     },
     {
       "player": "Marte, Ketel",
@@ -403,6 +363,26 @@
       "pnl": 80.0
     },
     {
+      "player": "De La Cruz, Elly",
+      "player_id": 682829,
+      "opponent": "COL",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -200,
+      "stars": 1,
+      "game_pk": 777140,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
+    },
+    {
       "player": "Grichuk, Randal",
       "player_id": 545341,
       "opponent": "AZ",
@@ -481,6 +461,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Lukes, Nathan",
+      "player_id": 664770,
+      "opponent": "TOR",
+      "player_team": "ATH",
+      "home_team": "ATH",
+      "away_team": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -190,
+      "stars": 1,
+      "game_pk": 777132,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 52.63
     },
     {
       "player": "Lukes, Nathan",

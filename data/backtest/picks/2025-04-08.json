@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.181915+00:00",
+  "generated_at": "2026-02-15T02:06:44.966780+00:00",
   "date": "2025-04-08",
   "picks": [
     {
@@ -61,26 +61,6 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "D\u00edaz, Yandy",
-      "player_id": 650490,
-      "opponent": "LAA",
-      "player_team": "TB",
-      "home_team": "TB",
-      "away_team": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -210,
-      "stars": 2,
-      "game_pk": 778417,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 47.62
     },
     {
       "player": "Gray, Sonny",
@@ -181,6 +161,26 @@
       "result": "loss",
       "actual": 4,
       "pnl": -100.0
+    },
+    {
+      "player": "D\u00edaz, Yandy",
+      "player_id": 650490,
+      "opponent": "LAA",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "LAA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -210,
+      "stars": 1,
+      "game_pk": 778417,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 47.62
     },
     {
       "player": "D\u00edaz, Yandy",

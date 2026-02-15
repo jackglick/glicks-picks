@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-02-15T01:38:43.100093+00:00",
+  "generated_at": "2026-02-15T02:06:45.846244+00:00",
   "date": "2025-05-02",
   "picks": [
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "CLE",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "CLE",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -165,
-      "stars": 3,
-      "game_pk": 778081,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 60.61
-    },
     {
       "player": "Marte, Ketel",
       "player_id": 606466,
@@ -181,6 +161,26 @@
       "result": "win",
       "actual": 16,
       "pnl": 120.0
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "CLE",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "CLE",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 778081,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 60.61
     },
     {
       "player": "Bichette, Bo",

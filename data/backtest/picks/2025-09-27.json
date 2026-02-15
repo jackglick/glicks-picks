@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.334244+00:00",
+  "generated_at": "2026-02-15T02:06:45.143066+00:00",
   "date": "2025-09-27",
   "picks": [
     {
@@ -63,26 +63,6 @@
       "pnl": 135.0
     },
     {
-      "player": "Diaz, Yainer",
-      "player_id": 673237,
-      "opponent": "HOU",
-      "player_team": "LAA",
-      "home_team": "LAA",
-      "away_team": "HOU",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -213,
-      "stars": 2,
-      "game_pk": 776155,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 46.95
-    },
-    {
       "player": "Edwards, Xavier",
       "player_id": 669364,
       "opponent": "NYM",
@@ -121,26 +101,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 68.03
-    },
-    {
-      "player": "Hoerner, Nico",
-      "player_id": 663538,
-      "opponent": "STL",
-      "player_team": "CHC",
-      "home_team": "CHC",
-      "away_team": "STL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -182,
-      "stars": 2,
-      "game_pk": 776164,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 54.95
     },
     {
       "player": "Mart\u00ednez, Angel",
@@ -221,6 +181,46 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Diaz, Yainer",
+      "player_id": 673237,
+      "opponent": "HOU",
+      "player_team": "LAA",
+      "home_team": "LAA",
+      "away_team": "HOU",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -213,
+      "stars": 1,
+      "game_pk": 776155,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 46.95
+    },
+    {
+      "player": "Hoerner, Nico",
+      "player_id": 663538,
+      "opponent": "STL",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "STL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -182,
+      "stars": 1,
+      "game_pk": 776164,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 54.95
     },
     {
       "player": "Lindor, Francisco",

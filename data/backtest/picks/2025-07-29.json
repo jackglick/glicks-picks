@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.279720+00:00",
+  "generated_at": "2026-02-15T02:06:45.074637+00:00",
   "date": "2025-07-29",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
-    },
-    {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "TOR",
-      "player_team": "BAL",
-      "home_team": "BAL",
-      "away_team": "TOR",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -165,
-      "stars": 2,
-      "game_pk": 778372,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 60.61
     },
     {
       "player": "Edwards, Xavier",
@@ -261,6 +241,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "TOR",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 778372,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 60.61
     },
     {
       "player": "De La Cruz, Elly",

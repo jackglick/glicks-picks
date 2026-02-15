@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.315254+00:00",
+  "generated_at": "2026-02-15T02:06:45.125266+00:00",
   "date": "2025-09-05",
   "picks": [
     {
@@ -80,26 +80,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 4,
-      "pnl": -100.0
-    },
-    {
-      "player": "Hoerner, Nico",
-      "player_id": 663538,
-      "opponent": "WSH",
-      "player_team": "CHC",
-      "home_team": "CHC",
-      "away_team": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -165,
-      "stars": 2,
-      "game_pk": 776455,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -201,6 +181,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 55.56
+    },
+    {
+      "player": "Hoerner, Nico",
+      "player_id": 663538,
+      "opponent": "WSH",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 776455,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Hoerner, Nico",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.086866+00:00",
+  "generated_at": "2026-02-15T02:06:45.834143+00:00",
   "date": "2025-04-17",
   "picks": [
     {
@@ -81,26 +81,6 @@
       "result": "loss",
       "actual": 22,
       "pnl": -100.0
-    },
-    {
-      "player": "Rengifo, Luis",
-      "player_id": 650859,
-      "opponent": "LAA",
-      "player_team": "TEX",
-      "home_team": "TEX",
-      "away_team": "LAA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -196,
-      "stars": 2,
-      "game_pk": 778281,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 51.02
     },
     {
       "player": "Rengifo, Luis",
@@ -241,6 +221,26 @@
       "result": "loss",
       "actual": 17,
       "pnl": -100.0
+    },
+    {
+      "player": "Rengifo, Luis",
+      "player_id": 650859,
+      "opponent": "LAA",
+      "player_team": "TEX",
+      "home_team": "TEX",
+      "away_team": "LAA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -196,
+      "stars": 1,
+      "game_pk": 778281,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 51.02
     },
     {
       "player": "Reynolds, Bryan",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.174562+00:00",
+  "generated_at": "2026-02-15T02:06:44.959877+00:00",
   "date": "2025-03-29",
   "picks": [
     {
@@ -23,26 +23,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Bichette, Bo",
-      "player_id": 666182,
-      "opponent": "BAL",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "BAL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -247,
-      "stars": 2,
-      "game_pk": 778536,
-      "game_time": null,
-      "result": "loss",
-      "actual": 4,
-      "pnl": -100.0
-    },
-    {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
       "opponent": "PIT",
@@ -60,6 +40,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 2,
+      "pnl": -100.0
+    },
+    {
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "BAL",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "BAL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -247,
+      "stars": 1,
+      "game_pk": 778536,
+      "game_time": null,
+      "result": "loss",
+      "actual": 4,
       "pnl": -100.0
     },
     {

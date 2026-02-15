@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.211303+00:00",
+  "generated_at": "2026-02-15T02:06:45.953503+00:00",
   "date": "2025-09-09",
   "picks": [
     {
@@ -123,26 +123,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "WSH",
-      "player_team": "MIA",
-      "home_team": "MIA",
-      "away_team": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -189,
-      "stars": 2,
-      "game_pk": 776397,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 52.91
-    },
-    {
       "player": "Manaea, Sean",
       "player_id": 640455,
       "opponent": "PHI",
@@ -241,6 +221,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 52.63
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "WSH",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -189,
+      "stars": 1,
+      "game_pk": 776397,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 52.91
     },
     {
       "player": "Houser, Adrian",

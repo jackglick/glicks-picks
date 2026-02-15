@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.248712+00:00",
+  "generated_at": "2026-02-15T02:06:45.043207+00:00",
   "date": "2025-06-25",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
-    },
-    {
-      "player": "Freeman, Freddie",
-      "player_id": 518692,
-      "opponent": "LAD",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "LAD",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -165,
-      "stars": 2,
-      "game_pk": 777358,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 60.61
     },
     {
       "player": "Gore, MacKenzie",
@@ -321,6 +301,26 @@
       "result": "win",
       "actual": 17,
       "pnl": 105.0
+    },
+    {
+      "player": "Freeman, Freddie",
+      "player_id": 518692,
+      "opponent": "LAD",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "LAD",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 777358,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 60.61
     },
     {
       "player": "Freeman, Freddie",

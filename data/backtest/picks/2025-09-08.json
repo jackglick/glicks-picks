@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.318384+00:00",
+  "generated_at": "2026-02-15T02:06:45.128167+00:00",
   "date": "2025-09-08",
   "picks": [
     {
@@ -69,26 +69,6 @@
       "player_team": "MIA",
       "home_team": "MIA",
       "away_team": "WSH",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -220,
-      "stars": 2,
-      "game_pk": 776409,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 45.45
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "WSH",
-      "player_team": "MIA",
-      "home_team": "MIA",
-      "away_team": "WSH",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
@@ -101,6 +81,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 70.92
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "WSH",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "WSH",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -220,
+      "stars": 1,
+      "game_pk": 776409,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 45.45
     },
     {
       "player": "Elder, Bryce",

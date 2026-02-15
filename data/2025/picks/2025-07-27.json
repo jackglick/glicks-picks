@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.171688+00:00",
+  "generated_at": "2026-02-15T02:06:45.915701+00:00",
   "date": "2025-07-27",
   "picks": [
     {
@@ -201,26 +201,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 84.75
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "SEA",
-      "player_team": "LAA",
-      "home_team": "LAA",
-      "away_team": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -220,
-      "stars": 2,
-      "game_pk": 776977,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 45.45
     },
     {
       "player": "Baz, Shane",
@@ -501,6 +481,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Rodr\u00edguez, Julio",
+      "player_id": 677594,
+      "opponent": "SEA",
+      "player_team": "LAA",
+      "home_team": "LAA",
+      "away_team": "SEA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -220,
+      "stars": 1,
+      "game_pk": 776977,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 45.45
     },
     {
       "player": "Santana, Carlos",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.284741+00:00",
+  "generated_at": "2026-02-15T02:06:45.079479+00:00",
   "date": "2025-08-03",
   "picks": [
     {
@@ -161,26 +161,6 @@
       "result": "loss",
       "actual": 4,
       "pnl": -100.0
-    },
-    {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "PIT",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -168,
-      "stars": 2,
-      "game_pk": 776886,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 59.52
     },
     {
       "player": "Yamamoto, Yoshinobu",
@@ -441,6 +421,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 64.52
+    },
+    {
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "PIT",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "PIT",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -168,
+      "stars": 1,
+      "game_pk": 776886,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 59.52
     },
     {
       "player": "Rutschman, Adley",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.077365+00:00",
+  "generated_at": "2026-02-15T02:06:45.829148+00:00",
   "date": "2025-04-10",
   "picks": [
     {
@@ -41,26 +41,6 @@
       "result": "win",
       "actual": 17,
       "pnl": 110.0
-    },
-    {
-      "player": "Chourio, Jackson",
-      "player_id": 694192,
-      "opponent": "MIL",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "MIL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -160,
-      "stars": 2,
-      "game_pk": 778371,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 62.5
     },
     {
       "player": "Littell, Zack",
@@ -123,26 +103,6 @@
       "pnl": 110.0
     },
     {
-      "player": "Yelich, Christian",
-      "player_id": 592885,
-      "opponent": "MIL",
-      "player_team": "COL",
-      "home_team": "COL",
-      "away_team": "MIL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -194,
-      "stars": 2,
-      "game_pk": 778371,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 51.55
-    },
-    {
       "player": "Bichette, Bo",
       "player_id": 666182,
       "opponent": "TOR",
@@ -161,6 +121,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 82.64
+    },
+    {
+      "player": "Chourio, Jackson",
+      "player_id": 694192,
+      "opponent": "MIL",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "MIL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 778371,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 62.5
     },
     {
       "player": "Contreras, William",
@@ -221,6 +201,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 64.52
+    },
+    {
+      "player": "Yelich, Christian",
+      "player_id": 592885,
+      "opponent": "MIL",
+      "player_team": "COL",
+      "home_team": "COL",
+      "away_team": "MIL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -194,
+      "stars": 1,
+      "game_pk": 778371,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 51.55
     }
   ]
 }

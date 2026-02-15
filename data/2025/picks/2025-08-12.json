@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.185630+00:00",
+  "generated_at": "2026-02-15T02:06:45.929149+00:00",
   "date": "2025-08-12",
   "picks": [
     {
@@ -141,26 +141,6 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
-    },
-    {
-      "player": "Rodr\u00edguez, Julio",
-      "player_id": 677594,
-      "opponent": "SEA",
-      "player_team": "BAL",
-      "home_team": "BAL",
-      "away_team": "SEA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -179,
-      "stars": 2,
-      "game_pk": 776776,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 55.87
     },
     {
       "player": "Rutschman, Adley",
@@ -321,6 +301,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 89.29
+    },
+    {
+      "player": "Rodr\u00edguez, Julio",
+      "player_id": 677594,
+      "opponent": "SEA",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "SEA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -179,
+      "stars": 1,
+      "game_pk": 776776,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 55.87
     },
     {
       "player": "Saggese, Thomas",

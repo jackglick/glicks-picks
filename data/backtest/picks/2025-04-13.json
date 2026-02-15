@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.185698+00:00",
+  "generated_at": "2026-02-15T02:06:44.970469+00:00",
   "date": "2025-04-13",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
-    },
-    {
-      "player": "Bohm, Alec",
-      "player_id": 664761,
-      "opponent": "PHI",
-      "player_team": "STL",
-      "home_team": "STL",
-      "away_team": "PHI",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -217,
-      "stars": 2,
-      "game_pk": 778336,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 46.08
     },
     {
       "player": "Mize, Casey",
@@ -261,6 +241,26 @@
       "result": "win",
       "actual": 15,
       "pnl": 115.0
+    },
+    {
+      "player": "Bohm, Alec",
+      "player_id": 664761,
+      "opponent": "PHI",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "PHI",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -217,
+      "stars": 1,
+      "game_pk": 778336,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 46.08
     },
     {
       "player": "Bohm, Alec",

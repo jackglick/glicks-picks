@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:42.267065+00:00",
+  "generated_at": "2026-02-15T02:06:45.061963+00:00",
   "date": "2025-07-13",
   "picks": [
     {
@@ -101,26 +101,6 @@
       "result": "loss",
       "actual": 19,
       "pnl": -100.0
-    },
-    {
-      "player": "De La Cruz, Elly",
-      "player_id": 682829,
-      "opponent": "COL",
-      "player_team": "CIN",
-      "home_team": "CIN",
-      "away_team": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -195,
-      "stars": 2,
-      "game_pk": 777128,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 51.28
     },
     {
       "player": "Eovaldi, Nathan",
@@ -381,6 +361,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 89.29
+    },
+    {
+      "player": "De La Cruz, Elly",
+      "player_id": 682829,
+      "opponent": "COL",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -195,
+      "stars": 1,
+      "game_pk": 777128,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 51.28
     },
     {
       "player": "Edman, Tommy",

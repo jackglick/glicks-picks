@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-02-15T01:38:42.290007+00:00",
+  "generated_at": "2026-02-15T02:06:45.094626+00:00",
   "date": "2025-08-09",
   "picks": [
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "MIA",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -185,
-      "stars": 3,
-      "game_pk": 776819,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
     {
       "player": "Edwards, Xavier",
       "player_id": 669364,
@@ -281,6 +261,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 75.76
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -185,
+      "stars": 1,
+      "game_pk": 776819,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Gusto, Ryan",

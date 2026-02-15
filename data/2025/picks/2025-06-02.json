@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T01:38:43.124255+00:00",
+  "generated_at": "2026-02-15T02:06:45.869364+00:00",
   "date": "2025-06-02",
   "picks": [
     {
@@ -89,26 +89,6 @@
       "player_team": "MIA",
       "home_team": "MIA",
       "away_team": "COL",
-      "market": "Hits",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -200,
-      "stars": 2,
-      "game_pk": 777673,
-      "game_time": null,
-      "result": "win",
-      "actual": 1,
-      "pnl": 50.0
-    },
-    {
-      "player": "Edwards, Xavier",
-      "player_id": 669364,
-      "opponent": "COL",
-      "player_team": "MIA",
-      "home_team": "MIA",
-      "away_team": "COL",
       "market": "Total Bases",
       "category": "batter",
       "direction": "UNDER",
@@ -161,6 +141,26 @@
       "result": "win",
       "actual": 9,
       "pnl": 86.96
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "COL",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -200,
+      "stars": 1,
+      "game_pk": 777673,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 50.0
     },
     {
       "player": "M\u00e1rquez, Germ\u00e1n",
