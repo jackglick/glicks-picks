@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-02-15T02:33:58.227225+00:00",
+  "generated_at": "2026-02-15T04:05:21.060878+00:00",
   "date": "2024-06-28",
   "picks": [
-    {
-      "player": "Blanco, Ronel",
-      "player_id": 669854,
-      "opponent": "NYM",
-      "player_team": "HOU",
-      "home_team": "NYM",
-      "away_team": "HOU",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 142,
-      "stars": 3,
-      "game_pk": 745804,
-      "game_time": null,
-      "result": "win",
-      "actual": 16,
-      "pnl": 142.0
-    },
     {
       "player": "Quintana, Jose",
       "player_id": 500779,
@@ -41,6 +21,26 @@
       "result": "win",
       "actual": 12,
       "pnl": 83.33
+    },
+    {
+      "player": "Blanco, Ronel",
+      "player_id": 669854,
+      "opponent": "NYM",
+      "player_team": "HOU",
+      "home_team": "NYM",
+      "away_team": "HOU",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 142,
+      "stars": 2,
+      "game_pk": 745804,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 142.0
     },
     {
       "player": "Hudson, Dakota",
@@ -83,26 +83,6 @@
       "pnl": 90.91
     },
     {
-      "player": "V\u00e1squez, Randy",
-      "player_id": 681190,
-      "opponent": "BOS",
-      "player_team": "SD",
-      "home_team": "BOS",
-      "away_team": "SD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 14.5,
-      "best_book": "bovada",
-      "best_price": 130,
-      "stars": 2,
-      "game_pk": 746939,
-      "game_time": null,
-      "result": "win",
-      "actual": 12,
-      "pnl": 130.0
-    },
-    {
       "player": "Su\u00e1rez, Albert",
       "player_id": 544150,
       "opponent": "TEX",
@@ -121,6 +101,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "V\u00e1squez, Randy",
+      "player_id": 681190,
+      "opponent": "BOS",
+      "player_team": "SD",
+      "home_team": "BOS",
+      "away_team": "SD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "bovada",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 746939,
+      "game_time": null,
+      "result": "win",
+      "actual": 12,
+      "pnl": 130.0
     }
   ]
 }

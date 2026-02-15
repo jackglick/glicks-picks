@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-15T02:33:57.579276+00:00",
+  "generated_at": "2026-02-15T04:05:20.293316+00:00",
   "date": "2024-07-26",
   "picks": [
+    {
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "TEX",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "TEX",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -122,
+      "stars": 2,
+      "game_pk": 744906,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 81.97
+    },
     {
       "player": "Lodolo, Nick",
       "player_id": 666157,
@@ -15,7 +35,7 @@
       "line": 17.5,
       "best_book": "betonlineag",
       "best_price": 115,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 745068,
       "game_time": null,
       "result": "loss",
@@ -81,26 +101,6 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
-    },
-    {
-      "player": "Kikuchi, Yusei",
-      "player_id": 579328,
-      "opponent": "TEX",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "TEX",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": -122,
-      "stars": 1,
-      "game_pk": 744906,
-      "game_time": null,
-      "result": "win",
-      "actual": 14,
-      "pnl": 81.97
     }
   ]
 }

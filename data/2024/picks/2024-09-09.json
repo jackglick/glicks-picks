@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.259181+00:00",
+  "generated_at": "2026-02-15T04:05:21.094585+00:00",
   "date": "2024-09-09",
   "picks": [
     {
@@ -23,26 +23,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Morton, Charlie",
-      "player_id": 450203,
-      "opponent": "CIN",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "CIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 140,
-      "stars": 3,
-      "game_pk": 747090,
-      "game_time": null,
-      "result": "loss",
-      "actual": 20,
-      "pnl": -100.0
-    },
-    {
       "player": "Shuster, Jared",
       "player_id": 694363,
       "opponent": "CLE",
@@ -63,23 +43,23 @@
       "pnl": 124.0
     },
     {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "KC",
-      "player_team": "NYY",
-      "home_team": "NYY",
-      "away_team": "KC",
+      "player": "Morton, Charlie",
+      "player_id": 450203,
+      "opponent": "CIN",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "CIN",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": 130,
+      "best_book": "bovada",
+      "best_price": 140,
       "stars": 2,
-      "game_pk": 745698,
+      "game_pk": 747090,
       "game_time": null,
       "result": "loss",
-      "actual": 18,
+      "actual": 20,
       "pnl": -100.0
     },
     {
@@ -101,6 +81,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 120.0
+    },
+    {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "KC",
+      "player_team": "NYY",
+      "home_team": "NYY",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 130,
+      "stars": 1,
+      "game_pk": 745698,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Singer, Brady",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.221015+00:00",
+  "generated_at": "2026-02-15T04:05:21.055195+00:00",
   "date": "2024-06-17",
   "picks": [
     {
@@ -35,32 +35,12 @@
       "line": 17.5,
       "best_book": "williamhill_us",
       "best_price": 104,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 744918,
       "game_time": null,
       "result": "win",
       "actual": 11,
       "pnl": 104.0
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "CIN",
-      "player_team": "PIT",
-      "home_team": "PIT",
-      "away_team": "CIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 142,
-      "stars": 3,
-      "game_pk": 745490,
-      "game_time": null,
-      "result": "win",
-      "actual": 17,
-      "pnl": 142.0
     },
     {
       "player": "Pivetta, Nick",
@@ -83,6 +63,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Skenes, Paul",
+      "player_id": 694973,
+      "opponent": "CIN",
+      "player_team": "PIT",
+      "home_team": "PIT",
+      "away_team": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 142,
+      "stars": 2,
+      "game_pk": 745490,
+      "game_time": null,
+      "result": "win",
+      "actual": 17,
+      "pnl": 142.0
+    },
+    {
       "player": "V\u00e1squez, Randy",
       "player_id": 681190,
       "opponent": "PHI",
@@ -95,7 +95,7 @@
       "line": 3.5,
       "best_book": "draftkings",
       "best_price": -145,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 745567,
       "game_time": null,
       "result": "loss",

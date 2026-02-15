@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.517510+00:00",
+  "generated_at": "2026-02-15T04:05:20.220957+00:00",
   "date": "2024-04-11",
   "picks": [
     {
@@ -23,6 +23,26 @@
       "pnl": 84.03
     },
     {
+      "player": "Quintana, Jose",
+      "player_id": 500779,
+      "opponent": "ATL",
+      "player_team": "NYM",
+      "home_team": "ATL",
+      "away_team": "NYM",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 2,
+      "game_pk": 747137,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 76.92
+    },
+    {
       "player": "Rodriguez, Grayson",
       "player_id": 680570,
       "opponent": "BOS",
@@ -43,26 +63,6 @@
       "pnl": 100.0
     },
     {
-      "player": "Quintana, Jose",
-      "player_id": 500779,
-      "opponent": "ATL",
-      "player_team": "NYM",
-      "home_team": "ATL",
-      "away_team": "NYM",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -130,
-      "stars": 1,
-      "game_pk": 747137,
-      "game_time": null,
-      "result": "win",
-      "actual": 16,
-      "pnl": 76.92
-    },
-    {
       "player": "Sears, JP",
       "player_id": 676664,
       "opponent": "TEX",
@@ -75,7 +75,7 @@
       "line": 16.5,
       "best_book": "consensus",
       "best_price": -127,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 745029,
       "game_time": null,
       "result": "loss",
@@ -95,7 +95,7 @@
       "line": 17.5,
       "best_book": "draftkings",
       "best_price": 115,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 746322,
       "game_time": null,
       "result": "win",

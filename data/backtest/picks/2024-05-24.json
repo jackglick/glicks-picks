@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.543190+00:00",
+  "generated_at": "2026-02-15T04:05:20.248529+00:00",
   "date": "2024-05-24",
   "picks": [
     {
@@ -23,23 +23,23 @@
       "pnl": 150.0
     },
     {
-      "player": "Wilson, Bryse",
-      "player_id": 669060,
-      "opponent": "BOS",
-      "player_team": "MIL",
-      "home_team": "BOS",
-      "away_team": "MIL",
-      "market": "Outs Recorded",
+      "player": "Flexen, Chris",
+      "player_id": 623167,
+      "opponent": "BAL",
+      "player_team": "CWS",
+      "home_team": "CWS",
+      "away_team": "BAL",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 14.5,
-      "best_book": "consensus",
-      "best_price": 150,
+      "line": 3.5,
+      "best_book": "draftkings",
+      "best_price": -145,
       "stars": 3,
-      "game_pk": 746956,
+      "game_pk": 746793,
       "game_time": null,
       "result": "loss",
-      "actual": 16,
+      "actual": 4,
       "pnl": -100.0
     },
     {
@@ -61,26 +61,6 @@
       "result": "win",
       "actual": 13,
       "pnl": 98.04
-    },
-    {
-      "player": "Flexen, Chris",
-      "player_id": 623167,
-      "opponent": "BAL",
-      "player_team": "CWS",
-      "home_team": "CWS",
-      "away_team": "BAL",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 746793,
-      "game_time": null,
-      "result": "loss",
-      "actual": 4,
-      "pnl": -100.0
     },
     {
       "player": "Harrison, Kyle",
@@ -121,6 +101,26 @@
       "result": "win",
       "actual": 14,
       "pnl": 95.24
+    },
+    {
+      "player": "Wilson, Bryse",
+      "player_id": 669060,
+      "opponent": "BOS",
+      "player_team": "MIL",
+      "home_team": "BOS",
+      "away_team": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "consensus",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 746956,
+      "game_time": null,
+      "result": "loss",
+      "actual": 16,
+      "pnl": -100.0
     }
   ]
 }

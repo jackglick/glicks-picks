@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.584495+00:00",
+  "generated_at": "2026-02-15T04:05:20.298694+00:00",
   "date": "2024-08-06",
   "picks": [
     {
@@ -15,7 +15,7 @@
       "line": 17.5,
       "best_book": "bovada",
       "best_price": 145,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 746033,
       "game_time": null,
       "result": "win",
@@ -23,24 +23,24 @@
       "pnl": 145.0
     },
     {
-      "player": "Cease, Dylan",
-      "player_id": 656302,
-      "opponent": "PIT",
-      "player_team": "SD",
-      "home_team": "PIT",
-      "away_team": "SD",
-      "market": "Outs Recorded",
+      "player": "Springs, Jeffrey",
+      "player_id": 605488,
+      "opponent": "STL",
+      "player_team": "TB",
+      "home_team": "STL",
+      "away_team": "TB",
+      "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "consensus",
-      "best_price": 145,
+      "line": 4.5,
+      "best_book": "williamhill_us",
+      "best_price": 110,
       "stars": 2,
-      "game_pk": 745467,
+      "game_pk": 745141,
       "game_time": null,
-      "result": "win",
-      "actual": 3,
-      "pnl": 145.0
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Bassitt, Chris",
@@ -61,6 +61,26 @@
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
+    },
+    {
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "PIT",
+      "player_team": "SD",
+      "home_team": "PIT",
+      "away_team": "SD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 745467,
+      "game_time": null,
+      "result": "win",
+      "actual": 3,
+      "pnl": 145.0
     },
     {
       "player": "Elder, Bryce",
@@ -120,26 +140,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 3,
-      "pnl": -100.0
-    },
-    {
-      "player": "Springs, Jeffrey",
-      "player_id": 605488,
-      "opponent": "STL",
-      "player_team": "TB",
-      "home_team": "STL",
-      "away_team": "TB",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "williamhill_us",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 745141,
-      "game_time": null,
-      "result": "loss",
-      "actual": 6,
       "pnl": -100.0
     }
   ]

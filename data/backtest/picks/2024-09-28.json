@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.611494+00:00",
+  "generated_at": "2026-02-15T04:05:20.327182+00:00",
   "date": "2024-09-28",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "win",
       "actual": 2,
       "pnl": 150.0
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "player_id": 543294,
+      "opponent": "CIN",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 746819,
+      "game_time": null,
+      "result": "loss",
+      "actual": 22,
+      "pnl": -100.0
     },
     {
       "player": "Pallante, Andre",
@@ -60,26 +80,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0
-    },
-    {
-      "player": "Hendricks, Kyle",
-      "player_id": 543294,
-      "opponent": "CIN",
-      "player_team": "CHC",
-      "home_team": "CHC",
-      "away_team": "CIN",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "consensus",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 746819,
-      "game_time": null,
-      "result": "loss",
-      "actual": 22,
       "pnl": -100.0
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.229570+00:00",
+  "generated_at": "2026-02-15T04:05:21.062812+00:00",
   "date": "2024-07-02",
   "picks": [
     {
@@ -23,6 +23,26 @@
       "pnl": 68.49
     },
     {
+      "player": "Carrasco, Carlos",
+      "player_id": 471911,
+      "opponent": "CWS",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "CWS",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 746623,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 110.0
+    },
+    {
       "player": "L\u00f3pez, Reynaldo",
       "player_id": 625643,
       "opponent": "SF",
@@ -35,7 +55,7 @@
       "line": 17.5,
       "best_book": "betrivers",
       "best_price": -106,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 747102,
       "game_time": null,
       "result": "win",
@@ -81,26 +101,6 @@
       "result": "loss",
       "actual": 4,
       "pnl": -100.0
-    },
-    {
-      "player": "Carrasco, Carlos",
-      "player_id": 471911,
-      "opponent": "CWS",
-      "player_team": "CLE",
-      "home_team": "CLE",
-      "away_team": "CWS",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 746623,
-      "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 110.0
     },
     {
       "player": "Crawford, Kutter",

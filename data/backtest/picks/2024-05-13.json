@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.536860+00:00",
+  "generated_at": "2026-02-15T04:05:20.241736+00:00",
   "date": "2024-05-13",
   "picks": [
     {
@@ -61,6 +61,46 @@
       "result": "win",
       "actual": 13,
       "pnl": 110.0
+    },
+    {
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "CHC",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "CHC",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "williamhill_us",
+      "best_price": -127,
+      "stars": 2,
+      "game_pk": 747128,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 78.74
+    },
+    {
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "CHC",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 747128,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 86.96
     },
     {
       "player": "L\u00f3pez, Reynaldo",
@@ -201,46 +241,6 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "L\u00f3pez, Reynaldo",
-      "player_id": 625643,
-      "opponent": "CHC",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "CHC",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "williamhill_us",
-      "best_price": -127,
-      "stars": 1,
-      "game_pk": 747128,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 78.74
-    },
-    {
-      "player": "L\u00f3pez, Reynaldo",
-      "player_id": 625643,
-      "opponent": "CHC",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "CHC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 747128,
-      "game_time": null,
-      "result": "win",
-      "actual": 14,
-      "pnl": 86.96
     }
   ]
 }

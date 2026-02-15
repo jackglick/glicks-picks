@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.247798+00:00",
+  "generated_at": "2026-02-15T04:05:21.082728+00:00",
   "date": "2024-08-15",
   "picks": [
     {
@@ -23,26 +23,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "MIL",
-      "player_team": "LAD",
-      "home_team": "MIL",
-      "away_team": "LAD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "consensus",
-      "best_price": 125,
-      "stars": 2,
-      "game_pk": 745950,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
-      "pnl": 125.0
-    },
-    {
       "player": "Miller, Bryce",
       "player_id": 682243,
       "opponent": "DET",
@@ -55,12 +35,32 @@
       "line": 17.5,
       "best_book": "bovada",
       "best_price": -115,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 746437,
       "game_time": null,
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
+    },
+    {
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "MIL",
+      "player_team": "LAD",
+      "home_team": "MIL",
+      "away_team": "LAD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 745950,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 125.0
     },
     {
       "player": "Quintana, Jose",

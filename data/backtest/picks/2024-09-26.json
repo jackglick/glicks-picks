@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-02-15T02:33:57.610714+00:00",
+  "generated_at": "2026-02-15T04:05:20.326416+00:00",
   "date": "2024-09-26",
   "picks": [
-    {
-      "player": "Wacha, Michael",
-      "player_id": 608379,
-      "opponent": "WSH",
-      "player_team": "KC",
-      "home_team": "WSH",
-      "away_team": "KC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": 125,
-      "stars": 2,
-      "game_pk": 744796,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
-      "pnl": 125.0
-    },
     {
       "player": "Bellozo, Valente",
       "player_id": 678368,
@@ -35,7 +15,7 @@
       "line": 3.5,
       "best_book": "betmgm",
       "best_price": -135,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 745853,
       "game_time": null,
       "result": "win",
@@ -55,7 +35,7 @@
       "line": 2.5,
       "best_book": "betmgm",
       "best_price": -145,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 745691,
       "game_time": null,
       "result": "win",
@@ -101,6 +81,26 @@
       "result": "loss",
       "actual": 3,
       "pnl": -100.0
+    },
+    {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "WSH",
+      "player_team": "KC",
+      "home_team": "WSH",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 744796,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 125.0
     }
   ]
 }

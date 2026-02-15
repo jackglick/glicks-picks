@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.219205+00:00",
+  "generated_at": "2026-02-15T04:05:21.053221+00:00",
   "date": "2024-06-13",
   "picks": [
     {
@@ -23,44 +23,24 @@
       "pnl": 86.96
     },
     {
-      "player": "Steele, Justin",
-      "player_id": 657006,
-      "opponent": "TB",
-      "player_team": "CHC",
-      "home_team": "TB",
-      "away_team": "CHC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": 145,
-      "stars": 3,
-      "game_pk": 745075,
-      "game_time": null,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0
-    },
-    {
-      "player": "Irvin, Cole",
-      "player_id": 608344,
-      "opponent": "ATL",
-      "player_team": "BAL",
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "BAL",
+      "player_team": "ATL",
       "home_team": "BAL",
       "away_team": "ATL",
-      "market": "Outs Recorded",
+      "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 5.5,
       "best_book": "draftkings",
-      "best_price": 105,
+      "best_price": -120,
       "stars": 2,
       "game_pk": 747026,
       "game_time": null,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0
+      "result": "win",
+      "actual": 2,
+      "pnl": 83.33
     },
     {
       "player": "Irvin, Cole",
@@ -80,6 +60,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 3,
+      "pnl": -100.0
+    },
+    {
+      "player": "Irvin, Cole",
+      "player_id": 608344,
+      "opponent": "ATL",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 747026,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
       "pnl": -100.0
     },
     {
@@ -123,24 +123,24 @@
       "pnl": 105.0
     },
     {
-      "player": "L\u00f3pez, Reynaldo",
-      "player_id": 625643,
-      "opponent": "BAL",
-      "player_team": "ATL",
-      "home_team": "BAL",
-      "away_team": "ATL",
-      "market": "Hits Allowed",
+      "player": "Steele, Justin",
+      "player_id": 657006,
+      "opponent": "TB",
+      "player_team": "CHC",
+      "home_team": "TB",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -120,
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 145,
       "stars": 1,
-      "game_pk": 747026,
+      "game_pk": 745075,
       "game_time": null,
-      "result": "win",
-      "actual": 2,
-      "pnl": 83.33
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     }
   ]
 }

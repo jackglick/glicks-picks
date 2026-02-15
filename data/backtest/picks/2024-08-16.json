@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.589620+00:00",
+  "generated_at": "2026-02-15T04:05:20.304232+00:00",
   "date": "2024-08-16",
   "picks": [
     {
@@ -63,26 +63,6 @@
       "pnl": 118.0
     },
     {
-      "player": "Cole, Gerrit",
-      "player_id": 543037,
-      "opponent": "DET",
-      "player_team": "NYY",
-      "home_team": "DET",
-      "away_team": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": 128,
-      "stars": 2,
-      "game_pk": 746438,
-      "game_time": null,
-      "result": "win",
-      "actual": 17,
-      "pnl": 128.0
-    },
-    {
       "player": "Corbin, Patrick",
       "player_id": 571578,
       "opponent": "PHI",
@@ -103,6 +83,26 @@
       "pnl": 118.0
     },
     {
+      "player": "Cole, Gerrit",
+      "player_id": 543037,
+      "opponent": "DET",
+      "player_team": "NYY",
+      "home_team": "DET",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 746438,
+      "game_time": null,
+      "result": "win",
+      "actual": 17,
+      "pnl": 128.0
+    },
+    {
       "player": "Manaea, Sean",
       "player_id": 640455,
       "opponent": "MIA",
@@ -115,7 +115,7 @@
       "line": 17.5,
       "best_book": "draftkings",
       "best_price": 150,
-      "stars": 2,
+      "stars": 1,
       "game_pk": 745784,
       "game_time": null,
       "result": "loss",
@@ -135,7 +135,7 @@
       "line": 17.5,
       "best_book": "betonlineag",
       "best_price": 130,
-      "stars": 2,
+      "stars": 1,
       "game_pk": 745054,
       "game_time": null,
       "result": "loss",

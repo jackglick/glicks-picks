@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.545491+00:00",
+  "generated_at": "2026-02-15T04:05:20.250966+00:00",
   "date": "2024-05-28",
   "picks": [
     {
@@ -35,12 +35,52 @@
       "line": 16.5,
       "best_book": "fanduel",
       "best_price": -114,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 747115,
       "game_time": null,
       "result": "loss",
       "actual": 17,
       "pnl": -100.0
+    },
+    {
+      "player": "Peralta, Freddy",
+      "player_id": 642547,
+      "opponent": "CHC",
+      "player_team": "MIL",
+      "home_team": "MIL",
+      "away_team": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 7.5,
+      "best_book": "betmgm",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 745987,
+      "game_time": null,
+      "result": "loss",
+      "actual": 11,
+      "pnl": -100.0
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "KC",
+      "player_team": "MIN",
+      "home_team": "MIN",
+      "away_team": "KC",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betmgm",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 745903,
+      "game_time": null,
+      "result": "win",
+      "actual": 3,
+      "pnl": 83.33
     },
     {
       "player": "Littell, Zack",
@@ -103,26 +143,6 @@
       "pnl": 110.0
     },
     {
-      "player": "Peralta, Freddy",
-      "player_id": 642547,
-      "opponent": "CHC",
-      "player_team": "MIL",
-      "home_team": "MIL",
-      "away_team": "CHC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "betmgm",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 745987,
-      "game_time": null,
-      "result": "loss",
-      "actual": 11,
-      "pnl": -100.0
-    },
-    {
       "player": "Quintana, Jose",
       "player_id": 500779,
       "opponent": "LAD",
@@ -161,26 +181,6 @@
       "result": "win",
       "actual": 14,
       "pnl": 136.0
-    },
-    {
-      "player": "Woods Richardson, Simeon",
-      "player_id": 680573,
-      "opponent": "KC",
-      "player_team": "MIN",
-      "home_team": "MIN",
-      "away_team": "KC",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "betmgm",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 745903,
-      "game_time": null,
-      "result": "win",
-      "actual": 3,
-      "pnl": 83.33
     }
   ]
 }

@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-15T02:33:58.217993+00:00",
+  "generated_at": "2026-02-15T04:05:21.051560+00:00",
   "date": "2024-06-10",
   "picks": [
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "BAL",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "BAL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 745080,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 86.96
+    },
     {
       "player": "Paddack, Chris",
       "player_id": 663978,
@@ -41,26 +61,6 @@
       "result": "loss",
       "actual": 9,
       "pnl": -100.0
-    },
-    {
-      "player": "Pepiot, Ryan",
-      "player_id": 686752,
-      "opponent": "BAL",
-      "player_team": "TB",
-      "home_team": "TB",
-      "away_team": "BAL",
-      "market": "Walks",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 745080,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 86.96
     }
   ]
 }

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-02-15T02:33:58.223586+00:00",
+  "generated_at": "2026-02-15T04:05:21.057374+00:00",
   "date": "2024-06-21",
   "picks": [
     {
-      "player": "Fedde, Erick",
-      "player_id": 607200,
-      "opponent": "DET",
-      "player_team": "CWS",
-      "home_team": "DET",
-      "away_team": "CWS",
+      "player": "Walker, Taijuan",
+      "player_id": 592836,
+      "opponent": "AZ",
+      "player_team": "PHI",
+      "home_team": "PHI",
+      "away_team": "AZ",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 140,
+      "line": 16.5,
+      "best_book": "bovada",
+      "best_price": 100,
       "stars": 2,
-      "game_pk": 746460,
+      "game_pk": 745562,
       "game_time": null,
-      "result": "loss",
-      "actual": 21,
-      "pnl": -100.0
+      "result": "win",
+      "actual": 10,
+      "pnl": 100.0
     },
     {
       "player": "Abbott, Andrew",
@@ -61,6 +61,26 @@
       "result": "win",
       "actual": 5,
       "pnl": 114.0
+    },
+    {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "DET",
+      "player_team": "CWS",
+      "home_team": "DET",
+      "away_team": "CWS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 140,
+      "stars": 1,
+      "game_pk": 746460,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Fedde, Erick",
@@ -141,26 +161,6 @@
       "result": "loss",
       "actual": 4,
       "pnl": -100.0
-    },
-    {
-      "player": "Walker, Taijuan",
-      "player_id": 592836,
-      "opponent": "AZ",
-      "player_team": "PHI",
-      "home_team": "PHI",
-      "away_team": "AZ",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "bovada",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 745562,
-      "game_time": null,
-      "result": "win",
-      "actual": 10,
-      "pnl": 100.0
     }
   ]
 }

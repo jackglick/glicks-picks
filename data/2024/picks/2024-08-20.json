@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-15T02:33:58.249654+00:00",
+  "generated_at": "2026-02-15T04:05:21.084574+00:00",
   "date": "2024-08-20",
   "picks": [
+    {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "MIL",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -117,
+      "stars": 2,
+      "game_pk": 745136,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 85.47
+    },
     {
       "player": "Gomber, Austin",
       "player_id": 596295,
@@ -23,24 +43,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Fedde, Erick",
-      "player_id": 607200,
-      "opponent": "MIL",
-      "player_team": "STL",
-      "home_team": "STL",
-      "away_team": "MIL",
+      "player": "Rodriguez, Eduardo",
+      "player_id": 593958,
+      "opponent": "MIA",
+      "player_team": "AZ",
+      "home_team": "MIA",
+      "away_team": "AZ",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": -117,
-      "stars": 1,
-      "game_pk": 745136,
+      "best_book": "betonlineag",
+      "best_price": -125,
+      "stars": 2,
+      "game_pk": 746029,
       "game_time": null,
       "result": "win",
-      "actual": 15,
-      "pnl": 85.47
+      "actual": 16,
+      "pnl": 80.0
     },
     {
       "player": "Kremer, Dean",
@@ -81,26 +101,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 130.0
-    },
-    {
-      "player": "Rodriguez, Eduardo",
-      "player_id": 593958,
-      "opponent": "MIA",
-      "player_team": "AZ",
-      "home_team": "MIA",
-      "away_team": "AZ",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": -125,
-      "stars": 1,
-      "game_pk": 746029,
-      "game_time": null,
-      "result": "win",
-      "actual": 16,
-      "pnl": 80.0
     }
   ]
 }

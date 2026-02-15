@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.242578+00:00",
+  "generated_at": "2026-02-15T04:05:21.077708+00:00",
   "date": "2024-08-03",
   "picks": [
     {
@@ -15,12 +15,32 @@
       "line": 17.5,
       "best_book": "betonlineag",
       "best_price": -110,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 745714,
       "game_time": null,
       "result": "win",
       "actual": 15,
       "pnl": 90.91
+    },
+    {
+      "player": "Gibson, Kyle",
+      "player_id": 502043,
+      "opponent": "CHC",
+      "player_team": "STL",
+      "home_team": "CHC",
+      "away_team": "STL",
+      "market": "Walks",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -140,
+      "stars": 2,
+      "game_pk": 746846,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 71.43
     },
     {
       "player": "Littell, Zack",
@@ -35,32 +55,12 @@
       "line": 17.5,
       "best_book": "draftkings",
       "best_price": 115,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 746358,
       "game_time": null,
       "result": "win",
       "actual": 16,
       "pnl": 115.0
-    },
-    {
-      "player": "Houck, Tanner",
-      "player_id": 656557,
-      "opponent": "TEX",
-      "player_team": "BOS",
-      "home_team": "TEX",
-      "away_team": "BOS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 744987,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
-      "pnl": 120.0
     },
     {
       "player": "Bradford, Cody",
@@ -83,24 +83,24 @@
       "pnl": 104.0
     },
     {
-      "player": "Gibson, Kyle",
-      "player_id": 502043,
-      "opponent": "CHC",
-      "player_team": "STL",
-      "home_team": "CHC",
-      "away_team": "STL",
-      "market": "Walks",
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "TEX",
+      "player_team": "BOS",
+      "home_team": "TEX",
+      "away_team": "BOS",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -140,
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 120,
       "stars": 1,
-      "game_pk": 746846,
+      "game_pk": 744987,
       "game_time": null,
       "result": "win",
-      "actual": 1,
-      "pnl": 71.43
+      "actual": 15,
+      "pnl": 120.0
     }
   ]
 }

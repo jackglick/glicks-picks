@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-02-15T02:33:58.245150+00:00",
+  "generated_at": "2026-02-15T04:05:21.080071+00:00",
   "date": "2024-08-09",
   "picks": [
-    {
-      "player": "P\u00e9rez, Mart\u00edn",
-      "player_id": 527048,
-      "opponent": "MIA",
-      "player_team": "SD",
-      "home_team": "MIA",
-      "away_team": "SD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "betmgm",
-      "best_price": 105,
-      "stars": 3,
-      "game_pk": 746032,
-      "game_time": null,
-      "result": "loss",
-      "actual": 21,
-      "pnl": -100.0
-    },
     {
       "player": "Soriano, Jos\u00e9",
       "player_id": 667755,
@@ -41,6 +21,46 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "P\u00e9rez, Mart\u00edn",
+      "player_id": 527048,
+      "opponent": "MIA",
+      "player_team": "SD",
+      "home_team": "MIA",
+      "away_team": "SD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "betmgm",
+      "best_price": 105,
+      "stars": 2,
+      "game_pk": 746032,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Spence, Mitch",
+      "player_id": 687765,
+      "opponent": "TOR",
+      "player_team": "ATH",
+      "home_team": "TOR",
+      "away_team": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "williamhill_us",
+      "best_price": 102,
+      "stars": 2,
+      "game_pk": 744900,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 102.0
     },
     {
       "player": "Berr\u00edos, Jos\u00e9",
@@ -81,26 +101,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 100.0
-    },
-    {
-      "player": "Spence, Mitch",
-      "player_id": 687765,
-      "opponent": "TOR",
-      "player_team": "ATH",
-      "home_team": "TOR",
-      "away_team": "ATH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "williamhill_us",
-      "best_price": 102,
-      "stars": 1,
-      "game_pk": 744900,
-      "game_time": null,
-      "result": "win",
-      "actual": 16,
-      "pnl": 102.0
     }
   ]
 }

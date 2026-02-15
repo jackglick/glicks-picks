@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.197872+00:00",
+  "generated_at": "2026-02-15T04:05:21.030551+00:00",
   "date": "2024-05-02",
   "picks": [
     {
@@ -15,12 +15,32 @@
       "line": 16.5,
       "best_book": "williamhill_us",
       "best_price": -109,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 746070,
       "game_time": null,
       "result": "win",
       "actual": 11,
       "pnl": 91.74
+    },
+    {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "BAL",
+      "player_team": "NYY",
+      "home_team": "BAL",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "williamhill_us",
+      "best_price": -119,
+      "stars": 2,
+      "game_pk": 747044,
+      "game_time": null,
+      "result": "win",
+      "actual": 13,
+      "pnl": 84.03
     },
     {
       "player": "Harrison, Kyle",
@@ -41,26 +61,6 @@
       "result": "loss",
       "actual": 15,
       "pnl": -100.0
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "BAL",
-      "player_team": "NYY",
-      "home_team": "BAL",
-      "away_team": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "williamhill_us",
-      "best_price": -119,
-      "stars": 1,
-      "game_pk": 747044,
-      "game_time": null,
-      "result": "win",
-      "actual": 13,
-      "pnl": 84.03
     }
   ]
 }

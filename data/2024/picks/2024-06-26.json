@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.226394+00:00",
+  "generated_at": "2026-02-15T04:05:21.059978+00:00",
   "date": "2024-06-26",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "win",
       "actual": 8,
       "pnl": 118.0
+    },
+    {
+      "player": "Ashcraft, Graham",
+      "player_id": 668933,
+      "opponent": "PIT",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "PIT",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "williamhill_us",
+      "best_price": -115,
+      "stars": 2,
+      "game_pk": 746695,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 86.96
     },
     {
       "player": "Crawford, Kutter",
@@ -83,24 +103,24 @@
       "pnl": 92.59
     },
     {
-      "player": "Ashcraft, Graham",
-      "player_id": 668933,
-      "opponent": "PIT",
-      "player_team": "CIN",
-      "home_team": "CIN",
-      "away_team": "PIT",
-      "market": "Outs Recorded",
+      "player": "Manaea, Sean",
+      "player_id": 640455,
+      "opponent": "NYY",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "NYY",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 16.5,
+      "line": 2.5,
       "best_book": "williamhill_us",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 746695,
+      "best_price": -113,
+      "stars": 2,
+      "game_pk": 745808,
       "game_time": null,
       "result": "win",
-      "actual": 16,
-      "pnl": 86.96
+      "actual": 0,
+      "pnl": 88.5
     },
     {
       "player": "Elder, Bryce",
@@ -141,26 +161,6 @@
       "result": "win",
       "actual": 12,
       "pnl": 96.15
-    },
-    {
-      "player": "Manaea, Sean",
-      "player_id": 640455,
-      "opponent": "NYY",
-      "player_team": "NYM",
-      "home_team": "NYM",
-      "away_team": "NYY",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "williamhill_us",
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 745808,
-      "game_time": null,
-      "result": "win",
-      "actual": 0,
-      "pnl": 88.5
     },
     {
       "player": "Rodriguez, Grayson",

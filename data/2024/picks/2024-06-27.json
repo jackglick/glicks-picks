@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:58.226820+00:00",
+  "generated_at": "2026-02-15T04:05:21.060517+00:00",
   "date": "2024-06-27",
   "picks": [
     {
@@ -21,26 +21,6 @@
       "result": "win",
       "actual": 8,
       "pnl": 71.43
-    },
-    {
-      "player": "Wheeler, Zack",
-      "player_id": 554430,
-      "opponent": "MIA",
-      "player_team": "PHI",
-      "home_team": "PHI",
-      "away_team": "MIA",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 20.5,
-      "best_book": "williamhill_us",
-      "best_price": 100,
-      "stars": 3,
-      "game_pk": 745565,
-      "game_time": null,
-      "result": "win",
-      "actual": 19,
-      "pnl": 100.0
     },
     {
       "player": "Imanaga, Shota",
@@ -81,6 +61,26 @@
       "result": "win",
       "actual": 15,
       "pnl": 110.0
+    },
+    {
+      "player": "Wheeler, Zack",
+      "player_id": 554430,
+      "opponent": "MIA",
+      "player_team": "PHI",
+      "home_team": "PHI",
+      "away_team": "MIA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 20.5,
+      "best_book": "williamhill_us",
+      "best_price": 100,
+      "stars": 2,
+      "game_pk": 745565,
+      "game_time": null,
+      "result": "win",
+      "actual": 19,
+      "pnl": 100.0
     },
     {
       "player": "Hicks, Jordan",

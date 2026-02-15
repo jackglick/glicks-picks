@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:33:57.546900+00:00",
+  "generated_at": "2026-02-15T04:05:20.254187+00:00",
   "date": "2024-05-31",
   "picks": [
     {
@@ -23,46 +23,6 @@
       "pnl": 100.0
     },
     {
-      "player": "Montgomery, Jordan",
-      "player_id": 656756,
-      "opponent": "NYM",
-      "player_team": "AZ",
-      "home_team": "NYM",
-      "away_team": "AZ",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betmgm",
-      "best_price": 150,
-      "stars": 3,
-      "game_pk": 745820,
-      "game_time": null,
-      "result": "win",
-      "actual": 12,
-      "pnl": 150.0
-    },
-    {
-      "player": "Severino, Luis",
-      "player_id": 622663,
-      "opponent": "AZ",
-      "player_team": "NYM",
-      "home_team": "NYM",
-      "away_team": "AZ",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 150,
-      "stars": 3,
-      "game_pk": 745820,
-      "game_time": null,
-      "result": "win",
-      "actual": 16,
-      "pnl": 150.0
-    },
-    {
       "player": "Ure\u00f1a, Jos\u00e9",
       "player_id": 570632,
       "opponent": "MIA",
@@ -83,6 +43,26 @@
       "pnl": 100.0
     },
     {
+      "player": "Montgomery, Jordan",
+      "player_id": 656756,
+      "opponent": "NYM",
+      "player_team": "AZ",
+      "home_team": "NYM",
+      "away_team": "AZ",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betmgm",
+      "best_price": 150,
+      "stars": 2,
+      "game_pk": 745820,
+      "game_time": null,
+      "result": "win",
+      "actual": 12,
+      "pnl": 150.0
+    },
+    {
       "player": "Berr\u00edos, Jos\u00e9",
       "player_id": 621244,
       "opponent": "PIT",
@@ -95,7 +75,7 @@
       "line": 17.5,
       "best_book": "williamhill_us",
       "best_price": 136,
-      "stars": 2,
+      "stars": 1,
       "game_pk": 744928,
       "game_time": null,
       "result": "loss",
@@ -141,6 +121,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "AZ",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "AZ",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 745820,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 150.0
     }
   ]
 }

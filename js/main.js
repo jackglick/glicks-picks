@@ -149,11 +149,6 @@
       .catch(function (err) { callback(null, err); });
   }
 
-  function renderStars(n) {
-    var s = '';
-    for (var i = 0; i < n; i++) s += '\u2605';
-    return s;
-  }
 
   function formatPrice(price) {
     if (price === null || price === undefined) return '';
@@ -254,7 +249,7 @@
     allPicks: [],
     selectedBooks: {},
     selectedMarkets: {},
-    sortBy: 'stars-desc',
+    sortBy: 'market',
     backtestIndex: null,
     selectedBacktestDate: null
   };
@@ -396,12 +391,6 @@
 
   function renderPickCard(pick) {
     var card = el('div', 'pick-card');
-    card.setAttribute('data-stars', pick.stars);
-
-    if (pick.stars >= 3) {
-      var ribbon = el('div', 'corner-ribbon', 'TOP PICK');
-      card.appendChild(ribbon);
-    }
 
     var header = el('div', 'pick-card-header');
     header.appendChild(createPlayerAvatar(pick));
@@ -412,7 +401,6 @@
     headerLeft.appendChild(el('div', 'pick-card-role', roleText));
     headerInfo.appendChild(headerLeft);
     header.appendChild(headerInfo);
-    header.appendChild(el('div', 'pick-stars', renderStars(pick.stars)));
     card.appendChild(header);
 
     var matchupRow = createMatchupRow(pick);
@@ -652,12 +640,6 @@
   function sortPicks(picks, sortKey) {
     var sorted = picks.slice();
     switch (sortKey) {
-      case 'stars-asc':
-        sorted.sort(function (a, b) { return (a.stars || 0) - (b.stars || 0); });
-        break;
-      case 'market':
-        sorted.sort(function (a, b) { return String(a.market || '').localeCompare(String(b.market || '')); });
-        break;
       case 'direction':
         sorted.sort(function (a, b) {
           var da = a.direction === 'OVER' ? 0 : 1;
@@ -665,12 +647,15 @@
           return da - db;
         });
         break;
-      case 'stars-desc':
+      case 'player':
+        sorted.sort(function (a, b) {
+          return String(a.player || '').localeCompare(String(b.player || ''));
+        });
+        break;
+      case 'market':
       default:
         sorted.sort(function (a, b) {
-          var diff = (b.stars || 0) - (a.stars || 0);
-          if (diff !== 0) return diff;
-          return String(a.player || '').localeCompare(String(b.player || ''));
+          return String(a.market || '').localeCompare(String(b.market || ''));
         });
         break;
     }
@@ -821,15 +806,11 @@
           picks: [],
           home_team: pick.home_team || '',
           away_team: pick.away_team || '',
-          game_time: pick.game_time || null,
-          maxStars: 0
+          game_time: pick.game_time || null
         };
         gameOrder.push(key);
       }
       gameGroups[key].picks.push(pick);
-      if (pick.stars > gameGroups[key].maxStars) {
-        gameGroups[key].maxStars = pick.stars;
-      }
     });
 
     // Group games by slate (game start time), then sort within each slate
@@ -863,11 +844,9 @@
       return parseTimeMinutes(slateGroups[a].label) - parseTimeMinutes(slateGroups[b].label);
     });
 
-    // Within each slate, sort games by max stars desc, then pick count desc
+    // Within each slate, sort games by pick count desc
     slateOrder.forEach(function (slateKey) {
       slateGroups[slateKey].games.sort(function (a, b) {
-        var diff = gameGroups[b].maxStars - gameGroups[a].maxStars;
-        if (diff !== 0) return diff;
         return gameGroups[b].picks.length - gameGroups[a].picks.length;
       });
     });
