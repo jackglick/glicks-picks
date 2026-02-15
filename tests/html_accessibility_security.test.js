@@ -36,6 +36,10 @@ function hasInlineScript(html) {
     assert.ok(html.includes('<script src="js/security.js"></script>'), file + ': security.js');
     assert.ok(html.includes('<script src="js/analytics.js"></script>'), file + ': analytics.js');
     assert.ok(html.includes('<script src="js/site_logic.js"></script>'), file + ': site_logic.js');
+    assert.ok(html.includes('<script src="js/config.js"></script>'), file + ': config.js');
+    assert.ok(html.includes('<script src="js/utils.js"></script>'), file + ': utils.js');
+    assert.ok(html.includes('<script src="js/picksPage.js"></script>'), file + ': picksPage.js');
+    assert.ok(html.includes('<script src="js/resultsPage.js"></script>'), file + ': resultsPage.js');
     assert.ok(html.includes('<script src="js/main.js"></script>'), file + ': main.js');
   });
 });
