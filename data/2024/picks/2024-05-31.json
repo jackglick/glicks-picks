@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.586312+00:00",
+  "generated_at": "2026-02-15T01:38:42.816296+00:00",
   "date": "2024-05-31",
   "picks": [
     {
@@ -43,6 +43,26 @@
       "pnl": 150.0
     },
     {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "AZ",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "AZ",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 3,
+      "game_pk": 745820,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 150.0
+    },
+    {
       "player": "Ure\u00f1a, Jos\u00e9",
       "player_id": 570632,
       "opponent": "MIA",
@@ -83,24 +103,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Severino, Luis",
-      "player_id": 622663,
-      "opponent": "AZ",
-      "player_team": "NYM",
-      "home_team": "NYM",
-      "away_team": "AZ",
-      "market": "Outs Recorded",
+      "player": "Civale, Aaron",
+      "player_id": 650644,
+      "opponent": "BAL",
+      "player_team": "TB",
+      "home_team": "BAL",
+      "away_team": "TB",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 4.5,
       "best_book": "draftkings",
-      "best_price": 150,
-      "stars": 2,
-      "game_pk": 745820,
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 747032,
       "game_time": null,
       "result": "win",
-      "actual": 16,
-      "pnl": 150.0
+      "actual": 3,
+      "pnl": 110.0
     },
     {
       "player": "L\u00f3pez, Reynaldo",
@@ -121,26 +141,6 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
-    },
-    {
-      "player": "Sears, JP",
-      "player_id": 676664,
-      "opponent": "ATL",
-      "player_team": "ATH",
-      "home_team": "ATL",
-      "away_team": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 138,
-      "stars": 1,
-      "game_pk": 747116,
-      "game_time": null,
-      "result": "win",
-      "actual": 5,
-      "pnl": 138.0
     }
   ]
 }

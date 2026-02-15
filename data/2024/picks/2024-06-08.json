@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.592857+00:00",
+  "generated_at": "2026-02-15T01:38:42.821223+00:00",
   "date": "2024-06-08",
   "picks": [
     {
@@ -23,6 +23,26 @@
       "pnl": 135.0
     },
     {
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "CHC",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 2,
+      "game_pk": 746703,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 98.04
+    },
+    {
       "player": "Feltner, Ryan",
       "player_id": 663372,
       "opponent": "STL",
@@ -43,24 +63,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Abbott, Andrew",
-      "player_id": 671096,
-      "opponent": "CHC",
-      "player_team": "CIN",
-      "home_team": "CIN",
-      "away_team": "CHC",
-      "market": "Outs Recorded",
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "ATL",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "ATL",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": -102,
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -110,
       "stars": 1,
-      "game_pk": 746703,
+      "game_pk": 744848,
       "game_time": null,
       "result": "win",
-      "actual": 15,
-      "pnl": 98.04
+      "actual": 1,
+      "pnl": 90.91
     },
     {
       "player": "Lively, Ben",
@@ -161,6 +181,26 @@
       "result": "win",
       "actual": 10,
       "pnl": 116.0
+    },
+    {
+      "player": "Woods Richardson, Simeon",
+      "player_id": 680573,
+      "opponent": "PIT",
+      "player_team": "MIN",
+      "home_team": "PIT",
+      "away_team": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "bovada",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 745492,
+      "game_time": null,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     }
   ]
 }

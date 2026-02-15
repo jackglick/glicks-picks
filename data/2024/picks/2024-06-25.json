@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.604378+00:00",
+  "generated_at": "2026-02-15T01:38:42.830594+00:00",
   "date": "2024-06-25",
   "picks": [
     {
@@ -81,6 +81,26 @@
       "result": "win",
       "actual": 7,
       "pnl": 122.0
+    },
+    {
+      "player": "Irvin, Cole",
+      "player_id": 608344,
+      "opponent": "CLE",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "CLE",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "williamhill_us",
+      "best_price": -117,
+      "stars": 1,
+      "game_pk": 747022,
+      "game_time": null,
+      "result": "loss",
+      "actual": 10,
+      "pnl": -100.0
     },
     {
       "player": "Keller, Mitch",

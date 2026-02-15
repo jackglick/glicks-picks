@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.572796+00:00",
+  "generated_at": "2026-02-15T01:38:42.787346+00:00",
   "date": "2024-05-03",
   "picks": [
     {
@@ -55,7 +55,7 @@
       "line": 17.5,
       "best_book": "bovada",
       "best_price": 125,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 744868,
       "game_time": null,
       "result": "loss",
@@ -75,7 +75,7 @@
       "line": 17.5,
       "best_book": "williamhill_us",
       "best_price": -109,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 746318,
       "game_time": null,
       "result": "loss",
@@ -101,6 +101,26 @@
       "result": "win",
       "actual": 2,
       "pnl": 90.91
+    },
+    {
+      "player": "Ross, Joe",
+      "player_id": 605452,
+      "opponent": "CHC",
+      "player_team": "MIL",
+      "home_team": "CHC",
+      "away_team": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 746890,
+      "game_time": null,
+      "result": "loss",
+      "actual": 17,
+      "pnl": -100.0
     }
   ]
 }

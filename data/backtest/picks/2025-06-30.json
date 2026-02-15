@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.144761+00:00",
+  "generated_at": "2026-02-15T01:38:42.253926+00:00",
   "date": "2025-06-30",
   "picks": [
     {
@@ -63,24 +63,44 @@
       "pnl": -100.0
     },
     {
-      "player": "Lopez, Jacob",
-      "player_id": 682052,
-      "opponent": "TB",
-      "player_team": "ATH",
+      "player": "Mangum, Jake",
+      "player_id": 663968,
+      "opponent": "ATH",
+      "player_team": "TB",
       "home_team": "TB",
       "away_team": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": 115,
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -180,
       "stars": 1,
       "game_pk": 777296,
       "game_time": null,
-      "result": "loss",
+      "result": "win",
       "actual": 1,
-      "pnl": -100.0
+      "pnl": 55.56
+    },
+    {
+      "player": "Toro, Abraham",
+      "player_id": 647351,
+      "opponent": "CIN",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "CIN",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 777300,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 62.5
     },
     {
       "player": "Waldron, Matt",

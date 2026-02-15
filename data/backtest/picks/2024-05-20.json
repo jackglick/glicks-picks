@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.023938+00:00",
+  "generated_at": "2026-02-15T01:38:42.101196+00:00",
   "date": "2024-05-20",
   "picks": [
     {
@@ -35,7 +35,7 @@
       "line": 17.5,
       "best_book": "betonlineag",
       "best_price": -120,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 746066,
       "game_time": null,
       "result": "win",
@@ -63,6 +63,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Bradley, Taj",
+      "player_id": 671737,
+      "opponent": "BOS",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "betrivers",
+      "best_price": 128,
+      "stars": 1,
+      "game_pk": 745093,
+      "game_time": null,
+      "result": "win",
+      "actual": 10,
+      "pnl": 128.0
+    },
+    {
       "player": "Cease, Dylan",
       "player_id": 656302,
       "opponent": "ATL",
@@ -81,6 +101,26 @@
       "result": "win",
       "actual": 12,
       "pnl": 150.0
+    },
+    {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "BAL",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 745181,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Kremer, Dean",
@@ -220,6 +260,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Stroman, Marcus",
+      "player_id": 573186,
+      "opponent": "SEA",
+      "player_team": "NYY",
+      "home_team": "NYY",
+      "away_team": "SEA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "betonlineag",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 745746,
+      "game_time": null,
+      "result": "loss",
+      "actual": 22,
       "pnl": -100.0
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.584185+00:00",
+  "generated_at": "2026-02-15T01:38:42.813728+00:00",
   "date": "2024-05-26",
   "picks": [
     {
@@ -23,6 +23,46 @@
       "pnl": -100.0
     },
     {
+      "player": "Lively, Ben",
+      "player_id": 594902,
+      "opponent": "LAA",
+      "player_team": "CLE",
+      "home_team": "LAA",
+      "away_team": "CLE",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 3,
+      "game_pk": 746230,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Assad, Javier",
+      "player_id": 665871,
+      "opponent": "STL",
+      "player_team": "CHC",
+      "home_team": "STL",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 745172,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 83.33
+    },
+    {
       "player": "Bradley, Taj",
       "player_id": 671737,
       "opponent": "KC",
@@ -43,24 +83,24 @@
       "pnl": 87.72
     },
     {
-      "player": "Lively, Ben",
-      "player_id": 594902,
-      "opponent": "LAA",
-      "player_team": "CLE",
-      "home_team": "LAA",
-      "away_team": "CLE",
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "DET",
+      "player_team": "TOR",
+      "home_team": "DET",
+      "away_team": "TOR",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -110,
+      "best_book": "bovada",
+      "best_price": 110,
       "stars": 2,
-      "game_pk": 746230,
+      "game_pk": 746469,
       "game_time": null,
-      "result": "loss",
-      "actual": 21,
-      "pnl": -100.0
+      "result": "win",
+      "actual": 9,
+      "pnl": 110.0
     },
     {
       "player": "Wacha, Michael",
@@ -81,26 +121,6 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "Kikuchi, Yusei",
-      "player_id": 579328,
-      "opponent": "DET",
-      "player_team": "TOR",
-      "home_team": "DET",
-      "away_team": "TOR",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 746469,
-      "game_time": null,
-      "result": "win",
-      "actual": 9,
-      "pnl": 110.0
     },
     {
       "player": "Manaea, Sean",
@@ -141,6 +161,26 @@
       "result": "loss",
       "actual": 3,
       "pnl": -100.0
+    },
+    {
+      "player": "Yamamoto, Yoshinobu",
+      "player_id": 808967,
+      "opponent": "CIN",
+      "player_team": "LAD",
+      "home_team": "CIN",
+      "away_team": "LAD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 746711,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 105.0
     }
   ]
 }

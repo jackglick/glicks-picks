@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-14T21:22:37.038277+00:00",
+  "generated_at": "2026-02-15T01:38:42.118852+00:00",
   "date": "2024-06-17",
   "picks": [
+    {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "MIA",
+      "player_team": "STL",
+      "home_team": "MIA",
+      "away_team": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 106,
+      "stars": 3,
+      "game_pk": 746055,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 106.0
+    },
     {
       "player": "Kikuchi, Yusei",
       "player_id": 579328,
@@ -41,26 +61,6 @@
       "result": "win",
       "actual": 17,
       "pnl": 142.0
-    },
-    {
-      "player": "Gray, Sonny",
-      "player_id": 543243,
-      "opponent": "MIA",
-      "player_team": "STL",
-      "home_team": "MIA",
-      "away_team": "STL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 106,
-      "stars": 2,
-      "game_pk": 746055,
-      "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 106.0
     },
     {
       "player": "Pivetta, Nick",

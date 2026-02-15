@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.613066+00:00",
+  "generated_at": "2026-02-15T01:38:42.841954+00:00",
   "date": "2024-07-14",
   "picks": [
     {
@@ -103,6 +103,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Irvin, Jake",
+      "player_id": 663623,
+      "opponent": "MIL",
+      "player_team": "WSH",
+      "home_team": "MIL",
+      "away_team": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -106,
+      "stars": 2,
+      "game_pk": 745962,
+      "game_time": null,
+      "result": "win",
+      "actual": 12,
+      "pnl": 94.34
+    },
+    {
       "player": "Mikolas, Miles",
       "player_id": 571945,
       "opponent": "CHC",
@@ -181,26 +201,6 @@
       "result": "win",
       "actual": 11,
       "pnl": 126.0
-    },
-    {
-      "player": "Irvin, Jake",
-      "player_id": 663623,
-      "opponent": "MIL",
-      "player_team": "WSH",
-      "home_team": "MIL",
-      "away_team": "WSH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": -106,
-      "stars": 1,
-      "game_pk": 745962,
-      "game_time": null,
-      "result": "win",
-      "actual": 12,
-      "pnl": 94.34
     },
     {
       "player": "Kremer, Dean",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.617052+00:00",
+  "generated_at": "2026-02-15T01:38:42.846892+00:00",
   "date": "2024-07-27",
   "picks": [
     {
@@ -43,6 +43,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Schwellenbach, Spencer",
+      "player_id": 680885,
+      "opponent": "NYM",
+      "player_team": "ATL",
+      "home_team": "NYM",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 128,
+      "stars": 3,
+      "game_pk": 745793,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
       "player": "Snell, Blake",
       "player_id": 605483,
       "opponent": "COL",
@@ -83,24 +103,44 @@
       "pnl": 120.0
     },
     {
-      "player": "Schwellenbach, Spencer",
-      "player_id": 680885,
-      "opponent": "NYM",
-      "player_team": "ATL",
-      "home_team": "NYM",
-      "away_team": "ATL",
+      "player": "Crawford, Kutter",
+      "player_id": 676710,
+      "opponent": "NYY",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "williamhill_us",
+      "best_price": 114,
+      "stars": 2,
+      "game_pk": 746931,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 114.0
+    },
+    {
+      "player": "Blanco, Ronel",
+      "player_id": 669854,
+      "opponent": "LAD",
+      "player_team": "HOU",
+      "home_team": "HOU",
+      "away_team": "LAD",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 128,
-      "stars": 2,
-      "game_pk": 745793,
+      "best_book": "betrivers",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 746362,
       "game_time": null,
-      "result": "loss",
-      "actual": 21,
-      "pnl": -100.0
+      "result": "win",
+      "actual": 13,
+      "pnl": 125.0
     },
     {
       "player": "Civale, Aaron",
@@ -121,26 +161,6 @@
       "result": "win",
       "actual": 16,
       "pnl": 112.0
-    },
-    {
-      "player": "Crawford, Kutter",
-      "player_id": 676710,
-      "opponent": "NYY",
-      "player_team": "BOS",
-      "home_team": "BOS",
-      "away_team": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "williamhill_us",
-      "best_price": 114,
-      "stars": 1,
-      "game_pk": 746931,
-      "game_time": null,
-      "result": "win",
-      "actual": 14,
-      "pnl": 114.0
     },
     {
       "player": "Feltner, Ryan",
@@ -181,6 +201,26 @@
       "result": "win",
       "actual": 3,
       "pnl": 120.0
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "SD",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "SD",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "williamhill_us",
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 747006,
+      "game_time": null,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     }
   ]
 }

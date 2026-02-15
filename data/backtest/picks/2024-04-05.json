@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:36.999049+00:00",
+  "generated_at": "2026-02-15T01:38:42.072247+00:00",
   "date": "2024-04-05",
   "picks": [
     {
@@ -83,6 +83,26 @@
       "pnl": 150.0
     },
     {
+      "player": "Nola, Aaron",
+      "player_id": 605400,
+      "opponent": "WSH",
+      "player_team": "PHI",
+      "home_team": "WSH",
+      "away_team": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": -142,
+      "stars": 2,
+      "game_pk": 744874,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 70.42
+    },
+    {
       "player": "Greene, Hunter",
       "player_id": 668881,
       "opponent": "NYM",
@@ -143,26 +163,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Nola, Aaron",
-      "player_id": 605400,
-      "opponent": "WSH",
-      "player_team": "PHI",
-      "home_team": "WSH",
-      "away_team": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": -142,
-      "stars": 1,
-      "game_pk": 744874,
-      "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 70.42
-    },
-    {
       "player": "Rodriguez, Grayson",
       "player_id": 680570,
       "opponent": "PIT",
@@ -180,26 +180,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 19,
-      "pnl": -100.0
-    },
-    {
-      "player": "Skubal, Tarik",
-      "player_id": 669373,
-      "opponent": "ATH",
-      "player_team": "DET",
-      "home_team": "DET",
-      "away_team": "ATH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 8.5,
-      "best_book": "williamhill_us",
-      "best_price": -133,
-      "stars": 1,
-      "game_pk": 746497,
-      "game_time": null,
-      "result": "loss",
-      "actual": 9,
       "pnl": -100.0
     },
     {

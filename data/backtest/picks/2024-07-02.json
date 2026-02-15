@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.045569+00:00",
+  "generated_at": "2026-02-15T01:38:42.127326+00:00",
   "date": "2024-07-02",
   "picks": [
     {
@@ -43,6 +43,26 @@
       "pnl": 94.34
     },
     {
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "SF",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "SF",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "betmgm",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 747102,
+      "game_time": null,
+      "result": "win",
+      "actual": 6,
+      "pnl": 83.33
+    },
+    {
       "player": "Woods Richardson, Simeon",
       "player_id": 680573,
       "opponent": "DET",
@@ -63,24 +83,64 @@
       "pnl": -100.0
     },
     {
+      "player": "Carrasco, Carlos",
+      "player_id": 471911,
+      "opponent": "CWS",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "CWS",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 746623,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 110.0
+    },
+    {
+      "player": "Crawford, Kutter",
+      "player_id": 676710,
+      "opponent": "MIA",
+      "player_team": "BOS",
+      "home_team": "MIA",
+      "away_team": "BOS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 746047,
+      "game_time": null,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
+    },
+    {
       "player": "L\u00f3pez, Reynaldo",
       "player_id": 625643,
       "opponent": "SF",
       "player_team": "ATL",
       "home_team": "ATL",
       "away_team": "SF",
-      "market": "Strikeouts",
+      "market": "Walks",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "betmgm",
-      "best_price": -120,
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": 140,
       "stars": 1,
       "game_pk": 747102,
       "game_time": null,
-      "result": "win",
-      "actual": 6,
-      "pnl": 83.33
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     }
   ]
 }

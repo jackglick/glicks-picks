@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.007283+00:00",
+  "generated_at": "2026-02-15T01:38:42.081633+00:00",
   "date": "2024-04-19",
   "picks": [
     {
@@ -61,6 +61,26 @@
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
+    },
+    {
+      "player": "Alexander, Tyler",
+      "player_id": 641302,
+      "opponent": "NYY",
+      "player_team": "TB",
+      "home_team": "NYY",
+      "away_team": "TB",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 135,
+      "stars": 1,
+      "game_pk": 745758,
+      "game_time": null,
+      "result": "win",
+      "actual": 2,
+      "pnl": 135.0
     },
     {
       "player": "Bello, Brayan",
@@ -141,46 +161,6 @@
       "result": "win",
       "actual": 12,
       "pnl": 74.07
-    },
-    {
-      "player": "Heaney, Andrew",
-      "player_id": 571760,
-      "opponent": "ATL",
-      "player_team": "TEX",
-      "home_team": "ATL",
-      "away_team": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 747136,
-      "game_time": null,
-      "result": "win",
-      "actual": 5,
-      "pnl": 125.0
-    },
-    {
-      "player": "Turnbull, Spencer",
-      "player_id": 605513,
-      "opponent": "CWS",
-      "player_team": "PHI",
-      "home_team": "PHI",
-      "away_team": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 745592,
-      "game_time": null,
-      "result": "loss",
-      "actual": 6,
-      "pnl": -100.0
     },
     {
       "player": "Verlander, Justin",

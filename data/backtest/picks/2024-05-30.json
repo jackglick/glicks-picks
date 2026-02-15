@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.028793+00:00",
+  "generated_at": "2026-02-15T01:38:42.106737+00:00",
   "date": "2024-05-30",
   "picks": [
     {
@@ -43,6 +43,46 @@
       "pnl": -100.0
     },
     {
+      "player": "Lynch IV, Daniel",
+      "player_id": 663738,
+      "opponent": "MIN",
+      "player_team": "KC",
+      "home_team": "MIN",
+      "away_team": "KC",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "consensus",
+      "best_price": 130,
+      "stars": 2,
+      "game_pk": 745898,
+      "game_time": null,
+      "result": "win",
+      "actual": 5,
+      "pnl": 130.0
+    },
+    {
+      "player": "Lynch IV, Daniel",
+      "player_id": 663738,
+      "opponent": "MIN",
+      "player_team": "KC",
+      "home_team": "MIN",
+      "away_team": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 2.5,
+      "best_book": "consensus",
+      "best_price": 105,
+      "stars": 2,
+      "game_pk": 745898,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
+    },
+    {
       "player": "Taillon, Jameson",
       "player_id": 592791,
       "opponent": "MIL",
@@ -55,7 +95,7 @@
       "line": 17.5,
       "best_book": "betonlineag",
       "best_price": -130,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 745985,
       "game_time": null,
       "result": "loss",

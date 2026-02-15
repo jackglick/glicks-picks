@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.026009+00:00",
+  "generated_at": "2026-02-15T01:38:42.103418+00:00",
   "date": "2024-05-24",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "win",
       "actual": 3,
       "pnl": 150.0
+    },
+    {
+      "player": "Wilson, Bryse",
+      "player_id": 669060,
+      "opponent": "BOS",
+      "player_team": "MIL",
+      "home_team": "BOS",
+      "away_team": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "consensus",
+      "best_price": 150,
+      "stars": 3,
+      "game_pk": 746956,
+      "game_time": null,
+      "result": "loss",
+      "actual": 16,
+      "pnl": -100.0
     },
     {
       "player": "Crawford, Kutter",
@@ -80,26 +100,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 4,
-      "pnl": -100.0
-    },
-    {
-      "player": "Maeda, Kenta",
-      "player_id": 628317,
-      "opponent": "TOR",
-      "player_team": "DET",
-      "home_team": "DET",
-      "away_team": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 2.5,
-      "best_book": "betmgm",
-      "best_price": -140,
-      "stars": 1,
-      "game_pk": 746475,
-      "game_time": null,
-      "result": "loss",
-      "actual": 1,
       "pnl": -100.0
     },
     {

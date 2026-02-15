@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.119999+00:00",
+  "generated_at": "2026-02-15T01:38:42.219800+00:00",
   "date": "2025-05-23",
   "picks": [
     {
@@ -103,23 +103,43 @@
       "pnl": 70.92
     },
     {
-      "player": "Cecconi, Slade",
-      "player_id": 677944,
-      "opponent": "DET",
-      "player_team": "CLE",
-      "home_team": "DET",
-      "away_team": "CLE",
+      "player": "Bello, Brayan",
+      "player_id": 678394,
+      "opponent": "BAL",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "BAL",
       "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
+      "direction": "OVER",
+      "line": 3.5,
       "best_book": "fanduel",
-      "best_price": -104,
+      "best_price": -146,
       "stars": 1,
-      "game_pk": 777807,
+      "game_pk": 777815,
+      "game_time": null,
+      "result": "win",
+      "actual": 7,
+      "pnl": 68.49
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "SF",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "SF",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 110,
+      "stars": 1,
+      "game_pk": 777801,
       "game_time": null,
       "result": "loss",
-      "actual": 6,
+      "actual": 18,
       "pnl": -100.0
     },
     {
@@ -161,6 +181,26 @@
       "result": "win",
       "actual": 12,
       "pnl": 118.0
+    },
+    {
+      "player": "Ram\u00edrez, Jos\u00e9",
+      "player_id": 608070,
+      "opponent": "CLE",
+      "player_team": "DET",
+      "home_team": "DET",
+      "away_team": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -165,
+      "stars": 1,
+      "game_pk": 777807,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     }
   ]
 }

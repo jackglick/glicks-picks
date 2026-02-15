@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.045183+00:00",
+  "generated_at": "2026-02-15T01:38:42.126869+00:00",
   "date": "2024-07-01",
   "picks": [
     {
@@ -35,32 +35,12 @@
       "line": 17.5,
       "best_book": "williamhill_us",
       "best_price": 126,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 744914,
       "game_time": null,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "Rodr\u00edguez, Yariel",
-      "player_id": 684320,
-      "opponent": "HOU",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "HOU",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 1,
-      "game_pk": 744914,
-      "game_time": null,
-      "result": "win",
-      "actual": 6,
-      "pnl": 100.0
     }
   ]
 }

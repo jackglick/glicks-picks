@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.884883+00:00",
+  "generated_at": "2026-02-15T01:38:43.182192+00:00",
   "date": "2025-08-08",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "win",
       "actual": 16,
       "pnl": 130.0
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "MIA",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -180,
+      "stars": 3,
+      "game_pk": 776834,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
     },
     {
       "player": "Edwards, Xavier",
@@ -55,11 +75,31 @@
       "line": 16.5,
       "best_book": "draftkings",
       "best_price": 100,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 776834,
       "game_time": null,
       "result": "loss",
       "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Ram\u00edrez, Jos\u00e9",
+      "player_id": 608070,
+      "opponent": "CLE",
+      "player_team": "CWS",
+      "home_team": "CWS",
+      "away_team": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -110,
+      "stars": 3,
+      "game_pk": 776833,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -77,26 +117,6 @@
       "best_price": 150,
       "stars": 2,
       "game_pk": 776831,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
-      "player": "Ram\u00edrez, Jos\u00e9",
-      "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "CWS",
-      "home_team": "CWS",
-      "away_team": "CLE",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -110,
-      "stars": 2,
-      "game_pk": 776833,
       "game_time": null,
       "result": "loss",
       "actual": 2,
@@ -183,6 +203,26 @@
       "pnl": 120.0
     },
     {
+      "player": "Rutschman, Adley",
+      "player_id": 668939,
+      "opponent": "ATH",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "ATH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -172,
+      "stars": 1,
+      "game_pk": 776831,
+      "game_time": null,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
+    },
+    {
       "player": "Skubal, Tarik",
       "player_id": 669373,
       "opponent": "LAA",
@@ -201,6 +241,26 @@
       "result": "win",
       "actual": 6,
       "pnl": 140.0
+    },
+    {
+      "player": "Sugano, Tomoyuki",
+      "player_id": 608372,
+      "opponent": "ATH",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanatics",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 776831,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     }
   ]
 }

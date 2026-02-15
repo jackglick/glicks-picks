@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.634025+00:00",
+  "generated_at": "2026-02-15T01:38:42.863729+00:00",
   "date": "2024-08-30",
   "picks": [
     {
@@ -63,6 +63,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Lively, Ben",
+      "player_id": 594902,
+      "opponent": "PIT",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "PIT",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 746593,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 90.91
+    },
+    {
       "player": "Rea, Colin",
       "player_id": 607067,
       "opponent": "CIN",
@@ -123,6 +143,26 @@
       "pnl": 90.91
     },
     {
+      "player": "Falter, Bailey",
+      "player_id": 663559,
+      "opponent": "CLE",
+      "player_team": "PIT",
+      "home_team": "CLE",
+      "away_team": "PIT",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 746593,
+      "game_time": null,
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
+    },
+    {
       "player": "Fedde, Erick",
       "player_id": 607200,
       "opponent": "NYY",
@@ -161,26 +201,6 @@
       "result": "loss",
       "actual": 5,
       "pnl": -100.0
-    },
-    {
-      "player": "Lively, Ben",
-      "player_id": 594902,
-      "opponent": "PIT",
-      "player_team": "CLE",
-      "home_team": "CLE",
-      "away_team": "PIT",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 746593,
-      "game_time": null,
-      "result": "win",
-      "actual": 14,
-      "pnl": 90.91
     },
     {
       "player": "L\u00f3pez, Reynaldo",

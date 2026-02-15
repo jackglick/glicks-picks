@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.580227+00:00",
+  "generated_at": "2026-02-15T01:38:42.808510+00:00",
   "date": "2024-05-18",
   "picks": [
     {
@@ -281,6 +281,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 66.67
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "WSH",
+      "player_team": "PHI",
+      "home_team": "PHI",
+      "away_team": "WSH",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "consensus",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 745581,
+      "game_time": null,
+      "result": "win",
+      "actual": 8,
+      "pnl": 90.91
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.594137+00:00",
+  "generated_at": "2026-02-15T01:38:42.822929+00:00",
   "date": "2024-06-11",
   "picks": [
     {
@@ -101,6 +101,26 @@
       "result": "win",
       "actual": 14,
       "pnl": 108.0
+    },
+    {
+      "player": "Quantrill, Cal",
+      "player_id": 615698,
+      "opponent": "MIN",
+      "player_team": "COL",
+      "home_team": "MIN",
+      "away_team": "COL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 745899,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "Taillon, Jameson",

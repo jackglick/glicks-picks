@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:36.995568+00:00",
+  "generated_at": "2026-02-15T01:38:42.068537+00:00",
   "date": "2024-03-29",
   "picks": [
     {
@@ -15,7 +15,7 @@
       "line": 8.5,
       "best_book": "betonlineag",
       "best_price": -106,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 745604,
       "game_time": null,
       "result": "win",
@@ -41,26 +41,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 120.0
-    },
-    {
-      "player": "Wheeler, Zack",
-      "player_id": 554430,
-      "opponent": "ATL",
-      "player_team": "PHI",
-      "home_team": "PHI",
-      "away_team": "ATL",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "williamhill_us",
-      "best_price": -145,
-      "stars": 1,
-      "game_pk": 745604,
-      "game_time": null,
-      "result": "win",
-      "actual": 5,
-      "pnl": 68.97
     }
   ]
 }

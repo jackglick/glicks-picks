@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.066709+00:00",
+  "generated_at": "2026-02-15T01:38:42.151135+00:00",
   "date": "2024-08-20",
   "picks": [
     {
@@ -41,6 +41,26 @@
       "result": "win",
       "actual": 15,
       "pnl": 85.47
+    },
+    {
+      "player": "Kremer, Dean",
+      "player_id": 665152,
+      "opponent": "NYM",
+      "player_team": "BAL",
+      "home_team": "NYM",
+      "away_team": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "betonlineag",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 745782,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     },
     {
       "player": "L\u00f3pez, Reynaldo",

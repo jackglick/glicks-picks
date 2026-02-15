@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.644697+00:00",
+  "generated_at": "2026-02-15T01:38:42.874500+00:00",
   "date": "2024-09-20",
   "picks": [
     {
@@ -40,6 +40,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Peterson, David",
+      "player_id": 656849,
+      "opponent": "PHI",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 745770,
+      "game_time": null,
+      "result": "loss",
+      "actual": 4,
       "pnl": -100.0
     }
   ]

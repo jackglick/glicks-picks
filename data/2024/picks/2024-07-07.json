@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.609857+00:00",
+  "generated_at": "2026-02-15T01:38:42.837943+00:00",
   "date": "2024-07-07",
   "picks": [
     {
@@ -40,6 +40,46 @@
       "game_time": null,
       "result": "loss",
       "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Gibson, Kyle",
+      "player_id": 502043,
+      "opponent": "WSH",
+      "player_team": "STL",
+      "home_team": "WSH",
+      "away_team": "STL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 135,
+      "stars": 2,
+      "game_pk": 744832,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 135.0
+    },
+    {
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "PHI",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -118,
+      "stars": 2,
+      "game_pk": 747098,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
       "pnl": -100.0
     },
     {
@@ -143,24 +183,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Gibson, Kyle",
-      "player_id": 502043,
-      "opponent": "WSH",
-      "player_team": "STL",
+      "player": "Herz, DJ",
+      "player_id": 687792,
+      "opponent": "STL",
+      "player_team": "WSH",
       "home_team": "WSH",
       "away_team": "STL",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 135,
+      "line": 14.5,
+      "best_book": "fanduel",
+      "best_price": 142,
       "stars": 1,
       "game_pk": 744832,
       "game_time": null,
       "result": "win",
-      "actual": 14,
-      "pnl": 135.0
+      "actual": 13,
+      "pnl": 142.0
     },
     {
       "player": "Keuchel, Dallas",
@@ -209,18 +249,18 @@
       "player_team": "ATL",
       "home_team": "ATL",
       "away_team": "PHI",
-      "market": "Outs Recorded",
+      "market": "Strikeouts",
       "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": -118,
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "fanduel",
+      "best_price": 100,
       "stars": 1,
       "game_pk": 747098,
       "game_time": null,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0
+      "result": "win",
+      "actual": 6,
+      "pnl": 100.0
     }
   ]
 }

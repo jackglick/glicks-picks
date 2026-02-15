@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.622101+00:00",
+  "generated_at": "2026-02-15T01:38:42.852805+00:00",
   "date": "2024-08-09",
   "picks": [
     {
@@ -61,6 +61,26 @@
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
+    },
+    {
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "HOU",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "HOU",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 746927,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 100.0
     },
     {
       "player": "Spence, Mitch",

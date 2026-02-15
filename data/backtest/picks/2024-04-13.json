@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.003908+00:00",
+  "generated_at": "2026-02-15T01:38:42.077885+00:00",
   "date": "2024-04-13",
   "picks": [
     {
@@ -43,6 +43,46 @@
       "pnl": 80.0
     },
     {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "MIA",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": -127,
+      "stars": 3,
+      "game_pk": 746082,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Schmidt, Clarke",
+      "player_id": 657376,
+      "opponent": "CLE",
+      "player_team": "NYY",
+      "home_team": "CLE",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -115,
+      "stars": 3,
+      "game_pk": 746656,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 86.96
+    },
+    {
       "player": "McKenzie, Triston",
       "player_id": 663474,
       "opponent": "NYY",
@@ -61,26 +101,6 @@
       "result": "win",
       "actual": 6,
       "pnl": 135.0
-    },
-    {
-      "player": "Schmidt, Clarke",
-      "player_id": 657376,
-      "opponent": "CLE",
-      "player_team": "NYY",
-      "home_team": "CLE",
-      "away_team": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 2,
-      "game_pk": 746656,
-      "game_time": null,
-      "result": "win",
-      "actual": 14,
-      "pnl": 86.96
     },
     {
       "player": "Carrasco, Carlos",

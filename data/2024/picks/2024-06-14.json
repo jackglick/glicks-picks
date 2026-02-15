@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.595514+00:00",
+  "generated_at": "2026-02-15T01:38:42.824370+00:00",
   "date": "2024-06-14",
   "picks": [
     {
@@ -61,6 +61,26 @@
       "result": "loss",
       "actual": 20,
       "pnl": -100.0
+    },
+    {
+      "player": "Bradish, Kyle",
+      "player_id": 680694,
+      "opponent": "PHI",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "PHI",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 747025,
+      "game_time": null,
+      "result": "win",
+      "actual": 3,
+      "pnl": 120.0
     },
     {
       "player": "Bradish, Kyle",
@@ -141,26 +161,6 @@
       "result": "win",
       "actual": 6,
       "pnl": 90.09
-    },
-    {
-      "player": "Littell, Zack",
-      "player_id": 641793,
-      "opponent": "ATL",
-      "player_team": "TB",
-      "home_team": "ATL",
-      "away_team": "TB",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "betonlineag",
-      "best_price": -108,
-      "stars": 1,
-      "game_pk": 747112,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
     },
     {
       "player": "Su\u00e1rez, Ranger",

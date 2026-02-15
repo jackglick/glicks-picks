@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.094222+00:00",
+  "generated_at": "2026-02-15T01:38:42.184703+00:00",
   "date": "2025-04-12",
   "picks": [
     {
@@ -100,6 +100,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 20,
+      "pnl": -100.0
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "WSH",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "WSH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -159,
+      "stars": 2,
+      "game_pk": 778354,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
       "pnl": -100.0
     },
     {
@@ -243,6 +263,66 @@
       "pnl": 83.33
     },
     {
+      "player": "Perdomo, Geraldo",
+      "player_id": 672695,
+      "opponent": "MIL",
+      "player_team": "AZ",
+      "home_team": "AZ",
+      "away_team": "MIL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -190,
+      "stars": 1,
+      "game_pk": 778350,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 52.63
+    },
+    {
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "PIT",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "PIT",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 778357,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 62.5
+    },
+    {
+      "player": "Ruiz, Keibert",
+      "player_id": 660688,
+      "opponent": "WSH",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "WSH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -200,
+      "stars": 1,
+      "game_pk": 778354,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
+    },
+    {
       "player": "Smith-Shawver, AJ",
       "player_id": 700363,
       "opponent": "TB",
@@ -261,26 +341,6 @@
       "result": "win",
       "actual": 2,
       "pnl": 86.96
-    },
-    {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "STL",
-      "player_team": "PHI",
-      "home_team": "STL",
-      "away_team": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "betmgm",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 778347,
-      "game_time": null,
-      "result": "win",
-      "actual": 3,
-      "pnl": 83.33
     }
   ]
 }

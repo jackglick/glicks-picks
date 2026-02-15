@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.060576+00:00",
+  "generated_at": "2026-02-15T01:38:42.144216+00:00",
   "date": "2024-08-06",
   "picks": [
     {
@@ -23,6 +23,26 @@
       "pnl": 145.0
     },
     {
+      "player": "Cease, Dylan",
+      "player_id": 656302,
+      "opponent": "PIT",
+      "player_team": "SD",
+      "home_team": "PIT",
+      "away_team": "SD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 145,
+      "stars": 2,
+      "game_pk": 745467,
+      "game_time": null,
+      "result": "win",
+      "actual": 3,
+      "pnl": 145.0
+    },
+    {
       "player": "Bassitt, Chris",
       "player_id": 605135,
       "opponent": "BAL",
@@ -41,6 +61,26 @@
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
+    },
+    {
+      "player": "Elder, Bryce",
+      "player_id": 693821,
+      "opponent": "MIL",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "MIL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 747086,
+      "game_time": null,
+      "result": "win",
+      "actual": 11,
+      "pnl": 95.24
     },
     {
       "player": "Gray, Sonny",

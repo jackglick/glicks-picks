@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.604013+00:00",
+  "generated_at": "2026-02-15T01:38:42.830178+00:00",
   "date": "2024-06-24",
   "picks": [
     {
@@ -61,6 +61,26 @@
       "result": "win",
       "actual": 16,
       "pnl": 95.24
+    },
+    {
+      "player": "Lynn, Lance",
+      "player_id": 458681,
+      "opponent": "ATL",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "ATL",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": 125,
+      "stars": 1,
+      "game_pk": 745160,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 125.0
     }
   ]
 }

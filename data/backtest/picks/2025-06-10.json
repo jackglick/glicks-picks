@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.131190+00:00",
+  "generated_at": "2026-02-15T01:38:42.234890+00:00",
   "date": "2025-06-10",
   "picks": [
     {
@@ -123,6 +123,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Happ, Ian",
+      "player_id": 664023,
+      "opponent": "CHC",
+      "player_team": "PHI",
+      "home_team": "PHI",
+      "away_team": "CHC",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
+      "stars": 2,
+      "game_pk": 777571,
+      "game_time": null,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
+    },
+    {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
       "opponent": "CIN",
@@ -143,6 +163,26 @@
       "pnl": 86.96
     },
     {
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "MIA",
+      "player_team": "PIT",
+      "home_team": "PIT",
+      "away_team": "MIA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -154,
+      "stars": 2,
+      "game_pk": 777566,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 64.94
+    },
+    {
       "player": "Rutschman, Adley",
       "player_id": 668939,
       "opponent": "DET",
@@ -161,6 +201,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 72.99
+    },
+    {
+      "player": "Albies, Ozzie",
+      "player_id": 645277,
+      "opponent": "ATL",
+      "player_team": "MIL",
+      "home_team": "MIL",
+      "away_team": "ATL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -189,
+      "stars": 1,
+      "game_pk": 777568,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 52.91
     },
     {
       "player": "Cameron, Noah",
@@ -203,6 +263,26 @@
       "pnl": 67.57
     },
     {
+      "player": "Dom\u00ednguez, Jasson",
+      "player_id": 691176,
+      "opponent": "NYY",
+      "player_team": "KC",
+      "home_team": "KC",
+      "away_team": "NYY",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -185,
+      "stars": 1,
+      "game_pk": 777572,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
+    },
+    {
       "player": "Edwards, Xavier",
       "player_id": 669364,
       "opponent": "MIA",
@@ -221,6 +301,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 71.94
+    },
+    {
+      "player": "Fried, Max",
+      "player_id": 608331,
+      "opponent": "KC",
+      "player_team": "NYY",
+      "home_team": "KC",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 142,
+      "stars": 1,
+      "game_pk": 777572,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Lindor, Francisco",
@@ -243,6 +343,26 @@
       "pnl": 68.49
     },
     {
+      "player": "Mangum, Jake",
+      "player_id": 663968,
+      "opponent": "TB",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "TB",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -161,
+      "stars": 1,
+      "game_pk": 777565,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 62.11
+    },
+    {
       "player": "Pepiot, Ryan",
       "player_id": 686752,
       "opponent": "BOS",
@@ -261,6 +381,46 @@
       "result": "loss",
       "actual": 17,
       "pnl": -100.0
+    },
+    {
+      "player": "Perdomo, Geraldo",
+      "player_id": 672695,
+      "opponent": "SEA",
+      "player_team": "AZ",
+      "home_team": "AZ",
+      "away_team": "SEA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -185,
+      "stars": 1,
+      "game_pk": 777559,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
+    },
+    {
+      "player": "Rengifo, Luis",
+      "player_id": 650859,
+      "opponent": "ATH",
+      "player_team": "LAA",
+      "home_team": "LAA",
+      "away_team": "ATH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -204,
+      "stars": 1,
+      "game_pk": 777564,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 49.02
     }
   ]
 }

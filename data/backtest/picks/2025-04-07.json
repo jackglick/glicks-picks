@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.091620+00:00",
+  "generated_at": "2026-02-15T01:38:42.181205+00:00",
   "date": "2025-04-07",
   "picks": [
     {
@@ -183,24 +183,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Berr\u00edos, Jos\u00e9",
-      "player_id": 621244,
-      "opponent": "BOS",
-      "player_team": "TOR",
+      "player": "Bichette, Bo",
+      "player_id": 666182,
+      "opponent": "TOR",
+      "player_team": "BOS",
       "home_team": "BOS",
       "away_team": "TOR",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -110,
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -130,
       "stars": 1,
       "game_pk": 778426,
       "game_time": null,
-      "result": "win",
+      "result": "loss",
       "actual": 2,
-      "pnl": 90.91
+      "pnl": -100.0
     },
     {
       "player": "Gore, MacKenzie",
@@ -223,24 +223,44 @@
       "pnl": -100.0
     },
     {
-      "player": "Lorenzen, Michael",
-      "player_id": 547179,
-      "opponent": "MIN",
-      "player_team": "KC",
-      "home_team": "KC",
-      "away_team": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "player": "Lindor, Francisco",
+      "player_id": 596019,
+      "opponent": "MIA",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "MIA",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -126,
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
       "stars": 1,
-      "game_pk": 778412,
+      "game_pk": 778416,
+      "game_time": null,
+      "result": "loss",
+      "actual": 3,
+      "pnl": -100.0
+    },
+    {
+      "player": "Santander, Anthony",
+      "player_id": 623993,
+      "opponent": "TOR",
+      "player_team": "BOS",
+      "home_team": "BOS",
+      "away_team": "TOR",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 778426,
       "game_time": null,
       "result": "win",
-      "actual": 3,
-      "pnl": 79.37
+      "actual": 1,
+      "pnl": 62.5
     }
   ]
 }

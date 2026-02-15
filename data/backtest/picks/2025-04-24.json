@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.101989+00:00",
+  "generated_at": "2026-02-15T01:38:42.195079+00:00",
   "date": "2025-04-24",
   "picks": [
     {
@@ -41,6 +41,26 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "Rengifo, Luis",
+      "player_id": 650859,
+      "opponent": "PIT",
+      "player_team": "LAA",
+      "home_team": "LAA",
+      "away_team": "PIT",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -155,
+      "stars": 2,
+      "game_pk": 778191,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 64.52
     },
     {
       "player": "Reynolds, Bryan",
@@ -103,24 +123,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Ragans, Cole",
-      "player_id": 666142,
-      "opponent": "COL",
-      "player_team": "KC",
-      "home_team": "KC",
-      "away_team": "COL",
-      "market": "Strikeouts",
-      "category": "pitcher",
+      "player": "Heim, Jonah",
+      "player_id": 641680,
+      "opponent": "TEX",
+      "player_team": "ATH",
+      "home_team": "ATH",
+      "away_team": "TEX",
+      "market": "Total Bases",
+      "category": "batter",
       "direction": "UNDER",
-      "line": 8.5,
-      "best_book": "betonlineag",
-      "best_price": 118,
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -189,
       "stars": 1,
-      "game_pk": 778190,
+      "game_pk": 778192,
       "game_time": null,
-      "result": "win",
+      "result": "loss",
       "actual": 4,
-      "pnl": 118.0
+      "pnl": -100.0
     },
     {
       "player": "Roupp, Landen",

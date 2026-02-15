@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-14T21:22:37.002826+00:00",
+  "generated_at": "2026-02-15T01:38:42.076604+00:00",
   "date": "2024-04-11",
   "picks": [
+    {
+      "player": "Gray, Jon",
+      "player_id": 592351,
+      "opponent": "ATH",
+      "player_team": "TEX",
+      "home_team": "TEX",
+      "away_team": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": -119,
+      "stars": 3,
+      "game_pk": 745029,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 84.03
+    },
     {
       "player": "Rodriguez, Grayson",
       "player_id": 680570,
@@ -41,6 +61,26 @@
       "result": "win",
       "actual": 16,
       "pnl": 76.92
+    },
+    {
+      "player": "Sears, JP",
+      "player_id": 676664,
+      "opponent": "TEX",
+      "player_team": "ATH",
+      "home_team": "TEX",
+      "away_team": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -127,
+      "stars": 1,
+      "game_pk": 745029,
+      "game_time": null,
+      "result": "loss",
+      "actual": 19,
+      "pnl": -100.0
     },
     {
       "player": "Singer, Brady",

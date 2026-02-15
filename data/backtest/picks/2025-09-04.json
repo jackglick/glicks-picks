@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.190834+00:00",
+  "generated_at": "2026-02-15T01:38:42.314590+00:00",
   "date": "2025-09-04",
   "picks": [
     {
@@ -41,6 +41,46 @@
       "result": "loss",
       "actual": 5,
       "pnl": -100.0
+    },
+    {
+      "player": "Rengifo, Luis",
+      "player_id": 650859,
+      "opponent": "LAA",
+      "player_team": "KC",
+      "home_team": "KC",
+      "away_team": "LAA",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -185,
+      "stars": 1,
+      "game_pk": 776463,
+      "game_time": null,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
+    },
+    {
+      "player": "Simpson, Chandler",
+      "player_id": 802415,
+      "opponent": "CLE",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "CLE",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -163,
+      "stars": 1,
+      "game_pk": 776458,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 61.35
     }
   ]
 }

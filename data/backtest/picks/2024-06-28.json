@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.043616+00:00",
+  "generated_at": "2026-02-15T01:38:42.124996+00:00",
   "date": "2024-06-28",
   "picks": [
     {
@@ -83,26 +83,6 @@
       "pnl": 90.91
     },
     {
-      "player": "Su\u00e1rez, Albert",
-      "player_id": 544150,
-      "opponent": "TEX",
-      "player_team": "BAL",
-      "home_team": "BAL",
-      "away_team": "TEX",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 3.5,
-      "best_book": "betonlineag",
-      "best_price": -130,
-      "stars": 2,
-      "game_pk": 747017,
-      "game_time": null,
-      "result": "loss",
-      "actual": 2,
-      "pnl": -100.0
-    },
-    {
       "player": "V\u00e1squez, Randy",
       "player_id": 681190,
       "opponent": "BOS",
@@ -123,23 +103,23 @@
       "pnl": 130.0
     },
     {
-      "player": "Scherzer, Max",
-      "player_id": 453286,
-      "opponent": "BAL",
-      "player_team": "TEX",
+      "player": "Su\u00e1rez, Albert",
+      "player_id": 544150,
+      "opponent": "TEX",
+      "player_team": "BAL",
       "home_team": "BAL",
       "away_team": "TEX",
       "market": "Strikeouts",
       "category": "pitcher",
       "direction": "OVER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": -128,
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": -130,
       "stars": 1,
       "game_pk": 747017,
       "game_time": null,
       "result": "loss",
-      "actual": 4,
+      "actual": 2,
       "pnl": -100.0
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.035823+00:00",
+  "generated_at": "2026-02-15T01:38:42.116296+00:00",
   "date": "2024-06-12",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "win",
       "actual": 17,
       "pnl": 140.0
+    },
+    {
+      "player": "Bassitt, Chris",
+      "player_id": 605135,
+      "opponent": "MIL",
+      "player_team": "TOR",
+      "home_team": "MIL",
+      "away_team": "TOR",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 125,
+      "stars": 2,
+      "game_pk": 745978,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 125.0
     },
     {
       "player": "Gray, Sonny",
@@ -80,26 +100,6 @@
       "game_time": null,
       "result": "win",
       "actual": 1,
-      "pnl": 125.0
-    },
-    {
-      "player": "Bassitt, Chris",
-      "player_id": 605135,
-      "opponent": "MIL",
-      "player_team": "TOR",
-      "home_team": "MIL",
-      "away_team": "TOR",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 745978,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
       "pnl": 125.0
     },
     {

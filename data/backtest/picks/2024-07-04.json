@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.046536+00:00",
+  "generated_at": "2026-02-15T01:38:42.128516+00:00",
   "date": "2024-07-04",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "loss",
       "actual": 24,
       "pnl": -100.0
+    },
+    {
+      "player": "King, Michael",
+      "player_id": 650633,
+      "opponent": "TEX",
+      "player_team": "SD",
+      "home_team": "TEX",
+      "away_team": "SD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 125,
+      "stars": 3,
+      "game_pk": 744996,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 125.0
     },
     {
       "player": "Lively, Ben",
@@ -61,26 +81,6 @@
       "result": "win",
       "actual": 12,
       "pnl": 130.0
-    },
-    {
-      "player": "King, Michael",
-      "player_id": 650633,
-      "opponent": "TEX",
-      "player_team": "SD",
-      "home_team": "TEX",
-      "away_team": "SD",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": 125,
-      "stars": 2,
-      "game_pk": 744996,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
-      "pnl": 125.0
     },
     {
       "player": "Quintana, Jose",
@@ -143,6 +143,46 @@
       "pnl": -100.0
     },
     {
+      "player": "Montas, Frankie",
+      "player_id": 593423,
+      "opponent": "NYY",
+      "player_team": "CIN",
+      "home_team": "NYY",
+      "away_team": "CIN",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "consensus",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 745726,
+      "game_time": null,
+      "result": "win",
+      "actual": 2,
+      "pnl": 120.0
+    },
+    {
+      "player": "Pivetta, Nick",
+      "player_id": 601713,
+      "opponent": "MIA",
+      "player_team": "BOS",
+      "home_team": "MIA",
+      "away_team": "BOS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "williamhill_us",
+      "best_price": -104,
+      "stars": 1,
+      "game_pk": 746043,
+      "game_time": null,
+      "result": "loss",
+      "actual": 20,
+      "pnl": -100.0
+    },
+    {
       "player": "P\u00e9rez, Mart\u00edn",
       "player_id": 527048,
       "opponent": "STL",
@@ -163,24 +203,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Stroman, Marcus",
-      "player_id": 573186,
-      "opponent": "CIN",
-      "player_team": "NYY",
-      "home_team": "NYY",
-      "away_team": "CIN",
-      "market": "Strikeouts",
+      "player": "Sears, JP",
+      "player_id": 676664,
+      "opponent": "LAA",
+      "player_team": "ATH",
+      "home_team": "ATH",
+      "away_team": "LAA",
+      "market": "Outs Recorded",
       "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "betmgm",
-      "best_price": 100,
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -106,
       "stars": 1,
-      "game_pk": 745726,
+      "game_pk": 745641,
       "game_time": null,
       "result": "win",
-      "actual": 6,
-      "pnl": 100.0
+      "actual": 15,
+      "pnl": 94.34
     }
   ]
 }

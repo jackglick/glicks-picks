@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.040808+00:00",
+  "generated_at": "2026-02-15T01:38:42.121791+00:00",
   "date": "2024-06-22",
   "picks": [
     {
@@ -23,6 +23,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Eflin, Zach",
+      "player_id": 621107,
+      "opponent": "PIT",
+      "player_team": "TB",
+      "home_team": "PIT",
+      "away_team": "TB",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 150,
+      "stars": 3,
+      "game_pk": 745486,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
       "player": "Ober, Bailey",
       "player_id": 641927,
       "opponent": "ATH",
@@ -40,26 +60,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 27,
-      "pnl": -100.0
-    },
-    {
-      "player": "Eflin, Zach",
-      "player_id": 621107,
-      "opponent": "PIT",
-      "player_team": "TB",
-      "home_team": "PIT",
-      "away_team": "TB",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "bovada",
-      "best_price": 150,
-      "stars": 2,
-      "game_pk": 745486,
-      "game_time": null,
-      "result": "loss",
-      "actual": 21,
       "pnl": -100.0
     },
     {
@@ -83,6 +83,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Hicks, Jordan",
+      "player_id": 663855,
+      "opponent": "STL",
+      "player_team": "SF",
+      "home_team": "STL",
+      "away_team": "SF",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 14.5,
+      "best_book": "fanduel",
+      "best_price": 150,
+      "stars": 2,
+      "game_pk": 745163,
+      "game_time": null,
+      "result": "win",
+      "actual": 12,
+      "pnl": 150.0
+    },
+    {
       "player": "Montas, Frankie",
       "player_id": 593423,
       "opponent": "BOS",
@@ -103,6 +123,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Sears, JP",
+      "player_id": 676664,
+      "opponent": "MIN",
+      "player_team": "ATH",
+      "home_team": "ATH",
+      "away_team": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": -102,
+      "stars": 2,
+      "game_pk": 745644,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 98.04
+    },
+    {
       "player": "Henry, Tommy",
       "player_id": 674072,
       "opponent": "PHI",
@@ -121,26 +161,6 @@
       "result": "loss",
       "actual": 6,
       "pnl": -100.0
-    },
-    {
-      "player": "Hicks, Jordan",
-      "player_id": 663855,
-      "opponent": "STL",
-      "player_team": "SF",
-      "home_team": "STL",
-      "away_team": "SF",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 14.5,
-      "best_book": "fanduel",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 745163,
-      "game_time": null,
-      "result": "win",
-      "actual": 12,
-      "pnl": 150.0
     },
     {
       "player": "Jones, Jared",
@@ -203,24 +223,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Sears, JP",
-      "player_id": 676664,
-      "opponent": "MIN",
-      "player_team": "ATH",
+      "player": "Ober, Bailey",
+      "player_id": 641927,
+      "opponent": "ATH",
+      "player_team": "MIN",
       "home_team": "ATH",
       "away_team": "MIN",
-      "market": "Outs Recorded",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "fanduel",
-      "best_price": -102,
+      "line": 6.5,
+      "best_book": "betmgm",
+      "best_price": -105,
       "stars": 1,
       "game_pk": 745644,
       "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 98.04
+      "result": "loss",
+      "actual": 10,
+      "pnl": -100.0
     },
     {
       "player": "Stroman, Marcus",
@@ -280,26 +300,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 21,
-      "pnl": -100.0
-    },
-    {
-      "player": "Wacha, Michael",
-      "player_id": 608379,
-      "opponent": "TEX",
-      "player_team": "KC",
-      "home_team": "TEX",
-      "away_team": "KC",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 744997,
-      "game_time": null,
-      "result": "loss",
-      "actual": 3,
       "pnl": -100.0
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.006411+00:00",
+  "generated_at": "2026-02-15T01:38:42.080713+00:00",
   "date": "2024-04-17",
   "picks": [
     {
@@ -61,6 +61,26 @@
       "result": "win",
       "actual": 15,
       "pnl": 76.92
+    },
+    {
+      "player": "Abbott, Andrew",
+      "player_id": 671096,
+      "opponent": "SEA",
+      "player_team": "CIN",
+      "home_team": "SEA",
+      "away_team": "CIN",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -120,
+      "stars": 2,
+      "game_pk": 745267,
+      "game_time": null,
+      "result": "win",
+      "actual": 2,
+      "pnl": 83.33
     },
     {
       "player": "Abbott, Andrew",
@@ -143,24 +163,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Abbott, Andrew",
-      "player_id": 671096,
-      "opponent": "SEA",
-      "player_team": "CIN",
-      "home_team": "SEA",
-      "away_team": "CIN",
-      "market": "Earned Runs",
+      "player": "Stroman, Marcus",
+      "player_id": 573186,
+      "opponent": "TOR",
+      "player_team": "NYY",
+      "home_team": "TOR",
+      "away_team": "NYY",
+      "market": "Strikeouts",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "draftkings",
-      "best_price": -120,
-      "stars": 1,
-      "game_pk": 745267,
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 744948,
       "game_time": null,
       "result": "win",
       "actual": 2,
-      "pnl": 83.33
+      "pnl": 90.91
     },
     {
       "player": "Detmers, Reid",
@@ -203,6 +223,26 @@
       "pnl": 100.0
     },
     {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "KC",
+      "player_team": "CWS",
+      "home_team": "CWS",
+      "away_team": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "betonlineag",
+      "best_price": -123,
+      "stars": 1,
+      "game_pk": 746809,
+      "game_time": null,
+      "result": "loss",
+      "actual": 5,
+      "pnl": -100.0
+    },
+    {
       "player": "Feltner, Ryan",
       "player_id": 663372,
       "opponent": "PHI",
@@ -243,26 +283,6 @@
       "pnl": 68.97
     },
     {
-      "player": "Lively, Ben",
-      "player_id": 594902,
-      "opponent": "BOS",
-      "player_team": "CLE",
-      "home_team": "BOS",
-      "away_team": "CLE",
-      "market": "Hits Allowed",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "betonlineag",
-      "best_price": 116,
-      "stars": 1,
-      "game_pk": 746973,
-      "game_time": null,
-      "result": "loss",
-      "actual": 3,
-      "pnl": -100.0
-    },
-    {
       "player": "L\u00f3pez, Pablo",
       "player_id": 641154,
       "opponent": "BAL",
@@ -281,6 +301,26 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "Matz, Steven",
+      "player_id": 571927,
+      "opponent": "ATH",
+      "player_team": "STL",
+      "home_team": "ATH",
+      "away_team": "STL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 1,
+      "game_pk": 745671,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 90.91
     },
     {
       "player": "Pfaadt, Brandon",
@@ -323,26 +363,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Stroman, Marcus",
-      "player_id": 573186,
-      "opponent": "TOR",
-      "player_team": "NYY",
-      "home_team": "TOR",
-      "away_team": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "bovada",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 744948,
-      "game_time": null,
-      "result": "win",
-      "actual": 2,
-      "pnl": 90.91
-    },
-    {
       "player": "S\u00e1nchez, Cristopher",
       "player_id": 650911,
       "opponent": "COL",
@@ -381,6 +401,26 @@
       "result": "win",
       "actual": 4,
       "pnl": 70.42
+    },
+    {
+      "player": "Winn, Keaton",
+      "player_id": 676775,
+      "opponent": "MIA",
+      "player_team": "SF",
+      "home_team": "MIA",
+      "away_team": "SF",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -112,
+      "stars": 1,
+      "game_pk": 746076,
+      "game_time": null,
+      "result": "loss",
+      "actual": 17,
+      "pnl": -100.0
     }
   ]
 }

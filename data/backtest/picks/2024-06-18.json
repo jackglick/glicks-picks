@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.038790+00:00",
+  "generated_at": "2026-02-15T01:38:42.119397+00:00",
   "date": "2024-06-18",
   "picks": [
     {
@@ -81,6 +81,26 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "TOR",
+      "player_team": "BOS",
+      "home_team": "TOR",
+      "away_team": "BOS",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 1,
+      "game_pk": 744917,
+      "game_time": null,
+      "result": "win",
+      "actual": 17,
+      "pnl": 150.0
     },
     {
       "player": "King, Michael",

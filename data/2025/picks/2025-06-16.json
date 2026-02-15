@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.851121+00:00",
+  "generated_at": "2026-02-15T01:38:43.135614+00:00",
   "date": "2025-06-16",
   "picks": [
     {
@@ -35,12 +35,32 @@
       "line": 17.5,
       "best_book": "draftkings",
       "best_price": 110,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 777483,
       "game_time": null,
       "result": "win",
       "actual": 15,
       "pnl": 110.0
+    },
+    {
+      "player": "Edwards, Xavier",
+      "player_id": 669364,
+      "opponent": "PHI",
+      "player_team": "MIA",
+      "home_team": "MIA",
+      "away_team": "PHI",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -170,
+      "stars": 1,
+      "game_pk": 777483,
+      "game_time": null,
+      "result": "loss",
+      "actual": 2,
+      "pnl": -100.0
     },
     {
       "player": "Irvin, Jake",
@@ -103,6 +123,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Mangum, Jake",
+      "player_id": 663968,
+      "opponent": "BAL",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "BAL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -185,
+      "stars": 1,
+      "game_pk": 777484,
+      "game_time": null,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
+    },
+    {
       "player": "Pepiot, Ryan",
       "player_id": 686752,
       "opponent": "BAL",
@@ -141,6 +181,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 83.33
+    },
+    {
+      "player": "Soriano, Jos\u00e9",
+      "player_id": 667755,
+      "opponent": "NYY",
+      "player_team": "LAA",
+      "home_team": "NYY",
+      "away_team": "LAA",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 777487,
+      "game_time": null,
+      "result": "win",
+      "actual": 6,
+      "pnl": 105.0
     }
   ]
 }

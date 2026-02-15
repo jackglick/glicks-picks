@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.576576+00:00",
+  "generated_at": "2026-02-15T01:38:42.793914+00:00",
   "date": "2024-05-10",
   "picks": [
     {
@@ -120,6 +120,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Schmidt, Clarke",
+      "player_id": 657376,
+      "opponent": "TB",
+      "player_team": "NYY",
+      "home_team": "TB",
+      "away_team": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "williamhill_us",
+      "best_price": -121,
+      "stars": 1,
+      "game_pk": 745094,
+      "game_time": null,
+      "result": "loss",
+      "actual": 6,
       "pnl": -100.0
     }
   ]

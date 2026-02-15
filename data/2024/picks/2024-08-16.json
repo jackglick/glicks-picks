@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.625173+00:00",
+  "generated_at": "2026-02-15T01:38:42.856692+00:00",
   "date": "2024-08-16",
   "picks": [
     {
@@ -41,6 +41,26 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "Pepiot, Ryan",
+      "player_id": 686752,
+      "opponent": "AZ",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "AZ",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 118,
+      "stars": 3,
+      "game_pk": 745054,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 118.0
     },
     {
       "player": "Cole, Gerrit",

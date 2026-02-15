@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.003342+00:00",
+  "generated_at": "2026-02-15T01:38:42.077253+00:00",
   "date": "2024-04-12",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "loss",
       "actual": 15,
       "pnl": -100.0
+    },
+    {
+      "player": "Skubal, Tarik",
+      "player_id": 669373,
+      "opponent": "MIN",
+      "player_team": "DET",
+      "home_team": "DET",
+      "away_team": "MIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 120,
+      "stars": 3,
+      "game_pk": 746491,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 120.0
     },
     {
       "player": "Abbott, Andrew",
@@ -183,6 +203,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Wacha, Michael",
+      "player_id": 608379,
+      "opponent": "NYM",
+      "player_team": "KC",
+      "home_team": "NYM",
+      "away_team": "KC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 745838,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 80.0
+    },
+    {
       "player": "Wells, Tyler",
       "player_id": 669330,
       "opponent": "MIL",
@@ -201,6 +241,26 @@
       "result": "win",
       "actual": 3,
       "pnl": 81.97
+    },
+    {
+      "player": "Winn, Keaton",
+      "player_id": 676775,
+      "opponent": "TB",
+      "player_team": "SF",
+      "home_team": "TB",
+      "away_team": "SF",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 745112,
+      "game_time": null,
+      "result": "win",
+      "actual": 5,
+      "pnl": 76.92
     },
     {
       "player": "Winn, Keaton",

@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-14T21:22:37.068219+00:00",
+  "generated_at": "2026-02-15T01:38:42.152813+00:00",
   "date": "2024-08-23",
   "picks": [
+    {
+      "player": "Eovaldi, Nathan",
+      "player_id": 543135,
+      "opponent": "CLE",
+      "player_team": "TEX",
+      "home_team": "CLE",
+      "away_team": "TEX",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 120,
+      "stars": 3,
+      "game_pk": 746597,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
     {
       "player": "Povich, Cade",
       "player_id": 700249,
@@ -41,26 +61,6 @@
       "result": "win",
       "actual": 17,
       "pnl": 115.0
-    },
-    {
-      "player": "Eovaldi, Nathan",
-      "player_id": 543135,
-      "opponent": "CLE",
-      "player_team": "TEX",
-      "home_team": "CLE",
-      "away_team": "TEX",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 746597,
-      "game_time": null,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0
     },
     {
       "player": "Bassitt, Chris",
@@ -121,26 +121,6 @@
       "result": "loss",
       "actual": 7,
       "pnl": -100.0
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "WSH",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "williamhill_us",
-      "best_price": 109,
-      "stars": 1,
-      "game_pk": 747080,
-      "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 109.0
     }
   ]
 }

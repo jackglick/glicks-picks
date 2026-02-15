@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.643383+00:00",
+  "generated_at": "2026-02-15T01:38:42.873043+00:00",
   "date": "2024-09-17",
   "picks": [
     {
@@ -63,6 +63,26 @@
       "pnl": 120.0
     },
     {
+      "player": "Snell, Blake",
+      "player_id": 605483,
+      "opponent": "BAL",
+      "player_team": "SF",
+      "home_team": "BAL",
+      "away_team": "SF",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -113,
+      "stars": 2,
+      "game_pk": 746987,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
       "player": "Megill, Tylor",
       "player_id": 656731,
       "opponent": "WSH",
@@ -123,26 +143,6 @@
       "pnl": 110.0
     },
     {
-      "player": "Pivetta, Nick",
-      "player_id": 601713,
-      "opponent": "TB",
-      "player_team": "BOS",
-      "home_team": "TB",
-      "away_team": "BOS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "betmgm",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 745044,
-      "game_time": null,
-      "result": "win",
-      "actual": 6,
-      "pnl": 110.0
-    },
-    {
       "player": "Ragans, Cole",
       "player_id": 666142,
       "opponent": "DET",
@@ -160,26 +160,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 19,
-      "pnl": -100.0
-    },
-    {
-      "player": "Snell, Blake",
-      "player_id": 605483,
-      "opponent": "BAL",
-      "player_team": "SF",
-      "home_team": "BAL",
-      "away_team": "SF",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": -113,
-      "stars": 1,
-      "game_pk": 746987,
-      "game_time": null,
-      "result": "loss",
-      "actual": 18,
       "pnl": -100.0
     },
     {

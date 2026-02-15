@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.067227+00:00",
+  "generated_at": "2026-02-15T01:38:42.151758+00:00",
   "date": "2024-08-21",
   "picks": [
     {
@@ -123,6 +123,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Fried, Max",
+      "player_id": 608331,
+      "opponent": "PHI",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "bovada",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 747084,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
       "player": "Gibson, Kyle",
       "player_id": 502043,
       "opponent": "MIL",
@@ -141,6 +161,26 @@
       "result": "win",
       "actual": 16,
       "pnl": 120.0
+    },
+    {
+      "player": "Manaea, Sean",
+      "player_id": 640455,
+      "opponent": "BAL",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "BAL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 745781,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Myers, Tobias",

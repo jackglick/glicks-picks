@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:36.996081+00:00",
+  "generated_at": "2026-02-15T01:38:42.069060+00:00",
   "date": "2024-03-30",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "win",
       "actual": 5,
       "pnl": 87.72
+    },
+    {
+      "player": "Stroman, Marcus",
+      "player_id": 573186,
+      "opponent": "HOU",
+      "player_team": "NYY",
+      "home_team": "HOU",
+      "away_team": "NYY",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 3.5,
+      "best_book": "betonlineag",
+      "best_price": -105,
+      "stars": 2,
+      "game_pk": 746410,
+      "game_time": null,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -100.0
     },
     {
       "player": "Brown, Hunter",
@@ -83,26 +103,6 @@
       "pnl": 130.0
     },
     {
-      "player": "Lugo, Seth",
-      "player_id": 607625,
-      "opponent": "MIN",
-      "player_team": "KC",
-      "home_team": "KC",
-      "away_team": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "mybookieag",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 746333,
-      "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 125.0
-    },
-    {
       "player": "Nola, Aaron",
       "player_id": 605400,
       "opponent": "ATL",
@@ -121,26 +121,6 @@
       "result": "win",
       "actual": 3,
       "pnl": 125.0
-    },
-    {
-      "player": "Stroman, Marcus",
-      "player_id": 573186,
-      "opponent": "HOU",
-      "player_team": "NYY",
-      "home_team": "HOU",
-      "away_team": "NYY",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 3.5,
-      "best_book": "betonlineag",
-      "best_price": -105,
-      "stars": 1,
-      "game_pk": 746410,
-      "game_time": null,
-      "result": "loss",
-      "actual": 4,
-      "pnl": -100.0
     },
     {
       "player": "Weathers, Ryan",

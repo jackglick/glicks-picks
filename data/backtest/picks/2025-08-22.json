@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.183189+00:00",
+  "generated_at": "2026-02-15T01:38:42.303290+00:00",
   "date": "2025-08-22",
   "picks": [
     {
@@ -63,6 +63,26 @@
       "pnl": 67.57
     },
     {
+      "player": "Mangum, Jake",
+      "player_id": 663968,
+      "opponent": "STL",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "STL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -162,
+      "stars": 2,
+      "game_pk": 776633,
+      "game_time": null,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
+    },
+    {
       "player": "Mikolas, Miles",
       "player_id": 571945,
       "opponent": "TB",
@@ -81,6 +101,26 @@
       "result": "win",
       "actual": 6,
       "pnl": 90.91
+    },
+    {
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "COL",
+      "player_team": "PIT",
+      "home_team": "PIT",
+      "away_team": "COL",
+      "market": "Hits",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -204,
+      "stars": 2,
+      "game_pk": 776637,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 49.02
     },
     {
       "player": "Bieber, Shane",
@@ -183,6 +223,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Lee, Brooks",
+      "player_id": 686797,
+      "opponent": "MIN",
+      "player_team": "CWS",
+      "home_team": "CWS",
+      "away_team": "MIN",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -182,
+      "stars": 1,
+      "game_pk": 776639,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 54.95
+    },
+    {
       "player": "Lindor, Francisco",
       "player_id": 596019,
       "opponent": "NYM",
@@ -261,6 +321,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Suwinski, Jack",
+      "player_id": 669261,
+      "opponent": "COL",
+      "player_team": "PIT",
+      "home_team": "PIT",
+      "away_team": "COL",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -192,
+      "stars": 1,
+      "game_pk": 776637,
+      "game_time": null,
+      "result": "win",
+      "actual": 0,
+      "pnl": 52.08
     }
   ]
 }

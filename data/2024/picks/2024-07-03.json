@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.607816+00:00",
+  "generated_at": "2026-02-15T01:38:42.835384+00:00",
   "date": "2024-07-03",
   "picks": [
     {
@@ -43,26 +43,6 @@
       "pnl": 105.0
     },
     {
-      "player": "Williams, Gavin",
-      "player_id": 668909,
-      "opponent": "CWS",
-      "player_team": "CLE",
-      "home_team": "CLE",
-      "away_team": "CWS",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "fanduel",
-      "best_price": 120,
-      "stars": 2,
-      "game_pk": 746617,
-      "game_time": null,
-      "result": "win",
-      "actual": 2,
-      "pnl": 120.0
-    },
-    {
       "player": "Blanco, Ronel",
       "player_id": 669854,
       "opponent": "TOR",
@@ -81,6 +61,26 @@
       "result": "win",
       "actual": 4,
       "pnl": 110.0
+    },
+    {
+      "player": "Hicks, Jordan",
+      "player_id": 663855,
+      "opponent": "ATL",
+      "player_team": "SF",
+      "home_team": "ATL",
+      "away_team": "SF",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "draftkings",
+      "best_price": -150,
+      "stars": 1,
+      "game_pk": 747100,
+      "game_time": null,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
     },
     {
       "player": "Jones, Jared",
@@ -143,6 +143,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Parker, Mitchell",
+      "player_id": 680730,
+      "opponent": "NYM",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "NYM",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 744837,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
       "player": "Rod\u00f3n, Carlos",
       "player_id": 607074,
       "opponent": "CIN",
@@ -181,6 +201,26 @@
       "result": "win",
       "actual": 9,
       "pnl": 100.0
+    },
+    {
+      "player": "Williams, Gavin",
+      "player_id": 668909,
+      "opponent": "CWS",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "CWS",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 120,
+      "stars": 1,
+      "game_pk": 746617,
+      "game_time": null,
+      "result": "win",
+      "actual": 2,
+      "pnl": 120.0
     }
   ]
 }

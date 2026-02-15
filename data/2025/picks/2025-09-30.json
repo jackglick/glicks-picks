@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.915948+00:00",
+  "generated_at": "2026-02-15T01:38:43.226054+00:00",
   "date": "2025-09-30",
   "picks": [
     {
@@ -15,7 +15,7 @@
       "line": 7.5,
       "best_book": "draftkings",
       "best_price": 109,
-      "stars": 3,
+      "stars": 2,
       "game_pk": 813072,
       "game_time": null,
       "result": "loss",
@@ -41,6 +41,26 @@
       "result": "loss",
       "actual": 23,
       "pnl": -100.0
+    },
+    {
+      "player": "Ram\u00edrez, Jos\u00e9",
+      "player_id": 608070,
+      "opponent": "DET",
+      "player_team": "CLE",
+      "home_team": "CLE",
+      "away_team": "DET",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -160,
+      "stars": 1,
+      "game_pk": 813072,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 62.5
     }
   ]
 }

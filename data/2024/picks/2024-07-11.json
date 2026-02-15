@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.611542+00:00",
+  "generated_at": "2026-02-15T01:38:42.840385+00:00",
   "date": "2024-07-11",
   "picks": [
     {
@@ -141,26 +141,6 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "Peterson, David",
-      "player_id": 656849,
-      "opponent": "WSH",
-      "player_team": "NYM",
-      "home_team": "NYM",
-      "away_team": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "williamhill_us",
-      "best_price": -101,
-      "stars": 1,
-      "game_pk": 745799,
-      "game_time": null,
-      "result": "win",
-      "actual": 5,
-      "pnl": 99.01
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.078099+00:00",
+  "generated_at": "2026-02-15T01:38:42.163907+00:00",
   "date": "2024-09-11",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "win",
       "actual": 14,
       "pnl": 123.0
+    },
+    {
+      "player": "Kochanowicz, Jack",
+      "player_id": 686799,
+      "opponent": "MIN",
+      "player_team": "LAA",
+      "home_team": "MIN",
+      "away_team": "LAA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "betrivers",
+      "best_price": -115,
+      "stars": 3,
+      "game_pk": 745857,
+      "game_time": null,
+      "result": "loss",
+      "actual": 17,
+      "pnl": -100.0
     },
     {
       "player": "Manaea, Sean",
@@ -83,26 +103,6 @@
       "pnl": -100.0
     },
     {
-      "player": "Kochanowicz, Jack",
-      "player_id": 686799,
-      "opponent": "MIN",
-      "player_team": "LAA",
-      "home_team": "MIN",
-      "away_team": "LAA",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "betrivers",
-      "best_price": -115,
-      "stars": 2,
-      "game_pk": 745857,
-      "game_time": null,
-      "result": "loss",
-      "actual": 17,
-      "pnl": -100.0
-    },
-    {
       "player": "Bradford, Cody",
       "player_id": 674003,
       "opponent": "AZ",
@@ -121,6 +121,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 90.91
+    },
+    {
+      "player": "Fried, Max",
+      "player_id": 608331,
+      "opponent": "WSH",
+      "player_team": "ATL",
+      "home_team": "WSH",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 18.5,
+      "best_book": "betonlineag",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 744804,
+      "game_time": null,
+      "result": "win",
+      "actual": 17,
+      "pnl": 100.0
     },
     {
       "player": "Kelly, Merrill",

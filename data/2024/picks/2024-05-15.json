@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.578772+00:00",
+  "generated_at": "2026-02-15T01:38:42.805776+00:00",
   "date": "2024-05-15",
   "picks": [
     {
@@ -103,26 +103,6 @@
       "pnl": 150.0
     },
     {
-      "player": "Lucchesi, Joey",
-      "player_id": 664192,
-      "opponent": "PHI",
-      "player_team": "NYM",
-      "home_team": "PHI",
-      "away_team": "NYM",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -135,
-      "stars": 1,
-      "game_pk": 745582,
-      "game_time": null,
-      "result": "win",
-      "actual": 2,
-      "pnl": 74.07
-    },
-    {
       "player": "L\u00f3pez, Pablo",
       "player_id": 641154,
       "opponent": "NYY",
@@ -141,6 +121,26 @@
       "result": "loss",
       "actual": 19,
       "pnl": -100.0
+    },
+    {
+      "player": "Rogers, Trevor",
+      "player_id": 669432,
+      "opponent": "DET",
+      "player_team": "MIA",
+      "home_team": "DET",
+      "away_team": "MIA",
+      "market": "Hits Allowed",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 115,
+      "stars": 1,
+      "game_pk": 746472,
+      "game_time": null,
+      "result": "win",
+      "actual": 3,
+      "pnl": 115.0
     },
     {
       "player": "Stroman, Marcus",

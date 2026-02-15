@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.626137+00:00",
+  "generated_at": "2026-02-15T01:38:42.857738+00:00",
   "date": "2024-08-18",
   "picks": [
     {
@@ -123,6 +123,26 @@
       "pnl": 120.0
     },
     {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "LAD",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "LAD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 145,
+      "stars": 1,
+      "game_pk": 745139,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 145.0
+    },
+    {
       "player": "Kirby, George",
       "player_id": 669923,
       "opponent": "PIT",
@@ -141,26 +161,6 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "L\u00f3pez, Pablo",
-      "player_id": 641154,
-      "opponent": "TEX",
-      "player_team": "MIN",
-      "home_team": "TEX",
-      "away_team": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 130,
-      "stars": 1,
-      "game_pk": 744975,
-      "game_time": null,
-      "result": "win",
-      "actual": 3,
-      "pnl": 130.0
     },
     {
       "player": "Mahle, Tyler",

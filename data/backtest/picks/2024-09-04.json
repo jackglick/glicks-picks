@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-14T21:22:37.074725+00:00",
+  "generated_at": "2026-02-15T01:38:42.160079+00:00",
   "date": "2024-09-04",
   "picks": [
+    {
+      "player": "Lively, Ben",
+      "player_id": 594902,
+      "opponent": "KC",
+      "player_team": "CLE",
+      "home_team": "KC",
+      "away_team": "CLE",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": -129,
+      "stars": 3,
+      "game_pk": 746262,
+      "game_time": null,
+      "result": "win",
+      "actual": 12,
+      "pnl": 77.52
+    },
     {
       "player": "Morton, Charlie",
       "player_id": 450203,
@@ -43,6 +63,26 @@
       "pnl": 120.0
     },
     {
+      "player": "Francis, Bowden",
+      "player_id": 670102,
+      "opponent": "PHI",
+      "player_team": "TOR",
+      "home_team": "TOR",
+      "away_team": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 5.5,
+      "best_book": "betmgm",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 744887,
+      "game_time": null,
+      "result": "win",
+      "actual": 6,
+      "pnl": 110.0
+    },
+    {
       "player": "Gore, MacKenzie",
       "player_id": 669022,
       "opponent": "MIA",
@@ -63,24 +103,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Lively, Ben",
-      "player_id": 594902,
-      "opponent": "KC",
-      "player_team": "CLE",
-      "home_team": "KC",
-      "away_team": "CLE",
+      "player": "Houck, Tanner",
+      "player_id": 656557,
+      "opponent": "NYM",
+      "player_team": "BOS",
+      "home_team": "NYM",
+      "away_team": "BOS",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "betrivers",
-      "best_price": -129,
+      "best_book": "williamhill_us",
+      "best_price": 129,
       "stars": 2,
-      "game_pk": 746262,
+      "game_pk": 745776,
       "game_time": null,
       "result": "win",
-      "actual": 12,
-      "pnl": 77.52
+      "actual": 15,
+      "pnl": 129.0
     },
     {
       "player": "Cannon, Jonathan",
@@ -103,26 +143,6 @@
       "pnl": 80.0
     },
     {
-      "player": "Francis, Bowden",
-      "player_id": 670102,
-      "opponent": "PHI",
-      "player_team": "TOR",
-      "home_team": "TOR",
-      "away_team": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 5.5,
-      "best_book": "betmgm",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 744887,
-      "game_time": null,
-      "result": "win",
-      "actual": 6,
-      "pnl": 110.0
-    },
-    {
       "player": "Gray, Sonny",
       "player_id": 543243,
       "opponent": "MIL",
@@ -141,26 +161,6 @@
       "result": "loss",
       "actual": 20,
       "pnl": -100.0
-    },
-    {
-      "player": "Houck, Tanner",
-      "player_id": 656557,
-      "opponent": "NYM",
-      "player_team": "BOS",
-      "home_team": "NYM",
-      "away_team": "BOS",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "williamhill_us",
-      "best_price": 129,
-      "stars": 1,
-      "game_pk": 745776,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
-      "pnl": 129.0
     },
     {
       "player": "Imanaga, Shota",
@@ -201,26 +201,6 @@
       "result": "win",
       "actual": 12,
       "pnl": 115.0
-    },
-    {
-      "player": "S\u00e1nchez, Cristopher",
-      "player_id": 650911,
-      "opponent": "TOR",
-      "player_team": "PHI",
-      "home_team": "TOR",
-      "away_team": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "betmgm",
-      "best_price": 125,
-      "stars": 1,
-      "game_pk": 744887,
-      "game_time": null,
-      "result": "win",
-      "actual": 7,
-      "pnl": 125.0
     }
   ]
 }

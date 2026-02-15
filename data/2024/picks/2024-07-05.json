@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.608812+00:00",
+  "generated_at": "2026-02-15T01:38:42.836637+00:00",
   "date": "2024-07-05",
   "picks": [
     {
@@ -61,6 +61,26 @@
       "result": "win",
       "actual": 13,
       "pnl": 83.33
+    },
+    {
+      "player": "Gray, Sonny",
+      "player_id": 543243,
+      "opponent": "WSH",
+      "player_team": "STL",
+      "home_team": "WSH",
+      "away_team": "STL",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "betmgm",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 744836,
+      "game_time": null,
+      "result": "loss",
+      "actual": 6,
+      "pnl": -100.0
     },
     {
       "player": "Hoeing, Bryan",

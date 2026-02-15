@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.015799+00:00",
+  "generated_at": "2026-02-15T01:38:42.091770+00:00",
   "date": "2024-05-05",
   "picks": [
     {
@@ -23,6 +23,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "TB",
+      "player_team": "NYM",
+      "home_team": "TB",
+      "away_team": "NYM",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betonlineag",
+      "best_price": 100,
+      "stars": 3,
+      "game_pk": 745103,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 100.0
+    },
+    {
       "player": "Pepiot, Ryan",
       "player_id": 686752,
       "opponent": "NYM",
@@ -41,26 +61,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 120.0
-    },
-    {
-      "player": "Severino, Luis",
-      "player_id": 622663,
-      "opponent": "TB",
-      "player_team": "NYM",
-      "home_team": "TB",
-      "away_team": "NYM",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "betonlineag",
-      "best_price": 100,
-      "stars": 2,
-      "game_pk": 745103,
-      "game_time": null,
-      "result": "win",
-      "actual": 16,
-      "pnl": 100.0
     },
     {
       "player": "Boyle, Joe",
@@ -183,6 +183,26 @@
       "pnl": 83.33
     },
     {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "TOR",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "TOR",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -106,
+      "stars": 1,
+      "game_pk": 744861,
+      "game_time": null,
+      "result": "win",
+      "actual": 9,
+      "pnl": 94.34
+    },
+    {
       "player": "Kremer, Dean",
       "player_id": 665152,
       "opponent": "CIN",
@@ -220,26 +240,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 2,
-      "pnl": -100.0
-    },
-    {
-      "player": "Paxton, James",
-      "player_id": 572020,
-      "opponent": "ATL",
-      "player_team": "LAD",
-      "home_team": "LAD",
-      "away_team": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": 120,
-      "stars": 1,
-      "game_pk": 746153,
-      "game_time": null,
-      "result": "loss",
-      "actual": 3,
       "pnl": -100.0
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.618867+00:00",
+  "generated_at": "2026-02-15T01:38:42.848811+00:00",
   "date": "2024-07-31",
   "picks": [
     {
@@ -21,6 +21,26 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "player_id": 543294,
+      "opponent": "CIN",
+      "player_team": "CHC",
+      "home_team": "CIN",
+      "away_team": "CHC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": -100,
+      "stars": 3,
+      "game_pk": 746678,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 100.0
     },
     {
       "player": "Singer, Brady",
@@ -183,23 +203,23 @@
       "pnl": 116.0
     },
     {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "MIL",
-      "player_team": "ATL",
-      "home_team": "MIL",
-      "away_team": "ATL",
-      "market": "Strikeouts",
+      "player": "Severino, Luis",
+      "player_id": 622663,
+      "opponent": "MIN",
+      "player_team": "NYM",
+      "home_team": "NYM",
+      "away_team": "MIN",
+      "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 7.5,
+      "line": 17.5,
       "best_book": "fanduel",
       "best_price": 112,
       "stars": 1,
-      "game_pk": 745960,
+      "game_pk": 745789,
       "game_time": null,
       "result": "win",
-      "actual": 6,
+      "actual": 9,
       "pnl": 112.0
     }
   ]

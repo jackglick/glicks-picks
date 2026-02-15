@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.052586+00:00",
+  "generated_at": "2026-02-15T01:38:42.135056+00:00",
   "date": "2024-07-19",
   "picks": [
     {
@@ -103,6 +103,26 @@
       "pnl": 129.0
     },
     {
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "TOR",
+      "player_team": "DET",
+      "home_team": "TOR",
+      "away_team": "DET",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 5.5,
+      "best_book": "bovada",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 744911,
+      "game_time": null,
+      "result": "loss",
+      "actual": 8,
+      "pnl": -100.0
+    },
+    {
       "player": "Nelson, Ryne",
       "player_id": 669194,
       "opponent": "CHC",
@@ -160,26 +180,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 1,
-      "pnl": -100.0
-    },
-    {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "TOR",
-      "player_team": "DET",
-      "home_team": "TOR",
-      "away_team": "DET",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "bovada",
-      "best_price": 110,
-      "stars": 1,
-      "game_pk": 744911,
-      "game_time": null,
-      "result": "loss",
-      "actual": 8,
       "pnl": -100.0
     }
   ]

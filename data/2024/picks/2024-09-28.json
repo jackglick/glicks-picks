@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.648111+00:00",
+  "generated_at": "2026-02-15T01:38:42.878299+00:00",
   "date": "2024-09-28",
   "picks": [
     {
@@ -41,6 +41,46 @@
       "result": "win",
       "actual": 15,
       "pnl": 110.0
+    },
+    {
+      "player": "Gore, MacKenzie",
+      "player_id": 669022,
+      "opponent": "PHI",
+      "player_team": "WSH",
+      "home_team": "WSH",
+      "away_team": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -115,
+      "stars": 1,
+      "game_pk": 744799,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
+      "player": "Hendricks, Kyle",
+      "player_id": 543294,
+      "opponent": "CIN",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "CIN",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -125,
+      "stars": 1,
+      "game_pk": 746819,
+      "game_time": null,
+      "result": "loss",
+      "actual": 22,
+      "pnl": -100.0
     }
   ]
 }

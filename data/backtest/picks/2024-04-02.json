@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:36.997509+00:00",
+  "generated_at": "2026-02-15T01:38:42.070535+00:00",
   "date": "2024-04-02",
   "picks": [
     {
@@ -41,26 +41,6 @@
       "result": "win",
       "actual": 1,
       "pnl": 76.92
-    },
-    {
-      "player": "Junis, Jakob",
-      "player_id": 596001,
-      "opponent": "MIN",
-      "player_team": "MIL",
-      "home_team": "MIL",
-      "away_team": "MIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "bovada",
-      "best_price": 105,
-      "stars": 2,
-      "game_pk": 746009,
-      "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 105.0
     },
     {
       "player": "Junis, Jakob",
@@ -123,26 +103,6 @@
       "pnl": 80.0
     },
     {
-      "player": "Irvin, Cole",
-      "player_id": 608344,
-      "opponent": "KC",
-      "player_team": "BAL",
-      "home_team": "BAL",
-      "away_team": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 4.5,
-      "best_book": "draftkings",
-      "best_price": -115,
-      "stars": 1,
-      "game_pk": 747057,
-      "game_time": null,
-      "result": "win",
-      "actual": 3,
-      "pnl": 86.96
-    },
-    {
       "player": "Junis, Jakob",
       "player_id": 596001,
       "opponent": "MIN",
@@ -161,6 +121,26 @@
       "result": "win",
       "actual": 3,
       "pnl": 71.43
+    },
+    {
+      "player": "Junis, Jakob",
+      "player_id": 596001,
+      "opponent": "MIN",
+      "player_team": "MIL",
+      "home_team": "MIL",
+      "away_team": "MIN",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "bovada",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 746009,
+      "game_time": null,
+      "result": "win",
+      "actual": 4,
+      "pnl": 105.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.072363+00:00",
+  "generated_at": "2026-02-15T01:38:42.157686+00:00",
   "date": "2024-08-31",
   "picks": [
     {
@@ -15,11 +15,51 @@
       "line": 17.5,
       "best_book": "williamhill_us",
       "best_price": -111,
-      "stars": 1,
+      "stars": 2,
       "game_pk": 744971,
       "game_time": null,
       "result": "loss",
       "actual": 21,
+      "pnl": -100.0
+    },
+    {
+      "player": "Quintana, Jose",
+      "player_id": 500779,
+      "opponent": "CWS",
+      "player_team": "NYM",
+      "home_team": "CWS",
+      "away_team": "NYM",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "williamhill_us",
+      "best_price": 110,
+      "stars": 2,
+      "game_pk": 746751,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 110.0
+    },
+    {
+      "player": "Berr\u00edos, Jos\u00e9",
+      "player_id": 621244,
+      "opponent": "MIN",
+      "player_team": "TOR",
+      "home_team": "MIN",
+      "away_team": "TOR",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "betrivers",
+      "best_price": 112,
+      "stars": 1,
+      "game_pk": 745859,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
       "pnl": -100.0
     },
     {
@@ -41,6 +81,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 145.0
+    },
+    {
+      "player": "Kikuchi, Yusei",
+      "player_id": 579328,
+      "opponent": "KC",
+      "player_team": "HOU",
+      "home_team": "HOU",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "williamhill_us",
+      "best_price": 106,
+      "stars": 1,
+      "game_pk": 746348,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
     },
     {
       "player": "Kikuchi, Yusei",
@@ -123,24 +183,24 @@
       "pnl": -100.0
     },
     {
-      "player": "Quintana, Jose",
-      "player_id": 500779,
-      "opponent": "CWS",
-      "player_team": "NYM",
-      "home_team": "CWS",
-      "away_team": "NYM",
+      "player": "Ragans, Cole",
+      "player_id": 666142,
+      "opponent": "HOU",
+      "player_team": "KC",
+      "home_team": "HOU",
+      "away_team": "KC",
       "market": "Outs Recorded",
       "category": "pitcher",
       "direction": "UNDER",
       "line": 17.5,
-      "best_book": "williamhill_us",
-      "best_price": 110,
+      "best_book": "bovada",
+      "best_price": 150,
       "stars": 1,
-      "game_pk": 746751,
+      "game_pk": 746348,
       "game_time": null,
       "result": "win",
       "actual": 15,
-      "pnl": 110.0
+      "pnl": 150.0
     },
     {
       "player": "Skubal, Tarik",
@@ -161,6 +221,26 @@
       "result": "win",
       "actual": 0,
       "pnl": 76.92
+    },
+    {
+      "player": "V\u00e1squez, Randy",
+      "player_id": 681190,
+      "opponent": "TB",
+      "player_team": "SD",
+      "home_team": "TB",
+      "away_team": "SD",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "draftkings",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 745050,
+      "game_time": null,
+      "result": "loss",
+      "actual": 9,
+      "pnl": -100.0
     }
   ]
 }

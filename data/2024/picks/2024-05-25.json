@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.583780+00:00",
+  "generated_at": "2026-02-15T01:38:42.813252+00:00",
   "date": "2024-05-25",
   "picks": [
     {
@@ -123,6 +123,26 @@
       "pnl": 86.96
     },
     {
+      "player": "Greene, Hunter",
+      "player_id": 668881,
+      "opponent": "LAD",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "LAD",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 746710,
+      "game_time": null,
+      "result": "win",
+      "actual": 17,
+      "pnl": 100.0
+    },
+    {
       "player": "Lorenzen, Michael",
       "player_id": 547179,
       "opponent": "MIN",
@@ -181,6 +201,26 @@
       "result": "win",
       "actual": 6,
       "pnl": 128.0
+    },
+    {
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "TB",
+      "player_team": "KC",
+      "home_team": "TB",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 1,
+      "game_pk": 745086,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 100.0
     },
     {
       "player": "Taillon, Jameson",

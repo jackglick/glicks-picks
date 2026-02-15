@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.043191+00:00",
+  "generated_at": "2026-02-15T01:38:42.124543+00:00",
   "date": "2024-06-27",
   "picks": [
     {
@@ -83,6 +83,26 @@
       "pnl": 110.0
     },
     {
+      "player": "Hicks, Jordan",
+      "player_id": 663855,
+      "opponent": "CHC",
+      "player_team": "SF",
+      "home_team": "SF",
+      "away_team": "CHC",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 4.5,
+      "best_book": "draftkings",
+      "best_price": 105,
+      "stars": 1,
+      "game_pk": 745324,
+      "game_time": null,
+      "result": "win",
+      "actual": 7,
+      "pnl": 105.0
+    },
+    {
       "player": "Mikolas, Miles",
       "player_id": 571945,
       "opponent": "CIN",
@@ -101,26 +121,6 @@
       "result": "win",
       "actual": 13,
       "pnl": 146.0
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "CWS",
-      "player_team": "ATL",
-      "home_team": "CWS",
-      "away_team": "ATL",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "betonlineag",
-      "best_price": 128,
-      "stars": 1,
-      "game_pk": 746816,
-      "game_time": null,
-      "result": "loss",
-      "actual": 11,
-      "pnl": -100.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.051381+00:00",
+  "generated_at": "2026-02-15T01:38:42.133778+00:00",
   "date": "2024-07-13",
   "picks": [
     {
@@ -103,6 +103,26 @@
       "pnl": 71.43
     },
     {
+      "player": "Lugo, Seth",
+      "player_id": 607625,
+      "opponent": "BOS",
+      "player_team": "KC",
+      "home_team": "BOS",
+      "away_team": "KC",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "fanduel",
+      "best_price": 150,
+      "stars": 2,
+      "game_pk": 746930,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 150.0
+    },
+    {
       "player": "L\u00f3pez, Reynaldo",
       "player_id": 625643,
       "opponent": "SD",
@@ -180,46 +200,6 @@
       "game_time": null,
       "result": "loss",
       "actual": 18,
-      "pnl": -100.0
-    },
-    {
-      "player": "Lugo, Seth",
-      "player_id": 607625,
-      "opponent": "BOS",
-      "player_team": "KC",
-      "home_team": "BOS",
-      "away_team": "KC",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "fanduel",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 746930,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
-      "pnl": 150.0
-    },
-    {
-      "player": "Lugo, Seth",
-      "player_id": 607625,
-      "opponent": "BOS",
-      "player_team": "KC",
-      "home_team": "BOS",
-      "away_team": "KC",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "draftkings",
-      "best_price": -110,
-      "stars": 1,
-      "game_pk": 746930,
-      "game_time": null,
-      "result": "loss",
-      "actual": 6,
       "pnl": -100.0
     },
     {

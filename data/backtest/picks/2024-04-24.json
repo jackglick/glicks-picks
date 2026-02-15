@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-02-14T21:22:37.009998+00:00",
+  "generated_at": "2026-02-15T01:38:42.084838+00:00",
   "date": "2024-04-24",
   "picks": [
+    {
+      "player": "Lodolo, Nick",
+      "player_id": 666157,
+      "opponent": "PHI",
+      "player_team": "CIN",
+      "home_team": "CIN",
+      "away_team": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "consensus",
+      "best_price": -103,
+      "stars": 3,
+      "game_pk": 746725,
+      "game_time": null,
+      "result": "win",
+      "actual": 13,
+      "pnl": 97.09
+    },
     {
       "player": "L\u00f3pez, Reynaldo",
       "player_id": 625643,
@@ -21,6 +41,26 @@
       "result": "loss",
       "actual": 2,
       "pnl": -100.0
+    },
+    {
+      "player": "Flaherty, Jack",
+      "player_id": 656427,
+      "opponent": "TB",
+      "player_team": "DET",
+      "home_team": "TB",
+      "away_team": "DET",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -110,
+      "stars": 2,
+      "game_pk": 745099,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 90.91
     },
     {
       "player": "Gibson, Kyle",
@@ -103,24 +143,24 @@
       "pnl": 95.24
     },
     {
-      "player": "Flaherty, Jack",
-      "player_id": 656427,
-      "opponent": "TB",
-      "player_team": "DET",
-      "home_team": "TB",
-      "away_team": "DET",
-      "market": "Outs Recorded",
+      "player": "L\u00f3pez, Reynaldo",
+      "player_id": 625643,
+      "opponent": "MIA",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "MIA",
+      "market": "Hits Allowed",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
+      "line": 4.5,
       "best_book": "draftkings",
-      "best_price": -110,
+      "best_price": 115,
       "stars": 1,
-      "game_pk": 745099,
+      "game_pk": 747132,
       "game_time": null,
       "result": "win",
-      "actual": 15,
-      "pnl": 90.91
+      "actual": 3,
+      "pnl": 115.0
     }
   ]
 }

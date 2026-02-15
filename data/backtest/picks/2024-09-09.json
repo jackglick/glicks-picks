@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.077009+00:00",
+  "generated_at": "2026-02-15T01:38:42.162748+00:00",
   "date": "2024-09-09",
   "picks": [
     {
@@ -103,23 +103,23 @@
       "pnl": 120.0
     },
     {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "MIA",
-      "player_team": "PIT",
-      "home_team": "PIT",
-      "away_team": "MIA",
-      "market": "Strikeouts",
+      "player": "Singer, Brady",
+      "player_id": 663903,
+      "opponent": "NYY",
+      "player_team": "KC",
+      "home_team": "NYY",
+      "away_team": "KC",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 6.5,
-      "best_book": "betmgm",
-      "best_price": 125,
+      "line": 2.5,
+      "best_book": "williamhill_us",
+      "best_price": -101,
       "stars": 1,
-      "game_pk": 745454,
+      "game_pk": 745698,
       "game_time": null,
       "result": "loss",
-      "actual": 9,
+      "actual": 3,
       "pnl": -100.0
     }
   ]

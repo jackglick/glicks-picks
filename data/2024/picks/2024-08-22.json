@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.629465+00:00",
+  "generated_at": "2026-02-15T01:38:42.859382+00:00",
   "date": "2024-08-22",
   "picks": [
     {
@@ -63,6 +63,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Schwellenbach, Spencer",
+      "player_id": 680885,
+      "opponent": "PHI",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "PHI",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "OVER",
+      "line": 6.5,
+      "best_book": "fanduel",
+      "best_price": 112,
+      "stars": 2,
+      "game_pk": 747082,
+      "game_time": null,
+      "result": "win",
+      "actual": 9,
+      "pnl": 112.0
+    },
+    {
       "player": "Arrighetti, Spencer",
       "player_id": 681293,
       "opponent": "BAL",
@@ -101,46 +121,6 @@
       "result": "win",
       "actual": 15,
       "pnl": 86.96
-    },
-    {
-      "player": "Schwellenbach, Spencer",
-      "player_id": 680885,
-      "opponent": "PHI",
-      "player_team": "ATL",
-      "home_team": "ATL",
-      "away_team": "PHI",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "OVER",
-      "line": 6.5,
-      "best_book": "fanduel",
-      "best_price": 112,
-      "stars": 1,
-      "game_pk": 747082,
-      "game_time": null,
-      "result": "win",
-      "actual": 9,
-      "pnl": 112.0
-    },
-    {
-      "player": "Skenes, Paul",
-      "player_id": 694973,
-      "opponent": "CIN",
-      "player_team": "PIT",
-      "home_team": "PIT",
-      "away_team": "CIN",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 7.5,
-      "best_book": "fanduel",
-      "best_price": -112,
-      "stars": 1,
-      "game_pk": 745465,
-      "game_time": null,
-      "result": "loss",
-      "actual": 9,
-      "pnl": -100.0
     }
   ]
 }

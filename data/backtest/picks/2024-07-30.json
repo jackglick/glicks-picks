@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.057816+00:00",
+  "generated_at": "2026-02-15T01:38:42.141034+00:00",
   "date": "2024-07-30",
   "picks": [
     {
@@ -61,6 +61,46 @@
       "result": "win",
       "actual": 15,
       "pnl": 88.5
+    },
+    {
+      "player": "Bassitt, Chris",
+      "player_id": 605135,
+      "opponent": "BAL",
+      "player_team": "TOR",
+      "home_team": "BAL",
+      "away_team": "TOR",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 115,
+      "stars": 2,
+      "game_pk": 747005,
+      "game_time": null,
+      "result": "win",
+      "actual": 12,
+      "pnl": 115.0
+    },
+    {
+      "player": "Springs, Jeffrey",
+      "player_id": 605488,
+      "opponent": "MIA",
+      "player_team": "TB",
+      "home_team": "TB",
+      "away_team": "MIA",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": 104,
+      "stars": 2,
+      "game_pk": 745060,
+      "game_time": null,
+      "result": "win",
+      "actual": 11,
+      "pnl": 104.0
     },
     {
       "player": "Castillo, Luis",

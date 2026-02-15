@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.615918+00:00",
+  "generated_at": "2026-02-15T01:38:42.845686+00:00",
   "date": "2024-07-24",
   "picks": [
     {
@@ -61,6 +61,26 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
+    },
+    {
+      "player": "Sears, JP",
+      "player_id": 676664,
+      "opponent": "HOU",
+      "player_team": "ATH",
+      "home_team": "ATH",
+      "away_team": "HOU",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 100,
+      "stars": 3,
+      "game_pk": 745634,
+      "game_time": null,
+      "result": "win",
+      "actual": 16,
+      "pnl": 100.0
     },
     {
       "player": "Waldron, Matt",
@@ -149,18 +169,18 @@
       "player_team": "ATH",
       "home_team": "ATH",
       "away_team": "HOU",
-      "market": "Outs Recorded",
+      "market": "Earned Runs",
       "category": "pitcher",
       "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 100,
-      "stars": 2,
+      "line": 2.5,
+      "best_book": "bovada",
+      "best_price": 115,
+      "stars": 1,
       "game_pk": 745634,
       "game_time": null,
-      "result": "win",
-      "actual": 16,
-      "pnl": 100.0
+      "result": "loss",
+      "actual": 7,
+      "pnl": -100.0
     },
     {
       "player": "Winans, Allan",
@@ -175,31 +195,11 @@
       "line": 4.5,
       "best_book": "fanduel",
       "best_price": -102,
-      "stars": 2,
+      "stars": 1,
       "game_pk": 747091,
       "game_time": null,
       "result": "loss",
       "actual": 3,
-      "pnl": -100.0
-    },
-    {
-      "player": "Sears, JP",
-      "player_id": 676664,
-      "opponent": "HOU",
-      "player_team": "ATH",
-      "home_team": "ATH",
-      "away_team": "HOU",
-      "market": "Earned Runs",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 2.5,
-      "best_book": "bovada",
-      "best_price": 115,
-      "stars": 1,
-      "game_pk": 745634,
-      "game_time": null,
-      "result": "loss",
-      "actual": 7,
       "pnl": -100.0
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.570395+00:00",
+  "generated_at": "2026-02-15T01:38:42.784140+00:00",
   "date": "2024-04-27",
   "picks": [
     {
@@ -43,6 +43,26 @@
       "pnl": 120.0
     },
     {
+      "player": "Rod\u00f3n, Carlos",
+      "player_id": 607074,
+      "opponent": "MIL",
+      "player_team": "NYY",
+      "home_team": "MIL",
+      "away_team": "NYY",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": -125,
+      "stars": 3,
+      "game_pk": 745998,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
+    },
+    {
       "player": "Singer, Brady",
       "player_id": 663903,
       "opponent": "DET",
@@ -63,6 +83,26 @@
       "pnl": 145.0
     },
     {
+      "player": "Irvin, Cole",
+      "player_id": 608344,
+      "opponent": "ATH",
+      "player_team": "BAL",
+      "home_team": "BAL",
+      "away_team": "ATH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "williamhill_us",
+      "best_price": -106,
+      "stars": 2,
+      "game_pk": 747052,
+      "game_time": null,
+      "result": "loss",
+      "actual": 21,
+      "pnl": -100.0
+    },
+    {
       "player": "Mize, Casey",
       "player_id": 663554,
       "opponent": "KC",
@@ -81,26 +121,6 @@
       "result": "win",
       "actual": 16,
       "pnl": 115.0
-    },
-    {
-      "player": "Rod\u00f3n, Carlos",
-      "player_id": 607074,
-      "opponent": "MIL",
-      "player_team": "NYY",
-      "home_team": "MIL",
-      "away_team": "NYY",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": -125,
-      "stars": 2,
-      "game_pk": 745998,
-      "game_time": null,
-      "result": "loss",
-      "actual": 18,
-      "pnl": -100.0
     },
     {
       "player": "Bibee, Tanner",
@@ -161,26 +181,6 @@
       "result": "win",
       "actual": 14,
       "pnl": 90.91
-    },
-    {
-      "player": "Cabrera, Edward",
-      "player_id": 665795,
-      "opponent": "WSH",
-      "player_team": "MIA",
-      "home_team": "MIA",
-      "away_team": "WSH",
-      "market": "Strikeouts",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 5.5,
-      "best_book": "williamhill_us",
-      "best_price": -104,
-      "stars": 1,
-      "game_pk": 746075,
-      "game_time": null,
-      "result": "win",
-      "actual": 4,
-      "pnl": 96.15
     },
     {
       "player": "Glasnow, Tyler",
@@ -263,26 +263,6 @@
       "pnl": 105.0
     },
     {
-      "player": "Irvin, Cole",
-      "player_id": 608344,
-      "opponent": "ATH",
-      "player_team": "BAL",
-      "home_team": "BAL",
-      "away_team": "ATH",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 16.5,
-      "best_book": "williamhill_us",
-      "best_price": -106,
-      "stars": 1,
-      "game_pk": 747052,
-      "game_time": null,
-      "result": "loss",
-      "actual": 21,
-      "pnl": -100.0
-    },
-    {
       "player": "Quantrill, Cal",
       "player_id": 615698,
       "opponent": "HOU",
@@ -320,6 +300,26 @@
       "game_time": null,
       "result": "loss",
       "actual": 2,
+      "pnl": -100.0
+    },
+    {
+      "player": "Ross, Joe",
+      "player_id": 605452,
+      "opponent": "NYY",
+      "player_team": "MIL",
+      "home_team": "MIL",
+      "away_team": "NYY",
+      "market": "Earned Runs",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 2.5,
+      "best_book": "williamhill_us",
+      "best_price": -113,
+      "stars": 1,
+      "game_pk": 745998,
+      "game_time": null,
+      "result": "loss",
+      "actual": 6,
       "pnl": -100.0
     }
   ]

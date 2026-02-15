@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.028468+00:00",
+  "generated_at": "2026-02-15T01:38:42.106323+00:00",
   "date": "2024-05-29",
   "picks": [
     {
@@ -35,7 +35,7 @@
       "line": 16.5,
       "best_book": "fanduel",
       "best_price": -118,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 746706,
       "game_time": null,
       "result": "win",
@@ -141,6 +141,26 @@
       "result": "win",
       "actual": 1,
       "pnl": 68.97
+    },
+    {
+      "player": "S\u00e1nchez, Cristopher",
+      "player_id": 650911,
+      "opponent": "SF",
+      "player_team": "PHI",
+      "home_team": "SF",
+      "away_team": "PHI",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "consensus",
+      "best_price": -130,
+      "stars": 1,
+      "game_pk": 745333,
+      "game_time": null,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -100.0
     }
   ]
 }

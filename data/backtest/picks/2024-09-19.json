@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T21:22:37.081744+00:00",
+  "generated_at": "2026-02-15T01:38:42.167935+00:00",
   "date": "2024-09-19",
   "picks": [
     {
@@ -63,6 +63,46 @@
       "pnl": -100.0
     },
     {
+      "player": "Sale, Chris",
+      "player_id": 519242,
+      "opponent": "CIN",
+      "player_team": "ATL",
+      "home_team": "CIN",
+      "away_team": "ATL",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 17.5,
+      "best_book": "draftkings",
+      "best_price": 150,
+      "stars": 2,
+      "game_pk": 746663,
+      "game_time": null,
+      "result": "win",
+      "actual": 15,
+      "pnl": 150.0
+    },
+    {
+      "player": "Assad, Javier",
+      "player_id": 665871,
+      "opponent": "WSH",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "WSH",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "betmgm",
+      "best_price": -105,
+      "stars": 1,
+      "game_pk": 746823,
+      "game_time": null,
+      "result": "win",
+      "actual": 14,
+      "pnl": 95.24
+    },
+    {
       "player": "Fedde, Erick",
       "player_id": 607200,
       "opponent": "PIT",
@@ -83,6 +123,26 @@
       "pnl": -100.0
     },
     {
+      "player": "Fedde, Erick",
+      "player_id": 607200,
+      "opponent": "PIT",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "PIT",
+      "market": "Strikeouts",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 4.5,
+      "best_book": "fanduel",
+      "best_price": 108,
+      "stars": 1,
+      "game_pk": 745120,
+      "game_time": null,
+      "result": "win",
+      "actual": 3,
+      "pnl": 108.0
+    },
+    {
       "player": "Ortiz, Luis",
       "player_id": 682847,
       "opponent": "STL",
@@ -101,26 +161,6 @@
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
-    },
-    {
-      "player": "Sale, Chris",
-      "player_id": 519242,
-      "opponent": "CIN",
-      "player_team": "ATL",
-      "home_team": "CIN",
-      "away_team": "ATL",
-      "market": "Outs Recorded",
-      "category": "pitcher",
-      "direction": "UNDER",
-      "line": 17.5,
-      "best_book": "draftkings",
-      "best_price": 150,
-      "stars": 1,
-      "game_pk": 746663,
-      "game_time": null,
-      "result": "win",
-      "actual": 15,
-      "pnl": 150.0
     }
   ]
 }
