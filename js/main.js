@@ -739,7 +739,6 @@
     var summary = document.getElementById('books-filter-summary');
     var offseasonHero = document.getElementById('offseason-hero');
     var picksControls = document.getElementById('picks-controls');
-    var picksLegend = document.querySelector('.picks-legend');
     if (!container || !emptyEl) return;
 
     clearChildren(container);
@@ -755,7 +754,6 @@
       container.style.display = 'none';
       emptyEl.style.display = '';
       if (picksControls) picksControls.style.display = 'none';
-      if (picksLegend) picksLegend.style.display = 'none';
 
       // Offseason state: 0 picks and not in archive mode
       if (!isArchiveSeason() && offseasonHero) {
@@ -787,7 +785,6 @@
     container.style.display = '';
     emptyEl.style.display = 'none';
     if (picksControls) picksControls.style.display = '';
-    if (picksLegend) picksLegend.style.display = '';
 
     // Remove legacy best-bets section if present
     var bestBetsSection = container.parentNode ? container.parentNode.querySelector('.best-bets-section') : null;
@@ -877,13 +874,8 @@
         header.appendChild(createTeamBadge(normalizeTeamCode(group.home_team), 'right'));
         section.appendChild(header);
 
-        // Sort picks within group: 3-star first
-        var sorted = group.picks.slice().sort(function (a, b) {
-          return b.stars - a.stars;
-        });
-
         var grid = el('div', 'picks-grid');
-        sorted.forEach(function (pick) {
+        group.picks.forEach(function (pick) {
           grid.appendChild(renderPickCard(pick));
         });
         section.appendChild(grid);
@@ -1268,47 +1260,6 @@
   }
 
   // --- Results Page ---
-  function renderStarTierStats(data) {
-    var container = document.getElementById('star-tier-stats');
-    if (!container || !data || !Array.isArray(data.star_tier_stats)) return;
-    clearChildren(container);
-    var tiers = data.star_tier_stats;
-    if (tiers.length === 0) return;
-
-    container.appendChild(el('h3', 'results-section-heading', 'By Confidence Tier'));
-
-    var scrollWrap = el('div', 'results-table-scroll');
-    var table = document.createElement('table');
-    table.className = 'results-table';
-    var thead = document.createElement('thead');
-    var headRow = document.createElement('tr');
-    ['Stars', 'Bets', 'Record', 'Win Rate', 'Flat Return', '2% Return'].forEach(function (h) {
-      headRow.appendChild(el('th', '', h));
-    });
-    thead.appendChild(headRow);
-    table.appendChild(thead);
-
-    var tbody = document.createElement('tbody');
-    tiers.forEach(function (t) {
-      var tr = document.createElement('tr');
-      tr.appendChild(el('td', '', renderStars(t.stars || 0)));
-      tr.appendChild(el('td', '', String(t.bets || 0)));
-      var record = (t.wins || 0) + '-' + (t.losses || 0);
-      if (t.pushes > 0) record += '-' + t.pushes;
-      tr.appendChild(el('td', '', record));
-      tr.appendChild(el('td', '', (t.win_rate != null ? t.win_rate.toFixed(1) : '0.0') + '%'));
-      var flatRet = t.flat_return != null ? t.flat_return : (t.pnl || 0) / 5000 * 100;
-      tr.appendChild(el('td', flatRet >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%'));
-      var pctRet = t.pct_return != null ? t.pct_return : 0;
-      tr.appendChild(el('td', pctRet >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (pctRet >= 0 ? '+' : '') + pctRet.toFixed(1) + '%'));
-      tbody.appendChild(tr);
-    });
-    table.appendChild(tbody);
-    scrollWrap.appendChild(table);
-    container.appendChild(scrollWrap);
-  }
 
   function renderDirectionStats(data) {
     var container = document.getElementById('direction-stats');
@@ -1575,10 +1526,7 @@
       // Recent picks with pagination (item 23)
       renderRecentPicks(data);
 
-      // Star tier stats (item 20)
-      renderStarTierStats(data);
-
-      // Direction stats (item 21)
+      // Direction stats
       renderDirectionStats(data);
 
       // Drawdown and streak (item 22)
