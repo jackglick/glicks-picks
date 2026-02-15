@@ -1303,7 +1303,7 @@
     table.className = 'results-table';
     var thead = document.createElement('thead');
     var headRow = document.createElement('tr');
-    ['Stars', 'Bets', 'Record', 'Win Rate', 'Return', 'Bet ROI'].forEach(function (h) {
+    ['Stars', 'Bets', 'Record', 'Win Rate', '$100', '2%'].forEach(function (h) {
       headRow.appendChild(el('th', '', h));
     });
     thead.appendChild(headRow);
@@ -1318,12 +1318,12 @@
       if (t.pushes > 0) record += '-' + t.pushes;
       tr.appendChild(el('td', '', record));
       tr.appendChild(el('td', '', (t.win_rate != null ? t.win_rate.toFixed(1) : '0.0') + '%'));
-      var bkPct = t.bankroll_pct != null ? t.bankroll_pct : (t.pnl || 0) / 5000 * 100;
-      tr.appendChild(el('td', bkPct >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (bkPct >= 0 ? '+' : '') + bkPct.toFixed(1) + '%'));
-      var roiVal = t.roi || 0;
-      tr.appendChild(el('td', roiVal >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (roiVal >= 0 ? '+' : '') + roiVal.toFixed(1) + '%'));
+      var flatRet = t.flat_return != null ? t.flat_return : (t.pnl || 0) / 5000 * 100;
+      tr.appendChild(el('td', flatRet >= 0 ? 'pnl-positive' : 'pnl-negative',
+        (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%'));
+      var pctRet = t.pct_return != null ? t.pct_return : 0;
+      tr.appendChild(el('td', pctRet >= 0 ? 'pnl-positive' : 'pnl-negative',
+        (pctRet >= 0 ? '+' : '') + pctRet.toFixed(1) + '%'));
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
@@ -1345,7 +1345,7 @@
     table.className = 'results-table';
     var thead = document.createElement('thead');
     var headRow = document.createElement('tr');
-    ['Direction', 'Bets', 'Win Rate', 'Return', 'Bet ROI'].forEach(function (h) {
+    ['Direction', 'Bets', 'Win Rate', '$100', '2%'].forEach(function (h) {
       headRow.appendChild(el('th', '', h));
     });
     thead.appendChild(headRow);
@@ -1357,12 +1357,12 @@
       tr.appendChild(el('td', '', String(d.direction || '')));
       tr.appendChild(el('td', '', String(d.bets || 0)));
       tr.appendChild(el('td', '', (d.win_rate != null ? d.win_rate.toFixed(1) : '0.0') + '%'));
-      var bkPct = d.bankroll_pct != null ? d.bankroll_pct : (d.pnl || 0) / 5000 * 100;
-      tr.appendChild(el('td', bkPct >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (bkPct >= 0 ? '+' : '') + bkPct.toFixed(1) + '%'));
-      var roiVal = d.roi || 0;
-      tr.appendChild(el('td', roiVal >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (roiVal >= 0 ? '+' : '') + roiVal.toFixed(1) + '%'));
+      var flatRet = d.flat_return != null ? d.flat_return : (d.pnl || 0) / 5000 * 100;
+      tr.appendChild(el('td', flatRet >= 0 ? 'pnl-positive' : 'pnl-negative',
+        (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%'));
+      var pctRet = d.pct_return != null ? d.pct_return : 0;
+      tr.appendChild(el('td', pctRet >= 0 ? 'pnl-positive' : 'pnl-negative',
+        (pctRet >= 0 ? '+' : '') + pctRet.toFixed(1) + '%'));
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
@@ -1583,13 +1583,12 @@
           tr.appendChild(el('td', '', String(m.bets)));
           tr.appendChild(el('td', '', m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : '')));
           tr.appendChild(el('td', '', m.win_rate.toFixed(1) + '%'));
-          var bkPct = m.bankroll_pct != null ? m.bankroll_pct : (m.pnl / 5000 * 100);
-          var tdReturn = el('td', bkPct >= 0 ? 'pnl-positive' : 'pnl-negative',
-            (bkPct >= 0 ? '+' : '') + bkPct.toFixed(1) + '%');
-          tr.appendChild(tdReturn);
-          var tdRoi = el('td', m.roi >= 0 ? 'pnl-positive' : 'pnl-negative',
-            (m.roi >= 0 ? '+' : '') + m.roi.toFixed(1) + '%');
-          tr.appendChild(tdRoi);
+          var flatRet = m.flat_return != null ? m.flat_return : (m.pnl / 5000 * 100);
+          tr.appendChild(el('td', flatRet >= 0 ? 'pnl-positive' : 'pnl-negative',
+            (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%'));
+          var pctRet = m.pct_return != null ? m.pct_return : 0;
+          tr.appendChild(el('td', pctRet >= 0 ? 'pnl-positive' : 'pnl-negative',
+            (pctRet >= 0 ? '+' : '') + pctRet.toFixed(1) + '%'));
           marketBody.appendChild(tr);
         });
       }

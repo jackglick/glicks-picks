@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T02:06:45.975378+00:00",
+  "generated_at": "2026-02-15T02:20:22.443600+00:00",
   "summary": {
     "total_bets": 3896,
     "wins": 2214,
@@ -43,7 +43,8 @@
       "win_rate": 64.1,
       "pnl": 330.21,
       "roi": 1.7,
-      "bankroll_pct": 6.6,
+      "flat_return": 6.6,
+      "pct_return": 52.2,
       "ci_win_rate": [
         56.3,
         72.0
@@ -63,7 +64,8 @@
       "win_rate": 60.6,
       "pnl": 2628.2,
       "roi": 1.4,
-      "bankroll_pct": 52.6,
+      "flat_return": 52.6,
+      "pct_return": 260.9,
       "ci_win_rate": [
         58.2,
         63.0
@@ -83,7 +85,8 @@
       "win_rate": 51.9,
       "pnl": 362.03,
       "roi": 2.7,
-      "bankroll_pct": 7.2,
+      "flat_return": 7.2,
+      "pct_return": -14.5,
       "ci_win_rate": [
         43.3,
         60.5
@@ -103,7 +106,8 @@
       "win_rate": 46.9,
       "pnl": -279.47,
       "roi": -4.4,
-      "bankroll_pct": -5.6,
+      "flat_return": -5.6,
+      "pct_return": -1.0,
       "ci_win_rate": [
         34.4,
         59.4
@@ -123,7 +127,8 @@
       "win_rate": 51.8,
       "pnl": 8180.39,
       "roi": 6.8,
-      "bankroll_pct": 163.6,
+      "flat_return": 163.6,
+      "pct_return": 287.0,
       "ci_win_rate": [
         48.9,
         54.6
@@ -143,7 +148,8 @@
       "win_rate": 55.7,
       "pnl": 3281.65,
       "roi": 12.5,
-      "bankroll_pct": 65.6,
+      "flat_return": 65.6,
+      "pct_return": 155.6,
       "ci_win_rate": [
         49.4,
         61.7
@@ -163,7 +169,8 @@
       "win_rate": 50.7,
       "pnl": 362.68,
       "roi": 2.6,
-      "bankroll_pct": 7.3,
+      "flat_return": 7.3,
+      "pct_return": 30.9,
       "ci_win_rate": [
         42.5,
         59.0
@@ -184,7 +191,8 @@
       "win_rate": 58.4,
       "pnl": 7557.12,
       "roi": 3.0,
-      "bankroll_pct": 151.1
+      "flat_return": 151.1,
+      "pct_return": 330.5
     },
     {
       "stars": 2,
@@ -195,7 +203,8 @@
       "win_rate": 55.6,
       "pnl": 5229.96,
       "roi": 5.5,
-      "bankroll_pct": 104.6
+      "flat_return": 104.6,
+      "pct_return": 332.3
     },
     {
       "stars": 3,
@@ -206,7 +215,8 @@
       "win_rate": 50.7,
       "pnl": 2078.61,
       "roi": 4.7,
-      "bankroll_pct": 41.6
+      "flat_return": 41.6,
+      "pct_return": 108.3
     }
   ],
   "direction_stats": [
@@ -219,7 +229,8 @@
       "win_rate": 52.7,
       "pnl": 1614.6,
       "roi": 7.2,
-      "bankroll_pct": 32.3
+      "flat_return": 32.3,
+      "pct_return": 120.1
     },
     {
       "direction": "UNDER",
@@ -230,7 +241,8 @@
       "win_rate": 57.1,
       "pnl": 13251.09,
       "roi": 3.6,
-      "bankroll_pct": 265.0
+      "flat_return": 265.0,
+      "pct_return": 650.9
     }
   ],
   "player_attention": {
