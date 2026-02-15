@@ -109,7 +109,6 @@ html:not(.js) .reveal {
     transition: none;
   }
 
-  .step,
   .nav-links a,
   .cta-button {
     transition: none;
@@ -522,10 +521,11 @@ body.backtest-mode .mobile-nav {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  width: 100%;
 }
 
-.hero-stat { text-align: center; }
+.hero-stat { text-align: center; min-width: 0; }
 
 .hero-stat-number {
   font-family: var(--mono);
@@ -575,292 +575,45 @@ body.backtest-mode .mobile-nav {
   background: var(--accent-hover);
 }
 
-/* --- How It Works --- */
-.how-it-works {
-  padding: 4rem 0;
-}
-
-.steps {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
-  margin-top: 3rem;
-}
-
-.step {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 2rem 1.75rem;
-  position: relative;
-  transition: border-color 0.3s;
-}
-.step:hover {
-  border-color: rgba(26, 127, 109, 0.20);
-}
-
-.step-number {
-  font-family: var(--mono);
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--accent);
-  letter-spacing: 0.05em;
-  margin-bottom: 1rem;
-}
-
-.step h3 {
-  font-size: 1.15rem;
-  font-weight: 800;
-  margin-bottom: 0.6rem;
-  letter-spacing: -0.01em;
-}
-
-.step p {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  line-height: 1.65;
-}
-
-/* --- The Edge (Dark Section) --- */
-.the-edge {
-  position: relative;
-  padding: 4rem 0;
-  background: var(--navy);
-  color: #ffffff;
-  overflow: hidden;
-}
-
-.the-edge::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: url('../images/edge-bg.jpg') center/cover no-repeat;
-  opacity: 0.12;
-  filter: blur(1px);
-  pointer-events: none;
-}
-
-.the-edge > .container {
-  position: relative;
-  z-index: 1;
-}
-
-.the-edge .section-title {
-  color: #ffffff;
-}
-
-.the-edge .section-subtitle {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* Edge Highlight */
-.edge-highlight {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.edge-highlight-inner {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-  background: linear-gradient(135deg, rgba(26, 127, 109, 0.12), rgba(26, 127, 109, 0.04));
-  border: 1px solid rgba(26, 127, 109, 0.25);
-  border-radius: 10px;
-  padding: 2rem 1.5rem;
-  text-align: center;
-}
-
-.edge-highlight-number {
-  font-family: var(--mono);
-  font-size: clamp(2rem, 5vw, 2.75rem);
-  font-weight: 700;
-  color: var(--accent);
-}
-
-.edge-highlight-text {
-  font-size: clamp(0.95rem, 2vw, 1.1rem);
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* Edge Explainer */
-.edge-explainer-card {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  border-radius: 10px;
-  padding: 2rem 1.75rem;
-}
-
-.edge-explainer-card h3 {
-  font-size: 1rem;
-  font-weight: 800;
-  margin-bottom: 0.6rem;
-  color: #ffffff;
-}
-
-.edge-explainer-card p {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.7);
-  line-height: 1.65;
-}
-
-/* --- Market Grid (The Edge) --- */
-.market-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  margin-top: 3rem;
-}
-
-.market-card {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  border-radius: 10px;
-  padding: 1.25rem 1.5rem;
-}
-
-.market-type {
-  display: inline-block;
-  font-size: 0.6rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  padding: 0.2rem 0.5rem;
-  border-radius: 3px;
-  margin-bottom: 0.5rem;
-}
-
-.market-type.pitcher {
-  color: var(--accent);
-  background: rgba(26, 127, 109, 0.15);
-}
-
-.market-type.batter {
-  color: var(--yellow);
-  background: rgba(212, 148, 10, 0.15);
-}
-
-.market-card h3 {
-  font-size: 1.05rem;
-  font-weight: 800;
-  color: #ffffff;
-  margin-bottom: 0.75rem;
-}
-
-.market-nums {
-  display: flex;
-  gap: 1.25rem;
+/* --- Hero stat context line --- */
+.hero-stat-context {
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 0.5rem;
-}
-
-.market-val {
-  font-family: var(--mono);
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: #ffffff;
-}
-
-.market-val.accent {
-  color: var(--accent);
-}
-
-.market-val.accent.negative {
-  color: #ef4444;
-}
-
-.market-sample {
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.35);
-}
-
-/* --- What's Next --- */
-.whats-next {
-  padding: 4rem 0;
-}
-
-.next-items {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
-  margin-top: 2.5rem;
-}
-
-.next-item {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 2rem 1.75rem;
-}
-.next-item.active {
-  border-color: rgba(26, 127, 109, 0.25);
-}
-
-.next-tag {
-  display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  padding: 0.25rem 0.6rem;
-  border-radius: 4px;
-  margin-bottom: 0.75rem;
-}
-.next-item.active .next-tag {
-  color: var(--accent);
-  background: var(--accent-dim);
-}
-.next-item:not(.active) .next-tag {
-  color: var(--text-dim);
-  background: rgba(71, 85, 105, 0.15);
-}
-
-.next-item h3 {
-  font-size: 1.15rem;
-  font-weight: 800;
-  margin-bottom: 0.6rem;
-}
-
-.next-item p {
-  font-size: 0.9rem;
   color: var(--text-secondary);
-  line-height: 1.65;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 16px rgba(250, 247, 242, 0.95), 0 0 32px rgba(250, 247, 242, 0.7);
 }
 
-/* --- About --- */
-.about {
-  padding: 4rem 0;
-  background: var(--bg-elevated);
-}
+/* Hero stats mobile: compact row */
+@media (max-width: 520px) {
+  .hero-stats {
+    gap: 0;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+  }
 
-.about-inner {
-  max-width: 620px;
-  margin: 0 auto;
-}
+  .hero-stat {
+    flex: 1 1 0;
+    min-width: 0;
+  }
 
-.about h2 {
-  font-size: clamp(1.4rem, 3.5vw, 2rem);
-  font-weight: 800;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
-  margin-bottom: 1.25rem;
-}
+  .hero-stat-number {
+    font-size: clamp(1.1rem, 5.5vw, 1.5rem);
+  }
 
-.about p {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  margin-bottom: 1rem;
-}
+  .hero-stat-label {
+    font-size: 0.55rem;
+    letter-spacing: 0.05em;
+  }
 
-.about p:last-child {
-  margin-bottom: 0;
-}
+  .hero-stat-detail {
+    display: none;
+  }
 
-.about strong {
-  color: var(--text);
+  .hero-stat-divider {
+    height: 36px;
+    margin: 0;
+  }
 }
 
 /* --- Footer --- */
@@ -917,32 +670,11 @@ body.backtest-mode .mobile-nav {
 }
 
 /* ============================================
-   Tablet (768px+)
-   ============================================ */
-@media (min-width: 768px) {
-  .steps {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .market-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .next-items {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ============================================
    Desktop (1024px+)
    ============================================ */
 @media (min-width: 1024px) {
   .hero { padding: 11rem 0 6rem; }
   body.backtest-mode .hero { padding-top: calc(11rem + 2rem); }
-
-  .market-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
 }
 
 /* ============================================
@@ -1598,9 +1330,6 @@ a {
   color: var(--text-secondary);
 }
 
-.market-sample {
-  color: rgba(255, 255, 255, 0.55);
-}
 
 .player-initials {
   background: var(--accent);
@@ -1982,27 +1711,6 @@ a {
 
 /* (Drawdown/streak stats now rendered inline in .summary-context) */
 
-/* --- Email capture section (#12) --- */
-.email-capture-section {
-  text-align: center;
-  padding: 3rem 1.5rem;
-  background: var(--bg-elevated);
-  border-radius: 10px;
-  max-width: 540px;
-  margin: 2rem auto;
-}
-
-.email-capture-section h3 {
-  font-size: 1.25rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-}
-
-.email-capture-section p {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  margin-bottom: 1.25rem;
-}
 
 /* ============================================
    Additional Visual Polish
