@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T04:05:21.095481+00:00",
+  "generated_at": "2026-02-16T16:13:12.266368+00:00",
   "date": "2024-09-11",
   "picks": [
     {
@@ -18,6 +18,9 @@
       "stars": 3,
       "game_pk": 744804,
       "game_time": null,
+      "clv_cents": 1.1,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 6,
       "pnl": -100.0
@@ -38,6 +41,9 @@
       "stars": 2,
       "game_pk": 746745,
       "game_time": null,
+      "clv_cents": 2.1,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 14,
       "pnl": 123.0
@@ -58,6 +64,9 @@
       "stars": 2,
       "game_pk": 747154,
       "game_time": null,
+      "clv_cents": 0.4,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 11,
       "pnl": 74.07
@@ -78,6 +87,9 @@
       "stars": 2,
       "game_pk": 747154,
       "game_time": null,
+      "clv_cents": 4.7,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 0,
       "pnl": 90.91
@@ -98,6 +110,9 @@
       "stars": 2,
       "game_pk": 744804,
       "game_time": null,
+      "clv_cents": 1.9,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 17,
       "pnl": 100.0
@@ -118,6 +133,9 @@
       "stars": 2,
       "game_pk": 745857,
       "game_time": null,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 17,
       "pnl": -100.0
@@ -138,6 +156,9 @@
       "stars": 1,
       "game_pk": 747154,
       "game_time": null,
+      "clv_cents": 1.3,
+      "clv_favorable": true,
+      "clv_line": 0.0,
       "result": "win",
       "actual": 2,
       "pnl": 115.0
@@ -158,6 +179,9 @@
       "stars": 1,
       "game_pk": 744881,
       "game_time": null,
+      "clv_cents": 0.7,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 20,
       "pnl": -100.0
@@ -178,6 +202,9 @@
       "stars": 1,
       "game_pk": 745697,
       "game_time": null,
+      "clv_cents": 1.7,
+      "clv_favorable": true,
+      "clv_line": 1.0,
       "result": "loss",
       "actual": 3,
       "pnl": -100.0

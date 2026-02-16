@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T04:05:21.051560+00:00",
+  "generated_at": "2026-02-16T16:13:12.218200+00:00",
   "date": "2024-06-10",
   "picks": [
     {
@@ -18,6 +18,9 @@
       "stars": 2,
       "game_pk": 745080,
       "game_time": null,
+      "clv_cents": 0.4,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 0,
       "pnl": 86.96
@@ -38,6 +41,9 @@
       "stars": 1,
       "game_pk": 745897,
       "game_time": null,
+      "clv_cents": 3.6,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 19,
       "pnl": -100.0
@@ -58,6 +64,7 @@
       "stars": 1,
       "game_pk": 745080,
       "game_time": null,
+      "clv_line": -1.0,
       "result": "loss",
       "actual": 9,
       "pnl": -100.0

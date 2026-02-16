@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T04:05:21.098792+00:00",
+  "generated_at": "2026-02-16T16:13:12.269883+00:00",
   "date": "2024-09-19",
   "picks": [
     {
@@ -18,6 +18,9 @@
       "stars": 2,
       "game_pk": 745041,
       "game_time": null,
+      "clv_cents": 3.6,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 16,
       "pnl": 110.0
@@ -38,6 +41,9 @@
       "stars": 2,
       "game_pk": 746823,
       "game_time": null,
+      "clv_cents": 3.6,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 13,
       "pnl": 105.0
@@ -58,6 +64,9 @@
       "stars": 2,
       "game_pk": 745120,
       "game_time": null,
+      "clv_cents": 3.9,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
@@ -78,6 +87,9 @@
       "stars": 1,
       "game_pk": 746823,
       "game_time": null,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 14,
       "pnl": 95.24
@@ -98,6 +110,9 @@
       "stars": 1,
       "game_pk": 745120,
       "game_time": null,
+      "clv_cents": 2.9,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 3,
       "pnl": 108.0
@@ -118,6 +133,9 @@
       "stars": 1,
       "game_pk": 746011,
       "game_time": null,
+      "clv_cents": 1.1,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
@@ -138,6 +156,9 @@
       "stars": 1,
       "game_pk": 745120,
       "game_time": null,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
@@ -158,6 +179,9 @@
       "stars": 1,
       "game_pk": 746663,
       "game_time": null,
+      "clv_cents": 1.8,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 15,
       "pnl": 150.0

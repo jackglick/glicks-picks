@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T04:05:21.091678+00:00",
+  "generated_at": "2026-02-16T16:13:12.262132+00:00",
   "date": "2024-09-03",
   "picks": [
     {
@@ -18,6 +18,9 @@
       "stars": 3,
       "game_pk": 746020,
       "game_time": null,
+      "clv_cents": 1.6,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 17,
       "pnl": 95.24
@@ -38,6 +41,9 @@
       "stars": 2,
       "game_pk": 746264,
       "game_time": null,
+      "clv_cents": 1.3,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
@@ -58,6 +64,9 @@
       "stars": 2,
       "game_pk": 745944,
       "game_time": null,
+      "clv_cents": 0.9,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 15,
       "pnl": 91.74
@@ -78,6 +87,9 @@
       "stars": 2,
       "game_pk": 747079,
       "game_time": null,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 14,
       "pnl": 84.75
@@ -98,6 +110,9 @@
       "stars": 2,
       "game_pk": 746020,
       "game_time": null,
+      "clv_cents": 2.7,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 15,
       "pnl": 89.29
@@ -118,6 +133,9 @@
       "stars": 1,
       "game_pk": 746991,
       "game_time": null,
+      "clv_cents": 2.5,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 10,
       "pnl": -100.0
@@ -138,6 +156,9 @@
       "stars": 1,
       "game_pk": 746264,
       "game_time": null,
+      "clv_cents": 3.0,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 16,
       "pnl": 145.0

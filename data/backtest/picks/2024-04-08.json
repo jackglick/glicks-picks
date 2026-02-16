@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T04:05:20.219120+00:00",
+  "generated_at": "2026-02-16T16:13:11.462678+00:00",
   "date": "2024-04-08",
   "picks": [
     {
@@ -18,6 +18,9 @@
       "stars": 3,
       "game_pk": 746654,
       "game_time": null,
+      "clv_cents": 0.5,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 17,
       "pnl": 110.0
@@ -38,6 +41,9 @@
       "stars": 2,
       "game_pk": 746735,
       "game_time": null,
+      "clv_cents": 0.7,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 17,
       "pnl": 95.24
@@ -58,6 +64,9 @@
       "stars": 2,
       "game_pk": 745761,
       "game_time": null,
+      "clv_cents": 1.2,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 24,
       "pnl": -100.0
@@ -78,6 +87,9 @@
       "stars": 2,
       "game_pk": 745761,
       "game_time": null,
+      "clv_cents": 2.1,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 5,
       "pnl": -100.0
@@ -98,6 +110,9 @@
       "stars": 2,
       "game_pk": 746654,
       "game_time": null,
+      "clv_cents": 2.0,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 2,
       "pnl": 83.33
@@ -118,6 +133,9 @@
       "stars": 2,
       "game_pk": 745194,
       "game_time": null,
+      "clv_cents": 0.9,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 2,
       "pnl": 71.43
@@ -138,6 +156,9 @@
       "stars": 1,
       "game_pk": 746735,
       "game_time": null,
+      "clv_cents": 0.8,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 12,
       "pnl": 130.0
@@ -158,6 +179,9 @@
       "stars": 1,
       "game_pk": 745194,
       "game_time": null,
+      "clv_cents": 0.2,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 20,
       "pnl": -100.0

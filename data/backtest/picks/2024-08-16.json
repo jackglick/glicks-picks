@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T04:05:20.304232+00:00",
+  "generated_at": "2026-02-16T16:13:11.542063+00:00",
   "date": "2024-08-16",
   "picks": [
     {
@@ -18,6 +18,9 @@
       "stars": 3,
       "game_pk": 746438,
       "game_time": null,
+      "clv_cents": 1.7,
+      "clv_favorable": true,
+      "clv_line": 0.0,
       "result": "loss",
       "actual": 1,
       "pnl": -100.0
@@ -38,6 +41,9 @@
       "stars": 3,
       "game_pk": 746674,
       "game_time": null,
+      "clv_cents": 3.2,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 18,
       "pnl": -100.0
@@ -58,6 +64,9 @@
       "stars": 3,
       "game_pk": 745054,
       "game_time": null,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 15,
       "pnl": 118.0
@@ -78,6 +87,9 @@
       "stars": 2,
       "game_pk": 745542,
       "game_time": null,
+      "clv_cents": 5.3,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 2,
       "pnl": 118.0
@@ -98,6 +110,9 @@
       "stars": 1,
       "game_pk": 746438,
       "game_time": null,
+      "clv_cents": 1.0,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "win",
       "actual": 17,
       "pnl": 128.0
@@ -118,6 +133,9 @@
       "stars": 1,
       "game_pk": 745784,
       "game_time": null,
+      "clv_cents": 1.3,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 21,
       "pnl": -100.0
@@ -138,6 +156,9 @@
       "stars": 1,
       "game_pk": 745054,
       "game_time": null,
+      "clv_cents": 3.0,
+      "clv_favorable": true,
+      "clv_line": -0.0,
       "result": "loss",
       "actual": 19,
       "pnl": -100.0
@@ -158,6 +179,9 @@
       "stars": 1,
       "game_pk": 745542,
       "game_time": null,
+      "clv_cents": 2.8,
+      "clv_favorable": true,
+      "clv_line": 1.0,
       "result": "win",
       "actual": 4,
       "pnl": 97.09

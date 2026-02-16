@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T04:05:21.103013+00:00",
+  "generated_at": "2026-02-16T16:13:12.280475+00:00",
   "summary": {
     "total_bets": 1774,
     "wins": 987,
@@ -52,7 +52,10 @@
       "ci_roi": [
         4.2,
         32.8
-      ]
+      ],
+      "avg_clv_cents": 0.0148,
+      "pct_favorable_clv": 70.6,
+      "n_bets_with_clv": 160
     },
     {
       "market": "Hits Allowed",
@@ -73,7 +76,10 @@
       "ci_roi": [
         3.0,
         42.0
-      ]
+      ],
+      "avg_clv_cents": 0.0344,
+      "pct_favorable_clv": 75.8,
+      "n_bets_with_clv": 91
     },
     {
       "market": "Outs Recorded",
@@ -94,7 +100,10 @@
       "ci_roi": [
         4.9,
         17.6
-      ]
+      ],
+      "avg_clv_cents": 0.0217,
+      "pct_favorable_clv": 87.2,
+      "n_bets_with_clv": 1056
     },
     {
       "market": "Strikeouts",
@@ -115,7 +124,10 @@
       "ci_roi": [
         -4.1,
         21.7
-      ]
+      ],
+      "avg_clv_cents": 0.0214,
+      "pct_favorable_clv": 92.5,
+      "n_bets_with_clv": 228
     },
     {
       "market": "Walks",
@@ -136,7 +148,10 @@
       "ci_roi": [
         4.0,
         34.0
-      ]
+      ],
+      "avg_clv_cents": 0.0125,
+      "pct_favorable_clv": 85.6,
+      "n_bets_with_clv": 180
     }
   ],
   "star_tier_stats": [
@@ -573,7 +588,9 @@
       "actual": 3,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 1
+      "stars": 1,
+      "clv_cents": 2.4,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-29",
@@ -584,7 +601,9 @@
       "actual": 8,
       "result": "win",
       "pnl": 67.57,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 2.6,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-29",
@@ -595,7 +614,9 @@
       "actual": 5,
       "result": "win",
       "pnl": 100.0,
-      "stars": 3
+      "stars": 3,
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-29",
@@ -606,7 +627,9 @@
       "actual": 3,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 3.2,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-29",
@@ -617,7 +640,9 @@
       "actual": 21,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 1.4,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-28",
@@ -628,7 +653,9 @@
       "actual": 2,
       "result": "win",
       "pnl": 150.0,
-      "stars": 3
+      "stars": 3,
+      "clv_cents": 0.7,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-28",
@@ -639,7 +666,9 @@
       "actual": 15,
       "result": "win",
       "pnl": 110.0,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 1.2,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-28",
@@ -672,7 +701,9 @@
       "actual": 2,
       "result": "win",
       "pnl": 70.42,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 2.9,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-27",
@@ -683,7 +714,9 @@
       "actual": 3,
       "result": "win",
       "pnl": 114.0,
-      "stars": 1
+      "stars": 1,
+      "clv_cents": 2.1,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-27",
@@ -694,7 +727,9 @@
       "actual": 3,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-27",
@@ -705,7 +740,9 @@
       "actual": 0,
       "result": "win",
       "pnl": 86.96,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.4,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-26",
@@ -716,7 +753,9 @@
       "actual": 15,
       "result": "win",
       "pnl": 125.0,
-      "stars": 1
+      "stars": 1,
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-26",
@@ -727,7 +766,9 @@
       "actual": 1,
       "result": "win",
       "pnl": 74.07,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 1.2,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-26",
@@ -738,7 +779,9 @@
       "actual": 18,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 1
+      "stars": 1,
+      "clv_cents": 1.5,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-26",
@@ -749,7 +792,9 @@
       "actual": 1,
       "result": "win",
       "pnl": 68.97,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-26",
@@ -760,7 +805,9 @@
       "actual": 3,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 1
+      "stars": 1,
+      "clv_cents": 1.4,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-25",
@@ -771,7 +818,9 @@
       "actual": 16,
       "result": "win",
       "pnl": 78.74,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-25",
@@ -782,7 +831,9 @@
       "actual": 7,
       "result": "win",
       "pnl": 82.64,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-25",
@@ -793,7 +844,9 @@
       "actual": 15,
       "result": "win",
       "pnl": 81.97,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-25",
@@ -804,7 +857,9 @@
       "actual": 5,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.2,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-25",
@@ -815,7 +870,9 @@
       "actual": 4,
       "result": "win",
       "pnl": 96.15,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 3.6,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-24",
@@ -837,7 +894,9 @@
       "actual": 0,
       "result": "win",
       "pnl": 118.0,
-      "stars": 1
+      "stars": 1,
+      "clv_cents": 1.3,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-24",
@@ -848,7 +907,9 @@
       "actual": 12,
       "result": "win",
       "pnl": 115.0,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": -1.1,
+      "clv_favorable": false
     },
     {
       "date": "2024-09-24",
@@ -859,7 +920,9 @@
       "actual": 18,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 0.2,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-24",
@@ -870,7 +933,9 @@
       "actual": 15,
       "result": "win",
       "pnl": 140.0,
-      "stars": 1
+      "stars": 1,
+      "clv_cents": 1.2,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-24",
@@ -881,7 +946,9 @@
       "actual": 21,
       "result": "loss",
       "pnl": -100.0,
-      "stars": 3
+      "stars": 3,
+      "clv_cents": 0.9,
+      "clv_favorable": true
     },
     {
       "date": "2024-09-24",
@@ -892,7 +959,9 @@
       "actual": 6,
       "result": "win",
       "pnl": 88.5,
-      "stars": 2
+      "stars": 2,
+      "clv_cents": 1.7,
+      "clv_favorable": true
     }
   ],
   "bankroll_curve": [
@@ -2335,6 +2404,948 @@
       "n_bets": 5,
       "flat_day_pnl": -132.43,
       "pct_day_pnl": -8969.58
+    }
+  ],
+  "clv_summary": {
+    "overall": {
+      "avg_clv_cents": 0.0208,
+      "median_clv_cents": 0.013,
+      "pct_favorable": 85.6,
+      "n_bets": 1715
+    },
+    "by_market": {
+      "pitcher_earned_runs": {
+        "avg_clv_cents": 0.0148,
+        "median_clv_cents": 0.0103,
+        "pct_favorable": 70.6,
+        "n_bets": 160
+      },
+      "pitcher_hits_allowed": {
+        "avg_clv_cents": 0.0344,
+        "median_clv_cents": 0.0116,
+        "pct_favorable": 75.8,
+        "n_bets": 91
+      },
+      "pitcher_outs": {
+        "avg_clv_cents": 0.0217,
+        "median_clv_cents": 0.0134,
+        "pct_favorable": 87.2,
+        "n_bets": 1056
+      },
+      "pitcher_strikeouts": {
+        "avg_clv_cents": 0.0214,
+        "median_clv_cents": 0.0189,
+        "pct_favorable": 92.5,
+        "n_bets": 228
+      },
+      "pitcher_walks": {
+        "avg_clv_cents": 0.0125,
+        "median_clv_cents": 0.0097,
+        "pct_favorable": 85.6,
+        "n_bets": 180
+      }
+    }
+  },
+  "clv_by_date": [
+    {
+      "date": "2024-03-28",
+      "avg_clv": 1.34,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-03-29",
+      "avg_clv": 0.46,
+      "n_bets": 2
+    },
+    {
+      "date": "2024-03-30",
+      "avg_clv": 1.25,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-03-31",
+      "avg_clv": 1.04,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-04-01",
+      "avg_clv": 0.72,
+      "n_bets": 1
+    },
+    {
+      "date": "2024-04-02",
+      "avg_clv": 1.08,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-04-03",
+      "avg_clv": 1.91,
+      "n_bets": 14
+    },
+    {
+      "date": "2024-04-04",
+      "avg_clv": 1.35,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-04-05",
+      "avg_clv": 5.9,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-04-06",
+      "avg_clv": 1.13,
+      "n_bets": 18
+    },
+    {
+      "date": "2024-04-07",
+      "avg_clv": 1.45,
+      "n_bets": 24
+    },
+    {
+      "date": "2024-04-08",
+      "avg_clv": 1.04,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-04-09",
+      "avg_clv": 1.1,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-04-10",
+      "avg_clv": 4.04,
+      "n_bets": 19
+    },
+    {
+      "date": "2024-04-11",
+      "avg_clv": 1.63,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-04-12",
+      "avg_clv": 1.67,
+      "n_bets": 14
+    },
+    {
+      "date": "2024-04-13",
+      "avg_clv": 1.33,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-04-14",
+      "avg_clv": 0.85,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-04-15",
+      "avg_clv": 6.49,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-04-16",
+      "avg_clv": 1.58,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-04-17",
+      "avg_clv": 1.2,
+      "n_bets": 20
+    },
+    {
+      "date": "2024-04-18",
+      "avg_clv": 1.7,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-04-19",
+      "avg_clv": 1.58,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-04-20",
+      "avg_clv": 1.14,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-04-21",
+      "avg_clv": 1.04,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-04-22",
+      "avg_clv": 1.7,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-04-23",
+      "avg_clv": 2.71,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-04-24",
+      "avg_clv": 2.12,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-04-25",
+      "avg_clv": 1.26,
+      "n_bets": 18
+    },
+    {
+      "date": "2024-04-26",
+      "avg_clv": 1.06,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-04-27",
+      "avg_clv": 1.71,
+      "n_bets": 16
+    },
+    {
+      "date": "2024-04-28",
+      "avg_clv": 3.73,
+      "n_bets": 16
+    },
+    {
+      "date": "2024-04-29",
+      "avg_clv": 0.92,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-04-30",
+      "avg_clv": 1.88,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-05-01",
+      "avg_clv": 4.78,
+      "n_bets": 14
+    },
+    {
+      "date": "2024-05-02",
+      "avg_clv": 0.8,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-05-03",
+      "avg_clv": 2.52,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-05-04",
+      "avg_clv": 4.98,
+      "n_bets": 15
+    },
+    {
+      "date": "2024-05-05",
+      "avg_clv": 4.38,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-05-06",
+      "avg_clv": 1.97,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-05-07",
+      "avg_clv": 1.93,
+      "n_bets": 16
+    },
+    {
+      "date": "2024-05-08",
+      "avg_clv": 1.74,
+      "n_bets": 18
+    },
+    {
+      "date": "2024-05-09",
+      "avg_clv": 0.43,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-05-10",
+      "avg_clv": 2.14,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-05-11",
+      "avg_clv": 6.95,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-05-12",
+      "avg_clv": 0.93,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-05-13",
+      "avg_clv": 1.0,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-05-14",
+      "avg_clv": 1.11,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-05-15",
+      "avg_clv": 2.26,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-05-16",
+      "avg_clv": 2.54,
+      "n_bets": 2
+    },
+    {
+      "date": "2024-05-17",
+      "avg_clv": 1.09,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-05-18",
+      "avg_clv": 1.64,
+      "n_bets": 14
+    },
+    {
+      "date": "2024-05-19",
+      "avg_clv": 1.6,
+      "n_bets": 16
+    },
+    {
+      "date": "2024-05-20",
+      "avg_clv": 1.33,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-05-21",
+      "avg_clv": 0.52,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-05-22",
+      "avg_clv": 1.55,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-05-23",
+      "avg_clv": 1.55,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-05-24",
+      "avg_clv": 2.07,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-05-25",
+      "avg_clv": 1.57,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-05-26",
+      "avg_clv": 1.68,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-05-27",
+      "avg_clv": 1.86,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-05-28",
+      "avg_clv": 0.99,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-05-29",
+      "avg_clv": 1.48,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-05-30",
+      "avg_clv": 1.45,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-05-31",
+      "avg_clv": 2.54,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-06-01",
+      "avg_clv": 1.48,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-06-02",
+      "avg_clv": 1.53,
+      "n_bets": 15
+    },
+    {
+      "date": "2024-06-03",
+      "avg_clv": 2.58,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-06-04",
+      "avg_clv": 1.84,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-06-05",
+      "avg_clv": 5.35,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-06-06",
+      "avg_clv": 1.74,
+      "n_bets": 16
+    },
+    {
+      "date": "2024-06-07",
+      "avg_clv": 1.37,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-06-08",
+      "avg_clv": 0.86,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-06-09",
+      "avg_clv": 1.66,
+      "n_bets": 14
+    },
+    {
+      "date": "2024-06-10",
+      "avg_clv": 2.0,
+      "n_bets": 2
+    },
+    {
+      "date": "2024-06-11",
+      "avg_clv": 2.38,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-06-12",
+      "avg_clv": 2.5,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-06-13",
+      "avg_clv": 3.01,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-06-14",
+      "avg_clv": 1.69,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-06-15",
+      "avg_clv": 2.35,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-06-16",
+      "avg_clv": 1.72,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-06-17",
+      "avg_clv": 11.99,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-06-18",
+      "avg_clv": 5.78,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-06-19",
+      "avg_clv": 1.81,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-06-20",
+      "avg_clv": 1.99,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-06-21",
+      "avg_clv": 1.63,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-06-22",
+      "avg_clv": 2.1,
+      "n_bets": 15
+    },
+    {
+      "date": "2024-06-23",
+      "avg_clv": 1.75,
+      "n_bets": 20
+    },
+    {
+      "date": "2024-06-24",
+      "avg_clv": 2.12,
+      "n_bets": 4
+    },
+    {
+      "date": "2024-06-25",
+      "avg_clv": 2.65,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-06-26",
+      "avg_clv": 2.01,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-06-27",
+      "avg_clv": 2.57,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-06-28",
+      "avg_clv": 1.2,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-06-29",
+      "avg_clv": 1.37,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-06-30",
+      "avg_clv": 1.62,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-07-01",
+      "avg_clv": 2.21,
+      "n_bets": 2
+    },
+    {
+      "date": "2024-07-02",
+      "avg_clv": 10.79,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-07-03",
+      "avg_clv": 2.64,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-07-04",
+      "avg_clv": 2.74,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-07-05",
+      "avg_clv": 2.87,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-07-06",
+      "avg_clv": 4.39,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-07-07",
+      "avg_clv": 5.73,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-07-08",
+      "avg_clv": 1.43,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-07-09",
+      "avg_clv": 1.79,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-07-10",
+      "avg_clv": 1.04,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-07-11",
+      "avg_clv": 1.52,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-07-12",
+      "avg_clv": 1.4,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-07-13",
+      "avg_clv": 1.24,
+      "n_bets": 14
+    },
+    {
+      "date": "2024-07-14",
+      "avg_clv": 2.02,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-07-19",
+      "avg_clv": 1.65,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-07-20",
+      "avg_clv": 5.69,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-07-21",
+      "avg_clv": 1.84,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-07-22",
+      "avg_clv": 1.55,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-07-23",
+      "avg_clv": 1.83,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-07-24",
+      "avg_clv": 1.86,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-07-25",
+      "avg_clv": 1.34,
+      "n_bets": 4
+    },
+    {
+      "date": "2024-07-26",
+      "avg_clv": 3.65,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-07-27",
+      "avg_clv": 2.11,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-07-28",
+      "avg_clv": 7.68,
+      "n_bets": 17
+    },
+    {
+      "date": "2024-07-29",
+      "avg_clv": 1.04,
+      "n_bets": 4
+    },
+    {
+      "date": "2024-07-30",
+      "avg_clv": 0.72,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-07-31",
+      "avg_clv": 6.62,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-08-01",
+      "avg_clv": 2.85,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-08-02",
+      "avg_clv": 1.66,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-08-03",
+      "avg_clv": 1.51,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-08-04",
+      "avg_clv": 1.72,
+      "n_bets": 15
+    },
+    {
+      "date": "2024-08-06",
+      "avg_clv": 1.99,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-08-07",
+      "avg_clv": 1.49,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-08-08",
+      "avg_clv": 1.5,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-08-09",
+      "avg_clv": 2.89,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-08-10",
+      "avg_clv": 0.95,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-08-11",
+      "avg_clv": 2.22,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-08-12",
+      "avg_clv": 0.0,
+      "n_bets": 1
+    },
+    {
+      "date": "2024-08-13",
+      "avg_clv": 1.82,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-08-14",
+      "avg_clv": 1.55,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-08-15",
+      "avg_clv": 1.13,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-08-16",
+      "avg_clv": 2.29,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-08-17",
+      "avg_clv": 1.6,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-08-18",
+      "avg_clv": 1.39,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-08-20",
+      "avg_clv": 1.04,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-08-21",
+      "avg_clv": -2.51,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-08-22",
+      "avg_clv": 2.31,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-08-23",
+      "avg_clv": 1.18,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-08-24",
+      "avg_clv": 1.91,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-08-25",
+      "avg_clv": 2.17,
+      "n_bets": 13
+    },
+    {
+      "date": "2024-08-26",
+      "avg_clv": 1.41,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-08-27",
+      "avg_clv": 2.09,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-08-28",
+      "avg_clv": 1.24,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-08-29",
+      "avg_clv": 1.37,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-08-30",
+      "avg_clv": 2.47,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-08-31",
+      "avg_clv": 1.49,
+      "n_bets": 12
+    },
+    {
+      "date": "2024-09-01",
+      "avg_clv": 1.86,
+      "n_bets": 15
+    },
+    {
+      "date": "2024-09-02",
+      "avg_clv": 1.43,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-09-03",
+      "avg_clv": 1.74,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-09-04",
+      "avg_clv": 1.35,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-09-05",
+      "avg_clv": 2.39,
+      "n_bets": 7
+    },
+    {
+      "date": "2024-09-06",
+      "avg_clv": 2.46,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-09-07",
+      "avg_clv": 2.13,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-09-08",
+      "avg_clv": 1.97,
+      "n_bets": 15
+    },
+    {
+      "date": "2024-09-09",
+      "avg_clv": 2.64,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-09-10",
+      "avg_clv": 2.51,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-09-11",
+      "avg_clv": 1.55,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-09-12",
+      "avg_clv": 0.44,
+      "n_bets": 4
+    },
+    {
+      "date": "2024-09-13",
+      "avg_clv": 1.17,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-09-14",
+      "avg_clv": 1.36,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-09-15",
+      "avg_clv": 0.89,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-09-16",
+      "avg_clv": 0.58,
+      "n_bets": 6
+    },
+    {
+      "date": "2024-09-17",
+      "avg_clv": 1.57,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-09-18",
+      "avg_clv": 1.32,
+      "n_bets": 10
+    },
+    {
+      "date": "2024-09-19",
+      "avg_clv": 2.11,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-09-20",
+      "avg_clv": 1.17,
+      "n_bets": 3
+    },
+    {
+      "date": "2024-09-21",
+      "avg_clv": -2.71,
+      "n_bets": 11
+    },
+    {
+      "date": "2024-09-22",
+      "avg_clv": 1.45,
+      "n_bets": 8
+    },
+    {
+      "date": "2024-09-23",
+      "avg_clv": 0.58,
+      "n_bets": 2
+    },
+    {
+      "date": "2024-09-24",
+      "avg_clv": 1.24,
+      "n_bets": 9
+    },
+    {
+      "date": "2024-09-25",
+      "avg_clv": 0.76,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-09-26",
+      "avg_clv": 0.83,
+      "n_bets": 5
+    },
+    {
+      "date": "2024-09-27",
+      "avg_clv": 1.33,
+      "n_bets": 4
+    },
+    {
+      "date": "2024-09-28",
+      "avg_clv": 0.91,
+      "n_bets": 2
+    },
+    {
+      "date": "2024-09-29",
+      "avg_clv": 1.92,
+      "n_bets": 5
     }
   ]
 }
