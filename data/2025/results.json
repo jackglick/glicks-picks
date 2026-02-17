@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T16:13:12.605633+00:00",
+  "generated_at": "2026-02-17T13:16:11.245216+00:00",
   "summary": {
     "total_bets": 3896,
     "wins": 2214,
@@ -23,6 +23,19 @@
       "best_bankroll": 44784.62,
       "bust": false
     },
+    "kelly": {
+      "final_bankroll": 69259.95,
+      "return_pct": 1285.2,
+      "max_drawdown_pct": -82.7,
+      "best_bankroll": 72239.85
+    },
+    "sharpe": 0.0412,
+    "sortino": 0.0581,
+    "calmar": 0.1093,
+    "profit_factor": 1.0884,
+    "z_vs_breakeven": 5.56,
+    "mean_pnl_per_bet": 3.82,
+    "std_pnl_per_bet": 92.62,
     "ci_win_rate": [
       0.5518,
       0.5844
@@ -55,7 +68,10 @@
       ],
       "avg_clv_cents": 0.0037,
       "pct_favorable_clv": 27.3,
-      "n_bets_with_clv": 187
+      "n_bets_with_clv": 187,
+      "sharpe": 0.0224,
+      "sortino": 0.0287,
+      "profit_factor": 1.0479
     },
     {
       "market": "Total Bases",
@@ -79,7 +95,10 @@
       ],
       "avg_clv_cents": 0.0022,
       "pct_favorable_clv": 24.9,
-      "n_bets_with_clv": 1843
+      "n_bets_with_clv": 1843,
+      "sharpe": 0.0167,
+      "sortino": 0.022,
+      "profit_factor": 1.035
     },
     {
       "market": "Earned Runs",
@@ -103,7 +122,10 @@
       ],
       "avg_clv_cents": 0.0176,
       "pct_favorable_clv": 76.3,
-      "n_bets_with_clv": 131
+      "n_bets_with_clv": 131,
+      "sharpe": 0.0267,
+      "sortino": 0.0386,
+      "profit_factor": 1.0557
     },
     {
       "market": "Hits Allowed",
@@ -127,7 +149,10 @@
       ],
       "avg_clv_cents": 0.0135,
       "pct_favorable_clv": 73.8,
-      "n_bets_with_clv": 61
+      "n_bets_with_clv": 61,
+      "sharpe": -0.0421,
+      "sortino": -0.0599,
+      "profit_factor": 0.9178
     },
     {
       "market": "Outs Recorded",
@@ -151,7 +176,10 @@
       ],
       "avg_clv_cents": 0.026,
       "pct_favorable_clv": 86.1,
-      "n_bets_with_clv": 1160
+      "n_bets_with_clv": 1160,
+      "sharpe": 0.0655,
+      "sortino": 0.0984,
+      "profit_factor": 1.1418
     },
     {
       "market": "Strikeouts",
@@ -175,7 +203,10 @@
       ],
       "avg_clv_cents": 0.0152,
       "pct_favorable_clv": 91.6,
-      "n_bets_with_clv": 251
+      "n_bets_with_clv": 251,
+      "sharpe": 0.123,
+      "sortino": 0.1882,
+      "profit_factor": 1.2829
     },
     {
       "market": "Walks",
@@ -199,7 +230,10 @@
       ],
       "avg_clv_cents": 0.0121,
       "pct_favorable_clv": 68.4,
-      "n_bets_with_clv": 136
+      "n_bets_with_clv": 136,
+      "sharpe": 0.0247,
+      "sortino": 0.0364,
+      "profit_factor": 1.0518
     }
   ],
   "star_tier_stats": [
@@ -1049,1465 +1083,1831 @@
       "date": "2025-03-27",
       "flat": 5642.9,
       "pct": 5642.9,
+      "kelly": 5964.35,
       "n_bets": 12,
       "flat_day_pnl": 642.9,
-      "pct_day_pnl": 642.9
+      "pct_day_pnl": 642.9,
+      "kelly_day_pnl": 964.35
     },
     {
       "date": "2025-03-28",
       "flat": 5358.81,
       "pct": 5322.28,
+      "kelly": 5456.03,
       "n_bets": 8,
       "flat_day_pnl": -284.09,
-      "pct_day_pnl": -320.62
+      "pct_day_pnl": -320.62,
+      "kelly_day_pnl": -508.32
     },
     {
       "date": "2025-03-29",
       "flat": 4827.4,
       "pct": 4756.61,
+      "kelly": 4586.21,
       "n_bets": 15,
       "flat_day_pnl": -531.42,
-      "pct_day_pnl": -565.67
+      "pct_day_pnl": -565.67,
+      "kelly_day_pnl": -869.82
     },
     {
       "date": "2025-03-30",
       "flat": 4802.75,
       "pct": 4733.17,
+      "kelly": 4552.3,
       "n_bets": 11,
       "flat_day_pnl": -24.65,
-      "pct_day_pnl": -23.45
+      "pct_day_pnl": -23.45,
+      "kelly_day_pnl": -33.91
     },
     {
       "date": "2025-03-31",
       "flat": 5023.7,
       "pct": 4942.33,
+      "kelly": 4854.05,
       "n_bets": 11,
       "flat_day_pnl": 220.95,
-      "pct_day_pnl": 209.16
+      "pct_day_pnl": 209.16,
+      "kelly_day_pnl": 301.75
     },
     {
       "date": "2025-04-01",
       "flat": 5116.84,
       "pct": 5034.39,
+      "kelly": 4989.67,
       "n_bets": 14,
       "flat_day_pnl": 93.13,
-      "pct_day_pnl": 92.06
+      "pct_day_pnl": 92.06,
+      "kelly_day_pnl": 135.62
     },
     {
       "date": "2025-04-02",
       "flat": 5317.65,
       "pct": 5236.58,
+      "kelly": 5290.27,
       "n_bets": 21,
       "flat_day_pnl": 200.81,
-      "pct_day_pnl": 202.19
+      "pct_day_pnl": 202.19,
+      "kelly_day_pnl": 300.6
     },
     {
       "date": "2025-04-03",
       "flat": 5124.76,
       "pct": 5034.57,
+      "kelly": 4984.14,
       "n_bets": 8,
       "flat_day_pnl": -192.89,
-      "pct_day_pnl": -202.01
+      "pct_day_pnl": -202.01,
+      "kelly_day_pnl": -306.13
     },
     {
       "date": "2025-04-04",
       "flat": 4920.74,
       "pct": 4829.14,
+      "kelly": 4679.09,
       "n_bets": 16,
       "flat_day_pnl": -204.02,
-      "pct_day_pnl": -205.43
+      "pct_day_pnl": -205.43,
+      "kelly_day_pnl": -305.05
     },
     {
       "date": "2025-04-05",
       "flat": 4957.2,
       "pct": 4864.35,
+      "kelly": 4730.26,
       "n_bets": 22,
       "flat_day_pnl": 36.45,
-      "pct_day_pnl": 35.21
+      "pct_day_pnl": 35.21,
+      "kelly_day_pnl": 51.17
     },
     {
       "date": "2025-04-06",
       "flat": 5554.09,
       "pct": 5445.05,
+      "kelly": 5577.32,
       "n_bets": 23,
       "flat_day_pnl": 596.9,
-      "pct_day_pnl": 580.7
+      "pct_day_pnl": 580.7,
+      "kelly_day_pnl": 847.05
     },
     {
       "date": "2025-04-07",
       "flat": 4876.59,
       "pct": 4707.24,
+      "kelly": 4443.72,
       "n_bets": 13,
       "flat_day_pnl": -677.5,
-      "pct_day_pnl": -737.8
+      "pct_day_pnl": -737.8,
+      "kelly_day_pnl": -1133.59
     },
     {
       "date": "2025-04-08",
       "flat": 5272.01,
       "pct": 5079.51,
+      "kelly": 4970.86,
       "n_bets": 16,
       "flat_day_pnl": 395.42,
-      "pct_day_pnl": 372.27
+      "pct_day_pnl": 372.27,
+      "kelly_day_pnl": 527.13
     },
     {
       "date": "2025-04-09",
       "flat": 4742.75,
       "pct": 4541.84,
+      "kelly": 4181.58,
       "n_bets": 24,
       "flat_day_pnl": -529.26,
-      "pct_day_pnl": -537.67
+      "pct_day_pnl": -537.67,
+      "kelly_day_pnl": -789.28
     },
     {
       "date": "2025-04-10",
       "flat": 5274.25,
       "pct": 5024.63,
+      "kelly": 4848.33,
       "n_bets": 11,
       "flat_day_pnl": 531.49,
-      "pct_day_pnl": 482.79
+      "pct_day_pnl": 482.79,
+      "kelly_day_pnl": 666.76
     },
     {
       "date": "2025-04-11",
       "flat": 5242.25,
       "pct": 4992.47,
+      "kelly": 4801.79,
       "n_bets": 7,
       "flat_day_pnl": -32.0,
-      "pct_day_pnl": -32.16
+      "pct_day_pnl": -32.16,
+      "kelly_day_pnl": -46.54
     },
     {
       "date": "2025-04-12",
       "flat": 5424.39,
       "pct": 5174.34,
+      "kelly": 5064.16,
       "n_bets": 17,
       "flat_day_pnl": 182.14,
-      "pct_day_pnl": 181.87
+      "pct_day_pnl": 181.87,
+      "kelly_day_pnl": 262.37
     },
     {
       "date": "2025-04-13",
       "flat": 5388.08,
       "pct": 5136.76,
+      "kelly": 5009.0,
       "n_bets": 27,
       "flat_day_pnl": -36.31,
-      "pct_day_pnl": -37.58
+      "pct_day_pnl": -37.58,
+      "kelly_day_pnl": -55.17
     },
     {
       "date": "2025-04-14",
       "flat": 5254.36,
       "pct": 4999.38,
+      "kelly": 4808.06,
       "n_bets": 12,
       "flat_day_pnl": -133.72,
-      "pct_day_pnl": -137.38
+      "pct_day_pnl": -137.38,
+      "kelly_day_pnl": -200.94
     },
     {
       "date": "2025-04-15",
       "flat": 5357.87,
       "pct": 5102.89,
+      "kelly": 4957.37,
       "n_bets": 19,
       "flat_day_pnl": 103.51,
-      "pct_day_pnl": 103.5
+      "pct_day_pnl": 103.5,
+      "kelly_day_pnl": 149.31
     },
     {
       "date": "2025-04-16",
       "flat": 6751.78,
       "pct": 6525.48,
+      "kelly": 7030.39,
       "n_bets": 23,
       "flat_day_pnl": 1393.91,
-      "pct_day_pnl": 1422.59
+      "pct_day_pnl": 1422.59,
+      "kelly_day_pnl": 2073.02
     },
     {
       "date": "2025-04-17",
       "flat": 6402.08,
       "pct": 6069.08,
+      "kelly": 6292.83,
       "n_bets": 16,
       "flat_day_pnl": -349.7,
-      "pct_day_pnl": -456.4
+      "pct_day_pnl": -456.4,
+      "kelly_day_pnl": -737.56
     },
     {
       "date": "2025-04-18",
       "flat": 6088.78,
       "pct": 5688.8,
+      "kelly": 5701.39,
       "n_bets": 30,
       "flat_day_pnl": -313.3,
-      "pct_day_pnl": -380.28
+      "pct_day_pnl": -380.28,
+      "kelly_day_pnl": -591.44
     },
     {
       "date": "2025-04-19",
       "flat": 6229.36,
       "pct": 5848.74,
+      "kelly": 5941.83,
       "n_bets": 28,
       "flat_day_pnl": 140.58,
-      "pct_day_pnl": 159.94
+      "pct_day_pnl": 159.94,
+      "kelly_day_pnl": 240.44
     },
     {
       "date": "2025-04-20",
       "flat": 7667.97,
       "pct": 7531.55,
+      "kelly": 8506.16,
       "n_bets": 36,
       "flat_day_pnl": 1438.62,
-      "pct_day_pnl": 1682.82
+      "pct_day_pnl": 1682.82,
+      "kelly_day_pnl": 2564.33
     },
     {
       "date": "2025-04-21",
       "flat": 7321.35,
       "pct": 7009.43,
+      "kelly": 7621.65,
       "n_bets": 9,
       "flat_day_pnl": -346.62,
-      "pct_day_pnl": -522.12
+      "pct_day_pnl": -522.12,
+      "kelly_day_pnl": -884.51
     },
     {
       "date": "2025-04-22",
       "flat": 6971.5,
       "pct": 6518.98,
+      "kelly": 6821.71,
       "n_bets": 20,
       "flat_day_pnl": -349.85,
-      "pct_day_pnl": -490.45
+      "pct_day_pnl": -490.45,
+      "kelly_day_pnl": -799.94
     },
     {
       "date": "2025-04-23",
       "flat": 6994.66,
       "pct": 6549.17,
+      "kelly": 6869.11,
       "n_bets": 19,
       "flat_day_pnl": 23.16,
-      "pct_day_pnl": 30.2
+      "pct_day_pnl": 30.2,
+      "kelly_day_pnl": 47.4
     },
     {
       "date": "2025-04-24",
       "flat": 6797.58,
       "pct": 6291.04,
+      "kelly": 6463.0,
       "n_bets": 9,
       "flat_day_pnl": -197.07,
-      "pct_day_pnl": -258.13
+      "pct_day_pnl": -258.13,
+      "kelly_day_pnl": -406.11
     },
     {
       "date": "2025-04-25",
       "flat": 7242.24,
       "pct": 6850.51,
+      "kelly": 7325.14,
       "n_bets": 12,
       "flat_day_pnl": 444.66,
-      "pct_day_pnl": 559.47
+      "pct_day_pnl": 559.47,
+      "kelly_day_pnl": 862.15
     },
     {
       "date": "2025-04-26",
       "flat": 7288.39,
       "pct": 6913.74,
+      "kelly": 7426.56,
       "n_bets": 22,
       "flat_day_pnl": 46.15,
-      "pct_day_pnl": 63.23
+      "pct_day_pnl": 63.23,
+      "kelly_day_pnl": 101.42
     },
     {
       "date": "2025-04-27",
       "flat": 7484.51,
       "pct": 7184.93,
+      "kelly": 7863.52,
       "n_bets": 29,
       "flat_day_pnl": 196.12,
-      "pct_day_pnl": 271.19
+      "pct_day_pnl": 271.19,
+      "kelly_day_pnl": 436.96
     },
     {
       "date": "2025-04-28",
       "flat": 7478.43,
       "pct": 7176.19,
+      "kelly": 7849.17,
       "n_bets": 8,
       "flat_day_pnl": -6.08,
-      "pct_day_pnl": -8.74
+      "pct_day_pnl": -8.74,
+      "kelly_day_pnl": -14.35
     },
     {
       "date": "2025-04-29",
       "flat": 6392.3,
       "pct": 5617.33,
+      "kelly": 5291.54,
       "n_bets": 20,
       "flat_day_pnl": -1086.14,
-      "pct_day_pnl": -1558.86
+      "pct_day_pnl": -1558.86,
+      "kelly_day_pnl": -2557.63
     },
     {
       "date": "2025-04-30",
       "flat": 6528.73,
       "pct": 5770.61,
+      "kelly": 5508.14,
       "n_bets": 23,
       "flat_day_pnl": 136.44,
-      "pct_day_pnl": 153.29
+      "pct_day_pnl": 153.29,
+      "kelly_day_pnl": 216.6
     },
     {
       "date": "2025-05-01",
       "flat": 6566.12,
       "pct": 5813.76,
+      "kelly": 5569.91,
       "n_bets": 17,
       "flat_day_pnl": 37.38,
-      "pct_day_pnl": 43.14
+      "pct_day_pnl": 43.14,
+      "kelly_day_pnl": 61.77
     },
     {
       "date": "2025-05-02",
       "flat": 6616.11,
       "pct": 5871.88,
+      "kelly": 5653.44,
       "n_bets": 18,
       "flat_day_pnl": 49.99,
-      "pct_day_pnl": 58.13
+      "pct_day_pnl": 58.13,
+      "kelly_day_pnl": 83.53
     },
     {
       "date": "2025-05-03",
       "flat": 6542.15,
       "pct": 5785.03,
+      "kelly": 5528.01,
       "n_bets": 23,
       "flat_day_pnl": -73.95,
-      "pct_day_pnl": -86.85
+      "pct_day_pnl": -86.85,
+      "kelly_day_pnl": -125.43
     },
     {
       "date": "2025-05-04",
       "flat": 7213.3,
       "pct": 6561.56,
+      "kelly": 6641.05,
       "n_bets": 29,
       "flat_day_pnl": 671.15,
-      "pct_day_pnl": 776.53
+      "pct_day_pnl": 776.53,
+      "kelly_day_pnl": 1113.04
     },
     {
       "date": "2025-05-05",
       "flat": 7522.51,
       "pct": 6967.33,
+      "kelly": 7257.08,
       "n_bets": 8,
       "flat_day_pnl": 309.21,
-      "pct_day_pnl": 405.77
+      "pct_day_pnl": 405.77,
+      "kelly_day_pnl": 616.03
     },
     {
       "date": "2025-05-06",
       "flat": 8175.78,
       "pct": 7877.64,
+      "kelly": 8679.31,
       "n_bets": 22,
       "flat_day_pnl": 653.27,
-      "pct_day_pnl": 910.31
+      "pct_day_pnl": 910.31,
+      "kelly_day_pnl": 1422.23
     },
     {
       "date": "2025-05-07",
       "flat": 8362.86,
       "pct": 8172.4,
+      "kelly": 9166.44,
       "n_bets": 18,
       "flat_day_pnl": 187.09,
-      "pct_day_pnl": 294.76
+      "pct_day_pnl": 294.76,
+      "kelly_day_pnl": 487.13
     },
     {
       "date": "2025-05-08",
       "flat": 8383.89,
       "pct": 8206.77,
+      "kelly": 9224.27,
       "n_bets": 19,
       "flat_day_pnl": 21.03,
-      "pct_day_pnl": 34.37
+      "pct_day_pnl": 34.37,
+      "kelly_day_pnl": 57.83
     },
     {
       "date": "2025-05-09",
       "flat": 8908.17,
       "pct": 9067.29,
+      "kelly": 10675.11,
       "n_bets": 16,
       "flat_day_pnl": 524.28,
-      "pct_day_pnl": 860.53
+      "pct_day_pnl": 860.53,
+      "kelly_day_pnl": 1450.84
     },
     {
       "date": "2025-05-10",
       "flat": 8247.57,
       "pct": 7869.32,
+      "kelly": 8559.53,
       "n_bets": 39,
       "flat_day_pnl": -660.6,
-      "pct_day_pnl": -1197.98
+      "pct_day_pnl": -1197.98,
+      "kelly_day_pnl": -2115.58
     },
     {
       "date": "2025-05-11",
       "flat": 8735.2,
       "pct": 8636.79,
+      "kelly": 9811.73,
       "n_bets": 31,
       "flat_day_pnl": 487.64,
-      "pct_day_pnl": 767.47
+      "pct_day_pnl": 767.47,
+      "kelly_day_pnl": 1252.2
     },
     {
       "date": "2025-05-12",
       "flat": 8743.39,
       "pct": 8650.93,
+      "kelly": 9835.82,
       "n_bets": 9,
       "flat_day_pnl": 8.19,
-      "pct_day_pnl": 14.14
+      "pct_day_pnl": 14.14,
+      "kelly_day_pnl": 24.09
     },
     {
       "date": "2025-05-13",
       "flat": 8828.03,
       "pct": 8797.38,
+      "kelly": 10085.58,
       "n_bets": 11,
       "flat_day_pnl": 84.64,
-      "pct_day_pnl": 146.45
+      "pct_day_pnl": 146.45,
+      "kelly_day_pnl": 249.76
     },
     {
       "date": "2025-05-14",
       "flat": 9456.01,
       "pct": 9902.28,
+      "kelly": 11985.64,
       "n_bets": 25,
       "flat_day_pnl": 627.97,
-      "pct_day_pnl": 1104.9
+      "pct_day_pnl": 1104.9,
+      "kelly_day_pnl": 1900.06
     },
     {
       "date": "2025-05-15",
       "flat": 9164.9,
       "pct": 9325.75,
+      "kelly": 10938.89,
       "n_bets": 17,
       "flat_day_pnl": -291.11,
-      "pct_day_pnl": -576.53
+      "pct_day_pnl": -576.53,
+      "kelly_day_pnl": -1046.75
     },
     {
       "date": "2025-05-16",
       "flat": 9404.01,
       "pct": 9771.74,
+      "kelly": 11723.61,
       "n_bets": 15,
       "flat_day_pnl": 239.12,
-      "pct_day_pnl": 445.99
+      "pct_day_pnl": 445.99,
+      "kelly_day_pnl": 784.71
     },
     {
       "date": "2025-05-17",
       "flat": 9007.37,
       "pct": 8996.56,
+      "kelly": 10328.56,
       "n_bets": 27,
       "flat_day_pnl": -396.65,
-      "pct_day_pnl": -775.18
+      "pct_day_pnl": -775.18,
+      "kelly_day_pnl": -1395.04
     },
     {
       "date": "2025-05-18",
       "flat": 9534.52,
       "pct": 9945.07,
+      "kelly": 11961.99,
       "n_bets": 28,
       "flat_day_pnl": 527.15,
-      "pct_day_pnl": 948.51
+      "pct_day_pnl": 948.51,
+      "kelly_day_pnl": 1633.42
     },
     {
       "date": "2025-05-19",
       "flat": 9703.58,
       "pct": 10281.33,
+      "kelly": 12568.68,
       "n_bets": 14,
       "flat_day_pnl": 169.06,
-      "pct_day_pnl": 336.27
+      "pct_day_pnl": 336.27,
+      "kelly_day_pnl": 606.7
     },
     {
       "date": "2025-05-20",
       "flat": 9634.92,
       "pct": 10140.14,
+      "kelly": 12309.78,
       "n_bets": 19,
       "flat_day_pnl": -68.66,
-      "pct_day_pnl": -141.19
+      "pct_day_pnl": -141.19,
+      "kelly_day_pnl": -258.9
     },
     {
       "date": "2025-05-21",
       "flat": 9075.8,
       "pct": 9006.25,
+      "kelly": 10245.04,
       "n_bets": 25,
       "flat_day_pnl": -559.11,
-      "pct_day_pnl": -1133.9
+      "pct_day_pnl": -1133.9,
+      "kelly_day_pnl": -2064.75
     },
     {
       "date": "2025-05-22",
       "flat": 9242.88,
       "pct": 9307.19,
+      "kelly": 10758.54,
       "n_bets": 19,
       "flat_day_pnl": 167.07,
-      "pct_day_pnl": 300.94
+      "pct_day_pnl": 300.94,
+      "kelly_day_pnl": 513.5
     },
     {
       "date": "2025-05-23",
       "flat": 9627.45,
       "pct": 10023.05,
+      "kelly": 11999.8,
       "n_bets": 10,
       "flat_day_pnl": 384.58,
-      "pct_day_pnl": 715.86
+      "pct_day_pnl": 715.86,
+      "kelly_day_pnl": 1241.26
     },
     {
       "date": "2025-05-24",
       "flat": 9465.94,
       "pct": 9699.28,
+      "kelly": 11418.36,
       "n_bets": 27,
       "flat_day_pnl": -161.52,
-      "pct_day_pnl": -323.78
+      "pct_day_pnl": -323.78,
+      "kelly_day_pnl": -581.44
     },
     {
       "date": "2025-05-25",
       "flat": 9873.04,
       "pct": 10488.99,
+      "kelly": 12812.87,
       "n_bets": 30,
       "flat_day_pnl": 407.1,
-      "pct_day_pnl": 789.71
+      "pct_day_pnl": 789.71,
+      "kelly_day_pnl": 1394.51
     },
     {
       "date": "2025-05-26",
       "flat": 9904.91,
       "pct": 10555.86,
+      "kelly": 12935.4,
       "n_bets": 11,
       "flat_day_pnl": 31.88,
-      "pct_day_pnl": 66.87
+      "pct_day_pnl": 66.87,
+      "kelly_day_pnl": 122.53
     },
     {
       "date": "2025-05-27",
       "flat": 9439.79,
       "pct": 9573.9,
+      "kelly": 11130.44,
       "n_bets": 15,
       "flat_day_pnl": -465.12,
-      "pct_day_pnl": -981.96
+      "pct_day_pnl": -981.96,
+      "kelly_day_pnl": -1804.96
     },
     {
       "date": "2025-05-28",
       "flat": 10221.07,
       "pct": 11069.89,
+      "kelly": 13739.23,
       "n_bets": 11,
       "flat_day_pnl": 781.29,
-      "pct_day_pnl": 1495.99
+      "pct_day_pnl": 1495.99,
+      "kelly_day_pnl": 2608.79
     },
     {
       "date": "2025-05-29",
       "flat": 10532.74,
       "pct": 11759.92,
+      "kelly": 15023.87,
       "n_bets": 7,
       "flat_day_pnl": 311.67,
-      "pct_day_pnl": 690.03
+      "pct_day_pnl": 690.03,
+      "kelly_day_pnl": 1284.64
     },
     {
       "date": "2025-05-30",
       "flat": 10849.9,
       "pct": 12505.87,
+      "kelly": 16453.36,
       "n_bets": 12,
       "flat_day_pnl": 317.16,
-      "pct_day_pnl": 745.95
+      "pct_day_pnl": 745.95,
+      "kelly_day_pnl": 1429.49
     },
     {
       "date": "2025-05-31",
       "flat": 10244.51,
       "pct": 10991.69,
+      "kelly": 13465.17,
       "n_bets": 19,
       "flat_day_pnl": -605.39,
-      "pct_day_pnl": -1514.18
+      "pct_day_pnl": -1514.18,
+      "kelly_day_pnl": -2988.19
     },
     {
       "date": "2025-06-01",
       "flat": 10501.27,
       "pct": 11556.13,
+      "kelly": 14502.36,
       "n_bets": 32,
       "flat_day_pnl": 256.76,
-      "pct_day_pnl": 564.44
+      "pct_day_pnl": 564.44,
+      "kelly_day_pnl": 1037.2
     },
     {
       "date": "2025-06-02",
       "flat": 10905.4,
       "pct": 12490.17,
+      "kelly": 16260.61,
       "n_bets": 10,
       "flat_day_pnl": 404.13,
-      "pct_day_pnl": 934.04
+      "pct_day_pnl": 934.04,
+      "kelly_day_pnl": 1758.25
     },
     {
       "date": "2025-06-03",
       "flat": 11090.53,
       "pct": 12952.62,
+      "kelly": 17163.69,
       "n_bets": 13,
       "flat_day_pnl": 185.13,
-      "pct_day_pnl": 462.45
+      "pct_day_pnl": 462.45,
+      "kelly_day_pnl": 903.08
     },
     {
       "date": "2025-06-04",
       "flat": 10704.47,
       "pct": 11952.52,
+      "kelly": 15175.84,
       "n_bets": 23,
       "flat_day_pnl": -386.06,
-      "pct_day_pnl": -1000.09
+      "pct_day_pnl": -1000.09,
+      "kelly_day_pnl": -1987.85
     },
     {
       "date": "2025-06-05",
       "flat": 11283.47,
       "pct": 13336.64,
+      "kelly": 17811.93,
       "n_bets": 20,
       "flat_day_pnl": 579.0,
-      "pct_day_pnl": 1384.11
+      "pct_day_pnl": 1384.11,
+      "kelly_day_pnl": 2636.09
     },
     {
       "date": "2025-06-06",
       "flat": 11646.11,
       "pct": 14303.92,
+      "kelly": 19749.74,
       "n_bets": 14,
       "flat_day_pnl": 362.64,
-      "pct_day_pnl": 967.28
+      "pct_day_pnl": 967.28,
+      "kelly_day_pnl": 1937.81
     },
     {
       "date": "2025-06-07",
       "flat": 11093.2,
       "pct": 12722.16,
+      "kelly": 16473.8,
       "n_bets": 36,
       "flat_day_pnl": -552.91,
-      "pct_day_pnl": -1581.76
+      "pct_day_pnl": -1581.76,
+      "kelly_day_pnl": -3275.94
     },
     {
       "date": "2025-06-08",
       "flat": 11338.4,
       "pct": 13346.06,
+      "kelly": 17685.6,
       "n_bets": 29,
       "flat_day_pnl": 245.2,
-      "pct_day_pnl": 623.9
+      "pct_day_pnl": 623.9,
+      "kelly_day_pnl": 1211.81
     },
     {
       "date": "2025-06-09",
       "flat": 11307.55,
       "pct": 13263.71,
+      "kelly": 17521.93,
       "n_bets": 17,
       "flat_day_pnl": -30.85,
-      "pct_day_pnl": -82.34
+      "pct_day_pnl": -82.34,
+      "kelly_day_pnl": -163.68
     },
     {
       "date": "2025-06-10",
       "flat": 11281.41,
       "pct": 13194.35,
+      "kelly": 17384.48,
       "n_bets": 21,
       "flat_day_pnl": -26.15,
-      "pct_day_pnl": -69.36
+      "pct_day_pnl": -69.36,
+      "kelly_day_pnl": -137.45
     },
     {
       "date": "2025-06-11",
       "flat": 10081.55,
       "pct": 10028.08,
+      "kelly": 11126.85,
       "n_bets": 33,
       "flat_day_pnl": -1199.86,
-      "pct_day_pnl": -3166.27
+      "pct_day_pnl": -3166.27,
+      "kelly_day_pnl": -6257.63
     },
     {
       "date": "2025-06-12",
       "flat": 10841.2,
       "pct": 11551.65,
+      "kelly": 13662.66,
       "n_bets": 20,
       "flat_day_pnl": 759.66,
-      "pct_day_pnl": 1523.58
+      "pct_day_pnl": 1523.58,
+      "kelly_day_pnl": 2535.81
     },
     {
       "date": "2025-06-13",
       "flat": 10780.51,
       "pct": 11411.44,
+      "kelly": 13413.9,
       "n_bets": 8,
       "flat_day_pnl": -60.69,
-      "pct_day_pnl": -140.21
+      "pct_day_pnl": -140.21,
+      "kelly_day_pnl": -248.75
     },
     {
       "date": "2025-06-14",
       "flat": 10822.4,
       "pct": 11507.05,
+      "kelly": 13582.48,
       "n_bets": 17,
       "flat_day_pnl": 41.89,
-      "pct_day_pnl": 95.61
+      "pct_day_pnl": 95.61,
+      "kelly_day_pnl": 168.58
     },
     {
       "date": "2025-06-15",
       "flat": 11211.93,
       "pct": 12403.51,
+      "kelly": 15169.68,
       "n_bets": 20,
       "flat_day_pnl": 389.53,
-      "pct_day_pnl": 896.46
+      "pct_day_pnl": 896.46,
+      "kelly_day_pnl": 1587.2
     },
     {
       "date": "2025-06-16",
       "flat": 11052.26,
       "pct": 12007.42,
+      "kelly": 14443.06,
       "n_bets": 10,
       "flat_day_pnl": -159.67,
-      "pct_day_pnl": -396.09
+      "pct_day_pnl": -396.09,
+      "kelly_day_pnl": -726.63
     },
     {
       "date": "2025-06-17",
       "flat": 11065.08,
       "pct": 12038.2,
+      "kelly": 14498.59,
       "n_bets": 28,
       "flat_day_pnl": 12.82,
-      "pct_day_pnl": 30.78
+      "pct_day_pnl": 30.78,
+      "kelly_day_pnl": 55.54
     },
     {
       "date": "2025-06-18",
       "flat": 11572.09,
       "pct": 13258.9,
+      "kelly": 16703.89,
       "n_bets": 19,
       "flat_day_pnl": 507.01,
-      "pct_day_pnl": 1220.7
+      "pct_day_pnl": 1220.7,
+      "kelly_day_pnl": 2205.3
     },
     {
       "date": "2025-06-19",
       "flat": 12152.98,
       "pct": 14799.29,
+      "kelly": 19614.84,
       "n_bets": 18,
       "flat_day_pnl": 580.89,
-      "pct_day_pnl": 1540.39
+      "pct_day_pnl": 1540.39,
+      "kelly_day_pnl": 2910.94
     },
     {
       "date": "2025-06-20",
       "flat": 12480.0,
       "pct": 15767.23,
+      "kelly": 21539.2,
       "n_bets": 13,
       "flat_day_pnl": 327.02,
-      "pct_day_pnl": 967.94
+      "pct_day_pnl": 967.94,
+      "kelly_day_pnl": 1924.37
     },
     {
       "date": "2025-06-21",
       "flat": 11345.75,
       "pct": 12190.43,
+      "kelly": 14209.9,
       "n_bets": 41,
       "flat_day_pnl": -1134.25,
-      "pct_day_pnl": -3576.8
+      "pct_day_pnl": -3576.8,
+      "kelly_day_pnl": -7329.3
     },
     {
       "date": "2025-06-22",
       "flat": 11637.17,
       "pct": 12900.94,
+      "kelly": 15452.22,
       "n_bets": 50,
       "flat_day_pnl": 291.42,
-      "pct_day_pnl": 710.51
+      "pct_day_pnl": 710.51,
+      "kelly_day_pnl": 1242.32
     },
     {
       "date": "2025-06-23",
       "flat": 11396.51,
       "pct": 12279.99,
+      "kelly": 14336.6,
       "n_bets": 19,
       "flat_day_pnl": -240.66,
-      "pct_day_pnl": -620.95
+      "pct_day_pnl": -620.95,
+      "kelly_day_pnl": -1115.63
     },
     {
       "date": "2025-06-24",
       "flat": 12201.27,
       "pct": 14256.49,
+      "kelly": 17797.88,
       "n_bets": 22,
       "flat_day_pnl": 804.76,
-      "pct_day_pnl": 1976.5
+      "pct_day_pnl": 1976.5,
+      "kelly_day_pnl": 3461.28
     },
     {
       "date": "2025-06-25",
       "flat": 12223.72,
       "pct": 14320.48,
+      "kelly": 17917.72,
       "n_bets": 28,
       "flat_day_pnl": 22.44,
-      "pct_day_pnl": 63.99
+      "pct_day_pnl": 63.99,
+      "kelly_day_pnl": 119.83
     },
     {
       "date": "2025-06-26",
       "flat": 12282.11,
       "pct": 14487.71,
+      "kelly": 18231.57,
       "n_bets": 22,
       "flat_day_pnl": 58.39,
-      "pct_day_pnl": 167.23
+      "pct_day_pnl": 167.23,
+      "kelly_day_pnl": 313.86
     },
     {
       "date": "2025-06-27",
       "flat": 12994.51,
       "pct": 16551.94,
+      "kelly": 22128.07,
       "n_bets": 18,
       "flat_day_pnl": 712.4,
-      "pct_day_pnl": 2064.22
+      "pct_day_pnl": 2064.22,
+      "kelly_day_pnl": 3896.5
     },
     {
       "date": "2025-06-28",
       "flat": 12514.5,
       "pct": 14962.9,
+      "kelly": 18941.54,
       "n_bets": 40,
       "flat_day_pnl": -480.01,
-      "pct_day_pnl": -1589.03
+      "pct_day_pnl": -1589.03,
+      "kelly_day_pnl": -3186.53
     },
     {
       "date": "2025-06-29",
       "flat": 12688.34,
       "pct": 15483.14,
+      "kelly": 19929.4,
       "n_bets": 44,
       "flat_day_pnl": 173.84,
-      "pct_day_pnl": 520.24
+      "pct_day_pnl": 520.24,
+      "kelly_day_pnl": 987.86
     },
     {
       "date": "2025-06-30",
       "flat": 12826.4,
       "pct": 15910.65,
+      "kelly": 20754.81,
       "n_bets": 6,
       "flat_day_pnl": 138.06,
-      "pct_day_pnl": 427.51
+      "pct_day_pnl": 427.51,
+      "kelly_day_pnl": 825.41
     },
     {
       "date": "2025-07-01",
       "flat": 12603.57,
       "pct": 15201.57,
+      "kelly": 19367.38,
       "n_bets": 18,
       "flat_day_pnl": -222.83,
-      "pct_day_pnl": -709.07
+      "pct_day_pnl": -709.07,
+      "kelly_day_pnl": -1387.43
     },
     {
       "date": "2025-07-02",
       "flat": 12086.3,
       "pct": 13628.93,
+      "kelly": 16361.99,
       "n_bets": 30,
       "flat_day_pnl": -517.26,
-      "pct_day_pnl": -1572.64
+      "pct_day_pnl": -1572.64,
+      "kelly_day_pnl": -3005.4
     },
     {
       "date": "2025-07-03",
       "flat": 12762.43,
       "pct": 15471.92,
+      "kelly": 19680.84,
       "n_bets": 30,
       "flat_day_pnl": 676.13,
-      "pct_day_pnl": 1842.99
+      "pct_day_pnl": 1842.99,
+      "kelly_day_pnl": 3318.86
     },
     {
       "date": "2025-07-04",
       "flat": 12325.57,
       "pct": 14120.09,
+      "kelly": 17101.45,
       "n_bets": 23,
       "flat_day_pnl": -436.87,
-      "pct_day_pnl": -1351.84
+      "pct_day_pnl": -1351.84,
+      "kelly_day_pnl": -2579.4
     },
     {
       "date": "2025-07-05",
       "flat": 12098.18,
       "pct": 13477.95,
+      "kelly": 15934.87,
       "n_bets": 33,
       "flat_day_pnl": -227.38,
-      "pct_day_pnl": -642.14
+      "pct_day_pnl": -642.14,
+      "kelly_day_pnl": -1166.57
     },
     {
       "date": "2025-07-06",
       "flat": 12468.45,
       "pct": 14476.05,
+      "kelly": 17704.95,
       "n_bets": 25,
       "flat_day_pnl": 370.27,
-      "pct_day_pnl": 998.1
+      "pct_day_pnl": 998.1,
+      "kelly_day_pnl": 1770.08
     },
     {
       "date": "2025-07-07",
       "flat": 12008.26,
       "pct": 13143.68,
+      "kelly": 15260.61,
       "n_bets": 12,
       "flat_day_pnl": -460.2,
-      "pct_day_pnl": -1332.37
+      "pct_day_pnl": -1332.37,
+      "kelly_day_pnl": -2444.34
     },
     {
       "date": "2025-07-08",
       "flat": 11104.8,
       "pct": 10768.73,
+      "kelly": 11124.41,
       "n_bets": 28,
       "flat_day_pnl": -903.46,
-      "pct_day_pnl": -2374.95
+      "pct_day_pnl": -2374.95,
+      "kelly_day_pnl": -4136.2
     },
     {
       "date": "2025-07-09",
       "flat": 10858.69,
       "pct": 10238.68,
+      "kelly": 10303.08,
       "n_bets": 22,
       "flat_day_pnl": -246.11,
-      "pct_day_pnl": -530.05
+      "pct_day_pnl": -530.05,
+      "kelly_day_pnl": -821.33
     },
     {
       "date": "2025-07-10",
       "flat": 10665.51,
       "pct": 9843.09,
+      "kelly": 9705.96,
       "n_bets": 23,
       "flat_day_pnl": -193.19,
-      "pct_day_pnl": -395.6
+      "pct_day_pnl": -395.6,
+      "kelly_day_pnl": -597.12
     },
     {
       "date": "2025-07-11",
       "flat": 10409.82,
       "pct": 9339.74,
+      "kelly": 8961.45,
       "n_bets": 24,
       "flat_day_pnl": -255.69,
-      "pct_day_pnl": -503.35
+      "pct_day_pnl": -503.35,
+      "kelly_day_pnl": -744.51
     },
     {
       "date": "2025-07-12",
       "flat": 10540.75,
       "pct": 9584.31,
+      "kelly": 9313.44,
       "n_bets": 32,
       "flat_day_pnl": 130.93,
-      "pct_day_pnl": 244.57
+      "pct_day_pnl": 244.57,
+      "kelly_day_pnl": 351.99
     },
     {
       "date": "2025-07-13",
       "flat": 10446.78,
       "pct": 9404.18,
+      "kelly": 9050.9,
       "n_bets": 36,
       "flat_day_pnl": -93.97,
-      "pct_day_pnl": -180.12
+      "pct_day_pnl": -180.12,
+      "kelly_day_pnl": -262.54
     },
     {
       "date": "2025-07-18",
       "flat": 9625.36,
       "pct": 7859.22,
+      "kelly": 6820.49,
       "n_bets": 22,
       "flat_day_pnl": -821.42,
-      "pct_day_pnl": -1544.96
+      "pct_day_pnl": -1544.96,
+      "kelly_day_pnl": -2230.41
     },
     {
       "date": "2025-07-19",
       "flat": 9238.1,
       "pct": 7250.51,
+      "kelly": 6028.12,
       "n_bets": 33,
       "flat_day_pnl": -387.26,
-      "pct_day_pnl": -608.71
+      "pct_day_pnl": -608.71,
+      "kelly_day_pnl": -792.37
     },
     {
       "date": "2025-07-20",
       "flat": 9767.37,
       "pct": 8018.0,
+      "kelly": 6985.24,
       "n_bets": 42,
       "flat_day_pnl": 529.26,
-      "pct_day_pnl": 767.49
+      "pct_day_pnl": 767.49,
+      "kelly_day_pnl": 957.12
     },
     {
       "date": "2025-07-21",
       "flat": 10154.84,
       "pct": 8639.36,
+      "kelly": 7797.24,
       "n_bets": 21,
       "flat_day_pnl": 387.48,
-      "pct_day_pnl": 621.36
+      "pct_day_pnl": 621.36,
+      "kelly_day_pnl": 812.0
     },
     {
       "date": "2025-07-22",
       "flat": 10043.98,
       "pct": 8447.8,
+      "kelly": 7537.91,
       "n_bets": 39,
       "flat_day_pnl": -110.86,
-      "pct_day_pnl": -191.56
+      "pct_day_pnl": -191.56,
+      "kelly_day_pnl": -259.33
     },
     {
       "date": "2025-07-23",
       "flat": 10368.62,
       "pct": 8996.31,
+      "kelly": 8272.06,
       "n_bets": 49,
       "flat_day_pnl": 324.64,
-      "pct_day_pnl": 548.51
+      "pct_day_pnl": 548.51,
+      "kelly_day_pnl": 734.15
     },
     {
       "date": "2025-07-24",
       "flat": 9933.14,
       "pct": 8212.76,
+      "kelly": 7191.36,
       "n_bets": 6,
       "flat_day_pnl": -435.48,
-      "pct_day_pnl": -783.55
+      "pct_day_pnl": -783.55,
+      "kelly_day_pnl": -1080.7
     },
     {
       "date": "2025-07-25",
       "flat": 9566.5,
       "pct": 7610.52,
+      "kelly": 6400.36,
       "n_bets": 20,
       "flat_day_pnl": -366.65,
-      "pct_day_pnl": -602.23
+      "pct_day_pnl": -602.23,
+      "kelly_day_pnl": -791.0
     },
     {
       "date": "2025-07-26",
       "flat": 9092.15,
       "pct": 6888.51,
+      "kelly": 5489.56,
       "n_bets": 27,
       "flat_day_pnl": -474.35,
-      "pct_day_pnl": -722.01
+      "pct_day_pnl": -722.01,
+      "kelly_day_pnl": -910.8
     },
     {
       "date": "2025-07-27",
       "flat": 9991.47,
       "pct": 8127.52,
+      "kelly": 6970.67,
       "n_bets": 29,
       "flat_day_pnl": 899.33,
-      "pct_day_pnl": 1239.01
+      "pct_day_pnl": 1239.01,
+      "kelly_day_pnl": 1481.1
     },
     {
       "date": "2025-07-28",
       "flat": 10332.71,
       "pct": 8682.21,
+      "kelly": 7684.27,
       "n_bets": 25,
       "flat_day_pnl": 341.24,
-      "pct_day_pnl": 554.68
+      "pct_day_pnl": 554.68,
+      "kelly_day_pnl": 713.6
     },
     {
       "date": "2025-07-29",
       "flat": 9870.37,
       "pct": 7879.37,
+      "kelly": 6618.42,
       "n_bets": 26,
       "flat_day_pnl": -462.35,
-      "pct_day_pnl": -802.84
+      "pct_day_pnl": -802.84,
+      "kelly_day_pnl": -1065.85
     },
     {
       "date": "2025-07-30",
       "flat": 10169.02,
       "pct": 8350.0,
+      "kelly": 7211.38,
       "n_bets": 36,
       "flat_day_pnl": 298.65,
-      "pct_day_pnl": 470.63
+      "pct_day_pnl": 470.63,
+      "kelly_day_pnl": 592.97
     },
     {
       "date": "2025-07-31",
       "flat": 10057.34,
       "pct": 8163.5,
+      "kelly": 6969.78,
       "n_bets": 8,
       "flat_day_pnl": -111.68,
-      "pct_day_pnl": -186.5
+      "pct_day_pnl": -186.5,
+      "kelly_day_pnl": -241.61
     },
     {
       "date": "2025-08-01",
       "flat": 10101.1,
       "pct": 8234.95,
+      "kelly": 7061.28,
       "n_bets": 24,
       "flat_day_pnl": 43.76,
-      "pct_day_pnl": 71.45
+      "pct_day_pnl": 71.45,
+      "kelly_day_pnl": 91.5
     },
     {
       "date": "2025-08-02",
       "flat": 10544.99,
       "pct": 8966.04,
+      "kelly": 8001.62,
       "n_bets": 36,
       "flat_day_pnl": 443.89,
-      "pct_day_pnl": 731.09
+      "pct_day_pnl": 731.09,
+      "kelly_day_pnl": 940.34
     },
     {
       "date": "2025-08-03",
       "flat": 10115.65,
       "pct": 8196.13,
+      "kelly": 6970.98,
       "n_bets": 25,
       "flat_day_pnl": -429.35,
-      "pct_day_pnl": -769.9
+      "pct_day_pnl": -769.9,
+      "kelly_day_pnl": -1030.64
     },
     {
       "date": "2025-08-04",
       "flat": 9589.35,
       "pct": 7333.41,
+      "kelly": 5870.33,
       "n_bets": 10,
       "flat_day_pnl": -526.3,
-      "pct_day_pnl": -862.72
+      "pct_day_pnl": -862.72,
+      "kelly_day_pnl": -1100.65
     },
     {
       "date": "2025-08-05",
       "flat": 10008.79,
       "pct": 7948.6,
+      "kelly": 6609.02,
       "n_bets": 29,
       "flat_day_pnl": 419.45,
-      "pct_day_pnl": 615.19
+      "pct_day_pnl": 615.19,
+      "kelly_day_pnl": 738.68
     },
     {
       "date": "2025-08-06",
       "flat": 8883.19,
       "pct": 6159.21,
+      "kelly": 4377.28,
       "n_bets": 31,
       "flat_day_pnl": -1125.6,
-      "pct_day_pnl": -1789.4
+      "pct_day_pnl": -1789.4,
+      "kelly_day_pnl": -2231.73
     },
     {
       "date": "2025-08-07",
       "flat": 8711.78,
       "pct": 5948.06,
+      "kelly": 4152.19,
       "n_bets": 12,
       "flat_day_pnl": -171.41,
-      "pct_day_pnl": -211.15
+      "pct_day_pnl": -211.15,
+      "kelly_day_pnl": -225.1
     },
     {
       "date": "2025-08-08",
       "flat": 8454.08,
       "pct": 5641.49,
+      "kelly": 3831.17,
       "n_bets": 13,
       "flat_day_pnl": -257.7,
-      "pct_day_pnl": -306.56
+      "pct_day_pnl": -306.56,
+      "kelly_day_pnl": -321.02
     },
     {
       "date": "2025-08-09",
       "flat": 9098.25,
       "pct": 6368.31,
+      "kelly": 4571.58,
       "n_bets": 25,
       "flat_day_pnl": 644.18,
-      "pct_day_pnl": 726.82
+      "pct_day_pnl": 726.82,
+      "kelly_day_pnl": 740.42
     },
     {
       "date": "2025-08-10",
       "flat": 9057.55,
       "pct": 6316.47,
+      "kelly": 4515.76,
       "n_bets": 35,
       "flat_day_pnl": -40.7,
-      "pct_day_pnl": -51.84
+      "pct_day_pnl": -51.84,
+      "kelly_day_pnl": -55.83
     },
     {
       "date": "2025-08-11",
       "flat": 8915.3,
       "pct": 6136.77,
+      "kelly": 4323.05,
       "n_bets": 11,
       "flat_day_pnl": -142.25,
-      "pct_day_pnl": -179.7
+      "pct_day_pnl": -179.7,
+      "kelly_day_pnl": -192.71
     },
     {
       "date": "2025-08-12",
       "flat": 9751.76,
       "pct": 7163.4,
+      "kelly": 5407.86,
       "n_bets": 22,
       "flat_day_pnl": 836.46,
-      "pct_day_pnl": 1026.63
+      "pct_day_pnl": 1026.63,
+      "kelly_day_pnl": 1084.81
     },
     {
       "date": "2025-08-13",
       "flat": 10320.85,
       "pct": 7978.72,
+      "kelly": 6290.44,
       "n_bets": 30,
       "flat_day_pnl": 569.09,
-      "pct_day_pnl": 815.32
+      "pct_day_pnl": 815.32,
+      "kelly_day_pnl": 882.58
     },
     {
       "date": "2025-08-14",
       "flat": 10420.3,
       "pct": 8137.43,
+      "kelly": 6478.13,
       "n_bets": 18,
       "flat_day_pnl": 99.46,
-      "pct_day_pnl": 158.71
+      "pct_day_pnl": 158.71,
+      "kelly_day_pnl": 187.69
     },
     {
       "date": "2025-08-15",
       "flat": 11734.57,
       "pct": 10276.38,
+      "kelly": 9032.27,
       "n_bets": 32,
       "flat_day_pnl": 1314.27,
-      "pct_day_pnl": 2138.95
+      "pct_day_pnl": 2138.95,
+      "kelly_day_pnl": 2554.14
     },
     {
       "date": "2025-08-16",
       "flat": 11956.51,
       "pct": 10732.53,
+      "kelly": 9633.67,
       "n_bets": 34,
       "flat_day_pnl": 221.94,
-      "pct_day_pnl": 456.16
+      "pct_day_pnl": 456.16,
+      "kelly_day_pnl": 601.4
     },
     {
       "date": "2025-08-17",
       "flat": 11975.82,
       "pct": 10773.98,
+      "kelly": 9689.47,
       "n_bets": 37,
       "flat_day_pnl": 19.31,
-      "pct_day_pnl": 41.44
+      "pct_day_pnl": 41.44,
+      "kelly_day_pnl": 55.8
     },
     {
       "date": "2025-08-18",
       "flat": 11909.39,
       "pct": 10630.82,
+      "kelly": 9496.36,
       "n_bets": 8,
       "flat_day_pnl": -66.43,
-      "pct_day_pnl": -143.15
+      "pct_day_pnl": -143.15,
+      "kelly_day_pnl": -193.11
     },
     {
       "date": "2025-08-19",
       "flat": 10970.83,
       "pct": 8635.3,
+      "kelly": 6822.51,
       "n_bets": 34,
       "flat_day_pnl": -938.56,
-      "pct_day_pnl": -1995.53
+      "pct_day_pnl": -1995.53,
+      "kelly_day_pnl": -2673.85
     },
     {
       "date": "2025-08-20",
       "flat": 12276.48,
       "pct": 10890.22,
+      "kelly": 9494.9,
       "n_bets": 42,
       "flat_day_pnl": 1305.65,
-      "pct_day_pnl": 2254.93
+      "pct_day_pnl": 2254.93,
+      "kelly_day_pnl": 2672.39
     },
     {
       "date": "2025-08-21",
       "flat": 12646.02,
       "pct": 11695.1,
+      "kelly": 10547.54,
       "n_bets": 24,
       "flat_day_pnl": 369.54,
-      "pct_day_pnl": 804.88
+      "pct_day_pnl": 804.88,
+      "kelly_day_pnl": 1052.64
     },
     {
       "date": "2025-08-22",
       "flat": 12523.88,
       "pct": 11409.42,
+      "kelly": 10161.05,
       "n_bets": 17,
       "flat_day_pnl": -122.14,
-      "pct_day_pnl": -285.69
+      "pct_day_pnl": -285.69,
+      "kelly_day_pnl": -386.49
     },
     {
       "date": "2025-08-23",
       "flat": 12693.9,
       "pct": 11797.4,
+      "kelly": 10679.35,
       "n_bets": 23,
       "flat_day_pnl": 170.03,
-      "pct_day_pnl": 387.98
+      "pct_day_pnl": 387.98,
+      "kelly_day_pnl": 518.29
     },
     {
       "date": "2025-08-24",
       "flat": 13105.28,
       "pct": 12768.03,
+      "kelly": 11997.32,
       "n_bets": 26,
       "flat_day_pnl": 411.38,
-      "pct_day_pnl": 970.63
+      "pct_day_pnl": 970.63,
+      "kelly_day_pnl": 1317.97
     },
     {
       "date": "2025-08-25",
       "flat": 13043.86,
       "pct": 12611.18,
+      "kelly": 11776.24,
       "n_bets": 15,
       "flat_day_pnl": -61.42,
-      "pct_day_pnl": -156.85
+      "pct_day_pnl": -156.85,
+      "kelly_day_pnl": -221.08
     },
     {
       "date": "2025-08-26",
       "flat": 13762.59,
       "pct": 14424.0,
+      "kelly": 14315.46,
       "n_bets": 16,
       "flat_day_pnl": 718.74,
-      "pct_day_pnl": 1812.82
+      "pct_day_pnl": 1812.82,
+      "kelly_day_pnl": 2539.22
     },
     {
       "date": "2025-08-27",
       "flat": 13063.43,
       "pct": 12407.07,
+      "kelly": 11312.86,
       "n_bets": 18,
       "flat_day_pnl": -699.16,
-      "pct_day_pnl": -2016.93
+      "pct_day_pnl": -2016.93,
+      "kelly_day_pnl": -3002.6
     },
     {
       "date": "2025-08-28",
       "flat": 13788.11,
       "pct": 14205.3,
+      "kelly": 13772.35,
       "n_bets": 14,
       "flat_day_pnl": 724.68,
-      "pct_day_pnl": 1798.23
+      "pct_day_pnl": 1798.23,
+      "kelly_day_pnl": 2459.49
     },
     {
       "date": "2025-08-29",
       "flat": 14157.65,
       "pct": 15255.19,
+      "kelly": 15299.18,
       "n_bets": 11,
       "flat_day_pnl": 369.54,
-      "pct_day_pnl": 1049.89
+      "pct_day_pnl": 1049.89,
+      "kelly_day_pnl": 1526.83
     },
     {
       "date": "2025-08-30",
       "flat": 14502.84,
       "pct": 16308.37,
+      "kelly": 16883.52,
       "n_bets": 33,
       "flat_day_pnl": 345.19,
-      "pct_day_pnl": 1053.18
+      "pct_day_pnl": 1053.18,
+      "kelly_day_pnl": 1584.34
     },
     {
       "date": "2025-08-31",
       "flat": 15198.31,
       "pct": 18576.76,
+      "kelly": 20406.13,
       "n_bets": 32,
       "flat_day_pnl": 695.47,
-      "pct_day_pnl": 2268.39
+      "pct_day_pnl": 2268.39,
+      "kelly_day_pnl": 3522.61
     },
     {
       "date": "2025-09-01",
       "flat": 16061.14,
       "pct": 21782.48,
+      "kelly": 25688.21,
       "n_bets": 26,
       "flat_day_pnl": 862.83,
-      "pct_day_pnl": 3205.72
+      "pct_day_pnl": 3205.72,
+      "kelly_day_pnl": 5282.08
     },
     {
       "date": "2025-09-02",
       "flat": 16249.69,
       "pct": 22603.88,
+      "kelly": 27141.25,
       "n_bets": 21,
       "flat_day_pnl": 188.55,
-      "pct_day_pnl": 821.41
+      "pct_day_pnl": 821.41,
+      "kelly_day_pnl": 1453.04
     },
     {
       "date": "2025-09-03",
       "flat": 16288.72,
       "pct": 22780.34,
+      "kelly": 27459.07,
       "n_bets": 31,
       "flat_day_pnl": 39.03,
-      "pct_day_pnl": 176.45
+      "pct_day_pnl": 176.45,
+      "kelly_day_pnl": 317.81
     },
     {
       "date": "2025-09-04",
       "flat": 16260.07,
       "pct": 22649.8,
+      "kelly": 27223.05,
       "n_bets": 4,
       "flat_day_pnl": -28.65,
-      "pct_day_pnl": -130.53
+      "pct_day_pnl": -130.53,
+      "kelly_day_pnl": -236.01
     },
     {
       "date": "2025-09-05",
       "flat": 15609.04,
       "pct": 19700.64,
+      "kelly": 21906.12,
       "n_bets": 14,
       "flat_day_pnl": -651.03,
-      "pct_day_pnl": -2949.16
+      "pct_day_pnl": -2949.16,
+      "kelly_day_pnl": -5316.93
     },
     {
       "date": "2025-09-06",
       "flat": 15626.23,
       "pct": 19768.38,
+      "kelly": 22019.1,
       "n_bets": 39,
       "flat_day_pnl": 17.19,
-      "pct_day_pnl": 67.74
+      "pct_day_pnl": 67.74,
+      "kelly_day_pnl": 112.98
     },
     {
       "date": "2025-09-07",
       "flat": 15475.68,
       "pct": 19173.18,
+      "kelly": 21024.65,
       "n_bets": 30,
       "flat_day_pnl": -150.54,
-      "pct_day_pnl": -595.2
+      "pct_day_pnl": -595.2,
+      "kelly_day_pnl": -994.44
     },
     {
       "date": "2025-09-08",
       "flat": 15513.17,
       "pct": 19316.92,
+      "kelly": 21261.09,
       "n_bets": 11,
       "flat_day_pnl": 37.49,
-      "pct_day_pnl": 143.74
+      "pct_day_pnl": 143.74,
+      "kelly_day_pnl": 236.44
     },
     {
       "date": "2025-09-09",
       "flat": 15928.84,
       "pct": 20922.82,
+      "kelly": 23912.37,
       "n_bets": 21,
       "flat_day_pnl": 415.67,
-      "pct_day_pnl": 1605.9
+      "pct_day_pnl": 1605.9,
+      "kelly_day_pnl": 2651.28
     },
     {
       "date": "2025-09-10",
       "flat": 16402.24,
       "pct": 22903.81,
+      "kelly": 27308.42,
       "n_bets": 16,
       "flat_day_pnl": 473.4,
-      "pct_day_pnl": 1980.98
+      "pct_day_pnl": 1980.98,
+      "kelly_day_pnl": 3396.04
     },
     {
       "date": "2025-09-11",
       "flat": 16371.31,
       "pct": 22762.1,
+      "kelly": 27054.97,
       "n_bets": 7,
       "flat_day_pnl": -30.94,
-      "pct_day_pnl": -141.71
+      "pct_day_pnl": -141.71,
+      "kelly_day_pnl": -253.44
     },
     {
       "date": "2025-09-12",
       "flat": 16975.45,
       "pct": 25512.39,
+      "kelly": 31958.47,
       "n_bets": 15,
       "flat_day_pnl": 604.14,
-      "pct_day_pnl": 2750.3
+      "pct_day_pnl": 2750.3,
+      "kelly_day_pnl": 4903.5
     },
     {
       "date": "2025-09-13",
       "flat": 17148.29,
       "pct": 26394.3,
+      "kelly": 33615.58,
       "n_bets": 16,
       "flat_day_pnl": 172.84,
-      "pct_day_pnl": 881.91
+      "pct_day_pnl": 881.91,
+      "kelly_day_pnl": 1657.1
     },
     {
       "date": "2025-09-14",
       "flat": 17379.02,
       "pct": 27612.31,
+      "kelly": 35942.44,
       "n_bets": 28,
       "flat_day_pnl": 230.73,
-      "pct_day_pnl": 1218.0
+      "pct_day_pnl": 1218.0,
+      "kelly_day_pnl": 2326.86
     },
     {
       "date": "2025-09-15",
       "flat": 17178.58,
       "pct": 26505.4,
+      "kelly": 33781.19,
       "n_bets": 11,
       "flat_day_pnl": -200.44,
-      "pct_day_pnl": -1106.9
+      "pct_day_pnl": -1106.9,
+      "kelly_day_pnl": -2161.25
     },
     {
       "date": "2025-09-16",
       "flat": 17340.48,
       "pct": 27363.64,
+      "kelly": 35421.94,
       "n_bets": 18,
       "flat_day_pnl": 161.9,
-      "pct_day_pnl": 858.24
+      "pct_day_pnl": 858.24,
+      "kelly_day_pnl": 1640.75
     },
     {
       "date": "2025-09-17",
       "flat": 18027.26,
       "pct": 31122.18,
+      "kelly": 42720.04,
       "n_bets": 24,
       "flat_day_pnl": 686.78,
-      "pct_day_pnl": 3758.54
+      "pct_day_pnl": 3758.54,
+      "kelly_day_pnl": 7298.1
     },
     {
       "date": "2025-09-18",
       "flat": 17705.81,
       "pct": 29121.36,
+      "kelly": 38600.37,
       "n_bets": 25,
       "flat_day_pnl": -321.45,
-      "pct_day_pnl": -2000.83
+      "pct_day_pnl": -2000.83,
+      "kelly_day_pnl": -4119.67
     },
     {
       "date": "2025-09-19",
       "flat": 17536.23,
       "pct": 28133.68,
+      "kelly": 36636.63,
       "n_bets": 7,
       "flat_day_pnl": -169.58,
-      "pct_day_pnl": -987.68
+      "pct_day_pnl": -987.68,
+      "kelly_day_pnl": -1963.75
     },
     {
       "date": "2025-09-20",
       "flat": 17766.27,
       "pct": 29428.06,
+      "kelly": 39165.01,
       "n_bets": 41,
       "flat_day_pnl": 230.04,
-      "pct_day_pnl": 1294.38
+      "pct_day_pnl": 1294.38,
+      "kelly_day_pnl": 2528.38
     },
     {
       "date": "2025-09-21",
       "flat": 18775.91,
       "pct": 35370.39,
+      "kelly": 51027.73,
       "n_bets": 38,
       "flat_day_pnl": 1009.64,
-      "pct_day_pnl": 5942.33
+      "pct_day_pnl": 5942.33,
+      "kelly_day_pnl": 11862.72
     },
     {
       "date": "2025-09-22",
       "flat": 18840.84,
       "pct": 35829.74,
+      "kelly": 52021.77,
       "n_bets": 1,
       "flat_day_pnl": 64.94,
-      "pct_day_pnl": 459.36
+      "pct_day_pnl": 459.36,
+      "kelly_day_pnl": 994.05
     },
     {
       "date": "2025-09-23",
       "flat": 18997.49,
       "pct": 36952.28,
+      "kelly": 54466.51,
       "n_bets": 12,
       "flat_day_pnl": 156.65,
-      "pct_day_pnl": 1122.54
+      "pct_day_pnl": 1122.54,
+      "kelly_day_pnl": 2444.74
     },
     {
       "date": "2025-09-24",
       "flat": 19049.22,
       "pct": 37334.57,
+      "kelly": 55311.75,
       "n_bets": 13,
       "flat_day_pnl": 51.73,
-      "pct_day_pnl": 382.3
+      "pct_day_pnl": 382.3,
+      "kelly_day_pnl": 845.24
     },
     {
       "date": "2025-09-25",
       "flat": 19673.32,
       "pct": 41994.63,
+      "kelly": 65667.66,
       "n_bets": 18,
       "flat_day_pnl": 624.09,
-      "pct_day_pnl": 4660.06
+      "pct_day_pnl": 4660.06,
+      "kelly_day_pnl": 10355.91
     },
     {
       "date": "2025-09-26",
       "flat": 19711.33,
       "pct": 42313.89,
+      "kelly": 66416.49,
       "n_bets": 17,
       "flat_day_pnl": 38.01,
-      "pct_day_pnl": 319.25
+      "pct_day_pnl": 319.25,
+      "kelly_day_pnl": 748.83
     },
     {
       "date": "2025-09-27",
       "flat": 19991.51,
       "pct": 44685.02,
+      "kelly": 71999.14,
       "n_bets": 18,
       "flat_day_pnl": 280.18,
-      "pct_day_pnl": 2371.14
+      "pct_day_pnl": 2371.14,
+      "kelly_day_pnl": 5582.65
     },
     {
       "date": "2025-09-28",
       "flat": 20002.65,
       "pct": 44784.62,
+      "kelly": 72239.85,
       "n_bets": 22,
       "flat_day_pnl": 11.14,
-      "pct_day_pnl": 99.59
+      "pct_day_pnl": 99.59,
+      "kelly_day_pnl": 240.71
     },
     {
       "date": "2025-09-30",
       "flat": 19865.15,
       "pct": 43553.04,
+      "kelly": 69259.95,
       "n_bets": 3,
       "flat_day_pnl": -137.5,
-      "pct_day_pnl": -1231.58
+      "pct_day_pnl": -1231.58,
+      "kelly_day_pnl": -2979.9
     }
   ],
   "clv_summary": {
