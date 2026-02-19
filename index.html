@@ -116,23 +116,23 @@
         <div class="steps-grid reveal">
           <div class="step-card">
             <div class="step-number">1</div>
-            <h3>Analyze Pitch Data</h3>
-            <p>Models train on 400K+ Statcast pitches from 2022-2023, computing rolling features like K rates, ground ball tendencies, and fastball velocity.</p>
+            <h3>Ingest Every Pitch</h3>
+            <p>Every pitch from every game flows through our pipeline — velocity, movement, outcomes. Hundreds of thousands of data points per season.</p>
           </div>
           <div class="step-card">
             <div class="step-number">2</div>
-            <h3>Generate Predictions</h3>
-            <p>A Poisson/Negative Binomial GLM + XGBoost ensemble produces expected stat lines for every starter, validated on 2024 out-of-sample data.</p>
+            <h3>Model the Matchup</h3>
+            <p>Statistical models project expected stat lines for every starter, calibrated against years of out-of-sample data.</p>
           </div>
           <div class="step-card">
             <div class="step-number">3</div>
             <h3>Find the Edge</h3>
-            <p>Analytical CDF computes the probability of going over/under each prop line. Only bets exceeding a market-specific edge threshold are surfaced.</p>
+            <p>We compute the true probability of going over or under each prop line — only bets that clear a strict confidence threshold make the cut.</p>
           </div>
           <div class="step-card">
             <div class="step-number">4</div>
-            <h3>Show Best Price</h3>
-            <p>Picks compare odds across 10+ sportsbooks and highlight the best available line — because where you bet matters as much as what you bet.</p>
+            <h3>Shop the Best Line</h3>
+            <p>Every pick compares odds across 10+ sportsbooks and surfaces the best available price. Where you bet matters as much as what you bet.</p>
           </div>
         </div>
 
