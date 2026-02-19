@@ -8,7 +8,9 @@
   }
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   function normalizeBookKey(book) {
-    return String(book || '').trim().toLowerCase();
+    var key = String(book || '').trim().toLowerCase();
+    if (key === 'consensus') return '';
+    return key;
   }
 
   function syncBookFilterState(allPicks, selectedBooks) {
@@ -39,6 +41,7 @@
 
     return picks.filter(function (pick) {
       var key = normalizeBookKey(pick && pick.best_book);
+      if (!key) return true; // always show picks without a specific book
       return !!selectedBooks[key];
     });
   }

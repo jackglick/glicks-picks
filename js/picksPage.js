@@ -150,9 +150,10 @@
     body.appendChild(el('span', 'pick-card-market', pick.market));
     card.appendChild(body);
 
+    var isConsensus = pick.best_book && pick.best_book.toLowerCase() === 'consensus';
     if (pick.best_book || pick.best_price !== null) {
       var bookDiv = el('div', 'pick-card-book');
-      if (pick.best_book) {
+      if (pick.best_book && !isConsensus) {
         var bookKey = pick.best_book.toLowerCase();
         var bookColor = GP.BOOK_COLORS[bookKey] || '#8d95a3';
         var dot = el('span', 'book-dot');
@@ -243,6 +244,7 @@
 
     return picks.filter(function (pick) {
       var key = normalizeBookKey(pick.best_book);
+      if (!key) return true;
       return !!picksState.selectedBooks[key];
     });
   }
