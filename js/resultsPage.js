@@ -32,7 +32,9 @@
     var thead = document.createElement('thead');
     var headRow = document.createElement('tr');
     ['Direction', 'Bets', 'Win Rate', 'Flat Return', '2% Return'].forEach(function (h) {
-      headRow.appendChild(el('th', '', h));
+      var th = el('th', '', h);
+      th.setAttribute('scope', 'col');
+      headRow.appendChild(th);
     });
     thead.appendChild(headRow);
     table.appendChild(thead);
@@ -232,13 +234,13 @@
           {
             label: 'Starting Bankroll',
             data: baselineValues,
-            borderColor: 'rgba(150, 160, 175, 0.5)',
+            borderColor: 'rgba(150, 160, 175, 0.75)',
             backgroundColor: 'transparent',
             fill: false,
             tension: 0,
             pointRadius: 0,
             pointHitRadius: 0,
-            borderWidth: 1,
+            borderWidth: 1.5,
             borderDash: [6, 4]
           }
         ]
@@ -378,7 +380,7 @@
       if (GP.isArchiveSeason()) {
         subtitleEl.textContent = 'Out-of-sample ' + season + ' backtest archive across player-prop markets';
       } else {
-        subtitleEl.textContent = season + ' season cumulative performance across player-prop markets';
+        subtitleEl.textContent = 'Cumulative performance across player-prop markets';
       }
     }
 
@@ -392,11 +394,14 @@
           var emptyTitle = document.getElementById('results-empty-title');
           var emptyCopy = document.getElementById('results-empty-copy');
           if (!GP.isArchiveSeason()) {
-            if (emptyTitle) emptyTitle.textContent = 'No results yet';
-            if (emptyCopy) emptyCopy.textContent = 'Results will appear here once the ' + season + ' season begins and picks are graded.';
+            if (emptyTitle) emptyTitle.textContent = 'Season Starting Soon';
+            if (emptyCopy) emptyCopy.textContent = 'Results will appear here once the ' + season + ' season begins and picks are graded. Select a season above to explore the backtest archive.';
+          } else {
+            if (emptyTitle) emptyTitle.textContent = 'Results unavailable';
+            if (emptyCopy) emptyCopy.textContent = 'We could not load results data for this season. Please try refreshing.';
           }
         }
-        setStatusText('results-generated-at', 'Last updated: unavailable');
+        setStatusText('results-generated-at', '');
         return;
       }
 
@@ -487,16 +492,12 @@
         if (typeof Chart !== 'undefined') {
           initBankrollChart(canvas, data.bankroll_curve, initBankroll);
         } else {
-          var attempts = 0;
-          var waitForChart = setInterval(function () {
-            attempts++;
-            if (typeof Chart !== 'undefined') {
-              clearInterval(waitForChart);
+          var chartScript = document.getElementById('chart-script');
+          if (chartScript) {
+            chartScript.addEventListener('load', function () {
               initBankrollChart(canvas, data.bankroll_curve, initBankroll);
-            } else if (attempts > 50) {
-              clearInterval(waitForChart);
-            }
-          }, 100);
+            });
+          }
         }
       }
 

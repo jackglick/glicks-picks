@@ -36,6 +36,7 @@
     document.addEventListener('keydown', function (evt) {
       if (evt.key === 'Escape' && mobileNav.classList.contains('open')) {
         closeMenu();
+        hamburger.focus();
       }
     });
 
@@ -108,14 +109,18 @@
         var betRoi = summary.bet_roi != null ? summary.bet_roi : 0;
         GP.setStatusText('hero-roi', (betRoi >= 0 ? '+' : '') + betRoi.toFixed(1) + '%');
       })
-      .catch(function () {});
+      .catch(function (err) {
+        if (typeof console !== 'undefined' && console.error) {
+          console.error('Failed to load hero stats:', err);
+        }
+      });
   }
 
   // --- Page Router ---
   initMobileMenu();
   initSeasonSelector();
   initHomePage();
-  GP.initPicksPage();
-  GP.initResultsPage();
+  if (typeof GP.initPicksPage === 'function') GP.initPicksPage();
+  if (typeof GP.initResultsPage === 'function') GP.initResultsPage();
 
 })();

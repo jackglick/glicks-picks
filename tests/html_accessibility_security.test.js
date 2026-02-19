@@ -38,8 +38,13 @@ function hasInlineScript(html) {
     assert.ok(html.includes('<script src="js/site_logic.js"></script>'), file + ': site_logic.js');
     assert.ok(html.includes('<script src="js/config.js"></script>'), file + ': config.js');
     assert.ok(html.includes('<script src="js/utils.js"></script>'), file + ': utils.js');
-    assert.ok(html.includes('<script src="js/picksPage.js"></script>'), file + ': picksPage.js');
-    assert.ok(html.includes('<script src="js/resultsPage.js"></script>'), file + ': resultsPage.js');
+    // Page-specific scripts: picksPage only on picks, resultsPage only on results
+    if (file === 'picks.html') {
+      assert.ok(html.includes('<script src="js/picksPage.js"></script>'), file + ': picksPage.js');
+    }
+    if (file === 'results.html') {
+      assert.ok(html.includes('<script src="js/resultsPage.js"></script>'), file + ': resultsPage.js');
+    }
     assert.ok(html.includes('<script src="js/main.js"></script>'), file + ': main.js');
   });
 });
@@ -56,7 +61,7 @@ test('picks page has accessible calendar and filter controls', function () {
 
 test('results page keeps table captions for screen-reader context', function () {
   const html = read('results.html');
-  assert.ok(html.includes('<caption>Market-level backtest summary for 2025 archive</caption>'));
+  assert.ok(html.includes('<caption>Market-level backtest summary</caption>'));
   assert.ok(html.includes('<caption>Most recent graded picks from the archive</caption>'));
 });
 

@@ -13,15 +13,22 @@
   <meta property="og:description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data and backtested against real sportsbook odds across seven markets.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://glicks-picks.com/">
-  <meta property="og:image" content="images/hero-bg.jpg">
+  <meta property="og:image" content="https://glicks-picks.com/images/hero-bg.jpg">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Glick's Picks — MLB Player Prop Analytics">
   <meta name="twitter:description" content="Pitch-level modeling for MLB player props. Statistical models trained on Statcast data and backtested against real sportsbook odds across seven markets.">
+  <meta name="twitter:image" content="https://glicks-picks.com/images/hero-bg.jpg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://glicks-picks.com/">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Preload LCP hero image -->
+  <link rel="preload" href="images/hero-bg.jpg" as="image">
 
   <!-- Fonts -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" as="style">
@@ -42,7 +49,7 @@
       <nav aria-label="Primary">
         <ul class="nav-links">
           <li><a href="picks.html">Today's Picks</a></li>
-          <li><a href="results.html">Results</a></li>
+          <li><a href="results.html">Track Record</a></li>
         </ul>
       </nav>
       <button
@@ -61,7 +68,7 @@
   <!-- Mobile Nav -->
   <nav id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation">
     <a href="picks.html">Today's Picks</a>
-    <a href="results.html">Results</a>
+    <a href="results.html">Track Record</a>
   </nav>
 
   <main id="main-content">
@@ -70,7 +77,7 @@
       <div class="container">
         <div class="hero-badge reveal">RESEARCH PROJECT</div>
         <h1 class="hero-headline reveal">MLB Player Prop<br>Analytics</h1>
-        <p class="hero-sub reveal">Statistical models backtested against real sportsbook odds across seven markets.</p>
+        <p class="hero-sub reveal">Statistical models trained on Statcast pitch-level data, backtested against real sportsbook odds. Break-even at -110 is 52.4%.</p>
 
         <div class="hero-stats reveal">
           <div class="hero-stat">
@@ -100,6 +107,50 @@
         </div>
       </div>
     </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title reveal">How It Works</h2>
+        <p class="section-subtitle reveal">A transparent, data-driven approach to MLB player props.</p>
+        <div class="steps-grid reveal">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>Analyze Pitch Data</h3>
+            <p>Models train on 400K+ Statcast pitches from 2022-2023, computing rolling features like K rates, ground ball tendencies, and fastball velocity.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Generate Predictions</h3>
+            <p>A Poisson/Negative Binomial GLM + XGBoost ensemble produces expected stat lines for every starter, validated on 2024 out-of-sample data.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Find the Edge</h3>
+            <p>Analytical CDF computes the probability of going over/under each prop line. Only bets exceeding a market-specific edge threshold are surfaced.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h3>Show Best Price</h3>
+            <p>Picks compare odds across 10+ sportsbooks and highlight the best available line — because where you bet matters as much as what you bet.</p>
+          </div>
+        </div>
+
+        <div class="markets-section reveal">
+          <h3 class="markets-heading">Seven Markets</h3>
+          <div class="markets-grid">
+            <div class="market-tag pitcher">Strikeouts</div>
+            <div class="market-tag pitcher">Earned Runs</div>
+            <div class="market-tag pitcher">Outs Recorded</div>
+            <div class="market-tag pitcher">Hits Allowed</div>
+            <div class="market-tag pitcher">Walks</div>
+            <div class="market-tag batter">Batter Hits</div>
+            <div class="market-tag batter">Batter Total Bases</div>
+          </div>
+          <p class="markets-context">5 pitcher markets + 2 batter markets. All 7 were profitable in the 2025 backtest.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -115,11 +166,9 @@
 
   <script src="js/security.js"></script>
   <script src="js/analytics.js"></script>
-  <script src="js/site_logic.js"></script>
   <script src="js/config.js"></script>
+  <script src="js/site_logic.js"></script>
   <script src="js/utils.js"></script>
-  <script src="js/picksPage.js"></script>
-  <script src="js/resultsPage.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -116,6 +116,13 @@
     return el('div', 'player-initials', getPlayerInitials(pick.player));
   }
 
+  function formatPlayerName(name) {
+    if (!name) return '';
+    var parts = name.split(', ');
+    if (parts.length === 2) return parts[1] + ' ' + parts[0];
+    return name;
+  }
+
   function renderPickCard(pick) {
     var card = el('div', 'pick-card');
 
@@ -123,7 +130,7 @@
     header.appendChild(createPlayerAvatar(pick));
     var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
-    headerLeft.appendChild(el('div', 'pick-card-player', pick.player));
+    headerLeft.appendChild(el('div', 'pick-card-player', formatPlayerName(pick.player)));
     var roleText = pick.category === 'batter' ? 'Batter' : 'Starting Pitcher';
     headerLeft.appendChild(el('div', 'pick-card-role', roleText));
     headerInfo.appendChild(headerLeft);
@@ -679,6 +686,9 @@
 
       if (entry.selected || dateKey === picksState.selectedBacktestDate) {
         btn.classList.add('selected');
+        btn.setAttribute('aria-selected', 'true');
+      } else {
+        btn.setAttribute('aria-selected', 'false');
       }
 
       grid.appendChild(btn);
@@ -868,8 +878,9 @@
         picksState.allPicks = [];
         renderBooksFilterPanel();
         renderPicksWithFilters();
-        setStatusText('picks-status', 'Could not load current picks feed.');
-        if (dateEl) dateEl.textContent = 'Feed unavailable';
+        // Don't show error message — offseason hero handles the empty state
+        setStatusText('picks-status', '');
+        if (dateEl) dateEl.textContent = '';
         return;
       }
 
@@ -893,11 +904,7 @@
       initMarketFilter(picksState.allPicks);
       renderPicksWithFilters();
 
-      if (picksState.allPicks.length === 0) {
-        setStatusText('picks-status', '');
-      } else {
-        setStatusText('picks-status', '');
-      }
+      setStatusText('picks-status', '');
     });
   };
 

@@ -13,12 +13,16 @@
   <meta property="og:description" content="Backtested MLB player prop performance across seven markets.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://glicks-picks.com/results.html">
-  <meta property="og:image" content="images/hero-bg.jpg">
+  <meta property="og:image" content="https://glicks-picks.com/images/hero-bg.jpg">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Track Record — Glick's Picks">
   <meta name="twitter:description" content="Backtested MLB player prop performance across seven markets.">
+  <meta name="twitter:image" content="https://glicks-picks.com/images/hero-bg.jpg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://glicks-picks.com/results.html">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -42,7 +46,7 @@
       <nav aria-label="Primary">
         <ul class="nav-links">
           <li><a href="picks.html">Today's Picks</a></li>
-          <li><a href="results.html" class="active">Results</a></li>
+          <li><a href="results.html" class="active">Track Record</a></li>
         </ul>
       </nav>
       <button
@@ -61,7 +65,7 @@
   <!-- Mobile Nav -->
   <nav id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation">
     <a href="picks.html">Today's Picks</a>
-    <a href="results.html">Results</a>
+    <a href="results.html">Track Record</a>
   </nav>
 
   <!-- Backtest Banner -->
@@ -196,12 +200,11 @@
 
   <script src="js/security.js"></script>
   <script src="js/analytics.js"></script>
-  <script src="js/site_logic.js"></script>
   <script src="js/config.js"></script>
+  <script src="js/site_logic.js"></script>
   <script src="js/utils.js"></script>
-  <script src="js/picksPage.js"></script>
   <script src="js/resultsPage.js"></script>
-  <script src="js/vendor/chart.umd.min.js"></script>
+  <script src="js/vendor/chart.umd.min.js" id="chart-script"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

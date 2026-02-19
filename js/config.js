@@ -3,7 +3,7 @@
    ============================================ */
 window.GP = {};
 
-GP.CURRENT_SEASON = '';  // no live season — all data loads from data/{year}/
+GP.CURRENT_SEASON = '2026';
 GP.AVAILABLE_SEASONS = ['2025', '2024'];
 
 GP.BOOK_COLORS = {
