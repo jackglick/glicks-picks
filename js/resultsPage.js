@@ -119,7 +119,7 @@
     if (streaks.bestWin > 0 || streaks.bestLoss > 0) {
       streakEl.style.display = '';
       clearChildren(streakEl);
-      streakEl.appendChild(el('span', 'summary-meta-label', 'Streaks'));
+      streakEl.appendChild(el('span', 'summary-meta-label', 'Longest Streak'));
       streakEl.appendChild(document.createTextNode(' '));
       if (streaks.bestWin > 0) {
         streakEl.appendChild(el('strong', 'positive', streaks.bestWin + 'W'));

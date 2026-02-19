@@ -180,10 +180,6 @@
       if (pick.actual !== null && pick.actual !== undefined) {
         footer.appendChild(el('span', 'pick-outcome-actual', 'Actual: ' + pick.actual));
       }
-      if (pick.pnl !== null && pick.pnl !== undefined) {
-        var pnlClass = pick.pnl > 0 ? 'pnl-positive' : (pick.pnl < 0 ? 'pnl-negative' : '');
-        footer.appendChild(el('span', 'pick-outcome-pnl ' + pnlClass, formatPnl(pick.pnl)));
-      }
       card.appendChild(footer);
     }
 
