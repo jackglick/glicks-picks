@@ -1,212 +1,207 @@
 {
-  "generated_at": "2026-02-17T13:16:11.245216+00:00",
+  "generated_at": "2026-02-19T01:39:40.473149+00:00",
   "summary": {
-    "total_bets": 3896,
-    "wins": 2214,
-    "losses": 1682,
+    "total_bets": 5457,
+    "wins": 3064,
+    "losses": 2393,
     "pushes": 0,
-    "win_rate": 56.8,
+    "win_rate": 56.1,
     "initial_bankroll": 5000.0,
-    "total_wagered": 389600,
-    "bet_roi": 3.8,
+    "total_wagered": 545700,
+    "bet_roi": 3.3,
     "flat": {
-      "final_bankroll": 19865.15,
-      "return_pct": 297.3,
-      "max_drawdown_pct": -34.9,
-      "best_bankroll": 20002.65,
+      "final_bankroll": 23087.81,
+      "return_pct": 361.8,
+      "max_drawdown_pct": -33.5,
+      "best_bankroll": 23087.81,
       "bust": false
     },
     "pct": {
-      "final_bankroll": 43553.04,
-      "return_pct": 771.1,
-      "max_drawdown_pct": -65.9,
-      "best_bankroll": 44784.62,
+      "final_bankroll": 58216.93,
+      "return_pct": 1064.3,
+      "max_drawdown_pct": -67.7,
+      "best_bankroll": 58216.93,
       "bust": false
     },
     "kelly": {
-      "final_bankroll": 69259.95,
-      "return_pct": 1285.2,
-      "max_drawdown_pct": -82.7,
-      "best_bankroll": 72239.85
+      "final_bankroll": 82435.12,
+      "return_pct": 1548.7,
+      "max_drawdown_pct": -86.0,
+      "best_bankroll": 82435.12
     },
-    "sharpe": 0.0412,
-    "sortino": 0.0581,
-    "calmar": 0.1093,
-    "profit_factor": 1.0884,
-    "z_vs_breakeven": 5.56,
-    "mean_pnl_per_bet": 3.82,
-    "std_pnl_per_bet": 92.62,
+    "sharpe": 2.3792,
+    "sortino": 3.9209,
+    "profit_factor": 1.0756,
+    "z_vs_breakeven": 5.57,
+    "yield_pct": 3.31,
+    "mean_daily_pnl": 14.9,
+    "std_daily_pnl": 84.75,
+    "n_season_days": 182,
     "ci_win_rate": [
-      0.5518,
-      0.5844
+      0.5473,
+      0.5759
     ],
     "ci_roi": [
       0.7,
-      6.8
+      6.0
     ]
   },
   "by_market": [
     {
       "market": "Hits",
       "category": "batter",
-      "bets": 192,
-      "wins": 123,
-      "losses": 69,
+      "bets": 166,
+      "wins": 109,
+      "losses": 57,
       "pushes": 0,
-      "win_rate": 64.1,
-      "pnl": 330.21,
-      "roi": 1.7,
-      "flat_return": 6.6,
-      "pct_return": 52.2,
+      "win_rate": 65.7,
+      "pnl": 126.75,
+      "roi": 5.1,
+      "flat_return": 2.5,
+      "pct_return": 69.1,
       "ci_win_rate": [
-        56.3,
-        72.0
+        57.4,
+        73.5
       ],
       "ci_roi": [
-        -10.6,
-        14.5
+        -8.4,
+        17.8
       ],
-      "avg_clv_cents": 0.0037,
-      "pct_favorable_clv": 27.3,
-      "n_bets_with_clv": 187,
-      "sharpe": 0.0224,
-      "sortino": 0.0287,
-      "profit_factor": 1.0479
+      "sharpe": 1.2302,
+      "sortino": 1.8647,
+      "profit_factor": 1.1482
     },
     {
       "market": "Total Bases",
       "category": "batter",
-      "bets": 1904,
-      "wins": 1153,
-      "losses": 751,
+      "bets": 2450,
+      "wins": 1479,
+      "losses": 971,
       "pushes": 0,
-      "win_rate": 60.6,
-      "pnl": 2628.2,
-      "roi": 1.4,
-      "flat_return": 52.6,
-      "pct_return": 260.9,
+      "win_rate": 60.4,
+      "pnl": 635.04,
+      "roi": 1.7,
+      "flat_return": 12.7,
+      "pct_return": 342.2,
       "ci_win_rate": [
         58.2,
-        63.0
+        62.4
       ],
       "ci_roi": [
-        -2.6,
-        5.5
+        -1.9,
+        5.4
       ],
-      "avg_clv_cents": 0.0022,
-      "pct_favorable_clv": 24.9,
-      "n_bets_with_clv": 1843,
-      "sharpe": 0.0167,
-      "sortino": 0.022,
-      "profit_factor": 1.035
+      "sharpe": 0.953,
+      "sortino": 1.4101,
+      "profit_factor": 1.0436
     },
     {
       "market": "Earned Runs",
       "category": "pitcher",
-      "bets": 135,
-      "wins": 70,
+      "bets": 134,
+      "wins": 69,
       "losses": 65,
       "pushes": 0,
-      "win_rate": 51.9,
-      "pnl": 362.03,
-      "roi": 2.7,
-      "flat_return": 7.2,
-      "pct_return": -14.5,
+      "win_rate": 51.5,
+      "pnl": 34.06,
+      "roi": 1.7,
+      "flat_return": 0.7,
+      "pct_return": -19.0,
       "ci_win_rate": [
-        43.3,
-        60.5
+        42.8,
+        60.3
       ],
       "ci_roi": [
-        -14.5,
-        20.3
+        -15.7,
+        19.1
       ],
-      "avg_clv_cents": 0.0176,
-      "pct_favorable_clv": 76.3,
-      "n_bets_with_clv": 131,
-      "sharpe": 0.0267,
-      "sortino": 0.0386,
-      "profit_factor": 1.0557
+      "avg_clv_cents": 4.776,
+      "pct_favorable_clv": 40.8,
+      "n_bets_with_clv": 125,
+      "sharpe": 0.2683,
+      "sortino": 0.3852,
+      "profit_factor": 1.0349
     },
     {
       "market": "Hits Allowed",
       "category": "pitcher",
-      "bets": 64,
-      "wins": 30,
-      "losses": 34,
+      "bets": 815,
+      "wins": 421,
+      "losses": 394,
       "pushes": 0,
-      "win_rate": 46.9,
-      "pnl": -279.47,
-      "roi": -4.4,
-      "flat_return": -5.6,
-      "pct_return": -1.0,
+      "win_rate": 51.7,
+      "pnl": 80.27,
+      "roi": 0.7,
+      "flat_return": 1.6,
+      "pct_return": 125.3,
       "ci_win_rate": [
-        34.4,
-        59.4
+        48.1,
+        55.1
       ],
       "ci_roi": [
-        -29.8,
-        21.0
+        -6.3,
+        7.3
       ],
-      "avg_clv_cents": 0.0135,
-      "pct_favorable_clv": 73.8,
-      "n_bets_with_clv": 61,
-      "sharpe": -0.0421,
-      "sortino": -0.0599,
-      "profit_factor": 0.9178
+      "avg_clv_cents": 10.1795,
+      "pct_favorable_clv": 47.7,
+      "n_bets_with_clv": 596,
+      "sharpe": 0.1886,
+      "sortino": 0.2806,
+      "profit_factor": 1.0136
     },
     {
       "market": "Outs Recorded",
       "category": "pitcher",
-      "bets": 1197,
-      "wins": 620,
-      "losses": 577,
+      "bets": 1489,
+      "wins": 769,
+      "losses": 720,
       "pushes": 0,
-      "win_rate": 51.8,
-      "pnl": 8180.39,
-      "roi": 6.8,
-      "flat_return": 163.6,
-      "pct_return": 287.0,
+      "win_rate": 51.6,
+      "pnl": 1303.57,
+      "roi": 5.8,
+      "flat_return": 26.1,
+      "pct_return": 351.0,
       "ci_win_rate": [
-        48.9,
-        54.6
+        49.1,
+        54.3
       ],
       "ci_roi": [
-        0.9,
-        12.7
+        0.5,
+        11.2
       ],
-      "avg_clv_cents": 0.026,
-      "pct_favorable_clv": 86.1,
-      "n_bets_with_clv": 1160,
-      "sharpe": 0.0655,
-      "sortino": 0.0984,
-      "profit_factor": 1.1418
+      "avg_clv_cents": -1.0456,
+      "pct_favorable_clv": 16.7,
+      "n_bets_with_clv": 1031,
+      "sharpe": 2.1858,
+      "sortino": 3.7215,
+      "profit_factor": 1.1207
     },
     {
       "market": "Strikeouts",
       "category": "pitcher",
-      "bets": 262,
-      "wins": 146,
+      "bets": 261,
+      "wins": 145,
       "losses": 116,
       "pushes": 0,
-      "win_rate": 55.7,
-      "pnl": 3281.65,
-      "roi": 12.5,
-      "flat_return": 65.6,
-      "pct_return": 155.6,
+      "win_rate": 55.6,
+      "pnl": 478.58,
+      "roi": 12.2,
+      "flat_return": 9.6,
+      "pct_return": 166.5,
       "ci_win_rate": [
-        49.4,
-        61.7
+        49.2,
+        61.4
       ],
       "ci_roi": [
-        -0.1,
-        24.5
+        -0.7,
+        24.1
       ],
-      "avg_clv_cents": 0.0152,
-      "pct_favorable_clv": 91.6,
-      "n_bets_with_clv": 251,
-      "sharpe": 0.123,
-      "sortino": 0.1882,
-      "profit_factor": 1.2829
+      "avg_clv_cents": 11.3019,
+      "pct_favorable_clv": 26.4,
+      "n_bets_with_clv": 159,
+      "sharpe": 2.5074,
+      "sortino": 3.8087,
+      "profit_factor": 1.275
     },
     {
       "market": "Walks",
@@ -216,10 +211,10 @@
       "losses": 70,
       "pushes": 0,
       "win_rate": 50.7,
-      "pnl": 362.68,
+      "pnl": 54.38,
       "roi": 2.6,
-      "flat_return": 7.3,
-      "pct_return": 30.9,
+      "flat_return": 1.1,
+      "pct_return": 29.2,
       "ci_win_rate": [
         42.5,
         59.0
@@ -228,76 +223,76 @@
         -14.1,
         19.7
       ],
-      "avg_clv_cents": 0.0121,
-      "pct_favorable_clv": 68.4,
-      "n_bets_with_clv": 136,
-      "sharpe": 0.0247,
-      "sortino": 0.0364,
+      "avg_clv_cents": 4.7031,
+      "pct_favorable_clv": 3.9,
+      "n_bets_with_clv": 128,
+      "sharpe": 0.3918,
+      "sortino": 0.5766,
       "profit_factor": 1.0518
     }
   ],
   "star_tier_stats": [
     {
       "stars": 1,
-      "bets": 827,
-      "wins": 391,
-      "losses": 436,
+      "bets": 583,
+      "wins": 288,
+      "losses": 295,
       "pushes": 0,
-      "win_rate": 47.3,
-      "pnl": 2590.05,
-      "roi": 3.1,
-      "flat_return": 51.8,
-      "pct_return": -108.6
+      "win_rate": 49.4,
+      "pnl": 837.03,
+      "roi": 9.6,
+      "flat_return": 16.7,
+      "pct_return": 268.0
     },
     {
       "stars": 2,
-      "bets": 1788,
-      "wins": 1028,
-      "losses": 760,
+      "bets": 2234,
+      "wins": 1173,
+      "losses": 1061,
       "pushes": 0,
-      "win_rate": 57.5,
-      "pnl": 10109.12,
-      "roi": 5.7,
-      "flat_return": 202.2,
-      "pct_return": 664.7
+      "win_rate": 52.5,
+      "pnl": 608.64,
+      "roi": 1.8,
+      "flat_return": 12.2,
+      "pct_return": 209.0
     },
     {
       "stars": 3,
-      "bets": 1281,
-      "wins": 795,
-      "losses": 486,
+      "bets": 2640,
+      "wins": 1603,
+      "losses": 1037,
       "pushes": 0,
-      "win_rate": 62.1,
-      "pnl": 2166.52,
-      "roi": 1.7,
-      "flat_return": 43.3,
-      "pct_return": 215.0
+      "win_rate": 60.7,
+      "pnl": 1266.98,
+      "roi": 3.2,
+      "flat_return": 25.3,
+      "pct_return": 587.3
     }
   ],
   "direction_stats": [
     {
       "direction": "OVER",
-      "bets": 224,
-      "wins": 118,
-      "losses": 106,
+      "bets": 194,
+      "wins": 104,
+      "losses": 90,
       "pushes": 0,
-      "win_rate": 52.7,
-      "pnl": 1614.6,
-      "roi": 7.2,
-      "flat_return": 32.3,
-      "pct_return": 120.1
+      "win_rate": 53.6,
+      "pnl": 254.12,
+      "roi": 8.7,
+      "flat_return": 5.1,
+      "pct_return": 144.0
     },
     {
       "direction": "UNDER",
-      "bets": 3672,
-      "wins": 2096,
-      "losses": 1576,
+      "bets": 5263,
+      "wins": 2960,
+      "losses": 2303,
       "pushes": 0,
-      "win_rate": 57.1,
-      "pnl": 13251.09,
-      "roi": 3.6,
-      "flat_return": 265.0,
-      "pct_return": 650.9
+      "win_rate": 56.2,
+      "pnl": 2458.53,
+      "roi": 3.1,
+      "flat_return": 49.2,
+      "pct_return": 920.3
     }
   ],
   "player_attention": {
@@ -305,569 +300,400 @@
     "method": {
       "attention_proxy": "player bet frequency within scored paper trades",
       "high_attention_quantile": 0.8,
-      "high_attention_min_bets": 11.0,
+      "high_attention_min_bets": 15.0,
       "tracked_players": [
         "Ohtani, Shohei",
         "Judge, Aaron"
       ]
     },
     "overall": {
-      "bets": 3896,
-      "unique_players": 517,
-      "mean_edge": 0.1534,
-      "median_edge": 0.144
+      "bets": 5457,
+      "unique_players": 559,
+      "mean_edge": 0.1846,
+      "median_edge": 0.177
     },
     "tier_comparison": [
       {
-        "bets": 2458,
-        "wins": 1419,
-        "losses": 1039,
+        "bets": 3416,
+        "wins": 1932,
+        "losses": 1484,
         "pushes": 0,
-        "win_rate": 57.7,
-        "pnl": 11598.87,
-        "stake": 245800.0,
-        "roi": 4.7,
-        "mean_edge": 0.1543,
-        "median_edge": 0.145,
+        "win_rate": 56.6,
+        "pnl": 2049.47,
+        "stake": 51240.0,
+        "roi": 4.0,
+        "mean_edge": 0.1886,
+        "median_edge": 0.182,
         "tier": "high_attention_players",
-        "unique_players": 107,
-        "avg_bets_per_player": 42.09
+        "unique_players": 120,
+        "avg_bets_per_player": 44.0
       },
       {
-        "bets": 1438,
-        "wins": 795,
-        "losses": 643,
+        "bets": 2041,
+        "wins": 1132,
+        "losses": 909,
         "pushes": 0,
-        "win_rate": 55.3,
-        "pnl": 3266.82,
-        "stake": 143800.0,
-        "roi": 2.3,
-        "mean_edge": 0.1519,
-        "median_edge": 0.142,
+        "win_rate": 55.5,
+        "pnl": 663.18,
+        "stake": 30615.0,
+        "roi": 2.2,
+        "mean_edge": 0.1778,
+        "median_edge": 0.168,
         "tier": "other_players",
-        "unique_players": 410,
-        "avg_bets_per_player": 5.43
+        "unique_players": 439,
+        "avg_bets_per_player": 7.71
       }
     ],
     "frequency_deciles": [
       {
-        "bets": 469,
-        "wins": 269,
-        "losses": 200,
+        "bets": 618,
+        "wins": 367,
+        "losses": 251,
         "pushes": 0,
-        "win_rate": 57.4,
-        "pnl": 684.86,
-        "stake": 46900.0,
-        "roi": 1.5,
-        "mean_edge": 0.1445,
-        "median_edge": 0.133,
-        "bucket": "(0.999, 3.0]",
-        "unique_players": 258,
-        "avg_bets_per_player": 2.17
+        "win_rate": 59.4,
+        "pnl": 490.26,
+        "stake": 9270.0,
+        "roi": 5.3,
+        "mean_edge": 0.1748,
+        "median_edge": 0.166,
+        "bucket": "(0.999, 4.0]",
+        "unique_players": 279,
+        "avg_bets_per_player": 2.75
       },
       {
-        "bets": 408,
-        "wins": 223,
-        "losses": 185,
+        "bets": 517,
+        "wins": 278,
+        "losses": 239,
         "pushes": 0,
-        "win_rate": 54.7,
-        "pnl": 1196.82,
-        "stake": 40800.0,
-        "roi": 2.9,
-        "mean_edge": 0.152,
-        "median_edge": 0.142,
-        "bucket": "(3.0, 6.0]",
-        "unique_players": 85,
-        "avg_bets_per_player": 4.95
+        "win_rate": 53.8,
+        "pnl": -3.27,
+        "stake": 7755.0,
+        "roi": -0.0,
+        "mean_edge": 0.1745,
+        "median_edge": 0.165,
+        "bucket": "(4.0, 8.0]",
+        "unique_players": 81,
+        "avg_bets_per_player": 6.57
       },
       {
-        "bets": 431,
-        "wins": 237,
-        "losses": 194,
+        "bets": 539,
+        "wins": 289,
+        "losses": 250,
         "pushes": 0,
-        "win_rate": 55.0,
-        "pnl": 1827.48,
-        "stake": 43100.0,
-        "roi": 4.2,
-        "mean_edge": 0.157,
-        "median_edge": 0.151,
-        "bucket": "(6.0, 9.0]",
-        "unique_players": 54,
-        "avg_bets_per_player": 8.06
+        "win_rate": 53.6,
+        "pnl": 144.3,
+        "stake": 8085.0,
+        "roi": 1.8,
+        "mean_edge": 0.1812,
+        "median_edge": 0.17,
+        "bucket": "(8.0, 12.0]",
+        "unique_players": 52,
+        "avg_bets_per_player": 10.47
       },
       {
-        "bets": 306,
-        "wins": 159,
-        "losses": 147,
+        "bets": 592,
+        "wins": 306,
+        "losses": 286,
         "pushes": 0,
-        "win_rate": 52.0,
-        "pnl": 122.45,
-        "stake": 30600.0,
-        "roi": 0.4,
-        "mean_edge": 0.1626,
-        "median_edge": 0.157,
-        "bucket": "(9.0, 11.0]",
-        "unique_players": 29,
-        "avg_bets_per_player": 10.58
+        "win_rate": 51.7,
+        "pnl": -78.51,
+        "stake": 8880.0,
+        "roi": -0.9,
+        "mean_edge": 0.1853,
+        "median_edge": 0.176,
+        "bucket": "(12.0, 15.0]",
+        "unique_players": 42,
+        "avg_bets_per_player": 14.14
       },
       {
-        "bets": 362,
-        "wins": 188,
-        "losses": 174,
+        "bets": 468,
+        "wins": 241,
+        "losses": 227,
         "pushes": 0,
-        "win_rate": 51.9,
-        "pnl": 1020.03,
-        "stake": 36200.0,
-        "roi": 2.8,
-        "mean_edge": 0.1594,
-        "median_edge": 0.152,
-        "bucket": "(11.0, 14.0]",
+        "win_rate": 51.5,
+        "pnl": -172.15,
+        "stake": 7020.0,
+        "roi": -2.5,
+        "mean_edge": 0.1853,
+        "median_edge": 0.1785,
+        "bucket": "(15.0, 18.0]",
         "unique_players": 28,
-        "avg_bets_per_player": 12.97
+        "avg_bets_per_player": 16.75
       },
       {
-        "bets": 441,
-        "wins": 250,
-        "losses": 191,
+        "bets": 553,
+        "wins": 313,
+        "losses": 240,
         "pushes": 0,
-        "win_rate": 56.7,
-        "pnl": 4524.79,
-        "stake": 44100.0,
-        "roi": 10.3,
-        "mean_edge": 0.1598,
-        "median_edge": 0.15,
-        "bucket": "(14.0, 18.0]",
-        "unique_players": 27,
-        "avg_bets_per_player": 16.4
+        "win_rate": 56.6,
+        "pnl": 700.07,
+        "stake": 8295.0,
+        "roi": 8.4,
+        "mean_edge": 0.1858,
+        "median_edge": 0.179,
+        "bucket": "(18.0, 23.0]",
+        "unique_players": 26,
+        "avg_bets_per_player": 21.36
       },
       {
-        "bets": 376,
-        "wins": 227,
-        "losses": 149,
+        "bets": 548,
+        "wins": 302,
+        "losses": 246,
         "pushes": 0,
-        "win_rate": 60.4,
-        "pnl": 5740.32,
-        "stake": 37600.0,
-        "roi": 15.3,
-        "mean_edge": 0.1649,
-        "median_edge": 0.151,
-        "bucket": "(18.0, 25.0]",
-        "unique_players": 17,
-        "avg_bets_per_player": 22.35
+        "win_rate": 55.1,
+        "pnl": 775.52,
+        "stake": 8220.0,
+        "roi": 9.4,
+        "mean_edge": 0.1952,
+        "median_edge": 0.191,
+        "bucket": "(23.0, 29.0]",
+        "unique_players": 21,
+        "avg_bets_per_player": 26.2
       },
       {
-        "bets": 337,
-        "wins": 201,
-        "losses": 136,
+        "bets": 533,
+        "wins": 312,
+        "losses": 221,
         "pushes": 0,
-        "win_rate": 59.6,
-        "pnl": 97.22,
-        "stake": 33700.0,
-        "roi": 0.3,
-        "mean_edge": 0.1412,
-        "median_edge": 0.134,
-        "bucket": "(25.0, 48.0]",
+        "win_rate": 58.5,
+        "pnl": 809.45,
+        "stake": 7995.0,
+        "roi": 10.1,
+        "mean_edge": 0.1894,
+        "median_edge": 0.182,
+        "bucket": "(29.0, 40.0]",
+        "unique_players": 16,
+        "avg_bets_per_player": 33.61
+      },
+      {
+        "bets": 632,
+        "wins": 381,
+        "losses": 251,
+        "pushes": 0,
+        "win_rate": 60.3,
+        "pnl": 18.78,
+        "stake": 9480.0,
+        "roi": 0.2,
+        "mean_edge": 0.1855,
+        "median_edge": 0.179,
+        "bucket": "(40.0, 95.0]",
         "unique_players": 10,
-        "avg_bets_per_player": 35.33
+        "avg_bets_per_player": 67.05
       },
       {
-        "bets": 437,
-        "wins": 269,
-        "losses": 168,
+        "bets": 457,
+        "wins": 275,
+        "losses": 182,
         "pushes": 0,
-        "win_rate": 61.6,
-        "pnl": 191.21,
-        "stake": 43700.0,
+        "win_rate": 60.2,
+        "pnl": 28.2,
+        "stake": 6855.0,
         "roi": 0.4,
-        "mean_edge": 0.1461,
-        "median_edge": 0.139,
-        "bucket": "(48.0, 92.0]",
-        "unique_players": 6,
-        "avg_bets_per_player": 75.48
-      },
-      {
-        "bets": 329,
-        "wins": 191,
-        "losses": 138,
-        "pushes": 0,
-        "win_rate": 58.1,
-        "pnl": -539.49,
-        "stake": 32900.0,
-        "roi": -1.6,
-        "mean_edge": 0.1487,
-        "median_edge": 0.148,
-        "bucket": "(92.0, 120.0]",
-        "unique_players": 3,
-        "avg_bets_per_player": 110.34
+        "mean_edge": 0.19,
+        "median_edge": 0.186,
+        "bucket": "(95.0, 121.0]",
+        "unique_players": 4,
+        "avg_bets_per_player": 115.13
       }
     ],
     "top_players_by_bets": [
       {
         "player": "Edwards, Xavier",
-        "bets": 120,
-        "win_rate": 59.2,
-        "roi": -4.4,
-        "mean_edge": 0.1589
+        "bets": 121,
+        "win_rate": 60.3,
+        "roi": -2.4,
+        "mean_edge": 0.1976
       },
       {
         "player": "Ram\u00edrez, Jos\u00e9",
-        "bets": 110,
-        "win_rate": 56.4,
-        "roi": -0.8,
-        "mean_edge": 0.1501
+        "bets": 121,
+        "win_rate": 57.9,
+        "roi": 1.0,
+        "mean_edge": 0.2006
       },
       {
         "player": "Lindor, Francisco",
-        "bets": 99,
-        "win_rate": 58.6,
-        "roi": 0.7,
-        "mean_edge": 0.1347
-      },
-      {
-        "player": "De La Cruz, Elly",
-        "bets": 92,
-        "win_rate": 54.3,
-        "roi": -9.6,
-        "mean_edge": 0.1515
+        "bets": 118,
+        "win_rate": 60.2,
+        "roi": 2.4,
+        "mean_edge": 0.1797
       },
       {
         "player": "Reynolds, Bryan",
-        "bets": 89,
-        "win_rate": 60.7,
-        "roi": -2.3,
-        "mean_edge": 0.1431
+        "bets": 97,
+        "win_rate": 62.9,
+        "roi": 0.7,
+        "mean_edge": 0.18
+      },
+      {
+        "player": "De La Cruz, Elly",
+        "bets": 95,
+        "win_rate": 55.8,
+        "roi": -7.6,
+        "mean_edge": 0.1917
+      },
+      {
+        "player": "Marte, Ketel",
+        "bets": 76,
+        "win_rate": 56.6,
+        "roi": 0.0,
+        "mean_edge": 0.1922
       },
       {
         "player": "Albies, Ozzie",
-        "bets": 74,
-        "win_rate": 68.9,
-        "roi": 10.2,
-        "mean_edge": 0.1496
+        "bets": 76,
+        "win_rate": 68.4,
+        "roi": 9.4,
+        "mean_edge": 0.1888
       },
       {
         "player": "Mangum, Jake",
         "bets": 68,
-        "win_rate": 67.6,
-        "roi": 5.7,
-        "mean_edge": 0.1364
-      },
-      {
-        "player": "Marte, Ketel",
-        "bets": 58,
-        "win_rate": 53.4,
-        "roi": -3.9,
-        "mean_edge": 0.1526
-      },
-      {
-        "player": "Happ, Ian",
-        "bets": 56,
-        "win_rate": 66.1,
-        "roi": 6.4,
-        "mean_edge": 0.1423
-      },
-      {
-        "player": "Bell, Josh",
-        "bets": 48,
-        "win_rate": 56.2,
-        "roi": -10.6,
-        "mean_edge": 0.1351
-      },
-      {
-        "player": "Rutschman, Adley",
-        "bets": 46,
-        "win_rate": 58.7,
-        "roi": -4.8,
-        "mean_edge": 0.1518
-      },
-      {
-        "player": "Perdomo, Geraldo",
-        "bets": 36,
-        "win_rate": 58.3,
-        "roi": -5.3,
-        "mean_edge": 0.1344
+        "win_rate": 69.1,
+        "roi": 8.0,
+        "mean_edge": 0.1768
       },
       {
         "player": "Raleigh, Cal",
-        "bets": 36,
-        "win_rate": 55.6,
-        "roi": -2.7,
-        "mean_edge": 0.1404
+        "bets": 67,
+        "win_rate": 61.2,
+        "roi": 5.7,
+        "mean_edge": 0.1787
       },
       {
-        "player": "Mart\u00ednez, Angel",
-        "bets": 31,
-        "win_rate": 83.9,
-        "roi": 33.4,
-        "mean_edge": 0.1468
+        "player": "Happ, Ian",
+        "bets": 60,
+        "win_rate": 63.3,
+        "roi": 1.9,
+        "mean_edge": 0.184
+      },
+      {
+        "player": "Bell, Josh",
+        "bets": 54,
+        "win_rate": 59.3,
+        "roi": -6.0,
+        "mean_edge": 0.1775
+      },
+      {
+        "player": "Rutschman, Adley",
+        "bets": 47,
+        "win_rate": 57.4,
+        "roi": -6.9,
+        "mean_edge": 0.1936
       },
       {
         "player": "Profar, Jurickson",
-        "bets": 30,
-        "win_rate": 46.7,
-        "roi": -23.5,
-        "mean_edge": 0.1222
-      },
-      {
-        "player": "Freeman, Tyler",
-        "bets": 30,
-        "win_rate": 60.0,
-        "roi": 5.8,
-        "mean_edge": 0.1395
-      },
-      {
-        "player": "Bichette, Bo",
-        "bets": 27,
-        "win_rate": 55.6,
-        "roi": -5.3,
-        "mean_edge": 0.1493
-      },
-      {
-        "player": "Simpson, Chandler",
-        "bets": 27,
-        "win_rate": 77.8,
-        "roi": 30.4,
-        "mean_edge": 0.1193
-      },
-      {
-        "player": "Singer, Brady",
-        "bets": 26,
-        "win_rate": 46.2,
-        "roi": -2.7,
-        "mean_edge": 0.1763
+        "bets": 45,
+        "win_rate": 57.8,
+        "roi": -6.3,
+        "mean_edge": 0.1666
       },
       {
         "player": "Alcantara, Sandy",
-        "bets": 25,
-        "win_rate": 48.0,
-        "roi": 0.9,
-        "mean_edge": 0.1849
+        "bets": 44,
+        "win_rate": 50.0,
+        "roi": 0.4,
+        "mean_edge": 0.2011
+      },
+      {
+        "player": "Perdomo, Geraldo",
+        "bets": 40,
+        "win_rate": 57.5,
+        "roi": -7.3,
+        "mean_edge": 0.177
+      },
+      {
+        "player": "Bichette, Bo",
+        "bets": 39,
+        "win_rate": 48.7,
+        "roi": -12.6,
+        "mean_edge": 0.1653
+      },
+      {
+        "player": "Singer, Brady",
+        "bets": 37,
+        "win_rate": 56.8,
+        "roi": 16.4,
+        "mean_edge": 0.1951
+      },
+      {
+        "player": "Keller, Mitch",
+        "bets": 35,
+        "win_rate": 45.7,
+        "roi": -9.0,
+        "mean_edge": 0.1989
+      },
+      {
+        "player": "Littell, Zack",
+        "bets": 35,
+        "win_rate": 54.3,
+        "roi": 8.7,
+        "mean_edge": 0.1982
+      },
+      {
+        "player": "Flaherty, Jack",
+        "bets": 35,
+        "win_rate": 45.7,
+        "roi": -4.9,
+        "mean_edge": 0.1905
       }
     ],
     "top_player_bet_share": {
-      "top_10_players": 0.2089,
-      "top_25_players": 0.2895,
-      "top_50_players": 0.2895,
-      "top_100_players": 0.2895
+      "top_10_players": 0.1647,
+      "top_25_players": 0.2401,
+      "top_50_players": 0.2401,
+      "top_100_players": 0.2401
     },
     "tracked_players": [
       {
         "player": "Ohtani, Shohei",
-        "bets": 10,
-        "wins": 7,
-        "losses": 3,
+        "bets": 13,
+        "wins": 8,
+        "losses": 5,
         "pushes": 0,
-        "win_rate": 70.0,
-        "roi": 40.4,
-        "mean_edge": 0.193,
-        "median_edge": 0.1885,
+        "win_rate": 61.5,
+        "roi": 16.5,
+        "mean_edge": 0.1942,
+        "median_edge": 0.184,
         "markets": {
-          "batter_total_bases": 3,
+          "batter_total_bases": 5,
           "batter_hits": 3,
+          "pitcher_hits_allowed": 2,
           "pitcher_strikeouts": 1,
           "pitcher_earned_runs": 1,
-          "pitcher_hits_allowed": 1,
           "pitcher_outs": 1
         }
       },
       {
         "player": "Judge, Aaron",
-        "bets": 5,
-        "wins": 2,
-        "losses": 3,
+        "bets": 3,
+        "wins": 1,
+        "losses": 2,
         "pushes": 0,
-        "win_rate": 40.0,
-        "roi": -24.0,
-        "mean_edge": 0.142,
-        "median_edge": 0.12,
+        "win_rate": 33.3,
+        "roi": -41.4,
+        "mean_edge": 0.174,
+        "median_edge": 0.167,
         "markets": {
-          "batter_total_bases": 3,
-          "batter_hits": 2
+          "batter_hits": 2,
+          "batter_total_bases": 1
         }
       }
     ]
   },
   "recent": [
     {
-      "date": "2025-09-30",
-      "player": "Skubal, Tarik",
+      "date": "2025-09-28",
+      "player": "S\u00e1nchez, Cristopher",
       "market": "Strikeouts",
-      "direction": "UNDER",
-      "line": 7.5,
-      "actual": 14,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 2,
-      "clv_cents": 0.9,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-30",
-      "player": "Crochet, Garrett",
-      "market": "Outs Recorded",
-      "direction": "UNDER",
-      "line": 17.5,
-      "actual": 23,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 1,
-      "clv_cents": 1.2,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-30",
-      "player": "Ram\u00edrez, Jos\u00e9",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 1,
+      "direction": "OVER",
+      "line": 5.5,
+      "actual": 8,
       "result": "win",
-      "pnl": 62.5,
-      "stars": 2,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Brown, McCade",
-      "market": "Strikeouts",
-      "direction": "UNDER",
-      "line": 4.5,
-      "actual": 2,
-      "result": "win",
-      "pnl": 78.12,
-      "stars": 2,
-      "clv_cents": 1.1,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Baldwin, Brooks",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 6,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 3,
-      "clv_cents": -0.1,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Bell, Josh",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 0,
-      "result": "win",
-      "pnl": 60.61,
-      "stars": 3,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Edwards, Xavier",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 2,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 3,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Lindor, Francisco",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 2,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 2,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Mangum, Jake",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 1,
-      "result": "win",
-      "pnl": 44.84,
-      "stars": 3,
-      "clv_cents": -0.1,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Santander, Anthony",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 0,
-      "result": "win",
-      "pnl": 47.62,
-      "stars": 3,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Pfaadt, Brandon",
-      "market": "Earned Runs",
-      "direction": "UNDER",
-      "line": 2.5,
-      "actual": 7,
-      "result": "loss",
-      "pnl": -100.0,
+      "pnl": 16.8,
       "stars": 1,
       "clv_cents": 0.0,
       "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Seymour, Ian",
-      "market": "Earned Runs",
-      "direction": "UNDER",
-      "line": 2.5,
-      "actual": 6,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 2,
-      "clv_cents": 3.6,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Brown, McCade",
-      "market": "Outs Recorded",
-      "direction": "UNDER",
-      "line": 14.5,
-      "actual": 9,
-      "result": "win",
-      "pnl": 100.0,
-      "stars": 2,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Pfaadt, Brandon",
-      "market": "Outs Recorded",
-      "direction": "UNDER",
-      "line": 17.5,
-      "actual": 12,
-      "result": "win",
-      "pnl": 83.33,
-      "stars": 2,
-      "clv_cents": 1.0,
-      "clv_favorable": true
     },
     {
       "date": "2025-09-28",
@@ -877,127 +703,198 @@
       "line": 17.5,
       "actual": 13,
       "result": "win",
-      "pnl": 86.21,
-      "stars": 2,
-      "clv_cents": 2.8,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Cabrera, Edward",
-      "market": "Strikeouts",
-      "direction": "OVER",
-      "line": 4.5,
-      "actual": 7,
-      "result": "win",
-      "pnl": 78.12,
+      "pnl": 12.93,
       "stars": 3,
-      "clv_cents": 0.2,
-      "clv_favorable": true
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2025-09-28",
-      "player": "Morton, Charlie",
-      "market": "Strikeouts",
-      "direction": "OVER",
+      "player": "Baldwin, Brooks",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 6,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 3
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Bell, Josh",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 0,
+      "result": "win",
+      "pnl": 9.09,
+      "stars": 3
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Devers, Rafael",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 4,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 2
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Edwards, Xavier",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 2,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 3
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Lindor, Francisco",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 2,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 3
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Mangum, Jake",
+      "market": "Total Bases",
+      "direction": "UNDER",
       "line": 1.5,
       "actual": 1,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 3,
-      "clv_cents": 3.0,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-28",
-      "player": "S\u00e1nchez, Cristopher",
-      "market": "Strikeouts",
-      "direction": "OVER",
-      "line": 5.5,
-      "actual": 8,
       "result": "win",
-      "pnl": 112.0,
-      "stars": 1,
-      "clv_cents": 0.9,
+      "pnl": 6.73,
+      "stars": 3
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Raleigh, Cal",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 1,
+      "result": "win",
+      "pnl": 9.49,
+      "stars": 3
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Santander, Anthony",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 0,
+      "result": "win",
+      "pnl": 7.14,
+      "stars": 3
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Soderstrom, Tyler",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 0,
+      "result": "win",
+      "pnl": 11.11,
+      "stars": 2
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Yastrzemski, Mike",
+      "market": "Total Bases",
+      "direction": "UNDER",
+      "line": 1.5,
+      "actual": 8,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 2
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Seymour, Ian",
+      "market": "Earned Runs",
+      "direction": "UNDER",
+      "line": 2.5,
+      "actual": 6,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 2,
+      "clv_cents": 1000.0,
       "clv_favorable": true
     },
     {
       "date": "2025-09-28",
-      "player": "Gausman, Kevin",
-      "market": "Strikeouts",
-      "direction": "OVER",
-      "line": 6.5,
+      "player": "Brown, McCade",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 4.5,
+      "actual": 4,
+      "result": "win",
+      "pnl": 11.54,
+      "stars": 3,
+      "clv_cents": -1200.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Lord, Brad",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 5.5,
       "actual": 5,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 1,
-      "clv_cents": 2.7,
-      "clv_favorable": true
+      "result": "win",
+      "pnl": 10.71,
+      "stars": 3,
+      "clv_cents": -500.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Webb, Logan",
+      "market": "Hits Allowed",
+      "direction": "UNDER",
+      "line": 5.5,
+      "actual": 3,
+      "result": "win",
+      "pnl": 12.0,
+      "stars": 2,
+      "clv_cents": -500.0,
+      "clv_favorable": false
     },
     {
       "date": "2025-09-28",
       "player": "Pfaadt, Brandon",
-      "market": "Strikeouts",
-      "direction": "OVER",
-      "line": 3.5,
-      "actual": 5,
-      "result": "win",
-      "pnl": 89.29,
-      "stars": 2,
-      "clv_cents": 1.5,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Peralta, Freddy",
-      "market": "Strikeouts",
-      "direction": "OVER",
-      "line": 4.5,
-      "actual": 3,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 3,
-      "clv_cents": 0.5,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-28",
-      "player": "Ragans, Cole",
-      "market": "Strikeouts",
+      "market": "Earned Runs",
       "direction": "UNDER",
-      "line": 6.5,
-      "actual": 8,
+      "line": 2.5,
+      "actual": 7,
       "result": "loss",
-      "pnl": -100.0,
+      "pnl": -15.0,
       "stars": 1,
-      "clv_cents": 5.4,
-      "clv_favorable": true
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2025-09-28",
-      "player": "Miller, Bryce",
-      "market": "Strikeouts",
-      "direction": "OVER",
-      "line": 4.5,
-      "actual": 2,
-      "result": "loss",
-      "pnl": -100.0,
-      "stars": 2,
-      "clv_cents": 2.1,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-28",
-      "player": "McCullers Jr., Lance",
-      "market": "Strikeouts",
-      "direction": "OVER",
-      "line": 3.5,
-      "actual": 4,
+      "player": "Brown, McCade",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 14.5,
+      "actual": 9,
       "result": "win",
-      "pnl": 116.0,
+      "pnl": 15.0,
       "stars": 2,
-      "clv_cents": 3.2,
-      "clv_favorable": true
+      "clv_cents": 0.0,
+      "clv_favorable": false
     },
     {
       "date": "2025-09-28",
@@ -1007,2876 +904,2910 @@
       "line": 3.5,
       "actual": 7,
       "result": "win",
-      "pnl": 115.0,
+      "pnl": 17.25,
       "stars": 2,
-      "clv_cents": 5.9,
-      "clv_favorable": true
-    },
-    {
-      "date": "2025-09-27",
-      "player": "Mangum, Jake",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 0,
-      "result": "win",
-      "pnl": 50.76,
-      "stars": 3,
       "clv_cents": 0.0,
       "clv_favorable": false
     },
     {
-      "date": "2025-09-27",
-      "player": "Diaz, Yainer",
-      "market": "Hits",
+      "date": "2025-09-28",
+      "player": "Ragans, Cole",
+      "market": "Strikeouts",
       "direction": "UNDER",
-      "line": 1.5,
-      "actual": 1,
-      "result": "win",
-      "pnl": 46.95,
-      "stars": 3,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-27",
-      "player": "Hoerner, Nico",
-      "market": "Hits",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 0,
-      "result": "win",
-      "pnl": 54.95,
-      "stars": 3,
-      "clv_cents": 0.0,
-      "clv_favorable": false
-    },
-    {
-      "date": "2025-09-27",
-      "player": "Baldwin, Brooks",
-      "market": "Total Bases",
-      "direction": "UNDER",
-      "line": 1.5,
-      "actual": 4,
+      "line": 6.5,
+      "actual": 8,
       "result": "loss",
-      "pnl": -100.0,
+      "pnl": -15.0,
+      "stars": 1,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Gausman, Kevin",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 11,
+      "result": "win",
+      "pnl": 22.5,
+      "stars": 1,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Peralta, Freddy",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 4.5,
+      "actual": 3,
+      "result": "loss",
+      "pnl": -15.0,
       "stars": 3,
       "clv_cents": 0.0,
       "clv_favorable": false
     },
     {
-      "date": "2025-09-27",
-      "player": "Bauers, Jake",
-      "market": "Total Bases",
-      "direction": "UNDER",
+      "date": "2025-09-28",
+      "player": "Morton, Charlie",
+      "market": "Strikeouts",
+      "direction": "OVER",
       "line": 1.5,
       "actual": 1,
-      "result": "win",
-      "pnl": 64.1,
+      "result": "loss",
+      "pnl": -15.0,
       "stars": 3,
-      "clv_cents": -0.3,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Miller, Bryce",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 4.5,
+      "actual": 2,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "McCullers Jr., Lance",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 3.5,
+      "actual": 4,
+      "result": "win",
+      "pnl": 17.4,
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Pfaadt, Brandon",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 3.5,
+      "actual": 5,
+      "result": "win",
+      "pnl": 13.39,
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Gausman, Kevin",
+      "market": "Strikeouts",
+      "direction": "OVER",
+      "line": 6.5,
+      "actual": 5,
+      "result": "loss",
+      "pnl": -15.0,
+      "stars": 1,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Brown, McCade",
+      "market": "Strikeouts",
+      "direction": "UNDER",
+      "line": 4.5,
+      "actual": 2,
+      "result": "win",
+      "pnl": 11.72,
+      "stars": 2,
+      "clv_cents": 0.0,
+      "clv_favorable": false
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Seymour, Ian",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 14.5,
+      "actual": 10,
+      "result": "win",
+      "pnl": 18.75,
+      "stars": 1
+    },
+    {
+      "date": "2025-09-28",
+      "player": "Pfaadt, Brandon",
+      "market": "Outs Recorded",
+      "direction": "UNDER",
+      "line": 17.5,
+      "actual": 12,
+      "result": "win",
+      "pnl": 12.5,
+      "stars": 2,
+      "clv_cents": 0.0,
       "clv_favorable": false
     }
   ],
   "bankroll_curve": [
     {
       "date": "2025-03-27",
-      "flat": 5642.9,
-      "pct": 5642.9,
-      "kelly": 5964.35,
+      "flat": 5664.09,
+      "pct": 5664.09,
+      "kelly": 5996.13,
       "n_bets": 12,
-      "flat_day_pnl": 642.9,
-      "pct_day_pnl": 642.9,
-      "kelly_day_pnl": 964.35
+      "flat_day_pnl": 664.09,
+      "pct_day_pnl": 664.09,
+      "kelly_day_pnl": 996.13
     },
     {
       "date": "2025-03-28",
-      "flat": 5358.81,
-      "pct": 5322.28,
-      "kelly": 5456.03,
-      "n_bets": 8,
-      "flat_day_pnl": -284.09,
-      "pct_day_pnl": -320.62,
-      "kelly_day_pnl": -508.32
+      "flat": 5279.99,
+      "pct": 5228.98,
+      "kelly": 5305.23,
+      "n_bets": 9,
+      "flat_day_pnl": -384.09,
+      "pct_day_pnl": -435.1,
+      "kelly_day_pnl": -690.9
     },
     {
       "date": "2025-03-29",
-      "flat": 4827.4,
-      "pct": 4756.61,
-      "kelly": 4586.21,
-      "n_bets": 15,
-      "flat_day_pnl": -531.42,
-      "pct_day_pnl": -565.67,
-      "kelly_day_pnl": -869.82
+      "flat": 4721.01,
+      "pct": 4644.4,
+      "kelly": 4415.55,
+      "n_bets": 21,
+      "flat_day_pnl": -558.98,
+      "pct_day_pnl": -584.58,
+      "kelly_day_pnl": -889.67
     },
     {
       "date": "2025-03-30",
-      "flat": 4802.75,
-      "pct": 4733.17,
-      "kelly": 4552.3,
-      "n_bets": 11,
-      "flat_day_pnl": -24.65,
-      "pct_day_pnl": -23.45,
-      "kelly_day_pnl": -33.91
+      "flat": 4426.54,
+      "pct": 4370.87,
+      "kelly": 4025.46,
+      "n_bets": 15,
+      "flat_day_pnl": -294.48,
+      "pct_day_pnl": -273.53,
+      "kelly_day_pnl": -390.09
     },
     {
       "date": "2025-03-31",
-      "flat": 5023.7,
-      "pct": 4942.33,
-      "kelly": 4854.05,
-      "n_bets": 11,
-      "flat_day_pnl": 220.95,
-      "pct_day_pnl": 209.16,
-      "kelly_day_pnl": 301.75
+      "flat": 4444.92,
+      "pct": 4386.94,
+      "kelly": 4047.66,
+      "n_bets": 13,
+      "flat_day_pnl": 18.39,
+      "pct_day_pnl": 16.07,
+      "kelly_day_pnl": 22.2
     },
     {
       "date": "2025-04-01",
-      "flat": 5116.84,
-      "pct": 5034.39,
-      "kelly": 4989.67,
-      "n_bets": 14,
-      "flat_day_pnl": 93.13,
-      "pct_day_pnl": 92.06,
-      "kelly_day_pnl": 135.62
+      "flat": 4638.06,
+      "pct": 4556.39,
+      "kelly": 4282.19,
+      "n_bets": 13,
+      "flat_day_pnl": 193.13,
+      "pct_day_pnl": 169.45,
+      "kelly_day_pnl": 234.52
     },
     {
       "date": "2025-04-02",
-      "flat": 5317.65,
-      "pct": 5236.58,
-      "kelly": 5290.27,
-      "n_bets": 21,
-      "flat_day_pnl": 200.81,
-      "pct_day_pnl": 202.19,
-      "kelly_day_pnl": 300.6
+      "flat": 4621.83,
+      "pct": 4541.6,
+      "kelly": 4261.33,
+      "n_bets": 25,
+      "flat_day_pnl": -16.23,
+      "pct_day_pnl": -14.79,
+      "kelly_day_pnl": -20.85
     },
     {
       "date": "2025-04-03",
-      "flat": 5124.76,
-      "pct": 5034.57,
-      "kelly": 4984.14,
-      "n_bets": 8,
-      "flat_day_pnl": -192.89,
-      "pct_day_pnl": -202.01,
-      "kelly_day_pnl": -306.13
+      "flat": 4675.94,
+      "pct": 4590.76,
+      "kelly": 4330.51,
+      "n_bets": 12,
+      "flat_day_pnl": 54.11,
+      "pct_day_pnl": 49.15,
+      "kelly_day_pnl": 69.18
     },
     {
       "date": "2025-04-04",
-      "flat": 4920.74,
-      "pct": 4829.14,
-      "kelly": 4679.09,
-      "n_bets": 16,
-      "flat_day_pnl": -204.02,
-      "pct_day_pnl": -205.43,
-      "kelly_day_pnl": -305.05
+      "flat": 4171.92,
+      "pct": 4127.99,
+      "kelly": 3675.69,
+      "n_bets": 19,
+      "flat_day_pnl": -504.02,
+      "pct_day_pnl": -462.77,
+      "kelly_day_pnl": -654.82
     },
     {
       "date": "2025-04-05",
-      "flat": 4957.2,
-      "pct": 4864.35,
-      "kelly": 4730.26,
-      "n_bets": 22,
-      "flat_day_pnl": 36.45,
-      "pct_day_pnl": 35.21,
-      "kelly_day_pnl": 51.17
+      "flat": 4464.86,
+      "pct": 4369.84,
+      "kelly": 3998.72,
+      "n_bets": 32,
+      "flat_day_pnl": 292.94,
+      "pct_day_pnl": 241.85,
+      "kelly_day_pnl": 323.03
     },
     {
       "date": "2025-04-06",
-      "flat": 5554.09,
-      "pct": 5445.05,
-      "kelly": 5577.32,
-      "n_bets": 23,
-      "flat_day_pnl": 596.9,
-      "pct_day_pnl": 580.7,
-      "kelly_day_pnl": 847.05
+      "flat": 5187.63,
+      "pct": 5001.51,
+      "kelly": 4865.74,
+      "n_bets": 28,
+      "flat_day_pnl": 722.76,
+      "pct_day_pnl": 631.67,
+      "kelly_day_pnl": 867.03
     },
     {
       "date": "2025-04-07",
-      "flat": 4876.59,
-      "pct": 4707.24,
-      "kelly": 4443.72,
-      "n_bets": 13,
-      "flat_day_pnl": -677.5,
-      "pct_day_pnl": -737.8,
-      "kelly_day_pnl": -1133.59
+      "flat": 4272.63,
+      "pct": 4086.24,
+      "kelly": 3530.12,
+      "n_bets": 17,
+      "flat_day_pnl": -915.0,
+      "pct_day_pnl": -915.28,
+      "kelly_day_pnl": -1335.63
     },
     {
       "date": "2025-04-08",
-      "flat": 5272.01,
-      "pct": 5079.51,
-      "kelly": 4970.86,
+      "flat": 4712.17,
+      "pct": 4445.45,
+      "kelly": 3995.6,
       "n_bets": 16,
-      "flat_day_pnl": 395.42,
-      "pct_day_pnl": 372.27,
-      "kelly_day_pnl": 527.13
+      "flat_day_pnl": 439.54,
+      "pct_day_pnl": 359.22,
+      "kelly_day_pnl": 465.48
     },
     {
       "date": "2025-04-09",
-      "flat": 4742.75,
-      "pct": 4541.84,
-      "kelly": 4181.58,
-      "n_bets": 24,
-      "flat_day_pnl": -529.26,
-      "pct_day_pnl": -537.67,
-      "kelly_day_pnl": -789.28
+      "flat": 4336.99,
+      "pct": 4111.88,
+      "kelly": 3545.86,
+      "n_bets": 26,
+      "flat_day_pnl": -375.18,
+      "pct_day_pnl": -333.57,
+      "kelly_day_pnl": -449.73
     },
     {
       "date": "2025-04-10",
-      "flat": 5274.25,
-      "pct": 5024.63,
-      "kelly": 4848.33,
-      "n_bets": 11,
-      "flat_day_pnl": 531.49,
-      "pct_day_pnl": 482.79,
-      "kelly_day_pnl": 666.76
+      "flat": 4701.18,
+      "pct": 4411.39,
+      "kelly": 3933.3,
+      "n_bets": 16,
+      "flat_day_pnl": 364.2,
+      "pct_day_pnl": 299.51,
+      "kelly_day_pnl": 387.43
     },
     {
       "date": "2025-04-11",
-      "flat": 5242.25,
-      "pct": 4992.47,
-      "kelly": 4801.79,
-      "n_bets": 7,
-      "flat_day_pnl": -32.0,
-      "pct_day_pnl": -32.16,
-      "kelly_day_pnl": -46.54
+      "flat": 4564.42,
+      "pct": 4290.73,
+      "kelly": 3771.92,
+      "n_bets": 10,
+      "flat_day_pnl": -136.76,
+      "pct_day_pnl": -120.66,
+      "kelly_day_pnl": -161.38
     },
     {
       "date": "2025-04-12",
-      "flat": 5424.39,
-      "pct": 5174.34,
-      "kelly": 5064.16,
-      "n_bets": 17,
-      "flat_day_pnl": 182.14,
-      "pct_day_pnl": 181.87,
-      "kelly_day_pnl": 262.37
+      "flat": 4874.37,
+      "pct": 4556.7,
+      "kelly": 4122.65,
+      "n_bets": 23,
+      "flat_day_pnl": 309.94,
+      "pct_day_pnl": 265.98,
+      "kelly_day_pnl": 350.73
     },
     {
       "date": "2025-04-13",
-      "flat": 5388.08,
-      "pct": 5136.76,
-      "kelly": 5009.0,
-      "n_bets": 27,
-      "flat_day_pnl": -36.31,
-      "pct_day_pnl": -37.58,
-      "kelly_day_pnl": -55.17
+      "flat": 4718.2,
+      "pct": 4414.38,
+      "kelly": 3929.5,
+      "n_bets": 36,
+      "flat_day_pnl": -156.17,
+      "pct_day_pnl": -142.32,
+      "kelly_day_pnl": -193.15
     },
     {
       "date": "2025-04-14",
-      "flat": 5254.36,
-      "pct": 4999.38,
-      "kelly": 4808.06,
-      "n_bets": 12,
-      "flat_day_pnl": -133.72,
-      "pct_day_pnl": -137.38,
-      "kelly_day_pnl": -200.94
+      "flat": 4243.38,
+      "pct": 3995.18,
+      "kelly": 3369.74,
+      "n_bets": 19,
+      "flat_day_pnl": -474.82,
+      "pct_day_pnl": -419.21,
+      "kelly_day_pnl": -559.76
     },
     {
       "date": "2025-04-15",
-      "flat": 5357.87,
-      "pct": 5102.89,
-      "kelly": 4957.37,
-      "n_bets": 19,
-      "flat_day_pnl": 103.51,
-      "pct_day_pnl": 103.5,
-      "kelly_day_pnl": 149.31
+      "flat": 4377.91,
+      "pct": 4102.67,
+      "kelly": 3505.73,
+      "n_bets": 24,
+      "flat_day_pnl": 134.53,
+      "pct_day_pnl": 107.49,
+      "kelly_day_pnl": 135.99
     },
     {
       "date": "2025-04-16",
-      "flat": 6751.78,
-      "pct": 6525.48,
-      "kelly": 7030.39,
-      "n_bets": 23,
-      "flat_day_pnl": 1393.91,
-      "pct_day_pnl": 1422.59,
-      "kelly_day_pnl": 2073.02
+      "flat": 5699.19,
+      "pct": 5186.82,
+      "kelly": 4895.32,
+      "n_bets": 31,
+      "flat_day_pnl": 1321.28,
+      "pct_day_pnl": 1084.15,
+      "kelly_day_pnl": 1389.59
     },
     {
       "date": "2025-04-17",
-      "flat": 6402.08,
-      "pct": 6069.08,
-      "kelly": 6292.83,
-      "n_bets": 16,
-      "flat_day_pnl": -349.7,
-      "pct_day_pnl": -456.4,
-      "kelly_day_pnl": -737.56
+      "flat": 5128.46,
+      "pct": 4594.77,
+      "kelly": 4057.16,
+      "n_bets": 19,
+      "flat_day_pnl": -570.72,
+      "pct_day_pnl": -592.05,
+      "kelly_day_pnl": -838.17
     },
     {
       "date": "2025-04-18",
-      "flat": 6088.78,
-      "pct": 5688.8,
-      "kelly": 5701.39,
-      "n_bets": 30,
-      "flat_day_pnl": -313.3,
-      "pct_day_pnl": -380.28,
-      "kelly_day_pnl": -591.44
+      "flat": 5172.84,
+      "pct": 4635.55,
+      "kelly": 4111.17,
+      "n_bets": 39,
+      "flat_day_pnl": 44.38,
+      "pct_day_pnl": 40.78,
+      "kelly_day_pnl": 54.01
     },
     {
       "date": "2025-04-19",
-      "flat": 6229.36,
-      "pct": 5848.74,
-      "kelly": 5941.83,
-      "n_bets": 28,
-      "flat_day_pnl": 140.58,
-      "pct_day_pnl": 159.94,
-      "kelly_day_pnl": 240.44
+      "flat": 5030.26,
+      "pct": 4503.37,
+      "kelly": 3935.31,
+      "n_bets": 38,
+      "flat_day_pnl": -142.58,
+      "pct_day_pnl": -132.18,
+      "kelly_day_pnl": -175.85
     },
     {
       "date": "2025-04-20",
-      "flat": 7667.97,
-      "pct": 7531.55,
-      "kelly": 8506.16,
-      "n_bets": 36,
-      "flat_day_pnl": 1438.62,
-      "pct_day_pnl": 1682.82,
-      "kelly_day_pnl": 2564.33
+      "flat": 6540.2,
+      "pct": 5863.33,
+      "kelly": 5717.95,
+      "n_bets": 43,
+      "flat_day_pnl": 1509.94,
+      "pct_day_pnl": 1359.97,
+      "kelly_day_pnl": 1782.64
     },
     {
       "date": "2025-04-21",
-      "flat": 7321.35,
-      "pct": 7009.43,
-      "kelly": 7621.65,
-      "n_bets": 9,
-      "flat_day_pnl": -346.62,
-      "pct_day_pnl": -522.12,
-      "kelly_day_pnl": -884.51
+      "flat": 5967.66,
+      "pct": 5191.92,
+      "kelly": 4735.8,
+      "n_bets": 13,
+      "flat_day_pnl": -572.55,
+      "pct_day_pnl": -671.41,
+      "kelly_day_pnl": -982.15
     },
     {
       "date": "2025-04-22",
-      "flat": 6971.5,
-      "pct": 6518.98,
-      "kelly": 6821.71,
-      "n_bets": 20,
-      "flat_day_pnl": -349.85,
-      "pct_day_pnl": -490.45,
-      "kelly_day_pnl": -799.94
+      "flat": 5567.54,
+      "pct": 4776.45,
+      "kelly": 4167.35,
+      "n_bets": 24,
+      "flat_day_pnl": -400.12,
+      "pct_day_pnl": -415.48,
+      "kelly_day_pnl": -568.45
     },
     {
       "date": "2025-04-23",
-      "flat": 6994.66,
-      "pct": 6549.17,
-      "kelly": 6869.11,
-      "n_bets": 19,
-      "flat_day_pnl": 23.16,
-      "pct_day_pnl": 30.2,
-      "kelly_day_pnl": 47.4
+      "flat": 5328.66,
+      "pct": 4548.25,
+      "kelly": 3868.71,
+      "n_bets": 32,
+      "flat_day_pnl": -238.87,
+      "pct_day_pnl": -228.19,
+      "kelly_day_pnl": -298.64
     },
     {
       "date": "2025-04-24",
-      "flat": 6797.58,
-      "pct": 6291.04,
-      "kelly": 6463.0,
-      "n_bets": 9,
-      "flat_day_pnl": -197.07,
-      "pct_day_pnl": -258.13,
-      "kelly_day_pnl": -406.11
+      "flat": 4985.94,
+      "pct": 4236.49,
+      "kelly": 3470.94,
+      "n_bets": 12,
+      "flat_day_pnl": -342.73,
+      "pct_day_pnl": -311.76,
+      "kelly_day_pnl": -397.77
     },
     {
       "date": "2025-04-25",
-      "flat": 7242.24,
-      "pct": 6850.51,
-      "kelly": 7325.14,
-      "n_bets": 12,
-      "flat_day_pnl": 444.66,
-      "pct_day_pnl": 559.47,
-      "kelly_day_pnl": 862.15
+      "flat": 5440.09,
+      "pct": 4621.29,
+      "kelly": 3943.85,
+      "n_bets": 14,
+      "flat_day_pnl": 454.15,
+      "pct_day_pnl": 384.8,
+      "kelly_day_pnl": 472.91
     },
     {
       "date": "2025-04-26",
-      "flat": 7288.39,
-      "pct": 6913.74,
-      "kelly": 7426.56,
-      "n_bets": 22,
-      "flat_day_pnl": 46.15,
-      "pct_day_pnl": 63.23,
-      "kelly_day_pnl": 101.42
+      "flat": 5249.5,
+      "pct": 4445.14,
+      "kelly": 3718.35,
+      "n_bets": 28,
+      "flat_day_pnl": -190.58,
+      "pct_day_pnl": -176.15,
+      "kelly_day_pnl": -225.5
     },
     {
       "date": "2025-04-27",
-      "flat": 7484.51,
-      "pct": 7184.93,
-      "kelly": 7863.52,
-      "n_bets": 29,
-      "flat_day_pnl": 196.12,
-      "pct_day_pnl": 271.19,
-      "kelly_day_pnl": 436.96
+      "flat": 5471.79,
+      "pct": 4642.76,
+      "kelly": 3966.31,
+      "n_bets": 40,
+      "flat_day_pnl": 222.29,
+      "pct_day_pnl": 197.62,
+      "kelly_day_pnl": 247.96
     },
     {
       "date": "2025-04-28",
-      "flat": 7478.43,
-      "pct": 7176.19,
-      "kelly": 7849.17,
+      "flat": 5465.71,
+      "pct": 4637.12,
+      "kelly": 3959.08,
       "n_bets": 8,
       "flat_day_pnl": -6.08,
-      "pct_day_pnl": -8.74,
-      "kelly_day_pnl": -14.35
+      "pct_day_pnl": -5.65,
+      "kelly_day_pnl": -7.24
     },
     {
       "date": "2025-04-29",
-      "flat": 6392.3,
-      "pct": 5617.33,
-      "kelly": 5291.54,
-      "n_bets": 20,
-      "flat_day_pnl": -1086.14,
-      "pct_day_pnl": -1558.86,
-      "kelly_day_pnl": -2557.63
+      "flat": 4785.42,
+      "pct": 4006.2,
+      "kelly": 3151.09,
+      "n_bets": 29,
+      "flat_day_pnl": -680.29,
+      "pct_day_pnl": -630.92,
+      "kelly_day_pnl": -807.98
     },
     {
       "date": "2025-04-30",
-      "flat": 6528.73,
-      "pct": 5770.61,
-      "kelly": 5508.14,
-      "n_bets": 23,
-      "flat_day_pnl": 136.44,
-      "pct_day_pnl": 153.29,
-      "kelly_day_pnl": 216.6
+      "flat": 5403.07,
+      "pct": 4501.09,
+      "kelly": 3734.96,
+      "n_bets": 26,
+      "flat_day_pnl": 617.66,
+      "pct_day_pnl": 494.89,
+      "kelly_day_pnl": 583.87
     },
     {
       "date": "2025-05-01",
-      "flat": 6566.12,
-      "pct": 5813.76,
-      "kelly": 5569.91,
-      "n_bets": 17,
-      "flat_day_pnl": 37.38,
-      "pct_day_pnl": 43.14,
-      "kelly_day_pnl": 61.77
+      "flat": 5528.68,
+      "pct": 4614.17,
+      "kelly": 3875.71,
+      "n_bets": 24,
+      "flat_day_pnl": 125.61,
+      "pct_day_pnl": 113.08,
+      "kelly_day_pnl": 140.75
     },
     {
       "date": "2025-05-02",
-      "flat": 6616.11,
-      "pct": 5871.88,
-      "kelly": 5653.44,
-      "n_bets": 18,
-      "flat_day_pnl": 49.99,
-      "pct_day_pnl": 58.13,
-      "kelly_day_pnl": 83.53
+      "flat": 5368.6,
+      "pct": 4466.43,
+      "kelly": 3689.58,
+      "n_bets": 26,
+      "flat_day_pnl": -160.09,
+      "pct_day_pnl": -147.73,
+      "kelly_day_pnl": -186.13
     },
     {
       "date": "2025-05-03",
-      "flat": 6542.15,
-      "pct": 5785.03,
-      "kelly": 5528.01,
-      "n_bets": 23,
-      "flat_day_pnl": -73.95,
-      "pct_day_pnl": -86.85,
-      "kelly_day_pnl": -125.43
+      "flat": 5699.72,
+      "pct": 4762.22,
+      "kelly": 4056.1,
+      "n_bets": 39,
+      "flat_day_pnl": 331.13,
+      "pct_day_pnl": 295.79,
+      "kelly_day_pnl": 366.52
     },
     {
       "date": "2025-05-04",
-      "flat": 7213.3,
-      "pct": 6561.56,
-      "kelly": 6641.05,
-      "n_bets": 29,
-      "flat_day_pnl": 671.15,
-      "pct_day_pnl": 776.53,
-      "kelly_day_pnl": 1113.04
+      "flat": 6343.75,
+      "pct": 5375.62,
+      "kelly": 4839.75,
+      "n_bets": 42,
+      "flat_day_pnl": 644.03,
+      "pct_day_pnl": 613.4,
+      "kelly_day_pnl": 783.65
     },
     {
       "date": "2025-05-05",
-      "flat": 7522.51,
-      "pct": 6967.33,
-      "kelly": 7257.08,
-      "n_bets": 8,
-      "flat_day_pnl": 309.21,
-      "pct_day_pnl": 405.77,
-      "kelly_day_pnl": 616.03
+      "flat": 6552.96,
+      "pct": 5600.54,
+      "kelly": 5143.5,
+      "n_bets": 9,
+      "flat_day_pnl": 209.21,
+      "pct_day_pnl": 224.92,
+      "kelly_day_pnl": 303.75
     },
     {
       "date": "2025-05-06",
-      "flat": 8175.78,
-      "pct": 7877.64,
-      "kelly": 8679.31,
-      "n_bets": 22,
-      "flat_day_pnl": 653.27,
-      "pct_day_pnl": 910.31,
-      "kelly_day_pnl": 1422.23
+      "flat": 7171.0,
+      "pct": 6292.82,
+      "kelly": 6097.14,
+      "n_bets": 30,
+      "flat_day_pnl": 618.04,
+      "pct_day_pnl": 692.27,
+      "kelly_day_pnl": 953.64
     },
     {
       "date": "2025-05-07",
-      "flat": 8362.86,
-      "pct": 8172.4,
-      "kelly": 9166.44,
-      "n_bets": 18,
-      "flat_day_pnl": 187.09,
-      "pct_day_pnl": 294.76,
-      "kelly_day_pnl": 487.13
+      "flat": 6807.5,
+      "pct": 5835.34,
+      "kelly": 5432.27,
+      "n_bets": 33,
+      "flat_day_pnl": -363.49,
+      "pct_day_pnl": -457.48,
+      "kelly_day_pnl": -664.87
     },
     {
       "date": "2025-05-08",
-      "flat": 8383.89,
-      "pct": 8206.77,
-      "kelly": 9224.27,
-      "n_bets": 19,
-      "flat_day_pnl": 21.03,
-      "pct_day_pnl": 34.37,
-      "kelly_day_pnl": 57.83
+      "flat": 6375.62,
+      "pct": 5331.3,
+      "kelly": 4728.43,
+      "n_bets": 24,
+      "flat_day_pnl": -431.88,
+      "pct_day_pnl": -504.04,
+      "kelly_day_pnl": -703.84
     },
     {
       "date": "2025-05-09",
-      "flat": 8908.17,
-      "pct": 9067.29,
-      "kelly": 10675.11,
-      "n_bets": 16,
-      "flat_day_pnl": 524.28,
-      "pct_day_pnl": 860.53,
-      "kelly_day_pnl": 1450.84
+      "flat": 6685.82,
+      "pct": 5662.06,
+      "kelly": 5168.45,
+      "n_bets": 26,
+      "flat_day_pnl": 310.2,
+      "pct_day_pnl": 330.76,
+      "kelly_day_pnl": 440.02
     },
     {
       "date": "2025-05-10",
-      "flat": 8247.57,
-      "pct": 7869.32,
-      "kelly": 8559.53,
-      "n_bets": 39,
-      "flat_day_pnl": -660.6,
-      "pct_day_pnl": -1197.98,
-      "kelly_day_pnl": -2115.58
+      "flat": 5953.48,
+      "pct": 4832.74,
+      "kelly": 4032.95,
+      "n_bets": 50,
+      "flat_day_pnl": -732.35,
+      "pct_day_pnl": -829.32,
+      "kelly_day_pnl": -1135.5
     },
     {
       "date": "2025-05-11",
-      "flat": 8735.2,
-      "pct": 8636.79,
-      "kelly": 9811.73,
-      "n_bets": 31,
-      "flat_day_pnl": 487.64,
-      "pct_day_pnl": 767.47,
-      "kelly_day_pnl": 1252.2
+      "flat": 7404.52,
+      "pct": 6235.25,
+      "kelly": 5788.57,
+      "n_bets": 50,
+      "flat_day_pnl": 1451.05,
+      "pct_day_pnl": 1402.51,
+      "kelly_day_pnl": 1755.62
     },
     {
       "date": "2025-05-12",
-      "flat": 8743.39,
-      "pct": 8650.93,
-      "kelly": 9835.82,
-      "n_bets": 9,
-      "flat_day_pnl": 8.19,
-      "pct_day_pnl": 14.14,
-      "kelly_day_pnl": 24.09
+      "flat": 7547.95,
+      "pct": 6414.1,
+      "kelly": 6037.64,
+      "n_bets": 14,
+      "flat_day_pnl": 143.42,
+      "pct_day_pnl": 178.86,
+      "kelly_day_pnl": 249.07
     },
     {
       "date": "2025-05-13",
-      "flat": 8828.03,
-      "pct": 8797.38,
-      "kelly": 10085.58,
-      "n_bets": 11,
-      "flat_day_pnl": 84.64,
-      "pct_day_pnl": 146.45,
-      "kelly_day_pnl": 249.76
+      "flat": 8034.09,
+      "pct": 7037.73,
+      "kelly": 6918.19,
+      "n_bets": 15,
+      "flat_day_pnl": 486.14,
+      "pct_day_pnl": 623.63,
+      "kelly_day_pnl": 880.55
     },
     {
       "date": "2025-05-14",
-      "flat": 9456.01,
-      "pct": 9902.28,
-      "kelly": 11985.64,
-      "n_bets": 25,
-      "flat_day_pnl": 627.97,
-      "pct_day_pnl": 1104.9,
-      "kelly_day_pnl": 1900.06
+      "flat": 8767.11,
+      "pct": 8069.5,
+      "kelly": 8439.57,
+      "n_bets": 29,
+      "flat_day_pnl": 733.02,
+      "pct_day_pnl": 1031.76,
+      "kelly_day_pnl": 1521.39
     },
     {
       "date": "2025-05-15",
-      "flat": 9164.9,
-      "pct": 9325.75,
-      "kelly": 10938.89,
-      "n_bets": 17,
-      "flat_day_pnl": -291.11,
-      "pct_day_pnl": -576.53,
-      "kelly_day_pnl": -1046.75
+      "flat": 8597.89,
+      "pct": 7796.39,
+      "kelly": 8011.12,
+      "n_bets": 32,
+      "flat_day_pnl": -169.22,
+      "pct_day_pnl": -273.11,
+      "kelly_day_pnl": -428.45
     },
     {
       "date": "2025-05-16",
-      "flat": 9404.01,
-      "pct": 9771.74,
-      "kelly": 11723.61,
-      "n_bets": 15,
-      "flat_day_pnl": 239.12,
-      "pct_day_pnl": 445.99,
-      "kelly_day_pnl": 784.71
+      "flat": 8592.93,
+      "pct": 7788.66,
+      "kelly": 7999.2,
+      "n_bets": 21,
+      "flat_day_pnl": -4.96,
+      "pct_day_pnl": -7.73,
+      "kelly_day_pnl": -11.92
     },
     {
       "date": "2025-05-17",
-      "flat": 9007.37,
-      "pct": 8996.56,
-      "kelly": 10328.56,
-      "n_bets": 27,
-      "flat_day_pnl": -396.65,
-      "pct_day_pnl": -775.18,
-      "kelly_day_pnl": -1395.04
+      "flat": 8215.06,
+      "pct": 7200.04,
+      "kelly": 7092.4,
+      "n_bets": 36,
+      "flat_day_pnl": -377.87,
+      "pct_day_pnl": -588.61,
+      "kelly_day_pnl": -906.8
     },
     {
       "date": "2025-05-18",
-      "flat": 9534.52,
-      "pct": 9945.07,
-      "kelly": 11961.99,
-      "n_bets": 28,
-      "flat_day_pnl": 527.15,
-      "pct_day_pnl": 948.51,
-      "kelly_day_pnl": 1633.42
+      "flat": 8631.91,
+      "pct": 7800.31,
+      "kelly": 7979.32,
+      "n_bets": 38,
+      "flat_day_pnl": 416.85,
+      "pct_day_pnl": 600.26,
+      "kelly_day_pnl": 886.93
     },
     {
       "date": "2025-05-19",
-      "flat": 9703.58,
-      "pct": 10281.33,
-      "kelly": 12568.68,
-      "n_bets": 14,
-      "flat_day_pnl": 169.06,
-      "pct_day_pnl": 336.27,
-      "kelly_day_pnl": 606.7
+      "flat": 8656.89,
+      "pct": 7839.28,
+      "kelly": 8039.13,
+      "n_bets": 19,
+      "flat_day_pnl": 24.98,
+      "pct_day_pnl": 38.98,
+      "kelly_day_pnl": 59.81
     },
     {
       "date": "2025-05-20",
-      "flat": 9634.92,
-      "pct": 10140.14,
-      "kelly": 12309.78,
-      "n_bets": 19,
-      "flat_day_pnl": -68.66,
-      "pct_day_pnl": -141.19,
-      "kelly_day_pnl": -258.9
+      "flat": 8724.51,
+      "pct": 7945.29,
+      "kelly": 8202.19,
+      "n_bets": 25,
+      "flat_day_pnl": 67.61,
+      "pct_day_pnl": 106.01,
+      "kelly_day_pnl": 163.07
     },
     {
       "date": "2025-05-21",
-      "flat": 9075.8,
-      "pct": 9006.25,
-      "kelly": 10245.04,
-      "n_bets": 25,
-      "flat_day_pnl": -559.11,
-      "pct_day_pnl": -1133.9,
-      "kelly_day_pnl": -2064.75
+      "flat": 8533.77,
+      "pct": 7642.2,
+      "kelly": 7732.85,
+      "n_bets": 29,
+      "flat_day_pnl": -190.74,
+      "pct_day_pnl": -303.09,
+      "kelly_day_pnl": -469.34
     },
     {
       "date": "2025-05-22",
-      "flat": 9242.88,
-      "pct": 9307.19,
-      "kelly": 10758.54,
-      "n_bets": 19,
-      "flat_day_pnl": 167.07,
-      "pct_day_pnl": 300.94,
-      "kelly_day_pnl": 513.5
+      "flat": 8459.3,
+      "pct": 7528.38,
+      "kelly": 7560.09,
+      "n_bets": 26,
+      "flat_day_pnl": -74.47,
+      "pct_day_pnl": -113.83,
+      "kelly_day_pnl": -172.77
     },
     {
       "date": "2025-05-23",
-      "flat": 9627.45,
-      "pct": 10023.05,
-      "kelly": 11999.8,
+      "flat": 9027.21,
+      "pct": 8383.46,
+      "kelly": 8848.1,
       "n_bets": 10,
-      "flat_day_pnl": 384.58,
-      "pct_day_pnl": 715.86,
-      "kelly_day_pnl": 1241.26
+      "flat_day_pnl": 567.91,
+      "pct_day_pnl": 855.09,
+      "kelly_day_pnl": 1288.02
     },
     {
       "date": "2025-05-24",
-      "flat": 9465.94,
-      "pct": 9699.28,
-      "kelly": 11418.36,
-      "n_bets": 27,
-      "flat_day_pnl": -161.52,
-      "pct_day_pnl": -323.78,
-      "kelly_day_pnl": -581.44
+      "flat": 8794.7,
+      "pct": 7993.61,
+      "kelly": 8230.93,
+      "n_bets": 35,
+      "flat_day_pnl": -232.51,
+      "pct_day_pnl": -389.85,
+      "kelly_day_pnl": -617.18
     },
     {
       "date": "2025-05-25",
-      "flat": 9873.04,
-      "pct": 10488.99,
-      "kelly": 12812.87,
-      "n_bets": 30,
-      "flat_day_pnl": 407.1,
-      "pct_day_pnl": 789.71,
-      "kelly_day_pnl": 1394.51
+      "flat": 9394.54,
+      "pct": 8952.59,
+      "kelly": 9712.11,
+      "n_bets": 43,
+      "flat_day_pnl": 599.84,
+      "pct_day_pnl": 958.98,
+      "kelly_day_pnl": 1481.19
     },
     {
       "date": "2025-05-26",
-      "flat": 9904.91,
-      "pct": 10555.86,
-      "kelly": 12935.4,
-      "n_bets": 11,
-      "flat_day_pnl": 31.88,
-      "pct_day_pnl": 66.87,
-      "kelly_day_pnl": 122.53
+      "flat": 9572.85,
+      "pct": 9271.85,
+      "kelly": 10231.63,
+      "n_bets": 17,
+      "flat_day_pnl": 178.31,
+      "pct_day_pnl": 319.26,
+      "kelly_day_pnl": 519.51
     },
     {
       "date": "2025-05-27",
-      "flat": 9439.79,
-      "pct": 9573.9,
-      "kelly": 11130.44,
-      "n_bets": 15,
-      "flat_day_pnl": -465.12,
-      "pct_day_pnl": -981.96,
-      "kelly_day_pnl": -1804.96
+      "flat": 8987.72,
+      "pct": 8186.82,
+      "kelly": 8435.58,
+      "n_bets": 18,
+      "flat_day_pnl": -585.12,
+      "pct_day_pnl": -1085.04,
+      "kelly_day_pnl": -1796.04
     },
     {
       "date": "2025-05-28",
-      "flat": 10221.07,
-      "pct": 11069.89,
-      "kelly": 13739.23,
-      "n_bets": 11,
-      "flat_day_pnl": 781.29,
-      "pct_day_pnl": 1495.99,
-      "kelly_day_pnl": 2608.79
+      "flat": 9752.34,
+      "pct": 9438.77,
+      "kelly": 10370.61,
+      "n_bets": 17,
+      "flat_day_pnl": 764.62,
+      "pct_day_pnl": 1251.96,
+      "kelly_day_pnl": 1935.02
     },
     {
       "date": "2025-05-29",
-      "flat": 10532.74,
-      "pct": 11759.92,
-      "kelly": 15023.87,
-      "n_bets": 7,
-      "flat_day_pnl": 311.67,
-      "pct_day_pnl": 690.03,
-      "kelly_day_pnl": 1284.64
+      "flat": 10069.01,
+      "pct": 10036.57,
+      "kelly": 11355.83,
+      "n_bets": 9,
+      "flat_day_pnl": 316.67,
+      "pct_day_pnl": 597.79,
+      "kelly_day_pnl": 985.22
     },
     {
       "date": "2025-05-30",
-      "flat": 10849.9,
-      "pct": 12505.87,
-      "kelly": 16453.36,
-      "n_bets": 12,
-      "flat_day_pnl": 317.16,
-      "pct_day_pnl": 745.95,
-      "kelly_day_pnl": 1429.49
+      "flat": 9931.13,
+      "pct": 9759.8,
+      "kelly": 10886.12,
+      "n_bets": 22,
+      "flat_day_pnl": -137.88,
+      "pct_day_pnl": -276.77,
+      "kelly_day_pnl": -469.71
     },
     {
       "date": "2025-05-31",
-      "flat": 10244.51,
-      "pct": 10991.69,
-      "kelly": 13465.17,
-      "n_bets": 19,
-      "flat_day_pnl": -605.39,
-      "pct_day_pnl": -1514.18,
-      "kelly_day_pnl": -2988.19
+      "flat": 9186.87,
+      "pct": 8307.04,
+      "kelly": 8455.51,
+      "n_bets": 28,
+      "flat_day_pnl": -744.26,
+      "pct_day_pnl": -1452.77,
+      "kelly_day_pnl": -2430.6
     },
     {
       "date": "2025-06-01",
-      "flat": 10501.27,
-      "pct": 11556.13,
-      "kelly": 14502.36,
-      "n_bets": 32,
-      "flat_day_pnl": 256.76,
-      "pct_day_pnl": 564.44,
-      "kelly_day_pnl": 1037.2
+      "flat": 9530.49,
+      "pct": 8877.92,
+      "kelly": 9327.16,
+      "n_bets": 44,
+      "flat_day_pnl": 343.62,
+      "pct_day_pnl": 570.89,
+      "kelly_day_pnl": 871.65
     },
     {
       "date": "2025-06-02",
-      "flat": 10905.4,
-      "pct": 12490.17,
-      "kelly": 16260.61,
-      "n_bets": 10,
-      "flat_day_pnl": 404.13,
-      "pct_day_pnl": 934.04,
-      "kelly_day_pnl": 1758.25
+      "flat": 9919.02,
+      "pct": 9567.8,
+      "kelly": 10414.32,
+      "n_bets": 18,
+      "flat_day_pnl": 388.53,
+      "pct_day_pnl": 689.87,
+      "kelly_day_pnl": 1087.15
     },
     {
       "date": "2025-06-03",
-      "flat": 11090.53,
-      "pct": 12952.62,
-      "kelly": 17163.69,
-      "n_bets": 13,
-      "flat_day_pnl": 185.13,
-      "pct_day_pnl": 462.45,
-      "kelly_day_pnl": 903.08
+      "flat": 10024.4,
+      "pct": 9769.44,
+      "kelly": 10743.55,
+      "n_bets": 25,
+      "flat_day_pnl": 105.38,
+      "pct_day_pnl": 201.65,
+      "kelly_day_pnl": 329.23
     },
     {
       "date": "2025-06-04",
-      "flat": 10704.47,
-      "pct": 11952.52,
-      "kelly": 15175.84,
-      "n_bets": 23,
-      "flat_day_pnl": -386.06,
-      "pct_day_pnl": -1000.09,
-      "kelly_day_pnl": -1987.85
+      "flat": 9766.06,
+      "pct": 9264.68,
+      "kelly": 9910.91,
+      "n_bets": 40,
+      "flat_day_pnl": -258.34,
+      "pct_day_pnl": -504.76,
+      "kelly_day_pnl": -832.64
     },
     {
       "date": "2025-06-05",
-      "flat": 11283.47,
-      "pct": 13336.64,
-      "kelly": 17811.93,
-      "n_bets": 20,
-      "flat_day_pnl": 579.0,
-      "pct_day_pnl": 1384.11,
-      "kelly_day_pnl": 2636.09
+      "flat": 9650.07,
+      "pct": 9049.75,
+      "kelly": 9566.02,
+      "n_bets": 33,
+      "flat_day_pnl": -116.0,
+      "pct_day_pnl": -214.93,
+      "kelly_day_pnl": -344.89
     },
     {
       "date": "2025-06-06",
-      "flat": 11646.11,
-      "pct": 14303.92,
-      "kelly": 19749.74,
-      "n_bets": 14,
-      "flat_day_pnl": 362.64,
-      "pct_day_pnl": 967.28,
-      "kelly_day_pnl": 1937.81
+      "flat": 10057.57,
+      "pct": 9787.31,
+      "kelly": 10735.47,
+      "n_bets": 19,
+      "flat_day_pnl": 407.5,
+      "pct_day_pnl": 737.56,
+      "kelly_day_pnl": 1169.46
     },
     {
       "date": "2025-06-07",
-      "flat": 11093.2,
-      "pct": 12722.16,
-      "kelly": 16473.8,
-      "n_bets": 36,
-      "flat_day_pnl": -552.91,
-      "pct_day_pnl": -1581.76,
-      "kelly_day_pnl": -3275.94
+      "flat": 10013.89,
+      "pct": 9701.81,
+      "kelly": 10594.79,
+      "n_bets": 51,
+      "flat_day_pnl": -43.68,
+      "pct_day_pnl": -85.51,
+      "kelly_day_pnl": -140.68
     },
     {
       "date": "2025-06-08",
-      "flat": 11338.4,
-      "pct": 13346.06,
-      "kelly": 17685.6,
-      "n_bets": 29,
-      "flat_day_pnl": 245.2,
-      "pct_day_pnl": 623.9,
-      "kelly_day_pnl": 1211.81
+      "flat": 10653.35,
+      "pct": 10942.59,
+      "kelly": 12627.25,
+      "n_bets": 37,
+      "flat_day_pnl": 639.46,
+      "pct_day_pnl": 1240.78,
+      "kelly_day_pnl": 2032.46
     },
     {
       "date": "2025-06-09",
-      "flat": 11307.55,
-      "pct": 13263.71,
-      "kelly": 17521.93,
-      "n_bets": 17,
-      "flat_day_pnl": -30.85,
-      "pct_day_pnl": -82.34,
-      "kelly_day_pnl": -163.68
+      "flat": 10381.61,
+      "pct": 10347.9,
+      "kelly": 11597.87,
+      "n_bets": 25,
+      "flat_day_pnl": -271.73,
+      "pct_day_pnl": -594.69,
+      "kelly_day_pnl": -1029.37
     },
     {
       "date": "2025-06-10",
-      "flat": 11281.41,
-      "pct": 13194.35,
-      "kelly": 17384.48,
-      "n_bets": 21,
-      "flat_day_pnl": -26.15,
-      "pct_day_pnl": -69.36,
-      "kelly_day_pnl": -137.45
+      "flat": 9726.26,
+      "pct": 8991.58,
+      "kelly": 9317.62,
+      "n_bets": 31,
+      "flat_day_pnl": -655.36,
+      "pct_day_pnl": -1356.32,
+      "kelly_day_pnl": -2280.25
     },
     {
       "date": "2025-06-11",
-      "flat": 10081.55,
-      "pct": 10028.08,
-      "kelly": 11126.85,
-      "n_bets": 33,
-      "flat_day_pnl": -1199.86,
-      "pct_day_pnl": -3166.27,
-      "kelly_day_pnl": -6257.63
+      "flat": 8428.71,
+      "pct": 6658.18,
+      "kelly": 5690.58,
+      "n_bets": 45,
+      "flat_day_pnl": -1297.55,
+      "pct_day_pnl": -2333.4,
+      "kelly_day_pnl": -3627.04
     },
     {
       "date": "2025-06-12",
-      "flat": 10841.2,
-      "pct": 11551.65,
-      "kelly": 13662.66,
-      "n_bets": 20,
-      "flat_day_pnl": 759.66,
-      "pct_day_pnl": 1523.58,
-      "kelly_day_pnl": 2535.81
+      "flat": 8993.36,
+      "pct": 7410.09,
+      "kelly": 6654.56,
+      "n_bets": 24,
+      "flat_day_pnl": 564.66,
+      "pct_day_pnl": 751.92,
+      "kelly_day_pnl": 963.98
     },
     {
       "date": "2025-06-13",
-      "flat": 10780.51,
-      "pct": 11411.44,
-      "kelly": 13413.9,
-      "n_bets": 8,
-      "flat_day_pnl": -60.69,
-      "pct_day_pnl": -140.21,
-      "kelly_day_pnl": -248.75
+      "flat": 9180.88,
+      "pct": 7688.0,
+      "kelly": 7028.93,
+      "n_bets": 13,
+      "flat_day_pnl": 187.52,
+      "pct_day_pnl": 277.91,
+      "kelly_day_pnl": 374.37
     },
     {
       "date": "2025-06-14",
-      "flat": 10822.4,
-      "pct": 11507.05,
-      "kelly": 13582.48,
-      "n_bets": 17,
-      "flat_day_pnl": 41.89,
-      "pct_day_pnl": 95.61,
-      "kelly_day_pnl": 168.58
+      "flat": 9189.07,
+      "pct": 7700.59,
+      "kelly": 7046.19,
+      "n_bets": 32,
+      "flat_day_pnl": 8.19,
+      "pct_day_pnl": 12.59,
+      "kelly_day_pnl": 17.27
     },
     {
       "date": "2025-06-15",
-      "flat": 11211.93,
-      "pct": 12403.51,
-      "kelly": 15169.68,
-      "n_bets": 20,
-      "flat_day_pnl": 389.53,
-      "pct_day_pnl": 896.46,
-      "kelly_day_pnl": 1587.2
+      "flat": 9354.75,
+      "pct": 7955.76,
+      "kelly": 7396.42,
+      "n_bets": 37,
+      "flat_day_pnl": 165.68,
+      "pct_day_pnl": 255.16,
+      "kelly_day_pnl": 350.23
     },
     {
       "date": "2025-06-16",
-      "flat": 11052.26,
-      "pct": 12007.42,
-      "kelly": 14443.06,
-      "n_bets": 10,
-      "flat_day_pnl": -159.67,
-      "pct_day_pnl": -396.09,
-      "kelly_day_pnl": -726.63
+      "flat": 9333.89,
+      "pct": 7922.57,
+      "kelly": 7350.14,
+      "n_bets": 14,
+      "flat_day_pnl": -20.86,
+      "pct_day_pnl": -33.19,
+      "kelly_day_pnl": -46.28
     },
     {
       "date": "2025-06-17",
-      "flat": 11065.08,
-      "pct": 12038.2,
-      "kelly": 14498.59,
-      "n_bets": 28,
-      "flat_day_pnl": 12.82,
-      "pct_day_pnl": 30.78,
-      "kelly_day_pnl": 55.54
+      "flat": 9844.67,
+      "pct": 8731.9,
+      "kelly": 8476.39,
+      "n_bets": 41,
+      "flat_day_pnl": 510.77,
+      "pct_day_pnl": 809.33,
+      "kelly_day_pnl": 1126.26
     },
     {
       "date": "2025-06-18",
-      "flat": 11572.09,
-      "pct": 13258.9,
-      "kelly": 16703.89,
-      "n_bets": 19,
-      "flat_day_pnl": 507.01,
-      "pct_day_pnl": 1220.7,
-      "kelly_day_pnl": 2205.3
+      "flat": 10134.37,
+      "pct": 9237.83,
+      "kelly": 9213.08,
+      "n_bets": 32,
+      "flat_day_pnl": 289.7,
+      "pct_day_pnl": 505.93,
+      "kelly_day_pnl": 736.69
     },
     {
       "date": "2025-06-19",
-      "flat": 12152.98,
-      "pct": 14799.29,
-      "kelly": 19614.84,
-      "n_bets": 18,
-      "flat_day_pnl": 580.89,
-      "pct_day_pnl": 1540.39,
-      "kelly_day_pnl": 2910.94
+      "flat": 10806.89,
+      "pct": 10480.35,
+      "kelly": 11071.85,
+      "n_bets": 31,
+      "flat_day_pnl": 672.52,
+      "pct_day_pnl": 1242.52,
+      "kelly_day_pnl": 1858.77
     },
     {
       "date": "2025-06-20",
-      "flat": 12480.0,
-      "pct": 15767.23,
-      "kelly": 21539.2,
-      "n_bets": 13,
-      "flat_day_pnl": 327.02,
-      "pct_day_pnl": 967.94,
-      "kelly_day_pnl": 1924.37
+      "flat": 10843.91,
+      "pct": 10557.95,
+      "kelly": 11194.82,
+      "n_bets": 18,
+      "flat_day_pnl": 37.02,
+      "pct_day_pnl": 77.6,
+      "kelly_day_pnl": 122.98
     },
     {
       "date": "2025-06-21",
-      "flat": 11345.75,
-      "pct": 12190.43,
-      "kelly": 14209.9,
-      "n_bets": 41,
-      "flat_day_pnl": -1134.25,
-      "pct_day_pnl": -3576.8,
-      "kelly_day_pnl": -7329.3
+      "flat": 10550.15,
+      "pct": 9937.66,
+      "kelly": 10208.27,
+      "n_bets": 53,
+      "flat_day_pnl": -293.76,
+      "pct_day_pnl": -620.29,
+      "kelly_day_pnl": -986.55
     },
     {
       "date": "2025-06-22",
-      "flat": 11637.17,
-      "pct": 12900.94,
-      "kelly": 15452.22,
-      "n_bets": 50,
-      "flat_day_pnl": 291.42,
-      "pct_day_pnl": 710.51,
-      "kelly_day_pnl": 1242.32
+      "flat": 11265.58,
+      "pct": 11359.59,
+      "kelly": 12399.27,
+      "n_bets": 77,
+      "flat_day_pnl": 715.43,
+      "pct_day_pnl": 1421.93,
+      "kelly_day_pnl": 2190.99
     },
     {
       "date": "2025-06-23",
-      "flat": 11396.51,
-      "pct": 12279.99,
-      "kelly": 14336.6,
-      "n_bets": 19,
-      "flat_day_pnl": -240.66,
-      "pct_day_pnl": -620.95,
-      "kelly_day_pnl": -1115.63
+      "flat": 11124.46,
+      "pct": 11038.98,
+      "kelly": 11874.33,
+      "n_bets": 26,
+      "flat_day_pnl": -141.12,
+      "pct_day_pnl": -320.61,
+      "kelly_day_pnl": -524.94
     },
     {
       "date": "2025-06-24",
-      "flat": 12201.27,
-      "pct": 14256.49,
-      "kelly": 17797.88,
-      "n_bets": 22,
-      "flat_day_pnl": 804.76,
-      "pct_day_pnl": 1976.5,
-      "kelly_day_pnl": 3461.28
+      "flat": 11590.44,
+      "pct": 12067.77,
+      "kelly": 13534.29,
+      "n_bets": 29,
+      "flat_day_pnl": 465.98,
+      "pct_day_pnl": 1028.79,
+      "kelly_day_pnl": 1659.96
     },
     {
       "date": "2025-06-25",
-      "flat": 12223.72,
-      "pct": 14320.48,
-      "kelly": 17917.72,
-      "n_bets": 28,
-      "flat_day_pnl": 22.44,
-      "pct_day_pnl": 63.99,
-      "kelly_day_pnl": 119.83
+      "flat": 11800.42,
+      "pct": 12574.56,
+      "kelly": 14386.87,
+      "n_bets": 37,
+      "flat_day_pnl": 209.98,
+      "pct_day_pnl": 506.79,
+      "kelly_day_pnl": 852.57
     },
     {
       "date": "2025-06-26",
-      "flat": 12282.11,
-      "pct": 14487.71,
-      "kelly": 18231.57,
-      "n_bets": 22,
-      "flat_day_pnl": 58.39,
-      "pct_day_pnl": 167.23,
-      "kelly_day_pnl": 313.86
+      "flat": 12273.71,
+      "pct": 13764.85,
+      "kelly": 16429.64,
+      "n_bets": 39,
+      "flat_day_pnl": 473.29,
+      "pct_day_pnl": 1190.29,
+      "kelly_day_pnl": 2042.77
     },
     {
       "date": "2025-06-27",
-      "flat": 12994.51,
-      "pct": 16551.94,
-      "kelly": 22128.07,
-      "n_bets": 18,
-      "flat_day_pnl": 712.4,
-      "pct_day_pnl": 2064.22,
-      "kelly_day_pnl": 3896.5
+      "flat": 13175.46,
+      "pct": 16247.35,
+      "kelly": 20874.3,
+      "n_bets": 28,
+      "flat_day_pnl": 901.75,
+      "pct_day_pnl": 2482.5,
+      "kelly_day_pnl": 4444.66
     },
     {
       "date": "2025-06-28",
-      "flat": 12514.5,
-      "pct": 14962.9,
-      "kelly": 18941.54,
-      "n_bets": 40,
-      "flat_day_pnl": -480.01,
-      "pct_day_pnl": -1589.03,
-      "kelly_day_pnl": -3186.53
+      "flat": 12771.49,
+      "pct": 14934.64,
+      "kelly": 18344.48,
+      "n_bets": 54,
+      "flat_day_pnl": -403.98,
+      "pct_day_pnl": -1312.71,
+      "kelly_day_pnl": -2529.82
     },
     {
       "date": "2025-06-29",
-      "flat": 12688.34,
-      "pct": 15483.14,
-      "kelly": 19929.4,
-      "n_bets": 44,
-      "flat_day_pnl": 173.84,
-      "pct_day_pnl": 520.24,
-      "kelly_day_pnl": 987.86
+      "flat": 13656.54,
+      "pct": 17578.22,
+      "kelly": 23215.17,
+      "n_bets": 60,
+      "flat_day_pnl": 885.05,
+      "pct_day_pnl": 2643.58,
+      "kelly_day_pnl": 4870.7
     },
     {
       "date": "2025-06-30",
-      "flat": 12826.4,
-      "pct": 15910.65,
-      "kelly": 20754.81,
-      "n_bets": 6,
-      "flat_day_pnl": 138.06,
-      "pct_day_pnl": 427.51,
-      "kelly_day_pnl": 825.41
+      "flat": 13481.55,
+      "pct": 16963.03,
+      "kelly": 21996.45,
+      "n_bets": 11,
+      "flat_day_pnl": -174.99,
+      "pct_day_pnl": -615.2,
+      "kelly_day_pnl": -1218.72
     },
     {
       "date": "2025-07-01",
-      "flat": 12603.57,
-      "pct": 15201.57,
-      "kelly": 19367.38,
-      "n_bets": 18,
-      "flat_day_pnl": -222.83,
-      "pct_day_pnl": -709.07,
-      "kelly_day_pnl": -1387.43
+      "flat": 13897.62,
+      "pct": 18374.59,
+      "kelly": 24742.05,
+      "n_bets": 24,
+      "flat_day_pnl": 416.07,
+      "pct_day_pnl": 1411.56,
+      "kelly_day_pnl": 2745.6
     },
     {
       "date": "2025-07-02",
-      "flat": 12086.3,
-      "pct": 13628.93,
-      "kelly": 16361.99,
-      "n_bets": 30,
-      "flat_day_pnl": -517.26,
-      "pct_day_pnl": -1572.64,
-      "kelly_day_pnl": -3005.4
+      "flat": 12923.15,
+      "pct": 14793.5,
+      "kelly": 17508.97,
+      "n_bets": 40,
+      "flat_day_pnl": -974.47,
+      "pct_day_pnl": -3581.09,
+      "kelly_day_pnl": -7233.08
     },
     {
       "date": "2025-07-03",
-      "flat": 12762.43,
-      "pct": 15471.92,
-      "kelly": 19680.84,
-      "n_bets": 30,
-      "flat_day_pnl": 676.13,
-      "pct_day_pnl": 1842.99,
-      "kelly_day_pnl": 3318.86
+      "flat": 13729.73,
+      "pct": 17179.93,
+      "kelly": 21745.7,
+      "n_bets": 38,
+      "flat_day_pnl": 806.58,
+      "pct_day_pnl": 2386.44,
+      "kelly_day_pnl": 4236.74
     },
     {
       "date": "2025-07-04",
-      "flat": 12325.57,
-      "pct": 14120.09,
-      "kelly": 17101.45,
-      "n_bets": 23,
-      "flat_day_pnl": -436.87,
-      "pct_day_pnl": -1351.84,
-      "kelly_day_pnl": -2579.4
+      "flat": 13342.58,
+      "pct": 15849.69,
+      "kelly": 19220.06,
+      "n_bets": 34,
+      "flat_day_pnl": -387.15,
+      "pct_day_pnl": -1330.24,
+      "kelly_day_pnl": -2525.65
     },
     {
       "date": "2025-07-05",
-      "flat": 12098.18,
-      "pct": 13477.95,
-      "kelly": 15934.87,
-      "n_bets": 33,
-      "flat_day_pnl": -227.38,
-      "pct_day_pnl": -642.14,
-      "kelly_day_pnl": -1166.57
+      "flat": 12496.65,
+      "pct": 13168.12,
+      "kelly": 14342.38,
+      "n_bets": 52,
+      "flat_day_pnl": -845.94,
+      "pct_day_pnl": -2681.57,
+      "kelly_day_pnl": -4877.68
     },
     {
       "date": "2025-07-06",
-      "flat": 12468.45,
-      "pct": 14476.05,
-      "kelly": 17704.95,
-      "n_bets": 25,
-      "flat_day_pnl": 370.27,
-      "pct_day_pnl": 998.1,
-      "kelly_day_pnl": 1770.08
+      "flat": 13239.41,
+      "pct": 15124.27,
+      "kelly": 17538.25,
+      "n_bets": 38,
+      "flat_day_pnl": 742.76,
+      "pct_day_pnl": 1956.15,
+      "kelly_day_pnl": 3195.87
     },
     {
       "date": "2025-07-07",
-      "flat": 12008.26,
-      "pct": 13143.68,
-      "kelly": 15260.61,
-      "n_bets": 12,
-      "flat_day_pnl": -460.2,
-      "pct_day_pnl": -1332.37,
-      "kelly_day_pnl": -2444.34
+      "flat": 12390.55,
+      "pct": 12556.61,
+      "kelly": 13072.0,
+      "n_bets": 23,
+      "flat_day_pnl": -848.86,
+      "pct_day_pnl": -2567.66,
+      "kelly_day_pnl": -4466.25
     },
     {
       "date": "2025-07-08",
-      "flat": 11104.8,
-      "pct": 10768.73,
-      "kelly": 11124.41,
-      "n_bets": 28,
-      "flat_day_pnl": -903.46,
-      "pct_day_pnl": -2374.95,
-      "kelly_day_pnl": -4136.2
+      "flat": 11174.08,
+      "pct": 9501.66,
+      "kelly": 8301.49,
+      "n_bets": 42,
+      "flat_day_pnl": -1216.47,
+      "pct_day_pnl": -3054.95,
+      "kelly_day_pnl": -4770.52
     },
     {
       "date": "2025-07-09",
-      "flat": 10858.69,
-      "pct": 10238.68,
-      "kelly": 10303.08,
-      "n_bets": 22,
-      "flat_day_pnl": -246.11,
-      "pct_day_pnl": -530.05,
-      "kelly_day_pnl": -821.33
+      "flat": 10023.21,
+      "pct": 7314.63,
+      "kelly": 5435.37,
+      "n_bets": 33,
+      "flat_day_pnl": -1150.87,
+      "pct_day_pnl": -2187.03,
+      "kelly_day_pnl": -2866.12
     },
     {
       "date": "2025-07-10",
-      "flat": 10665.51,
-      "pct": 9843.09,
-      "kelly": 9705.96,
-      "n_bets": 23,
-      "flat_day_pnl": -193.19,
-      "pct_day_pnl": -395.6,
-      "kelly_day_pnl": -597.12
+      "flat": 10058.1,
+      "pct": 7365.67,
+      "kelly": 5492.26,
+      "n_bets": 34,
+      "flat_day_pnl": 34.89,
+      "pct_day_pnl": 51.04,
+      "kelly_day_pnl": 56.89
     },
     {
       "date": "2025-07-11",
-      "flat": 10409.82,
-      "pct": 9339.74,
-      "kelly": 8961.45,
-      "n_bets": 24,
-      "flat_day_pnl": -255.69,
-      "pct_day_pnl": -503.35,
-      "kelly_day_pnl": -744.51
+      "flat": 9674.28,
+      "pct": 6800.25,
+      "kelly": 4859.83,
+      "n_bets": 37,
+      "flat_day_pnl": -383.82,
+      "pct_day_pnl": -565.42,
+      "kelly_day_pnl": -632.43
     },
     {
       "date": "2025-07-12",
-      "flat": 10540.75,
-      "pct": 9584.31,
-      "kelly": 9313.44,
-      "n_bets": 32,
-      "flat_day_pnl": 130.93,
-      "pct_day_pnl": 244.57,
-      "kelly_day_pnl": 351.99
+      "flat": 10133.47,
+      "pct": 7424.77,
+      "kelly": 5529.34,
+      "n_bets": 44,
+      "flat_day_pnl": 459.19,
+      "pct_day_pnl": 624.53,
+      "kelly_day_pnl": 669.51
     },
     {
       "date": "2025-07-13",
-      "flat": 10446.78,
-      "pct": 9404.18,
-      "kelly": 9050.9,
-      "n_bets": 36,
-      "flat_day_pnl": -93.97,
-      "pct_day_pnl": -180.12,
-      "kelly_day_pnl": -262.54
+      "flat": 10500.3,
+      "pct": 7969.49,
+      "kelly": 6137.83,
+      "n_bets": 54,
+      "flat_day_pnl": 366.82,
+      "pct_day_pnl": 544.72,
+      "kelly_day_pnl": 608.49
     },
     {
       "date": "2025-07-18",
-      "flat": 9625.36,
-      "pct": 7859.22,
-      "kelly": 6820.49,
-      "n_bets": 22,
-      "flat_day_pnl": -821.42,
-      "pct_day_pnl": -1544.96,
-      "kelly_day_pnl": -2230.41
+      "flat": 9514.8,
+      "pct": 6398.7,
+      "kelly": 4323.22,
+      "n_bets": 29,
+      "flat_day_pnl": -985.5,
+      "pct_day_pnl": -1570.79,
+      "kelly_day_pnl": -1814.6
     },
     {
       "date": "2025-07-19",
-      "flat": 9238.1,
-      "pct": 7250.51,
-      "kelly": 6028.12,
-      "n_bets": 33,
-      "flat_day_pnl": -387.26,
-      "pct_day_pnl": -608.71,
-      "kelly_day_pnl": -792.37
+      "flat": 9241.06,
+      "pct": 6048.4,
+      "kelly": 3968.19,
+      "n_bets": 49,
+      "flat_day_pnl": -273.73,
+      "pct_day_pnl": -350.31,
+      "kelly_day_pnl": -355.03
     },
     {
       "date": "2025-07-20",
-      "flat": 9767.37,
-      "pct": 8018.0,
-      "kelly": 6985.24,
-      "n_bets": 42,
-      "flat_day_pnl": 529.26,
-      "pct_day_pnl": 767.49,
-      "kelly_day_pnl": 957.12
+      "flat": 9970.33,
+      "pct": 6930.57,
+      "kelly": 4836.38,
+      "n_bets": 48,
+      "flat_day_pnl": 729.26,
+      "pct_day_pnl": 882.18,
+      "kelly_day_pnl": 868.19
     },
     {
       "date": "2025-07-21",
-      "flat": 10154.84,
-      "pct": 8639.36,
-      "kelly": 7797.24,
-      "n_bets": 21,
-      "flat_day_pnl": 387.48,
-      "pct_day_pnl": 621.36,
-      "kelly_day_pnl": 812.0
+      "flat": 10286.33,
+      "pct": 7368.58,
+      "kelly": 5294.86,
+      "n_bets": 29,
+      "flat_day_pnl": 316.0,
+      "pct_day_pnl": 438.01,
+      "kelly_day_pnl": 458.48
     },
     {
       "date": "2025-07-22",
-      "flat": 10043.98,
-      "pct": 8447.8,
-      "kelly": 7537.91,
-      "n_bets": 39,
-      "flat_day_pnl": -110.86,
-      "pct_day_pnl": -191.56,
-      "kelly_day_pnl": -259.33
+      "flat": 10456.45,
+      "pct": 7619.29,
+      "kelly": 5565.1,
+      "n_bets": 45,
+      "flat_day_pnl": 170.12,
+      "pct_day_pnl": 250.71,
+      "kelly_day_pnl": 270.24
     },
     {
       "date": "2025-07-23",
-      "flat": 10368.62,
-      "pct": 8996.31,
-      "kelly": 8272.06,
-      "n_bets": 49,
-      "flat_day_pnl": 324.64,
-      "pct_day_pnl": 548.51,
-      "kelly_day_pnl": 734.15
+      "flat": 11495.98,
+      "pct": 9203.4,
+      "kelly": 7300.61,
+      "n_bets": 59,
+      "flat_day_pnl": 1039.54,
+      "pct_day_pnl": 1584.11,
+      "kelly_day_pnl": 1735.51
     },
     {
       "date": "2025-07-24",
-      "flat": 9933.14,
-      "pct": 8212.76,
-      "kelly": 7191.36,
-      "n_bets": 6,
-      "flat_day_pnl": -435.48,
-      "pct_day_pnl": -783.55,
-      "kelly_day_pnl": -1080.7
+      "flat": 11051.41,
+      "pct": 8385.08,
+      "kelly": 6326.9,
+      "n_bets": 8,
+      "flat_day_pnl": -444.57,
+      "pct_day_pnl": -818.32,
+      "kelly_day_pnl": -973.71
     },
     {
       "date": "2025-07-25",
-      "flat": 9566.5,
-      "pct": 7610.52,
-      "kelly": 6400.36,
-      "n_bets": 20,
-      "flat_day_pnl": -366.65,
-      "pct_day_pnl": -602.23,
-      "kelly_day_pnl": -791.0
+      "flat": 10526.19,
+      "pct": 7504.27,
+      "kelly": 5329.97,
+      "n_bets": 33,
+      "flat_day_pnl": -525.22,
+      "pct_day_pnl": -880.81,
+      "kelly_day_pnl": -996.93
     },
     {
       "date": "2025-07-26",
-      "flat": 9092.15,
-      "pct": 6888.51,
-      "kelly": 5489.56,
-      "n_bets": 27,
-      "flat_day_pnl": -474.35,
-      "pct_day_pnl": -722.01,
-      "kelly_day_pnl": -910.8
+      "flat": 10460.1,
+      "pct": 7405.09,
+      "kelly": 5224.3,
+      "n_bets": 39,
+      "flat_day_pnl": -66.09,
+      "pct_day_pnl": -99.19,
+      "kelly_day_pnl": -105.67
     },
     {
       "date": "2025-07-27",
-      "flat": 9991.47,
-      "pct": 8127.52,
-      "kelly": 6970.67,
-      "n_bets": 29,
-      "flat_day_pnl": 899.33,
-      "pct_day_pnl": 1239.01,
-      "kelly_day_pnl": 1481.1
+      "flat": 11699.96,
+      "pct": 9241.34,
+      "kelly": 7167.53,
+      "n_bets": 52,
+      "flat_day_pnl": 1239.86,
+      "pct_day_pnl": 1836.25,
+      "kelly_day_pnl": 1943.23
     },
     {
       "date": "2025-07-28",
-      "flat": 10332.71,
-      "pct": 8682.21,
-      "kelly": 7684.27,
-      "n_bets": 25,
-      "flat_day_pnl": 341.24,
-      "pct_day_pnl": 554.68,
-      "kelly_day_pnl": 713.6
+      "flat": 11761.13,
+      "pct": 9354.39,
+      "kelly": 7299.06,
+      "n_bets": 33,
+      "flat_day_pnl": 61.17,
+      "pct_day_pnl": 113.05,
+      "kelly_day_pnl": 131.53
     },
     {
       "date": "2025-07-29",
-      "flat": 9870.37,
-      "pct": 7879.37,
-      "kelly": 6618.42,
-      "n_bets": 26,
-      "flat_day_pnl": -462.35,
-      "pct_day_pnl": -802.84,
-      "kelly_day_pnl": -1065.85
+      "flat": 10879.08,
+      "pct": 7704.19,
+      "kelly": 5367.64,
+      "n_bets": 41,
+      "flat_day_pnl": -882.05,
+      "pct_day_pnl": -1650.2,
+      "kelly_day_pnl": -1931.42
     },
     {
       "date": "2025-07-30",
-      "flat": 10169.02,
-      "pct": 8350.0,
-      "kelly": 7211.38,
-      "n_bets": 36,
-      "flat_day_pnl": 298.65,
-      "pct_day_pnl": 470.63,
-      "kelly_day_pnl": 592.97
+      "flat": 11592.23,
+      "pct": 8803.04,
+      "kelly": 6516.03,
+      "n_bets": 45,
+      "flat_day_pnl": 713.15,
+      "pct_day_pnl": 1098.85,
+      "kelly_day_pnl": 1148.39
     },
     {
       "date": "2025-07-31",
-      "flat": 10057.34,
-      "pct": 8163.5,
-      "kelly": 6969.78,
-      "n_bets": 8,
-      "flat_day_pnl": -111.68,
-      "pct_day_pnl": -186.5,
-      "kelly_day_pnl": -241.61
+      "flat": 11543.05,
+      "pct": 8716.45,
+      "kelly": 6419.89,
+      "n_bets": 9,
+      "flat_day_pnl": -49.18,
+      "pct_day_pnl": -86.58,
+      "kelly_day_pnl": -96.13
     },
     {
       "date": "2025-08-01",
-      "flat": 10101.1,
-      "pct": 8234.95,
-      "kelly": 7061.28,
-      "n_bets": 24,
-      "flat_day_pnl": 43.76,
-      "pct_day_pnl": 71.45,
-      "kelly_day_pnl": 91.5
+      "flat": 11434.77,
+      "pct": 8527.68,
+      "kelly": 6211.33,
+      "n_bets": 28,
+      "flat_day_pnl": -108.29,
+      "pct_day_pnl": -188.77,
+      "kelly_day_pnl": -208.56
     },
     {
       "date": "2025-08-02",
-      "flat": 10544.99,
-      "pct": 8966.04,
-      "kelly": 8001.62,
-      "n_bets": 36,
-      "flat_day_pnl": 443.89,
-      "pct_day_pnl": 731.09,
-      "kelly_day_pnl": 940.34
+      "flat": 12037.42,
+      "pct": 9555.52,
+      "kelly": 7334.31,
+      "n_bets": 44,
+      "flat_day_pnl": 602.65,
+      "pct_day_pnl": 1027.84,
+      "kelly_day_pnl": 1122.98
     },
     {
       "date": "2025-08-03",
-      "flat": 10115.65,
-      "pct": 8196.13,
-      "kelly": 6970.98,
-      "n_bets": 25,
-      "flat_day_pnl": -429.35,
-      "pct_day_pnl": -769.9,
-      "kelly_day_pnl": -1030.64
+      "flat": 11725.41,
+      "pct": 8959.24,
+      "kelly": 6647.8,
+      "n_bets": 35,
+      "flat_day_pnl": -312.01,
+      "pct_day_pnl": -596.28,
+      "kelly_day_pnl": -686.51
     },
     {
       "date": "2025-08-04",
-      "flat": 9589.35,
-      "pct": 7333.41,
-      "kelly": 5870.33,
-      "n_bets": 10,
-      "flat_day_pnl": -526.3,
-      "pct_day_pnl": -862.72,
-      "kelly_day_pnl": -1100.65
+      "flat": 10968.07,
+      "pct": 7602.21,
+      "kelly": 5137.45,
+      "n_bets": 14,
+      "flat_day_pnl": -757.33,
+      "pct_day_pnl": -1357.03,
+      "kelly_day_pnl": -1510.35
     },
     {
       "date": "2025-08-05",
-      "flat": 10008.79,
-      "pct": 7948.6,
-      "kelly": 6609.02,
-      "n_bets": 29,
-      "flat_day_pnl": 419.45,
-      "pct_day_pnl": 615.19,
-      "kelly_day_pnl": 738.68
+      "flat": 11118.38,
+      "pct": 7830.74,
+      "kelly": 5369.1,
+      "n_bets": 35,
+      "flat_day_pnl": 150.3,
+      "pct_day_pnl": 228.53,
+      "kelly_day_pnl": 231.65
     },
     {
       "date": "2025-08-06",
-      "flat": 8883.19,
-      "pct": 6159.21,
-      "kelly": 4377.28,
-      "n_bets": 31,
-      "flat_day_pnl": -1125.6,
-      "pct_day_pnl": -1789.4,
-      "kelly_day_pnl": -2231.73
+      "flat": 10246.02,
+      "pct": 6464.5,
+      "kelly": 3963.99,
+      "n_bets": 43,
+      "flat_day_pnl": -872.36,
+      "pct_day_pnl": -1366.24,
+      "kelly_day_pnl": -1405.11
     },
     {
       "date": "2025-08-07",
-      "flat": 8711.78,
-      "pct": 5948.06,
-      "kelly": 4152.19,
-      "n_bets": 12,
-      "flat_day_pnl": -171.41,
-      "pct_day_pnl": -211.15,
-      "kelly_day_pnl": -225.1
+      "flat": 10249.85,
+      "pct": 6469.45,
+      "kelly": 3968.54,
+      "n_bets": 14,
+      "flat_day_pnl": 3.83,
+      "pct_day_pnl": 4.95,
+      "kelly_day_pnl": 4.55
     },
     {
       "date": "2025-08-08",
-      "flat": 8454.08,
-      "pct": 5641.49,
-      "kelly": 3831.17,
-      "n_bets": 13,
-      "flat_day_pnl": -257.7,
-      "pct_day_pnl": -306.56,
-      "kelly_day_pnl": -321.02
+      "flat": 9835.68,
+      "pct": 5933.57,
+      "kelly": 3475.44,
+      "n_bets": 18,
+      "flat_day_pnl": -414.16,
+      "pct_day_pnl": -535.88,
+      "kelly_day_pnl": -493.1
     },
     {
       "date": "2025-08-09",
-      "flat": 9098.25,
-      "pct": 6368.31,
-      "kelly": 4571.58,
-      "n_bets": 25,
-      "flat_day_pnl": 644.18,
-      "pct_day_pnl": 726.82,
-      "kelly_day_pnl": 740.42
+      "flat": 10554.89,
+      "pct": 6787.06,
+      "kelly": 4225.29,
+      "n_bets": 32,
+      "flat_day_pnl": 719.21,
+      "pct_day_pnl": 853.5,
+      "kelly_day_pnl": 749.85
     },
     {
       "date": "2025-08-10",
-      "flat": 9057.55,
-      "pct": 6316.47,
-      "kelly": 4515.76,
-      "n_bets": 35,
-      "flat_day_pnl": -40.7,
-      "pct_day_pnl": -51.84,
-      "kelly_day_pnl": -55.83
+      "flat": 10268.28,
+      "pct": 6398.0,
+      "kelly": 3861.97,
+      "n_bets": 48,
+      "flat_day_pnl": -286.62,
+      "pct_day_pnl": -389.06,
+      "kelly_day_pnl": -363.32
     },
     {
       "date": "2025-08-11",
-      "flat": 8915.3,
-      "pct": 6136.77,
-      "kelly": 4323.05,
-      "n_bets": 11,
-      "flat_day_pnl": -142.25,
-      "pct_day_pnl": -179.7,
-      "kelly_day_pnl": -192.71
+      "flat": 9971.53,
+      "pct": 6018.29,
+      "kelly": 3518.16,
+      "n_bets": 18,
+      "flat_day_pnl": -296.75,
+      "pct_day_pnl": -379.72,
+      "kelly_day_pnl": -343.81
     },
     {
       "date": "2025-08-12",
-      "flat": 9751.76,
-      "pct": 7163.4,
-      "kelly": 5407.86,
-      "n_bets": 22,
-      "flat_day_pnl": 836.46,
-      "pct_day_pnl": 1026.63,
-      "kelly_day_pnl": 1084.81
+      "flat": 11266.31,
+      "pct": 7576.76,
+      "kelly": 4884.67,
+      "n_bets": 40,
+      "flat_day_pnl": 1294.78,
+      "pct_day_pnl": 1558.48,
+      "kelly_day_pnl": 1366.51
     },
     {
       "date": "2025-08-13",
-      "flat": 10320.85,
-      "pct": 7978.72,
-      "kelly": 6290.44,
-      "n_bets": 30,
-      "flat_day_pnl": 569.09,
-      "pct_day_pnl": 815.32,
-      "kelly_day_pnl": 882.58
+      "flat": 11875.36,
+      "pct": 8499.69,
+      "kelly": 5777.18,
+      "n_bets": 41,
+      "flat_day_pnl": 609.05,
+      "pct_day_pnl": 922.92,
+      "kelly_day_pnl": 892.5
     },
     {
       "date": "2025-08-14",
-      "flat": 10420.3,
-      "pct": 8137.43,
-      "kelly": 6478.13,
-      "n_bets": 18,
-      "flat_day_pnl": 99.46,
-      "pct_day_pnl": 158.71,
-      "kelly_day_pnl": 187.69
+      "flat": 12423.15,
+      "pct": 9430.9,
+      "kelly": 6726.61,
+      "n_bets": 22,
+      "flat_day_pnl": 547.79,
+      "pct_day_pnl": 931.21,
+      "kelly_day_pnl": 949.43
     },
     {
       "date": "2025-08-15",
-      "flat": 11734.57,
-      "pct": 10276.38,
-      "kelly": 9032.27,
-      "n_bets": 32,
-      "flat_day_pnl": 1314.27,
-      "pct_day_pnl": 2138.95,
-      "kelly_day_pnl": 2554.14
+      "flat": 14036.76,
+      "pct": 12474.44,
+      "kelly": 9982.86,
+      "n_bets": 38,
+      "flat_day_pnl": 1613.6,
+      "pct_day_pnl": 3043.54,
+      "kelly_day_pnl": 3256.25
     },
     {
       "date": "2025-08-16",
-      "flat": 11956.51,
-      "pct": 10732.53,
-      "kelly": 9633.67,
-      "n_bets": 34,
-      "flat_day_pnl": 221.94,
-      "pct_day_pnl": 456.16,
-      "kelly_day_pnl": 601.4
+      "flat": 14189.28,
+      "pct": 12854.98,
+      "kelly": 10439.66,
+      "n_bets": 51,
+      "flat_day_pnl": 152.53,
+      "pct_day_pnl": 380.54,
+      "kelly_day_pnl": 456.8
     },
     {
       "date": "2025-08-17",
-      "flat": 11975.82,
-      "pct": 10773.98,
-      "kelly": 9689.47,
-      "n_bets": 37,
-      "flat_day_pnl": 19.31,
-      "pct_day_pnl": 41.44,
-      "kelly_day_pnl": 55.8
+      "flat": 13528.35,
+      "pct": 11155.73,
+      "kelly": 8369.69,
+      "n_bets": 58,
+      "flat_day_pnl": -660.93,
+      "pct_day_pnl": -1699.25,
+      "kelly_day_pnl": -2069.97
     },
     {
       "date": "2025-08-18",
-      "flat": 11909.39,
-      "pct": 10630.82,
-      "kelly": 9496.36,
-      "n_bets": 8,
-      "flat_day_pnl": -66.43,
-      "pct_day_pnl": -143.15,
-      "kelly_day_pnl": -193.11
+      "flat": 13176.92,
+      "pct": 10371.63,
+      "kelly": 7487.27,
+      "n_bets": 13,
+      "flat_day_pnl": -351.43,
+      "pct_day_pnl": -784.1,
+      "kelly_day_pnl": -882.42
     },
     {
       "date": "2025-08-19",
-      "flat": 10970.83,
-      "pct": 8635.3,
-      "kelly": 6822.51,
-      "n_bets": 34,
-      "flat_day_pnl": -938.56,
-      "pct_day_pnl": -1995.53,
-      "kelly_day_pnl": -2673.85
+      "flat": 11808.56,
+      "pct": 7533.21,
+      "kelly": 4413.67,
+      "n_bets": 48,
+      "flat_day_pnl": -1368.36,
+      "pct_day_pnl": -2838.41,
+      "kelly_day_pnl": -3073.6
     },
     {
       "date": "2025-08-20",
-      "flat": 12276.48,
-      "pct": 10890.22,
-      "kelly": 9494.9,
-      "n_bets": 42,
-      "flat_day_pnl": 1305.65,
-      "pct_day_pnl": 2254.93,
-      "kelly_day_pnl": 2672.39
+      "flat": 13054.21,
+      "pct": 9409.96,
+      "kelly": 6063.03,
+      "n_bets": 47,
+      "flat_day_pnl": 1245.65,
+      "pct_day_pnl": 1876.74,
+      "kelly_day_pnl": 1649.36
     },
     {
       "date": "2025-08-21",
-      "flat": 12646.02,
-      "pct": 11695.1,
-      "kelly": 10547.54,
-      "n_bets": 24,
-      "flat_day_pnl": 369.54,
-      "pct_day_pnl": 804.88,
-      "kelly_day_pnl": 1052.64
+      "flat": 13258.75,
+      "pct": 9794.9,
+      "kelly": 6435.07,
+      "n_bets": 30,
+      "flat_day_pnl": 204.54,
+      "pct_day_pnl": 384.95,
+      "kelly_day_pnl": 372.04
     },
     {
       "date": "2025-08-22",
-      "flat": 12523.88,
-      "pct": 11409.42,
-      "kelly": 10161.05,
-      "n_bets": 17,
-      "flat_day_pnl": -122.14,
-      "pct_day_pnl": -285.69,
-      "kelly_day_pnl": -386.49
+      "flat": 13093.15,
+      "pct": 9470.49,
+      "kelly": 6115.38,
+      "n_bets": 23,
+      "flat_day_pnl": -165.6,
+      "pct_day_pnl": -324.41,
+      "kelly_day_pnl": -319.69
     },
     {
       "date": "2025-08-23",
-      "flat": 12693.9,
-      "pct": 11797.4,
-      "kelly": 10679.35,
-      "n_bets": 23,
-      "flat_day_pnl": 170.03,
-      "pct_day_pnl": 387.98,
-      "kelly_day_pnl": 518.29
+      "flat": 13431.31,
+      "pct": 10111.01,
+      "kelly": 6735.78,
+      "n_bets": 34,
+      "flat_day_pnl": 338.17,
+      "pct_day_pnl": 640.52,
+      "kelly_day_pnl": 620.4
     },
     {
       "date": "2025-08-24",
-      "flat": 13105.28,
-      "pct": 12768.03,
-      "kelly": 11997.32,
-      "n_bets": 26,
-      "flat_day_pnl": 411.38,
-      "pct_day_pnl": 970.63,
-      "kelly_day_pnl": 1317.97
+      "flat": 14160.56,
+      "pct": 11585.7,
+      "kelly": 8209.37,
+      "n_bets": 46,
+      "flat_day_pnl": 729.25,
+      "pct_day_pnl": 1474.69,
+      "kelly_day_pnl": 1473.59
     },
     {
       "date": "2025-08-25",
-      "flat": 13043.86,
-      "pct": 12611.18,
-      "kelly": 11776.24,
-      "n_bets": 15,
-      "flat_day_pnl": -61.42,
-      "pct_day_pnl": -156.85,
-      "kelly_day_pnl": -221.08
+      "flat": 14136.07,
+      "pct": 11528.94,
+      "kelly": 8149.05,
+      "n_bets": 26,
+      "flat_day_pnl": -24.49,
+      "pct_day_pnl": -56.76,
+      "kelly_day_pnl": -60.33
     },
     {
       "date": "2025-08-26",
-      "flat": 13762.59,
-      "pct": 14424.0,
-      "kelly": 14315.46,
-      "n_bets": 16,
-      "flat_day_pnl": 718.74,
-      "pct_day_pnl": 1812.82,
-      "kelly_day_pnl": 2539.22
+      "flat": 15125.06,
+      "pct": 13809.35,
+      "kelly": 10566.84,
+      "n_bets": 21,
+      "flat_day_pnl": 988.99,
+      "pct_day_pnl": 2280.41,
+      "kelly_day_pnl": 2417.79
     },
     {
       "date": "2025-08-27",
-      "flat": 13063.43,
-      "pct": 12407.07,
-      "kelly": 11312.86,
-      "n_bets": 18,
-      "flat_day_pnl": -699.16,
-      "pct_day_pnl": -2016.93,
-      "kelly_day_pnl": -3002.6
+      "flat": 14442.48,
+      "pct": 11924.14,
+      "kelly": 8402.98,
+      "n_bets": 25,
+      "flat_day_pnl": -682.58,
+      "pct_day_pnl": -1885.21,
+      "kelly_day_pnl": -2163.86
     },
     {
       "date": "2025-08-28",
-      "flat": 13788.11,
-      "pct": 14205.3,
-      "kelly": 13772.35,
-      "n_bets": 14,
-      "flat_day_pnl": 724.68,
-      "pct_day_pnl": 1798.23,
-      "kelly_day_pnl": 2459.49
+      "flat": 15052.47,
+      "pct": 13378.87,
+      "kelly": 9940.71,
+      "n_bets": 20,
+      "flat_day_pnl": 609.99,
+      "pct_day_pnl": 1454.73,
+      "kelly_day_pnl": 1537.73
     },
     {
       "date": "2025-08-29",
-      "flat": 14157.65,
-      "pct": 15255.19,
-      "kelly": 15299.18,
-      "n_bets": 11,
-      "flat_day_pnl": 369.54,
-      "pct_day_pnl": 1049.89,
-      "kelly_day_pnl": 1526.83
+      "flat": 15285.83,
+      "pct": 14003.3,
+      "kelly": 10636.65,
+      "n_bets": 16,
+      "flat_day_pnl": 233.36,
+      "pct_day_pnl": 624.43,
+      "kelly_day_pnl": 695.94
     },
     {
       "date": "2025-08-30",
-      "flat": 14502.84,
-      "pct": 16308.37,
-      "kelly": 16883.52,
-      "n_bets": 33,
-      "flat_day_pnl": 345.19,
-      "pct_day_pnl": 1053.18,
-      "kelly_day_pnl": 1584.34
+      "flat": 15639.39,
+      "pct": 14993.48,
+      "kelly": 11764.83,
+      "n_bets": 38,
+      "flat_day_pnl": 353.55,
+      "pct_day_pnl": 990.18,
+      "kelly_day_pnl": 1128.18
     },
     {
       "date": "2025-08-31",
-      "flat": 15198.31,
-      "pct": 18576.76,
-      "kelly": 20406.13,
-      "n_bets": 32,
-      "flat_day_pnl": 695.47,
-      "pct_day_pnl": 2268.39,
-      "kelly_day_pnl": 3522.61
+      "flat": 16673.46,
+      "pct": 18094.35,
+      "kelly": 15414.49,
+      "n_bets": 50,
+      "flat_day_pnl": 1034.07,
+      "pct_day_pnl": 3100.87,
+      "kelly_day_pnl": 3649.66
     },
     {
       "date": "2025-09-01",
-      "flat": 16061.14,
-      "pct": 21782.48,
-      "kelly": 25688.21,
-      "n_bets": 26,
-      "flat_day_pnl": 862.83,
-      "pct_day_pnl": 3205.72,
-      "kelly_day_pnl": 5282.08
+      "flat": 17291.35,
+      "pct": 20330.43,
+      "kelly": 18271.82,
+      "n_bets": 39,
+      "flat_day_pnl": 617.89,
+      "pct_day_pnl": 2236.08,
+      "kelly_day_pnl": 2857.32
     },
     {
       "date": "2025-09-02",
-      "flat": 16249.69,
-      "pct": 22603.88,
-      "kelly": 27141.25,
-      "n_bets": 21,
-      "flat_day_pnl": 188.55,
-      "pct_day_pnl": 821.41,
-      "kelly_day_pnl": 1453.04
+      "flat": 17513.95,
+      "pct": 21235.52,
+      "kelly": 19491.97,
+      "n_bets": 28,
+      "flat_day_pnl": 222.6,
+      "pct_day_pnl": 905.09,
+      "kelly_day_pnl": 1220.15
     },
     {
       "date": "2025-09-03",
-      "flat": 16288.72,
-      "pct": 22780.34,
-      "kelly": 27459.07,
-      "n_bets": 31,
-      "flat_day_pnl": 39.03,
-      "pct_day_pnl": 176.45,
-      "kelly_day_pnl": 317.81
+      "flat": 17522.5,
+      "pct": 21271.86,
+      "kelly": 19542.01,
+      "n_bets": 45,
+      "flat_day_pnl": 8.56,
+      "pct_day_pnl": 36.34,
+      "kelly_day_pnl": 50.04
     },
     {
       "date": "2025-09-04",
-      "flat": 16260.07,
-      "pct": 22649.8,
-      "kelly": 27223.05,
-      "n_bets": 4,
-      "flat_day_pnl": -28.65,
-      "pct_day_pnl": -130.53,
-      "kelly_day_pnl": -236.01
+      "flat": 17655.09,
+      "pct": 21835.92,
+      "kelly": 20319.3,
+      "n_bets": 10,
+      "flat_day_pnl": 132.58,
+      "pct_day_pnl": 564.07,
+      "kelly_day_pnl": 777.29
     },
     {
       "date": "2025-09-05",
-      "flat": 15609.04,
-      "pct": 19700.64,
-      "kelly": 21906.12,
-      "n_bets": 14,
-      "flat_day_pnl": -651.03,
-      "pct_day_pnl": -2949.16,
-      "kelly_day_pnl": -5316.93
+      "flat": 17427.01,
+      "pct": 20839.88,
+      "kelly": 18929.0,
+      "n_bets": 21,
+      "flat_day_pnl": -228.08,
+      "pct_day_pnl": -996.05,
+      "kelly_day_pnl": -1390.3
     },
     {
       "date": "2025-09-06",
-      "flat": 15626.23,
-      "pct": 19768.38,
-      "kelly": 22019.1,
-      "n_bets": 39,
-      "flat_day_pnl": 17.19,
-      "pct_day_pnl": 67.74,
-      "kelly_day_pnl": 112.98
+      "flat": 17692.46,
+      "pct": 21946.24,
+      "kelly": 20436.38,
+      "n_bets": 52,
+      "flat_day_pnl": 265.44,
+      "pct_day_pnl": 1106.37,
+      "kelly_day_pnl": 1507.38
     },
     {
       "date": "2025-09-07",
-      "flat": 15475.68,
-      "pct": 19173.18,
-      "kelly": 21024.65,
-      "n_bets": 30,
-      "flat_day_pnl": -150.54,
-      "pct_day_pnl": -595.2,
-      "kelly_day_pnl": -994.44
+      "flat": 17807.11,
+      "pct": 22449.46,
+      "kelly": 21139.27,
+      "n_bets": 42,
+      "flat_day_pnl": 114.65,
+      "pct_day_pnl": 503.22,
+      "kelly_day_pnl": 702.9
     },
     {
       "date": "2025-09-08",
-      "flat": 15513.17,
-      "pct": 19316.92,
-      "kelly": 21261.09,
+      "flat": 17699.14,
+      "pct": 21964.7,
+      "kelly": 20454.56,
       "n_bets": 11,
-      "flat_day_pnl": 37.49,
-      "pct_day_pnl": 143.74,
-      "kelly_day_pnl": 236.44
+      "flat_day_pnl": -107.97,
+      "pct_day_pnl": -484.77,
+      "kelly_day_pnl": -684.72
     },
     {
       "date": "2025-09-09",
-      "flat": 15928.84,
-      "pct": 20922.82,
-      "kelly": 23912.37,
-      "n_bets": 21,
-      "flat_day_pnl": 415.67,
-      "pct_day_pnl": 1605.9,
-      "kelly_day_pnl": 2651.28
+      "flat": 18033.63,
+      "pct": 23434.08,
+      "kelly": 22507.1,
+      "n_bets": 32,
+      "flat_day_pnl": 334.49,
+      "pct_day_pnl": 1469.38,
+      "kelly_day_pnl": 2052.54
     },
     {
       "date": "2025-09-10",
-      "flat": 16402.24,
-      "pct": 22903.81,
-      "kelly": 27308.42,
-      "n_bets": 16,
-      "flat_day_pnl": 473.4,
-      "pct_day_pnl": 1980.98,
-      "kelly_day_pnl": 3396.04
+      "flat": 18611.97,
+      "pct": 26144.65,
+      "kelly": 26412.12,
+      "n_bets": 29,
+      "flat_day_pnl": 578.34,
+      "pct_day_pnl": 2710.58,
+      "kelly_day_pnl": 3905.02
     },
     {
       "date": "2025-09-11",
-      "flat": 16371.31,
-      "pct": 22762.1,
-      "kelly": 27054.97,
-      "n_bets": 7,
-      "flat_day_pnl": -30.94,
-      "pct_day_pnl": -141.71,
-      "kelly_day_pnl": -253.44
+      "flat": 18588.68,
+      "pct": 26022.9,
+      "kelly": 26227.62,
+      "n_bets": 14,
+      "flat_day_pnl": -23.28,
+      "pct_day_pnl": -121.75,
+      "kelly_day_pnl": -184.5
     },
     {
       "date": "2025-09-12",
-      "flat": 16975.45,
-      "pct": 25512.39,
-      "kelly": 31958.47,
-      "n_bets": 15,
-      "flat_day_pnl": 604.14,
-      "pct_day_pnl": 2750.3,
-      "kelly_day_pnl": 4903.5
+      "flat": 19508.48,
+      "pct": 30810.04,
+      "kelly": 33464.84,
+      "n_bets": 20,
+      "flat_day_pnl": 919.79,
+      "pct_day_pnl": 4787.14,
+      "kelly_day_pnl": 7237.22
     },
     {
       "date": "2025-09-13",
-      "flat": 17148.29,
-      "pct": 26394.3,
-      "kelly": 33615.58,
-      "n_bets": 16,
-      "flat_day_pnl": 172.84,
-      "pct_day_pnl": 881.91,
-      "kelly_day_pnl": 1657.1
+      "flat": 19832.34,
+      "pct": 32805.67,
+      "kelly": 36716.24,
+      "n_bets": 22,
+      "flat_day_pnl": 323.86,
+      "pct_day_pnl": 1995.63,
+      "kelly_day_pnl": 3251.4
     },
     {
       "date": "2025-09-14",
-      "flat": 17379.02,
-      "pct": 27612.31,
-      "kelly": 35942.44,
-      "n_bets": 28,
-      "flat_day_pnl": 230.73,
-      "pct_day_pnl": 1218.0,
-      "kelly_day_pnl": 2326.86
+      "flat": 19845.28,
+      "pct": 32890.57,
+      "kelly": 36858.76,
+      "n_bets": 45,
+      "flat_day_pnl": 12.94,
+      "pct_day_pnl": 84.89,
+      "kelly_day_pnl": 142.52
     },
     {
       "date": "2025-09-15",
-      "flat": 17178.58,
-      "pct": 26505.4,
-      "kelly": 33781.19,
-      "n_bets": 11,
-      "flat_day_pnl": -200.44,
-      "pct_day_pnl": -1106.9,
-      "kelly_day_pnl": -2161.25
+      "flat": 19988.43,
+      "pct": 33832.24,
+      "kelly": 38441.69,
+      "n_bets": 13,
+      "flat_day_pnl": 143.15,
+      "pct_day_pnl": 941.68,
+      "kelly_day_pnl": 1582.93
     },
     {
       "date": "2025-09-16",
-      "flat": 17340.48,
-      "pct": 27363.64,
-      "kelly": 35421.94,
-      "n_bets": 18,
-      "flat_day_pnl": 161.9,
-      "pct_day_pnl": 858.24,
-      "kelly_day_pnl": 1640.75
+      "flat": 19898.12,
+      "pct": 33221.15,
+      "kelly": 37400.16,
+      "n_bets": 28,
+      "flat_day_pnl": -90.31,
+      "pct_day_pnl": -611.09,
+      "kelly_day_pnl": -1041.52
     },
     {
       "date": "2025-09-17",
-      "flat": 18027.26,
-      "pct": 31122.18,
-      "kelly": 42720.04,
-      "n_bets": 24,
-      "flat_day_pnl": 686.78,
-      "pct_day_pnl": 3758.54,
-      "kelly_day_pnl": 7298.1
+      "flat": 20349.46,
+      "pct": 36219.97,
+      "kelly": 42464.21,
+      "n_bets": 37,
+      "flat_day_pnl": 451.34,
+      "pct_day_pnl": 2998.81,
+      "kelly_day_pnl": 5064.04
     },
     {
       "date": "2025-09-18",
-      "flat": 17705.81,
-      "pct": 29121.36,
-      "kelly": 38600.37,
-      "n_bets": 25,
-      "flat_day_pnl": -321.45,
-      "pct_day_pnl": -2000.83,
-      "kelly_day_pnl": -4119.67
+      "flat": 19586.74,
+      "pct": 30694.85,
+      "kelly": 32747.73,
+      "n_bets": 35,
+      "flat_day_pnl": -762.72,
+      "pct_day_pnl": -5525.12,
+      "kelly_day_pnl": -9716.48
     },
     {
       "date": "2025-09-19",
-      "flat": 17536.23,
-      "pct": 28133.68,
-      "kelly": 36636.63,
-      "n_bets": 7,
-      "flat_day_pnl": -169.58,
-      "pct_day_pnl": -987.68,
-      "kelly_day_pnl": -1963.75
+      "flat": 19557.58,
+      "pct": 30515.82,
+      "kelly": 32461.22,
+      "n_bets": 11,
+      "flat_day_pnl": -29.16,
+      "pct_day_pnl": -179.03,
+      "kelly_day_pnl": -286.5
     },
     {
       "date": "2025-09-20",
-      "flat": 17766.27,
-      "pct": 29428.06,
-      "kelly": 39165.01,
-      "n_bets": 41,
-      "flat_day_pnl": 230.04,
-      "pct_day_pnl": 1294.38,
-      "kelly_day_pnl": 2528.38
+      "flat": 19865.35,
+      "pct": 32394.21,
+      "kelly": 35458.45,
+      "n_bets": 54,
+      "flat_day_pnl": 307.77,
+      "pct_day_pnl": 1878.39,
+      "kelly_day_pnl": 2997.22
     },
     {
       "date": "2025-09-21",
-      "flat": 18775.91,
-      "pct": 35370.39,
-      "kelly": 51027.73,
-      "n_bets": 38,
-      "flat_day_pnl": 1009.64,
-      "pct_day_pnl": 5942.33,
-      "kelly_day_pnl": 11862.72
+      "flat": 21426.7,
+      "pct": 42509.93,
+      "kelly": 52067.27,
+      "n_bets": 53,
+      "flat_day_pnl": 1561.35,
+      "pct_day_pnl": 10115.72,
+      "kelly_day_pnl": 16608.83
     },
     {
       "date": "2025-09-22",
-      "flat": 18840.84,
-      "pct": 35829.74,
-      "kelly": 52021.77,
-      "n_bets": 1,
-      "flat_day_pnl": 64.94,
-      "pct_day_pnl": 459.36,
-      "kelly_day_pnl": 994.05
+      "flat": 21552.61,
+      "pct": 43580.42,
+      "kelly": 54034.02,
+      "n_bets": 2,
+      "flat_day_pnl": 125.91,
+      "pct_day_pnl": 1070.49,
+      "kelly_day_pnl": 1966.75
     },
     {
       "date": "2025-09-23",
-      "flat": 18997.49,
-      "pct": 36952.28,
-      "kelly": 54466.51,
-      "n_bets": 12,
-      "flat_day_pnl": 156.65,
-      "pct_day_pnl": 1122.54,
-      "kelly_day_pnl": 2444.74
+      "flat": 21847.98,
+      "pct": 46154.94,
+      "kelly": 58822.11,
+      "n_bets": 23,
+      "flat_day_pnl": 295.38,
+      "pct_day_pnl": 2574.51,
+      "kelly_day_pnl": 4788.09
     },
     {
       "date": "2025-09-24",
-      "flat": 19049.22,
-      "pct": 37334.57,
-      "kelly": 55311.75,
-      "n_bets": 13,
-      "flat_day_pnl": 51.73,
-      "pct_day_pnl": 382.3,
-      "kelly_day_pnl": 845.24
+      "flat": 21799.71,
+      "pct": 45709.34,
+      "kelly": 57970.28,
+      "n_bets": 14,
+      "flat_day_pnl": -48.27,
+      "pct_day_pnl": -445.6,
+      "kelly_day_pnl": -851.83
     },
     {
       "date": "2025-09-25",
-      "flat": 19673.32,
-      "pct": 41994.63,
-      "kelly": 65667.66,
-      "n_bets": 18,
-      "flat_day_pnl": 624.09,
-      "pct_day_pnl": 4660.06,
-      "kelly_day_pnl": 10355.91
+      "flat": 22427.99,
+      "pct": 51452.98,
+      "kelly": 68896.74,
+      "n_bets": 24,
+      "flat_day_pnl": 628.28,
+      "pct_day_pnl": 5743.64,
+      "kelly_day_pnl": 10926.45
     },
     {
       "date": "2025-09-26",
-      "flat": 19711.33,
-      "pct": 42313.89,
-      "kelly": 66416.49,
-      "n_bets": 17,
-      "flat_day_pnl": 38.01,
-      "pct_day_pnl": 319.25,
-      "kelly_day_pnl": 748.83
+      "flat": 22225.54,
+      "pct": 49369.6,
+      "kelly": 64712.21,
+      "n_bets": 25,
+      "flat_day_pnl": -202.45,
+      "pct_day_pnl": -2083.38,
+      "kelly_day_pnl": -4184.53
     },
     {
       "date": "2025-09-27",
-      "flat": 19991.51,
-      "pct": 44685.02,
-      "kelly": 71999.14,
-      "n_bets": 18,
-      "flat_day_pnl": 280.18,
-      "pct_day_pnl": 2371.14,
-      "kelly_day_pnl": 5582.65
+      "flat": 22525.95,
+      "pct": 52335.84,
+      "kelly": 70544.29,
+      "n_bets": 26,
+      "flat_day_pnl": 300.41,
+      "pct_day_pnl": 2966.23,
+      "kelly_day_pnl": 5832.08
     },
     {
       "date": "2025-09-28",
-      "flat": 20002.65,
-      "pct": 44784.62,
-      "kelly": 72239.85,
-      "n_bets": 22,
-      "flat_day_pnl": 11.14,
-      "pct_day_pnl": 99.59,
-      "kelly_day_pnl": 240.71
-    },
-    {
-      "date": "2025-09-30",
-      "flat": 19865.15,
-      "pct": 43553.04,
-      "kelly": 69259.95,
-      "n_bets": 3,
-      "flat_day_pnl": -137.5,
-      "pct_day_pnl": -1231.58,
-      "kelly_day_pnl": -2979.9
+      "flat": 23087.81,
+      "pct": 58216.93,
+      "kelly": 82435.12,
+      "n_bets": 32,
+      "flat_day_pnl": 561.86,
+      "pct_day_pnl": 5881.09,
+      "kelly_day_pnl": 11890.83
     }
   ],
   "clv_summary": {
     "overall": {
-      "avg_clv_cents": 0.0115,
-      "median_clv_cents": 0.0025,
-      "pct_favorable": 52.4,
-      "n_bets": 3769
+      "avg_clv_cents": 3.9161,
+      "median_clv_cents": 0.0,
+      "pct_favorable": 27.2,
+      "n_bets": 2039
     },
     "by_market": {
-      "batter_hits": {
-        "avg_clv_cents": 0.0037,
-        "median_clv_cents": 0.0,
-        "pct_favorable": 27.3,
-        "n_bets": 187
-      },
-      "batter_total_bases": {
-        "avg_clv_cents": 0.0022,
-        "median_clv_cents": 0.0,
-        "pct_favorable": 24.9,
-        "n_bets": 1843
-      },
       "pitcher_earned_runs": {
-        "avg_clv_cents": 0.0176,
-        "median_clv_cents": 0.0111,
-        "pct_favorable": 76.3,
-        "n_bets": 131
+        "avg_clv_cents": 4.776,
+        "median_clv_cents": 0.0,
+        "pct_favorable": 40.8,
+        "n_bets": 125
       },
       "pitcher_hits_allowed": {
-        "avg_clv_cents": 0.0135,
-        "median_clv_cents": 0.0101,
-        "pct_favorable": 73.8,
-        "n_bets": 61
+        "avg_clv_cents": 10.1795,
+        "median_clv_cents": 0.0,
+        "pct_favorable": 47.7,
+        "n_bets": 596
       },
       "pitcher_outs": {
-        "avg_clv_cents": 0.026,
-        "median_clv_cents": 0.0132,
-        "pct_favorable": 86.1,
-        "n_bets": 1160
+        "avg_clv_cents": -1.0456,
+        "median_clv_cents": 0.0,
+        "pct_favorable": 16.7,
+        "n_bets": 1031
       },
       "pitcher_strikeouts": {
-        "avg_clv_cents": 0.0152,
-        "median_clv_cents": 0.0159,
-        "pct_favorable": 91.6,
-        "n_bets": 251
+        "avg_clv_cents": 11.3019,
+        "median_clv_cents": 0.0,
+        "pct_favorable": 26.4,
+        "n_bets": 159
       },
       "pitcher_walks": {
-        "avg_clv_cents": 0.0121,
-        "median_clv_cents": 0.0065,
-        "pct_favorable": 68.4,
-        "n_bets": 136
+        "avg_clv_cents": 4.7031,
+        "median_clv_cents": 0.0,
+        "pct_favorable": 3.9,
+        "n_bets": 128
       }
     }
   },
   "clv_by_date": [
     {
       "date": "2025-03-27",
-      "avg_clv": 0.44,
-      "n_bets": 12
+      "avg_clv": 316.67,
+      "n_bets": 6
     },
     {
       "date": "2025-03-28",
-      "avg_clv": -0.13,
-      "n_bets": 8
+      "avg_clv": 0.0,
+      "n_bets": 1
     },
     {
       "date": "2025-03-29",
-      "avg_clv": 0.43,
-      "n_bets": 14
+      "avg_clv": 0.0,
+      "n_bets": 4
     },
     {
       "date": "2025-03-30",
-      "avg_clv": 0.26,
-      "n_bets": 11
+      "avg_clv": -6250.0,
+      "n_bets": 4
     },
     {
       "date": "2025-03-31",
-      "avg_clv": 1.02,
-      "n_bets": 11
+      "avg_clv": 4000.0,
+      "n_bets": 6
     },
     {
       "date": "2025-04-01",
-      "avg_clv": 0.22,
-      "n_bets": 14
+      "avg_clv": 0.0,
+      "n_bets": 3
     },
     {
       "date": "2025-04-02",
-      "avg_clv": 0.75,
-      "n_bets": 21
+      "avg_clv": -2025.0,
+      "n_bets": 12
     },
     {
       "date": "2025-04-03",
-      "avg_clv": 0.47,
-      "n_bets": 8
+      "avg_clv": 2814.29,
+      "n_bets": 7
     },
     {
       "date": "2025-04-04",
-      "avg_clv": 0.53,
-      "n_bets": 16
+      "avg_clv": 100.0,
+      "n_bets": 8
     },
     {
       "date": "2025-04-05",
-      "avg_clv": 0.42,
-      "n_bets": 22
-    },
-    {
-      "date": "2025-04-06",
-      "avg_clv": 3.07,
-      "n_bets": 22
-    },
-    {
-      "date": "2025-04-07",
-      "avg_clv": 0.84,
+      "avg_clv": -1638.46,
       "n_bets": 13
     },
     {
+      "date": "2025-04-06",
+      "avg_clv": -47.06,
+      "n_bets": 17
+    },
+    {
+      "date": "2025-04-07",
+      "avg_clv": 3716.67,
+      "n_bets": 6
+    },
+    {
       "date": "2025-04-08",
-      "avg_clv": 1.32,
-      "n_bets": 16
+      "avg_clv": -187.5,
+      "n_bets": 8
     },
     {
       "date": "2025-04-09",
-      "avg_clv": 1.17,
-      "n_bets": 24
+      "avg_clv": -2538.46,
+      "n_bets": 13
     },
     {
       "date": "2025-04-10",
-      "avg_clv": 0.11,
-      "n_bets": 10
+      "avg_clv": 5300.0,
+      "n_bets": 4
     },
     {
       "date": "2025-04-11",
-      "avg_clv": 1.57,
+      "avg_clv": 4766.67,
       "n_bets": 6
     },
     {
       "date": "2025-04-12",
-      "avg_clv": 0.96,
-      "n_bets": 16
+      "avg_clv": -2350.0,
+      "n_bets": 10
     },
     {
       "date": "2025-04-13",
-      "avg_clv": 1.0,
-      "n_bets": 27
+      "avg_clv": -604.0,
+      "n_bets": 25
     },
     {
       "date": "2025-04-14",
-      "avg_clv": 1.09,
-      "n_bets": 11
+      "avg_clv": -1050.0,
+      "n_bets": 8
     },
     {
       "date": "2025-04-15",
-      "avg_clv": 1.16,
-      "n_bets": 19
+      "avg_clv": -1592.31,
+      "n_bets": 13
     },
     {
       "date": "2025-04-16",
-      "avg_clv": 0.98,
-      "n_bets": 23
+      "avg_clv": 2345.45,
+      "n_bets": 11
     },
     {
       "date": "2025-04-17",
-      "avg_clv": 0.87,
-      "n_bets": 15
+      "avg_clv": -11.11,
+      "n_bets": 9
     },
     {
       "date": "2025-04-18",
-      "avg_clv": 3.04,
-      "n_bets": 30
-    },
-    {
-      "date": "2025-04-19",
-      "avg_clv": 0.94,
-      "n_bets": 28
-    },
-    {
-      "date": "2025-04-20",
-      "avg_clv": 0.8,
-      "n_bets": 34
-    },
-    {
-      "date": "2025-04-21",
-      "avg_clv": 0.55,
-      "n_bets": 9
-    },
-    {
-      "date": "2025-04-22",
-      "avg_clv": 1.61,
-      "n_bets": 19
-    },
-    {
-      "date": "2025-04-23",
-      "avg_clv": 1.17,
-      "n_bets": 19
-    },
-    {
-      "date": "2025-04-24",
-      "avg_clv": 6.69,
-      "n_bets": 9
-    },
-    {
-      "date": "2025-04-25",
-      "avg_clv": 0.39,
-      "n_bets": 12
-    },
-    {
-      "date": "2025-04-26",
-      "avg_clv": 0.86,
+      "avg_clv": -1961.9,
       "n_bets": 21
     },
     {
-      "date": "2025-04-27",
-      "avg_clv": 1.23,
-      "n_bets": 29
-    },
-    {
-      "date": "2025-04-28",
-      "avg_clv": 1.31,
-      "n_bets": 8
-    },
-    {
-      "date": "2025-04-29",
-      "avg_clv": 0.91,
-      "n_bets": 20
-    },
-    {
-      "date": "2025-04-30",
-      "avg_clv": 0.15,
-      "n_bets": 23
-    },
-    {
-      "date": "2025-05-01",
-      "avg_clv": 3.23,
-      "n_bets": 17
-    },
-    {
-      "date": "2025-05-02",
-      "avg_clv": 0.72,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-05-03",
-      "avg_clv": 5.57,
+      "date": "2025-04-19",
+      "avg_clv": 850.0,
       "n_bets": 22
     },
     {
-      "date": "2025-05-04",
-      "avg_clv": 0.8,
-      "n_bets": 29
+      "date": "2025-04-20",
+      "avg_clv": -352.94,
+      "n_bets": 17
     },
     {
-      "date": "2025-05-05",
-      "avg_clv": 1.15,
+      "date": "2025-04-21",
+      "avg_clv": -416.67,
+      "n_bets": 6
+    },
+    {
+      "date": "2025-04-22",
+      "avg_clv": 883.33,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-04-23",
+      "avg_clv": 543.75,
+      "n_bets": 16
+    },
+    {
+      "date": "2025-04-24",
+      "avg_clv": 1800.0,
+      "n_bets": 2
+    },
+    {
+      "date": "2025-04-25",
+      "avg_clv": -2887.5,
       "n_bets": 8
     },
     {
+      "date": "2025-04-26",
+      "avg_clv": -150.0,
+      "n_bets": 14
+    },
+    {
+      "date": "2025-04-27",
+      "avg_clv": 1265.22,
+      "n_bets": 23
+    },
+    {
+      "date": "2025-04-28",
+      "avg_clv": 0.0,
+      "n_bets": 4
+    },
+    {
+      "date": "2025-04-29",
+      "avg_clv": 3284.62,
+      "n_bets": 13
+    },
+    {
+      "date": "2025-04-30",
+      "avg_clv": -700.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-05-01",
+      "avg_clv": -2090.91,
+      "n_bets": 11
+    },
+    {
+      "date": "2025-05-02",
+      "avg_clv": -3012.5,
+      "n_bets": 8
+    },
+    {
+      "date": "2025-05-03",
+      "avg_clv": -1476.92,
+      "n_bets": 13
+    },
+    {
+      "date": "2025-05-04",
+      "avg_clv": 1138.1,
+      "n_bets": 21
+    },
+    {
+      "date": "2025-05-05",
+      "avg_clv": -257.14,
+      "n_bets": 7
+    },
+    {
       "date": "2025-05-06",
-      "avg_clv": 2.53,
-      "n_bets": 20
+      "avg_clv": -222.22,
+      "n_bets": 9
     },
     {
       "date": "2025-05-07",
-      "avg_clv": 0.17,
+      "avg_clv": -205.56,
       "n_bets": 18
     },
     {
       "date": "2025-05-08",
-      "avg_clv": 0.37,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-05-09",
-      "avg_clv": 0.49,
-      "n_bets": 15
-    },
-    {
-      "date": "2025-05-10",
-      "avg_clv": 2.04,
-      "n_bets": 39
-    },
-    {
-      "date": "2025-05-11",
-      "avg_clv": 2.21,
-      "n_bets": 31
-    },
-    {
-      "date": "2025-05-12",
-      "avg_clv": 1.49,
-      "n_bets": 9
-    },
-    {
-      "date": "2025-05-13",
-      "avg_clv": 0.34,
-      "n_bets": 11
-    },
-    {
-      "date": "2025-05-14",
-      "avg_clv": 1.01,
-      "n_bets": 23
-    },
-    {
-      "date": "2025-05-15",
-      "avg_clv": 0.4,
-      "n_bets": 17
-    },
-    {
-      "date": "2025-05-16",
-      "avg_clv": 1.24,
-      "n_bets": 15
-    },
-    {
-      "date": "2025-05-17",
-      "avg_clv": 4.34,
-      "n_bets": 26
-    },
-    {
-      "date": "2025-05-18",
-      "avg_clv": 0.82,
-      "n_bets": 28
-    },
-    {
-      "date": "2025-05-19",
-      "avg_clv": 0.66,
-      "n_bets": 13
-    },
-    {
-      "date": "2025-05-20",
-      "avg_clv": 0.71,
-      "n_bets": 19
-    },
-    {
-      "date": "2025-05-21",
-      "avg_clv": 2.43,
-      "n_bets": 25
-    },
-    {
-      "date": "2025-05-22",
-      "avg_clv": 1.12,
-      "n_bets": 16
-    },
-    {
-      "date": "2025-05-23",
-      "avg_clv": 1.74,
+      "avg_clv": -140.0,
       "n_bets": 10
     },
     {
-      "date": "2025-05-24",
-      "avg_clv": 2.54,
+      "date": "2025-05-09",
+      "avg_clv": -1636.36,
+      "n_bets": 11
+    },
+    {
+      "date": "2025-05-10",
+      "avg_clv": -1421.43,
+      "n_bets": 14
+    },
+    {
+      "date": "2025-05-11",
+      "avg_clv": 0.0,
       "n_bets": 25
     },
     {
+      "date": "2025-05-12",
+      "avg_clv": 2125.0,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-05-13",
+      "avg_clv": -3142.86,
+      "n_bets": 7
+    },
+    {
+      "date": "2025-05-14",
+      "avg_clv": -541.67,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-05-15",
+      "avg_clv": -1791.67,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-05-16",
+      "avg_clv": 1900.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-05-17",
+      "avg_clv": -1500.0,
+      "n_bets": 14
+    },
+    {
+      "date": "2025-05-18",
+      "avg_clv": -139.13,
+      "n_bets": 23
+    },
+    {
+      "date": "2025-05-19",
+      "avg_clv": -4333.33,
+      "n_bets": 6
+    },
+    {
+      "date": "2025-05-20",
+      "avg_clv": 212.5,
+      "n_bets": 8
+    },
+    {
+      "date": "2025-05-21",
+      "avg_clv": 0.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-05-22",
+      "avg_clv": -857.14,
+      "n_bets": 14
+    },
+    {
+      "date": "2025-05-23",
+      "avg_clv": 250.0,
+      "n_bets": 4
+    },
+    {
+      "date": "2025-05-24",
+      "avg_clv": -1375.0,
+      "n_bets": 16
+    },
+    {
       "date": "2025-05-25",
-      "avg_clv": 0.82,
-      "n_bets": 30
+      "avg_clv": 1686.36,
+      "n_bets": 22
     },
     {
       "date": "2025-05-26",
-      "avg_clv": 5.47,
+      "avg_clv": -1681.82,
       "n_bets": 11
     },
     {
       "date": "2025-05-27",
-      "avg_clv": 1.6,
-      "n_bets": 13
+      "avg_clv": 1777.78,
+      "n_bets": 9
     },
     {
       "date": "2025-05-28",
-      "avg_clv": 0.47,
-      "n_bets": 11
+      "avg_clv": 0.0,
+      "n_bets": 6
     },
     {
       "date": "2025-05-29",
-      "avg_clv": -2.11,
-      "n_bets": 7
+      "avg_clv": 0.0,
+      "n_bets": 4
     },
     {
       "date": "2025-05-30",
-      "avg_clv": 0.49,
-      "n_bets": 12
+      "avg_clv": 3927.27,
+      "n_bets": 11
     },
     {
       "date": "2025-05-31",
-      "avg_clv": -2.02,
-      "n_bets": 19
+      "avg_clv": 1361.54,
+      "n_bets": 13
     },
     {
       "date": "2025-06-01",
-      "avg_clv": 0.48,
-      "n_bets": 32
+      "avg_clv": 565.22,
+      "n_bets": 23
     },
     {
       "date": "2025-06-02",
-      "avg_clv": 0.59,
-      "n_bets": 10
+      "avg_clv": 571.43,
+      "n_bets": 7
     },
     {
       "date": "2025-06-03",
-      "avg_clv": 0.81,
-      "n_bets": 13
+      "avg_clv": -720.0,
+      "n_bets": 15
     },
     {
       "date": "2025-06-04",
-      "avg_clv": 0.83,
-      "n_bets": 23
+      "avg_clv": 147.06,
+      "n_bets": 17
     },
     {
       "date": "2025-06-05",
-      "avg_clv": 1.7,
-      "n_bets": 19
+      "avg_clv": 1676.47,
+      "n_bets": 17
     },
     {
       "date": "2025-06-06",
-      "avg_clv": 0.95,
-      "n_bets": 14
+      "avg_clv": -100.0,
+      "n_bets": 5
     },
     {
       "date": "2025-06-07",
-      "avg_clv": 0.54,
-      "n_bets": 36
+      "avg_clv": -1066.67,
+      "n_bets": 15
     },
     {
       "date": "2025-06-08",
-      "avg_clv": -0.07,
-      "n_bets": 28
-    },
-    {
-      "date": "2025-06-09",
-      "avg_clv": 1.1,
-      "n_bets": 17
-    },
-    {
-      "date": "2025-06-10",
-      "avg_clv": 3.34,
-      "n_bets": 21
-    },
-    {
-      "date": "2025-06-11",
-      "avg_clv": 0.42,
-      "n_bets": 33
-    },
-    {
-      "date": "2025-06-12",
-      "avg_clv": 1.52,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-06-13",
-      "avg_clv": 0.62,
-      "n_bets": 8
-    },
-    {
-      "date": "2025-06-14",
-      "avg_clv": 0.77,
-      "n_bets": 17
-    },
-    {
-      "date": "2025-06-15",
-      "avg_clv": 0.71,
-      "n_bets": 19
-    },
-    {
-      "date": "2025-06-16",
-      "avg_clv": 6.66,
-      "n_bets": 10
-    },
-    {
-      "date": "2025-06-17",
-      "avg_clv": 0.65,
-      "n_bets": 28
-    },
-    {
-      "date": "2025-06-18",
-      "avg_clv": 1.05,
-      "n_bets": 17
-    },
-    {
-      "date": "2025-06-19",
-      "avg_clv": 0.59,
-      "n_bets": 17
-    },
-    {
-      "date": "2025-06-20",
-      "avg_clv": 0.82,
-      "n_bets": 13
-    },
-    {
-      "date": "2025-06-21",
-      "avg_clv": 0.6,
-      "n_bets": 40
-    },
-    {
-      "date": "2025-06-22",
-      "avg_clv": 0.97,
-      "n_bets": 47
-    },
-    {
-      "date": "2025-06-23",
-      "avg_clv": 0.37,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-06-24",
-      "avg_clv": 1.22,
-      "n_bets": 22
-    },
-    {
-      "date": "2025-06-25",
-      "avg_clv": 1.07,
-      "n_bets": 27
-    },
-    {
-      "date": "2025-06-26",
-      "avg_clv": 0.58,
-      "n_bets": 19
-    },
-    {
-      "date": "2025-06-27",
-      "avg_clv": 1.13,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-06-28",
-      "avg_clv": -0.57,
-      "n_bets": 35
-    },
-    {
-      "date": "2025-06-29",
-      "avg_clv": 2.24,
-      "n_bets": 42
-    },
-    {
-      "date": "2025-06-30",
-      "avg_clv": -0.95,
-      "n_bets": 6
-    },
-    {
-      "date": "2025-07-01",
-      "avg_clv": 0.56,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-07-02",
-      "avg_clv": 1.78,
-      "n_bets": 29
-    },
-    {
-      "date": "2025-07-03",
-      "avg_clv": -0.06,
-      "n_bets": 30
-    },
-    {
-      "date": "2025-07-04",
-      "avg_clv": 0.84,
-      "n_bets": 23
-    },
-    {
-      "date": "2025-07-05",
-      "avg_clv": 0.42,
-      "n_bets": 32
-    },
-    {
-      "date": "2025-07-06",
-      "avg_clv": 0.52,
-      "n_bets": 25
-    },
-    {
-      "date": "2025-07-07",
-      "avg_clv": 0.29,
+      "avg_clv": -2150.0,
       "n_bets": 12
     },
     {
-      "date": "2025-07-08",
-      "avg_clv": 0.91,
-      "n_bets": 28
+      "date": "2025-06-09",
+      "avg_clv": 562.5,
+      "n_bets": 8
     },
     {
-      "date": "2025-07-09",
-      "avg_clv": 0.54,
-      "n_bets": 22
+      "date": "2025-06-10",
+      "avg_clv": 6711.11,
+      "n_bets": 9
     },
     {
-      "date": "2025-07-10",
-      "avg_clv": 1.14,
-      "n_bets": 23
+      "date": "2025-06-11",
+      "avg_clv": 5875.0,
+      "n_bets": 8
     },
     {
-      "date": "2025-07-11",
-      "avg_clv": 0.3,
-      "n_bets": 23
+      "date": "2025-06-12",
+      "avg_clv": 5875.0,
+      "n_bets": 4
     },
     {
-      "date": "2025-07-12",
-      "avg_clv": -1.03,
-      "n_bets": 29
+      "date": "2025-06-13",
+      "avg_clv": 600.0,
+      "n_bets": 5
     },
     {
-      "date": "2025-07-13",
-      "avg_clv": 1.31,
-      "n_bets": 33
+      "date": "2025-06-14",
+      "avg_clv": 100.0,
+      "n_bets": 10
     },
     {
-      "date": "2025-07-18",
-      "avg_clv": 6.1,
-      "n_bets": 19
+      "date": "2025-06-15",
+      "avg_clv": -1200.0,
+      "n_bets": 15
     },
     {
-      "date": "2025-07-19",
-      "avg_clv": 0.55,
-      "n_bets": 30
-    },
-    {
-      "date": "2025-07-20",
-      "avg_clv": 0.96,
-      "n_bets": 40
-    },
-    {
-      "date": "2025-07-21",
-      "avg_clv": -1.59,
-      "n_bets": 20
-    },
-    {
-      "date": "2025-07-22",
-      "avg_clv": 0.18,
-      "n_bets": 38
-    },
-    {
-      "date": "2025-07-23",
-      "avg_clv": 0.38,
-      "n_bets": 45
-    },
-    {
-      "date": "2025-07-24",
-      "avg_clv": 0.74,
+      "date": "2025-06-16",
+      "avg_clv": 4033.33,
       "n_bets": 6
     },
     {
-      "date": "2025-07-25",
-      "avg_clv": 3.58,
+      "date": "2025-06-17",
+      "avg_clv": -764.71,
+      "n_bets": 17
+    },
+    {
+      "date": "2025-06-18",
+      "avg_clv": 557.14,
+      "n_bets": 7
+    },
+    {
+      "date": "2025-06-19",
+      "avg_clv": -1916.67,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-06-20",
+      "avg_clv": 2111.11,
+      "n_bets": 9
+    },
+    {
+      "date": "2025-06-21",
+      "avg_clv": -2653.33,
+      "n_bets": 15
+    },
+    {
+      "date": "2025-06-22",
+      "avg_clv": 312.9,
+      "n_bets": 31
+    },
+    {
+      "date": "2025-06-23",
+      "avg_clv": -2175.0,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-06-24",
+      "avg_clv": 441.67,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-06-25",
+      "avg_clv": -743.75,
+      "n_bets": 16
+    },
+    {
+      "date": "2025-06-26",
+      "avg_clv": 200.0,
+      "n_bets": 15
+    },
+    {
+      "date": "2025-06-27",
+      "avg_clv": 1953.33,
+      "n_bets": 15
+    },
+    {
+      "date": "2025-06-28",
+      "avg_clv": -1086.96,
+      "n_bets": 23
+    },
+    {
+      "date": "2025-06-29",
+      "avg_clv": 713.33,
+      "n_bets": 30
+    },
+    {
+      "date": "2025-06-30",
+      "avg_clv": 4300.0,
+      "n_bets": 5
+    },
+    {
+      "date": "2025-07-01",
+      "avg_clv": 4700.0,
+      "n_bets": 5
+    },
+    {
+      "date": "2025-07-02",
+      "avg_clv": 50.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-07-03",
+      "avg_clv": 400.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-07-04",
+      "avg_clv": 4368.75,
+      "n_bets": 16
+    },
+    {
+      "date": "2025-07-05",
+      "avg_clv": 250.0,
+      "n_bets": 16
+    },
+    {
+      "date": "2025-07-06",
+      "avg_clv": -1381.25,
+      "n_bets": 16
+    },
+    {
+      "date": "2025-07-07",
+      "avg_clv": -2687.5,
+      "n_bets": 8
+    },
+    {
+      "date": "2025-07-08",
+      "avg_clv": -2352.94,
+      "n_bets": 17
+    },
+    {
+      "date": "2025-07-09",
+      "avg_clv": 718.18,
+      "n_bets": 11
+    },
+    {
+      "date": "2025-07-10",
+      "avg_clv": 291.67,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-07-11",
+      "avg_clv": 2318.18,
+      "n_bets": 11
+    },
+    {
+      "date": "2025-07-12",
+      "avg_clv": -3216.67,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-07-13",
+      "avg_clv": 2930.43,
+      "n_bets": 23
+    },
+    {
+      "date": "2025-07-18",
+      "avg_clv": -2611.11,
+      "n_bets": 9
+    },
+    {
+      "date": "2025-07-19",
+      "avg_clv": 3000.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-07-20",
+      "avg_clv": -172.73,
+      "n_bets": 22
+    },
+    {
+      "date": "2025-07-21",
+      "avg_clv": -2318.18,
+      "n_bets": 11
+    },
+    {
+      "date": "2025-07-22",
+      "avg_clv": 5166.67,
+      "n_bets": 6
+    },
+    {
+      "date": "2025-07-23",
+      "avg_clv": 1875.0,
       "n_bets": 20
     },
     {
+      "date": "2025-07-24",
+      "avg_clv": 0.0,
+      "n_bets": 4
+    },
+    {
+      "date": "2025-07-25",
+      "avg_clv": -5650.0,
+      "n_bets": 10
+    },
+    {
       "date": "2025-07-26",
-      "avg_clv": 2.95,
-      "n_bets": 27
+      "avg_clv": 3250.0,
+      "n_bets": 10
     },
     {
       "date": "2025-07-27",
-      "avg_clv": 2.37,
+      "avg_clv": 1739.29,
       "n_bets": 28
     },
     {
       "date": "2025-07-28",
-      "avg_clv": 0.51,
-      "n_bets": 25
-    },
-    {
-      "date": "2025-07-29",
-      "avg_clv": 4.44,
-      "n_bets": 26
-    },
-    {
-      "date": "2025-07-30",
-      "avg_clv": 0.49,
-      "n_bets": 35
-    },
-    {
-      "date": "2025-07-31",
-      "avg_clv": 0.11,
-      "n_bets": 8
-    },
-    {
-      "date": "2025-08-01",
-      "avg_clv": 0.69,
-      "n_bets": 24
-    },
-    {
-      "date": "2025-08-02",
-      "avg_clv": 1.28,
-      "n_bets": 35
-    },
-    {
-      "date": "2025-08-03",
-      "avg_clv": 0.7,
-      "n_bets": 25
-    },
-    {
-      "date": "2025-08-04",
-      "avg_clv": 0.56,
-      "n_bets": 9
-    },
-    {
-      "date": "2025-08-05",
-      "avg_clv": 0.57,
-      "n_bets": 29
-    },
-    {
-      "date": "2025-08-06",
-      "avg_clv": 1.45,
-      "n_bets": 29
-    },
-    {
-      "date": "2025-08-07",
-      "avg_clv": 1.7,
-      "n_bets": 10
-    },
-    {
-      "date": "2025-08-08",
-      "avg_clv": 1.39,
+      "avg_clv": 176.92,
       "n_bets": 13
     },
     {
+      "date": "2025-07-29",
+      "avg_clv": 0.0,
+      "n_bets": 14
+    },
+    {
+      "date": "2025-07-30",
+      "avg_clv": 93.75,
+      "n_bets": 16
+    },
+    {
+      "date": "2025-08-01",
+      "avg_clv": -3062.5,
+      "n_bets": 8
+    },
+    {
+      "date": "2025-08-02",
+      "avg_clv": 2913.33,
+      "n_bets": 15
+    },
+    {
+      "date": "2025-08-03",
+      "avg_clv": 2730.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-08-04",
+      "avg_clv": -500.0,
+      "n_bets": 5
+    },
+    {
+      "date": "2025-08-05",
+      "avg_clv": 220.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-08-06",
+      "avg_clv": 0.0,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-08-07",
+      "avg_clv": 685.71,
+      "n_bets": 7
+    },
+    {
+      "date": "2025-08-08",
+      "avg_clv": 4833.33,
+      "n_bets": 6
+    },
+    {
       "date": "2025-08-09",
-      "avg_clv": 0.96,
-      "n_bets": 23
+      "avg_clv": 3833.33,
+      "n_bets": 6
     },
     {
       "date": "2025-08-10",
-      "avg_clv": 1.26,
-      "n_bets": 35
+      "avg_clv": 2679.17,
+      "n_bets": 24
     },
     {
       "date": "2025-08-11",
-      "avg_clv": 0.81,
+      "avg_clv": 940.0,
       "n_bets": 10
     },
     {
       "date": "2025-08-12",
-      "avg_clv": 3.63,
-      "n_bets": 20
-    },
-    {
-      "date": "2025-08-13",
-      "avg_clv": 0.92,
-      "n_bets": 29
-    },
-    {
-      "date": "2025-08-14",
-      "avg_clv": 0.76,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-08-15",
-      "avg_clv": 0.72,
-      "n_bets": 32
-    },
-    {
-      "date": "2025-08-16",
-      "avg_clv": 0.46,
-      "n_bets": 34
-    },
-    {
-      "date": "2025-08-17",
-      "avg_clv": 0.82,
-      "n_bets": 36
-    },
-    {
-      "date": "2025-08-18",
-      "avg_clv": 1.01,
-      "n_bets": 7
-    },
-    {
-      "date": "2025-08-19",
-      "avg_clv": 2.31,
-      "n_bets": 34
-    },
-    {
-      "date": "2025-08-20",
-      "avg_clv": 0.49,
-      "n_bets": 42
-    },
-    {
-      "date": "2025-08-21",
-      "avg_clv": 2.94,
-      "n_bets": 23
-    },
-    {
-      "date": "2025-08-22",
-      "avg_clv": 0.31,
+      "avg_clv": -835.29,
       "n_bets": 17
     },
     {
-      "date": "2025-08-23",
-      "avg_clv": 0.61,
-      "n_bets": 21
-    },
-    {
-      "date": "2025-08-24",
-      "avg_clv": 0.35,
-      "n_bets": 24
-    },
-    {
-      "date": "2025-08-25",
-      "avg_clv": 1.26,
-      "n_bets": 15
-    },
-    {
-      "date": "2025-08-26",
-      "avg_clv": 0.66,
-      "n_bets": 16
-    },
-    {
-      "date": "2025-08-27",
-      "avg_clv": 1.08,
-      "n_bets": 18
-    },
-    {
-      "date": "2025-08-28",
-      "avg_clv": 0.9,
-      "n_bets": 14
-    },
-    {
-      "date": "2025-08-29",
-      "avg_clv": 1.29,
-      "n_bets": 11
-    },
-    {
-      "date": "2025-08-30",
-      "avg_clv": 1.02,
-      "n_bets": 28
-    },
-    {
-      "date": "2025-08-31",
-      "avg_clv": 2.94,
-      "n_bets": 31
-    },
-    {
-      "date": "2025-09-01",
-      "avg_clv": 0.87,
-      "n_bets": 26
-    },
-    {
-      "date": "2025-09-02",
-      "avg_clv": 0.24,
+      "date": "2025-08-13",
+      "avg_clv": -175.0,
       "n_bets": 20
     },
     {
-      "date": "2025-09-03",
-      "avg_clv": 2.54,
-      "n_bets": 29
+      "date": "2025-08-14",
+      "avg_clv": 55.56,
+      "n_bets": 9
     },
     {
-      "date": "2025-09-04",
-      "avg_clv": 0.61,
-      "n_bets": 4
-    },
-    {
-      "date": "2025-09-05",
-      "avg_clv": 0.23,
-      "n_bets": 14
-    },
-    {
-      "date": "2025-09-06",
-      "avg_clv": 1.98,
-      "n_bets": 38
-    },
-    {
-      "date": "2025-09-07",
-      "avg_clv": 0.19,
-      "n_bets": 29
-    },
-    {
-      "date": "2025-09-08",
-      "avg_clv": 0.43,
+      "date": "2025-08-15",
+      "avg_clv": 2454.55,
       "n_bets": 11
     },
     {
-      "date": "2025-09-09",
-      "avg_clv": 0.7,
-      "n_bets": 20
-    },
-    {
-      "date": "2025-09-10",
-      "avg_clv": 1.28,
-      "n_bets": 15
-    },
-    {
-      "date": "2025-09-11",
-      "avg_clv": 1.24,
+      "date": "2025-08-16",
+      "avg_clv": 4857.14,
       "n_bets": 7
     },
     {
-      "date": "2025-09-12",
-      "avg_clv": 0.63,
-      "n_bets": 15
-    },
-    {
-      "date": "2025-09-13",
-      "avg_clv": 0.61,
-      "n_bets": 15
-    },
-    {
-      "date": "2025-09-14",
-      "avg_clv": 1.32,
-      "n_bets": 26
-    },
-    {
-      "date": "2025-09-15",
-      "avg_clv": 0.6,
-      "n_bets": 11
-    },
-    {
-      "date": "2025-09-16",
-      "avg_clv": 0.64,
-      "n_bets": 16
-    },
-    {
-      "date": "2025-09-17",
-      "avg_clv": 2.32,
-      "n_bets": 23
-    },
-    {
-      "date": "2025-09-18",
-      "avg_clv": 0.63,
+      "date": "2025-08-17",
+      "avg_clv": 1671.43,
       "n_bets": 21
     },
     {
-      "date": "2025-09-19",
-      "avg_clv": -0.68,
+      "date": "2025-08-18",
+      "avg_clv": 5300.0,
+      "n_bets": 5
+    },
+    {
+      "date": "2025-08-19",
+      "avg_clv": 1214.29,
+      "n_bets": 21
+    },
+    {
+      "date": "2025-08-20",
+      "avg_clv": 3400.0,
+      "n_bets": 14
+    },
+    {
+      "date": "2025-08-21",
+      "avg_clv": 4250.0,
       "n_bets": 6
     },
     {
-      "date": "2025-09-20",
-      "avg_clv": 1.62,
-      "n_bets": 40
+      "date": "2025-08-22",
+      "avg_clv": 0.0,
+      "n_bets": 3
     },
     {
-      "date": "2025-09-21",
-      "avg_clv": 1.76,
-      "n_bets": 34
+      "date": "2025-08-23",
+      "avg_clv": 0.0,
+      "n_bets": 6
     },
     {
-      "date": "2025-09-22",
-      "avg_clv": -0.16,
-      "n_bets": 1
+      "date": "2025-08-24",
+      "avg_clv": -4950.0,
+      "n_bets": 20
     },
     {
-      "date": "2025-09-23",
-      "avg_clv": 0.26,
-      "n_bets": 12
+      "date": "2025-08-25",
+      "avg_clv": 105.26,
+      "n_bets": 19
     },
     {
-      "date": "2025-09-24",
-      "avg_clv": 0.73,
-      "n_bets": 12
+      "date": "2025-08-26",
+      "avg_clv": -62.5,
+      "n_bets": 8
     },
     {
-      "date": "2025-09-25",
-      "avg_clv": 0.45,
-      "n_bets": 18
+      "date": "2025-08-27",
+      "avg_clv": 511.11,
+      "n_bets": 9
     },
     {
-      "date": "2025-09-26",
-      "avg_clv": 0.37,
+      "date": "2025-08-28",
+      "avg_clv": 111.11,
+      "n_bets": 9
+    },
+    {
+      "date": "2025-08-29",
+      "avg_clv": 8600.0,
+      "n_bets": 5
+    },
+    {
+      "date": "2025-08-30",
+      "avg_clv": -500.0,
+      "n_bets": 4
+    },
+    {
+      "date": "2025-08-31",
+      "avg_clv": 3080.0,
       "n_bets": 15
     },
     {
-      "date": "2025-09-27",
-      "avg_clv": 3.43,
+      "date": "2025-09-01",
+      "avg_clv": 5333.33,
+      "n_bets": 6
+    },
+    {
+      "date": "2025-09-02",
+      "avg_clv": -3958.33,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-09-03",
+      "avg_clv": 450.0,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-09-04",
+      "avg_clv": -700.0,
+      "n_bets": 5
+    },
+    {
+      "date": "2025-09-05",
+      "avg_clv": 111.11,
+      "n_bets": 9
+    },
+    {
+      "date": "2025-09-06",
+      "avg_clv": 4750.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-09-07",
+      "avg_clv": 4444.44,
+      "n_bets": 9
+    },
+    {
+      "date": "2025-09-09",
+      "avg_clv": 687.5,
+      "n_bets": 8
+    },
+    {
+      "date": "2025-09-10",
+      "avg_clv": 7666.67,
+      "n_bets": 3
+    },
+    {
+      "date": "2025-09-11",
+      "avg_clv": 0.0,
+      "n_bets": 2
+    },
+    {
+      "date": "2025-09-12",
+      "avg_clv": 2650.0,
+      "n_bets": 8
+    },
+    {
+      "date": "2025-09-13",
+      "avg_clv": 433.33,
+      "n_bets": 3
+    },
+    {
+      "date": "2025-09-14",
+      "avg_clv": -88.89,
       "n_bets": 18
     },
     {
-      "date": "2025-09-28",
-      "avg_clv": 1.53,
-      "n_bets": 22
+      "date": "2025-09-15",
+      "avg_clv": -5077.78,
+      "n_bets": 9
     },
     {
-      "date": "2025-09-30",
-      "avg_clv": 0.72,
+      "date": "2025-09-16",
+      "avg_clv": 2733.33,
+      "n_bets": 9
+    },
+    {
+      "date": "2025-09-17",
+      "avg_clv": 3020.0,
+      "n_bets": 10
+    },
+    {
+      "date": "2025-09-18",
+      "avg_clv": 2054.55,
+      "n_bets": 11
+    },
+    {
+      "date": "2025-09-19",
+      "avg_clv": -500.0,
       "n_bets": 3
+    },
+    {
+      "date": "2025-09-20",
+      "avg_clv": 1916.67,
+      "n_bets": 12
+    },
+    {
+      "date": "2025-09-21",
+      "avg_clv": 1352.63,
+      "n_bets": 19
+    },
+    {
+      "date": "2025-09-23",
+      "avg_clv": -3175.0,
+      "n_bets": 8
+    },
+    {
+      "date": "2025-09-24",
+      "avg_clv": 0.0,
+      "n_bets": 4
+    },
+    {
+      "date": "2025-09-25",
+      "avg_clv": 4440.0,
+      "n_bets": 5
+    },
+    {
+      "date": "2025-09-26",
+      "avg_clv": 1625.0,
+      "n_bets": 4
+    },
+    {
+      "date": "2025-09-27",
+      "avg_clv": 2533.33,
+      "n_bets": 9
+    },
+    {
+      "date": "2025-09-28",
+      "avg_clv": -57.14,
+      "n_bets": 21
     }
   ]
 }

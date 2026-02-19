@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T13:16:10.185741+00:00",
+  "generated_at": "2026-02-19T01:39:39.700733+00:00",
   "date": "2025-05-05",
   "picks": [
     {
@@ -18,12 +18,9 @@
       "stars": 3,
       "game_pk": 778047,
       "game_time": null,
-      "clv_cents": 1.7,
-      "clv_favorable": true,
-      "clv_line": -0.0,
       "result": "win",
       "actual": 0,
-      "pnl": 54.95
+      "pnl": 8.24
     },
     {
       "player": "Mikolas, Miles",
@@ -41,12 +38,12 @@
       "stars": 3,
       "game_pk": 778036,
       "game_time": null,
-      "clv_cents": 0.0,
+      "clv_cents": -2500.0,
       "clv_favorable": false,
-      "clv_line": -0.0,
+      "clv_line": 0.0,
       "result": "win",
       "actual": 14,
-      "pnl": 71.43
+      "pnl": 10.71
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -61,15 +58,35 @@
       "line": 14.5,
       "best_book": "fanduel",
       "best_price": -110,
-      "stars": 2,
+      "stars": 3,
       "game_pk": 778036,
       "game_time": null,
-      "clv_cents": 0.4,
-      "clv_favorable": true,
-      "clv_line": -0.0,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": 0.0,
       "result": "win",
       "actual": 14,
-      "pnl": 90.91
+      "pnl": 13.64
+    },
+    {
+      "player": "Reynolds, Bryan",
+      "player_id": 668804,
+      "opponent": "PIT",
+      "player_team": "STL",
+      "home_team": "STL",
+      "away_team": "PIT",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -163,
+      "stars": 3,
+      "game_pk": 778036,
+      "game_time": null,
+      "result": "loss",
+      "actual": 4,
+      "pnl": -15.0
     },
     {
       "player": "Mlodzinski, Carmen",
@@ -87,35 +104,12 @@
       "stars": 2,
       "game_pk": 778036,
       "game_time": null,
-      "clv_cents": 0.5,
-      "clv_favorable": true,
-      "clv_line": -0.0,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": 0.0,
       "result": "win",
       "actual": 0,
-      "pnl": 100.0
-    },
-    {
-      "player": "Reynolds, Bryan",
-      "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "STL",
-      "home_team": "STL",
-      "away_team": "PIT",
-      "market": "Total Bases",
-      "category": "batter",
-      "direction": "UNDER",
-      "line": 1.5,
-      "best_book": "consensus",
-      "best_price": -163,
-      "stars": 2,
-      "game_pk": 778036,
-      "game_time": null,
-      "clv_cents": -0.4,
-      "clv_favorable": false,
-      "clv_line": -0.0,
-      "result": "loss",
-      "actual": 4,
-      "pnl": -100.0
+      "pnl": 15.0
     },
     {
       "player": "Roupp, Landen",
@@ -133,12 +127,12 @@
       "stars": 2,
       "game_pk": 778044,
       "game_time": null,
-      "clv_cents": 0.7,
-      "clv_favorable": true,
-      "clv_line": -0.0,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": 0.0,
       "result": "win",
       "actual": 0,
-      "pnl": 115.0
+      "pnl": 17.25
     },
     {
       "player": "Smith-Shawver, AJ",
@@ -156,12 +150,35 @@
       "stars": 2,
       "game_pk": 778049,
       "game_time": null,
-      "clv_cents": 3.5,
+      "clv_cents": 1000.0,
       "clv_favorable": true,
-      "clv_line": -0.0,
+      "clv_line": 0.0,
       "result": "win",
       "actual": 0,
-      "pnl": 76.92
+      "pnl": 11.54
+    },
+    {
+      "player": "Boyd, Matthew",
+      "player_id": 571510,
+      "opponent": "SF",
+      "player_team": "CHC",
+      "home_team": "CHC",
+      "away_team": "SF",
+      "market": "Outs Recorded",
+      "category": "pitcher",
+      "direction": "UNDER",
+      "line": 16.5,
+      "best_book": "fanduel",
+      "best_price": 102,
+      "stars": 1,
+      "game_pk": 778044,
+      "game_time": null,
+      "clv_cents": 0.0,
+      "clv_favorable": false,
+      "clv_line": 0.0,
+      "result": "loss",
+      "actual": 18,
+      "pnl": -15.0
     },
     {
       "player": "Ragans, Cole",
@@ -179,12 +196,12 @@
       "stars": 1,
       "game_pk": 778043,
       "game_time": null,
-      "clv_cents": 2.8,
-      "clv_favorable": true,
-      "clv_line": -0.0,
+      "clv_cents": -300.0,
+      "clv_favorable": false,
+      "clv_line": 0.0,
       "result": "loss",
       "actual": 11,
-      "pnl": -100.0
+      "pnl": -15.0
     }
   ]
 }

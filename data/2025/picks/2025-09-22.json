@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T13:16:11.239786+00:00",
+  "generated_at": "2026-02-19T01:39:40.460468+00:00",
   "date": "2025-09-22",
   "picks": [
     {
@@ -18,12 +18,29 @@
       "stars": 3,
       "game_pk": 776221,
       "game_time": null,
-      "clv_cents": -0.2,
-      "clv_favorable": false,
-      "clv_line": -0.0,
       "result": "win",
       "actual": 1,
-      "pnl": 64.94
+      "pnl": 9.74
+    },
+    {
+      "player": "Profar, Jurickson",
+      "player_id": 595777,
+      "opponent": "WSH",
+      "player_team": "ATL",
+      "home_team": "ATL",
+      "away_team": "WSH",
+      "market": "Total Bases",
+      "category": "batter",
+      "direction": "UNDER",
+      "line": 1.5,
+      "best_book": "consensus",
+      "best_price": -164,
+      "stars": 3,
+      "game_pk": 776221,
+      "game_time": null,
+      "result": "win",
+      "actual": 1,
+      "pnl": 9.15
     }
   ]
 }
