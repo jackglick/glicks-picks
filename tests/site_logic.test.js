@@ -30,9 +30,11 @@ test('filtered picks respects enabled books and handles all-disabled state', fun
   assert.equal(logic.getFilteredPicks(picks, { draftkings: false, fanduel: false, caesars: false }).length, 0);
 });
 
-test('data path switches between dev backtest path and prod path', function () {
-  assert.equal(logic.getDataPath('dev', 'results.json'), 'data/backtest/results.json');
+test('data path routes current season to data/ and others to data/{season}/', function () {
+  // When GP is not defined (Node.js tests), current defaults to 'prod'
   assert.equal(logic.getDataPath('prod', 'results.json'), 'data/results.json');
+  assert.equal(logic.getDataPath('2025', 'results.json'), 'data/2025/results.json');
+  assert.equal(logic.getDataPath('2024', 'picks_index.json'), 'data/2024/picks_index.json');
 });
 
 test('buildBacktestIndex sorts dates and computes month boundaries', function () {

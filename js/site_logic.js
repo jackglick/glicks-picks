@@ -44,7 +44,7 @@
   }
 
   function getDataPath(season, filename) {
-    var current = '2026';
+    var current = (typeof GP !== 'undefined' && GP.CURRENT_SEASON) || 'prod';
     return season === current ? 'data/' + filename : 'data/' + season + '/' + filename;
   }
 

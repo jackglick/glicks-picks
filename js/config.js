@@ -3,8 +3,8 @@
    ============================================ */
 window.GP = {};
 
-GP.CURRENT_SEASON = '2026';
-GP.AVAILABLE_SEASONS = ['2026', '2025', '2024'];
+GP.CURRENT_SEASON = '2025';
+GP.AVAILABLE_SEASONS = ['2025', '2024'];
 
 GP.BOOK_COLORS = {
   'draftkings': '#53d337',
