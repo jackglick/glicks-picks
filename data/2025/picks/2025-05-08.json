@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.292187+00:00",
+  "generated_at": "2026-02-24T21:42:51.213630+00:00",
   "date": "2025-05-08",
   "picks": [
     {
@@ -48,8 +48,8 @@
     {
       "player": "Clement, Ernie",
       "player_id": 676391,
-      "opponent": "TOR",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "TOR",
       "home_team": "LAA",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -68,8 +68,8 @@
     {
       "player": "De La Cruz, Elly",
       "player_id": 682829,
-      "opponent": "CIN",
-      "player_team": "ATL",
+      "opponent": "ATL",
+      "player_team": "CIN",
       "home_team": "ATL",
       "away_team": "CIN",
       "market": "Total Bases",
@@ -111,8 +111,8 @@
     {
       "player": "Ib\u00e1\u00f1ez, Andy",
       "player_id": 628451,
-      "opponent": "DET",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "DET",
       "home_team": "COL",
       "away_team": "DET",
       "market": "Total Bases",
@@ -131,8 +131,8 @@
     {
       "player": "Keith, Colt",
       "player_id": 690993,
-      "opponent": "DET",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "DET",
       "home_team": "COL",
       "away_team": "DET",
       "market": "Total Bases",
@@ -174,8 +174,8 @@
     {
       "player": "Malloy, Justyn-Henry",
       "player_id": 669234,
-      "opponent": "DET",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "DET",
       "home_team": "COL",
       "away_team": "DET",
       "market": "Total Bases",
@@ -214,8 +214,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "BAL",
       "home_team": "MIN",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -234,8 +234,8 @@
     {
       "player": "Santander, Anthony",
       "player_id": 623993,
-      "opponent": "TOR",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "TOR",
       "home_team": "LAA",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -254,8 +254,8 @@
     {
       "player": "Semien, Marcus",
       "player_id": 543760,
-      "opponent": "TEX",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "TEX",
       "home_team": "BOS",
       "away_team": "TEX",
       "market": "Total Bases",
@@ -274,8 +274,8 @@
     {
       "player": "Bichette, Bo",
       "player_id": 666182,
-      "opponent": "TOR",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "TOR",
       "home_team": "LAA",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -422,6 +422,9 @@
       "stars": 2,
       "game_pk": 778003,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 6,
       "pnl": 10.71
@@ -429,8 +432,8 @@
     {
       "player": "Torres, Gleyber",
       "player_id": 650402,
-      "opponent": "DET",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "DET",
       "home_team": "COL",
       "away_team": "DET",
       "market": "Total Bases",

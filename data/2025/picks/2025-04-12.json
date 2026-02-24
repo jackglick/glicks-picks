@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.265487+00:00",
+  "generated_at": "2026-02-24T21:42:51.182341+00:00",
   "date": "2025-04-12",
   "picks": [
     {
@@ -88,8 +88,8 @@
     {
       "player": "McKinstry, Zach",
       "player_id": 656716,
-      "opponent": "DET",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "DET",
       "home_team": "MIN",
       "away_team": "DET",
       "market": "Total Bases",
@@ -171,8 +171,8 @@
     {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "PIT",
       "home_team": "CIN",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -191,8 +191,8 @@
     {
       "player": "Ruiz, Keibert",
       "player_id": 660688,
-      "opponent": "WSH",
-      "player_team": "MIA",
+      "opponent": "MIA",
+      "player_team": "WSH",
       "home_team": "MIA",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -224,6 +224,9 @@
       "stars": 2,
       "game_pk": 778362,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 17,
       "pnl": 14.29
@@ -254,8 +257,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "ATH",
+      "opponent": "ATH",
+      "player_team": "NYM",
       "home_team": "ATH",
       "away_team": "NYM",
       "market": "Total Bases",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.768581+00:00",
+  "generated_at": "2026-02-24T21:42:50.643752+00:00",
   "date": "2025-06-26",
   "picks": [
     {
@@ -48,8 +48,8 @@
     {
       "player": "Edman, Tommy",
       "player_id": 669242,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Total Bases",
@@ -68,8 +68,8 @@
     {
       "player": "Edwards, Xavier",
       "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "SF",
+      "opponent": "SF",
+      "player_team": "MIA",
       "home_team": "SF",
       "away_team": "MIA",
       "market": "Total Bases",
@@ -108,8 +108,8 @@
     {
       "player": "Freeman, Freddie",
       "player_id": 518692,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Hits",
@@ -128,8 +128,8 @@
     {
       "player": "Happ, Ian",
       "player_id": 664023,
-      "opponent": "CHC",
-      "player_team": "STL",
+      "opponent": "STL",
+      "player_team": "CHC",
       "home_team": "STL",
       "away_team": "CHC",
       "market": "Total Bases",
@@ -148,8 +148,8 @@
     {
       "player": "Hern\u00e1ndez, Enrique",
       "player_id": 571771,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Hits",
@@ -161,6 +161,9 @@
       "stars": 3,
       "game_pk": 777344,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 0,
       "pnl": 6.64
@@ -168,8 +171,8 @@
     {
       "player": "Hern\u00e1ndez, Enrique",
       "player_id": 571771,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Total Bases",
@@ -181,6 +184,9 @@
       "stars": 3,
       "game_pk": 777344,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 0,
       "pnl": 13.04
@@ -251,8 +257,8 @@
     {
       "player": "Mangum, Jake",
       "player_id": 663968,
-      "opponent": "TB",
-      "player_team": "KC",
+      "opponent": "KC",
+      "player_team": "TB",
       "home_team": "KC",
       "away_team": "TB",
       "market": "Total Bases",
@@ -271,8 +277,8 @@
     {
       "player": "Ohtani, Shohei",
       "player_id": 660271,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Hits",
@@ -334,8 +340,8 @@
     {
       "player": "Rojas, Miguel",
       "player_id": 500743,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Total Bases",
@@ -374,8 +380,8 @@
     {
       "player": "Betts, Mookie",
       "player_id": 605141,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Total Bases",
@@ -460,8 +466,8 @@
     {
       "player": "Bohm, Alec",
       "player_id": 664761,
-      "opponent": "PHI",
-      "player_team": "HOU",
+      "opponent": "HOU",
+      "player_team": "PHI",
       "home_team": "HOU",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -635,8 +641,8 @@
     {
       "player": "Ohtani, Shohei",
       "player_id": 660271,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Total Bases",
@@ -767,8 +773,8 @@
     {
       "player": "Freeman, Freddie",
       "player_id": 518692,
-      "opponent": "LAD",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "LAD",
       "home_team": "COL",
       "away_team": "LAD",
       "market": "Total Bases",

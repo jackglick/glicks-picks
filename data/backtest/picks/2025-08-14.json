@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.832924+00:00",
+  "generated_at": "2026-02-24T21:42:50.709647+00:00",
   "date": "2025-08-14",
   "picks": [
     {
@@ -28,8 +28,8 @@
     {
       "player": "Edwards, Xavier",
       "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "CLE",
+      "opponent": "CLE",
+      "player_team": "MIA",
       "home_team": "CLE",
       "away_team": "MIA",
       "market": "Total Bases",
@@ -68,8 +68,8 @@
     {
       "player": "Polanco, Jorge",
       "player_id": 593871,
-      "opponent": "SEA",
-      "player_team": "BAL",
+      "opponent": "BAL",
+      "player_team": "SEA",
       "home_team": "BAL",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -88,8 +88,8 @@
     {
       "player": "P\u00e9rez, Wenceel",
       "player_id": 672761,
-      "opponent": "DET",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "DET",
       "home_team": "MIN",
       "away_team": "DET",
       "market": "Total Bases",
@@ -257,8 +257,8 @@
     {
       "player": "Keith, Colt",
       "player_id": 690993,
-      "opponent": "DET",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "DET",
       "home_team": "MIN",
       "away_team": "DET",
       "market": "Total Bases",
@@ -297,8 +297,8 @@
     {
       "player": "Raleigh, Cal",
       "player_id": 663728,
-      "opponent": "SEA",
-      "player_team": "BAL",
+      "opponent": "BAL",
+      "player_team": "SEA",
       "home_team": "BAL",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -379,6 +379,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 12,
       "pnl": 22.5

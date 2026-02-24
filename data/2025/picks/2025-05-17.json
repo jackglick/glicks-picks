@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:40.302084+00:00",
+  "generated_at": "2026-02-24T21:42:51.224321+00:00",
   "date": "2025-05-17",
   "picks": [
     {
       "player": "Albies, Ozzie",
       "player_id": 645277,
-      "opponent": "ATL",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "ATL",
       "home_team": "BOS",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -68,8 +68,8 @@
     {
       "player": "Bell, Josh",
       "player_id": 605137,
-      "opponent": "WSH",
-      "player_team": "BAL",
+      "opponent": "BAL",
+      "player_team": "WSH",
       "home_team": "BAL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -191,8 +191,8 @@
     {
       "player": "Lee, Brooks",
       "player_id": 686797,
-      "opponent": "MIN",
-      "player_team": "MIL",
+      "opponent": "MIL",
+      "player_team": "MIN",
       "home_team": "MIL",
       "away_team": "MIN",
       "market": "Total Bases",
@@ -211,8 +211,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "NYY",
+      "opponent": "NYY",
+      "player_team": "NYM",
       "home_team": "NYY",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -274,8 +274,8 @@
     {
       "player": "Mart\u00ednez, Angel",
       "player_id": 682657,
-      "opponent": "CLE",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "CLE",
       "home_team": "CIN",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -340,8 +340,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "CLE",
       "home_team": "CIN",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -383,8 +383,8 @@
     {
       "player": "Ruiz, Keibert",
       "player_id": 660688,
-      "opponent": "WSH",
-      "player_team": "BAL",
+      "opponent": "BAL",
+      "player_team": "WSH",
       "home_team": "BAL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -423,8 +423,8 @@
     {
       "player": "Santana, Carlos",
       "player_id": 467793,
-      "opponent": "CLE",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "CLE",
       "home_team": "CIN",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -740,6 +740,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 18,
       "pnl": -15.0
@@ -747,8 +750,8 @@
     {
       "player": "Riley, Austin",
       "player_id": 663586,
-      "opponent": "ATL",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "ATL",
       "home_team": "BOS",
       "away_team": "ATL",
       "market": "Total Bases",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.317953+00:00",
+  "generated_at": "2026-02-24T21:42:51.241529+00:00",
   "date": "2025-06-03",
   "picks": [
     {
@@ -68,8 +68,8 @@
     {
       "player": "Happ, Ian",
       "player_id": 664023,
-      "opponent": "CHC",
-      "player_team": "WSH",
+      "opponent": "WSH",
+      "player_team": "CHC",
       "home_team": "WSH",
       "away_team": "CHC",
       "market": "Total Bases",
@@ -88,8 +88,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "LAD",
+      "opponent": "LAD",
+      "player_team": "NYM",
       "home_team": "LAD",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -108,8 +108,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "NYY",
+      "opponent": "NYY",
+      "player_team": "CLE",
       "home_team": "NYY",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -520,6 +520,9 @@
       "clv_cents": 1000.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 7,
       "pnl": -15.0

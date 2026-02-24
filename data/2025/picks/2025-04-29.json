@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:40.282969+00:00",
+  "generated_at": "2026-02-24T21:42:51.203470+00:00",
   "date": "2025-04-29",
   "picks": [
     {
       "player": "Albies, Ozzie",
       "player_id": 645277,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -61,6 +61,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 9,
       "pnl": 14.29
@@ -68,8 +71,8 @@
     {
       "player": "Grichuk, Randal",
       "player_id": 545341,
-      "opponent": "AZ",
-      "player_team": "NYM",
+      "opponent": "NYM",
+      "player_team": "AZ",
       "home_team": "NYM",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -88,8 +91,8 @@
     {
       "player": "Happ, Ian",
       "player_id": 664023,
-      "opponent": "CHC",
-      "player_team": "PIT",
+      "opponent": "PIT",
+      "player_team": "CHC",
       "home_team": "PIT",
       "away_team": "CHC",
       "market": "Total Bases",
@@ -386,8 +389,8 @@
     {
       "player": "Harris, Michael",
       "player_id": 671739,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -538,8 +541,8 @@
     {
       "player": "Verdugo, Alex",
       "player_id": 657077,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -574,6 +577,9 @@
       "clv_cents": 500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 8,
       "pnl": -15.0

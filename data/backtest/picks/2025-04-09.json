@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.675569+00:00",
+  "generated_at": "2026-02-24T21:42:50.516577+00:00",
   "date": "2025-04-09",
   "picks": [
     {
@@ -25,8 +25,8 @@
     {
       "player": "Chourio, Jackson",
       "player_id": 694192,
-      "opponent": "MIL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "MIL",
       "home_team": "COL",
       "away_team": "MIL",
       "market": "Hits",
@@ -45,8 +45,8 @@
     {
       "player": "Contreras, William",
       "player_id": 661388,
-      "opponent": "MIL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "MIL",
       "home_team": "COL",
       "away_team": "MIL",
       "market": "Hits",
@@ -65,8 +65,8 @@
     {
       "player": "Contreras, William",
       "player_id": 661388,
-      "opponent": "MIL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "MIL",
       "home_team": "COL",
       "away_team": "MIL",
       "market": "Total Bases",
@@ -105,8 +105,8 @@
     {
       "player": "Hoskins, Rhys",
       "player_id": 656555,
-      "opponent": "MIL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "MIL",
       "home_team": "COL",
       "away_team": "MIL",
       "market": "Total Bases",
@@ -141,6 +141,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 20,
       "pnl": -15.0
@@ -237,8 +240,8 @@
     {
       "player": "Yelich, Christian",
       "player_id": 592885,
-      "opponent": "MIL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "MIL",
       "home_team": "COL",
       "away_team": "MIL",
       "market": "Hits",
@@ -382,6 +385,9 @@
       "stars": 2,
       "game_pk": 778390,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 13,
       "pnl": 12.0
@@ -475,8 +481,8 @@
     {
       "player": "Yelich, Christian",
       "player_id": 592885,
-      "opponent": "MIL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "MIL",
       "home_team": "COL",
       "away_team": "MIL",
       "market": "Total Bases",

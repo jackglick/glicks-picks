@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.669764+00:00",
+  "generated_at": "2026-02-24T21:42:50.509674+00:00",
   "date": "2025-04-03",
   "picks": [
     {
@@ -21,6 +21,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 12,
       "pnl": 15.75
@@ -48,8 +51,8 @@
     {
       "player": "Marte, Ketel",
       "player_id": 606466,
-      "opponent": "AZ",
-      "player_team": "NYY",
+      "opponent": "NYY",
+      "player_team": "AZ",
       "home_team": "NYY",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -150,6 +153,9 @@
       "clv_cents": -300.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 5,
       "pnl": 16.8

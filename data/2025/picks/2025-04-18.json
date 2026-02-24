@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:40.271735+00:00",
+  "generated_at": "2026-02-24T21:42:51.189018+00:00",
   "date": "2025-04-18",
   "picks": [
     {
       "player": "Edwards, Xavier",
       "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "PHI",
+      "opponent": "PHI",
+      "player_team": "MIA",
       "home_team": "PHI",
       "away_team": "MIA",
       "market": "Total Bases",
@@ -41,6 +41,9 @@
       "clv_cents": 2000.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 16,
       "pnl": 14.29
@@ -177,8 +180,8 @@
     {
       "player": "Perdomo, Geraldo",
       "player_id": 672695,
-      "opponent": "AZ",
-      "player_team": "CHC",
+      "opponent": "CHC",
+      "player_team": "AZ",
       "home_team": "CHC",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -197,8 +200,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "PIT",
+      "opponent": "PIT",
+      "player_team": "CLE",
       "home_team": "PIT",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -346,8 +349,8 @@
     {
       "player": "Santana, Carlos",
       "player_id": 467793,
-      "opponent": "CLE",
-      "player_team": "PIT",
+      "opponent": "PIT",
+      "player_team": "CLE",
       "home_team": "PIT",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -445,6 +448,9 @@
       "clv_cents": 100.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 18,
       "pnl": -15.0
@@ -475,8 +481,8 @@
     {
       "player": "Gurriel, Lourdes",
       "player_id": 666971,
-      "opponent": "AZ",
-      "player_team": "CHC",
+      "opponent": "CHC",
+      "player_team": "AZ",
       "home_team": "CHC",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -627,8 +633,8 @@
     {
       "player": "Raleigh, Cal",
       "player_id": 663728,
-      "opponent": "SEA",
-      "player_team": "TOR",
+      "opponent": "TOR",
+      "player_team": "SEA",
       "home_team": "TOR",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -693,8 +699,8 @@
     {
       "player": "Smith, Pavin",
       "player_id": 656976,
-      "opponent": "AZ",
-      "player_team": "CHC",
+      "opponent": "CHC",
+      "player_team": "AZ",
       "home_team": "CHC",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -713,8 +719,8 @@
     {
       "player": "Su\u00e1rez, Eugenio",
       "player_id": 553993,
-      "opponent": "AZ",
-      "player_team": "CHC",
+      "opponent": "CHC",
+      "player_team": "AZ",
       "home_team": "CHC",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -818,6 +824,9 @@
       "clv_cents": 500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 2,
       "pnl": 17.25

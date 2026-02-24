@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.718483+00:00",
+  "generated_at": "2026-02-24T21:42:50.598387+00:00",
   "date": "2025-05-22",
   "picks": [
     {
@@ -28,8 +28,8 @@
     {
       "player": "Castellanos, Nick",
       "player_id": 592206,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Hits",
@@ -87,6 +87,9 @@
       "clv_cents": -500.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 3,
       "pnl": 16.5
@@ -110,6 +113,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 12,
       "pnl": 11.11
@@ -117,8 +123,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "DET",
+      "opponent": "DET",
+      "player_team": "CLE",
       "home_team": "DET",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -137,8 +143,8 @@
     {
       "player": "Stott, Bryson",
       "player_id": 681082,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Hits",
@@ -157,8 +163,8 @@
     {
       "player": "Turner, Trea",
       "player_id": 607208,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Hits",
@@ -243,8 +249,8 @@
     {
       "player": "Bohm, Alec",
       "player_id": 664761,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -263,8 +269,8 @@
     {
       "player": "Castellanos, Nick",
       "player_id": 592206,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -306,8 +312,8 @@
     {
       "player": "Kepler, Max",
       "player_id": 596146,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -418,8 +424,8 @@
     {
       "player": "Stott, Bryson",
       "player_id": 681082,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -484,8 +490,8 @@
     {
       "player": "Harper, Bryce",
       "player_id": 547180,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -547,8 +553,8 @@
     {
       "player": "Turner, Trea",
       "player_id": 607208,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",

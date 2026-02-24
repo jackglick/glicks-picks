@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.260467+00:00",
+  "generated_at": "2026-02-24T21:42:51.177335+00:00",
   "date": "2025-04-06",
   "picks": [
     {
@@ -28,8 +28,8 @@
     {
       "player": "Dom\u00ednguez, Jasson",
       "player_id": 691176,
-      "opponent": "NYY",
-      "player_team": "PIT",
+      "opponent": "PIT",
+      "player_team": "NYY",
       "home_team": "PIT",
       "away_team": "NYY",
       "market": "Total Bases",
@@ -64,6 +64,9 @@
       "clv_cents": 23000.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 16,
       "pnl": 15.0
@@ -243,8 +246,8 @@
     {
       "player": "Bichette, Bo",
       "player_id": 666182,
-      "opponent": "TOR",
-      "player_team": "NYM",
+      "opponent": "NYM",
+      "player_team": "TOR",
       "home_team": "NYM",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -414,6 +417,9 @@
       "clv_cents": -22000.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 6,
       "pnl": 14.29
@@ -421,8 +427,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "CLE",
       "home_team": "LAA",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -487,8 +493,8 @@
     {
       "player": "\u00c1lvarez, Yordan",
       "player_id": 670541,
-      "opponent": "HOU",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "HOU",
       "home_team": "MIN",
       "away_team": "HOU",
       "market": "Total Bases",
@@ -543,6 +549,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 2,
       "pnl": -15.0

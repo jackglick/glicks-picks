@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.270489+00:00",
+  "generated_at": "2026-02-24T21:42:51.187709+00:00",
   "date": "2025-04-17",
   "picks": [
     {
@@ -124,6 +124,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 15,
       "pnl": 15.0
@@ -131,8 +134,8 @@
     {
       "player": "Rengifo, Luis",
       "player_id": 650859,
-      "opponent": "LAA",
-      "player_team": "TEX",
+      "opponent": "TEX",
+      "player_team": "LAA",
       "home_team": "TEX",
       "away_team": "LAA",
       "market": "Total Bases",
@@ -316,6 +319,9 @@
       "clv_cents": 1500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 4,
       "pnl": 19.5

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.306000+00:00",
+  "generated_at": "2026-02-24T21:42:51.228609+00:00",
   "date": "2025-05-21",
   "picks": [
     {
@@ -28,8 +28,8 @@
     {
       "player": "Castellanos, Nick",
       "player_id": 592206,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Hits",
@@ -91,8 +91,8 @@
     {
       "player": "Happ, Ian",
       "player_id": 664023,
-      "opponent": "CHC",
-      "player_team": "MIA",
+      "opponent": "MIA",
+      "player_team": "CHC",
       "home_team": "MIA",
       "away_team": "CHC",
       "market": "Total Bases",
@@ -111,8 +111,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "NYM",
       "home_team": "BOS",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -131,8 +131,8 @@
     {
       "player": "Marsh, Brandon",
       "player_id": 669016,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -151,8 +151,8 @@
     {
       "player": "Mart\u00ednez, Angel",
       "player_id": 682657,
-      "opponent": "CLE",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "CLE",
       "home_team": "MIN",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -211,8 +211,8 @@
     {
       "player": "Raleigh, Cal",
       "player_id": 663728,
-      "opponent": "SEA",
-      "player_team": "CWS",
+      "opponent": "CWS",
+      "player_team": "SEA",
       "home_team": "CWS",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -231,8 +231,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "CLE",
       "home_team": "MIN",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -271,8 +271,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "MIL",
+      "opponent": "MIL",
+      "player_team": "BAL",
       "home_team": "MIL",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -334,8 +334,8 @@
     {
       "player": "Taveras, Leody",
       "player_id": 665750,
-      "opponent": "SEA",
-      "player_team": "CWS",
+      "opponent": "CWS",
+      "player_team": "SEA",
       "home_team": "CWS",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -374,8 +374,8 @@
     {
       "player": "Turner, Trea",
       "player_id": 607208,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Hits",
@@ -440,8 +440,8 @@
     {
       "player": "Castellanos, Nick",
       "player_id": 592206,
-      "opponent": "PHI",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PHI",
       "home_team": "COL",
       "away_team": "PHI",
       "market": "Total Bases",
@@ -476,6 +476,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 18,
       "pnl": -15.0

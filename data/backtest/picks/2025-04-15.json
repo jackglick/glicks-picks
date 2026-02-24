@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:39.680751+00:00",
+  "generated_at": "2026-02-24T21:42:50.523032+00:00",
   "date": "2025-04-15",
   "picks": [
     {
       "player": "Albies, Ozzie",
       "player_id": 645277,
-      "opponent": "ATL",
-      "player_team": "TOR",
+      "opponent": "TOR",
+      "player_team": "ATL",
       "home_team": "TOR",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -137,8 +137,8 @@
     {
       "player": "McKinstry, Zach",
       "player_id": 656716,
-      "opponent": "DET",
-      "player_team": "MIL",
+      "opponent": "MIL",
+      "player_team": "DET",
       "home_team": "MIL",
       "away_team": "DET",
       "market": "Total Bases",
@@ -177,8 +177,8 @@
     {
       "player": "Ruiz, Keibert",
       "player_id": 660688,
-      "opponent": "WSH",
-      "player_team": "PIT",
+      "opponent": "PIT",
+      "player_team": "WSH",
       "home_team": "PIT",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -477,6 +477,9 @@
       "stars": 2,
       "game_pk": 778311,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 15,
       "pnl": 22.5

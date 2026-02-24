@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:39.695622+00:00",
+  "generated_at": "2026-02-24T21:42:50.571330+00:00",
   "date": "2025-04-30",
   "picks": [
     {
       "player": "Albies, Ozzie",
       "player_id": 645277,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -41,6 +41,9 @@
       "clv_cents": -1000.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 18,
       "pnl": -15.0
@@ -68,8 +71,8 @@
     {
       "player": "Edwards, Xavier",
       "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "LAD",
+      "opponent": "LAD",
+      "player_team": "MIA",
       "home_team": "LAD",
       "away_team": "MIA",
       "market": "Total Bases",
@@ -88,8 +91,8 @@
     {
       "player": "Happ, Ian",
       "player_id": 664023,
-      "opponent": "CHC",
-      "player_team": "PIT",
+      "opponent": "PIT",
+      "player_team": "CHC",
       "home_team": "PIT",
       "away_team": "CHC",
       "market": "Total Bases",
@@ -283,8 +286,8 @@
     {
       "player": "Riley, Austin",
       "player_id": 663586,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Hits",
@@ -383,8 +386,8 @@
     {
       "player": "Harris, Michael",
       "player_id": 671739,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -472,8 +475,8 @@
     {
       "player": "Olson, Matt",
       "player_id": 621566,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -515,8 +518,8 @@
     {
       "player": "White, Eli",
       "player_id": 642201,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -535,8 +538,8 @@
     {
       "player": "Riley, Austin",
       "player_id": 663586,
-      "opponent": "ATL",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "ATL",
       "home_team": "COL",
       "away_team": "ATL",
       "market": "Total Bases",

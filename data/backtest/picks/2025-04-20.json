@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.686580+00:00",
+  "generated_at": "2026-02-24T21:42:50.556595+00:00",
   "date": "2025-04-20",
   "picks": [
     {
@@ -25,8 +25,8 @@
     {
       "player": "Bell, Josh",
       "player_id": 605137,
-      "opponent": "WSH",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "WSH",
       "home_team": "COL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -45,8 +45,8 @@
     {
       "player": "Crews, Dylan",
       "player_id": 686611,
-      "opponent": "WSH",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "WSH",
       "home_team": "COL",
       "away_team": "WSH",
       "market": "Hits",
@@ -65,8 +65,8 @@
     {
       "player": "Crews, Dylan",
       "player_id": 686611,
-      "opponent": "WSH",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "WSH",
       "home_team": "COL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -121,6 +121,9 @@
       "stars": 3,
       "game_pk": 778245,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 18,
       "pnl": -15.0
@@ -191,8 +194,8 @@
     {
       "player": "Moore, Dylan",
       "player_id": 664238,
-      "opponent": "SEA",
-      "player_team": "TOR",
+      "opponent": "TOR",
+      "player_team": "SEA",
       "home_team": "TOR",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -211,8 +214,8 @@
     {
       "player": "Nu\u00f1ez, Nasim",
       "player_id": 683083,
-      "opponent": "WSH",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "WSH",
       "home_team": "COL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -231,8 +234,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "PIT",
+      "opponent": "PIT",
+      "player_team": "CLE",
       "home_team": "PIT",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -271,8 +274,8 @@
     {
       "player": "Ruiz, Keibert",
       "player_id": 660688,
-      "opponent": "WSH",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "WSH",
       "home_team": "COL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -331,8 +334,8 @@
     {
       "player": "Call, Alex",
       "player_id": 669743,
-      "opponent": "WSH",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "WSH",
       "home_team": "COL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -681,8 +684,8 @@
     {
       "player": "Raleigh, Cal",
       "player_id": 663728,
-      "opponent": "SEA",
-      "player_team": "TOR",
+      "opponent": "TOR",
+      "player_team": "SEA",
       "home_team": "TOR",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -701,8 +704,8 @@
     {
       "player": "Rosario, Amed",
       "player_id": 642708,
-      "opponent": "WSH",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "WSH",
       "home_team": "COL",
       "away_team": "WSH",
       "market": "Total Bases",

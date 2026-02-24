@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.290022+00:00",
+  "generated_at": "2026-02-24T21:42:51.211471+00:00",
   "date": "2025-05-06",
   "picks": [
     {
@@ -191,8 +191,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "WSH",
+      "opponent": "WSH",
+      "player_team": "CLE",
       "home_team": "WSH",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -234,8 +234,8 @@
     {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "STL",
+      "opponent": "STL",
+      "player_team": "PIT",
       "home_team": "STL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -254,8 +254,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "BAL",
       "home_team": "MIN",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -274,8 +274,8 @@
     {
       "player": "Semien, Marcus",
       "player_id": 543760,
-      "opponent": "TEX",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "TEX",
       "home_team": "BOS",
       "away_team": "TEX",
       "market": "Total Bases",
@@ -334,8 +334,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "AZ",
+      "opponent": "AZ",
+      "player_team": "NYM",
       "home_team": "AZ",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -420,8 +420,8 @@
     {
       "player": "Raleigh, Cal",
       "player_id": 663728,
-      "opponent": "SEA",
-      "player_team": "ATH",
+      "opponent": "ATH",
+      "player_team": "SEA",
       "home_team": "ATH",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -605,6 +605,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 7,
       "pnl": -15.0

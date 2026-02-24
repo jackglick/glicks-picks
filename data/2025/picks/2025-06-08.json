@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.324220+00:00",
+  "generated_at": "2026-02-24T21:42:51.248599+00:00",
   "date": "2025-06-08",
   "picks": [
     {
@@ -111,8 +111,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "NYM",
       "home_team": "COL",
       "away_team": "NYM",
       "market": "Hits",
@@ -131,8 +131,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "NYM",
       "home_team": "COL",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -151,8 +151,8 @@
     {
       "player": "Marte, Ketel",
       "player_id": 606466,
-      "opponent": "AZ",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "AZ",
       "home_team": "CIN",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -191,8 +191,8 @@
     {
       "player": "Mauricio, Ronny",
       "player_id": 677595,
-      "opponent": "NYM",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "NYM",
       "home_team": "COL",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -227,6 +227,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 15,
       "pnl": 11.54
@@ -234,8 +237,8 @@
     {
       "player": "Perdomo, Geraldo",
       "player_id": 672695,
-      "opponent": "AZ",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "AZ",
       "home_team": "CIN",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -254,8 +257,8 @@
     {
       "player": "Polanco, Jorge",
       "player_id": 593871,
-      "opponent": "SEA",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "SEA",
       "home_team": "LAA",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -337,8 +340,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "ATH",
+      "opponent": "ATH",
+      "player_team": "BAL",
       "home_team": "ATH",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -420,8 +423,8 @@
     {
       "player": "Taylor, Tyrone",
       "player_id": 621438,
-      "opponent": "NYM",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "NYM",
       "home_team": "COL",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -460,8 +463,8 @@
     {
       "player": "Barger, Addison",
       "player_id": 680718,
-      "opponent": "TOR",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "TOR",
       "home_team": "MIN",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -480,8 +483,8 @@
     {
       "player": "Carroll, Corbin",
       "player_id": 682998,
-      "opponent": "AZ",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "AZ",
       "home_team": "CIN",
       "away_team": "AZ",
       "market": "Total Bases",
@@ -628,6 +631,9 @@
       "clv_cents": -26500.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 5,
       "pnl": 12.0
@@ -635,8 +641,8 @@
     {
       "player": "Nimmo, Brandon",
       "player_id": 607043,
-      "opponent": "NYM",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "NYM",
       "home_team": "COL",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -774,6 +780,9 @@
       "stars": 1,
       "game_pk": 777583,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 3,
       "pnl": 19.5

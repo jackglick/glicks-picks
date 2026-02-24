@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.281976+00:00",
+  "generated_at": "2026-02-24T21:42:51.202380+00:00",
   "date": "2025-04-28",
   "picks": [
     {
@@ -88,8 +88,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "WSH",
+      "opponent": "WSH",
+      "player_team": "NYM",
       "home_team": "WSH",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -170,6 +170,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 2,
       "pnl": -15.0

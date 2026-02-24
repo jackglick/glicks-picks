@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.376049+00:00",
+  "generated_at": "2026-02-24T21:42:51.308959+00:00",
   "date": "2025-07-24",
   "picks": [
     {
@@ -25,8 +25,8 @@
     {
       "player": "Lukes, Nathan",
       "player_id": 664770,
-      "opponent": "TOR",
-      "player_team": "DET",
+      "opponent": "DET",
+      "player_team": "TOR",
       "home_team": "DET",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -81,6 +81,9 @@
       "clv_cents": 500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 6,
       "pnl": -15.0

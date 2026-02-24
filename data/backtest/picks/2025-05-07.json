@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.702913+00:00",
+  "generated_at": "2026-02-24T21:42:50.580439+00:00",
   "date": "2025-05-07",
   "picks": [
     {
@@ -61,6 +61,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 14,
       "pnl": 16.5
@@ -68,8 +71,8 @@
     {
       "player": "Keith, Colt",
       "player_id": 690993,
-      "opponent": "DET",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "DET",
       "home_team": "COL",
       "away_team": "DET",
       "market": "Total Bases",
@@ -88,8 +91,8 @@
     {
       "player": "Kjerstad, Heston",
       "player_id": 677008,
-      "opponent": "BAL",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "BAL",
       "home_team": "MIN",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -128,8 +131,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "WSH",
+      "opponent": "WSH",
+      "player_team": "CLE",
       "home_team": "WSH",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -148,8 +151,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "BAL",
       "home_team": "MIN",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -168,8 +171,8 @@
     {
       "player": "Santander, Anthony",
       "player_id": 623993,
-      "opponent": "TOR",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "TOR",
       "home_team": "LAA",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -188,8 +191,8 @@
     {
       "player": "Semien, Marcus",
       "player_id": 543760,
-      "opponent": "TEX",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "TEX",
       "home_team": "BOS",
       "away_team": "TEX",
       "market": "Total Bases",
@@ -320,8 +323,8 @@
     {
       "player": "Bichette, Bo",
       "player_id": 666182,
-      "opponent": "TOR",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "TOR",
       "home_team": "LAA",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -379,6 +382,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 6,
       "pnl": -15.0
@@ -409,8 +415,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "AZ",
+      "opponent": "AZ",
+      "player_team": "NYM",
       "home_team": "AZ",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -475,8 +481,8 @@
     {
       "player": "Raleigh, Cal",
       "player_id": 663728,
-      "opponent": "SEA",
-      "player_team": "ATH",
+      "opponent": "ATH",
+      "player_team": "SEA",
       "home_team": "ATH",
       "away_team": "SEA",
       "market": "Total Bases",

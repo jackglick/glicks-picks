@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:40.284815+00:00",
+  "generated_at": "2026-02-24T21:42:51.205535+00:00",
   "date": "2025-05-01",
   "picks": [
     {
       "player": "Bell, Josh",
       "player_id": 605137,
-      "opponent": "WSH",
-      "player_team": "PHI",
+      "opponent": "PHI",
+      "player_team": "WSH",
       "home_team": "PHI",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -104,6 +104,9 @@
       "stars": 3,
       "game_pk": 778095,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 21,
       "pnl": -15.0
@@ -217,8 +220,8 @@
     {
       "player": "Ruiz, Keibert",
       "player_id": 660688,
-      "opponent": "WSH",
-      "player_team": "PHI",
+      "opponent": "PHI",
+      "player_team": "WSH",
       "home_team": "PHI",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -280,8 +283,8 @@
     {
       "player": "Correa, Carlos",
       "player_id": 621043,
-      "opponent": "MIN",
-      "player_team": "CLE",
+      "opponent": "CLE",
+      "player_team": "MIN",
       "home_team": "CLE",
       "away_team": "MIN",
       "market": "Total Bases",
@@ -320,8 +323,8 @@
     {
       "player": "Garc\u00eda, Luis",
       "player_id": 671277,
-      "opponent": "WSH",
-      "player_team": "PHI",
+      "opponent": "PHI",
+      "player_team": "WSH",
       "home_team": "PHI",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -356,6 +359,9 @@
       "clv_cents": 500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 4,
       "pnl": 14.29

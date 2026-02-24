@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.689225+00:00",
+  "generated_at": "2026-02-24T21:42:50.562852+00:00",
   "date": "2025-04-23",
   "picks": [
     {
@@ -85,8 +85,8 @@
     {
       "player": "Kjerstad, Heston",
       "player_id": 677008,
-      "opponent": "BAL",
-      "player_team": "WSH",
+      "opponent": "WSH",
+      "player_team": "BAL",
       "home_team": "WSH",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -121,6 +121,9 @@
       "clv_cents": 400.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 2,
       "pnl": 12.0
@@ -231,8 +234,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "WSH",
+      "opponent": "WSH",
+      "player_team": "BAL",
       "home_team": "WSH",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -251,8 +254,8 @@
     {
       "player": "Santander, Anthony",
       "player_id": 623993,
-      "opponent": "TOR",
-      "player_team": "HOU",
+      "opponent": "HOU",
+      "player_team": "TOR",
       "home_team": "HOU",
       "away_team": "TOR",
       "market": "Total Bases",
@@ -271,8 +274,8 @@
     {
       "player": "Semien, Marcus",
       "player_id": 543760,
-      "opponent": "TEX",
-      "player_team": "ATH",
+      "opponent": "ATH",
+      "player_team": "TEX",
       "home_team": "ATH",
       "away_team": "TEX",
       "market": "Total Bases",
@@ -416,6 +419,9 @@
       "clv_cents": 1500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 14,
       "pnl": 13.64
@@ -492,8 +498,8 @@
     {
       "player": "Raleigh, Cal",
       "player_id": 663728,
-      "opponent": "SEA",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "SEA",
       "home_team": "BOS",
       "away_team": "SEA",
       "market": "Total Bases",
@@ -617,6 +623,9 @@
       "clv_cents": 500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 8,
       "pnl": -15.0
@@ -686,6 +695,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 1,
       "pnl": 18.75

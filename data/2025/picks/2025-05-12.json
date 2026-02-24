@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:40.297245+00:00",
+  "generated_at": "2026-02-24T21:42:51.218900+00:00",
   "date": "2025-05-12",
   "picks": [
     {
       "player": "Edwards, Xavier",
       "player_id": 669364,
-      "opponent": "MIA",
-      "player_team": "CHC",
+      "opponent": "CHC",
+      "player_team": "MIA",
       "home_team": "CHC",
       "away_team": "MIA",
       "market": "Total Bases",
@@ -84,6 +84,9 @@
       "clv_cents": 500.0,
       "clv_favorable": true,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 9,
       "pnl": -15.0
@@ -107,6 +110,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 7,
       "pnl": 15.0
@@ -130,6 +136,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 3,
       "pnl": 18.0

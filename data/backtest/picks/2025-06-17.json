@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.755950+00:00",
+  "generated_at": "2026-02-24T21:42:50.630439+00:00",
   "date": "2025-06-17",
   "picks": [
     {
@@ -65,8 +65,8 @@
     {
       "player": "Castro, Willi",
       "player_id": 650489,
-      "opponent": "MIN",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "MIN",
       "home_team": "CIN",
       "away_team": "MIN",
       "market": "Total Bases",
@@ -105,8 +105,8 @@
     {
       "player": "Diaz, Yainer",
       "player_id": 673237,
-      "opponent": "HOU",
-      "player_team": "ATH",
+      "opponent": "ATH",
+      "player_team": "HOU",
       "home_team": "ATH",
       "away_team": "HOU",
       "market": "Hits",
@@ -168,8 +168,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "ATL",
+      "opponent": "ATL",
+      "player_team": "NYM",
       "home_team": "ATL",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -251,8 +251,8 @@
     {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "DET",
+      "opponent": "DET",
+      "player_team": "PIT",
       "home_team": "DET",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -291,8 +291,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "TB",
+      "opponent": "TB",
+      "player_team": "BAL",
       "home_team": "TB",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -417,8 +417,8 @@
     {
       "player": "Diaz, Yainer",
       "player_id": 673237,
-      "opponent": "HOU",
-      "player_team": "ATH",
+      "opponent": "ATH",
+      "player_team": "HOU",
       "home_team": "ATH",
       "away_team": "HOU",
       "market": "Total Bases",
@@ -457,8 +457,8 @@
     {
       "player": "Henderson, Gunnar",
       "player_id": 683002,
-      "opponent": "BAL",
-      "player_team": "TB",
+      "opponent": "TB",
+      "player_team": "BAL",
       "home_team": "TB",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -711,6 +711,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 8,
       "pnl": 16.5

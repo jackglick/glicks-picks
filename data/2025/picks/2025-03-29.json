@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:40.253519+00:00",
+  "generated_at": "2026-02-24T21:42:51.169261+00:00",
   "date": "2025-03-29",
   "picks": [
     {
@@ -145,8 +145,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "HOU",
+      "opponent": "HOU",
+      "player_team": "NYM",
       "home_team": "HOU",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -185,8 +185,8 @@
     {
       "player": "Profar, Jurickson",
       "player_id": 595777,
-      "opponent": "ATL",
-      "player_team": "SD",
+      "opponent": "SD",
+      "player_team": "ATL",
       "home_team": "SD",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -205,8 +205,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "KC",
+      "opponent": "KC",
+      "player_team": "CLE",
       "home_team": "KC",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -225,8 +225,8 @@
     {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "MIA",
+      "opponent": "MIA",
+      "player_team": "PIT",
       "home_team": "MIA",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -341,6 +341,9 @@
       "stars": 2,
       "game_pk": 778520,
       "game_time": null,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 18,
       "pnl": -15.0

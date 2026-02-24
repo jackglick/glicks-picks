@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:39.679835+00:00",
+  "generated_at": "2026-02-24T21:42:50.521737+00:00",
   "date": "2025-04-14",
   "picks": [
     {
       "player": "Albies, Ozzie",
       "player_id": 645277,
-      "opponent": "ATL",
-      "player_team": "TOR",
+      "opponent": "TOR",
+      "player_team": "ATL",
       "home_team": "TOR",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -61,6 +61,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 10,
       "pnl": -15.0
@@ -84,6 +87,9 @@
       "clv_cents": 0.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "win",
       "actual": 8,
       "pnl": 19.5
@@ -91,8 +97,8 @@
     {
       "player": "Ib\u00e1\u00f1ez, Andy",
       "player_id": 628451,
-      "opponent": "DET",
-      "player_team": "MIL",
+      "opponent": "MIL",
+      "player_team": "DET",
       "home_team": "MIL",
       "away_team": "DET",
       "market": "Total Bases",
@@ -111,8 +117,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "MIN",
+      "opponent": "MIN",
+      "player_team": "NYM",
       "home_team": "MIN",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -283,8 +289,8 @@
     {
       "player": "Chapman, Matt",
       "player_id": 656305,
-      "opponent": "SF",
-      "player_team": "PHI",
+      "opponent": "PHI",
+      "player_team": "SF",
       "home_team": "PHI",
       "away_team": "SF",
       "market": "Total Bases",

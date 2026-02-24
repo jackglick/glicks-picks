@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-19T01:39:39.714794+00:00",
+  "generated_at": "2026-02-24T21:42:50.594093+00:00",
   "date": "2025-05-18",
   "picks": [
     {
       "player": "Albies, Ozzie",
       "player_id": 645277,
-      "opponent": "ATL",
-      "player_team": "BOS",
+      "opponent": "BOS",
+      "player_team": "ATL",
       "home_team": "BOS",
       "away_team": "ATL",
       "market": "Total Bases",
@@ -111,8 +111,8 @@
     {
       "player": "Lindor, Francisco",
       "player_id": 596019,
-      "opponent": "NYM",
-      "player_team": "NYY",
+      "opponent": "NYY",
+      "player_team": "NYM",
       "home_team": "NYY",
       "away_team": "NYM",
       "market": "Total Bases",
@@ -171,8 +171,8 @@
     {
       "player": "Ram\u00edrez, Jos\u00e9",
       "player_id": 608070,
-      "opponent": "CLE",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "CLE",
       "home_team": "CIN",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -214,8 +214,8 @@
     {
       "player": "Ruiz, Keibert",
       "player_id": 660688,
-      "opponent": "WSH",
-      "player_team": "BAL",
+      "opponent": "BAL",
+      "player_team": "WSH",
       "home_team": "BAL",
       "away_team": "WSH",
       "market": "Total Bases",
@@ -254,8 +254,8 @@
     {
       "player": "Santana, Carlos",
       "player_id": 467793,
-      "opponent": "CLE",
-      "player_team": "CIN",
+      "opponent": "CIN",
+      "player_team": "CLE",
       "home_team": "CIN",
       "away_team": "CLE",
       "market": "Total Bases",
@@ -587,8 +587,8 @@
     {
       "player": "Lowe, Josh",
       "player_id": 666139,
-      "opponent": "TB",
-      "player_team": "MIA",
+      "opponent": "MIA",
+      "player_team": "TB",
       "home_team": "MIA",
       "away_team": "TB",
       "market": "Total Bases",
@@ -646,6 +646,9 @@
       "clv_cents": -3700.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 20,
       "pnl": -15.0

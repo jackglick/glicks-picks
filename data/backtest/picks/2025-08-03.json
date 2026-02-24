@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T01:39:39.817851+00:00",
+  "generated_at": "2026-02-24T21:42:50.695194+00:00",
   "date": "2025-08-03",
   "picks": [
     {
@@ -28,8 +28,8 @@
     {
       "player": "Collins, Isaac",
       "player_id": 686555,
-      "opponent": "MIL",
-      "player_team": "WSH",
+      "opponent": "WSH",
+      "player_team": "MIL",
       "home_team": "WSH",
       "away_team": "MIL",
       "market": "Total Bases",
@@ -48,8 +48,8 @@
     {
       "player": "Dom\u00ednguez, Jasson",
       "player_id": 691176,
-      "opponent": "NYY",
-      "player_team": "MIA",
+      "opponent": "MIA",
+      "player_team": "NYY",
       "home_team": "MIA",
       "away_team": "NYY",
       "market": "Total Bases",
@@ -148,8 +148,8 @@
     {
       "player": "Peguero, Liover",
       "player_id": 678894,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -168,8 +168,8 @@
     {
       "player": "Quero, Edgar",
       "player_id": 700337,
-      "opponent": "CWS",
-      "player_team": "LAA",
+      "opponent": "LAA",
+      "player_team": "CWS",
       "home_team": "LAA",
       "away_team": "CWS",
       "market": "Total Bases",
@@ -208,8 +208,8 @@
     {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Hits",
@@ -228,8 +228,8 @@
     {
       "player": "Reynolds, Bryan",
       "player_id": 668804,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -248,8 +248,8 @@
     {
       "player": "Rutschman, Adley",
       "player_id": 668939,
-      "opponent": "BAL",
-      "player_team": "CHC",
+      "opponent": "CHC",
+      "player_team": "BAL",
       "home_team": "CHC",
       "away_team": "BAL",
       "market": "Total Bases",
@@ -268,8 +268,8 @@
     {
       "player": "Triolo, Jared",
       "player_id": 669707,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -397,8 +397,8 @@
     {
       "player": "Cruz, Oneil",
       "player_id": 665833,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -460,8 +460,8 @@
     {
       "player": "Gonzales, Nick",
       "player_id": 693304,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -480,8 +480,8 @@
     {
       "player": "Horwitz, Spencer",
       "player_id": 687462,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -580,8 +580,8 @@
     {
       "player": "Pham, Tommy",
       "player_id": 502054,
-      "opponent": "PIT",
-      "player_team": "COL",
+      "opponent": "COL",
+      "player_team": "PIT",
       "home_team": "COL",
       "away_team": "PIT",
       "market": "Total Bases",
@@ -705,6 +705,9 @@
       "clv_cents": -1500.0,
       "clv_favorable": false,
       "clv_line": 0.0,
+      "injury_flag": true,
+      "injury_note": "Injured 60-Day, 60-day IL, since 2026-02-24",
+      "injury_severity": "unknown",
       "result": "loss",
       "actual": 5,
       "pnl": -15.0
