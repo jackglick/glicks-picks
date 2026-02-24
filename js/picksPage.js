@@ -125,6 +125,9 @@
 
   function renderPickCard(pick) {
     var card = el('div', 'pick-card');
+    if (pick.category === 'batter') {
+      card.classList.add('pick-card--batter');
+    }
 
     var header = el('div', 'pick-card-header');
     header.appendChild(createPlayerAvatar(pick));
@@ -678,7 +681,7 @@
         btn.classList.add('no-picks');
       } else {
         btn.classList.add('has-picks');
-        btn.style.backgroundColor = 'rgba(26, 127, 109, ' + Number(entry.alpha).toFixed(3) + ')';
+        btn.style.backgroundColor = 'rgba(37, 99, 235, ' + Number(entry.alpha).toFixed(3) + ')';
         btn.title = formatFullDate(dateKey) + ' \u2022 ' + count + ' picks';
         btn.addEventListener('click', (function (pickedDate) {
           return function () {

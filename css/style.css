@@ -217,10 +217,10 @@ button:focus-visible,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1.5px solid var(--chip-border);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
   border-radius: 28px;
   padding: 3px;
-  background: var(--bg-surface-2);
+  background: rgba(255, 255, 255, 0.06);
   margin-bottom: 1.25rem;
 }
 
@@ -228,7 +228,7 @@ button:focus-visible,
   appearance: none;
   border: none;
   background: transparent;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.55);
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: 700;
@@ -241,19 +241,19 @@ button:focus-visible,
 }
 
 .season-pill-btn:hover:not(.active) {
-  background: var(--chip-hover);
-  color: var(--text);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .season-pill-btn.active {
-  background: var(--navy);
+  background: var(--accent);
   color: #fff;
 }
 
 /* Glow ring on pill when viewing archive season */
 .backtest-mode .season-pill {
-  box-shadow: 0 0 0 2px var(--accent);
-  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.6);
+  border-color: rgba(37, 99, 235, 0.6);
 }
 
 .season-pill-btn:focus-visible {
@@ -275,16 +275,16 @@ button:focus-visible,
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .backtest-date-trigger {
   font-family: var(--font);
   font-size: 0.86rem;
   font-weight: 600;
-  color: var(--text);
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 6px;
   padding: 0.5rem 0.75rem;
   cursor: pointer;
@@ -305,8 +305,8 @@ button:focus-visible,
   width: min(340px, 94vw);
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  box-shadow: 0 12px 30px rgba(19, 29, 45, 0.14);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
   padding: 0.8rem;
 }
 
@@ -377,7 +377,7 @@ button:focus-visible,
 
 .calendar-day.has-picks {
   color: #ffffff;
-  border-color: rgba(26, 127, 109, 0.44);
+  border-color: rgba(37, 99, 235, 0.44);
 }
 
 .calendar-day.no-picks {
@@ -743,6 +743,8 @@ body.backtest-mode .mobile-nav {
 .page-hero {
   padding: 7rem 0 2.5rem;
   text-align: center;
+  background: var(--bg-dark);
+  color: #ffffff;
 }
 
 .page-title {
@@ -751,11 +753,12 @@ body.backtest-mode .mobile-nav {
   line-height: 1.1;
   letter-spacing: -0.03em;
   margin-bottom: 0.5rem;
+  color: #ffffff;
 }
 
 .page-subtitle {
   font-size: clamp(0.9rem, 2vw, 1.05rem);
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* --- Picks Section --- */
@@ -765,11 +768,11 @@ body.backtest-mode .mobile-nav {
 
 .books-filter-bar {
   background: var(--bg-surface-2);
-  border: 1px solid var(--chip-border);
-  border-radius: 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
   padding: 0.85rem 0.9rem;
   margin-bottom: 0.5rem;
-  box-shadow: 0 4px 12px rgba(19, 29, 45, 0.05);
+  box-shadow: var(--shadow);
 }
 
 .books-filter-bar-header {
@@ -802,9 +805,9 @@ body.backtest-mode .mobile-nav {
   font-size: 0.82rem;
   color: var(--text);
   padding: 0.48rem 0.72rem;
-  border: 1px solid var(--chip-border);
+  border: 1px solid var(--border);
   border-radius: 999px;
-  background: #ffffff;
+  background: var(--bg-surface);
   cursor: pointer;
   transition: border-color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
 }
@@ -836,7 +839,7 @@ body.backtest-mode .mobile-nav {
 
 .book-filter-option:hover {
   background: var(--chip-hover);
-  border-color: rgba(26, 127, 109, 0.35);
+  border-color: var(--accent);
 }
 
 .book-filter-option:focus-within {
@@ -846,8 +849,8 @@ body.backtest-mode .mobile-nav {
 
 .book-filter-option.is-selected {
   background: var(--accent-dim);
-  border-color: rgba(26, 127, 109, 0.45);
-  box-shadow: inset 0 0 0 1px rgba(26, 127, 109, 0.18);
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.18);
 }
 
 .books-filter-summary {
@@ -867,14 +870,18 @@ body.backtest-mode .mobile-nav {
 .pick-card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-left: 4px solid var(--accent);
+  border-radius: 16px;
   padding: 1.5rem;
-  box-shadow: 0 1px 3px rgba(27, 42, 74, 0.06), 0 1px 2px rgba(27, 42, 74, 0.04);
+  box-shadow: var(--shadow);
   transition: border-color 0.3s, box-shadow 0.2s ease;
 }
 
+.pick-card--batter {
+  border-left-color: var(--accent-2);
+}
+
 .pick-card:hover {
-  border-color: rgba(26, 127, 109, 0.20);
   box-shadow: 0 4px 12px rgba(27, 42, 74, 0.08), 0 2px 4px rgba(27, 42, 74, 0.04);
 }
 
@@ -1021,12 +1028,12 @@ body.backtest-mode .mobile-nav {
 
 .pick-direction.over {
   color: var(--accent);
-  background: var(--accent-dim);
+  background: var(--accent-light);
 }
 
 .pick-direction.under {
-  color: #c0392b;
-  background: rgba(192, 57, 43, 0.10);
+  color: var(--green);
+  background: var(--green-light);
 }
 
 .pick-line {
@@ -1252,7 +1259,7 @@ body.backtest-mode .mobile-nav {
 }
 
 .results-table tbody tr:hover {
-  background: rgba(26, 127, 109, 0.06);
+  background: rgba(37, 99, 235, 0.06);
 }
 
 .result-badge {
@@ -1341,7 +1348,7 @@ a {
 .status-meta {
   margin-top: 0.5rem;
   font-size: 0.82rem;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .update-cta {
@@ -1414,7 +1421,7 @@ a {
 
 /* --- Loading skeleton animation (#30) --- */
 .loading-skeleton {
-  background: linear-gradient(90deg, var(--bg-surface) 25%, rgba(26, 127, 109, 0.05) 50%, var(--bg-surface) 75%);
+  background: linear-gradient(90deg, var(--bg-surface) 25%, rgba(37, 99, 235, 0.05) 50%, var(--bg-surface) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: 6px;
@@ -1492,9 +1499,9 @@ a {
   font-size: 0.82rem;
   color: var(--text);
   padding: 0.48rem 0.72rem;
-  border: 1px solid var(--chip-border);
+  border: 1px solid var(--border);
   border-radius: 999px;
-  background: #ffffff;
+  background: var(--bg-surface);
   cursor: pointer;
   transition: border-color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
 }
@@ -1520,7 +1527,7 @@ a {
 
 .market-filter-chip:hover {
   background: var(--chip-hover);
-  border-color: rgba(26, 127, 109, 0.35);
+  border-color: var(--accent);
 }
 
 .market-filter-chip:focus-within {
@@ -1530,8 +1537,8 @@ a {
 
 .market-filter-chip.active {
   background: var(--accent-dim);
-  border-color: rgba(26, 127, 109, 0.45);
-  box-shadow: inset 0 0 0 1px rgba(26, 127, 109, 0.18);
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.18);
 }
 
 
@@ -1613,8 +1620,8 @@ a {
 }
 
 .pick-outcome.win {
-  background: rgba(26, 127, 109, 0.12);
-  color: var(--accent);
+  background: var(--green-light);
+  color: var(--green);
 }
 
 .pick-outcome.loss {
@@ -1685,9 +1692,9 @@ a {
   gap: 0.75rem;
   padding: 0.6rem 1rem;
   margin-bottom: 1rem;
-  background: var(--bg-surface);
+  background: var(--bg-surface-2);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .game-slate-header .matchup-team {
@@ -1773,7 +1780,7 @@ a {
   font-weight: 600;
   color: var(--accent);
   background: var(--accent-dim);
-  border: 1px solid rgba(26, 127, 109, 0.25);
+  border: 1px solid rgba(37, 99, 235, 0.25);
   border-radius: 6px;
   padding: 0.5rem 1.25rem;
   cursor: pointer;
@@ -1782,8 +1789,8 @@ a {
 }
 
 .show-all-btn:hover {
-  background: rgba(26, 127, 109, 0.15);
-  border-color: rgba(26, 127, 109, 0.4);
+  background: rgba(37, 99, 235, 0.15);
+  border-color: rgba(37, 99, 235, 0.4);
 }
 
 /* --- Summary card mobile tweaks --- */
@@ -1871,10 +1878,10 @@ a {
   background: var(--bg-surface);
 }
 
-/* --- Dark mode: hardcoded danger color --- */
+/* --- Dark mode: UNDER direction uses green --- */
 [data-theme="dark"] .pick-direction.under {
-  color: var(--danger);
-  background: var(--danger-bg);
+  color: var(--green);
+  background: var(--green-light);
 }
 
 [data-theme="dark"] .pnl-negative,
@@ -1895,13 +1902,13 @@ a {
 
 /* --- Dark mode: loading skeleton --- */
 [data-theme="dark"] .loading-skeleton {
-  background: linear-gradient(90deg, var(--bg-surface) 25%, rgba(45, 184, 157, 0.08) 50%, var(--bg-surface) 75%);
+  background: linear-gradient(90deg, var(--bg-surface) 25%, rgba(59, 130, 246, 0.08) 50%, var(--bg-surface) 75%);
   background-size: 200% 100%;
 }
 
 /* --- Dark mode: table row hover --- */
 [data-theme="dark"] .results-table tbody tr:hover {
-  background: rgba(45, 184, 157, 0.08);
+  background: rgba(59, 130, 246, 0.08);
 }
 
 /* --- Dark mode: push badge --- */
@@ -1993,7 +2000,7 @@ a {
   padding: 0.1rem 0.4rem;
   margin-left: 0.5rem;
   border-radius: 4px;
-  background: #c0392b;
+  background: var(--danger);
   color: white;
   font-size: 0.65rem;
   font-weight: 700;
