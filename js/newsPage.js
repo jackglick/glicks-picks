@@ -43,6 +43,15 @@
 
   function $(id) { return document.getElementById(id); }
 
+  // News data is always live (not season-specific), so bypass GP.fetchJSON
+  // which applies the season prefix (e.g. data/2025/).
+  function fetchNewsJSON(filename, callback) {
+    fetch('data/' + filename)
+      .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+      .then(function (data) { callback(data, null); })
+      .catch(function (err) { callback(null, err); });
+  }
+
   function el(tag, attrs, children) {
     var node = document.createElement(tag);
     if (attrs) {
@@ -297,7 +306,7 @@
     if (showResolved) {
       showResolved.addEventListener('change', function () {
         // Re-fetch and render injury table
-        GP.fetchJSON('injury_ledger.json', function (data, err) {
+        fetchNewsJSON('injury_ledger.json', function (data, err) {
           if (!err && data) renderInjuryTable(data.active_injuries || {});
         });
       });
@@ -311,7 +320,7 @@
   function loadNewsData() {
     setupFilters();
 
-    GP.fetchJSON('reddit_news.json', function (data, err) {
+    fetchNewsJSON('reddit_news.json', function (data, err) {
       if (err || !data) {
         var statusEl = $('news-status');
         if (statusEl) statusEl.textContent = 'News data not yet available. The scraper will populate this page.';
@@ -330,7 +339,7 @@
       renderNewsFeed(data.posts || []);
     });
 
-    GP.fetchJSON('injury_ledger.json', function (data, err) {
+    fetchNewsJSON('injury_ledger.json', function (data, err) {
       if (err || !data) {
         var emptyEl = $('injury-empty');
         if (emptyEl) emptyEl.style.display = '';
