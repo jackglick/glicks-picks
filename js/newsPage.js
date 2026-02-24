@@ -23,12 +23,12 @@
   };
 
   var TYPE_COLORS = {
-    injury: '#c0392b',
-    roster_move: '#3b82f6',
-    'return': '#1a7f6d',
+    injury: '#dc2626',
+    roster_move: '#2563eb',
+    'return': '#059669',
     trade: '#a855f7',
-    lineup: '#d4940a',
-    other: '#6a7384'
+    lineup: '#f59e0b',
+    other: '#64748b'
   };
 
   var PAGE_SIZE = 20;
@@ -85,11 +85,11 @@
     var span = document.createElement('span');
     if (trend === 'declining') {
       span.textContent = ' \u25BC';
-      span.style.color = '#c0392b';
+      span.style.color = '#dc2626';
       span.title = 'Declining';
     } else if (trend === 'improving') {
       span.textContent = ' \u25B2';
-      span.style.color = '#1a7f6d';
+      span.style.color = '#059669';
       span.title = 'Improving';
     }
     return span;
@@ -110,9 +110,9 @@
 
       // Color: green > 0.7, yellow 0.4-0.7, red < 0.4
       var barColor;
-      if (score > 0.7) barColor = '#1a7f6d';
-      else if (score > 0.4) barColor = '#d4940a';
-      else barColor = '#c0392b';
+      if (score > 0.7) barColor = '#059669';
+      else if (score > 0.4) barColor = '#f59e0b';
+      else barColor = '#dc2626';
 
       var injuriesLabel = el('span', { textContent: info.active_injuries + ' injuries' });
       var injuriesDiv = el('div', { className: 'health-injuries' }, [injuriesLabel, trendArrow(info.trend)]);
