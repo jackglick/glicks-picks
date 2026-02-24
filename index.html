@@ -27,9 +27,6 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
-  <!-- Preload LCP hero image -->
-  <link rel="preload" href="images/hero-bg.jpg" as="image">
-
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -85,84 +82,102 @@
 
   <main id="main-content">
     <!-- Hero -->
-    <section class="hero" id="hero">
+    <section class="hero">
       <div class="container">
-        <div class="hero-badge reveal">RESEARCH PROJECT</div>
-        <h1 class="hero-headline reveal">MLB Player Prop<br>Analytics</h1>
-        <p class="hero-sub reveal">Statistical models trained on Statcast pitch-level data, backtested against real sportsbook odds. Break-even at -110 is 52.4%.</p>
-
-        <div class="hero-stats reveal">
-          <div class="hero-stat">
-            <div class="hero-stat-number" id="hero-win-rate">--</div>
-            <div class="hero-stat-label">Win Rate</div>
-            <div class="hero-stat-detail" id="hero-win-rate-detail">across -- bets</div>
-          </div>
-          <div class="hero-stat-divider"></div>
-          <div class="hero-stat">
-            <div class="hero-stat-number" id="hero-roi">--</div>
-            <div class="hero-stat-label">Per-Bet ROI</div>
-            <div class="hero-stat-detail">$100 flat stakes</div>
-          </div>
-          <div class="hero-stat-divider"></div>
-          <div class="hero-stat">
-            <div class="hero-stat-number">7</div>
-            <div class="hero-stat-label">Markets</div>
-            <div class="hero-stat-detail">pitcher + batter props</div>
+        <div class="hero-content">
+          <div class="hero-eyebrow">2025 Backtest Results</div>
+          <h1 class="hero-headline reveal">Data-Driven<br>Player Props</h1>
+          <p class="hero-sub reveal">Statistical models trained on millions of pitches. Seven markets. One goal: find edges the books miss.</p>
+          <div class="hero-cta reveal">
+            <a href="picks.html" class="cta-button primary">Today's Picks</a>
+            <a href="results.html" class="cta-button secondary">Track Record</a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="hero-stat-context reveal">2025 season backtest</div>
+    <!-- Floating Stat Cards -->
+    <div class="container">
+      <div class="stat-cards">
+        <div class="stat-card blue">
+          <div class="stat-accent blue"></div>
+          <div class="stat-value" id="hero-win-rate">--</div>
+          <div class="stat-label">Win Rate</div>
+          <div class="stat-detail" id="hero-win-rate-detail">across -- bets</div>
+        </div>
+        <div class="stat-card green">
+          <div class="stat-accent green"></div>
+          <div class="stat-value" id="hero-roi">--</div>
+          <div class="stat-label">ROI (Flat)</div>
+          <div class="stat-detail">$100 per bet</div>
+        </div>
+        <div class="stat-card emerald">
+          <div class="stat-accent emerald"></div>
+          <div class="stat-value">7</div>
+          <div class="stat-label">Markets</div>
+          <div class="stat-detail">pitcher + batter props</div>
+        </div>
+        <div class="stat-card orange">
+          <div class="stat-accent orange"></div>
+          <div class="stat-value">7 / 7</div>
+          <div class="stat-label">All Profitable</div>
+          <div class="stat-detail">2025 backtest</div>
+        </div>
+      </div>
 
-        <div class="cta-group reveal">
-          <a href="picks.html" class="cta-button">Today's Picks</a>
+      <!-- How It Works -->
+      <section class="section">
+        <h2 class="section-heading">How It Works</h2>
+        <p class="section-sub">A transparent, data-driven approach to MLB player props.</p>
+        <div class="steps-row">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Ingest Pitches</h3>
+            <p>Every pitch from every game flows through the pipeline. Velocity, movement, outcomes.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>Model Matchups</h3>
+            <p>GLM + XGBoost ensemble projects expected stat lines for every starter.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>Find the Edge</h3>
+            <p>Analytical CDF computes true over/under probability against each prop line.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">4</div>
+            <h3>Best Price</h3>
+            <p>Every pick compares odds across 10+ sportsbooks. Where matters as much as what.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Markets -->
+      <section class="section">
+        <h2 class="section-heading">Seven Markets, All Profitable</h2>
+        <p class="section-sub">5 pitcher props + 2 batter props in the 2025 out-of-sample backtest.</p>
+        <div class="market-pills">
+          <div class="market-pill"><span class="type-dot pitcher"></span>Strikeouts <span class="wr">59.4%</span></div>
+          <div class="market-pill"><span class="type-dot pitcher"></span>Earned Runs <span class="wr">55.8%</span></div>
+          <div class="market-pill"><span class="type-dot pitcher"></span>Outs <span class="wr">55.1%</span></div>
+          <div class="market-pill"><span class="type-dot pitcher"></span>Hits Allowed <span class="wr">53.2%</span></div>
+          <div class="market-pill"><span class="type-dot pitcher"></span>Walks <span class="wr">54.1%</span></div>
+          <div class="market-pill"><span class="type-dot batter"></span>Batter Hits <span class="wr">53.8%</span></div>
+          <div class="market-pill"><span class="type-dot batter"></span>Total Bases <span class="wr">53.4%</span></div>
+        </div>
+      </section>
+
+      <!-- Bottom CTA -->
+      <section class="cta-section">
+        <h2 class="section-heading">Ready to See Today's Picks?</h2>
+        <p class="section-sub">Updated daily during the MLB season with the best-priced edges.</p>
+        <div class="hero-cta">
+          <a href="picks.html" class="cta-button primary">Today's Picks</a>
           <a href="results.html" class="cta-button secondary">Track Record</a>
         </div>
-      </div>
-    </section>
-
-    <!-- How It Works -->
-    <section class="how-it-works" id="how-it-works">
-      <div class="container">
-        <h2 class="section-title reveal">How It Works</h2>
-        <p class="section-subtitle reveal">A transparent, data-driven approach to MLB player props.</p>
-        <div class="steps-grid reveal">
-          <div class="step-card">
-            <div class="step-number">1</div>
-            <h3>Ingest Every Pitch</h3>
-            <p>Every pitch from every game flows through our pipeline — velocity, movement, outcomes. Hundreds of thousands of data points per season.</p>
-          </div>
-          <div class="step-card">
-            <div class="step-number">2</div>
-            <h3>Model the Matchup</h3>
-            <p>Statistical models project expected stat lines for every starter, calibrated against years of out-of-sample data.</p>
-          </div>
-          <div class="step-card">
-            <div class="step-number">3</div>
-            <h3>Find the Edge</h3>
-            <p>We compute the true probability of going over or under each prop line — only bets that clear a strict confidence threshold make the cut.</p>
-          </div>
-          <div class="step-card">
-            <div class="step-number">4</div>
-            <h3>Shop the Best Line</h3>
-            <p>Every pick compares odds across 10+ sportsbooks and surfaces the best available price. Where you bet matters as much as what you bet.</p>
-          </div>
-        </div>
-
-        <div class="markets-section reveal">
-          <h3 class="markets-heading">Seven Markets</h3>
-          <div class="markets-grid">
-            <div class="market-tag pitcher">Strikeouts</div>
-            <div class="market-tag pitcher">Earned Runs</div>
-            <div class="market-tag pitcher">Outs Recorded</div>
-            <div class="market-tag pitcher">Hits Allowed</div>
-            <div class="market-tag pitcher">Walks</div>
-            <div class="market-tag batter">Batter Hits</div>
-            <div class="market-tag batter">Batter Total Bases</div>
-          </div>
-          <p class="markets-context">5 pitcher markets + 2 batter markets. All 7 were profitable in the 2025 backtest.</p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
 
   <!-- Footer -->
