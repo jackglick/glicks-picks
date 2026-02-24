@@ -143,7 +143,24 @@
     }
     headerLeft.appendChild(playerDiv);
     var roleText = pick.category === 'batter' ? 'Batter' : 'Starting Pitcher';
-    headerLeft.appendChild(el('div', 'pick-card-role', roleText));
+    var roleDiv = el('div', 'pick-card-role');
+    var teamCode = getPlayerTeamCode(pick);
+    if (teamCode) {
+      var teamLogoUrl = getTeamLogoUrl(teamCode);
+      if (teamLogoUrl) {
+        var teamLogo = document.createElement('img');
+        teamLogo.className = 'pick-card-role-logo';
+        teamLogo.src = teamLogoUrl;
+        teamLogo.alt = teamCode;
+        teamLogo.loading = 'lazy';
+        teamLogo.onerror = function () { teamLogo.style.display = 'none'; };
+        roleDiv.appendChild(teamLogo);
+      }
+      roleDiv.appendChild(el('span', 'pick-card-role-team', teamCode));
+      roleDiv.appendChild(el('span', 'pick-card-role-sep', '\u00b7'));
+    }
+    roleDiv.appendChild(document.createTextNode(roleText));
+    headerLeft.appendChild(roleDiv);
     headerInfo.appendChild(headerLeft);
     header.appendChild(headerInfo);
     card.appendChild(header);
