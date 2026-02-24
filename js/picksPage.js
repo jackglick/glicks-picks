@@ -130,7 +130,15 @@
     header.appendChild(createPlayerAvatar(pick));
     var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
-    headerLeft.appendChild(el('div', 'pick-card-player', formatPlayerName(pick.player)));
+    var playerDiv = el('div', 'pick-card-player', formatPlayerName(pick.player));
+    if (pick.injury_flag) {
+      var injBadge = document.createElement('span');
+      injBadge.className = 'injury-badge';
+      injBadge.textContent = 'INJ';
+      injBadge.title = pick.injury_note || 'Injury concern';
+      playerDiv.appendChild(injBadge);
+    }
+    headerLeft.appendChild(playerDiv);
     var roleText = pick.category === 'batter' ? 'Batter' : 'Starting Pitcher';
     headerLeft.appendChild(el('div', 'pick-card-role', roleText));
     headerInfo.appendChild(headerLeft);
