@@ -212,29 +212,37 @@
           {
             label: 'Flat $100',
             data: flatValues,
-            borderColor: '#1a7f6d',
-            backgroundColor: 'rgba(26, 127, 109, 0.06)',
-            fill: false,
+            borderColor: '#2563eb',
+            backgroundColor: 'rgba(37, 99, 235, 0.08)',
+            fill: true,
             tension: 0.3,
             pointRadius: 0,
             pointHitRadius: 8,
+            pointHoverBackgroundColor: '#2563eb',
+            pointHoverBorderColor: '#ffffff',
+            pointHoverRadius: 5,
+            pointHoverBorderWidth: 2,
             borderWidth: 2.5
           },
           {
             label: '2% of Bankroll',
             data: pctValues,
-            borderColor: '#d4940a',
-            backgroundColor: 'rgba(212, 148, 10, 0.06)',
-            fill: false,
+            borderColor: '#f97316',
+            backgroundColor: 'rgba(249, 115, 22, 0.06)',
+            fill: true,
             tension: 0.3,
             pointRadius: 0,
             pointHitRadius: 8,
+            pointHoverBackgroundColor: '#f97316',
+            pointHoverBorderColor: '#ffffff',
+            pointHoverRadius: 5,
+            pointHoverBorderWidth: 2,
             borderWidth: 2.5
           },
           {
             label: 'Starting Bankroll',
             data: baselineValues,
-            borderColor: 'rgba(150, 160, 175, 0.75)',
+            borderColor: 'rgba(148, 163, 184, 0.6)',
             backgroundColor: 'transparent',
             fill: false,
             tension: 0,
@@ -259,18 +267,19 @@
           legend: {
             display: true,
             labels: {
-              font: { family: 'Inter', size: 11 },
+              font: { family: "'DM Sans'", size: 12, weight: '600' },
               usePointStyle: true,
               pointStyle: 'line',
               boxWidth: 20,
+              padding: 16,
               filter: function (item) {
                 return item.text !== 'Starting Bankroll';
               }
             }
           },
           tooltip: {
-            backgroundColor: 'rgba(17, 28, 48, 0.94)',
-            borderColor: 'rgba(26, 127, 109, 0.45)',
+            backgroundColor: 'rgba(15, 25, 35, 0.95)',
+            borderColor: 'rgba(37, 99, 235, 0.3)',
             borderWidth: 1,
             cornerRadius: 10,
             caretSize: 7,
@@ -281,10 +290,10 @@
             boxPadding: 4,
             titleColor: '#f5f8ff',
             bodyColor: '#e1e8f5',
-            footerColor: '#b8c4d8',
-            titleFont: { family: 'Inter', size: 12, weight: '700' },
+            footerColor: '#94a3b8',
+            titleFont: { family: "'DM Sans'", size: 12, weight: '700' },
             bodyFont: { family: "'JetBrains Mono'", size: 11, weight: '600' },
-            footerFont: { family: 'Inter', size: 10, weight: '600' },
+            footerFont: { family: "'DM Sans'", size: 10, weight: '600' },
             titleMarginBottom: 8,
             bodySpacing: 6,
             footerMarginTop: 6,
@@ -312,8 +321,8 @@
                 });
               },
               labelTextColor: function (ctx) {
-                if (ctx.dataset.label === 'Flat $100') return '#8ff2cf';
-                return '#f6d28a';
+                if (ctx.dataset.label === 'Flat $100') return '#93c5fd';
+                return '#fdba74';
               },
               footer: function (items) {
                 if (!items || items.length === 0) return '';
@@ -338,17 +347,21 @@
         scales: {
           x: {
             grid: { display: false },
+            border: { display: false },
             ticks: {
-              font: { family: 'Inter', size: 11 },
+              font: { family: "'DM Sans'", size: 11 },
+              color: '#94a3b8',
               maxTicksLimit: responsiveTicksLimit
             }
           },
           y: {
             type: 'linear',
             position: 'left',
-            grid: { color: 'rgba(27, 42, 74, 0.06)' },
+            border: { display: false },
+            grid: { color: 'rgba(226, 232, 240, 0.6)' },
             ticks: {
               font: { family: "'JetBrains Mono'", size: isNarrow ? 9 : 11 },
+              color: '#94a3b8',
               maxTicksLimit: isNarrow ? 6 : 8,
               callback: function (val) { return formatDollar(val); }
             }
