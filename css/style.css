@@ -134,6 +134,7 @@ button:focus-visible,
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   height: 64px;
 }
 
@@ -149,6 +150,11 @@ button:focus-visible,
   display: none;
   list-style: none;
   gap: 0.25rem;
+}
+.header-inner nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .nav-links a {
   font-size: 0.8rem;
@@ -604,11 +610,13 @@ body.backtest-mode .mobile-nav {
   font-weight: 800;
   letter-spacing: -0.02em;
   margin-bottom: 0.4rem;
+  text-align: center;
 }
 .section-sub {
   color: var(--text-secondary);
   font-size: 0.95rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 /* --- How It Works --- */
@@ -655,6 +663,7 @@ body.backtest-mode .mobile-nav {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .market-pill {
   display: inline-flex;
