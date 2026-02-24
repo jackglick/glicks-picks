@@ -699,6 +699,15 @@ body.backtest-mode .mobile-nav {
 }
 .cta-section .section-heading { margin-bottom: 0.75rem; }
 .cta-section .section-sub { margin-bottom: 1.75rem; }
+.cta-section .cta-button.secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.cta-section .cta-button.secondary:hover {
+  background: var(--bg-surface-2);
+  color: var(--text);
+}
 
 /* --- Homepage mobile --- */
 @media (max-width: 768px) {
