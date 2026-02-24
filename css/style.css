@@ -1882,3 +1882,162 @@ a {
 .stats-breakdown .results-table {
   min-width: 0;
 }
+
+/* ============================================
+   Dark Mode
+   ============================================ */
+[data-theme="dark"] {
+  --bg: #1a1d23;
+  --bg-surface: #22252b;
+  --bg-surface-2: #2a2d34;
+  --bg-elevated: #32353c;
+  --accent: #2db89d;
+  --accent-hover: #25a68c;
+  --accent-dim: rgba(45, 184, 157, 0.12);
+  --chip-border: rgba(255, 255, 255, 0.12);
+  --chip-hover: rgba(45, 184, 157, 0.15);
+  --navy: #e4e4e8;
+  --yellow: #e8a820;
+  --cream: #1a1d23;
+  --text: #e4e4e8;
+  --text-secondary: #9ca3b0;
+  --text-dim: #7a8290;
+  --muted: #6d7580;
+  --border: rgba(255, 255, 255, 0.08);
+  --danger: #e85d4a;
+  --danger-bg: rgba(232, 93, 74, 0.15);
+}
+
+/* --- Dark mode: header --- */
+[data-theme="dark"] .header {
+  background: rgba(26, 29, 35, 0.97);
+}
+
+/* --- Dark mode: paper texture --- */
+[data-theme="dark"] body::after {
+  opacity: 0;
+}
+
+/* --- Dark mode: hero overlay --- */
+[data-theme="dark"] .hero::before {
+  background:
+    radial-gradient(ellipse 70% 80% at 50% 50%, rgba(26, 29, 35, 0.88) 0%, rgba(26, 29, 35, 0.60) 100%),
+    linear-gradient(180deg, rgba(26, 29, 35, 0.65) 0%, rgba(26, 29, 35, 0.70) 100%);
+}
+
+/* --- Dark mode: hero text shadows (dark glow instead of light) --- */
+[data-theme="dark"] .hero-headline,
+[data-theme="dark"] .hero-stat-number,
+[data-theme="dark"] .hero-stat-label,
+[data-theme="dark"] .hero-stat-detail,
+[data-theme="dark"] .hero-stat-context,
+[data-theme="dark"] .hero-sub {
+  text-shadow: 0 0 20px rgba(26, 29, 35, 0.9), 0 0 40px rgba(26, 29, 35, 0.5);
+}
+
+/* --- Dark mode: box shadows --- */
+[data-theme="dark"] .backtest-calendar-popover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .pick-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .pick-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .step-card,
+[data-theme="dark"] .summary-card,
+[data-theme="dark"] .results-chart-wrapper,
+[data-theme="dark"] .results-table-wrapper,
+[data-theme="dark"] .stats-breakdown {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .books-filter-bar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* --- Dark mode: hardcoded white backgrounds --- */
+[data-theme="dark"] .book-filter-option,
+[data-theme="dark"] .market-filter-chip {
+  background: var(--bg-surface);
+}
+
+/* --- Dark mode: hardcoded danger color --- */
+[data-theme="dark"] .pick-direction.under {
+  color: var(--danger);
+  background: var(--danger-bg);
+}
+
+[data-theme="dark"] .pnl-negative,
+[data-theme="dark"] .summary-stat-value.negative,
+[data-theme="dark"] .summary-meta strong.negative {
+  color: var(--danger);
+}
+
+[data-theme="dark"] .result-badge.loss {
+  color: var(--danger);
+  background: var(--danger-bg);
+}
+
+/* --- Dark mode: skip link --- */
+[data-theme="dark"] .skip-link {
+  background: var(--bg-surface);
+}
+
+/* --- Dark mode: loading skeleton --- */
+[data-theme="dark"] .loading-skeleton {
+  background: linear-gradient(90deg, var(--bg-surface) 25%, rgba(45, 184, 157, 0.08) 50%, var(--bg-surface) 75%);
+  background-size: 200% 100%;
+}
+
+/* --- Dark mode: table row hover --- */
+[data-theme="dark"] .results-table tbody tr:hover {
+  background: rgba(45, 184, 157, 0.08);
+}
+
+/* --- Dark mode: push badge --- */
+[data-theme="dark"] .result-badge.push {
+  background: rgba(122, 130, 144, 0.15);
+}
+
+[data-theme="dark"] .pick-outcome.push {
+  background: rgba(122, 130, 144, 0.15);
+}
+
+/* --- Theme Toggle Button --- */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  padding: 0;
+  border-radius: 6px;
+  transition: color 0.2s;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+}
+
+/* Light mode: show moon, hide sun */
+.theme-icon-sun {
+  display: none;
+}
+
+/* Dark mode: show sun, hide moon */
+[data-theme="dark"] .theme-icon-moon {
+  display: none;
+}
+
+[data-theme="dark"] .theme-icon-sun {
+  display: block;
+}
