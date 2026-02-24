@@ -340,11 +340,7 @@
     });
   }
 
-  // Hook into page initialization
-  if (GP.SiteLogic && GP.SiteLogic.onReady) {
-    GP.SiteLogic.onReady(loadNewsData);
-  } else {
-    document.addEventListener('DOMContentLoaded', loadNewsData);
-  }
+  // Register for main.js to call (same pattern as picksPage/resultsPage)
+  GP.initNewsPage = loadNewsData;
 
 })();

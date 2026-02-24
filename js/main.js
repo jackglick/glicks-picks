@@ -155,5 +155,6 @@
   initHomePage();
   if (typeof GP.initPicksPage === 'function') GP.initPicksPage();
   if (typeof GP.initResultsPage === 'function') GP.initResultsPage();
+  if (typeof GP.initNewsPage === 'function') GP.initNewsPage();
 
 })();
