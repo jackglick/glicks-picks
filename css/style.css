@@ -1165,7 +1165,7 @@ body.backtest-mode .mobile-nav {
 }
 
 .summary-stat-value.positive { color: var(--accent); }
-.summary-stat-value.negative { color: #c0392b; }
+.summary-stat-value.negative { color: var(--danger); }
 
 /* Keep long record values on one line */
 .summary-stat-value#stat-record {
@@ -1205,7 +1205,7 @@ body.backtest-mode .mobile-nav {
 }
 
 .summary-meta strong.positive { color: var(--accent); }
-.summary-meta strong.negative { color: #c0392b; }
+.summary-meta strong.negative { color: var(--danger); }
 
 /* --- Detail Breakdowns --- */
 .results-details {
@@ -1372,7 +1372,7 @@ a {
   left: 1rem;
   top: -40px;
   z-index: 200;
-  background: #ffffff;
+  background: var(--bg-surface);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -1912,6 +1912,22 @@ a {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* --- Dark mode: card borders (shadows less visible on dark bg) --- */
+[data-theme="dark"] .stat-card,
+[data-theme="dark"] .summary-card,
+[data-theme="dark"] .results-chart-wrapper,
+[data-theme="dark"] .results-table-wrapper,
+[data-theme="dark"] .stats-breakdown,
+[data-theme="dark"] .news-card,
+[data-theme="dark"] .health-card {
+  border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .step,
+[data-theme="dark"] .market-pill {
+  border-color: var(--border);
+}
+
 [data-theme="dark"] .books-filter-bar {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
@@ -1928,21 +1944,11 @@ a {
   background: var(--green-light);
 }
 
-[data-theme="dark"] .pnl-negative,
-[data-theme="dark"] .summary-stat-value.negative,
-[data-theme="dark"] .summary-meta strong.negative {
-  color: var(--danger);
-}
-
 [data-theme="dark"] .result-badge.loss {
   color: var(--danger);
   background: var(--danger-bg);
 }
 
-/* --- Dark mode: skip link --- */
-[data-theme="dark"] .skip-link {
-  background: var(--bg-surface);
-}
 
 /* --- Dark mode: loading skeleton --- */
 [data-theme="dark"] .loading-skeleton {
@@ -1974,14 +1980,14 @@ a {
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--text-secondary);
+  color: rgba(255,255,255,0.55);
   padding: 0;
   border-radius: 6px;
   transition: color 0.2s;
 }
 
 .theme-toggle:hover {
-  color: var(--text);
+  color: rgba(255,255,255,0.85);
 }
 
 /* Light mode: show moon, hide sun */
