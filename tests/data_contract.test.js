@@ -202,3 +202,17 @@ test('RLS enforces read-only on bankroll_curve', async function () {
   });
   assert.ok(!res.ok || res.status >= 400, 'anon insert on bankroll_curve should be rejected, got ' + res.status);
 });
+
+test('RLS enforces read-only on season_summaries', async function () {
+  var res = await fetch(SUPABASE_URL + '/rest/v1/season_summaries', {
+    method: 'POST',
+    headers: {
+      'apikey': SUPABASE_ANON_KEY,
+      'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+      'Content-Type': 'application/json',
+      'Prefer': 'return=minimal',
+    },
+    body: JSON.stringify({ season: 9999, summary: {} }),
+  });
+  assert.ok(!res.ok || res.status >= 400, 'anon insert on season_summaries should be rejected, got ' + res.status);
+});
