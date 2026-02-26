@@ -733,16 +733,13 @@
     var nextBtn = document.getElementById('backtest-next-month');
     if (!picker || !trigger || !popover || !prevBtn || !nextBtn) return;
 
-    fetch(GP.getDataPath('picks_index.json'))
+    GP.supabase.rpc('picks_index', { p_season: GP.getSeasonInt() })
       .then(function (res) {
-        if (!res.ok) throw new Error(res.status);
-        return res.json();
-      })
-      .then(function (index) {
-        if (!index || !index.dates || index.dates.length === 0) {
+        if (res.error || !res.data || res.data.length === 0) {
           setStatusText('picks-status', 'No date index available for this season.');
           return;
         }
+        var index = { dates: res.data };
 
         if (SiteLogic && typeof SiteLogic.buildBacktestIndex === 'function') {
           var builtIndex = SiteLogic.buildBacktestIndex(index);
@@ -841,13 +838,12 @@
 
     if (container) GP.showLoadingSkeletons(container, 4);
 
-    fetch(GP.getDataPath('picks/' + dateStr + '.json'))
+    GP.supabase.from('picks').select('*')
+      .eq('season', GP.getSeasonInt())
+      .eq('date', dateStr)
+      .order('stars', { ascending: false })
       .then(function (res) {
-        if (!res.ok) throw new Error(res.status);
-        return res.json();
-      })
-      .then(function (data) {
-        picksState.allPicks = data && data.picks ? data.picks : [];
+        picksState.allPicks = res.data || [];
         syncBookFilterState();
         renderBooksFilterPanel();
         initMarketFilter(picksState.allPicks);
@@ -897,41 +893,46 @@
 
     GP.showLoadingSkeletons(container, 4);
 
-    GP.fetchJSON('picks_today.json', function (data, err) {
-      var dateEl = document.getElementById('picks-date');
+    var today = new Date().toISOString().slice(0, 10);
+    GP.supabase.from('picks').select('*')
+      .eq('season', GP.getSeasonInt())
+      .eq('date', today)
+      .order('stars', { ascending: false })
+      .then(function (res) {
+        var dateEl = document.getElementById('picks-date');
+        var picks = res.data || [];
 
-      if (err || !data) {
+        if (picks.length === 0) {
+          picksState.allPicks = [];
+          renderBooksFilterPanel();
+          renderPicksWithFilters();
+          setStatusText('picks-status', '');
+          if (dateEl) dateEl.textContent = '';
+          return;
+        }
+
+        if (dateEl) {
+          var parts = [];
+          parts.push(formatFullDate(today));
+          parts.push(picks.length + ' picks');
+          dateEl.textContent = parts.join(' \u2022 ');
+        }
+
+        picksState.allPicks = picks;
+        syncBookFilterState();
+        renderBooksFilterPanel();
+        initMarketFilter(picksState.allPicks);
+        renderPicksWithFilters();
+        setStatusText('picks-status', '');
+      })
+      .catch(function () {
         picksState.allPicks = [];
         renderBooksFilterPanel();
         renderPicksWithFilters();
-        // Don't show error message — offseason hero handles the empty state
         setStatusText('picks-status', '');
+        var dateEl = document.getElementById('picks-date');
         if (dateEl) dateEl.textContent = '';
-        return;
-      }
-
-      if (dateEl) {
-        var parts = [];
-        if (data.date) {
-          parts.push(formatFullDate(data.date));
-        }
-        if (data.picks && data.picks.length > 0) {
-          parts.push(data.picks.length + ' picks');
-        }
-        if (data.generated_at) {
-          parts.push('Updated ' + formatTimestamp(data.generated_at));
-        }
-        dateEl.textContent = parts.length > 0 ? parts.join(' \u2022 ') : 'Season starts soon';
-      }
-
-      picksState.allPicks = data.picks || [];
-      syncBookFilterState();
-      renderBooksFilterPanel();
-      initMarketFilter(picksState.allPicks);
-      renderPicksWithFilters();
-
-      setStatusText('picks-status', '');
-    });
+      });
   };
 
 })();
