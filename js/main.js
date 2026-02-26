@@ -97,12 +97,12 @@
     var heroWinRate = document.getElementById('hero-win-rate');
     if (!heroWinRate) return;
 
-    fetch('data/2025/results.json')
-      .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
-      .then(function (data) {
-        if (!data || !data.summary) return;
+    GP.supabase.from('season_summaries').select('summary')
+      .eq('season', 2025).maybeSingle()
+      .then(function (res) {
+        if (!res.data || !res.data.summary) return;
 
-        var summary = data.summary;
+        var summary = res.data.summary;
         GP.setStatusText('hero-win-rate', summary.win_rate.toFixed(1) + '%');
         GP.setStatusText('hero-win-rate-detail', 'across ' + summary.total_bets.toLocaleString('en-US') + ' bets');
 
