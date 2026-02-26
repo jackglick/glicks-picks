@@ -29,9 +29,12 @@
     var scrollWrap = el('div', 'results-table-scroll');
     var table = document.createElement('table');
     table.className = 'results-table';
+    var caption = document.createElement('caption');
+    caption.textContent = 'Performance breakdown by bet direction';
+    table.appendChild(caption);
     var thead = document.createElement('thead');
     var headRow = document.createElement('tr');
-    ['Direction', 'Bets', 'Win Rate', 'Flat Return', '2% Return'].forEach(function (h) {
+    ['Direction', 'Bets', 'Win Rate', 'ROI'].forEach(function (h) {
       var th = el('th', '', h);
       th.setAttribute('scope', 'col');
       headRow.appendChild(th);
@@ -45,12 +48,9 @@
       tr.appendChild(el('td', '', String(d.direction || '')));
       tr.appendChild(el('td', '', String(d.bets || 0)));
       tr.appendChild(el('td', '', (d.win_rate != null ? d.win_rate.toFixed(1) : '0.0') + '%'));
-      var flatRet = d.flat_return != null ? d.flat_return : (d.pnl || 0) / 5000 * 100;
-      tr.appendChild(el('td', flatRet >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%'));
-      var pctRet = d.pct_return != null ? d.pct_return : 0;
-      tr.appendChild(el('td', pctRet >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (pctRet >= 0 ? '+' : '') + pctRet.toFixed(1) + '%'));
+      var dRoi = d.roi != null ? d.roi : 0;
+      tr.appendChild(el('td', dRoi >= 0 ? 'pnl-positive' : 'pnl-negative',
+        (dRoi >= 0 ? '+' : '') + dRoi.toFixed(1) + '%'));
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
@@ -144,7 +144,9 @@
 
     var recent = data.recent;
     var INITIAL_LIMIT = 50;
-    var showAll = recent.length <= INITIAL_LIMIT;
+    var hasMore = recent.length > INITIAL_LIMIT;
+    if (hasMore) recent = recent.slice(0, INITIAL_LIMIT);
+    var showAll = !hasMore;
 
     function renderRows(items) {
       clearChildren(recentBody);
@@ -174,10 +176,16 @@
       var toggleTd = document.createElement('td');
       toggleTd.colSpan = 5;
       toggleTd.style.textAlign = 'center';
-      var toggleBtn = el('button', 'show-all-btn', 'Show all ' + recent.length + ' picks');
+      var toggleBtn = el('button', 'show-all-btn', 'Show all picks');
       toggleBtn.type = 'button';
       toggleBtn.addEventListener('click', function () {
-        renderRows(recent);
+        toggleBtn.textContent = 'Loading\u2026';
+        toggleBtn.disabled = true;
+        GP.supabase.from('picks')
+          .select('date,player,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
+          .eq('season', GP.getSeasonInt()).not('result', 'is', null)
+          .order('date', { ascending: false })
+          .then(function (res) { renderRows(res.data || []); });
       });
       toggleTd.appendChild(toggleBtn);
       toggleRow.appendChild(toggleTd);
@@ -408,7 +416,7 @@
       GP.supabase.from('clv_summary').select('*').eq('season', seasonInt),
       GP.supabase.from('picks').select('date,player,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
         .eq('season', seasonInt).not('result', 'is', null)
-        .order('date', { ascending: false }).limit(50),
+        .order('date', { ascending: false }).limit(51),
     ]).then(function (results) {
       var summaryRes = results[0];
       var marketRes = results[1];
@@ -456,8 +464,8 @@
             if (emptyTitle) emptyTitle.textContent = 'Season Starting Soon';
             if (emptyCopy) emptyCopy.textContent = 'Results will appear here once the ' + season + ' season begins and picks are graded. Select a season above to explore the backtest archive.';
           } else {
-            if (emptyTitle) emptyTitle.textContent = 'Results unavailable';
-            if (emptyCopy) emptyCopy.textContent = 'We could not load results data for this season. Please try refreshing.';
+            if (emptyTitle) emptyTitle.textContent = 'No data for ' + season;
+            if (emptyCopy) emptyCopy.textContent = 'Archive data is not available for the ' + season + ' season.';
           }
         }
         setStatusText('results-generated-at', '');
@@ -519,12 +527,9 @@
           tr.appendChild(el('td', '', String(m.bets)));
           tr.appendChild(el('td', '', m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : '')));
           tr.appendChild(el('td', '', m.win_rate.toFixed(1) + '%'));
-          var flatRet = m.flat_return != null ? m.flat_return : (m.pnl / 5000 * 100);
-          tr.appendChild(el('td', flatRet >= 0 ? 'pnl-positive' : 'pnl-negative',
-            (flatRet >= 0 ? '+' : '') + flatRet.toFixed(1) + '%'));
-          var pctRet = m.pct_return != null ? m.pct_return : 0;
-          tr.appendChild(el('td', pctRet >= 0 ? 'pnl-positive' : 'pnl-negative',
-            (pctRet >= 0 ? '+' : '') + pctRet.toFixed(1) + '%'));
+          var mRoi = m.roi != null ? m.roi : 0;
+          tr.appendChild(el('td', mRoi >= 0 ? 'pnl-positive' : 'pnl-negative',
+            (mRoi >= 0 ? '+' : '') + mRoi.toFixed(1) + '%'));
           marketBody.appendChild(tr);
         });
       }

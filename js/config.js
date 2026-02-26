@@ -47,7 +47,8 @@ GP.TEAM_LOGO_IDS = {
 
 GP.supabase = supabase.createClient(
   'https://ajjruzolkbzardssopos.supabase.co',
-  'sb_publishable_aAFvyqUjJFYQsuG8GY2KTA_U4SLd545'
+  'sb_publishable_aAFvyqUjJFYQsuG8GY2KTA_U4SLd545',
+  { auth: { autoRefreshToken: false, persistSession: false, detectSessionInUrl: false } }
 );
 
 GP.getSeasonInt = function () {

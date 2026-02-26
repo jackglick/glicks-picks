@@ -1,9 +1,21 @@
 /* ============================================
    Glick's Picks — Bold & Sporty Theme
    ============================================ */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap');
-
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+.stat-value.loading {
+  color: transparent;
+  background: linear-gradient(90deg, var(--bg-elevated, #fff) 25%, rgba(37,99,235,0.08) 50%, var(--bg-elevated, #fff) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 6px;
+  display: inline-block;
+  min-width: 4ch;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
 
 :root {
   color-scheme: light;

@@ -82,6 +82,9 @@
     buttons.forEach(function (btn) {
       if (btn.getAttribute('data-season') === season) {
         btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+      } else {
+        btn.setAttribute('aria-pressed', 'false');
       }
       btn.addEventListener('click', function () {
         var picked = btn.getAttribute('data-season');
@@ -108,15 +111,21 @@
 
         var summary = res.data.summary;
         GP.setStatusText('hero-win-rate', summary.win_rate.toFixed(1) + '%');
+        heroWinRate.classList.remove('loading');
         GP.setStatusText('hero-win-rate-detail', 'across ' + summary.total_bets.toLocaleString('en-US') + ' bets');
 
         var betRoi = summary.bet_roi != null ? summary.bet_roi : 0;
         GP.setStatusText('hero-roi', (betRoi >= 0 ? '+' : '') + betRoi.toFixed(1) + '%');
+        var roiEl = document.getElementById('hero-roi');
+        if (roiEl) roiEl.classList.remove('loading');
       })
       .catch(function (err) {
         if (typeof console !== 'undefined' && console.error) {
           console.error('Failed to load hero stats:', err);
         }
+        heroWinRate.classList.remove('loading');
+        var roiEl = document.getElementById('hero-roi');
+        if (roiEl) roiEl.classList.remove('loading');
       });
   }
 

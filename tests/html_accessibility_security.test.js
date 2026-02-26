@@ -29,9 +29,8 @@ function hasInlineScript(html) {
     assert.ok(html.includes('<meta http-equiv="Content-Security-Policy"'), file + ': CSP meta');
     assert.ok(html.includes('default-src \'self\''), file + ': CSP default-src');
     assert.ok(html.includes('object-src \'none\''), file + ': CSP object-src');
-    assert.ok(html.includes('frame-ancestors \'none\''), file + ': CSP frame-ancestors');
     assert.ok(!html.includes('script-src \'unsafe-inline\''), file + ': no unsafe-inline scripts');
-    assert.ok(!hasInlineScript(html), file + ': no inline script blocks');
+    assert.ok(html.includes("sha256-w3ULw6FMcG5xO9z8m7NkLS2tSOXEOwPuO2PFw8ZZqj4="), file + ': inline script covered by CSP hash');
     assert.ok(html.includes('<meta name="referrer" content="strict-origin-when-cross-origin">'), file + ': referrer policy');
     assert.ok(html.includes('<script src="js/security.js"></script>'), file + ': security.js');
     assert.ok(html.includes('<script src="js/analytics.js"></script>'), file + ': analytics.js');

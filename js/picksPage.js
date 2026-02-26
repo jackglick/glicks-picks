@@ -189,6 +189,8 @@
         bookDiv.appendChild(dot);
         var displayName = GP.BOOK_DISPLAY[bookKey] || pick.best_book;
         bookDiv.appendChild(document.createTextNode(displayName + ' '));
+      } else if (!pick.best_book && pick.best_price !== null && pick.best_price !== undefined) {
+        bookDiv.appendChild(document.createTextNode('Best Price '));
       }
       if (pick.best_price !== null && pick.best_price !== undefined) {
         bookDiv.appendChild(el('span', 'pick-card-price', formatPrice(pick.best_price)));
