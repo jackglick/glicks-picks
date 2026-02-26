@@ -397,11 +397,45 @@
       }
     }
 
-    GP.fetchJSON('results.json', function (data, err) {
+    var seasonInt = GP.getSeasonInt();
+    Promise.all([
+      GP.supabase.from('season_summaries').select('*').eq('season', seasonInt).maybeSingle(),
+      GP.supabase.from('market_stats').select('*').eq('season', seasonInt),
+      GP.supabase.from('direction_stats').select('*').eq('season', seasonInt),
+      GP.supabase.from('star_tier_stats').select('*').eq('season', seasonInt),
+      GP.supabase.from('bankroll_curve').select('*').eq('season', seasonInt).order('date'),
+      GP.supabase.from('clv_daily').select('*').eq('season', seasonInt).order('date'),
+      GP.supabase.from('clv_summary').select('*').eq('season', seasonInt),
+      GP.supabase.from('picks').select('date,player,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
+        .eq('season', seasonInt).not('result', 'is', null)
+        .order('date', { ascending: false }).limit(50),
+    ]).then(function (results) {
+      var summaryRes = results[0];
+      var marketRes = results[1];
+      var directionRes = results[2];
+      var starRes = results[3];
+      var curveRes = results[4];
+      var clvDailyRes = results[5];
+      var clvSummaryRes = results[6];
+      var recentRes = results[7];
+
+      var data = {
+        generated_at: summaryRes.data ? summaryRes.data.updated_at : null,
+        summary: summaryRes.data ? summaryRes.data.summary : null,
+        player_attention: summaryRes.data ? summaryRes.data.player_attention : null,
+        by_market: marketRes.data || [],
+        direction_stats: directionRes.data || [],
+        star_tier_stats: starRes.data || [],
+        recent: recentRes.data || [],
+        bankroll_curve: curveRes.data || [],
+        clv_summary: clvSummaryRes.data ? { by_market: clvSummaryRes.data } : null,
+        clv_by_date: clvDailyRes.data || [],
+      };
+
       var emptyEl = document.getElementById('results-empty');
       var contentEl = document.getElementById('results-content');
 
-      if (err || !data || !data.summary || data.summary.total_bets === 0) {
+      if (!data.summary || data.summary.total_bets === 0) {
         if (emptyEl) {
           emptyEl.style.display = '';
           var emptyTitle = document.getElementById('results-empty-title');
@@ -488,7 +522,6 @@
       renderDrawdownStreak(data);
 
       if (data.bankroll_curve && data.bankroll_curve.length > 1) {
-        var first = data.bankroll_curve[0];
         var last = data.bankroll_curve[data.bankroll_curve.length - 1];
         var initBk = s.initial_bankroll || 5000;
         setStatusText(
@@ -515,6 +548,18 @@
       }
 
       GP.reobserveReveals();
+
+    }).catch(function (err) {
+      console.error('Results fetch error:', err);
+      var emptyEl = document.getElementById('results-empty');
+      if (emptyEl) {
+        emptyEl.style.display = '';
+        var emptyTitle = document.getElementById('results-empty-title');
+        var emptyCopy = document.getElementById('results-empty-copy');
+        if (emptyTitle) emptyTitle.textContent = 'Results unavailable';
+        if (emptyCopy) emptyCopy.textContent = 'We could not load results data. Please try refreshing.';
+      }
+      setStatusText('results-generated-at', '');
     });
   };
 
