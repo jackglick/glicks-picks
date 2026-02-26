@@ -49,25 +49,6 @@
     return GP.getSeason() !== GP.CURRENT_SEASON;
   };
 
-  GP.getDataPath = function (filename) {
-    var season = GP.getSeason();
-    if (SiteLogic && typeof SiteLogic.getDataPath === 'function') {
-      return SiteLogic.getDataPath(season, filename);
-    }
-    return season === GP.CURRENT_SEASON ? 'data/' + filename : 'data/' + season + '/' + filename;
-  };
-
-  // --- Fetch ---
-  GP.fetchJSON = function (filename, callback) {
-    fetch(GP.getDataPath(filename))
-      .then(function (res) {
-        if (!res.ok) throw new Error(res.status);
-        return res.json();
-      })
-      .then(function (data) { callback(data, null); })
-      .catch(function (err) { callback(null, err); });
-  };
-
   // --- Formatting ---
   GP.formatPrice = function (price) {
     if (price === null || price === undefined) return '';

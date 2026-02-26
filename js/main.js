@@ -100,6 +100,10 @@
     GP.supabase.from('season_summaries').select('summary')
       .eq('season', 2025).maybeSingle()
       .then(function (res) {
+        if (res.error) {
+          console.error('Failed to load hero stats:', res.error);
+          return;
+        }
         if (!res.data || !res.data.summary) return;
 
         var summary = res.data.summary;

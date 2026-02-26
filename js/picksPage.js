@@ -925,11 +925,12 @@
         renderPicksWithFilters();
         setStatusText('picks-status', '');
       })
-      .catch(function () {
+      .catch(function (err) {
+        console.error('Failed to load today\'s picks:', err);
         picksState.allPicks = [];
         renderBooksFilterPanel();
         renderPicksWithFilters();
-        setStatusText('picks-status', '');
+        setStatusText('picks-status', 'Could not load picks. Please try refreshing.');
         var dateEl = document.getElementById('picks-date');
         if (dateEl) dateEl.textContent = '';
       });

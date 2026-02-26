@@ -419,6 +419,18 @@
       var clvSummaryRes = results[6];
       var recentRes = results[7];
 
+      // Check for Supabase API-level errors
+      var queryNames = ['season_summaries', 'market_stats', 'direction_stats', 'star_tier_stats',
+                        'bankroll_curve', 'clv_daily', 'clv_summary', 'picks'];
+      var queryErrors = [];
+      [summaryRes, marketRes, directionRes, starRes, curveRes, clvDailyRes, clvSummaryRes, recentRes]
+        .forEach(function (res, i) {
+          if (res.error) {
+            console.error('Supabase error for ' + queryNames[i] + ':', res.error);
+            queryErrors.push(queryNames[i]);
+          }
+        });
+
       var data = {
         generated_at: summaryRes.data ? summaryRes.data.updated_at : null,
         summary: summaryRes.data ? summaryRes.data.summary : null,
@@ -545,6 +557,11 @@
             });
           }
         }
+      }
+
+      if (queryErrors.length > 0) {
+        setStatusText('results-generated-at',
+          'Warning: Some data failed to load (' + queryErrors.join(', ') + '). Try refreshing.');
       }
 
       GP.reobserveReveals();

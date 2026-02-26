@@ -138,3 +138,67 @@ test('RLS enforces read-only (anon cannot insert)', async function () {
   // Should be rejected (403 or 401)
   assert.ok(!res.ok || res.status >= 400, 'anon insert should be rejected, got ' + res.status);
 });
+
+test('RLS enforces read-only (anon cannot update)', async function () {
+  // With RLS select-only policy, PostgREST returns 200 with empty array (0 rows affected)
+  var res = await fetch(SUPABASE_URL + '/rest/v1/picks?season=eq.2025&limit=1', {
+    method: 'PATCH',
+    headers: {
+      'apikey': SUPABASE_ANON_KEY,
+      'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+      'Content-Type': 'application/json',
+      'Prefer': 'return=representation',
+    },
+    body: JSON.stringify({ player: 'Hacked' }),
+  });
+  if (res.status >= 400) {
+    // Explicitly rejected — pass
+    assert.ok(true);
+  } else {
+    // PostgREST may return 200 with empty array (RLS silently blocks)
+    var body = await res.json();
+    assert.ok(Array.isArray(body) && body.length === 0,
+      'anon update should affect 0 rows, got ' + JSON.stringify(body).slice(0, 100));
+  }
+  // Verify no data was corrupted
+  var check = await supabaseGet('picks?player=eq.Hacked');
+  assert.equal(check.length, 0, 'no rows should have player=Hacked');
+});
+
+test('RLS enforces read-only (anon cannot delete)', async function () {
+  // With RLS select-only policy, PostgREST returns 200 with empty array (0 rows affected)
+  var res = await fetch(SUPABASE_URL + '/rest/v1/picks?season=eq.2025&limit=1', {
+    method: 'DELETE',
+    headers: {
+      'apikey': SUPABASE_ANON_KEY,
+      'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+      'Prefer': 'return=representation',
+    },
+  });
+  if (res.status >= 400) {
+    // Explicitly rejected — pass
+    assert.ok(true);
+  } else {
+    // PostgREST may return 200 with empty array (RLS silently blocks)
+    var body = await res.json();
+    assert.ok(Array.isArray(body) && body.length === 0,
+      'anon delete should affect 0 rows, got ' + JSON.stringify(body).slice(0, 100));
+  }
+  // Verify data still exists
+  var check = await supabaseGet('picks?season=eq.2025&limit=1');
+  assert.ok(check.length > 0, 'picks should still have data after failed delete');
+});
+
+test('RLS enforces read-only on bankroll_curve', async function () {
+  var res = await fetch(SUPABASE_URL + '/rest/v1/bankroll_curve', {
+    method: 'POST',
+    headers: {
+      'apikey': SUPABASE_ANON_KEY,
+      'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+      'Content-Type': 'application/json',
+      'Prefer': 'return=minimal',
+    },
+    body: JSON.stringify({ season: 9999, date: '9999-01-01', flat: 0, pct: 0, kelly: 0 }),
+  });
+  assert.ok(!res.ok || res.status >= 400, 'anon insert on bankroll_curve should be rejected, got ' + res.status);
+});
