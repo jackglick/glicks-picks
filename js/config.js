@@ -47,7 +47,7 @@ GP.TEAM_LOGO_IDS = {
 
 GP.supabase = supabase.createClient(
   'https://ajjruzolkbzardssopos.supabase.co',
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqanJ1em9sa2J6YXJkc3NvcG9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxMTgwODUsImV4cCI6MjA4NzY5NDA4NX0.Jfl4-BGDBnGvpL-qVJMBfhI3jw4-v5GTshk2Y58ts4I'
+  'sb_publishable_aAFvyqUjJFYQsuG8GY2KTA_U4SLd545'
 );
 
 GP.getSeasonInt = function () {

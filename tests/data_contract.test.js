@@ -5,7 +5,7 @@ const assert = require('node:assert/strict');
 
 // Supabase REST API via built-in fetch (Node 18+)
 const SUPABASE_URL = process.env.SUPABASE_URL || 'https://ajjruzolkbzardssopos.supabase.co';
-const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqanJ1em9sa2J6YXJkc3NvcG9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxMTgwODUsImV4cCI6MjA4NzY5NDA4NX0.Jfl4-BGDBnGvpL-qVJMBfhI3jw4-v5GTshk2Y58ts4I';
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY || 'sb_publishable_aAFvyqUjJFYQsuG8GY2KTA_U4SLd545';
 
 function supabaseGet(path) {
   return fetch(SUPABASE_URL + '/rest/v1/' + path, {
