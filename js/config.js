@@ -44,3 +44,12 @@ GP.TEAM_LOGO_IDS = {
   'PHI': 143, 'PIT': 134, 'SD': 135, 'SEA': 136, 'SF': 137,
   'STL': 138, 'TB': 139, 'TEX': 140, 'TOR': 141, 'WSH': 120
 };
+
+GP.supabase = supabase.createClient(
+  'https://ajjruzolkbzardssopos.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqanJ1em9sa2J6YXJkc3NvcG9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxMTgwODUsImV4cCI6MjA4NzY5NDA4NX0.Jfl4-BGDBnGvpL-qVJMBfhI3jw4-v5GTshk2Y58ts4I'
+);
+
+GP.getSeasonInt = function () {
+  return parseInt(GP.getSeason(), 10);
+};
