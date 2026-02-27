@@ -60,7 +60,7 @@
     var hasPill = document.querySelector('.season-pill');
     if (banner) {
       if (GP.isArchiveSeason() && hasPill) {
-        banner.textContent = 'Viewing ' + season + ' Season Archive';
+        banner.textContent = 'Viewing ' + season + ' Season Replay';
         banner.style.display = 'block';
       } else {
         banner.style.display = 'none';

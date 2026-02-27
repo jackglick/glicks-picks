@@ -24,7 +24,7 @@
     var stats = data.direction_stats;
     if (stats.length === 0) return;
 
-    container.appendChild(el('h3', 'results-section-heading', 'By Direction'));
+    container.appendChild(el('h3', 'results-section-heading', 'Splits'));
 
     var scrollWrap = el('div', 'results-table-scroll');
     var table = document.createElement('table');
@@ -176,7 +176,7 @@
       var toggleTd = document.createElement('td');
       toggleTd.colSpan = 5;
       toggleTd.style.textAlign = 'center';
-      var toggleBtn = el('button', 'show-all-btn', 'Show all picks');
+      var toggleBtn = el('button', 'show-all-btn', 'Full game log');
       toggleBtn.type = 'button';
       toggleBtn.addEventListener('click', function () {
         toggleBtn.textContent = 'Loading\u2026';

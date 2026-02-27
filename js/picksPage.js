@@ -170,7 +170,7 @@
 
     var body = el('div', 'pick-card-body');
     var callWrapper = el('div', 'pick-call-wrapper');
-    callWrapper.appendChild(el('span', 'pick-call-label', 'Our Call'));
+    callWrapper.appendChild(el('span', 'pick-call-label', 'The Call'));
     var dirClass = pick.direction === 'OVER' ? 'over' : 'under';
     callWrapper.appendChild(el('span', 'pick-direction ' + dirClass, pick.direction));
     body.appendChild(callWrapper);
@@ -445,8 +445,8 @@
         emptyEl.style.display = 'none';
       } else {
         setPicksEmptyState(
-          'No picks available',
-          'Try a different date or season, or check again after the next data refresh.'
+          'Rain Delay',
+          'No picks on this date. The models found no edges worth swinging at.'
         );
       }
       if (summary) summary.textContent = '';
@@ -545,7 +545,7 @@
 
         var header = el('div', 'game-slate-header');
         header.appendChild(createTeamBadge(normalizeTeamCode(group.away_team), 'left'));
-        header.appendChild(el('span', 'matchup-vs', 'at'));
+        header.appendChild(el('span', 'matchup-vs', '@'));
         header.appendChild(createTeamBadge(normalizeTeamCode(group.home_team), 'right'));
         section.appendChild(header);
 
