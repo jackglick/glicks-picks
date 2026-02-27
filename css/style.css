@@ -488,7 +488,15 @@ body.backtest-mode .mobile-nav {
 
 /* --- Hero --- */
 .hero {
-  background: var(--bg-dark);
+  background-color: var(--bg-dark);
+  background-image:
+    linear-gradient(
+      rgba(27, 42, 74, 0.72),
+      rgba(27, 42, 74, 0.84)
+    ),
+    url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center 40%;
   padding: 3.5rem 0 5.5rem;
   color: white;
   position: relative;
@@ -2017,6 +2025,16 @@ a {
   --leather: #5a3820;
   --leather-light: rgba(90, 56, 32, 0.10);
   --chalk: rgba(232, 228, 223, 0.08);
+}
+
+/* --- Dark mode: hero photo overlay darker --- */
+[data-theme="dark"] .hero {
+  background-image:
+    linear-gradient(
+      rgba(15, 20, 35, 0.80),
+      rgba(15, 20, 35, 0.90)
+    ),
+    url('../images/hero-bg.jpg');
 }
 
 /* --- Dark mode: hero curve matches dark bg --- */
