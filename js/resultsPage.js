@@ -157,14 +157,19 @@
         tr.appendChild(el('td', '', r.direction + ' ' + r.line + ' ' + r.market));
 
         var tdResult = document.createElement('td');
-        var badge = el('span', 'result-badge ' + String(r.result).toLowerCase(), String(r.result).toUpperCase());
-        tdResult.appendChild(badge);
-        if (r.actual !== null) {
-          tdResult.appendChild(document.createTextNode(' (' + r.actual + ')'));
+        if (r.result) {
+          var badge = el('span', 'result-badge ' + String(r.result).toLowerCase(), String(r.result).toUpperCase());
+          tdResult.appendChild(badge);
+          if (r.actual !== null && r.actual !== undefined) {
+            tdResult.appendChild(document.createTextNode(' (' + r.actual + ')'));
+          }
+        } else {
+          tdResult.appendChild(el('span', 'result-badge pending', 'PENDING'));
         }
         tr.appendChild(tdResult);
 
-        tr.appendChild(el('td', r.pnl > 0 ? 'pnl-positive' : (r.pnl < 0 ? 'pnl-negative' : ''), formatPnl(r.pnl)));
+        var pnlVal = r.pnl || 0;
+        tr.appendChild(el('td', pnlVal > 0 ? 'pnl-positive' : (pnlVal < 0 ? 'pnl-negative' : ''), r.result ? formatPnl(pnlVal) : '—'));
         recentBody.appendChild(tr);
       });
     }
@@ -183,7 +188,7 @@
         toggleBtn.disabled = true;
         GP.supabase.from('picks')
           .select('date,player,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
-          .eq('season', GP.getSeasonInt()).not('result', 'is', null)
+          .eq('season', GP.getSeasonInt())
           .order('date', { ascending: false })
           .then(function (res) { renderRows(res.data || []); });
       });
@@ -415,7 +420,7 @@
       GP.supabase.from('clv_daily').select('*').eq('season', seasonInt).order('date'),
       GP.supabase.from('clv_summary').select('*').eq('season', seasonInt),
       GP.supabase.from('picks').select('date,player,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
-        .eq('season', seasonInt).not('result', 'is', null)
+        .eq('season', seasonInt)
         .order('date', { ascending: false }).limit(51),
     ]).then(function (results) {
       var summaryRes = results[0];

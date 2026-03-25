@@ -1427,6 +1427,11 @@ body.backtest-mode .mobile-nav {
   background: rgba(71, 85, 105, 0.10);
 }
 
+.result-badge.pending {
+  color: var(--accent);
+  background: rgba(99, 102, 241, 0.10);
+}
+
 .pnl-positive { color: var(--green); font-family: var(--mono); font-weight: 600; }
 .pnl-negative { color: var(--danger); font-family: var(--mono); font-weight: 600; }
 
