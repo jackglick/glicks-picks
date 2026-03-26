@@ -829,18 +829,17 @@ body.backtest-mode .mobile-nav {
 }
 .footer-contact a { color: var(--accent); }
 .discord-invite {
-  display: inline-block;
-  margin-top: 0.75rem;
-  padding: 0.5rem 1.25rem;
-  background: #5865F2;
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: 600;
-  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.78rem;
   text-decoration: none;
-  transition: opacity 0.2s;
+  transition: color 0.2s;
 }
-.discord-invite:hover { opacity: 0.85; }
+.discord-invite:hover { color: #5865F2; }
+.discord-invite svg { width: 16px; height: 16px; fill: currentColor; }
 .footer-disclaimer {
   font-size: 0.68rem;
   max-width: 600px;
