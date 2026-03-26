@@ -588,7 +588,16 @@ body.backtest-mode .mobile-nav {
   margin-top: -3.25rem;
   position: relative;
   z-index: 2;
-  margin-bottom: 3.5rem;
+  margin-bottom: 0.75rem;
+}
+.backtest-note {
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
 }
 .stat-card {
   background: var(--bg-surface);
