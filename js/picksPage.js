@@ -868,6 +868,12 @@
     var container = document.getElementById('picks-container');
     if (!container) return;
 
+    // Default to current season unless explicitly selected via pill
+    var urlSeason = new URLSearchParams(window.location.search).get('season');
+    if (!urlSeason) {
+      GP.setSeason(GP.CURRENT_SEASON);
+    }
+
     initPicksSort();
 
     var viewResultsBtn = document.getElementById('view-results-btn');

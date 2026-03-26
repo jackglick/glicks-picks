@@ -90,7 +90,9 @@
         var picked = btn.getAttribute('data-season');
         if (picked === season) return;
         GP.setSeason(picked);
-        location.reload();
+        var url = new URL(window.location);
+        url.searchParams.set('season', picked);
+        window.location = url;
       });
     });
   }
