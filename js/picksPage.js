@@ -873,7 +873,6 @@
     var viewResultsBtn = document.getElementById('view-2025-results-btn');
     if (viewResultsBtn) {
       viewResultsBtn.addEventListener('click', function () {
-        GP.setSeason('2025');
         window.location.href = 'results.html';
       });
     }
@@ -881,7 +880,6 @@
     var browseBtn = document.getElementById('browse-backtest-btn');
     if (browseBtn) {
       browseBtn.addEventListener('click', function () {
-        GP.setSeason('2025');
         location.reload();
       });
     }

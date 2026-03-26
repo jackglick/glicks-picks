@@ -101,7 +101,7 @@
     if (!heroWinRate) return;
 
     GP.supabase.from('season_summaries').select('summary')
-      .eq('season', 2025).maybeSingle()
+      .eq('season', GP.getSeasonInt()).maybeSingle()
       .then(function (res) {
         if (res.error) {
           console.error('Failed to load hero stats:', res.error);
