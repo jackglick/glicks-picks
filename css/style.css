@@ -2137,6 +2137,12 @@ a {
   background: rgba(122, 130, 144, 0.15);
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
 /* --- Header Discord Icon --- */
 .header-discord {
   display: flex;
