@@ -406,7 +406,7 @@
       if (GP.isArchiveSeason()) {
         subtitleEl.textContent = 'Out-of-sample ' + season + ' backtest archive across player-prop markets';
       } else {
-        subtitleEl.textContent = 'Cumulative performance across player-prop markets';
+        subtitleEl.textContent = season + ' season performance across player-prop markets';
       }
     }
 
