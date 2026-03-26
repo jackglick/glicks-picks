@@ -2137,6 +2137,18 @@ a {
   background: rgba(122, 130, 144, 0.15);
 }
 
+/* --- Header Discord Icon --- */
+.header-discord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+.header-discord:hover { color: #5865F2; }
+
 /* --- Theme Toggle Button --- */
 .theme-toggle {
   display: flex;
