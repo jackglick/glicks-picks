@@ -597,6 +597,7 @@ body.backtest-mode .mobile-nav {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-muted);
+  opacity: 0.5;
   margin-bottom: 3rem;
 }
 .stat-card {
