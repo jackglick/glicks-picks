@@ -190,7 +190,14 @@
           .select('date,player,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
           .eq('season', GP.getSeasonInt())
           .order('date', { ascending: false })
-          .then(function (res) { renderRows(res.data || []); });
+          .then(function (res) {
+            if (res.error || !res.data) {
+              toggleBtn.textContent = 'Failed to load';
+              toggleBtn.disabled = false;
+              return;
+            }
+            renderRows(res.data);
+          });
       });
       toggleTd.appendChild(toggleBtn);
       toggleRow.appendChild(toggleTd);

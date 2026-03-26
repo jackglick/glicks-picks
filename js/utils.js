@@ -38,6 +38,8 @@
 
   // --- Season Helpers ---
   GP.getSeason = function () {
+    var urlSeason = new URLSearchParams(window.location.search).get('season');
+    if (urlSeason) return urlSeason;
     return localStorage.getItem('glicks-season') || GP.CURRENT_SEASON;
   };
 

@@ -596,7 +596,7 @@ body.backtest-mode .mobile-nav {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--text-muted);
+  color: var(--text-dim);
   opacity: 0.5;
   margin-bottom: 3rem;
 }
@@ -833,7 +833,7 @@ body.backtest-mode .mobile-nav {
   align-items: center;
   gap: 6px;
   margin-top: 0.5rem;
-  color: var(--text-muted);
+  color: var(--text-dim);
   font-size: 0.78rem;
   text-decoration: none;
   transition: color 0.2s;
@@ -1958,7 +1958,7 @@ a {
 
 .pick-card-role-team {
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--text);
 }
 
 .pick-card-role-sep {
@@ -2144,7 +2144,7 @@ a {
   justify-content: center;
   width: 40px;
   height: 40px;
-  color: var(--text-muted);
+  color: var(--text-dim);
   transition: color 0.2s;
 }
 .header-discord:hover { color: #5865F2; }

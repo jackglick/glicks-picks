@@ -93,6 +93,7 @@
   // ============================================
 
   function getPlayerInitials(playerName) {
+    if (!playerName) return '?';
     var parts = playerName.split(', ');
     if (parts.length === 2) {
       return (parts[1].charAt(0) + parts[0].charAt(0)).toUpperCase();
@@ -870,7 +871,9 @@
 
     // Default to current season unless explicitly selected via pill
     var urlSeason = new URLSearchParams(window.location.search).get('season');
-    if (!urlSeason) {
+    if (urlSeason) {
+      GP.setSeason(urlSeason);
+    } else {
       GP.setSeason(GP.CURRENT_SEASON);
     }
 
@@ -886,7 +889,8 @@
     var browseBtn = document.getElementById('browse-backtest-btn');
     if (browseBtn) {
       browseBtn.addEventListener('click', function () {
-        location.reload();
+        GP.setSeason('2025');
+        window.location.href = 'picks.html?season=2025';
       });
     }
 
