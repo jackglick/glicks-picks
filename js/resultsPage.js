@@ -552,6 +552,8 @@
           last.flat.toLocaleString() + ' and 2% strategy at $' + last.pct.toLocaleString() +
           ' over ' + data.bankroll_curve.length + ' trading days.'
         );
+      } else {
+        setStatusText('pnl-chart-summary', 'Chart will appear after a few days of graded picks.');
       }
 
       var canvas = document.getElementById('pnl-chart');
