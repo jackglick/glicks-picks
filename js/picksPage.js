@@ -870,7 +870,7 @@
 
     initPicksSort();
 
-    var viewResultsBtn = document.getElementById('view-2025-results-btn');
+    var viewResultsBtn = document.getElementById('view-results-btn');
     if (viewResultsBtn) {
       viewResultsBtn.addEventListener('click', function () {
         window.location.href = 'results.html';
@@ -893,7 +893,10 @@
 
     GP.showLoadingSkeletons(container, 4);
 
-    var today = new Date().toISOString().slice(0, 10);
+    var now = new Date();
+    var today = now.getFullYear() + '-' +
+      String(now.getMonth() + 1).padStart(2, '0') + '-' +
+      String(now.getDate()).padStart(2, '0');
     GP.supabase.from('picks').select('*')
       .eq('season', GP.getSeasonInt())
       .eq('date', today)

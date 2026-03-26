@@ -555,7 +555,7 @@
       }
 
       var canvas = document.getElementById('pnl-chart');
-      if (canvas && data.bankroll_curve && data.bankroll_curve.length > 0) {
+      if (canvas && data.bankroll_curve && data.bankroll_curve.length > 1) {
         var initBankroll = s.initial_bankroll || 5000;
         if (typeof Chart !== 'undefined') {
           initBankrollChart(canvas, data.bankroll_curve, initBankroll);
