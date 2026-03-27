@@ -1043,12 +1043,6 @@
   }
 
   function getGamePlaceholderText(game) {
-    // If the pipeline has already run (picks exist for this date), all games
-    // were analyzed — games without picks had no qualifying edges.
-    var allPicks = picksState.allPicks || [];
-    if (allPicks.length > 0) {
-      return 'No picks for this game';
-    }
     var now = new Date();
     var gameStart = new Date(game.game_date_utc);
     var hoursUntil = (gameStart - now) / (1000 * 60 * 60);
