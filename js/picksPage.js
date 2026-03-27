@@ -877,6 +877,15 @@
       GP.setSeason(GP.CURRENT_SEASON);
     }
 
+    // Sync banner and pill active states with the resolved season
+    GP.updateSeasonBanner();
+    var resolvedSeason = GP.getSeason();
+    document.querySelectorAll('.season-pill-btn').forEach(function (btn) {
+      var isActive = btn.getAttribute('data-season') === resolvedSeason;
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+
     initPicksSort();
 
     var viewResultsBtn = document.getElementById('view-results-btn');

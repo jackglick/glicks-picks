@@ -2006,6 +2006,29 @@ a {
   min-width: 0;
 }
 
+/* --- Mobile: scroll hint for overflowing tables --- */
+@media (max-width: 640px) {
+  .results-table-scroll {
+    position: relative;
+  }
+  .results-table-scroll::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 32px;
+    background: linear-gradient(to right, transparent, var(--bg-surface));
+    pointer-events: none;
+    border-radius: 0 10px 10px 0;
+    opacity: 1;
+    transition: opacity 0.2s;
+  }
+  .results-table-scroll.scrolled-end::after {
+    opacity: 0;
+  }
+}
+
 /* ============================================
    Dark Mode
    ============================================ */

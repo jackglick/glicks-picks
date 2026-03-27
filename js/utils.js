@@ -152,4 +152,16 @@
     return GP.BOOK_DISPLAY[bookKey] || bookKey;
   };
 
+  // --- Scroll hint for overflowing tables (mobile) ---
+  GP.initScrollHints = function () {
+    document.querySelectorAll('.results-table-scroll').forEach(function (el) {
+      function checkScroll() {
+        var atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 2;
+        el.classList.toggle('scrolled-end', atEnd);
+      }
+      el.addEventListener('scroll', checkScroll);
+      checkScroll();
+    });
+  };
+
 })();

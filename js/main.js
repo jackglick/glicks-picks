@@ -54,7 +54,7 @@
   }
 
   // --- Season Selector ---
-  function updateSeasonBanner() {
+  GP.updateSeasonBanner = function () {
     var banner = document.getElementById('backtest-banner');
     var season = GP.getSeason();
     var hasPill = document.querySelector('.season-pill');
@@ -76,7 +76,7 @@
 
   function initSeasonSelector() {
     var season = GP.getSeason();
-    updateSeasonBanner();
+    GP.updateSeasonBanner();
 
     var buttons = document.querySelectorAll('.season-pill-btn');
     buttons.forEach(function (btn) {

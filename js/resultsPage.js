@@ -468,6 +468,7 @@
       var contentEl = document.getElementById('results-content');
 
       if (!data.summary || data.summary.total_bets === 0) {
+        if (contentEl) contentEl.style.display = 'none';
         if (emptyEl) {
           emptyEl.style.display = '';
           var emptyTitle = document.getElementById('results-empty-title');
@@ -483,8 +484,6 @@
         setStatusText('results-generated-at', '');
         return;
       }
-
-      if (contentEl) contentEl.style.display = '';
 
       var s = data.summary;
       setStatusText('results-generated-at', 'Last updated: ' + formatTimestamp(data.generated_at));
@@ -584,6 +583,7 @@
       }
 
       GP.reobserveReveals();
+      GP.initScrollHints();
 
     }).catch(function (err) {
       console.error('Results fetch error:', err);
