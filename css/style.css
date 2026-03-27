@@ -1896,6 +1896,33 @@ a {
   font-size: 0.55rem;
 }
 
+/* --- Game Placeholder (no picks yet) --- */
+.game-placeholder {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  background: transparent;
+  min-height: 80px;
+}
+
+.game-slate-pitchers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
 /* --- Calendar close button (#37) --- */
 .calendar-close-btn {
   background: none;
