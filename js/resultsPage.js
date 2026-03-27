@@ -485,6 +485,8 @@
         return;
       }
 
+      if (contentEl) contentEl.style.display = '';
+
       var s = data.summary;
       setStatusText('results-generated-at', 'Last updated: ' + formatTimestamp(data.generated_at));
 

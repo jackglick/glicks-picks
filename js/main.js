@@ -88,7 +88,7 @@
       }
       btn.addEventListener('click', function () {
         var picked = btn.getAttribute('data-season');
-        if (picked === season) return;
+        if (picked === GP.getSeason()) return;
         GP.setSeason(picked);
         var url = new URL(window.location);
         url.searchParams.set('season', picked);
