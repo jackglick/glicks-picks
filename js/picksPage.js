@@ -21,6 +21,7 @@
 
   var picksState = {
     allPicks: [],
+    schedule: null,
     selectedBooks: {},
     selectedMarkets: {},
     sortBy: 'market',
@@ -424,32 +425,172 @@
     var container = document.getElementById('picks-container');
     var emptyEl = document.getElementById('picks-empty');
     var summary = document.getElementById('books-filter-summary');
-    var offseasonHero = document.getElementById('offseason-hero');
     var picksControls = document.getElementById('picks-controls');
     if (!container || !emptyEl) return;
 
     clearChildren(container);
     var allPicks = picksState.allPicks || [];
+    var schedule = picksState.schedule || null;
     var filtered = getFilteredPicks();
     filtered = applyMarketFilter(filtered);
     filtered = sortPicks(filtered, picksState.sortBy);
 
-    if (offseasonHero) offseasonHero.style.display = 'none';
+    // If we have a schedule (live season), render game-by-game
+    if (schedule && !GP.isArchiveSeason()) {
+      // No games today
+      if (schedule.length === 0 && allPicks.length === 0) {
+        container.style.display = 'none';
+        emptyEl.style.display = '';
+        if (picksControls) picksControls.style.display = 'none';
+        setPicksEmptyState('Off Day', 'No games scheduled today.');
+        if (summary) summary.textContent = '';
+        return;
+      }
 
+      container.style.display = '';
+      emptyEl.style.display = 'none';
+      if (picksControls) picksControls.style.display = allPicks.length > 0 ? '' : 'none';
+
+      // Group filtered picks by game_pk
+      var picksByGame = {};
+      filtered.forEach(function (pick) {
+        var key = pick.game_pk;
+        if (!key) return;
+        if (!picksByGame[key]) picksByGame[key] = [];
+        picksByGame[key].push(pick);
+      });
+
+      // Build game list from schedule, attach picks
+      var games = schedule.map(function (g) {
+        return {
+          game_pk: g.game_pk,
+          away_team: g.away_team,
+          home_team: g.home_team,
+          away_pitcher: g.away_pitcher,
+          home_pitcher: g.home_pitcher,
+          game_time: g.game_time,
+          game_date_utc: g.game_date_utc,
+          status: g.status,
+          picks: picksByGame[g.game_pk] || []
+        };
+      });
+
+      // Add any picks with game_pk not in schedule (edge case)
+      var scheduledPks = {};
+      schedule.forEach(function (g) { scheduledPks[g.game_pk] = true; });
+      var orphanPicks = filtered.filter(function (p) {
+        return p.game_pk && !scheduledPks[p.game_pk];
+      });
+      if (orphanPicks.length > 0) {
+        var orphanGroups = {};
+        orphanPicks.forEach(function (p) {
+          var key = p.game_pk;
+          if (!orphanGroups[key]) {
+            orphanGroups[key] = {
+              game_pk: key,
+              away_team: p.away_team || '',
+              home_team: p.home_team || '',
+              away_pitcher: null,
+              home_pitcher: null,
+              game_time: p.game_time || null,
+              game_date_utc: null,
+              status: 'Preview',
+              picks: []
+            };
+          }
+          orphanGroups[key].picks.push(p);
+        });
+        Object.keys(orphanGroups).forEach(function (k) {
+          games.push(orphanGroups[k]);
+        });
+      }
+
+      // Sort games by start time
+      games.sort(function (a, b) {
+        if (a.game_date_utc && b.game_date_utc) {
+          return new Date(a.game_date_utc) - new Date(b.game_date_utc);
+        }
+        return 0;
+      });
+
+      // Group into time slates
+      var slateGroups = {};
+      var slateOrder = [];
+      games.forEach(function (g) {
+        var slateKey = g.game_time || '_ungrouped';
+        if (!slateGroups[slateKey]) {
+          slateGroups[slateKey] = { label: g.game_time, games: [] };
+          slateOrder.push(slateKey);
+        }
+        slateGroups[slateKey].games.push(g);
+      });
+
+      var hasMultipleSlates = slateOrder.length > 1 ||
+        (slateOrder.length === 1 && slateOrder[0] !== '_ungrouped');
+
+      slateOrder.forEach(function (slateKey) {
+        var slate = slateGroups[slateKey];
+
+        if (hasMultipleSlates && slate.label) {
+          var slateHeader = el('div', 'time-slate-header');
+          slateHeader.appendChild(el('span', 'time-slate-label', slate.label));
+          container.appendChild(slateHeader);
+        }
+
+        slate.games.forEach(function (game) {
+          var section = el('div', 'game-slate-group');
+
+          // Game header: away @ home
+          var header = el('div', 'game-slate-header');
+          header.appendChild(createTeamBadge(normalizeTeamCode(game.away_team), 'left'));
+          header.appendChild(el('span', 'matchup-vs', '@'));
+          header.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
+          section.appendChild(header);
+
+          // Probable pitchers row
+          var awayP = formatPitcherShortName(game.away_pitcher);
+          var homeP = formatPitcherShortName(game.home_pitcher);
+          if (awayP || homeP) {
+            var pitcherRow = el('div', 'game-slate-pitchers');
+            pitcherRow.textContent = (awayP || 'TBD') + '  vs  ' + (homeP || 'TBD');
+            section.appendChild(pitcherRow);
+          }
+
+          if (game.picks.length > 0) {
+            // Render pick cards
+            var grid = el('div', 'picks-grid');
+            game.picks.forEach(function (pick) {
+              grid.appendChild(renderPickCard(pick));
+            });
+            section.appendChild(grid);
+          } else {
+            // Placeholder
+            var placeholder = el('div', 'game-placeholder', getGamePlaceholderText(game));
+            section.appendChild(placeholder);
+          }
+
+          container.appendChild(section);
+        });
+      });
+
+      if (summary) {
+        summary.textContent = allPicks.length > 0
+          ? 'Showing ' + filtered.length + ' of ' + allPicks.length + ' picks'
+          : '';
+      }
+      GP.reobserveReveals();
+      return;
+    }
+
+    // Fallback: no schedule (archive mode or fetch failed) — original behavior
     if (allPicks.length === 0) {
       container.style.display = 'none';
       emptyEl.style.display = '';
       if (picksControls) picksControls.style.display = 'none';
-
-      if (!GP.isArchiveSeason() && offseasonHero) {
-        offseasonHero.style.display = 'block';
-        emptyEl.style.display = 'none';
-      } else {
-        setPicksEmptyState(
-          'Rain Delay',
-          'No picks on this date. The models found no edges worth swinging at.'
-        );
-      }
+      setPicksEmptyState(
+        'Rain Delay',
+        'No picks on this date. The models found no edges worth swinging at.'
+      );
       if (summary) summary.textContent = '';
       return;
     }
@@ -477,7 +618,7 @@
       bestBetsSection.style.display = 'none';
     }
 
-    // Group picks by game_pk
+    // Group picks by game_pk (existing logic for archive/fallback)
     var gameGroups = {};
     var gameOrder = [];
     filtered.forEach(function (pick) {
@@ -494,47 +635,34 @@
       gameGroups[key].picks.push(pick);
     });
 
-    // Group games by slate (game start time)
-    var slateGroups = {};
-    var slateOrder = [];
+    var slateGroupsFB = {};
+    var slateOrderFB = [];
     gameOrder.forEach(function (key) {
       var group = gameGroups[key];
       var slateKey = group.game_time || '_ungrouped';
-      if (!slateGroups[slateKey]) {
-        slateGroups[slateKey] = { label: group.game_time, games: [] };
-        slateOrder.push(slateKey);
+      if (!slateGroupsFB[slateKey]) {
+        slateGroupsFB[slateKey] = { label: group.game_time, games: [] };
+        slateOrderFB.push(slateKey);
       }
-      slateGroups[slateKey].games.push(key);
+      slateGroupsFB[slateKey].games.push(key);
     });
 
-    function parseTimeMinutes(label) {
-      if (!label) return 9999;
-      var m = label.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)/i);
-      if (!m) return 9999;
-      var hours = parseInt(m[1], 10);
-      var mins = parseInt(m[2], 10);
-      var ampm = m[3].toUpperCase();
-      if (ampm === 'PM' && hours !== 12) hours += 12;
-      if (ampm === 'AM' && hours === 12) hours = 0;
-      return hours * 60 + mins;
-    }
-
-    slateOrder.sort(function (a, b) {
-      return parseTimeMinutes(slateGroups[a].label) - parseTimeMinutes(slateGroups[b].label);
+    slateOrderFB.sort(function (a, b) {
+      return parseTimeMinutes(slateGroupsFB[a].label) - parseTimeMinutes(slateGroupsFB[b].label);
     });
 
-    slateOrder.forEach(function (slateKey) {
-      slateGroups[slateKey].games.sort(function (a, b) {
+    slateOrderFB.forEach(function (slateKey) {
+      slateGroupsFB[slateKey].games.sort(function (a, b) {
         return gameGroups[b].picks.length - gameGroups[a].picks.length;
       });
     });
 
-    var hasMultipleSlates = slateOrder.length > 1 || (slateOrder.length === 1 && slateOrder[0] !== '_ungrouped');
+    var hasMultipleSlatesFB = slateOrderFB.length > 1 || (slateOrderFB.length === 1 && slateOrderFB[0] !== '_ungrouped');
 
-    slateOrder.forEach(function (slateKey) {
-      var slate = slateGroups[slateKey];
+    slateOrderFB.forEach(function (slateKey) {
+      var slate = slateGroupsFB[slateKey];
 
-      if (hasMultipleSlates && slate.label) {
+      if (hasMultipleSlatesFB && slate.label) {
         var slateHeader = el('div', 'time-slate-header');
         slateHeader.appendChild(el('span', 'time-slate-label', slate.label));
         container.appendChild(slateHeader);
@@ -862,6 +990,81 @@
   }
 
   // ============================================
+  // Schedule helpers
+  // ============================================
+
+  function fetchTodaySchedule(dateStr) {
+    var url = 'https://statsapi.mlb.com/api/v1/schedule?date=' + dateStr +
+      '&sportId=1&hydrate=team,probablePitcher';
+    return fetch(url)
+      .then(function (resp) {
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        return resp.json();
+      })
+      .then(function (data) {
+        var games = [];
+        var dates = data.dates || [];
+        if (dates.length === 0) return games;
+        (dates[0].games || []).forEach(function (g) {
+          var away = g.teams.away || {};
+          var home = g.teams.home || {};
+          var awayAbbr = (away.team || {}).abbreviation || '';
+          var homeAbbr = (home.team || {}).abbreviation || '';
+          var awayPitcher = (away.probablePitcher || {}).fullName || null;
+          var homePitcher = (home.probablePitcher || {}).fullName || null;
+          var gameDate = new Date(g.gameDate);
+          var timeStr = gameDate.toLocaleTimeString('en-US', {
+            hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short'
+          });
+          games.push({
+            game_pk: g.gamePk,
+            away_team: awayAbbr,
+            home_team: homeAbbr,
+            away_pitcher: awayPitcher,
+            home_pitcher: homePitcher,
+            game_time: timeStr,
+            game_date_utc: g.gameDate,
+            status: (g.status || {}).abstractGameState || 'Preview'
+          });
+        });
+        return games;
+      })
+      .catch(function (err) {
+        console.warn('Schedule fetch failed:', err);
+        return null;
+      });
+  }
+
+  function formatPitcherShortName(fullName) {
+    if (!fullName) return null;
+    var parts = fullName.split(' ');
+    if (parts.length < 2) return fullName;
+    return parts[0].charAt(0) + '. ' + parts[parts.length - 1];
+  }
+
+  function getGamePlaceholderText(game) {
+    var now = new Date();
+    var gameStart = new Date(game.game_date_utc);
+    var hoursUntil = (gameStart - now) / (1000 * 60 * 60);
+    if (hoursUntil > 3) {
+      return 'Picks appear ~3 hours before first pitch';
+    }
+    return 'No picks for this game';
+  }
+
+  function parseTimeMinutes(label) {
+    if (!label) return 9999;
+    var m = label.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+    if (!m) return 9999;
+    var hours = parseInt(m[1], 10);
+    var mins = parseInt(m[2], 10);
+    var ampm = m[3].toUpperCase();
+    if (ampm === 'PM' && hours !== 12) hours += 12;
+    if (ampm === 'AM' && hours === 12) hours = 0;
+    return hours * 60 + mins;
+  }
+
+  // ============================================
   // Page init
   // ============================================
 
@@ -869,7 +1072,6 @@
     var container = document.getElementById('picks-container');
     if (!container) return;
 
-    // Default to current season unless explicitly selected via pill
     var urlSeason = new URLSearchParams(window.location.search).get('season');
     if (urlSeason) {
       GP.setSeason(urlSeason);
@@ -877,7 +1079,6 @@
       GP.setSeason(GP.CURRENT_SEASON);
     }
 
-    // Sync banner and pill active states with the resolved season
     GP.updateSeasonBanner();
     var resolvedSeason = GP.getSeason();
     document.querySelectorAll('.season-pill-btn').forEach(function (btn) {
@@ -887,21 +1088,6 @@
     });
 
     initPicksSort();
-
-    var viewResultsBtn = document.getElementById('view-results-btn');
-    if (viewResultsBtn) {
-      viewResultsBtn.addEventListener('click', function () {
-        window.location.href = 'results.html';
-      });
-    }
-
-    var browseBtn = document.getElementById('browse-backtest-btn');
-    if (browseBtn) {
-      browseBtn.addEventListener('click', function () {
-        GP.setSeason('2025');
-        window.location.href = 'picks.html?season=2025';
-      });
-    }
 
     if (GP.isArchiveSeason()) {
       var titleEl = document.getElementById('picks-title');
@@ -916,46 +1102,39 @@
     var today = now.getFullYear() + '-' +
       String(now.getMonth() + 1).padStart(2, '0') + '-' +
       String(now.getDate()).padStart(2, '0');
-    GP.supabase.from('picks').select('*')
+
+    var picksPromise = GP.supabase.from('picks').select('*')
       .eq('season', GP.getSeasonInt())
       .eq('date', today)
       .order('stars', { ascending: false })
-      .then(function (res) {
-        var dateEl = document.getElementById('picks-date');
-        var picks = res.data || [];
+      .then(function (res) { return res.data || []; })
+      .catch(function () { return []; });
 
-        if (picks.length === 0) {
-          picksState.allPicks = [];
-          renderBooksFilterPanel();
-          renderPicksWithFilters();
-          setStatusText('picks-status', '');
-          if (dateEl) dateEl.textContent = '';
-          return;
-        }
+    var schedulePromise = fetchTodaySchedule(today);
 
-        if (dateEl) {
-          var parts = [];
-          parts.push(formatFullDate(today));
-          parts.push(picks.length + ' picks');
-          dateEl.textContent = parts.join(' \u2022 ');
-        }
+    Promise.all([picksPromise, schedulePromise]).then(function (results) {
+      var picks = results[0];
+      var schedule = results[1];
+      var dateEl = document.getElementById('picks-date');
 
-        picksState.allPicks = picks;
+      if (dateEl) {
+        var parts = [formatFullDate(today)];
+        if (picks.length > 0) parts.push(picks.length + ' picks');
+        if (schedule) parts.push(schedule.length + ' games');
+        dateEl.textContent = parts.join(' \u2022 ');
+      }
+
+      picksState.allPicks = picks;
+      picksState.schedule = schedule;
+
+      if (picks.length > 0) {
         syncBookFilterState();
-        renderBooksFilterPanel();
-        initMarketFilter(picksState.allPicks);
-        renderPicksWithFilters();
-        setStatusText('picks-status', '');
-      })
-      .catch(function (err) {
-        console.error('Failed to load today\'s picks:', err);
-        picksState.allPicks = [];
-        renderBooksFilterPanel();
-        renderPicksWithFilters();
-        setStatusText('picks-status', 'Could not load picks. Please try refreshing.');
-        var dateEl = document.getElementById('picks-date');
-        if (dateEl) dateEl.textContent = '';
-      });
+        initMarketFilter(picks);
+      }
+      renderBooksFilterPanel();
+      renderPicksWithFilters();
+      setStatusText('picks-status', '');
+    });
   };
 
 })();
