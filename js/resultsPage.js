@@ -377,6 +377,7 @@
           y: {
             type: 'linear',
             position: 'left',
+            beginAtZero: false,
             border: { display: false },
             grid: { color: 'rgba(226, 232, 240, 0.6)' },
             ticks: {
