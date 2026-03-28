@@ -215,11 +215,20 @@
     var pctValues = curveData.map(function (d) { return d.pct; });
     var baselineValues = curveData.map(function () { return initialBankroll; });
 
+    // Compute Y axis range with padding so small swings are visible
+    var allValues = flatValues.concat(pctValues, [initialBankroll]);
+    var dataMin = Math.min.apply(null, allValues);
+    var dataMax = Math.max.apply(null, allValues);
+    var range = dataMax - dataMin;
+    var padding = Math.max(range * 0.3, 100); // at least $100 padding
+    var yMin = Math.floor((dataMin - padding) / 50) * 50;
+    var yMax = Math.ceil((dataMax + padding) / 50) * 50;
+
     var responsiveTicksLimit = window.innerWidth < 640 ? 5 : 10;
 
     function formatDollar(val) {
-      if (Math.abs(val) >= 1000) return '$' + Math.round(val / 1000) + 'K';
-      return '$' + val;
+      if (Math.abs(val) >= 10000) return '$' + (val / 1000).toFixed(1) + 'K';
+      return '$' + val.toLocaleString();
     }
 
     var isNarrow = window.innerWidth < 640;
@@ -377,7 +386,8 @@
           y: {
             type: 'linear',
             position: 'left',
-            beginAtZero: false,
+            min: yMin,
+            max: yMax,
             border: { display: false },
             grid: { color: 'rgba(226, 232, 240, 0.6)' },
             ticks: {
