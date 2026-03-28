@@ -86,8 +86,8 @@
     <section class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1 class="hero-headline reveal">MLB Player Props,<br>Built on Statcast</h1>
-          <p class="hero-sub reveal">I built models on top of pitch-level data to find player prop edges. Every pick is backtested, every result is public.</p>
+          <h1 class="hero-headline reveal">Glick's Picks</h1>
+          <p class="hero-sub reveal">MLB player prop picks from a Statcast model I built. All results posted, nothing hidden.</p>
           <div class="hero-cta reveal">
             <a href="picks.html" class="cta-button primary">Today's Picks</a>
             <a href="results.html" class="cta-button secondary">Track Record</a>
@@ -128,30 +128,8 @@
 
       <!-- How It Works -->
       <section class="section">
-        <h2 class="section-heading">How It Works</h2>
-        <p class="section-sub">The short version: crunch every pitch, model the matchup, bet when the math says the book is off.</p>
-        <div class="steps-row">
-          <div class="step">
-            <div class="step-num"><span>1</span></div>
-            <h3>Scout the Arm</h3>
-            <p>Pull every pitch from Statcast — velo, movement, whiff rates, zone charts. The whole scouting report, in numbers.</p>
-          </div>
-          <div class="step">
-            <div class="step-num"><span>2</span></div>
-            <h3>Model the Matchup</h3>
-            <p>A blend of regression and gradient-boosted trees projects stat lines for every starter and batter in today's games.</p>
-          </div>
-          <div class="step">
-            <div class="step-num"><span>3</span></div>
-            <h3>Find the Edge</h3>
-            <p>Compare the model's probability to the sportsbook line. If the gap is big enough, that's an edge worth taking.</p>
-          </div>
-          <div class="step">
-            <div class="step-num"><span>4</span></div>
-            <h3>Shop the Price</h3>
-            <p>Check odds across six books and grab the best number. A few cents of juice adds up over hundreds of bets.</p>
-          </div>
-        </div>
+        <h2 class="section-heading">What Is This</h2>
+        <p class="section-sub">I train models on Statcast pitch data, project stat lines for every starter and batter, and bet when the numbers disagree with the books. Picks go up daily. Every bet gets graded.</p>
       </section>
 
       <!-- Markets -->
@@ -159,8 +137,8 @@
            Re-run 2025 backtest with batter props to get accurate numbers.
            See: python scripts/build_backtest_dataset.py -->
       <section class="section">
-        <h2 class="section-heading">Seven Markets, All Profitable</h2>
-        <p class="section-sub">Win rates from the 2025 out-of-sample backtest — the model never saw these games during training.</p>
+        <h2 class="section-heading">Seven Markets</h2>
+        <p class="section-sub">2025 backtest win rates — the model never saw these games during training.</p>
         <div class="market-pills">
           <div class="market-pill"><span class="type-dot pitcher"></span>Strikeouts <span class="wr">59.4%</span></div>
           <div class="market-pill"><span class="type-dot pitcher"></span>Earned Runs <span class="wr">55.8%</span></div>
@@ -175,7 +153,6 @@
       <!-- Bottom CTA -->
       <section class="cta-section">
         <h2 class="section-heading">See Today's Picks</h2>
-        <p class="section-sub">New picks go up every day during the season. Every result gets graded.</p>
         <div class="hero-cta">
           <a href="picks.html" class="cta-button primary">Today's Picks</a>
           <a href="results.html" class="cta-button secondary">Track Record</a>
