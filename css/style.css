@@ -1190,6 +1190,26 @@ body.backtest-mode .mobile-nav {
   font-weight: 500;
 }
 
+.pick-card-books {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-top: 0.25rem;
+}
+
+.pick-book-entry {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pick-book-best {
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
 /* --- Empty State --- */
 .picks-empty {
   text-align: center;

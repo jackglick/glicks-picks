@@ -181,7 +181,23 @@
     card.appendChild(body);
 
     var isConsensus = pick.best_book && pick.best_book.toLowerCase() === 'consensus';
-    if (pick.best_book || pick.best_price !== null) {
+    if (pick.book_prices && pick.book_prices.length > 0) {
+      var booksDiv = el('div', 'pick-card-books');
+      for (var bi = 0; bi < pick.book_prices.length; bi++) {
+        var bp = pick.book_prices[bi];
+        var bookKey = bp.book.toLowerCase();
+        var bookColor = GP.BOOK_COLORS[bookKey] || '#8d95a3';
+        var row = el('span', 'pick-book-entry' + (bp.is_best ? ' pick-book-best' : ''));
+        var dot = el('span', 'book-dot');
+        dot.style.background = bookColor;
+        row.appendChild(dot);
+        var displayName = GP.BOOK_DISPLAY[bookKey] || bp.book;
+        row.appendChild(document.createTextNode(displayName + ' '));
+        row.appendChild(el('span', 'pick-card-price', formatPrice(bp.price)));
+        booksDiv.appendChild(row);
+      }
+      card.appendChild(booksDiv);
+    } else if (pick.best_book || pick.best_price !== null) {
       var bookDiv = el('div', 'pick-card-book');
       if (pick.best_book && !isConsensus) {
         var bookKey = pick.best_book.toLowerCase();
