@@ -1391,7 +1391,6 @@ body.backtest-mode .mobile-nav {
 .results-table-scroll {
   overflow-x: auto;
   border-radius: 10px;
-  border: 1px solid var(--border);
 }
 
 .results-table {
@@ -1418,8 +1417,11 @@ body.backtest-mode .mobile-nav {
 
 .results-table td {
   padding: 0.65rem 0.75rem;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   white-space: nowrap;
+}
+[data-theme="dark"] .results-table td {
+  border-bottom-color: rgba(255, 255, 255, 0.04);
 }
 
 /* Numeric columns in monospace */
