@@ -894,6 +894,23 @@
             setStatusText('picks-status', 'No date index available for this season.');
             return;
           }
+          // For the current season, default to today instead of last date
+          var defaultDate = builtIndex.selectedBacktestDate;
+          if (!GP.isArchiveSeason()) {
+            var now = new Date();
+            var todayStr = now.getFullYear() + '-' +
+              String(now.getMonth() + 1).padStart(2, '0') + '-' +
+              String(now.getDate()).padStart(2, '0');
+            defaultDate = todayStr;
+            // Set calendar view to today's month
+            builtIndex.viewYear = now.getFullYear();
+            builtIndex.viewMonth = now.getMonth();
+            // Extend maxMonthIdx to include today if needed
+            var todayMonthIdx = getCalendarMonthIndex(now.getFullYear(), now.getMonth());
+            if (todayMonthIdx > builtIndex.maxMonthIdx) {
+              builtIndex.maxMonthIdx = todayMonthIdx;
+            }
+          }
           picksState.backtestIndex = {
             dates: builtIndex.dates,
             countByDate: builtIndex.countByDate,
@@ -903,7 +920,7 @@
             viewYear: builtIndex.viewYear,
             viewMonth: builtIndex.viewMonth
           };
-          picksState.selectedBacktestDate = builtIndex.selectedBacktestDate;
+          picksState.selectedBacktestDate = defaultDate;
         } else {
         var sorted = index.dates.slice().sort(function (a, b) {
           return a.date.localeCompare(b.date);
@@ -979,30 +996,46 @@
     var count = picksState.backtestIndex && picksState.backtestIndex.countByDate[dateStr]
       ? picksState.backtestIndex.countByDate[dateStr]
       : 0;
-    if (dateEl) {
-      dateEl.textContent = formatFullDate(dateStr) + ' \u2022 ' + count + ' picks \u2022 ' + GP.getSeason() + ' Archive';
-    }
 
     if (container) GP.showLoadingSkeletons(container, 4);
 
-    GP.supabase.from('picks').select('*')
+    var picksPromise = GP.supabase.from('picks').select('*')
       .eq('season', GP.getSeasonInt())
       .eq('date', dateStr)
       .order('stars', { ascending: false })
-      .then(function (res) {
-        picksState.allPicks = res.data || [];
-        syncBookFilterState();
-        renderBooksFilterPanel();
-        initMarketFilter(picksState.allPicks);
-        renderPicksWithFilters();
-        setStatusText('picks-status', '');
-      })
-      .catch(function () {
-        picksState.allPicks = [];
-        renderBooksFilterPanel();
-        renderPicksWithFilters();
-        setStatusText('picks-status', 'Could not load picks for this date.');
-      });
+      .then(function (res) { return res.data || []; })
+      .catch(function () { return []; });
+
+    // Fetch schedule for current season (game times, probable pitchers)
+    var schedulePromise = GP.isArchiveSeason()
+      ? Promise.resolve(null)
+      : fetchTodaySchedule(dateStr);
+
+    Promise.all([picksPromise, schedulePromise]).then(function (results) {
+      var picks = results[0];
+      var schedule = results[1];
+
+      if (dateEl) {
+        var parts = [formatFullDate(dateStr)];
+        if (picks.length > 0) parts.push(picks.length + ' picks');
+        if (schedule) parts.push(schedule.length + ' games');
+        dateEl.textContent = parts.join(' \u2022 ');
+      }
+
+      picksState.allPicks = picks;
+      picksState.schedule = schedule;
+      syncBookFilterState();
+      renderBooksFilterPanel();
+      initMarketFilter(picks);
+      renderPicksWithFilters();
+      setStatusText('picks-status', '');
+    }).catch(function () {
+      picksState.allPicks = [];
+      picksState.schedule = null;
+      renderBooksFilterPanel();
+      renderPicksWithFilters();
+      setStatusText('picks-status', 'Could not load picks for this date.');
+    });
   }
 
   // ============================================
@@ -1108,49 +1141,9 @@
     if (GP.isArchiveSeason()) {
       var titleEl = document.getElementById('picks-title');
       if (titleEl) titleEl.textContent = GP.getSeason() + ' Season Picks';
-      initBacktestDatePicker();
-      return;
     }
 
-    GP.showLoadingSkeletons(container, 4);
-
-    var now = new Date();
-    var today = now.getFullYear() + '-' +
-      String(now.getMonth() + 1).padStart(2, '0') + '-' +
-      String(now.getDate()).padStart(2, '0');
-
-    var picksPromise = GP.supabase.from('picks').select('*')
-      .eq('season', GP.getSeasonInt())
-      .eq('date', today)
-      .order('stars', { ascending: false })
-      .then(function (res) { return res.data || []; })
-      .catch(function () { return []; });
-
-    var schedulePromise = fetchTodaySchedule(today);
-
-    Promise.all([picksPromise, schedulePromise]).then(function (results) {
-      var picks = results[0];
-      var schedule = results[1];
-      var dateEl = document.getElementById('picks-date');
-
-      if (dateEl) {
-        var parts = [formatFullDate(today)];
-        if (picks.length > 0) parts.push(picks.length + ' picks');
-        if (schedule) parts.push(schedule.length + ' games');
-        dateEl.textContent = parts.join(' \u2022 ');
-      }
-
-      picksState.allPicks = picks;
-      picksState.schedule = schedule;
-
-      if (picks.length > 0) {
-        syncBookFilterState();
-        initMarketFilter(picks);
-      }
-      renderBooksFilterPanel();
-      renderPicksWithFilters();
-      setStatusText('picks-status', '');
-    });
+    initBacktestDatePicker();
   };
 
 })();
