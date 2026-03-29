@@ -18,7 +18,10 @@ GP.BOOK_COLORS = {
   'bet365': '#027b5b',
   'fanatics': '#004bed',
   'betonlineag': '#ff6600',
-  'mybookieag': '#d4af37'
+  'mybookieag': '#d4af37',
+  'hardrockbet': '#000000',
+  'espnbet': '#d00000',
+  'ballybet': '#00b140'
 };
 
 GP.BOOK_DISPLAY = {
@@ -33,7 +36,10 @@ GP.BOOK_DISPLAY = {
   'bet365': 'bet365',
   'fanatics': 'Fanatics',
   'betonlineag': 'BetOnline',
-  'mybookieag': 'MyBookie'
+  'mybookieag': 'MyBookie',
+  'hardrockbet': 'Hard Rock Bet',
+  'espnbet': 'ESPN Bet',
+  'ballybet': 'Bally Bet'
 };
 
 GP.TEAM_LOGO_IDS = {
