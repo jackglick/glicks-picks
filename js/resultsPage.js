@@ -361,11 +361,11 @@
                 var lines = [];
                 lines.push(row.n_bets + ' bet' + (row.n_bets !== 1 ? 's' : '') + ' today');
                 if (row.flat_day_pnl !== undefined) {
-                  var fSign = row.flat_day_pnl >= 0 ? '+' : '';
+                  var fSign = row.flat_day_pnl >= 0 ? '+' : '-';
                   lines.push('Flat day: ' + fSign + '$' + Math.abs(row.flat_day_pnl).toFixed(0));
                 }
                 if (row.pct_day_pnl !== undefined) {
-                  var pSign = row.pct_day_pnl >= 0 ? '+' : '';
+                  var pSign = row.pct_day_pnl >= 0 ? '+' : '-';
                   lines.push('2% day: ' + pSign + '$' + Math.abs(row.pct_day_pnl).toFixed(0));
                 }
                 return lines;
