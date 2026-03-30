@@ -231,6 +231,13 @@
       card.appendChild(footer);
     }
 
+    // Early-season batter prop notice (remove after ~2 weeks of data)
+    if (pick.category === 'batter' && !GP.isArchiveSeason()) {
+      var notice = el('div', 'pick-card-notice');
+      notice.textContent = 'Early season \u2014 batter models are still calibrating with limited 2026 data. Expect higher variance.';
+      card.appendChild(notice);
+    }
+
     return card;
   }
 

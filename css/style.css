@@ -2246,3 +2246,19 @@ a {
   vertical-align: middle;
   cursor: help;
 }
+
+.pick-card-notice {
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  background: var(--surface-alt, #f5f0e8);
+  color: var(--text-secondary, #6b7280);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  border-left: 3px solid var(--accent, #d4a843);
+}
+
+[data-theme="dark"] .pick-card-notice {
+  background: rgba(212, 168, 67, 0.08);
+  color: var(--text-secondary, #9ca3af);
+}
