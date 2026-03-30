@@ -2262,3 +2262,34 @@ a {
   background: rgba(212, 168, 67, 0.08);
   color: var(--text-secondary, #9ca3af);
 }
+
+.market-category-badge {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}
+
+.market-category--pitcher {
+  background: var(--surface-alt, #e8edf5);
+  color: var(--text-secondary, #4b5563);
+}
+
+.market-category--batter {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+[data-theme="dark"] .market-category--pitcher {
+  background: rgba(99, 130, 191, 0.15);
+  color: #93a3c0;
+}
+
+[data-theme="dark"] .market-category--batter {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+}

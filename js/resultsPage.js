@@ -547,6 +547,9 @@
           var tdMarket = el('td');
           var strong = el('strong', '', m.market);
           tdMarket.appendChild(strong);
+          var catLabel = m.category === 'batter' ? 'Batter' : 'Pitcher';
+          var catBadge = el('span', 'market-category-badge market-category--' + catLabel.toLowerCase(), catLabel);
+          tdMarket.appendChild(catBadge);
           tr.appendChild(tdMarket);
           tr.appendChild(el('td', '', String(m.bets)));
           tr.appendChild(el('td', '', m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : '')));
