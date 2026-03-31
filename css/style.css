@@ -1157,6 +1157,18 @@ body.backtest-mode .mobile-nav {
   background: var(--green-light);
 }
 
+.pick-sizing {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: var(--text-secondary);
+  background: var(--bg-offset);
+  margin-left: 0.35rem;
+}
+
 .pick-line {
   font-family: var(--mono);
   font-size: 1.1rem;

@@ -175,6 +175,10 @@
     callWrapper.appendChild(el('span', 'pick-call-label', 'The Call'));
     var dirClass = pick.direction === 'OVER' ? 'over' : 'under';
     callWrapper.appendChild(el('span', 'pick-direction ' + dirClass, pick.direction));
+    if (pick.sizing && pick.sizing > 0) {
+      var sizingText = pick.sizing === Math.floor(pick.sizing) ? pick.sizing + 'x' : pick.sizing.toFixed(1) + 'x';
+      callWrapper.appendChild(el('span', 'pick-sizing', sizingText));
+    }
     body.appendChild(callWrapper);
     body.appendChild(el('span', 'pick-line', String(pick.line)));
     body.appendChild(el('span', 'pick-card-market', pick.market));
