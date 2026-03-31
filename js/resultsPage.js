@@ -213,10 +213,11 @@
     var labels = curveData.map(function (d) { return formatDate(d.date); });
     var flatValues = curveData.map(function (d) { return d.flat; });
     var pctValues = curveData.map(function (d) { return d.pct; });
+    var kellyValues = curveData.map(function (d) { return d.kelly; });
     var baselineValues = curveData.map(function () { return initialBankroll; });
 
     // Compute Y axis range with padding so small swings are visible
-    var allValues = flatValues.concat(pctValues, [initialBankroll]);
+    var allValues = flatValues.concat(pctValues, kellyValues, [initialBankroll]);
     var dataMin = Math.min.apply(null, allValues);
     var dataMax = Math.max.apply(null, allValues);
     var range = dataMax - dataMin;
@@ -263,6 +264,21 @@
             pointRadius: 0,
             pointHitRadius: 8,
             pointHoverBackgroundColor: '#f97316',
+            pointHoverBorderColor: '#ffffff',
+            pointHoverRadius: 5,
+            pointHoverBorderWidth: 2,
+            borderWidth: 2.5
+          },
+          {
+            label: 'Kelly',
+            data: kellyValues,
+            borderColor: '#a855f7',
+            backgroundColor: 'rgba(168, 85, 247, 0.06)',
+            fill: true,
+            tension: 0.3,
+            pointRadius: 0,
+            pointHitRadius: 8,
+            pointHoverBackgroundColor: '#a855f7',
             pointHoverBorderColor: '#ffffff',
             pointHoverRadius: 5,
             pointHoverBorderWidth: 2,
@@ -351,6 +367,7 @@
               },
               labelTextColor: function (ctx) {
                 if (ctx.dataset.label === 'Flat $100') return '#93c5fd';
+                if (ctx.dataset.label === 'Kelly') return '#d8b4fe';
                 return '#fdba74';
               },
               footer: function (items) {
@@ -367,6 +384,10 @@
                 if (row.pct_day_pnl !== undefined) {
                   var pSign = row.pct_day_pnl >= 0 ? '+' : '-';
                   lines.push('2% day: ' + pSign + '$' + Math.abs(row.pct_day_pnl).toFixed(0));
+                }
+                if (row.kelly_day_pnl !== undefined) {
+                  var kSign = row.kelly_day_pnl >= 0 ? '+' : '-';
+                  lines.push('Kelly day: ' + kSign + '$' + Math.abs(row.kelly_day_pnl).toFixed(0));
                 }
                 return lines;
               }
@@ -518,6 +539,12 @@
         pctRetEl.className = 'summary-stat-value ' + (s.pct.return_pct >= 0 ? 'positive' : 'negative');
       }
 
+      var kellyRetEl = document.getElementById('stat-return-kelly');
+      if (kellyRetEl && s.kelly) {
+        kellyRetEl.textContent = (s.kelly.return_pct >= 0 ? '+' : '') + s.kelly.return_pct.toFixed(1) + '%';
+        kellyRetEl.className = 'summary-stat-value ' + (s.kelly.return_pct >= 0 ? 'positive' : 'negative');
+      }
+
       var betRoiEl = document.getElementById('stat-bet-roi');
       if (betRoiEl && s.bet_roi != null) {
         betRoiEl.textContent = (s.bet_roi >= 0 ? '+' : '') + s.bet_roi.toFixed(1) + '%';
@@ -534,6 +561,12 @@
       if (ddPctEl && s.pct) {
         ddPctEl.textContent = s.pct.max_drawdown_pct.toFixed(1) + '%';
         ddPctEl.className = 'negative';
+      }
+
+      var ddKellyEl = document.getElementById('stat-dd-kelly');
+      if (ddKellyEl && s.kelly) {
+        ddKellyEl.textContent = s.kelly.max_drawdown_pct.toFixed(1) + '%';
+        ddKellyEl.className = 'negative';
       }
 
       var marketBody = document.querySelector('#market-table tbody');
@@ -570,8 +603,9 @@
         var initBk = s.initial_bankroll || 5000;
         setStatusText(
           'pnl-chart-summary',
-          'Starting from $' + initBk.toLocaleString() + ', flat strategy ended at $' +
-          last.flat.toLocaleString() + ' and 2% strategy at $' + last.pct.toLocaleString() +
+          'Starting from $' + initBk.toLocaleString() + ': flat $' +
+          last.flat.toLocaleString() + ', 2% $' + last.pct.toLocaleString() +
+          ', Kelly $' + last.kelly.toLocaleString() +
           ' over ' + data.bankroll_curve.length + ' trading days.'
         );
       } else {
