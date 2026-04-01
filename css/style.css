@@ -1253,6 +1253,12 @@ body.backtest-mode .mobile-nav {
   color: var(--text-secondary);
 }
 
+.pick-book-altline {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
 /* --- Empty State --- */
 .picks-empty {
   text-align: center;

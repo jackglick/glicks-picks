@@ -203,6 +203,9 @@
         row.appendChild(dot);
         var displayName = GP.BOOK_DISPLAY[bookKey] || bp.book;
         row.appendChild(document.createTextNode(displayName + ' '));
+        if (bp.line != null) {
+          row.appendChild(el('span', 'pick-book-altline', String(bp.line) + ' '));
+        }
         row.appendChild(el('span', 'pick-card-price', formatPrice(bp.price)));
         booksDiv.appendChild(row);
       }
