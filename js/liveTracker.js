@@ -9,7 +9,7 @@
   var GP = window.GP;
   var el = GP.el;
 
-  var SCHEDULE_POLL_MS = 60000;
+  var SCHEDULE_POLL_MS = 30000;
   var BOXSCORE_POLL_MS = 30000;
   var MAX_ERRORS = 5;
   var BACKOFF_THRESHOLD = 3;
