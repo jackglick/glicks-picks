@@ -148,12 +148,35 @@
     if (hasMore) recent = recent.slice(0, INITIAL_LIMIT);
     var showAll = !hasMore;
 
+    var getTeamLogoUrl = GP.getTeamLogoUrl;
+
     function renderRows(items) {
       clearChildren(recentBody);
       items.forEach(function (r) {
         var tr = document.createElement('tr');
         tr.appendChild(el('td', '', formatDate(r.date)));
-        tr.appendChild(el('td', '', r.player));
+
+        // Player cell: team logo + name + position badge
+        var playerTd = document.createElement('td');
+        playerTd.className = 'game-log-player';
+        if (r.player_team) {
+          var logoUrl = getTeamLogoUrl(r.player_team);
+          if (logoUrl) {
+            var logo = document.createElement('img');
+            logo.className = 'game-log-team-logo';
+            logo.src = logoUrl;
+            logo.alt = r.player_team;
+            logo.loading = 'lazy';
+            logo.onerror = function () { logo.style.display = 'none'; };
+            playerTd.appendChild(logo);
+          }
+        }
+        playerTd.appendChild(document.createTextNode(r.player));
+        var posLabel = r.category === 'batter' ? 'BAT' : 'SP';
+        var posBadge = el('span', 'game-log-pos game-log-pos--' + posLabel.toLowerCase(), posLabel);
+        playerTd.appendChild(posBadge);
+        tr.appendChild(playerTd);
+
         tr.appendChild(el('td', '', r.direction + ' ' + r.line + ' ' + r.market));
 
         var tdResult = document.createElement('td');
@@ -187,7 +210,7 @@
         toggleBtn.textContent = 'Loading\u2026';
         toggleBtn.disabled = true;
         GP.supabase.from('picks')
-          .select('date,player,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
+          .select('date,player,player_team,category,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
           .eq('season', GP.getSeasonInt())
           .order('date', { ascending: false })
           .then(function (res) {

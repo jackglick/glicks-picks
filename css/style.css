@@ -1083,6 +1083,37 @@ body.backtest-mode .mobile-nav {
   object-fit: contain;
 }
 
+/* Game log player cell */
+.game-log-player {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+.game-log-team-logo {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.game-log-pos {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.game-log-pos--sp {
+  background: rgba(37, 99, 235, 0.15);
+  color: #93c5fd;
+}
+.game-log-pos--bat {
+  background: rgba(249, 115, 22, 0.15);
+  color: #fdba74;
+}
+
 .team-logo-fallback {
   width: 24px;
   height: 24px;
