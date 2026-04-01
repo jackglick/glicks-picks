@@ -20,8 +20,8 @@
     'Outs Recorded':      { type: 'pitching', field: 'outs',         abbrev: 'Outs' },
     'Hits Allowed':       { type: 'pitching', field: 'hits',         abbrev: 'H' },
     'Walks':              { type: 'pitching', field: 'baseOnBalls',  abbrev: 'BB' },
-    'Batter Hits':        { type: 'batting',  field: 'hits',         abbrev: 'H' },
-    'Batter Total Bases': { type: 'batting',  field: 'totalBases',   abbrev: 'TB' }
+    'Hits':               { type: 'batting',  field: 'hits',         abbrev: 'H' },
+    'Total Bases':        { type: 'batting',  field: 'totalBases',   abbrev: 'TB' }
   };
 
   var liveState = {
