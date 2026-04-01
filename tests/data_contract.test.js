@@ -104,7 +104,6 @@ test('bankroll_curve has rows', async function () {
   assert.equal(typeof row.date, 'string');
   assert.ok(isFiniteNumber(row.flat), 'flat');
   assert.ok(isFiniteNumber(row.pct), 'pct');
-  assert.ok(isFiniteNumber(row.kelly), 'kelly');
 });
 
 test('clv_summary view returns data', async function () {
@@ -198,7 +197,7 @@ test('RLS enforces read-only on bankroll_curve', async function () {
       'Content-Type': 'application/json',
       'Prefer': 'return=minimal',
     },
-    body: JSON.stringify({ season: 9999, date: '9999-01-01', flat: 0, pct: 0, kelly: 0 }),
+    body: JSON.stringify({ season: 9999, date: '9999-01-01', flat: 0, pct: 0 }),
   });
   assert.ok(!res.ok || res.status >= 400, 'anon insert on bankroll_curve should be rejected, got ' + res.status);
 });
