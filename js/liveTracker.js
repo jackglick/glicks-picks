@@ -24,6 +24,9 @@
     'Total Bases':        { type: 'batting',  field: 'totalBases',   abbrev: 'TB' }
   };
 
+  // Persists across stop/start cycles so Final games keep their stats on re-render
+  var finalCache = {};
+
   var liveState = {
     active: false,
     scheduleTimerId: null,
@@ -42,12 +45,25 @@
     if (GP.isArchiveSeason()) return;
     if (!schedule || !schedule.length) return;
 
+    GP.stopLiveTracker();
+
+    // Restore Final games from cache (badges + stats survive re-renders)
+    schedule.forEach(function (g) {
+      if (g.status === 'Final') {
+        updateGameSlateHeader(g.game_pk, 'Final', null, '');
+        if (finalCache[g.game_pk]) {
+          updateCardsForGame(g.game_pk, finalCache[g.game_pk]);
+        } else {
+          // One-time fetch for Final games we haven't cached yet
+          fetchAndCacheFinal(g.game_pk);
+        }
+      }
+    });
+
     var hasLiveOrPreview = schedule.some(function (g) {
       return g.status === 'Live' || g.status === 'Preview';
     });
     if (!hasLiveOrPreview) return;
-
-    GP.stopLiveTracker();
 
     liveState.active = true;
 
@@ -136,6 +152,10 @@
 
         newlyFinal.forEach(function (pk) {
           pollGameBoxscore(pk).then(function () {
+            // Cache final data so it persists across re-renders
+            if (liveState.gameCache[pk]) {
+              finalCache[pk] = liveState.gameCache[pk];
+            }
             stopGamePolling(pk);
           });
         });
@@ -181,6 +201,20 @@
     var errs = liveState.errorCounts[pk] || 0;
     if (errs >= BACKOFF_THRESHOLD) return BOXSCORE_POLL_MS * 2;
     return BOXSCORE_POLL_MS;
+  }
+
+  function fetchAndCacheFinal(pk) {
+    var url = 'https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live';
+    fetch(url)
+      .then(function (resp) {
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        return resp.json();
+      })
+      .then(function (data) {
+        finalCache[pk] = data;
+        updateCardsForGame(pk, data);
+      })
+      .catch(function () {});
   }
 
   function stopGamePolling(pk) {
