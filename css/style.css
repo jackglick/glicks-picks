@@ -2290,6 +2290,133 @@ a {
   cursor: help;
 }
 
+/* ============================================
+   Live Game Tracking
+   ============================================ */
+
+/* --- LIVE / FINAL / DELAY badges on game slate header --- */
+.live-badge,
+.final-badge,
+.delay-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.live-badge {
+  background: var(--danger);
+  color: #fff;
+}
+
+.live-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  animation: live-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.final-badge {
+  background: var(--text-dim);
+  color: #fff;
+}
+
+.delay-badge {
+  background: var(--yellow);
+  color: #1a1a1a;
+}
+
+/* --- Live inning indicator --- */
+.live-inning {
+  margin-left: 0.25rem;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* --- Live stat row on pick cards --- */
+.pick-card-live {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--border);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+}
+
+.live-stat-current {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.live-stat-label {
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+.live-stat-separator {
+  color: var(--text-dim);
+}
+
+.live-stat-line {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.live-stat-pending {
+  color: var(--text-dim);
+  font-size: 0.82rem;
+}
+
+/* --- Progress bar --- */
+.live-progress-bar {
+  flex: 1;
+  height: 4px;
+  min-width: 40px;
+  border-radius: 2px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.live-progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--accent);
+  transition: width 0.5s ease, background-color 0.3s ease;
+}
+
+.live-progress-fill.approaching       { background: var(--yellow); }
+.live-progress-fill.approaching-good  { background: var(--green); }
+.live-progress-fill.approaching-bad   { background: var(--accent-2); }
+.live-progress-fill.hit               { background: var(--green); }
+.live-progress-fill.exceeded          { background: var(--danger); }
+
+/* --- Reduced motion --- */
+@media (prefers-reduced-motion: reduce) {
+  .live-badge-dot { animation: none; opacity: 1; }
+  .live-progress-fill { transition: none; }
+}
+
 .pick-card-notice {
   padding: 0.5rem 0.75rem;
   margin-top: 0.5rem;

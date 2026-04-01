@@ -130,6 +130,12 @@
     if (pick.category === 'batter') {
       card.classList.add('pick-card--batter');
     }
+    if (pick.game_pk) card.setAttribute('data-game-pk', pick.game_pk);
+    if (pick.player_id) card.setAttribute('data-player-id', pick.player_id);
+    if (pick.market) card.setAttribute('data-market', pick.market);
+    card.setAttribute('data-category', pick.category || 'pitcher');
+    if (pick.line != null) card.setAttribute('data-line', pick.line);
+    if (pick.direction) card.setAttribute('data-direction', pick.direction);
 
     var header = el('div', 'pick-card-header');
     header.appendChild(createPlayerAvatar(pick));
@@ -566,9 +572,11 @@
 
         slate.games.forEach(function (game) {
           var section = el('div', 'game-slate-group');
+          section.setAttribute('data-game-pk', game.game_pk);
 
           // Game header: away @ home
           var header = el('div', 'game-slate-header');
+          header.setAttribute('data-game-pk', game.game_pk);
           header.appendChild(createTeamBadge(normalizeTeamCode(game.away_team), 'left'));
           header.appendChild(el('span', 'matchup-vs', '@'));
           header.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
@@ -606,6 +614,9 @@
           : '';
       }
       GP.reobserveReveals();
+      if (typeof GP.initLiveTracker === 'function' && !GP.isArchiveSeason()) {
+        GP.initLiveTracker(picksState.schedule);
+      }
       return;
     }
 
@@ -1002,6 +1013,7 @@
   }
 
   function loadBacktestPicks(dateStr) {
+    if (typeof GP.stopLiveTracker === 'function') GP.stopLiveTracker();
     var dateEl = document.getElementById('picks-date');
     var container = document.getElementById('picks-container');
     var count = picksState.backtestIndex && picksState.backtestIndex.countByDate[dateStr]
@@ -1084,7 +1096,8 @@
             home_pitcher: homePitcher,
             game_time: timeStr,
             game_date_utc: g.gameDate,
-            status: (g.status || {}).abstractGameState || 'Preview'
+            status: (g.status || {}).abstractGameState || 'Preview',
+            detailedState: (g.status || {}).detailedState || ''
           });
         });
         return games;
