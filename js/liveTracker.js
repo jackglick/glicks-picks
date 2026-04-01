@@ -54,7 +54,6 @@
         if (finalCache[g.game_pk]) {
           updateCardsForGame(g.game_pk, finalCache[g.game_pk]);
         } else {
-          // One-time fetch for Final games we haven't cached yet
           fetchAndCacheFinal(g.game_pk);
         }
       }
@@ -78,6 +77,8 @@
       updateGameSlateHeader(g.game_pk, 'Live', null, '');
     });
 
+    // Immediate fresh schedule fetch to catch any stale statuses, then poll
+    pollSchedule();
     liveState.scheduleTimerId = setInterval(pollSchedule, SCHEDULE_POLL_MS);
     document.addEventListener('visibilitychange', handleVisibilityChange);
   };
