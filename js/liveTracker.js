@@ -8,6 +8,7 @@
 
   var GP = window.GP;
   var el = GP.el;
+  var clearChildren = GP.clearChildren;
 
   var SCHEDULE_POLL_MS = 30000;
   var BOXSCORE_POLL_MS = 30000;
@@ -24,7 +25,6 @@
     'Total Bases':        { type: 'batting',  field: 'totalBases',   abbrev: 'TB' }
   };
 
-  // Persists across stop/start cycles so Final games keep their stats on re-render
   var finalCache = {};
 
   var liveState = {
@@ -45,15 +45,20 @@
     if (GP.isArchiveSeason()) return;
     if (!schedule || !schedule.length) return;
 
-    GP.stopLiveTracker();
+    // If already polling, just re-apply cached overlays to fresh DOM
+    if (liveState.active) {
+      reapplyOverlays(schedule);
+      return;
+    }
 
-    // Restore Final games from cache (badges + stats survive re-renders)
+    // Restore Final games from cache
     schedule.forEach(function (g) {
       if (g.status === 'Final') {
         updateGameSlateHeader(g.game_pk, 'Final', null, '');
-        if (finalCache[g.game_pk]) {
-          updateCardsForGame(g.game_pk, finalCache[g.game_pk]);
-        } else {
+        var cached = finalCache[g.game_pk];
+        if (cached) {
+          updateCardsForGame(g.game_pk, cached);
+        } else if (finalCache[g.game_pk] !== 'pending') {
           fetchAndCacheFinal(g.game_pk);
         }
       }
@@ -77,11 +82,26 @@
       updateGameSlateHeader(g.game_pk, 'Live', null, '');
     });
 
-    // Immediate fresh schedule fetch to catch any stale statuses, then poll
     pollSchedule();
     liveState.scheduleTimerId = setInterval(pollSchedule, SCHEDULE_POLL_MS);
     document.addEventListener('visibilitychange', handleVisibilityChange);
   };
+
+  // Re-apply cached stats/badges to freshly rendered DOM (sort/filter change)
+  function reapplyOverlays(schedule) {
+    schedule.forEach(function (g) {
+      var pk = g.game_pk;
+      var status = liveState.gameStatuses[pk] || g.status;
+      var cached = (status === 'Final') ? finalCache[pk] : liveState.gameCache[pk];
+
+      if (status === 'Final' || status === 'Live') {
+        updateGameSlateHeader(pk, status, null, '');
+      }
+      if (cached) {
+        updateCardsForGame(pk, cached);
+      }
+    });
+  }
 
   GP.stopLiveTracker = function () {
     liveState.active = false;
@@ -92,7 +112,7 @@
     }
 
     Object.keys(liveState.gameTimers).forEach(function (pk) {
-      clearInterval(liveState.gameTimers[pk]);
+      clearTimeout(liveState.gameTimers[pk]);
     });
 
     liveState.gameTimers = {};
@@ -153,7 +173,6 @@
 
         newlyFinal.forEach(function (pk) {
           pollGameBoxscore(pk).then(function () {
-            // Cache final data so it persists across re-renders
             if (liveState.gameCache[pk]) {
               finalCache[pk] = liveState.gameCache[pk];
             }
@@ -175,26 +194,24 @@
   }
 
   // ============================================
-  // Per-game boxscore polling
+  // Per-game boxscore polling (chained setTimeout for live backoff)
   // ============================================
 
   function startBoxscorePolling(games) {
-    games.forEach(function (g, i) {
+    games.forEach(function (g) {
       var pk = g.game_pk;
       if (liveState.gameTimers[pk]) return;
-
       liveState.errorCounts[pk] = 0;
+      pollAndReschedule(pk);
+    });
+  }
 
-      var staggerMs = i * Math.min(10000, BOXSCORE_POLL_MS / Math.max(games.length, 1));
-
-      setTimeout(function () {
-        if (!liveState.active) return;
-        pollGameBoxscore(pk);
-        liveState.gameTimers[pk] = setInterval(function () {
-          if (!liveState.active) return;
-          pollGameBoxscore(pk);
-        }, getGamePollInterval(pk));
-      }, staggerMs);
+  function pollAndReschedule(pk) {
+    pollGameBoxscore(pk).finally(function () {
+      if (!liveState.active) return;
+      liveState.gameTimers[pk] = setTimeout(function () {
+        pollAndReschedule(pk);
+      }, getGamePollInterval(pk));
     });
   }
 
@@ -205,6 +222,7 @@
   }
 
   function fetchAndCacheFinal(pk) {
+    finalCache[pk] = 'pending';
     var url = 'https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live';
     fetch(url)
       .then(function (resp) {
@@ -215,12 +233,15 @@
         finalCache[pk] = data;
         updateCardsForGame(pk, data);
       })
-      .catch(function () {});
+      .catch(function (err) {
+        delete finalCache[pk];
+        console.warn('[LiveTracker] Final fetch failed for game ' + pk + ':', err);
+      });
   }
 
   function stopGamePolling(pk) {
     if (liveState.gameTimers[pk]) {
-      clearInterval(liveState.gameTimers[pk]);
+      clearTimeout(liveState.gameTimers[pk]);
       delete liveState.gameTimers[pk];
     }
   }
@@ -284,11 +305,11 @@
   function updateCardsForGame(gamePk, liveFeed) {
     var cards = document.querySelectorAll('.pick-card[data-game-pk="' + gamePk + '"]');
     for (var i = 0; i < cards.length; i++) {
-      updateSingleCard(cards[i], liveFeed);
+      updateSingleCard(cards[i], gamePk, liveFeed);
     }
   }
 
-  function updateSingleCard(card, liveFeed) {
+  function updateSingleCard(card, gamePk, liveFeed) {
     var playerId = card.getAttribute('data-player-id');
     var market = card.getAttribute('data-market');
     var line = parseFloat(card.getAttribute('data-line'));
@@ -301,11 +322,9 @@
 
     var stat = extractPlayerStat(liveFeed, playerId, marketConfig);
 
-    // Find or create the live stat element
     var liveEl = card.querySelector('.pick-card-live');
     if (!liveEl) {
-      liveEl = document.createElement('div');
-      liveEl.className = 'pick-card-live';
+      liveEl = el('div', 'pick-card-live');
 
       var insertBefore = card.querySelector('.pick-card-books') ||
         card.querySelector('.pick-card-book') ||
@@ -325,8 +344,7 @@
       return;
     }
 
-    // Skip DOM write if value unchanged
-    var cacheKey = card.getAttribute('data-game-pk') + ':' + playerId + ':' + market;
+    var cacheKey = gamePk + ':' + playerId + ':' + market;
     if (liveState.lastStatValues[cacheKey] === stat) return;
     liveState.lastStatValues[cacheKey] = stat;
 
@@ -345,10 +363,6 @@
     barFill.style.width = pct + '%';
     barContainer.appendChild(barFill);
     liveEl.appendChild(barContainer);
-  }
-
-  function clearChildren(node) {
-    while (node.firstChild) node.removeChild(node.firstChild);
   }
 
   function getProgressColor(stat, line, direction) {
@@ -375,7 +389,6 @@
     for (var i = 0; i < headers.length; i++) {
       var header = headers[i];
 
-      // Remove existing badges and inning text
       var oldBadge = header.querySelector('.live-badge, .final-badge, .delay-badge');
       if (oldBadge) oldBadge.remove();
       var oldInning = header.querySelector('.live-inning');
@@ -386,11 +399,8 @@
         if (isDelayed) {
           header.appendChild(el('span', 'delay-badge', 'DELAY'));
         } else {
-          var badge = document.createElement('span');
-          badge.className = 'live-badge';
-          var dot = document.createElement('span');
-          dot.className = 'live-badge-dot';
-          badge.appendChild(dot);
+          var badge = el('span', 'live-badge');
+          badge.insertBefore(el('span', 'live-badge-dot'), badge.firstChild);
           badge.appendChild(document.createTextNode('LIVE'));
           header.appendChild(badge);
 
@@ -433,7 +443,7 @@
       liveState.scheduleTimerId = null;
     }
     Object.keys(liveState.gameTimers).forEach(function (pk) {
-      clearInterval(liveState.gameTimers[pk]);
+      clearTimeout(liveState.gameTimers[pk]);
       delete liveState.gameTimers[pk];
     });
   }
