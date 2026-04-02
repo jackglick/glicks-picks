@@ -2300,10 +2300,11 @@ a {
    Live Game Tracking
    ============================================ */
 
-/* --- LIVE / FINAL / DELAY badges on game slate header --- */
+/* --- LIVE / FINAL / DELAY / PPD badges on game slate header --- */
 .live-badge,
 .final-badge,
-.delay-badge {
+.delay-badge,
+.postponed-badge {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -2341,7 +2342,8 @@ a {
   color: #fff;
 }
 
-.delay-badge {
+.delay-badge,
+.postponed-badge {
   background: var(--yellow);
   color: #1a1a1a;
 }

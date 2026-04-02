@@ -508,6 +508,7 @@
           game_time: g.game_time,
           game_date_utc: g.game_date_utc,
           status: g.status,
+          detailedState: g.detailedState || '',
           picks: picksByGame[g.game_pk] || []
         };
       });
@@ -1120,6 +1121,10 @@
   }
 
   function getGamePlaceholderText(game) {
+    var ds = game.detailedState || '';
+    if (ds.indexOf('Postponed') !== -1) {
+      return 'Game postponed';
+    }
     var now = new Date();
     var gameStart = new Date(game.game_date_utc);
     var hoursUntil = (gameStart - now) / (1000 * 60 * 60);

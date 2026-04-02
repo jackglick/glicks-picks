@@ -389,7 +389,7 @@
     for (var i = 0; i < headers.length; i++) {
       var header = headers[i];
 
-      var oldBadge = header.querySelector('.live-badge, .final-badge, .delay-badge');
+      var oldBadge = header.querySelector('.live-badge, .final-badge, .delay-badge, .postponed-badge');
       if (oldBadge) oldBadge.remove();
       var oldInning = header.querySelector('.live-inning');
       if (oldInning) oldInning.remove();
@@ -414,7 +414,12 @@
           }
         }
       } else if (status === 'Final') {
-        header.appendChild(el('span', 'final-badge', 'FINAL'));
+        var isPostponed = detailedState && detailedState.indexOf('Postponed') !== -1;
+        if (isPostponed) {
+          header.appendChild(el('span', 'postponed-badge', 'PPD'));
+        } else {
+          header.appendChild(el('span', 'final-badge', 'FINAL'));
+        }
       }
     }
   }
