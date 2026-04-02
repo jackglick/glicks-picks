@@ -416,7 +416,7 @@
       } else if (status === 'Final') {
         var isPostponed = detailedState && detailedState.indexOf('Postponed') !== -1;
         if (isPostponed) {
-          header.appendChild(el('span', 'postponed-badge', 'PPD'));
+          header.appendChild(el('span', 'postponed-badge', 'POSTPONED'));
         } else {
           header.appendChild(el('span', 'final-badge', 'FINAL'));
         }
