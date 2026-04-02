@@ -1102,7 +1102,9 @@
             game_time: timeStr,
             game_date_utc: g.gameDate,
             status: (g.status || {}).abstractGameState || 'Preview',
-            detailedState: (g.status || {}).detailedState || ''
+            detailedState: (g.status || {}).detailedState || '',
+            away_score: away.score != null ? away.score : null,
+            home_score: home.score != null ? home.score : null
           });
         });
         return games;
