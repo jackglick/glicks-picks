@@ -34,7 +34,8 @@
     gameCache: {},
     gameStatuses: {},
     errorCounts: {},
-    lastStatValues: {}
+    lastStatValues: {},
+    gameScores: {}
   };
 
   // ============================================
@@ -54,7 +55,9 @@
     // Restore Final games from cache
     schedule.forEach(function (g) {
       if (g.status === 'Final') {
-        updateGameSlateHeader(g.game_pk, 'Final', null, '');
+        updateGameSlateHeader(g.game_pk, 'Final', null, '',
+          g.away_score != null ? g.away_score : null,
+          g.home_score != null ? g.home_score : null);
         var cached = finalCache[g.game_pk];
         if (cached) {
           updateCardsForGame(g.game_pk, cached);
@@ -73,13 +76,18 @@
 
     schedule.forEach(function (g) {
       liveState.gameStatuses[g.game_pk] = g.status;
+      if (g.away_score != null && g.home_score != null) {
+        liveState.gameScores[g.game_pk] = { away: g.away_score, home: g.home_score };
+      }
     });
 
     var liveGames = schedule.filter(function (g) { return g.status === 'Live'; });
     startBoxscorePolling(liveGames);
 
     liveGames.forEach(function (g) {
-      updateGameSlateHeader(g.game_pk, 'Live', null, '');
+      updateGameSlateHeader(g.game_pk, 'Live', null, '',
+        g.away_score != null ? g.away_score : null,
+        g.home_score != null ? g.home_score : null);
     });
 
     pollSchedule();
@@ -95,7 +103,10 @@
       var cached = (status === 'Final') ? finalCache[pk] : liveState.gameCache[pk];
 
       if (status === 'Final' || status === 'Live') {
-        updateGameSlateHeader(pk, status, null, '');
+        var scores = liveState.gameScores[pk];
+        updateGameSlateHeader(pk, status, null, '',
+          scores ? scores.away : null,
+          scores ? scores.home : null);
       }
       if (cached) {
         updateCardsForGame(pk, cached);
@@ -120,6 +131,7 @@
     liveState.gameStatuses = {};
     liveState.errorCounts = {};
     liveState.lastStatValues = {};
+    liveState.gameScores = {};
 
     document.removeEventListener('visibilitychange', handleVisibilityChange);
   };
@@ -164,7 +176,14 @@
           }
 
           var detailedState = (g.status || {}).detailedState || '';
-          updateGameSlateHeader(pk, status, null, detailedState);
+          var awayScore = ((g.teams || {}).away || {}).score;
+          var homeScore = ((g.teams || {}).home || {}).score;
+          if (awayScore != null && homeScore != null) {
+            liveState.gameScores[pk] = { away: awayScore, home: homeScore };
+          }
+          updateGameSlateHeader(pk, status, null, detailedState,
+            awayScore != null ? awayScore : null,
+            homeScore != null ? homeScore : null);
         });
 
         if (newlyLive.length > 0) {
@@ -261,7 +280,15 @@
         var linescore = (data.liveData || {}).linescore || null;
         var status = ((data.gameData || {}).status || {}).abstractGameState || 'Live';
         var detailedState = ((data.gameData || {}).status || {}).detailedState || '';
-        updateGameSlateHeader(pk, status, linescore, detailedState);
+        var lsTeams = (linescore || {}).teams || {};
+        var awayRuns = (lsTeams.away || {}).runs;
+        var homeRuns = (lsTeams.home || {}).runs;
+        if (awayRuns != null && homeRuns != null) {
+          liveState.gameScores[pk] = { away: awayRuns, home: homeRuns };
+        }
+        updateGameSlateHeader(pk, status, linescore, detailedState,
+          awayRuns != null ? awayRuns : null,
+          homeRuns != null ? homeRuns : null);
 
         updateCardsForGame(pk, data);
       })
@@ -384,7 +411,7 @@
   // DOM updates — game slate headers
   // ============================================
 
-  function updateGameSlateHeader(gamePk, status, linescore, detailedState) {
+  function updateGameSlateHeader(gamePk, status, linescore, detailedState, awayScore, homeScore) {
     var headers = document.querySelectorAll('.game-slate-header[data-game-pk="' + gamePk + '"]');
     for (var i = 0; i < headers.length; i++) {
       var header = headers[i];
@@ -393,6 +420,28 @@
       if (oldBadge) oldBadge.remove();
       var oldInning = header.querySelector('.live-inning');
       if (oldInning) oldInning.remove();
+
+      // Update or create score elements
+      var awayScoreEl = header.querySelector('.game-score.away-score');
+      var homeScoreEl = header.querySelector('.game-score.home-score');
+
+      if (awayScore != null && homeScore != null) {
+        if (!awayScoreEl) {
+          // Insert scores: [away-badge] [score] @ [score] [home-badge]
+          var vsEl = header.querySelector('.matchup-vs');
+          if (vsEl) {
+            awayScoreEl = el('span', 'game-score away-score', String(awayScore));
+            header.insertBefore(awayScoreEl, vsEl);
+            homeScoreEl = el('span', 'game-score home-score', String(homeScore));
+            vsEl.nextSibling
+              ? header.insertBefore(homeScoreEl, vsEl.nextSibling)
+              : header.appendChild(homeScoreEl);
+          }
+        } else {
+          awayScoreEl.textContent = String(awayScore);
+          homeScoreEl.textContent = String(homeScore);
+        }
+      }
 
       if (status === 'Live') {
         var isDelayed = detailedState && detailedState.indexOf('Delay') !== -1;
