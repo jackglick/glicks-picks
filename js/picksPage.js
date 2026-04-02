@@ -509,6 +509,8 @@
           game_date_utc: g.game_date_utc,
           status: g.status,
           detailedState: g.detailedState || '',
+          away_score: g.away_score,
+          home_score: g.home_score,
           picks: picksByGame[g.game_pk] || []
         };
       });
