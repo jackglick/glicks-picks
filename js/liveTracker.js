@@ -419,7 +419,7 @@
       var oldBadge = header.querySelector('.live-badge, .final-badge, .delay-badge, .postponed-badge');
       if (oldBadge) oldBadge.remove();
       var oldInning = header.querySelector('.live-inning');
-      if (oldInning) oldInning.remove();
+      if (oldInning && (linescore || status !== 'Live')) oldInning.remove();
 
       // Update or create score elements
       var awayScoreEl = header.querySelector('.game-score.away-score');
