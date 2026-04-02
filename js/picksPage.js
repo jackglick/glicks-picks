@@ -579,11 +579,17 @@
           var section = el('div', 'game-slate-group');
           section.setAttribute('data-game-pk', game.game_pk);
 
-          // Game header: away @ home
+          // Game header: away [score] @ [score] home
           var header = el('div', 'game-slate-header');
           header.setAttribute('data-game-pk', game.game_pk);
           header.appendChild(createTeamBadge(normalizeTeamCode(game.away_team), 'left'));
+          if (game.away_score != null && game.home_score != null) {
+            header.appendChild(el('span', 'game-score away-score', String(game.away_score)));
+          }
           header.appendChild(el('span', 'matchup-vs', '@'));
+          if (game.away_score != null && game.home_score != null) {
+            header.appendChild(el('span', 'game-score home-score', String(game.home_score)));
+          }
           header.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
           section.appendChild(header);
 
