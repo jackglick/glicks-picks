@@ -1961,6 +1961,16 @@ a {
   margin-bottom: 0.5rem;
 }
 
+.game-score {
+  font-family: var(--mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  min-width: 1.2em;
+  text-align: center;
+}
+
 /* --- Calendar close button (#37) --- */
 .calendar-close-btn {
   background: none;
