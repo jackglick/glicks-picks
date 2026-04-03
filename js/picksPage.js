@@ -102,7 +102,21 @@
     return playerName.charAt(0).toUpperCase();
   }
 
+  function bbrefUrl(bbrefId) {
+    return 'https://www.baseball-reference.com/players/' + bbrefId.charAt(0) + '/' + bbrefId + '.shtml';
+  }
+
+  function wrapInBbrefLink(element, bbrefId) {
+    var a = document.createElement('a');
+    a.href = bbrefUrl(bbrefId);
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.appendChild(element);
+    return a;
+  }
+
   function createPlayerAvatar(pick) {
+    var avatar;
     if (pick.player_id) {
       var img = document.createElement('img');
       img.className = 'player-headshot';
@@ -111,11 +125,14 @@
       img.src = 'https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/' + pick.player_id + '/headshot/67/current';
       img.onerror = function () {
         var initials = el('div', 'player-initials', getPlayerInitials(pick.player));
-        img.parentNode.replaceChild(initials, img);
+        var parent = img.parentNode;
+        parent.replaceChild(initials, img);
       };
-      return img;
+      avatar = img;
+    } else {
+      avatar = el('div', 'player-initials', getPlayerInitials(pick.player));
     }
-    return el('div', 'player-initials', getPlayerInitials(pick.player));
+    return pick.bbref_id ? wrapInBbrefLink(avatar, pick.bbref_id) : avatar;
   }
 
   function formatPlayerName(name) {
@@ -144,7 +161,7 @@
     var playerDiv = el('div', 'pick-card-player');
     if (pick.bbref_id) {
       var playerLink = document.createElement('a');
-      playerLink.href = 'https://www.baseball-reference.com/players/' + pick.bbref_id.charAt(0) + '/' + pick.bbref_id + '.shtml';
+      playerLink.href = bbrefUrl(pick.bbref_id);
       playerLink.target = '_blank';
       playerLink.rel = 'noopener noreferrer';
       playerLink.textContent = formatPlayerName(pick.player);

@@ -1028,6 +1028,16 @@ body.backtest-mode .mobile-nav {
   flex-shrink: 0;
 }
 
+a > .player-headshot,
+a > .player-initials {
+  transition: opacity 0.15s;
+}
+
+a:hover > .player-headshot,
+a:hover > .player-initials {
+  opacity: 0.8;
+}
+
 .player-initials {
   width: 48px;
   height: 48px;
