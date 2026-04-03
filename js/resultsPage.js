@@ -469,7 +469,7 @@
       GP.supabase.from('bankroll_curve').select('*').eq('season', seasonInt).order('date'),
       GP.supabase.from('clv_daily').select('*').eq('season', seasonInt).order('date'),
       GP.supabase.from('clv_summary').select('*').eq('season', seasonInt),
-      GP.supabase.from('picks').select('date,player,player_team,category,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
+      GP.supabase.from('picks').select('date,player,player_team,category,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable,bbref_id')
         .eq('season', seasonInt)
         .order('date', { ascending: false }).limit(51),
     ]).then(function (results) {
