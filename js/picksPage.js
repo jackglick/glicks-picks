@@ -141,7 +141,17 @@
     header.appendChild(createPlayerAvatar(pick));
     var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
-    var playerDiv = el('div', 'pick-card-player', formatPlayerName(pick.player));
+    var playerDiv = el('div', 'pick-card-player');
+    if (pick.bbref_id) {
+      var playerLink = document.createElement('a');
+      playerLink.href = 'https://www.baseball-reference.com/players/' + pick.bbref_id.charAt(0) + '/' + pick.bbref_id + '.shtml';
+      playerLink.target = '_blank';
+      playerLink.rel = 'noopener noreferrer';
+      playerLink.textContent = formatPlayerName(pick.player);
+      playerDiv.appendChild(playerLink);
+    } else {
+      playerDiv.textContent = formatPlayerName(pick.player);
+    }
     if (pick.injury_flag) {
       var injBadge = document.createElement('span');
       injBadge.className = 'injury-badge';

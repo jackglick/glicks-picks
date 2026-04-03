@@ -171,7 +171,16 @@
             playerTd.appendChild(logo);
           }
         }
-        playerTd.appendChild(document.createTextNode(r.player));
+        if (r.bbref_id) {
+          var playerLink = document.createElement('a');
+          playerLink.href = 'https://www.baseball-reference.com/players/' + r.bbref_id.charAt(0) + '/' + r.bbref_id + '.shtml';
+          playerLink.target = '_blank';
+          playerLink.rel = 'noopener noreferrer';
+          playerLink.textContent = r.player;
+          playerTd.appendChild(playerLink);
+        } else {
+          playerTd.appendChild(document.createTextNode(r.player));
+        }
         var posLabel = r.category === 'batter' ? 'BAT' : 'SP';
         var posBadge = el('span', 'game-log-pos game-log-pos--' + posLabel.toLowerCase(), posLabel);
         playerTd.appendChild(posBadge);
