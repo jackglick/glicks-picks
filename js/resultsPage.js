@@ -376,7 +376,18 @@
   // Bankroll equity chart
   // ============================================
 
+  // Tracks whether the window resize listener has been bound. The listener
+  // itself looks up the current chart via Chart.getChart(canvas), so it stays
+  // correct across re-renders without needing to be re-bound.
+  var bankrollChartResizeBound = false;
+
   function initBankrollChart(canvas, curveData, initialBankroll) {
+    // Chart.js v4 throws "Canvas is already in use" if a chart is rebound to
+    // the same canvas without destroying the previous instance. This happens
+    // whenever the track-record page re-renders (e.g. toggling v1 ↔ v1.1).
+    var existing = (typeof Chart !== 'undefined' && Chart.getChart) ? Chart.getChart(canvas) : null;
+    if (existing) existing.destroy();
+
     var labels = curveData.map(function (d) { return formatDate(d.date); });
     var flatValues = curveData.map(function (d) { return d.flat; });
     var pctValues = curveData.map(function (d) { return d.pct; });
@@ -568,13 +579,20 @@
       }
     });
 
-    window.addEventListener('resize', function () {
-      var newLimit = window.innerWidth < 640 ? 5 : 10;
-      if (chart.options.scales.x.ticks.maxTicksLimit !== newLimit) {
-        chart.options.scales.x.ticks.maxTicksLimit = newLimit;
-        chart.update('none');
-      }
-    });
+    // Bind resize once; look up the current chart each time so stale closures
+    // over destroyed Chart instances can never fire.
+    if (!bankrollChartResizeBound) {
+      bankrollChartResizeBound = true;
+      window.addEventListener('resize', function () {
+        var current = (typeof Chart !== 'undefined' && Chart.getChart) ? Chart.getChart(canvas) : null;
+        if (!current) return;
+        var newLimit = window.innerWidth < 640 ? 5 : 10;
+        if (current.options.scales.x.ticks.maxTicksLimit !== newLimit) {
+          current.options.scales.x.ticks.maxTicksLimit = newLimit;
+          current.update('none');
+        }
+      });
+    }
   }
 
   // ============================================
@@ -584,6 +602,10 @@
   function loadV1FrozenResults() {
     var subtitleEl = document.getElementById('results-subtitle');
 
+    // Note: the two-argument form of .then is used (onFulfilled, onRejected)
+    // instead of a trailing .catch so that render exceptions in the success
+    // branch propagate as unhandled rejections — the empty "archive
+    // unavailable" state is only for genuine fetch/parse failures.
     fetch('data/results_2026_v1.json')
       .then(function (r) {
         if (!r.ok) {
@@ -591,44 +613,46 @@
         }
         return r.json();
       })
-      .then(function (data) {
-        var s = data.summary;
-        var emptyEl = document.getElementById('results-empty');
-        var contentEl = document.getElementById('results-content');
-        if (emptyEl) emptyEl.style.display = 'none';
-        if (contentEl) contentEl.style.display = '';
+      .then(
+        function (data) {
+          var s = data.summary;
+          var emptyEl = document.getElementById('results-empty');
+          var contentEl = document.getElementById('results-content');
+          if (emptyEl) emptyEl.style.display = 'none';
+          if (contentEl) contentEl.style.display = '';
 
-        setStatusText('results-generated-at',
-          'Last updated: ' + formatTimestamp(data.generated_at));
+          setStatusText('results-generated-at',
+            'Last updated: ' + formatTimestamp(data.generated_at));
 
-        if (subtitleEl && v1Logic) {
-          subtitleEl.textContent = v1Logic.buildV1Subtitle(data.forward_sample_window);
+          if (subtitleEl && v1Logic) {
+            subtitleEl.textContent = v1Logic.buildV1Subtitle(data.forward_sample_window);
+          }
+
+          renderSummaryCard(s);
+          renderMarketTable(data.by_market);
+          renderDirectionStats({ direction_stats: data.direction_stats });
+          renderRecentPicks({ recent: data.recent });
+          renderDrawdownStreak({ bankroll_curve: data.bankroll_curve });
+          renderBankrollChartLazy(data.bankroll_curve, s.initial_bankroll || 5000);
+
+          setV1BannerVisible(true);
+          GP.reobserveReveals();
+          GP.initScrollHints();
+        },
+        function (err) {
+          console.error('v1 frozen archive fetch failed:', err);
+          var emptyEl = document.getElementById('results-empty');
+          var contentEl = document.getElementById('results-content');
+          if (contentEl) contentEl.style.display = 'none';
+          if (emptyEl) {
+            emptyEl.style.display = '';
+            var title = document.getElementById('results-empty-title');
+            var copy = document.getElementById('results-empty-copy');
+            if (title) title.textContent = 'v1 archive unavailable';
+            if (copy) copy.textContent = 'Could not load data/results_2026_v1.json. ' + err.message;
+          }
         }
-
-        renderSummaryCard(s);
-        renderMarketTable(data.by_market);
-        renderDirectionStats({ direction_stats: data.direction_stats });
-        renderRecentPicks({ recent: data.recent });
-        renderDrawdownStreak({ bankroll_curve: data.bankroll_curve });
-        renderBankrollChartLazy(data.bankroll_curve, s.initial_bankroll || 5000);
-
-        setV1BannerVisible(true);
-        GP.reobserveReveals();
-        GP.initScrollHints();
-      })
-      .catch(function (err) {
-        console.error('v1 frozen archive fetch failed:', err);
-        var emptyEl = document.getElementById('results-empty');
-        var contentEl = document.getElementById('results-content');
-        if (contentEl) contentEl.style.display = 'none';
-        if (emptyEl) {
-          emptyEl.style.display = '';
-          var title = document.getElementById('results-empty-title');
-          var copy = document.getElementById('results-empty-copy');
-          if (title) title.textContent = 'v1 archive unavailable';
-          if (copy) copy.textContent = 'Could not load data/results_2026_v1.json. ' + err.message;
-        }
-      });
+      );
   }
 
   // ============================================
@@ -676,6 +700,11 @@
       GP.supabase.from('picks').select('date,player,player_team,category,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable,bbref_id')
         .eq('season', seasonInt)
         .order('date', { ascending: false }).limit(51),
+    // Note: the two-argument form of .then is used (onFulfilled, onRejected)
+    // instead of a trailing .catch so that render exceptions in the success
+    // branch propagate as unhandled rejections — the empty "Results
+    // unavailable" state is only for genuine Promise.all rejection (network
+    // failure, etc.), not for downstream rendering bugs.
     ]).then(function (results) {
       var summaryRes = results[0];
       var marketRes = results[1];
@@ -755,7 +784,7 @@
       GP.reobserveReveals();
       GP.initScrollHints();
 
-    }).catch(function (err) {
+    }, function (err) {
       console.error('Results fetch error:', err);
       var emptyEl = document.getElementById('results-empty');
       if (emptyEl) {
