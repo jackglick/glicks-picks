@@ -2511,3 +2511,71 @@ a {
   background: rgba(251, 191, 36, 0.15);
   color: #fbbf24;
 }
+
+/* ============================================
+   v1 version toggle (sub-control of season pill)
+   ============================================ */
+
+.version-toggle {
+  display: inline-flex;
+  gap: 4px;
+  margin: 8px 0 0;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 28px;
+  font-size: 0.85rem;
+}
+
+.version-toggle-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  line-height: 1;
+}
+
+.version-toggle-btn:hover:not(.active) {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.version-toggle-btn.active {
+  background: var(--accent-2, #f97316);
+  color: #fff;
+}
+
+.version-toggle-btn:focus-visible {
+  outline: 2px solid var(--accent-2, #f97316);
+  outline-offset: 1px;
+}
+
+/* ============================================
+   v1 frozen banner
+   ============================================ */
+
+.v1-frozen-banner {
+  max-width: 720px;
+  margin: 12px auto 0;
+  padding: 10px 16px;
+  background: rgba(249, 115, 22, 0.12);
+  border-left: 3px solid var(--accent-2, #f97316);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.v1-frozen-banner strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--accent-2, #f97316);
+}

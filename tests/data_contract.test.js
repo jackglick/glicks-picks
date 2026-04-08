@@ -215,3 +215,52 @@ test('RLS enforces read-only on season_summaries', async function () {
   });
   assert.ok(!res.ok || res.status >= 400, 'anon insert on season_summaries should be rejected, got ' + res.status);
 });
+
+// ============================================
+// v1 frozen JSON archive contract
+// ============================================
+
+const fs = require('node:fs');
+const path = require('node:path');
+
+test('results_2026_v1.json has the expected v1 archive shape', function () {
+  var jsonPath = path.join(__dirname, '..', 'data', 'results_2026_v1.json');
+  assert.ok(fs.existsSync(jsonPath), 'results_2026_v1.json must be committed to the repo');
+
+  var raw = fs.readFileSync(jsonPath, 'utf8');
+  var data = JSON.parse(raw);
+
+  // Top-level metadata
+  assert.equal(data.model_version, 'v1');
+  assert.equal(data.cutover_date, '2026-04-06');
+  assert.ok(data.label && data.label.indexOf('v1') !== -1);
+  assert.ok(data.forward_sample_window);
+  assert.equal(data.forward_sample_window.start, '2026-03-25');
+  assert.equal(data.forward_sample_window.end, '2026-04-06');
+
+  // Data sections — keys must match export_results() shape
+  assert.ok(data.summary, 'summary must be present');
+  assert.equal(typeof data.summary.total_bets, 'number');
+  assert.ok(data.summary.total_bets > 100, 'should have >100 bets');
+  assert.ok(data.summary.total_bets < 200, 'should have <200 bets');
+  assert.ok(data.summary.flat, 'summary.flat must be present');
+  assert.ok(data.summary.pct, 'summary.pct must be present');
+
+  assert.ok(Array.isArray(data.bankroll_curve));
+  assert.ok(data.bankroll_curve.length > 0, 'bankroll_curve must have entries');
+
+  assert.ok(Array.isArray(data.by_market));
+  assert.ok(data.by_market.length > 0, 'by_market must have at least one market');
+
+  assert.ok(Array.isArray(data.direction_stats));
+  assert.ok(data.direction_stats.length > 0, 'direction_stats must have entries');
+
+  assert.ok(Array.isArray(data.recent));
+  assert.ok(data.recent.length > 0, 'recent must have entries');
+
+  // Scoped-out keys must be absent (not returning them is the design)
+  assert.equal(data.star_tier_stats, undefined);
+  assert.equal(data.player_attention, undefined);
+  assert.equal(data.clv_summary, undefined);
+  assert.equal(data.clv_by_date, undefined);
+});

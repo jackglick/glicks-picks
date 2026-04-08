@@ -213,6 +213,51 @@
     };
   }
 
+  // ============================================
+  // v1 track record archive
+  // ============================================
+
+  function parseVersionParam(urlString) {
+    try {
+      var url = new URL(urlString);
+      var version = url.searchParams.get('version');
+      return version === 'v1' ? 'v1' : 'v1.1';
+    } catch (e) {
+      return 'v1.1';
+    }
+  }
+
+  function shouldShowVersionToggle(season) {
+    return season === '2026';
+  }
+
+  function resolveResultsSource(season, version) {
+    if (season === '2026' && version === 'v1') {
+      return 'v1-frozen';
+    }
+    return 'supabase';
+  }
+
+  function buildVersionUrl(urlString, version) {
+    try {
+      var url = new URL(urlString);
+      if (version === 'v1') {
+        url.searchParams.set('version', 'v1');
+      } else {
+        url.searchParams.delete('version');
+      }
+      return url.toString();
+    } catch (e) {
+      return urlString;
+    }
+  }
+
+  function buildV1Subtitle(window) {
+    var start = (window && window.start) || '?';
+    var end = (window && window.end) || '?';
+    return 'v1 model — frozen forward sample (' + start + ' \u2192 ' + end + ')';
+  }
+
   return {
     normalizeBookKey: normalizeBookKey,
     syncBookFilterState: syncBookFilterState,
@@ -226,6 +271,11 @@
     computeCalendarDays: computeCalendarDays,
     formatPnl: formatPnl,
     formatDate: formatDate,
-    computeResultsViewModel: computeResultsViewModel
+    computeResultsViewModel: computeResultsViewModel,
+    parseVersionParam: parseVersionParam,
+    shouldShowVersionToggle: shouldShowVersionToggle,
+    resolveResultsSource: resolveResultsSource,
+    buildVersionUrl: buildVersionUrl,
+    buildV1Subtitle: buildV1Subtitle
   };
 });

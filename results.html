@@ -95,6 +95,16 @@
           <button class="season-pill-btn" data-season="2025">2025</button>
           <button class="season-pill-btn" data-season="2026">2026</button>
         </div>
+        <div class="version-toggle" id="version-toggle" role="group"
+             aria-label="Select model version" style="display:none">
+          <button class="version-toggle-btn active" data-version="v1.1">v1.1 (live)</button>
+          <button class="version-toggle-btn" data-version="v1">v1 (frozen)</button>
+        </div>
+        <div class="v1-frozen-banner" id="v1-frozen-banner" style="display:none">
+          <strong>Viewing v1 archive (frozen 2026-04-06).</strong>
+          12-day forward sample before the MLB-131 bias-correction fix.
+          Retained for posterity — this model is no longer active.
+        </div>
         <h1 class="page-title reveal">Track Record</h1>
         <p class="page-subtitle reveal" id="results-subtitle">Out-of-sample backtest archive across player-prop markets</p>
         <p class="status-meta reveal" id="results-generated-at">Last updated: --</p>

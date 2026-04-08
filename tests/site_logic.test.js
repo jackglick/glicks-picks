@@ -98,6 +98,55 @@ test('results view model provides fallback state when summary is missing', funct
   assert.equal(vm.generatedAtText, 'Last updated: unavailable');
 });
 
+// ============================================
+// v1 track record archive logic
+// ============================================
+
+test('parseVersionParam returns v1 when URL has ?version=v1', function () {
+  assert.equal(logic.parseVersionParam('https://example.com/results.html?version=v1'), 'v1');
+  assert.equal(logic.parseVersionParam('https://example.com/results.html?season=2026&version=v1'), 'v1');
+});
+
+test('parseVersionParam returns v1.1 (default) when param absent or not v1', function () {
+  assert.equal(logic.parseVersionParam('https://example.com/results.html'), 'v1.1');
+  assert.equal(logic.parseVersionParam('https://example.com/results.html?season=2025'), 'v1.1');
+  assert.equal(logic.parseVersionParam('https://example.com/results.html?version=v1.1'), 'v1.1');
+  assert.equal(logic.parseVersionParam('https://example.com/results.html?version=v2'), 'v1.1');
+});
+
+test('shouldShowVersionToggle is true only for 2026', function () {
+  assert.equal(logic.shouldShowVersionToggle('2026'), true);
+  assert.equal(logic.shouldShowVersionToggle('2025'), false);
+  assert.equal(logic.shouldShowVersionToggle('2024'), false);
+  assert.equal(logic.shouldShowVersionToggle('prod'), false);
+});
+
+test('resolveResultsSource dispatches to v1-frozen only for 2026 + v1', function () {
+  assert.equal(logic.resolveResultsSource('2026', 'v1'), 'v1-frozen');
+  assert.equal(logic.resolveResultsSource('2026', 'v1.1'), 'supabase');
+  assert.equal(logic.resolveResultsSource('2025', 'v1'), 'supabase');
+  assert.equal(logic.resolveResultsSource('2024', 'v1.1'), 'supabase');
+});
+
+test('buildVersionUrl adds ?version=v1 when selecting v1', function () {
+  var url = logic.buildVersionUrl('https://example.com/results.html?season=2026', 'v1');
+  assert.match(url, /version=v1/);
+  assert.match(url, /season=2026/);
+});
+
+test('buildVersionUrl removes ?version when selecting v1.1 (default)', function () {
+  var url = logic.buildVersionUrl('https://example.com/results.html?season=2026&version=v1', 'v1.1');
+  assert.doesNotMatch(url, /version=/);
+  assert.match(url, /season=2026/);
+});
+
+test('buildV1Subtitle formats the forward-sample window', function () {
+  var subtitle = logic.buildV1Subtitle({ start: '2026-03-25', end: '2026-04-06', n_days: 12 });
+  assert.match(subtitle, /2026-03-25/);
+  assert.match(subtitle, /2026-04-06/);
+  assert.match(subtitle, /frozen/i);
+});
+
 test('results view model computes display fields and classes', function () {
   const vm = logic.computeResultsViewModel({
     generated_at: '2026-02-13T00:00:00+00:00',

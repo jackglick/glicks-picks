@@ -92,6 +92,15 @@
         GP.setSeason(picked);
         var url = new URL(window.location);
         url.searchParams.set('season', picked);
+        // v1 toggle is scoped to 2026; reset version when switching away
+        if (picked !== '2026') {
+          url.searchParams.delete('version');
+        }
+        // Update version-toggle visibility based on new season
+        var versionToggle = document.getElementById('version-toggle');
+        if (versionToggle) {
+          versionToggle.style.display = (picked === '2026') ? '' : 'none';
+        }
         window.location = url;
       });
     });

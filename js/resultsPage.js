@@ -13,6 +13,35 @@
   var formatTimestamp = GP.formatTimestamp;
   var setStatusText = GP.setStatusText;
 
+  // v1 frozen archive helpers
+  var v1Logic = (GP.SiteLogic) ? GP.SiteLogic : null;
+
+  function getVersion() {
+    if (!v1Logic) return 'v1.1';
+    return v1Logic.parseVersionParam(window.location.href);
+  }
+
+  function showVersionToggle(show) {
+    var toggle = document.getElementById('version-toggle');
+    if (toggle) toggle.style.display = show ? '' : 'none';
+  }
+
+  function setV1BannerVisible(visible) {
+    var banner = document.getElementById('v1-frozen-banner');
+    if (banner) banner.style.display = visible ? '' : 'none';
+  }
+
+  function setActiveVersionButton(version) {
+    var buttons = document.querySelectorAll('.version-toggle-btn');
+    buttons.forEach(function (btn) {
+      if (btn.getAttribute('data-version') === version) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
+
   // ============================================
   // Direction stats table
   // ============================================
@@ -549,6 +578,59 @@
   }
 
   // ============================================
+  // v1 frozen archive fetch
+  // ============================================
+
+  function loadV1FrozenResults() {
+    var subtitleEl = document.getElementById('results-subtitle');
+
+    fetch('data/results_2026_v1.json')
+      .then(function (r) {
+        if (!r.ok) {
+          return Promise.reject(new Error('fetch failed: HTTP ' + r.status));
+        }
+        return r.json();
+      })
+      .then(function (data) {
+        var s = data.summary;
+        var emptyEl = document.getElementById('results-empty');
+        var contentEl = document.getElementById('results-content');
+        if (emptyEl) emptyEl.style.display = 'none';
+        if (contentEl) contentEl.style.display = '';
+
+        setStatusText('results-generated-at',
+          'Last updated: ' + formatTimestamp(data.generated_at));
+
+        if (subtitleEl && v1Logic) {
+          subtitleEl.textContent = v1Logic.buildV1Subtitle(data.forward_sample_window);
+        }
+
+        renderSummaryCard(s);
+        renderMarketTable(data.by_market);
+        renderDirectionStats({ direction_stats: data.direction_stats });
+        renderRecentPicks({ recent: data.recent });
+        renderDrawdownStreak({ bankroll_curve: data.bankroll_curve });
+        renderBankrollChartLazy(data.bankroll_curve, s.initial_bankroll || 5000);
+
+        setV1BannerVisible(true);
+        GP.reobserveReveals();
+      })
+      .catch(function (err) {
+        console.error('v1 frozen archive fetch failed:', err);
+        var emptyEl = document.getElementById('results-empty');
+        var contentEl = document.getElementById('results-content');
+        if (contentEl) contentEl.style.display = 'none';
+        if (emptyEl) {
+          emptyEl.style.display = '';
+          var title = document.getElementById('results-empty-title');
+          var copy = document.getElementById('results-empty-copy');
+          if (title) title.textContent = 'v1 archive unavailable';
+          if (copy) copy.textContent = 'Could not load data/results_2026_v1.json. ' + err.message;
+        }
+      });
+  }
+
+  // ============================================
   // Page init
   // ============================================
 
@@ -558,6 +640,21 @@
 
     var subtitleEl = document.getElementById('results-subtitle');
     var season = GP.getSeason();
+    var version = getVersion();
+
+    // v1 frozen archive dispatch (only for 2026 + v1 toggle)
+    if (v1Logic && v1Logic.resolveResultsSource(season, version) === 'v1-frozen') {
+      showVersionToggle(true);
+      setActiveVersionButton('v1');
+      loadV1FrozenResults();
+      return;
+    }
+
+    // v1.1 default path: show toggle on 2026, reset banner, fall through
+    showVersionToggle(v1Logic ? v1Logic.shouldShowVersionToggle(season) : false);
+    setActiveVersionButton('v1.1');
+    setV1BannerVisible(false);
+
     if (subtitleEl) {
       if (GP.isArchiveSeason()) {
         subtitleEl.textContent = 'Out-of-sample ' + season + ' backtest archive across player-prop markets';
@@ -670,5 +767,24 @@
       setStatusText('results-generated-at', '');
     });
   };
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var buttons = document.querySelectorAll('.version-toggle-btn');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var version = btn.getAttribute('data-version');
+        if (!v1Logic) return;
+        var newUrl = v1Logic.buildVersionUrl(window.location.href, version);
+        if (typeof history !== 'undefined' && history.replaceState) {
+          history.replaceState(null, '', newUrl);
+        }
+        setActiveVersionButton(version);
+        // Re-run initResultsPage to fetch the right data source
+        if (typeof GP.initResultsPage === 'function') {
+          GP.initResultsPage();
+        }
+      });
+    });
+  });
 
 })();
