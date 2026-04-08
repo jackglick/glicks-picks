@@ -614,6 +614,7 @@
 
         setV1BannerVisible(true);
         GP.reobserveReveals();
+        GP.initScrollHints();
       })
       .catch(function (err) {
         console.error('v1 frozen archive fetch failed:', err);
@@ -778,8 +779,8 @@
         if (typeof history !== 'undefined' && history.replaceState) {
           history.replaceState(null, '', newUrl);
         }
-        setActiveVersionButton(version);
-        // Re-run initResultsPage to fetch the right data source
+        // Re-run initResultsPage to fetch the right data source.
+        // initResultsPage owns active-button state — no need to pre-set it here.
         if (typeof GP.initResultsPage === 'function') {
           GP.initResultsPage();
         }
