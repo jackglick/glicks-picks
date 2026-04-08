@@ -59,6 +59,114 @@
   }
 
   // ============================================
+  // Summary card
+  // ============================================
+
+  function renderSummaryCard(s) {
+    if (!s) return;
+
+    document.getElementById('stat-record').textContent =
+      s.wins + '-' + s.losses + (s.pushes > 0 ? '-' + s.pushes : '');
+
+    document.getElementById('stat-winrate').textContent = s.win_rate.toFixed(1) + '%';
+
+    var flatRetEl = document.getElementById('stat-return-flat');
+    if (flatRetEl && s.flat) {
+      flatRetEl.textContent = (s.flat.return_pct >= 0 ? '+' : '') + s.flat.return_pct.toFixed(1) + '%';
+      flatRetEl.className = 'summary-stat-value ' + (s.flat.return_pct >= 0 ? 'positive' : 'negative');
+    }
+
+    var pctRetEl = document.getElementById('stat-return-pct');
+    if (pctRetEl && s.pct) {
+      pctRetEl.textContent = (s.pct.return_pct >= 0 ? '+' : '') + s.pct.return_pct.toFixed(1) + '%';
+      pctRetEl.className = 'summary-stat-value ' + (s.pct.return_pct >= 0 ? 'positive' : 'negative');
+    }
+
+    var betRoiEl = document.getElementById('stat-bet-roi');
+    if (betRoiEl && s.bet_roi != null) {
+      betRoiEl.textContent = (s.bet_roi >= 0 ? '+' : '') + s.bet_roi.toFixed(1) + '%';
+      betRoiEl.className = s.bet_roi >= 0 ? 'positive' : 'negative';
+    }
+
+    var ddFlatEl = document.getElementById('stat-dd-flat');
+    if (ddFlatEl && s.flat) {
+      ddFlatEl.textContent = s.flat.max_drawdown_pct.toFixed(1) + '%';
+      ddFlatEl.className = 'negative';
+    }
+
+    var ddPctEl = document.getElementById('stat-dd-pct');
+    if (ddPctEl && s.pct) {
+      ddPctEl.textContent = s.pct.max_drawdown_pct.toFixed(1) + '%';
+      ddPctEl.className = 'negative';
+    }
+  }
+
+  // ============================================
+  // Market breakdown table
+  // ============================================
+
+  function renderMarketTable(byMarket) {
+    var marketBody = document.querySelector('#market-table tbody');
+    if (marketBody && byMarket) {
+      clearChildren(marketBody);
+      var sortedMarkets = byMarket.slice().sort(function (a, b) {
+        return (b.roi || 0) - (a.roi || 0);
+      });
+      sortedMarkets.forEach(function (m) {
+        var tr = document.createElement('tr');
+        var tdMarket = el('td');
+        var strong = el('strong', '', m.market);
+        tdMarket.appendChild(strong);
+        var catLabel = m.category === 'batter' ? 'Batter' : 'Pitcher';
+        var catBadge = el('span', 'market-category-badge market-category--' + catLabel.toLowerCase(), catLabel);
+        tdMarket.appendChild(catBadge);
+        tr.appendChild(tdMarket);
+        tr.appendChild(el('td', '', String(m.bets)));
+        tr.appendChild(el('td', '', m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : '')));
+        tr.appendChild(el('td', '', m.win_rate.toFixed(1) + '%'));
+        var mRoi = m.roi != null ? m.roi : 0;
+        tr.appendChild(el('td', mRoi >= 0 ? 'pnl-positive' : 'pnl-negative',
+          (mRoi >= 0 ? '+' : '') + mRoi.toFixed(1) + '%'));
+        marketBody.appendChild(tr);
+      });
+    }
+  }
+
+  // ============================================
+  // Bankroll chart (with lazy Chart.js load)
+  // ============================================
+
+  function renderBankrollChartLazy(bankrollCurve, initialBankroll) {
+    if (bankrollCurve && bankrollCurve.length > 1) {
+      var last = bankrollCurve[bankrollCurve.length - 1];
+      var initBk = initialBankroll;
+      setStatusText(
+        'pnl-chart-summary',
+        'Starting from $' + initBk.toLocaleString() + ': flat $' +
+        last.flat.toLocaleString() + ', 2% $' + last.pct.toLocaleString() +
+        ' over ' + bankrollCurve.length + ' trading days.'
+      );
+    } else {
+      setStatusText('pnl-chart-summary', 'Chart will appear after a few days of graded picks.');
+    }
+
+    var canvas = document.getElementById('pnl-chart');
+    if (canvas && bankrollCurve && bankrollCurve.length > 1) {
+      var initBankroll = initialBankroll;
+      if (typeof Chart !== 'undefined') {
+        initBankrollChart(canvas, bankrollCurve, initBankroll);
+      } else {
+        var chartScript = document.getElementById('chart-script');
+        if (chartScript) {
+          chartScript.addEventListener('load', function () {
+            initBankrollChart(canvas, bankrollCurve, initBankroll);
+          });
+        }
+      }
+    }
+  }
+
+  // ============================================
   // Streaks
   // ============================================
 
@@ -533,97 +641,15 @@
       var s = data.summary;
       setStatusText('results-generated-at', 'Last updated: ' + formatTimestamp(data.generated_at));
 
-      document.getElementById('stat-record').textContent =
-        s.wins + '-' + s.losses + (s.pushes > 0 ? '-' + s.pushes : '');
+      renderSummaryCard(s);
 
-      document.getElementById('stat-winrate').textContent = s.win_rate.toFixed(1) + '%';
-
-      var flatRetEl = document.getElementById('stat-return-flat');
-      if (flatRetEl && s.flat) {
-        flatRetEl.textContent = (s.flat.return_pct >= 0 ? '+' : '') + s.flat.return_pct.toFixed(1) + '%';
-        flatRetEl.className = 'summary-stat-value ' + (s.flat.return_pct >= 0 ? 'positive' : 'negative');
-      }
-
-      var pctRetEl = document.getElementById('stat-return-pct');
-      if (pctRetEl && s.pct) {
-        pctRetEl.textContent = (s.pct.return_pct >= 0 ? '+' : '') + s.pct.return_pct.toFixed(1) + '%';
-        pctRetEl.className = 'summary-stat-value ' + (s.pct.return_pct >= 0 ? 'positive' : 'negative');
-      }
-
-      var betRoiEl = document.getElementById('stat-bet-roi');
-      if (betRoiEl && s.bet_roi != null) {
-        betRoiEl.textContent = (s.bet_roi >= 0 ? '+' : '') + s.bet_roi.toFixed(1) + '%';
-        betRoiEl.className = s.bet_roi >= 0 ? 'positive' : 'negative';
-      }
-
-      var ddFlatEl = document.getElementById('stat-dd-flat');
-      if (ddFlatEl && s.flat) {
-        ddFlatEl.textContent = s.flat.max_drawdown_pct.toFixed(1) + '%';
-        ddFlatEl.className = 'negative';
-      }
-
-      var ddPctEl = document.getElementById('stat-dd-pct');
-      if (ddPctEl && s.pct) {
-        ddPctEl.textContent = s.pct.max_drawdown_pct.toFixed(1) + '%';
-        ddPctEl.className = 'negative';
-      }
-
-      var marketBody = document.querySelector('#market-table tbody');
-      if (marketBody && data.by_market) {
-        clearChildren(marketBody);
-        var sortedMarkets = data.by_market.slice().sort(function (a, b) {
-          return (b.roi || 0) - (a.roi || 0);
-        });
-        sortedMarkets.forEach(function (m) {
-          var tr = document.createElement('tr');
-          var tdMarket = el('td');
-          var strong = el('strong', '', m.market);
-          tdMarket.appendChild(strong);
-          var catLabel = m.category === 'batter' ? 'Batter' : 'Pitcher';
-          var catBadge = el('span', 'market-category-badge market-category--' + catLabel.toLowerCase(), catLabel);
-          tdMarket.appendChild(catBadge);
-          tr.appendChild(tdMarket);
-          tr.appendChild(el('td', '', String(m.bets)));
-          tr.appendChild(el('td', '', m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : '')));
-          tr.appendChild(el('td', '', m.win_rate.toFixed(1) + '%'));
-          var mRoi = m.roi != null ? m.roi : 0;
-          tr.appendChild(el('td', mRoi >= 0 ? 'pnl-positive' : 'pnl-negative',
-            (mRoi >= 0 ? '+' : '') + mRoi.toFixed(1) + '%'));
-          marketBody.appendChild(tr);
-        });
-      }
+      renderMarketTable(data.by_market);
 
       renderRecentPicks(data);
       renderDirectionStats(data);
       renderDrawdownStreak(data);
 
-      if (data.bankroll_curve && data.bankroll_curve.length > 1) {
-        var last = data.bankroll_curve[data.bankroll_curve.length - 1];
-        var initBk = s.initial_bankroll || 5000;
-        setStatusText(
-          'pnl-chart-summary',
-          'Starting from $' + initBk.toLocaleString() + ': flat $' +
-          last.flat.toLocaleString() + ', 2% $' + last.pct.toLocaleString() +
-          ' over ' + data.bankroll_curve.length + ' trading days.'
-        );
-      } else {
-        setStatusText('pnl-chart-summary', 'Chart will appear after a few days of graded picks.');
-      }
-
-      var canvas = document.getElementById('pnl-chart');
-      if (canvas && data.bankroll_curve && data.bankroll_curve.length > 1) {
-        var initBankroll = s.initial_bankroll || 5000;
-        if (typeof Chart !== 'undefined') {
-          initBankrollChart(canvas, data.bankroll_curve, initBankroll);
-        } else {
-          var chartScript = document.getElementById('chart-script');
-          if (chartScript) {
-            chartScript.addEventListener('load', function () {
-              initBankrollChart(canvas, data.bankroll_curve, initBankroll);
-            });
-          }
-        }
-      }
+      renderBankrollChartLazy(data.bankroll_curve, s.initial_bankroll || 5000);
 
       if (queryErrors.length > 0) {
         setStatusText('results-generated-at',
