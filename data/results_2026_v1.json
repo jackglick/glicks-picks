@@ -8,7 +8,7 @@
     "end": "2026-04-06",
     "n_days": 12
   },
-  "generated_at": "2026-04-08T17:17:21.886134+00:00",
+  "generated_at": "2026-04-08T18:26:19.213091+00:00",
   "source_file": "paper_trades_v1_frozen_2026-04-06.csv",
   "source_sha256": "370defcfc1418c00",
   "summary": {
@@ -38,7 +38,7 @@
     "sortino": -4.5056,
     "profit_factor": 0.8049,
     "z_vs_breakeven": -1.41,
-    "yield_pct": -125.52,
+    "yield_pct": -10.45,
     "mean_daily_pnl": -121.95,
     "std_daily_pnl": 408.53,
     "n_season_days": 12,
@@ -47,8 +47,8 @@
       0.5594
     ],
     "ci_roi": [
-      -346.1,
-      90.9
+      -28.1,
+      7.7
     ]
   },
   "bankroll_curve": [
@@ -159,7 +159,7 @@
       "pushes": 0,
       "win_rate": 0.0,
       "pnl": -100.0,
-      "roi": -2000.0,
+      "roi": -100.0,
       "flat_return": -2.0,
       "pct_return": -1.9,
       "sharpe": null,
@@ -175,7 +175,7 @@
       "pushes": 0,
       "win_rate": 47.1,
       "pnl": -295.74,
-      "roi": -303.3,
+      "roi": -17.4,
       "flat_return": -5.9,
       "pct_return": -6.4,
       "avg_clv_cents": 9.05,
@@ -194,7 +194,7 @@
       "pushes": 0,
       "win_rate": 47.1,
       "pnl": -424.0,
-      "roi": -166.3,
+      "roi": -8.3,
       "flat_return": -8.5,
       "pct_return": -7.6,
       "ci_win_rate": [
@@ -202,8 +202,8 @@
         62.2
       ],
       "ci_roi": [
-        -723.3,
-        409.6
+        -36.2,
+        20.5
       ],
       "avg_clv_cents": 1.3,
       "pct_favorable_clv": 74.5,
@@ -221,7 +221,7 @@
       "pushes": 0,
       "win_rate": 72.7,
       "pnl": 540.27,
-      "roi": 568.7,
+      "roi": 49.1,
       "flat_return": 10.8,
       "pct_return": 10.0,
       "avg_clv_cents": 4.08,
@@ -240,7 +240,7 @@
       "pushes": 0,
       "win_rate": 14.3,
       "pnl": -1016.6,
-      "roi": -847.2,
+      "roi": -72.6,
       "flat_return": -20.3,
       "pct_return": -20.3,
       "avg_clv_cents": 1.47,
@@ -259,7 +259,7 @@
       "pushes": 0,
       "win_rate": 48.7,
       "pnl": -309.53,
-      "roi": -58.6,
+      "roi": -7.9,
       "flat_return": -6.2,
       "pct_return": -6.2,
       "ci_win_rate": [
@@ -267,8 +267,8 @@
         65.8
       ],
       "ci_roi": [
-        -294.2,
-        175.3
+        -39.0,
+        24.4
       ],
       "avg_clv_cents": 1.71,
       "pct_favorable_clv": 73.7,
@@ -286,7 +286,7 @@
       "pushes": 0,
       "win_rate": 57.1,
       "pnl": 142.2,
-      "roi": 218.8,
+      "roi": 20.3,
       "flat_return": 2.8,
       "pct_return": 3.8,
       "avg_clv_cents": 1.74,
@@ -306,7 +306,7 @@
       "pushes": 0,
       "win_rate": 58.3,
       "pnl": 270.36,
-      "roi": 227.7,
+      "roi": 22.5,
       "flat_return": 5.4,
       "pct_return": 5.3
     },
@@ -318,7 +318,7 @@
       "pushes": 0,
       "win_rate": 45.3,
       "pnl": -1733.76,
-      "roi": -165.6,
+      "roi": -13.5,
       "flat_return": -34.7,
       "pct_return": -33.8
     }
