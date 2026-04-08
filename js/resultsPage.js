@@ -139,10 +139,9 @@
   function renderBankrollChartLazy(bankrollCurve, initialBankroll) {
     if (bankrollCurve && bankrollCurve.length > 1) {
       var last = bankrollCurve[bankrollCurve.length - 1];
-      var initBk = initialBankroll;
       setStatusText(
         'pnl-chart-summary',
-        'Starting from $' + initBk.toLocaleString() + ': flat $' +
+        'Starting from $' + initialBankroll.toLocaleString() + ': flat $' +
         last.flat.toLocaleString() + ', 2% $' + last.pct.toLocaleString() +
         ' over ' + bankrollCurve.length + ' trading days.'
       );
@@ -152,14 +151,13 @@
 
     var canvas = document.getElementById('pnl-chart');
     if (canvas && bankrollCurve && bankrollCurve.length > 1) {
-      var initBankroll = initialBankroll;
       if (typeof Chart !== 'undefined') {
-        initBankrollChart(canvas, bankrollCurve, initBankroll);
+        initBankrollChart(canvas, bankrollCurve, initialBankroll);
       } else {
         var chartScript = document.getElementById('chart-script');
         if (chartScript) {
           chartScript.addEventListener('load', function () {
-            initBankrollChart(canvas, bankrollCurve, initBankroll);
+            initBankrollChart(canvas, bankrollCurve, initialBankroll);
           });
         }
       }
