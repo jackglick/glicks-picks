@@ -244,3 +244,86 @@ test('buildBacktestIndex live-season preserves data-derived min when before Marc
 
   assert.equal(built.minMonthIdx, logic.getCalendarMonthIndex(2026, 1));  // February
 });
+
+test('computeCalendarDays in archive mode: isClickable equals isAvailable', function () {
+  const built = logic.buildBacktestIndex({
+    dates: [
+      { date: '2025-04-01', count: 10 },
+      { date: '2025-04-02', count: 20 }
+    ]
+  });
+  built.viewYear = 2025;
+  built.viewMonth = 3;  // April
+
+  const model = logic.computeCalendarDays(built, '2025-04-01');
+  const byDate = {};
+  model.days.forEach(function (d) { byDate[d.dateKey] = d; });
+
+  assert.equal(byDate['2025-04-01'].isAvailable, true);
+  assert.equal(byDate['2025-04-01'].isClickable, true);
+  assert.equal(byDate['2025-04-05'].isAvailable, false);
+  assert.equal(byDate['2025-04-05'].isClickable, false);
+});
+
+test('computeCalendarDays in live-season mode: in-season empty day is clickable', function () {
+  const built = logic.buildBacktestIndex(
+    { dates: [{ date: '2026-04-06', count: 3 }] },
+    { seasonYear: 2026, isLiveSeason: true }
+  );
+  built.viewYear = 2026;
+  built.viewMonth = 4;  // May — all empty
+
+  const model = logic.computeCalendarDays(built, '2026-05-15');
+  const byDate = {};
+  model.days.forEach(function (d) { byDate[d.dateKey] = d; });
+
+  assert.equal(byDate['2026-05-15'].isAvailable, false);
+  assert.equal(byDate['2026-05-15'].isClickable, true);
+  assert.equal(byDate['2026-05-01'].isClickable, true);
+  assert.equal(byDate['2026-05-31'].isClickable, true);
+});
+
+test('computeCalendarDays in live-season mode: out-of-season days are not clickable', function () {
+  const built = logic.buildBacktestIndex(
+    { dates: [{ date: '2026-04-06', count: 3 }] },
+    { seasonYear: 2026, isLiveSeason: true }
+  );
+  built.viewYear = 2026;
+  built.viewMonth = 1;  // February — all out of season
+
+  const model = logic.computeCalendarDays(built, null);
+  model.days.forEach(function (d) {
+    assert.equal(d.isAvailable, false, 'February day should not have picks');
+    assert.equal(d.isClickable, false, 'February day should not be clickable');
+  });
+});
+
+test('computeCalendarDays in live-season mode: November is not clickable', function () {
+  const built = logic.buildBacktestIndex(
+    { dates: [{ date: '2026-04-06', count: 3 }] },
+    { seasonYear: 2026, isLiveSeason: true }
+  );
+  built.viewYear = 2026;
+  built.viewMonth = 10;  // November
+
+  const model = logic.computeCalendarDays(built, null);
+  model.days.forEach(function (d) {
+    assert.equal(d.isClickable, false, 'November ' + d.day + ' should not be clickable');
+  });
+});
+
+test('computeCalendarDays in live-season mode: has-picks day is clickable', function () {
+  const built = logic.buildBacktestIndex(
+    { dates: [{ date: '2026-04-06', count: 3 }] },
+    { seasonYear: 2026, isLiveSeason: true }
+  );
+  built.viewYear = 2026;
+  built.viewMonth = 3;  // April
+
+  const model = logic.computeCalendarDays(built, '2026-04-06');
+  const byDate = {};
+  model.days.forEach(function (d) { byDate[d.dateKey] = d; });
+
+  assert.equal(byDate['2026-04-06'].isAvailable, true);
+  assert.equal(byDate['2026-04-06'].isClickable, true);
+});

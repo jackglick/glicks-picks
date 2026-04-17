@@ -134,17 +134,25 @@
     var daysInMonth = new Date(year, month + 1, 0).getDate();
     var days = [];
 
+    var isLive = !!backtestIndex.isLiveSeason;
+    var seasonStart = backtestIndex.seasonStart || '';
+    var seasonEnd = backtestIndex.seasonEnd || '';
+
     for (var day = 1; day <= daysInMonth; day++) {
       var dateKey = toDateKey(year, month, day);
       var count = backtestIndex.countByDate[dateKey] || 0;
       var isAvailable = count > 0;
       var density = isAvailable ? count / backtestIndex.maxCount : 0;
       var alpha = isAvailable ? (0.16 + (density * 0.54)) : 0;
+      var isClickable = isLive
+        ? (dateKey >= seasonStart && dateKey <= seasonEnd)
+        : isAvailable;
       days.push({
         day: day,
         dateKey: dateKey,
         count: count,
         isAvailable: isAvailable,
+        isClickable: isClickable,
         density: density,
         alpha: Number(alpha.toFixed(3)),
         selected: dateKey === selectedDate
