@@ -226,5 +226,21 @@ test('buildBacktestIndex live-season preserves data-derived max when beyond Octo
     { seasonYear: 2026, isLiveSeason: true }
   );
 
-  assert.equal(built.maxMonthIdx, logic.getCalendarMonthIndex(2026, 10));
+  assert.equal(built.maxMonthIdx, logic.getCalendarMonthIndex(2026, 10));  // November (data-derived; not clamped back to October)
+});
+
+test('buildBacktestIndex live-season preserves data-derived min when before March', function () {
+  // Defensive: if picks data ever starts in February (e.g., Spring Training),
+  // minMonthIdx should not clamp forward to March — it should keep the data-derived min.
+  const built = logic.buildBacktestIndex(
+    {
+      dates: [
+        { date: '2026-02-15', count: 1 },
+        { date: '2026-04-06', count: 3 }
+      ]
+    },
+    { seasonYear: 2026, isLiveSeason: true }
+  );
+
+  assert.equal(built.minMonthIdx, logic.getCalendarMonthIndex(2026, 1));  // February
 });
