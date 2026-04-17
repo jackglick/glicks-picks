@@ -65,7 +65,7 @@
     return String(year) + '-' + mm + '-' + dd;
   }
 
-  function buildBacktestIndex(index) {
+  function buildBacktestIndex(index, options) {
     if (!index || !Array.isArray(index.dates) || index.dates.length === 0) return null;
 
     var sorted = index.dates.slice().sort(function (a, b) {
@@ -84,16 +84,32 @@
     var minParsed = parseDateKey(minDate);
     var maxParsed = parseDateKey(maxDate);
 
-    return {
+    var dataMinMonthIdx = getCalendarMonthIndex(minParsed.getFullYear(), minParsed.getMonth());
+    var dataMaxMonthIdx = getCalendarMonthIndex(maxParsed.getFullYear(), maxParsed.getMonth());
+
+    var built = {
       dates: sorted,
       countByDate: countByDate,
       maxCount: maxCount,
-      minMonthIdx: getCalendarMonthIndex(minParsed.getFullYear(), minParsed.getMonth()),
-      maxMonthIdx: getCalendarMonthIndex(maxParsed.getFullYear(), maxParsed.getMonth()),
+      minMonthIdx: dataMinMonthIdx,
+      maxMonthIdx: dataMaxMonthIdx,
       viewYear: maxParsed.getFullYear(),
       viewMonth: maxParsed.getMonth(),
       selectedBacktestDate: maxDate
     };
+
+    if (options && options.isLiveSeason && options.seasonYear) {
+      var y = Number(options.seasonYear);
+      built.isLiveSeason = true;
+      built.seasonStart = String(y) + '-03-01';
+      built.seasonEnd = String(y) + '-10-31';
+      var seasonMinIdx = getCalendarMonthIndex(y, 2);  // March
+      var seasonMaxIdx = getCalendarMonthIndex(y, 9);  // October
+      if (seasonMinIdx < built.minMonthIdx) built.minMonthIdx = seasonMinIdx;
+      if (seasonMaxIdx > built.maxMonthIdx) built.maxMonthIdx = seasonMaxIdx;
+    }
+
+    return built;
   }
 
   function shiftCalendarMonth(backtestIndex, delta) {

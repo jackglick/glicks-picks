@@ -177,3 +177,54 @@ test('results view model computes display fields and classes', function () {
   assert.equal(vm.markets[0].roiText, '+8.0%');
   assert.ok(vm.chartSummary.includes('From 2025-04-01 to 2025-04-02'));
 });
+
+test('buildBacktestIndex in live-season mode clamps bounds to March–October', function () {
+  const built = logic.buildBacktestIndex(
+    {
+      dates: [
+        { date: '2026-04-06', count: 3 },
+        { date: '2026-04-12', count: 5 }
+      ]
+    },
+    { seasonYear: 2026, isLiveSeason: true }
+  );
+
+  assert.ok(built);
+  assert.equal(built.isLiveSeason, true);
+  assert.equal(built.seasonStart, '2026-03-01');
+  assert.equal(built.seasonEnd, '2026-10-31');
+  assert.equal(built.minMonthIdx, logic.getCalendarMonthIndex(2026, 2));
+  assert.equal(built.maxMonthIdx, logic.getCalendarMonthIndex(2026, 9));
+});
+
+test('buildBacktestIndex in archive mode is unchanged (no season window fields)', function () {
+  const built = logic.buildBacktestIndex({
+    dates: [
+      { date: '2025-04-03', count: 12 },
+      { date: '2025-03-27', count: 8 }
+    ]
+  });
+
+  assert.ok(built);
+  assert.equal(built.isLiveSeason, undefined);
+  assert.equal(built.seasonStart, undefined);
+  assert.equal(built.seasonEnd, undefined);
+  assert.equal(built.minMonthIdx, logic.getCalendarMonthIndex(2025, 2));
+  assert.equal(built.maxMonthIdx, logic.getCalendarMonthIndex(2025, 3));
+});
+
+test('buildBacktestIndex live-season preserves data-derived max when beyond October', function () {
+  // Defensive: if a future bug caused picks data past October,
+  // max should not shrink back to October.
+  const built = logic.buildBacktestIndex(
+    {
+      dates: [
+        { date: '2026-04-06', count: 3 },
+        { date: '2026-11-05', count: 1 }
+      ]
+    },
+    { seasonYear: 2026, isLiveSeason: true }
+  );
+
+  assert.equal(built.maxMonthIdx, logic.getCalendarMonthIndex(2026, 10));
+});
