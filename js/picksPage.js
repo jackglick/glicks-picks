@@ -817,30 +817,16 @@
 
   function shiftBacktestCalendarMonth(delta) {
     if (!picksState.backtestIndex) return;
-    if (SiteLogic && typeof SiteLogic.shiftCalendarMonth === 'function') {
-      var prevIdx = getCalendarMonthIndex(
-        picksState.backtestIndex.viewYear,
-        picksState.backtestIndex.viewMonth
-      );
-      SiteLogic.shiftCalendarMonth(picksState.backtestIndex, delta);
-      var nextIdx = getCalendarMonthIndex(
-        picksState.backtestIndex.viewYear,
-        picksState.backtestIndex.viewMonth
-      );
-      if (nextIdx === prevIdx) return;
-      renderBacktestCalendar();
-      return;
-    }
-
-    var year = picksState.backtestIndex.viewYear;
-    var month = picksState.backtestIndex.viewMonth + delta;
-    var d = new Date(year, month, 1);
-    var nextIdx = getCalendarMonthIndex(d.getFullYear(), d.getMonth());
-    if (nextIdx < picksState.backtestIndex.minMonthIdx || nextIdx > picksState.backtestIndex.maxMonthIdx) {
-      return;
-    }
-    picksState.backtestIndex.viewYear = d.getFullYear();
-    picksState.backtestIndex.viewMonth = d.getMonth();
+    var prevIdx = getCalendarMonthIndex(
+      picksState.backtestIndex.viewYear,
+      picksState.backtestIndex.viewMonth
+    );
+    SiteLogic.shiftCalendarMonth(picksState.backtestIndex, delta);
+    var nextIdx = getCalendarMonthIndex(
+      picksState.backtestIndex.viewYear,
+      picksState.backtestIndex.viewMonth
+    );
+    if (nextIdx === prevIdx) return;
     renderBacktestCalendar();
   }
 
@@ -859,56 +845,39 @@
     var monthName = first.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
     monthLabel.textContent = monthName;
 
-    var firstWeekday = first.getDay();
-    var daysInMonth = new Date(year, month + 1, 0).getDate();
-    var calendarModel = null;
-    if (SiteLogic && typeof SiteLogic.computeCalendarDays === 'function') {
-      calendarModel = SiteLogic.computeCalendarDays(picksState.backtestIndex, picksState.selectedBacktestDate);
-    }
-
-    var fillerCount = calendarModel ? calendarModel.fillers : firstWeekday;
+    var calendarModel = SiteLogic.computeCalendarDays(picksState.backtestIndex, picksState.selectedBacktestDate);
+    var fillerCount = calendarModel.fillers;
     for (var i = 0; i < fillerCount; i++) {
       grid.appendChild(el('span', 'calendar-day filler', ''));
     }
-
-    var entries = [];
-    if (calendarModel) {
-      entries = calendarModel.days;
-    } else {
-      for (var day = 1; day <= daysInMonth; day++) {
-        var dateKey = toDateKey(year, month, day);
-        var count = picksState.backtestIndex.countByDate[dateKey] || 0;
-        var isAvailable = count > 0;
-        var density = isAvailable ? count / picksState.backtestIndex.maxCount : 0;
-        entries.push({
-          day: day,
-          dateKey: dateKey,
-          count: count,
-          isAvailable: isAvailable,
-          alpha: Number((0.16 + (density * 0.54)).toFixed(3)),
-          selected: dateKey === picksState.selectedBacktestDate
-        });
-      }
-    }
+    var entries = calendarModel.days;
 
     entries.forEach(function (entry) {
       var dateKey = entry.dateKey;
       var count = entry.count;
       var isAvailable = entry.isAvailable;
+      var isClickable = entry.isClickable;
 
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'calendar-day';
       btn.textContent = String(entry.day);
-      btn.disabled = !isAvailable;
+      btn.disabled = !isClickable;
       btn.setAttribute('aria-label', formatFullDate(dateKey));
 
-      if (!isAvailable) {
-        btn.classList.add('no-picks');
-      } else {
+      if (isAvailable) {
         btn.classList.add('has-picks');
         btn.style.backgroundColor = 'rgba(37, 99, 235, ' + Number(entry.alpha).toFixed(3) + ')';
         btn.title = formatFullDate(dateKey) + ' \u2022 ' + count + ' picks';
+      } else {
+        btn.classList.add('empty');
+        if (isClickable) {
+          btn.classList.add('is-clickable');
+          btn.title = formatFullDate(dateKey);
+        }
+      }
+
+      if (isClickable) {
         btn.addEventListener('click', (function (pickedDate) {
           return function () {
             picksState.selectedBacktestDate = pickedDate;
@@ -950,66 +919,38 @@
         }
         var index = { dates: res.data };
 
-        if (SiteLogic && typeof SiteLogic.buildBacktestIndex === 'function') {
-          var builtIndex = SiteLogic.buildBacktestIndex(index);
-          if (!builtIndex) {
-            setStatusText('picks-status', 'No date index available for this season.');
-            return;
-          }
-          // For the current season, default to today instead of last date
-          var defaultDate = builtIndex.selectedBacktestDate;
-          if (!GP.isArchiveSeason()) {
-            var now = new Date();
-            var todayStr = now.getFullYear() + '-' +
-              String(now.getMonth() + 1).padStart(2, '0') + '-' +
-              String(now.getDate()).padStart(2, '0');
-            defaultDate = todayStr;
-            // Set calendar view to today's month
-            builtIndex.viewYear = now.getFullYear();
-            builtIndex.viewMonth = now.getMonth();
-            // Extend maxMonthIdx to include today if needed
-            var todayMonthIdx = getCalendarMonthIndex(now.getFullYear(), now.getMonth());
-            if (todayMonthIdx > builtIndex.maxMonthIdx) {
-              builtIndex.maxMonthIdx = todayMonthIdx;
-            }
-          }
-          picksState.backtestIndex = {
-            dates: builtIndex.dates,
-            countByDate: builtIndex.countByDate,
-            maxCount: builtIndex.maxCount,
-            minMonthIdx: builtIndex.minMonthIdx,
-            maxMonthIdx: builtIndex.maxMonthIdx,
-            viewYear: builtIndex.viewYear,
-            viewMonth: builtIndex.viewMonth
-          };
-          picksState.selectedBacktestDate = defaultDate;
-        } else {
-        var sorted = index.dates.slice().sort(function (a, b) {
-          return a.date.localeCompare(b.date);
+        var builtIndex = SiteLogic.buildBacktestIndex(index, {
+          seasonYear: GP.getSeasonInt(),
+          isLiveSeason: !GP.isArchiveSeason()
         });
-        var countByDate = {};
-        var maxCount = 1;
-        sorted.forEach(function (entry) {
-          countByDate[entry.date] = entry.count;
-          if (entry.count > maxCount) maxCount = entry.count;
-        });
-
-        var minDate = sorted[0].date;
-        var maxDate = sorted[sorted.length - 1].date;
-        var minParsed = parseDateKey(minDate);
-        var maxParsed = parseDateKey(maxDate);
-
-        picksState.backtestIndex = {
-          dates: sorted,
-          countByDate: countByDate,
-          maxCount: maxCount,
-          minMonthIdx: getCalendarMonthIndex(minParsed.getFullYear(), minParsed.getMonth()),
-          maxMonthIdx: getCalendarMonthIndex(maxParsed.getFullYear(), maxParsed.getMonth()),
-          viewYear: maxParsed.getFullYear(),
-          viewMonth: maxParsed.getMonth()
-        };
-        picksState.selectedBacktestDate = maxDate;
+        if (!builtIndex) {
+          setStatusText('picks-status', 'No date index available for this season.');
+          return;
         }
+        // For the current season, default to today instead of last date.
+        var defaultDate = builtIndex.selectedBacktestDate;
+        if (!GP.isArchiveSeason()) {
+          var now = new Date();
+          var todayStr = now.getFullYear() + '-' +
+            String(now.getMonth() + 1).padStart(2, '0') + '-' +
+            String(now.getDate()).padStart(2, '0');
+          defaultDate = todayStr;
+          builtIndex.viewYear = now.getFullYear();
+          builtIndex.viewMonth = now.getMonth();
+        }
+        picksState.backtestIndex = {
+          dates: builtIndex.dates,
+          countByDate: builtIndex.countByDate,
+          maxCount: builtIndex.maxCount,
+          minMonthIdx: builtIndex.minMonthIdx,
+          maxMonthIdx: builtIndex.maxMonthIdx,
+          viewYear: builtIndex.viewYear,
+          viewMonth: builtIndex.viewMonth,
+          isLiveSeason: builtIndex.isLiveSeason,
+          seasonStart: builtIndex.seasonStart,
+          seasonEnd: builtIndex.seasonEnd
+        };
+        picksState.selectedBacktestDate = defaultDate;
 
         picker.style.display = '';
         updateBacktestDateTrigger();

@@ -406,9 +406,20 @@ button:focus-visible,
   border-color: rgba(37, 99, 235, 0.44);
 }
 
-.calendar-day.no-picks {
+.calendar-day.empty {
   opacity: 0.33;
   cursor: default;
+}
+
+.calendar-day.empty.is-clickable {
+  opacity: 1;
+  cursor: pointer;
+  border-style: dashed;
+  color: var(--text-secondary);
+}
+
+.calendar-day.empty.is-clickable:hover {
+  background: rgba(37, 99, 235, 0.06);
 }
 
 .calendar-day.filler {
