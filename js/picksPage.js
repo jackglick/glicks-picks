@@ -10,6 +10,7 @@
   var el = GP.el;
   var clearChildren = GP.clearChildren;
   var formatPrice = GP.formatPrice;
+  var americanToImplied = GP.americanToImplied;
   var formatPnl = GP.formatPnl;
   var formatFullDate = GP.formatFullDate;
   var formatTimestamp = GP.formatTimestamp;
@@ -216,6 +217,31 @@
     body.appendChild(el('span', 'pick-line', String(pick.line)));
     body.appendChild(el('span', 'pick-card-market', pick.market));
     card.appendChild(body);
+
+    // Locked-vs-current price comparison. pick.best_price is what we locked
+    // at queue/placement time (immutable in paper_trades.csv). The current
+    // best market price comes from pick.book_prices[0] (refreshed each cycle).
+    // If implied prob has risen since lock, the market is moving toward our
+    // side — we beat the closing line. If implied has fallen, market beat us.
+    var lockedPrice = pick.best_price;
+    var currentBest = (pick.book_prices && pick.book_prices.length > 0)
+      ? pick.book_prices[0].price : null;
+    if (lockedPrice != null && currentBest != null && lockedPrice !== currentBest && !pick.result) {
+      var lockedImpl = americanToImplied(lockedPrice);
+      var currentImpl = americanToImplied(currentBest);
+      var deltaPct = (currentImpl - lockedImpl) * 100;
+      var weBeatMarket = deltaPct > 0;
+      var driftDiv = el('div', 'pick-card-drift ' + (weBeatMarket ? 'beat-market' : 'market-beat'));
+      driftDiv.appendChild(el('span', 'pick-drift-label', 'Locked'));
+      driftDiv.appendChild(el('span', 'pick-drift-locked', formatPrice(lockedPrice)));
+      driftDiv.appendChild(el('span', 'pick-drift-arrow', '→'));
+      driftDiv.appendChild(el('span', 'pick-drift-label', 'Now'));
+      driftDiv.appendChild(el('span', 'pick-drift-current', formatPrice(currentBest)));
+      var deltaSign = deltaPct > 0 ? '+' : '';
+      driftDiv.appendChild(el('span', 'pick-drift-delta',
+        '(' + deltaSign + deltaPct.toFixed(1) + 'pp)'));
+      card.appendChild(driftDiv);
+    }
 
     var isConsensus = pick.best_book && pick.best_book.toLowerCase() === 'consensus';
     if (pick.book_prices && pick.book_prices.length > 0) {

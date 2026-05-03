@@ -58,6 +58,14 @@
     return (price > 0 ? '+' : '') + price;
   };
 
+  // American odds → implied probability (decimal). -110 → 0.5238, +150 → 0.4.
+  GP.americanToImplied = function (price) {
+    if (price === null || price === undefined) return null;
+    if (price === 0) return 0.5;
+    if (price > 0) return 100 / (price + 100);
+    return -price / (-price + 100);
+  };
+
   GP.formatPnl = function (val) {
     if (val === null || val === undefined) return '--';
     var sign = val > 0 ? '+' : (val < 0 ? '-' : '');
