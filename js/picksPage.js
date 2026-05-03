@@ -220,13 +220,28 @@
 
     // Locked-vs-current price comparison. pick.best_price is what we locked
     // at queue/placement time (immutable in paper_trades.csv). The current
-    // best market price comes from pick.book_prices[0] (refreshed each cycle).
-    // If implied prob has risen since lock, the market is moving toward our
+    // best market price comes from pick.book_prices[0] (smart-merged each
+    // cycle by upsert_picks: book identity preserved, prices updated). If
+    // implied prob has risen since lock, the market is moving toward our
     // side — we beat the closing line. If implied has fallen, market beat us.
+    //
+    // Skip the badge in two cases where the comparison would be misleading:
+    //   1. consensus pick: pick.best_price is a blended consensus across
+    //      books; book_prices[0] is from a single book. Different concepts —
+    //      single-book is systematically worse, would always look like
+    //      "we beat market" by the same offset.
+    //   2. altline: book_prices[0].line differs from pick.line (nearby-line
+    //      fallback in _collect_book_prices when <2 strict-line books).
+    //      Implied probabilities at different lines aren't comparable.
     var lockedPrice = pick.best_price;
-    var currentBest = (pick.book_prices && pick.book_prices.length > 0)
-      ? pick.book_prices[0].price : null;
-    if (lockedPrice != null && currentBest != null && !pick.result) {
+    var firstBook = (pick.book_prices && pick.book_prices.length > 0)
+      ? pick.book_prices[0] : null;
+    var currentBest = firstBook ? firstBook.price : null;
+    var pickIsConsensus = pick.best_book && pick.best_book.toLowerCase() === 'consensus';
+    var altlineMismatch = firstBook && firstBook.line != null
+      && pick.line != null && firstBook.line !== pick.line;
+    if (lockedPrice != null && currentBest != null && !pick.result
+        && !pickIsConsensus && !altlineMismatch) {
       var lockedImpl = americanToImplied(lockedPrice);
       var currentImpl = americanToImplied(currentBest);
       var deltaPct = (currentImpl - lockedImpl) * 100;
