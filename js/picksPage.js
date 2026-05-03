@@ -226,20 +226,28 @@
     var lockedPrice = pick.best_price;
     var currentBest = (pick.book_prices && pick.book_prices.length > 0)
       ? pick.book_prices[0].price : null;
-    if (lockedPrice != null && currentBest != null && lockedPrice !== currentBest && !pick.result) {
+    if (lockedPrice != null && currentBest != null && !pick.result) {
       var lockedImpl = americanToImplied(lockedPrice);
       var currentImpl = americanToImplied(currentBest);
       var deltaPct = (currentImpl - lockedImpl) * 100;
-      var weBeatMarket = deltaPct > 0;
-      var driftDiv = el('div', 'pick-card-drift ' + (weBeatMarket ? 'beat-market' : 'market-beat'));
+      var driftClass;
+      if (deltaPct > 0.05) driftClass = 'beat-market';
+      else if (deltaPct < -0.05) driftClass = 'market-beat';
+      else driftClass = 'flat-market';
+      var driftDiv = el('div', 'pick-card-drift ' + driftClass);
       driftDiv.appendChild(el('span', 'pick-drift-label', 'Locked'));
       driftDiv.appendChild(el('span', 'pick-drift-locked', formatPrice(lockedPrice)));
       driftDiv.appendChild(el('span', 'pick-drift-arrow', '→'));
       driftDiv.appendChild(el('span', 'pick-drift-label', 'Now'));
       driftDiv.appendChild(el('span', 'pick-drift-current', formatPrice(currentBest)));
-      var deltaSign = deltaPct > 0 ? '+' : '';
-      driftDiv.appendChild(el('span', 'pick-drift-delta',
-        '(' + deltaSign + deltaPct.toFixed(1) + 'pp)'));
+      var deltaLabel;
+      if (driftClass === 'flat-market') {
+        deltaLabel = '(no drift)';
+      } else {
+        var deltaSign = deltaPct > 0 ? '+' : '';
+        deltaLabel = '(' + deltaSign + deltaPct.toFixed(1) + 'pp)';
+      }
+      driftDiv.appendChild(el('span', 'pick-drift-delta', deltaLabel));
       card.appendChild(driftDiv);
     }
 

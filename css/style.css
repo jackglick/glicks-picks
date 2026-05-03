@@ -1323,6 +1323,11 @@ a:hover > .player-initials {
   color: rgb(239, 68, 68);
 }
 
+.pick-card-drift.flat-market {
+  background: rgba(141, 149, 163, 0.10);
+  color: var(--text-dim);
+}
+
 .pick-drift-label {
   opacity: 0.65;
   font-size: 0.65rem;
