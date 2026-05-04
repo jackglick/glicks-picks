@@ -1152,13 +1152,7 @@
     if (ds.indexOf('Postponed') !== -1) {
       return 'Game postponed';
     }
-    var now = new Date();
-    var gameStart = new Date(game.game_date_utc);
-    var hoursUntil = (gameStart - now) / (1000 * 60 * 60);
-    if (hoursUntil > 3) {
-      return 'Picks appear ~3 hours before first pitch';
-    }
-    return 'No picks for this game';
+    return 'No picks for this game yet — check back later';
   }
 
   function parseTimeMinutes(label) {
