@@ -40,6 +40,7 @@ A static website for an MLB player prop analytics project (7 markets: 5 pitcher 
 A Bloomberg-style "analytics terminal" redesign lives alongside the main site at `glicks-picks.com/b/`. Same data source (Supabase), same domain, same GitHub Pages deploy — just a different visual treatment.
 
 - **Source**: `web-b/` — Next.js 15 + TypeScript + Tailwind 4 (CSS-first `@theme` config in `app/globals.css`). App Router. `output: 'export'` static export with `basePath: '/b'` so all asset paths are `/b/_next/...`.
+- **`.nojekyll` at the repo root is required** — without it, GitHub Pages runs Jekyll, which strips any path starting with `_` (including the entire `_next/` directory). Symptom: page loads as plain unstyled HTML, all JS/CSS chunks 404. Do not delete the empty `.nojekyll` file.
 - **Build artifact**: `b/` — committed to main. GitHub Pages serves it directly. **Never edit `b/` by hand** — overwritten on every build.
 - **Deploy flow**: `cd web-b && npm run deploy:b` (= `next build && rm -rf ../b && mv out ../b`). Then `git add b/ web-b/ && git commit && git push`.
 - **Local dev**: `cd web-b && npm run dev` → `localhost:3000/b`.
