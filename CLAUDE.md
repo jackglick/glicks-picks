@@ -33,6 +33,21 @@ A static website for an MLB player prop analytics project (7 markets: 5 pitcher 
 - Chart.js vendored locally at `js/vendor/chart.umd.min.js` (no CDN dependency)
 - Deployed via GitHub Pages from the main branch
 - No server-side code
+- **Exception**: the parallel B site under `web-b/` overrides the "no frameworks, no build" rule. See "B site" below.
+
+## B site (parallel modern redesign at `/b/`)
+
+A Bloomberg-style "analytics terminal" redesign lives alongside the main site at `glicks-picks.com/b/`. Same data source (Supabase), same domain, same GitHub Pages deploy — just a different visual treatment.
+
+- **Source**: `web-b/` — Next.js 15 + TypeScript + Tailwind 4 (CSS-first `@theme` config in `app/globals.css`). App Router. `output: 'export'` static export with `basePath: '/b'` so all asset paths are `/b/_next/...`.
+- **Build artifact**: `b/` — committed to main. GitHub Pages serves it directly. **Never edit `b/` by hand** — overwritten on every build.
+- **Deploy flow**: `cd web-b && npm run deploy:b` (= `next build && rm -rf ../b && mv out ../b`). Then `git add b/ web-b/ && git commit && git push`.
+- **Local dev**: `cd web-b && npm run dev` → `localhost:3000/b`.
+- **Data**: shares the Supabase project with the main site. `web-b/lib/supabase.ts` re-uses the same publishable key from `js/config.js`. Tables read: `picks`, `season_summaries`, `market_stats`, `bankroll_curve`. (RPC `picks_index` planned for v2 archive calendar.)
+- **Design tokens** (also documented in the design handoff README at `docs/design_handoff_glicks_picks/README.md` if checked in): dark surfaces (`#0a0c0f` bg, `#161b22` cards), 1px borders only — **no drop shadows except live-dot glow**. Electric green `#22e07a` reserved for wins / +ROI / live indicators / primary CTAs only — never decorative. Fonts: Geist (UI), JetBrains Mono (numerics — required for every odds, time, stat), Instrument Serif italic (editorial accents).
+- **Scope**: 3 screens shipped — Landing (`/b/`), Today's Picks (`/b/picks/`), Track Record (`/b/track-record/`). Pick Detail and Player Profile deferred — they need new exports from `mlb-analytics/scripts/export_web.py` (K-PMF distribution, line history, pitcher arsenal, per-player pick history).
+- **Rule overrides for `web-b/` only**: TypeScript and React are allowed. Tailwind utility classes replace BEM CSS. `var` and function expressions are not required (use `const`, arrow functions). The "no frameworks" rule still applies to the root site files (`index.html`, `picks.html`, `results.html`, `css/`, `js/`).
+- **Tests**: `web-b/` is currently untested. Existing root-level `node --test` continues to cover the main site.
 
 ## Design system
 

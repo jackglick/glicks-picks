@@ -18,3 +18,12 @@ docs/
 
 # Node test tooling
 node_modules/
+
+# B-site (Next.js source) build artifacts — only `b/` (the output) is committed
+web-b/.next/
+web-b/out/
+web-b/node_modules/
+web-b/next-env.d.ts.bak
+
+# Design handoff archives (large, kept locally only)
+*.zip

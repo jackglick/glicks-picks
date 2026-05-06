@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0c0f;
+  --color-bg-2: #10141a;
+  --color-surface: #161b22;
+  --color-surface-hi: #1c2330;
+  --color-border: #232b38;
+  --color-border-soft: #1a2230;
+  --color-text: #e8ecf2;
+  --color-text-dim: #8b95a8;
+  --color-text-faint: #5a6478;
+  --color-green: #22e07a;
+  --color-green-dim: #138a48;
+  --color-red: #ff4d57;
+  --color-red-dim: #9b1f28;
+  --color-amber: #ffb547;
+  --color-blue: #5b8cff;
+  --color-cyan: #5fe3d8;
+
+  --radius-pill: 4px;
+  --radius-button: 6px;
+  --radius-card: 10px;
+  --radius-tile: 12px;
+}
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+* { box-sizing: border-box; }
+
+@keyframes b-glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px var(--color-green); }
+  50%      { box-shadow: 0 0 12px var(--color-green); }
+}
+
+.b-live-glow { animation: b-glow-pulse 1.6s ease-in-out infinite alternate; }
+
+@media (prefers-reduced-motion: reduce) {
+  .b-live-glow { animation: none; }
+}
+
+::selection { background: rgba(34, 224, 122, 0.25); color: var(--color-text); }
