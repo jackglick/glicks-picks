@@ -240,8 +240,21 @@
     var pickIsConsensus = pick.best_book && pick.best_book.toLowerCase() === 'consensus';
     var altlineMismatch = firstBook && firstBook.line != null
       && pick.line != null && firstBook.line !== pick.line;
+    // MLB-225 follow-up: backend stamps `stale_since` on a book entry whenever
+    // the book has dropped out of both the top-4 fresh export and the
+    // unbounded current-prices lookup — i.e. its displayed price is the
+    // last-known value, not reality. Comparing locked vs that price misleads
+    // (the drift signal is from a frozen snapshot, not a real market move),
+    // so suppress the badge once the entry has been stale for more than 1h.
+    var STALE_BADGE_HOURS = 1;
+    var staleSince = firstBook && firstBook.stale_since;
+    var isStale = false;
+    if (staleSince) {
+      var staleMs = Date.now() - new Date(staleSince).getTime();
+      isStale = staleMs > STALE_BADGE_HOURS * 3600 * 1000;
+    }
     if (lockedPrice != null && currentBest != null && !pick.result
-        && !pickIsConsensus && !altlineMismatch) {
+        && !pickIsConsensus && !altlineMismatch && !isStale) {
       var lockedImpl = americanToImplied(lockedPrice);
       var currentImpl = americanToImplied(currentBest);
       var deltaPct = (currentImpl - lockedImpl) * 100;
