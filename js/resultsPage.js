@@ -17,7 +17,7 @@
   var v1Logic = (GP.SiteLogic) ? GP.SiteLogic : null;
 
   function getVersion() {
-    if (!v1Logic) return 'v1.1';
+    if (!v1Logic) return 'all';
     return v1Logic.parseVersionParam(window.location.href);
   }
 
@@ -31,6 +31,11 @@
     if (banner) banner.style.display = visible ? '' : 'none';
   }
 
+  function setV2BannerVisible(visible) {
+    var banner = document.getElementById('v2-cutover-banner');
+    if (banner) banner.style.display = visible ? '' : 'none';
+  }
+
   function setActiveVersionButton(version) {
     var buttons = document.querySelectorAll('.version-toggle-btn');
     buttons.forEach(function (btn) {
@@ -40,6 +45,68 @@
         btn.classList.remove('active');
       }
     });
+  }
+
+  // MLB-234: render the per-version summary cards in the "All" view.
+  // Reads picks from the closure-captured `data.recent` (~50 most recent
+  // graded bets), so this is an at-a-glance comparison rather than a
+  // full per-version equity report.
+  function renderVersionSplitStats(picks, version) {
+    var container = document.getElementById('version-split-stats');
+    if (!container) return;
+
+    // Only render the cards on the "All" view; v1.1-only / v2-only views
+    // already filter the main summary card.
+    if (version !== 'all' || !v1Logic || !v1Logic.computeVersionSplitSummary) {
+      container.style.display = 'none';
+      clearChildren(container);
+      return;
+    }
+
+    var split = v1Logic.computeVersionSplitSummary(picks || []);
+    // Hide the cards if there are no graded bets on either side — they'd be
+    // visual noise pre-cutover.
+    if (split.v11.n === 0 && split.v2.n === 0) {
+      container.style.display = 'none';
+      clearChildren(container);
+      return;
+    }
+
+    clearChildren(container);
+    container.style.display = '';
+    container.appendChild(el(
+      'p', 'version-split-stats-caption',
+      'Cutover ' + split.cutover + ' (recent ' + (picks || []).length +
+      ' graded picks). Switch to "v1.1 only" or "v2.0 only" to see the full ' +
+      'breakdown for that version.'));
+
+    var grid = el('div', 'version-split-grid');
+    [
+      { label: 'v1.1 (pre-cutover)', stats: split.v11, key: 'v1.1' },
+      { label: 'v2.0 (post-cutover)', stats: split.v2, key: 'v2' }
+    ].forEach(function (entry) {
+      var card = el('div', 'version-split-card');
+      card.appendChild(el('div', 'version-split-label', entry.label));
+      var s = entry.stats;
+      if (s.n === 0) {
+        card.appendChild(el('div', 'version-split-empty',
+          'No graded picks yet'));
+      } else {
+        var rec = s.wins + '-' + s.losses + ' (' + s.n + ')';
+        card.appendChild(el('div', 'version-split-record', rec));
+        var wrText = s.win_rate != null ? s.win_rate.toFixed(1) + '%' : '--';
+        var roiText = s.roi != null
+          ? (s.roi >= 0 ? '+' : '') + s.roi.toFixed(1) + '%' : '--';
+        var roiClass = s.roi != null
+          ? (s.roi >= 0 ? 'pnl-positive' : 'pnl-negative') : '';
+        var meta = el('div', 'version-split-meta');
+        meta.appendChild(el('span', '', 'WR ' + wrText));
+        meta.appendChild(el('span', roiClass, ' · ROI ' + roiText));
+        card.appendChild(meta);
+      }
+      grid.appendChild(card);
+    });
+    container.appendChild(grid);
   }
 
   // ============================================
@@ -393,6 +460,18 @@
     var pctValues = curveData.map(function (d) { return d.pct; });
     var baselineValues = curveData.map(function () { return initialBankroll; });
 
+    // MLB-234: locate the v2.0 cutover index for the vertical-line plugin
+    // installed below. We do an inclusive search for the first day >= the
+    // cutover date so the line lands on the first v2.0 trading day.
+    var cutoverDate = (v1Logic && v1Logic.getCutoverDate)
+      ? v1Logic.getCutoverDate() : '2026-08-01';
+    var cutoverIdx = -1;
+    for (var ci = 0; ci < curveData.length; ci++) {
+      var dateStr = String(curveData[ci].date || '').slice(0, 10);
+      if (dateStr >= cutoverDate) { cutoverIdx = ci; break; }
+    }
+    var hasCutoverInRange = cutoverIdx > 0 && cutoverIdx < curveData.length;
+
     // Compute Y axis range with padding so small swings are visible
     var allValues = flatValues.concat(pctValues, [initialBankroll]);
     var dataMin = Math.min.apply(null, allValues);
@@ -411,8 +490,47 @@
 
     var isNarrow = window.innerWidth < 640;
 
+    // MLB-234: inline plugin that draws a vertical dashed line at the v2.0
+    // cutover, plus a small "v2.0 cutover" label above the chart area.
+    // We use a per-instance plugin (passed in the `plugins` array of the
+    // Chart constructor) so it does not affect other charts on the page.
+    var cutoverLinePlugin = {
+      id: 'mlb234CutoverLine',
+      afterDatasetsDraw: function (chartInstance) {
+        if (!hasCutoverInRange) return;
+        var meta = chartInstance.getDatasetMeta(0);
+        if (!meta || !meta.data || !meta.data[cutoverIdx]) return;
+        var pt = meta.data[cutoverIdx];
+        var area = chartInstance.chartArea;
+        var ctx = chartInstance.ctx;
+        ctx.save();
+        ctx.strokeStyle = 'rgba(168, 85, 247, 0.85)';  // accent purple
+        ctx.lineWidth = 1.5;
+        ctx.setLineDash([6, 4]);
+        ctx.beginPath();
+        ctx.moveTo(pt.x, area.top);
+        ctx.lineTo(pt.x, area.bottom);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.fillStyle = 'rgba(168, 85, 247, 0.95)';
+        ctx.font = "600 11px 'DM Sans', system-ui, sans-serif";
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'top';
+        // Anchor the label to the right of the line, falling back to the
+        // left if it would clip the chart area on the right edge.
+        var labelText = 'v2.0 cutover';
+        var labelX = pt.x + 6;
+        if (labelX + ctx.measureText(labelText).width > area.right - 4) {
+          labelX = pt.x - 6 - ctx.measureText(labelText).width;
+        }
+        ctx.fillText(labelText, labelX, area.top + 4);
+        ctx.restore();
+      }
+    };
+
     var chart = new Chart(canvas, {
       type: 'line',
+      plugins: [cutoverLinePlugin],
       data: {
         labels: labels,
         datasets: [
