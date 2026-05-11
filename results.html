@@ -6,11 +6,11 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; script-src 'self' 'sha256-w3ULw6FMcG5xO9z8m7NkLS2tSOXEOwPuO2PFw8ZZqj4=' https://www.googletagmanager.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.mlbstatic.com https://www.mlbstatic.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net https://ajjruzolkbzardssopos.supabase.co; form-action 'self'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Track Record — Glick's Picks</title>
-  <meta name="description" content="Glick's Picks track record. Win rates, P&L, and performance across seven MLB player prop markets.">
+  <meta name="description" content="Glick's Picks 2026 season-to-date P&L across all model versions.">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Track Record — Glick's Picks">
-  <meta property="og:description" content="Backtested MLB player prop performance across seven markets.">
+  <meta property="og:description" content="2026 season-to-date P&L across all model versions.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://glicks-picks.com/results.html">
   <meta property="og:image" content="https://glicks-picks.com/images/hero-bg.jpg">
@@ -18,7 +18,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Track Record — Glick's Picks">
-  <meta name="twitter:description" content="Backtested MLB player prop performance across seven markets.">
+  <meta name="twitter:description" content="2026 season-to-date P&L across all model versions.">
   <meta name="twitter:image" content="https://glicks-picks.com/images/hero-bg.jpg">
 
   <!-- Canonical -->
@@ -37,6 +37,47 @@
   <script>
     (function(){var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();
   </script>
+  <style>
+    .summary-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .summary-strip .cell {
+      background: var(--bg-surface);
+      border-radius: 12px;
+      padding: 0.9rem 1rem;
+      box-shadow: var(--shadow);
+    }
+    .summary-strip .label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted, #94a3b8);
+      margin-bottom: 0.3rem;
+    }
+    .summary-strip .value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+    .summary-strip .value.pos { color: #16a34a; }
+    .summary-strip .value.neg { color: #dc2626; }
+    .chart-loading {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--text-muted, #94a3b8);
+      font-size: 0.9rem;
+    }
+    .chart-error {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: #dc2626;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -81,132 +122,39 @@
     <a href="results.html">Track Record</a>
   </nav>
 
-  <!-- Backtest Banner -->
-  <div id="backtest-banner" class="backtest-banner" style="display:none">
-    Viewing 2025 Backtest Archive
-  </div>
-
   <main id="main-content">
     <!-- Page Hero -->
     <section class="page-hero">
       <div class="container">
-        <div class="season-pill" role="group" aria-label="Select season">
-          <button class="season-pill-btn" data-season="2024">2024</button>
-          <button class="season-pill-btn" data-season="2025">2025</button>
-          <button class="season-pill-btn" data-season="2026">2026</button>
-        </div>
-        <div class="version-toggle" id="version-toggle" role="group"
-             aria-label="Select model version" style="display:none">
-          <button class="version-toggle-btn active" data-version="all">All</button>
-          <button class="version-toggle-btn" data-version="v1.1">v1.1 only</button>
-          <button class="version-toggle-btn" data-version="v1">v1 (frozen)</button>
-        </div>
-        <div class="v1-frozen-banner" id="v1-frozen-banner" style="display:none">
-          <strong>Viewing v1 archive (frozen 2026-04-06).</strong>
-          12-day forward sample before the MLB-131 bias-correction fix.
-          Retained for posterity — this model is no longer active.
-        </div>
-        <h1 class="page-title reveal">Track Record</h1>
-        <p class="page-subtitle reveal" id="results-subtitle">Out-of-sample backtest archive across player-prop markets</p>
-        <p class="status-meta reveal" id="results-generated-at">Last updated: --</p>
+        <h1 class="page-title">Track Record</h1>
+        <p class="page-subtitle">2026 season-to-date — combined performance across all model versions</p>
       </div>
     </section>
 
-    <!-- Stats Banner -->
+    <!-- Results -->
     <section class="results-section">
       <div class="container">
-
-        <!-- Empty State -->
-        <div class="picks-empty" id="results-empty" style="display: none;">
-          <div class="picks-empty-icon">&#128202;</div>
-          <h3 id="results-empty-title">Results unavailable</h3>
-          <p id="results-empty-copy">We could not load results data. Please refresh and try again.</p>
+        <div class="summary-strip" id="summary-strip">
+          <div class="cell"><div class="label">Picks</div><div class="value" id="stat-picks">—</div></div>
+          <div class="cell"><div class="label">Record</div><div class="value" id="stat-record">—</div></div>
+          <div class="cell"><div class="label">Win Rate</div><div class="value" id="stat-wr">—</div></div>
+          <div class="cell"><div class="label">P&amp;L (flat $100)</div><div class="value" id="stat-pnl">—</div></div>
+          <div class="cell"><div class="label">ROI</div><div class="value" id="stat-roi">—</div></div>
         </div>
 
-        <div id="results-content" style="display: none;">
-          <!-- Summary Card -->
-          <div class="summary-card" id="results-summary-card" role="region" aria-label="Season performance summary">
-            <div class="summary-headline" id="results-stats">
-              <div class="summary-stat">
-                <div class="summary-stat-label">Record</div>
-                <div class="summary-stat-value" id="stat-record">--</div>
-              </div>
-              <div class="summary-stat">
-                <div class="summary-stat-label">Win Rate</div>
-                <div class="summary-stat-value" id="stat-winrate">--</div>
-              </div>
-              <div class="summary-stat">
-                <div class="summary-stat-label">Flat Return</div>
-                <div class="summary-stat-value" id="stat-return-flat">--</div>
-              </div>
-              <div class="summary-stat">
-                <div class="summary-stat-label">2% Return</div>
-                <div class="summary-stat-value" id="stat-return-pct">--</div>
-              </div>
-            </div>
-            <div class="summary-context" id="results-context">
-              <span class="summary-meta"><span class="summary-meta-label">Bet ROI</span> <strong id="stat-bet-roi">--</strong></span>
-              <span class="summary-meta"><span class="summary-meta-label">Worst Slump (Flat)</span> <strong id="stat-dd-flat">--</strong></span>
-              <span class="summary-meta"><span class="summary-meta-label">Worst Slump (2%)</span> <strong id="stat-dd-pct">--</strong></span>
-              <span class="summary-meta" id="stat-streaks" style="display:none"></span>
-            </div>
-          </div>
-
-          <!-- Bankroll Equity Curve -->
-          <div class="results-chart-wrapper reveal">
-            <h3>Bankroll Equity Curve</h3>
-            <p class="results-chart-summary" id="pnl-chart-summary">Summary unavailable.</p>
-            <canvas id="pnl-chart" aria-describedby="pnl-chart-summary"></canvas>
-          </div>
-
-          <!-- Detail Breakdowns -->
-          <div class="results-details">
-
-          <!-- Market Breakdown -->
-          <div class="results-table-wrapper">
-            <h3>By Market</h3>
-            <div class="results-table-scroll">
-              <table class="results-table" id="market-table">
-                <caption>Market-level backtest summary</caption>
-                <thead>
-                  <tr>
-                    <th scope="col">Market</th>
-                    <th scope="col">Bets</th>
-                    <th scope="col">Record</th>
-                    <th scope="col">Win Rate</th>
-                    <th scope="col">ROI</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-              </table>
-            </div>
-          </div>
-
-          <!-- Direction Stats -->
-          <div id="direction-stats" class="stats-breakdown"></div>
-
-          <!-- Recent Picks -->
-          <div class="results-table-wrapper">
-            <h3>Game Log</h3>
-            <div class="results-table-scroll">
-              <table class="results-table" id="recent-table">
-                <caption>Most recent graded picks from the archive</caption>
-                <thead>
-                  <tr>
-                    <th scope="col">Date</th>
-                    <th scope="col">Player</th>
-                    <th scope="col">Pick</th>
-                    <th scope="col">Result</th>
-                    <th scope="col">P&amp;L ($100)</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-              </table>
-            </div>
-          </div>
+        <div class="results-chart-wrapper">
+          <h3>Bankroll over time — $5,000 start, flat $100 per bet</h3>
+          <div id="chart-status" class="chart-loading">Loading…</div>
+          <canvas id="results-chart" style="display:none"></canvas>
         </div>
 
-        <p class="picks-disclaimer">All results are simulated paper trades, not live wagering. Both strategies start from a $5,000 bankroll. "Flat" = $100 per bet. "2%" = 2% of bankroll per bet (compounds). Past performance does not guarantee future results.</p>
+        <p class="picks-disclaimer">
+          All results are simulated paper trades, not live wagering. The two dashed lines
+          mark model-version cutovers: v1 → v1.1 on 2026-04-06 (MLB-131 bias-correction fix)
+          and v1.1 → v2.0 on 2026-05-07 (MLB-230 structural-lock build).
+          v1 picks are sourced from the frozen archive; v1.1 and v2.0 from live Supabase.
+          Past performance does not guarantee future results.
+        </p>
       </div>
     </section>
   </main>
@@ -229,8 +177,8 @@
   <script src="js/config.js"></script>
   <script src="js/site_logic.js"></script>
   <script src="js/utils.js"></script>
+  <script src="js/vendor/chart.umd.min.js"></script>
   <script src="js/resultsPage.js"></script>
-  <script src="js/vendor/chart.umd.min.js" id="chart-script"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

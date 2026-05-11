@@ -58,12 +58,6 @@ test('picks page has accessible calendar and filter controls', function () {
   assert.ok(html.includes('id="books-filter-summary" class="books-filter-summary" aria-live="polite"'), 'book summary aria-live');
 });
 
-test('results page keeps table captions for screen-reader context', function () {
-  const html = read('results.html');
-  assert.ok(html.includes('<caption>Market-level backtest summary</caption>'));
-  assert.ok(html.includes('<caption>Most recent graded picks from the archive</caption>'));
-});
-
 test('security and analytics scripts keep expected hardened behavior', function () {
   const securityJs = read('js/security.js');
   const analyticsJs = read('js/analytics.js');

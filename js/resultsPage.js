@@ -1,454 +1,221 @@
-/* ============================================
-   Glick's Picks — Results Page
-   ============================================ */
+/* Track-record page: combined v1 + v1.1 + v2.0 bankroll over time,
+ * with vertical annotations at each model-version cutover.
+ * Stitches the v1 frozen archive (data/results_2026_v1.json) with the
+ * live v1.1+v2.0 Supabase data into one continuous bankroll. */
 (function () {
   'use strict';
 
   var GP = window.GP;
+  var INITIAL_BANKROLL = 5000;
+  var SEASON_INT = 2026;
+  var CUTOVERS = [
+    { date: '2026-04-06', label: 'v1.1' },
+    { date: '2026-05-07', label: 'v2.0' }
+  ];
 
-  var el = GP.el;
-  var clearChildren = GP.clearChildren;
-  var formatDate = GP.formatDate;
-  var formatPnl = GP.formatPnl;
-  var formatTimestamp = GP.formatTimestamp;
-  var setStatusText = GP.setStatusText;
-
-  // v1 frozen archive helpers
-  var v1Logic = (GP.SiteLogic) ? GP.SiteLogic : null;
-
-  function getVersion() {
-    if (!v1Logic) return 'all';
-    return v1Logic.parseVersionParam(window.location.href);
+  function setText(id, text, cls) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = text;
+    if (cls) { el.classList.remove('pos', 'neg'); el.classList.add(cls); }
   }
 
-  function showVersionToggle(show) {
-    var toggle = document.getElementById('version-toggle');
-    if (toggle) toggle.style.display = show ? '' : 'none';
-  }
-
-  function setV1BannerVisible(visible) {
-    var banner = document.getElementById('v1-frozen-banner');
-    if (banner) banner.style.display = visible ? '' : 'none';
-  }
-
-  function setActiveVersionButton(version) {
-    var buttons = document.querySelectorAll('.version-toggle-btn');
-    buttons.forEach(function (btn) {
-      if (btn.getAttribute('data-version') === version) {
-        btn.classList.add('active');
-      } else {
-        btn.classList.remove('active');
-      }
+  function fmtMoney(v) {
+    var sign = v < 0 ? '-' : (v > 0 ? '+' : '');
+    return sign + '$' + Math.abs(v).toLocaleString(undefined, {
+      minimumFractionDigits: 0, maximumFractionDigits: 0
     });
   }
 
-  // ============================================
-  // Direction stats table
-  // ============================================
+  function fmtPct(v) {
+    return (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
+  }
 
-  function renderDirectionStats(data) {
-    var container = document.getElementById('direction-stats');
-    if (!container || !data || !Array.isArray(data.direction_stats)) return;
-    clearChildren(container);
-    var stats = data.direction_stats;
-    if (stats.length === 0) return;
+  function fmtDate(iso) {
+    var d = new Date(iso + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  }
 
-    container.appendChild(el('h3', 'results-section-heading', 'Splits'));
+  function showError(msg) {
+    var s = document.getElementById('chart-status');
+    if (s) { s.className = 'chart-error'; s.textContent = msg; }
+  }
 
-    var scrollWrap = el('div', 'results-table-scroll');
-    var table = document.createElement('table');
-    table.className = 'results-table';
-    var caption = document.createElement('caption');
-    caption.textContent = 'Performance breakdown by bet direction';
-    table.appendChild(caption);
-    var thead = document.createElement('thead');
-    var headRow = document.createElement('tr');
-    ['Direction', 'Bets', 'Win Rate', 'ROI'].forEach(function (h) {
-      var th = el('th', '', h);
-      th.setAttribute('scope', 'col');
-      headRow.appendChild(th);
+  // Merge the v1 frozen curve with the supabase curve into one sorted
+  // daily series, summing flat_day_pnl/pct_day_pnl per date and rebuilding
+  // a continuous bankroll starting at INITIAL_BANKROLL. Same-date rows
+  // (e.g. 2026-04-06 appears in both sources) are merged additively.
+  function buildCombinedCurve(v1Rows, supaRows) {
+    var byDate = {};
+    function add(rows) {
+      rows.forEach(function (r) {
+        var d = String(r.date).slice(0, 10);
+        if (!byDate[d]) byDate[d] = { date: d, flat_day_pnl: 0, pct_day_pnl: 0, n_bets: 0 };
+        byDate[d].flat_day_pnl += Number(r.flat_day_pnl || 0);
+        byDate[d].pct_day_pnl += Number(r.pct_day_pnl || 0);
+        byDate[d].n_bets += Number(r.n_bets || 0);
+      });
+    }
+    add(v1Rows || []);
+    add(supaRows || []);
+    var dates = Object.keys(byDate).sort();
+    var flat = INITIAL_BANKROLL, pct = INITIAL_BANKROLL;
+    return dates.map(function (d) {
+      var row = byDate[d];
+      flat += row.flat_day_pnl;
+      pct += row.pct_day_pnl;
+      return {
+        date: d,
+        flat: Math.round(flat * 100) / 100,
+        pct: Math.round(pct * 100) / 100,
+        n_bets: row.n_bets
+      };
     });
-    thead.appendChild(headRow);
-    table.appendChild(thead);
+  }
 
-    var tbody = document.createElement('tbody');
-    stats.forEach(function (d) {
-      var tr = document.createElement('tr');
-      tr.appendChild(el('td', '', String(d.direction || '')));
-      tr.appendChild(el('td', '', String(d.bets || 0)));
-      tr.appendChild(el('td', '', (d.win_rate != null ? d.win_rate.toFixed(1) : '0.0') + '%'));
-      var dRoi = d.roi != null ? d.roi : 0;
-      tr.appendChild(el('td', dRoi >= 0 ? 'pnl-positive' : 'pnl-negative',
-        (dRoi >= 0 ? '+' : '') + dRoi.toFixed(1) + '%'));
-      tbody.appendChild(tr);
+  // Aggregate summary across both data sources, $100-flat-equivalent.
+  function buildSummary(v1Summary, supaPicks) {
+    var n = (v1Summary && v1Summary.total_bets) || 0;
+    var wins = (v1Summary && v1Summary.wins) || 0;
+    var losses = (v1Summary && v1Summary.losses) || 0;
+    var wagered = (v1Summary && v1Summary.total_wagered) || (n * 100);
+    var pnl = wagered * ((v1Summary && v1Summary.bet_roi) || 0) / 100;
+
+    (supaPicks || []).forEach(function (p) {
+      if (p.result !== 'win' && p.result !== 'loss') return;
+      n += 1;
+      if (p.result === 'win') wins += 1; else losses += 1;
+      wagered += 100;
+      var ba = Number(p.bet_amount) || 0;
+      if (ba > 0 && typeof p.pnl === 'number') {
+        pnl += p.pnl * (100 / ba);
+      } else if (typeof p.pnl === 'number') {
+        pnl += p.pnl;
+      }
     });
-    table.appendChild(tbody);
-    scrollWrap.appendChild(table);
-    container.appendChild(scrollWrap);
+
+    var wr = n > 0 ? (wins / n * 100) : 0;
+    var roi = wagered > 0 ? (pnl / wagered * 100) : 0;
+    return { n: n, wins: wins, losses: losses, wagered: wagered, pnl: pnl, wr: wr, roi: roi };
   }
 
-  // ============================================
-  // Summary card
-  // ============================================
-
-  function renderSummaryCard(s) {
-    if (!s) return;
-
-    document.getElementById('stat-record').textContent =
-      s.wins + '-' + s.losses + (s.pushes > 0 ? '-' + s.pushes : '');
-
-    document.getElementById('stat-winrate').textContent = s.win_rate.toFixed(1) + '%';
-
-    var flatRetEl = document.getElementById('stat-return-flat');
-    if (flatRetEl && s.flat) {
-      flatRetEl.textContent = (s.flat.return_pct >= 0 ? '+' : '') + s.flat.return_pct.toFixed(1) + '%';
-      flatRetEl.className = 'summary-stat-value ' + (s.flat.return_pct >= 0 ? 'positive' : 'negative');
-    }
-
-    var pctRetEl = document.getElementById('stat-return-pct');
-    if (pctRetEl && s.pct) {
-      pctRetEl.textContent = (s.pct.return_pct >= 0 ? '+' : '') + s.pct.return_pct.toFixed(1) + '%';
-      pctRetEl.className = 'summary-stat-value ' + (s.pct.return_pct >= 0 ? 'positive' : 'negative');
-    }
-
-    var betRoiEl = document.getElementById('stat-bet-roi');
-    if (betRoiEl && s.bet_roi != null) {
-      betRoiEl.textContent = (s.bet_roi >= 0 ? '+' : '') + s.bet_roi.toFixed(1) + '%';
-      betRoiEl.className = s.bet_roi >= 0 ? 'positive' : 'negative';
-    }
-
-    var ddFlatEl = document.getElementById('stat-dd-flat');
-    if (ddFlatEl && s.flat) {
-      ddFlatEl.textContent = s.flat.max_drawdown_pct.toFixed(1) + '%';
-      ddFlatEl.className = 'negative';
-    }
-
-    var ddPctEl = document.getElementById('stat-dd-pct');
-    if (ddPctEl && s.pct) {
-      ddPctEl.textContent = s.pct.max_drawdown_pct.toFixed(1) + '%';
-      ddPctEl.className = 'negative';
-    }
+  function renderSummary(s) {
+    setText('stat-picks', s.n.toLocaleString());
+    setText('stat-record', s.wins + '-' + s.losses);
+    setText('stat-wr', s.wr.toFixed(1) + '%');
+    setText('stat-pnl', fmtMoney(s.pnl), s.pnl >= 0 ? 'pos' : 'neg');
+    setText('stat-roi', fmtPct(s.roi), s.roi >= 0 ? 'pos' : 'neg');
   }
 
-  // ============================================
-  // Market breakdown table
-  // ============================================
-
-  function renderMarketTable(byMarket) {
-    var marketBody = document.querySelector('#market-table tbody');
-    if (marketBody && byMarket) {
-      clearChildren(marketBody);
-      var sortedMarkets = byMarket.slice().sort(function (a, b) {
-        return (b.roi || 0) - (a.roi || 0);
-      });
-      sortedMarkets.forEach(function (m) {
-        var tr = document.createElement('tr');
-        var tdMarket = el('td');
-        var strong = el('strong', '', m.market);
-        tdMarket.appendChild(strong);
-        var catLabel = m.category === 'batter' ? 'Batter' : 'Pitcher';
-        var catBadge = el('span', 'market-category-badge market-category--' + catLabel.toLowerCase(), catLabel);
-        tdMarket.appendChild(catBadge);
-        tr.appendChild(tdMarket);
-        tr.appendChild(el('td', '', String(m.bets)));
-        tr.appendChild(el('td', '', m.wins + '-' + m.losses + (m.pushes > 0 ? '-' + m.pushes : '')));
-        tr.appendChild(el('td', '', m.win_rate.toFixed(1) + '%'));
-        var mRoi = m.roi != null ? m.roi : 0;
-        tr.appendChild(el('td', mRoi >= 0 ? 'pnl-positive' : 'pnl-negative',
-          (mRoi >= 0 ? '+' : '') + mRoi.toFixed(1) + '%'));
-        marketBody.appendChild(tr);
-      });
+  function renderChart(curve) {
+    var canvas = document.getElementById('results-chart');
+    var statusEl = document.getElementById('chart-status');
+    if (!canvas || typeof Chart === 'undefined') {
+      showError('Chart library failed to load.');
+      return;
     }
-  }
+    if (statusEl) statusEl.style.display = 'none';
+    canvas.style.display = '';
 
-  // ============================================
-  // Bankroll chart (with lazy Chart.js load)
-  // ============================================
-
-  function renderBankrollChartLazy(bankrollCurve, initialBankroll) {
-    if (bankrollCurve && bankrollCurve.length > 1) {
-      var last = bankrollCurve[bankrollCurve.length - 1];
-      setStatusText(
-        'pnl-chart-summary',
-        'Starting from $' + initialBankroll.toLocaleString() + ': flat $' +
-        last.flat.toLocaleString() + ', 2% $' + last.pct.toLocaleString() +
-        ' over ' + bankrollCurve.length + ' trading days.'
-      );
-    } else {
-      setStatusText('pnl-chart-summary', 'Chart will appear after a few days of graded picks.');
-    }
-
-    var canvas = document.getElementById('pnl-chart');
-    if (canvas && bankrollCurve && bankrollCurve.length > 1) {
-      if (typeof Chart !== 'undefined') {
-        initBankrollChart(canvas, bankrollCurve, initialBankroll);
-      } else {
-        var chartScript = document.getElementById('chart-script');
-        if (chartScript) {
-          chartScript.addEventListener('load', function () {
-            initBankrollChart(canvas, bankrollCurve, initialBankroll);
-          });
-        }
-      }
-    }
-  }
-
-  // ============================================
-  // Streaks
-  // ============================================
-
-  function computeDailyStreaks(cumulativePnl) {
-    if (!cumulativePnl || cumulativePnl.length === 0) return null;
-
-    var currentRun = 0;
-    var currentType = null;
-    for (var i = cumulativePnl.length - 1; i >= 0; i--) {
-      var dayPnl = cumulativePnl[i].pnl;
-      if (dayPnl === 0) continue;
-      var dayType = dayPnl > 0 ? 'W' : 'L';
-      if (currentType === null) {
-        currentType = dayType;
-        currentRun = 1;
-      } else if (dayType === currentType) {
-        currentRun++;
-      } else {
-        break;
-      }
-    }
-
-    var bestWin = 0;
-    var winRun = 0;
-    var bestLoss = 0;
-    var lossRun = 0;
-    for (var j = 0; j < cumulativePnl.length; j++) {
-      var p = cumulativePnl[j].pnl;
-      if (p > 0) {
-        winRun++;
-        lossRun = 0;
-        if (winRun > bestWin) bestWin = winRun;
-      } else if (p < 0) {
-        lossRun++;
-        winRun = 0;
-        if (lossRun > bestLoss) bestLoss = lossRun;
-      }
-    }
-
-    return {
-      current: currentRun,
-      currentType: currentType,
-      bestWin: bestWin,
-      bestLoss: bestLoss
-    };
-  }
-
-  function renderDrawdownStreak(data) {
-    var streakEl = document.getElementById('stat-streaks');
-    if (!streakEl) return;
-
-    var curve = data.bankroll_curve || [];
-    var streaks = computeDailyStreaks(curve.map(function (d) {
-      return { pnl: d.flat_day_pnl || 0 };
-    }));
-    if (!streaks) return;
-
-    if (streaks.bestWin > 0 || streaks.bestLoss > 0) {
-      streakEl.style.display = '';
-      clearChildren(streakEl);
-      streakEl.appendChild(el('span', 'summary-meta-label', 'Longest Streak'));
-      streakEl.appendChild(document.createTextNode(' '));
-      if (streaks.bestWin > 0) {
-        streakEl.appendChild(el('strong', 'positive', streaks.bestWin + 'W'));
-      }
-      if (streaks.bestWin > 0 && streaks.bestLoss > 0) {
-        streakEl.appendChild(document.createTextNode(' / '));
-      }
-      if (streaks.bestLoss > 0) {
-        streakEl.appendChild(el('strong', 'negative', streaks.bestLoss + 'L'));
-      }
-    }
-  }
-
-  // ============================================
-  // Recent picks table
-  // ============================================
-
-  function renderRecentPicks(data) {
-    var recentBody = document.querySelector('#recent-table tbody');
-    if (!recentBody || !data.recent) return;
-    clearChildren(recentBody);
-
-    var recent = data.recent;
-    var INITIAL_LIMIT = 50;
-    var hasMore = recent.length > INITIAL_LIMIT;
-    if (hasMore) recent = recent.slice(0, INITIAL_LIMIT);
-    var showAll = !hasMore;
-
-    var getTeamLogoUrl = GP.getTeamLogoUrl;
-
-    function renderRows(items) {
-      clearChildren(recentBody);
-      items.forEach(function (r) {
-        var tr = document.createElement('tr');
-        tr.appendChild(el('td', '', formatDate(r.date)));
-
-        // Player cell: team logo + name + position badge
-        var playerTd = document.createElement('td');
-        playerTd.className = 'game-log-player';
-        if (r.player_team) {
-          var logoUrl = getTeamLogoUrl(r.player_team);
-          if (logoUrl) {
-            var logo = document.createElement('img');
-            logo.className = 'game-log-team-logo';
-            logo.src = logoUrl;
-            logo.alt = r.player_team;
-            logo.loading = 'lazy';
-            logo.onerror = function () { logo.style.display = 'none'; };
-            playerTd.appendChild(logo);
-          }
-        }
-        if (r.bbref_id) {
-          var playerLink = document.createElement('a');
-          playerLink.href = 'https://www.baseball-reference.com/players/' + r.bbref_id.charAt(0) + '/' + r.bbref_id + '.shtml';
-          playerLink.target = '_blank';
-          playerLink.rel = 'noopener noreferrer';
-          playerLink.textContent = r.player;
-          playerTd.appendChild(playerLink);
-        } else {
-          playerTd.appendChild(document.createTextNode(r.player));
-        }
-        var posLabel = r.category === 'batter' ? 'BAT' : 'SP';
-        var posBadge = el('span', 'game-log-pos game-log-pos--' + posLabel.toLowerCase(), posLabel);
-        playerTd.appendChild(posBadge);
-        tr.appendChild(playerTd);
-
-        tr.appendChild(el('td', '', r.direction + ' ' + r.line + ' ' + r.market));
-
-        var tdResult = document.createElement('td');
-        if (r.result) {
-          var badge = el('span', 'result-badge ' + String(r.result).toLowerCase(), String(r.result).toUpperCase());
-          tdResult.appendChild(badge);
-          if (r.actual !== null && r.actual !== undefined) {
-            tdResult.appendChild(document.createTextNode(' (' + r.actual + ')'));
-          }
-        } else {
-          tdResult.appendChild(el('span', 'result-badge pending', 'PENDING'));
-        }
-        tr.appendChild(tdResult);
-
-        var pnlVal = r.pnl || 0;
-        tr.appendChild(el('td', pnlVal > 0 ? 'pnl-positive' : (pnlVal < 0 ? 'pnl-negative' : ''), r.result ? formatPnl(pnlVal) : '—'));
-        recentBody.appendChild(tr);
-      });
-    }
-
-    renderRows(showAll ? recent : recent.slice(0, INITIAL_LIMIT));
-
-    if (!showAll) {
-      var toggleRow = document.createElement('tr');
-      var toggleTd = document.createElement('td');
-      toggleTd.colSpan = 5;
-      toggleTd.style.textAlign = 'center';
-      var toggleBtn = el('button', 'show-all-btn', 'Full game log');
-      toggleBtn.type = 'button';
-      toggleBtn.addEventListener('click', function () {
-        toggleBtn.textContent = 'Loading\u2026';
-        toggleBtn.disabled = true;
-        GP.supabase.from('picks')
-          .select('date,player,player_team,category,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable')
-          .eq('season', GP.getSeasonInt())
-          .order('date', { ascending: false })
-          .then(function (res) {
-            if (res.error || !res.data) {
-              toggleBtn.textContent = 'Failed to load';
-              toggleBtn.disabled = false;
-              return;
-            }
-            renderRows(res.data);
-          });
-      });
-      toggleTd.appendChild(toggleBtn);
-      toggleRow.appendChild(toggleTd);
-      recentBody.appendChild(toggleRow);
-    }
-  }
-
-  // ============================================
-  // Bankroll equity chart
-  // ============================================
-
-  // Tracks whether the window resize listener has been bound. The listener
-  // itself looks up the current chart via Chart.getChart(canvas), so it stays
-  // correct across re-renders without needing to be re-bound.
-  var bankrollChartResizeBound = false;
-
-  function initBankrollChart(canvas, curveData, initialBankroll) {
-    // Chart.js v4 throws "Canvas is already in use" if a chart is rebound to
-    // the same canvas without destroying the previous instance. This happens
-    // whenever the track-record page re-renders (e.g. toggling v1 ↔ v1.1).
+    // Chart.js v4 throws "Canvas is already in use" if a chart is rebound
+    // to the same canvas without destroying the previous instance.
     var existing = (typeof Chart !== 'undefined' && Chart.getChart) ? Chart.getChart(canvas) : null;
     if (existing) existing.destroy();
 
-    var labels = curveData.map(function (d) { return formatDate(d.date); });
-    var flatValues = curveData.map(function (d) { return d.flat; });
-    var pctValues = curveData.map(function (d) { return d.pct; });
-    var baselineValues = curveData.map(function () { return initialBankroll; });
+    var labels = curve.map(function (d) { return fmtDate(d.date); });
+    var flatVals = curve.map(function (d) { return d.flat; });
+    var pctVals = curve.map(function (d) { return d.pct; });
+    var baseline = curve.map(function () { return INITIAL_BANKROLL; });
 
-    // Compute Y axis range with padding so small swings are visible
-    var allValues = flatValues.concat(pctValues, [initialBankroll]);
-    var dataMin = Math.min.apply(null, allValues);
-    var dataMax = Math.max.apply(null, allValues);
+    var cutMarkers = CUTOVERS.map(function (c) {
+      for (var i = 0; i < curve.length; i++) {
+        if (curve[i].date >= c.date) return { idx: i, label: c.label, date: c.date };
+      }
+      return null;
+    }).filter(function (m) { return m && m.idx > 0 && m.idx < curve.length; });
+
+    var cutoverLinePlugin = {
+      id: 'cutoverLines',
+      afterDatasetsDraw: function (chart) {
+        if (!cutMarkers.length) return;
+        var meta = chart.getDatasetMeta(0);
+        if (!meta || !meta.data) return;
+        var area = chart.chartArea;
+        var ctx = chart.ctx;
+        cutMarkers.forEach(function (m) {
+          var pt = meta.data[m.idx];
+          if (!pt) return;
+          ctx.save();
+          ctx.strokeStyle = 'rgba(168, 85, 247, 0.85)';
+          ctx.lineWidth = 1.5;
+          ctx.setLineDash([6, 4]);
+          ctx.beginPath();
+          ctx.moveTo(pt.x, area.top);
+          ctx.lineTo(pt.x, area.bottom);
+          ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.fillStyle = 'rgba(168, 85, 247, 0.95)';
+          ctx.font = "600 11px 'DM Sans', system-ui, sans-serif";
+          ctx.textAlign = 'left';
+          ctx.textBaseline = 'top';
+          var labelText = m.label + ' cutover';
+          var labelX = pt.x + 6;
+          if (labelX + ctx.measureText(labelText).width > area.right - 4) {
+            labelX = pt.x - 6 - ctx.measureText(labelText).width;
+          }
+          ctx.fillText(labelText, labelX, area.top + 4);
+          ctx.restore();
+        });
+      }
+    };
+
+    var allVals = flatVals.concat(pctVals, [INITIAL_BANKROLL]);
+    var dataMin = Math.min.apply(null, allVals);
+    var dataMax = Math.max.apply(null, allVals);
     var range = dataMax - dataMin;
-    var padding = Math.max(range * 0.3, 100); // at least $100 padding
-    var yMin = Math.floor((dataMin - padding) / 50) * 50;
-    var yMax = Math.ceil((dataMax + padding) / 50) * 50;
+    var pad = Math.max(range * 0.25, 100);
+    var yMin = Math.floor((dataMin - pad) / 100) * 100;
+    var yMax = Math.ceil((dataMax + pad) / 100) * 100;
 
-    var responsiveTicksLimit = window.innerWidth < 640 ? 5 : 10;
-
-    function formatDollar(val) {
-      if (Math.abs(val) >= 10000) return '$' + (val / 1000).toFixed(1) + 'K';
-      return '$' + val.toLocaleString();
-    }
-
-    var isNarrow = window.innerWidth < 640;
-
-    var chart = new Chart(canvas, {
+    new Chart(canvas, {
       type: 'line',
+      plugins: [cutoverLinePlugin],
       data: {
         labels: labels,
         datasets: [
           {
             label: 'Flat $100',
-            data: flatValues,
+            data: flatVals,
             borderColor: '#2563eb',
             backgroundColor: 'rgba(37, 99, 235, 0.08)',
             fill: true,
             tension: 0.3,
             pointRadius: 0,
             pointHitRadius: 8,
+            pointHoverRadius: 5,
             pointHoverBackgroundColor: '#2563eb',
             pointHoverBorderColor: '#ffffff',
-            pointHoverRadius: 5,
             pointHoverBorderWidth: 2,
             borderWidth: 2.5
           },
           {
             label: '2% of Bankroll',
-            data: pctValues,
+            data: pctVals,
             borderColor: '#f97316',
             backgroundColor: 'rgba(249, 115, 22, 0.06)',
             fill: true,
             tension: 0.3,
             pointRadius: 0,
             pointHitRadius: 8,
+            pointHoverRadius: 5,
             pointHoverBackgroundColor: '#f97316',
             pointHoverBorderColor: '#ffffff',
-            pointHoverRadius: 5,
             pointHoverBorderWidth: 2,
             borderWidth: 2.5
           },
           {
             label: 'Starting Bankroll',
-            data: baselineValues,
+            data: baseline,
             borderColor: 'rgba(148, 163, 184, 0.6)',
             backgroundColor: 'transparent',
             fill: false,
@@ -463,25 +230,14 @@
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        layout: {
-          padding: { left: isNarrow ? 0 : 8, right: isNarrow ? 0 : 8 }
-        },
-        interaction: {
-          mode: 'index',
-          intersect: false
-        },
+        interaction: { mode: 'index', intersect: false },
         plugins: {
           legend: {
             display: true,
             labels: {
               font: { family: "'DM Sans'", size: 12, weight: '600' },
-              usePointStyle: true,
-              pointStyle: 'line',
-              boxWidth: 20,
-              padding: 16,
-              filter: function (item) {
-                return item.text !== 'Starting Bankroll';
-              }
+              usePointStyle: true, pointStyle: 'line', boxWidth: 20, padding: 16,
+              filter: function (item) { return item.text !== 'Starting Bankroll'; }
             }
           },
           tooltip: {
@@ -489,332 +245,88 @@
             borderColor: 'rgba(37, 99, 235, 0.3)',
             borderWidth: 1,
             cornerRadius: 10,
-            caretSize: 7,
-            caretPadding: 8,
             padding: 12,
-            displayColors: true,
-            usePointStyle: true,
-            boxPadding: 4,
             titleColor: '#f5f8ff',
             bodyColor: '#e1e8f5',
-            footerColor: '#94a3b8',
             titleFont: { family: "'DM Sans'", size: 12, weight: '700' },
             bodyFont: { family: "'JetBrains Mono'", size: 11, weight: '600' },
-            footerFont: { family: "'DM Sans'", size: 10, weight: '600' },
-            titleMarginBottom: 8,
-            bodySpacing: 6,
-            footerMarginTop: 6,
-            filter: function (item) {
-              return item.dataset.label !== 'Starting Bankroll';
-            },
+            filter: function (item) { return item.dataset.label !== 'Starting Bankroll'; },
             callbacks: {
               title: function (items) {
-                if (!items || items.length === 0) return '';
+                if (!items || !items.length) return '';
                 var idx = items[0].dataIndex;
-                var row = curveData[idx];
-                if (!row || !row.date) return items[0].label;
+                var row = curve[idx];
+                if (!row) return items[0].label;
                 return new Date(row.date + 'T12:00:00').toLocaleDateString('en-US', {
-                  weekday: 'short',
-                  month: 'short',
-                  day: 'numeric',
-                  year: 'numeric'
+                  weekday: 'short', month: 'short', day: 'numeric', year: 'numeric'
                 });
               },
               label: function (ctx) {
-                var val = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
-                return ' ' + ctx.dataset.label + ': $' + val.toLocaleString(undefined, {
-                  minimumFractionDigits: 0,
-                  maximumFractionDigits: 0
+                var v = ctx.parsed && typeof ctx.parsed.y === 'number' ? ctx.parsed.y : 0;
+                return ' ' + ctx.dataset.label + ': $' + v.toLocaleString(undefined, {
+                  minimumFractionDigits: 0, maximumFractionDigits: 0
                 });
-              },
-              labelTextColor: function (ctx) {
-                if (ctx.dataset.label === 'Flat $100') return '#93c5fd';
-                return '#fdba74';
-              },
-              footer: function (items) {
-                if (!items || items.length === 0) return '';
-                var idx = items[0].dataIndex;
-                var row = curveData[idx];
-                if (!row) return '';
-                var lines = [];
-                lines.push(row.n_bets + ' bet' + (row.n_bets !== 1 ? 's' : '') + ' today');
-                if (row.flat_day_pnl !== undefined) {
-                  var fSign = row.flat_day_pnl >= 0 ? '+' : '-';
-                  lines.push('Flat day: ' + fSign + '$' + Math.abs(row.flat_day_pnl).toFixed(0));
-                }
-                if (row.pct_day_pnl !== undefined) {
-                  var pSign = row.pct_day_pnl >= 0 ? '+' : '-';
-                  lines.push('2% day: ' + pSign + '$' + Math.abs(row.pct_day_pnl).toFixed(0));
-                }
-                return lines;
               }
             }
           }
         },
         scales: {
           x: {
-            grid: { display: false },
-            border: { display: false },
             ticks: {
               font: { family: "'DM Sans'", size: 11 },
-              color: '#94a3b8',
-              maxTicksLimit: responsiveTicksLimit
-            }
+              maxTicksLimit: window.innerWidth < 640 ? 5 : 10,
+              autoSkip: true
+            },
+            grid: { display: false }
           },
           y: {
-            type: 'linear',
-            position: 'left',
             min: yMin,
             max: yMax,
-            border: { display: false },
-            grid: { color: 'rgba(226, 232, 240, 0.6)' },
             ticks: {
-              font: { family: "'JetBrains Mono'", size: isNarrow ? 9 : 11 },
-              color: '#94a3b8',
-              maxTicksLimit: isNarrow ? 6 : 8,
-              callback: function (val) { return formatDollar(val); }
-            }
+              font: { family: "'JetBrains Mono'", size: 11 },
+              callback: function (val) {
+                if (Math.abs(val) >= 10000) return '$' + (val / 1000).toFixed(1) + 'K';
+                return '$' + val.toLocaleString();
+              }
+            },
+            grid: { color: 'rgba(148, 163, 184, 0.15)' }
           }
         }
       }
     });
-
-    // Bind resize once; look up the current chart each time so stale closures
-    // over destroyed Chart instances can never fire.
-    if (!bankrollChartResizeBound) {
-      bankrollChartResizeBound = true;
-      window.addEventListener('resize', function () {
-        var current = (typeof Chart !== 'undefined' && Chart.getChart) ? Chart.getChart(canvas) : null;
-        if (!current) return;
-        var newLimit = window.innerWidth < 640 ? 5 : 10;
-        if (current.options.scales.x.ticks.maxTicksLimit !== newLimit) {
-          current.options.scales.x.ticks.maxTicksLimit = newLimit;
-          current.update('none');
-        }
-      });
-    }
   }
-
-  // ============================================
-  // v1 frozen archive fetch
-  // ============================================
-
-  function loadV1FrozenResults() {
-    var subtitleEl = document.getElementById('results-subtitle');
-
-    // Note: the two-argument form of .then is used (onFulfilled, onRejected)
-    // instead of a trailing .catch so that render exceptions in the success
-    // branch propagate as unhandled rejections — the empty "archive
-    // unavailable" state is only for genuine fetch/parse failures.
-    fetch('data/results_2026_v1.json')
-      .then(function (r) {
-        if (!r.ok) {
-          return Promise.reject(new Error('fetch failed: HTTP ' + r.status));
-        }
-        return r.json();
-      })
-      .then(
-        function (data) {
-          var s = data.summary;
-          var emptyEl = document.getElementById('results-empty');
-          var contentEl = document.getElementById('results-content');
-          if (emptyEl) emptyEl.style.display = 'none';
-          if (contentEl) contentEl.style.display = '';
-
-          setStatusText('results-generated-at',
-            'Last updated: ' + formatTimestamp(data.generated_at));
-
-          if (subtitleEl && v1Logic) {
-            subtitleEl.textContent = v1Logic.buildV1Subtitle(data.forward_sample_window);
-          }
-
-          renderSummaryCard(s);
-          renderMarketTable(data.by_market);
-          renderDirectionStats({ direction_stats: data.direction_stats });
-          renderRecentPicks({ recent: data.recent });
-          renderDrawdownStreak({ bankroll_curve: data.bankroll_curve });
-          renderBankrollChartLazy(data.bankroll_curve, s.initial_bankroll || 5000);
-
-          setV1BannerVisible(true);
-          GP.reobserveReveals();
-          GP.initScrollHints();
-        },
-        function (err) {
-          console.error('v1 frozen archive fetch failed:', err);
-          var emptyEl = document.getElementById('results-empty');
-          var contentEl = document.getElementById('results-content');
-          if (contentEl) contentEl.style.display = 'none';
-          if (emptyEl) {
-            emptyEl.style.display = '';
-            var title = document.getElementById('results-empty-title');
-            var copy = document.getElementById('results-empty-copy');
-            if (title) title.textContent = 'v1 archive unavailable';
-            if (copy) copy.textContent = 'Could not load data/results_2026_v1.json. ' + err.message;
-          }
-        }
-      );
-  }
-
-  // ============================================
-  // Page init
-  // ============================================
 
   GP.initResultsPage = function () {
-    var statsEl = document.getElementById('results-stats');
-    if (!statsEl) return;
-
-    var subtitleEl = document.getElementById('results-subtitle');
-    var season = GP.getSeason();
-    var version = getVersion();
-
-    // v1 frozen archive dispatch (only for 2026 + v1 toggle)
-    if (v1Logic && v1Logic.resolveResultsSource(season, version) === 'v1-frozen') {
-      showVersionToggle(true);
-      setActiveVersionButton('v1');
-      loadV1FrozenResults();
+    // Bail if the track-record DOM isn't present (e.g. on home/picks pages).
+    if (!document.getElementById('results-chart')) return;
+    if (!GP.supabase) {
+      showError('Supabase client not initialized.');
       return;
     }
 
-    // v1.1 default path: show toggle on 2026, reset banner, fall through
-    showVersionToggle(v1Logic ? v1Logic.shouldShowVersionToggle(season) : false);
-    setActiveVersionButton('v1.1');
-    setV1BannerVisible(false);
-
-    if (subtitleEl) {
-      if (GP.isArchiveSeason()) {
-        subtitleEl.textContent = 'Out-of-sample ' + season + ' backtest archive across player-prop markets';
-      } else {
-        subtitleEl.textContent = season + ' season performance across player-prop markets';
-      }
-    }
-
-    var seasonInt = GP.getSeasonInt();
     Promise.all([
-      GP.supabase.from('season_summaries').select('*').eq('season', seasonInt).maybeSingle(),
-      GP.supabase.from('market_stats').select('*').eq('season', seasonInt),
-      GP.supabase.from('direction_stats').select('*').eq('season', seasonInt),
-      GP.supabase.from('star_tier_stats').select('*').eq('season', seasonInt),
-      GP.supabase.from('bankroll_curve').select('*').eq('season', seasonInt).order('date'),
-      GP.supabase.from('clv_daily').select('*').eq('season', seasonInt).order('date'),
-      GP.supabase.from('clv_summary').select('*').eq('season', seasonInt),
-      GP.supabase.from('picks').select('date,player,player_team,category,market,direction,line,actual,result,pnl,stars,clv_cents,clv_favorable,bbref_id')
-        .eq('season', seasonInt)
-        .order('date', { ascending: false }).limit(51),
-    // Note: the two-argument form of .then is used (onFulfilled, onRejected)
-    // instead of a trailing .catch so that render exceptions in the success
-    // branch propagate as unhandled rejections — the empty "Results
-    // unavailable" state is only for genuine Promise.all rejection (network
-    // failure, etc.), not for downstream rendering bugs.
-    ]).then(function (results) {
-      var summaryRes = results[0];
-      var marketRes = results[1];
-      var directionRes = results[2];
-      var starRes = results[3];
-      var curveRes = results[4];
-      var clvDailyRes = results[5];
-      var clvSummaryRes = results[6];
-      var recentRes = results[7];
+      fetch('data/results_2026_v1.json').then(function (r) {
+        if (!r.ok) throw new Error('v1 JSON HTTP ' + r.status);
+        return r.json();
+      }),
+      GP.supabase.from('bankroll_curve').select('*').eq('season', SEASON_INT).order('date'),
+      GP.supabase.from('picks').select('date,result,pnl,bet_amount').eq('season', SEASON_INT)
+    ]).then(function (res) {
+      var v1 = res[0];
+      var bcRes = res[1];
+      var picksRes = res[2];
 
-      // Check for Supabase API-level errors
-      var queryNames = ['season_summaries', 'market_stats', 'direction_stats', 'star_tier_stats',
-                        'bankroll_curve', 'clv_daily', 'clv_summary', 'picks'];
-      var queryErrors = [];
-      [summaryRes, marketRes, directionRes, starRes, curveRes, clvDailyRes, clvSummaryRes, recentRes]
-        .forEach(function (res, i) {
-          if (res.error) {
-            console.error('Supabase error for ' + queryNames[i] + ':', res.error);
-            queryErrors.push(queryNames[i]);
-          }
-        });
+      if (bcRes.error) { showError('Supabase bankroll_curve error: ' + bcRes.error.message); return; }
+      if (picksRes.error) { showError('Supabase picks error: ' + picksRes.error.message); return; }
 
-      var data = {
-        generated_at: summaryRes.data ? summaryRes.data.updated_at : null,
-        summary: summaryRes.data ? summaryRes.data.summary : null,
-        player_attention: summaryRes.data ? summaryRes.data.player_attention : null,
-        by_market: marketRes.data || [],
-        direction_stats: directionRes.data || [],
-        star_tier_stats: starRes.data || [],
-        recent: recentRes.data || [],
-        bankroll_curve: curveRes.data || [],
-        clv_summary: clvSummaryRes.data ? { by_market: clvSummaryRes.data } : null,
-        clv_by_date: clvDailyRes.data || [],
-      };
+      var curve = buildCombinedCurve(v1.bankroll_curve, bcRes.data || []);
+      var summary = buildSummary(v1.summary, picksRes.data || []);
 
-      var emptyEl = document.getElementById('results-empty');
-      var contentEl = document.getElementById('results-content');
-
-      if (!data.summary || data.summary.total_bets === 0) {
-        if (contentEl) contentEl.style.display = 'none';
-        if (emptyEl) {
-          emptyEl.style.display = '';
-          var emptyTitle = document.getElementById('results-empty-title');
-          var emptyCopy = document.getElementById('results-empty-copy');
-          if (!GP.isArchiveSeason()) {
-            if (emptyTitle) emptyTitle.textContent = 'Season Starting Soon';
-            if (emptyCopy) emptyCopy.textContent = 'Results will appear here once the ' + season + ' season begins and picks are graded. Select a season above to explore the backtest archive.';
-          } else {
-            if (emptyTitle) emptyTitle.textContent = 'No data for ' + season;
-            if (emptyCopy) emptyCopy.textContent = 'Archive data is not available for the ' + season + ' season.';
-          }
-        }
-        setStatusText('results-generated-at', '');
-        return;
-      }
-
-      if (contentEl) contentEl.style.display = '';
-
-      var s = data.summary;
-      setStatusText('results-generated-at', 'Last updated: ' + formatTimestamp(data.generated_at));
-
-      renderSummaryCard(s);
-
-      renderMarketTable(data.by_market);
-
-      renderRecentPicks(data);
-      renderDirectionStats(data);
-      renderDrawdownStreak(data);
-
-      renderBankrollChartLazy(data.bankroll_curve, s.initial_bankroll || 5000);
-
-      if (queryErrors.length > 0) {
-        setStatusText('results-generated-at',
-          'Warning: Some data failed to load (' + queryErrors.join(', ') + '). Try refreshing.');
-      }
-
-      GP.reobserveReveals();
-      GP.initScrollHints();
-
-    }, function (err) {
-      console.error('Results fetch error:', err);
-      var emptyEl = document.getElementById('results-empty');
-      if (emptyEl) {
-        emptyEl.style.display = '';
-        var emptyTitle = document.getElementById('results-empty-title');
-        var emptyCopy = document.getElementById('results-empty-copy');
-        if (emptyTitle) emptyTitle.textContent = 'Results unavailable';
-        if (emptyCopy) emptyCopy.textContent = 'We could not load results data. Please try refreshing.';
-      }
-      setStatusText('results-generated-at', '');
+      renderSummary(summary);
+      renderChart(curve);
+    }).catch(function (err) {
+      console.error('Track record load error:', err);
+      showError('Failed to load data: ' + err.message);
     });
   };
-
-  document.addEventListener('DOMContentLoaded', function () {
-    var buttons = document.querySelectorAll('.version-toggle-btn');
-    buttons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var version = btn.getAttribute('data-version');
-        if (!v1Logic) return;
-        var newUrl = v1Logic.buildVersionUrl(window.location.href, version);
-        if (typeof history !== 'undefined' && history.replaceState) {
-          history.replaceState(null, '', newUrl);
-        }
-        // Re-run initResultsPage to fetch the right data source.
-        // initResultsPage owns active-button state — no need to pre-set it here.
-        if (typeof GP.initResultsPage === 'function') {
-          GP.initResultsPage();
-        }
-      });
-    });
-  });
-
 })();
