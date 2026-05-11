@@ -241,22 +241,14 @@
   // v1 track record archive
   // ============================================
 
-  // The v1.1 -> v2.0 cutover (MLB-234). Picks dated < this string are v1.1
-  // forward sample; picks dated >= this string are v2.0 forward sample.
-  // String comparison on YYYY-MM-DD is correct lexicographically for ISO dates.
-  var V2_CUTOVER_DATE = '2026-08-01';
-
   function parseVersionParam(urlString) {
     try {
       var url = new URL(urlString);
       var version = url.searchParams.get('version');
       if (version === 'v1') return 'v1';
-      if (version === 'v2') return 'v2';
-      if (version === 'v1.1') return 'v1.1';
-      // Default 'all' renders supabase data without a version filter.
-      return 'all';
+      return 'v1.1';
     } catch (e) {
-      return 'all';
+      return 'v1.1';
     }
   }
 
@@ -274,8 +266,9 @@
   function buildVersionUrl(urlString, version) {
     try {
       var url = new URL(urlString);
-      // 'all' is the implicit default — omit the param to keep URLs clean.
-      if (!version || version === 'all') {
+      // v1.1 is the implicit default — omit the param to keep URLs clean.
+      // 'all' kept as an accepted alias for backward compatibility.
+      if (!version || version === 'all' || version === 'v1.1') {
         url.searchParams.delete('version');
       } else {
         url.searchParams.set('version', version);
@@ -284,62 +277,6 @@
     } catch (e) {
       return urlString;
     }
-  }
-
-  // Apply the v1.1 / v2.0 client-side filter to a list of supabase picks.
-  // 'all' returns everything; 'v1.1' keeps date < cutover; 'v2' keeps
-  // date >= cutover. v1 is handled by the v1-frozen archive path.
-  function filterPicksByVersion(picks, version) {
-    if (!Array.isArray(picks) || picks.length === 0) return [];
-    if (version === 'v1.1') {
-      return picks.filter(function (p) {
-        return String((p && p.date) || '') < V2_CUTOVER_DATE;
-      });
-    }
-    if (version === 'v2') {
-      return picks.filter(function (p) {
-        return String((p && p.date) || '') >= V2_CUTOVER_DATE;
-      });
-    }
-    return picks.slice();
-  }
-
-  // Compute summary stats (n, wins, losses, win_rate, roi, pnl) over a
-  // graded pick array, split into v1.1 (pre-cutover) and v2 (post-cutover)
-  // halves. Used for the side-by-side per-version cards on the All view.
-  function computeVersionSplitSummary(picks) {
-    function summarize(arr) {
-      var graded = arr.filter(function (p) {
-        return p && (p.result === 'win' || p.result === 'loss');
-      });
-      var wins = 0, losses = 0, pnl = 0;
-      // Approximate wagered as $100/bet (matches the existing flat-$100
-      // P&L convention used elsewhere on the page). We avoid per-bet
-      // odds-aware sizing here because the supabase pick rows do not
-      // carry a uniform bet_amount field — see export_web.upsert_picks.
-      for (var i = 0; i < graded.length; i++) {
-        var p = graded[i];
-        if (p.result === 'win') wins++;
-        else if (p.result === 'loss') losses++;
-        if (typeof p.pnl === 'number') pnl += p.pnl;
-      }
-      var n = wins + losses;
-      var wr = n > 0 ? (wins / n * 100) : null;
-      var wagered = n * 100;
-      var roi = wagered > 0 ? (pnl / wagered * 100) : null;
-      return { n: n, wins: wins, losses: losses, pnl: pnl,
-               win_rate: wr, roi: roi };
-    }
-
-    return {
-      cutover: V2_CUTOVER_DATE,
-      v11: summarize(filterPicksByVersion(picks, 'v1.1')),
-      v2: summarize(filterPicksByVersion(picks, 'v2'))
-    };
-  }
-
-  function getCutoverDate() {
-    return V2_CUTOVER_DATE;
   }
 
   function buildV1Subtitle(window) {
@@ -366,10 +303,6 @@
     shouldShowVersionToggle: shouldShowVersionToggle,
     resolveResultsSource: resolveResultsSource,
     buildVersionUrl: buildVersionUrl,
-    buildV1Subtitle: buildV1Subtitle,
-    // MLB-234: v2 cutover support
-    filterPicksByVersion: filterPicksByVersion,
-    computeVersionSplitSummary: computeVersionSplitSummary,
-    getCutoverDate: getCutoverDate
+    buildV1Subtitle: buildV1Subtitle
   };
 });

@@ -99,7 +99,6 @@
              aria-label="Select model version" style="display:none">
           <button class="version-toggle-btn active" data-version="all">All</button>
           <button class="version-toggle-btn" data-version="v1.1">v1.1 only</button>
-          <button class="version-toggle-btn" data-version="v2">v2.0 only</button>
           <button class="version-toggle-btn" data-version="v1">v1 (frozen)</button>
         </div>
         <div class="v1-frozen-banner" id="v1-frozen-banner" style="display:none">
@@ -107,14 +106,6 @@
           12-day forward sample before the MLB-131 bias-correction fix.
           Retained for posterity — this model is no longer active.
         </div>
-        <div class="v1-frozen-banner" id="v2-cutover-banner" style="display:none">
-          <strong>v2.0 cutover: Aug 1, 2026.</strong>
-          v2.0 is the pre-registered structural-lock build (spec v1.0.3, 2026-05-07).
-          Forward sample runs Aug-Oct 2026 with §5.6 aggregate go/no-go evaluation
-          on Oct 31. Use this filter to isolate v2.0 results from v1.1.
-        </div>
-        <div id="version-split-stats" class="version-split-stats" style="display:none"
-             aria-label="Per-version performance summary"></div>
         <h1 class="page-title reveal">Track Record</h1>
         <p class="page-subtitle reveal" id="results-subtitle">Out-of-sample backtest archive across player-prop markets</p>
         <p class="status-meta reveal" id="results-generated-at">Last updated: --</p>

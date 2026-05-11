@@ -210,7 +210,7 @@
     var dirClass = pick.direction === 'OVER' ? 'over' : 'under';
     callWrapper.appendChild(el('span', 'pick-direction ' + dirClass, pick.direction));
     if (pick.sizing && pick.sizing > 0) {
-      // MLB-230n: support v2 same-pitcher correlation discount values
+      // Support fractional same-pitcher correlation discount sizings
       // (1.0 / 0.5 / 0.25). The original `.toFixed(1)` rounded 0.25 -> "0.3";
       // use `.toFixed(2)` for sub-1 values then strip trailing zero so
       // 0.5 stays "0.5x" and 0.25 stays "0.25x".

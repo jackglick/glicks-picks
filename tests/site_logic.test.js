@@ -111,7 +111,7 @@ test('parseVersionParam returns v1.1 (default) when param absent or not v1', fun
   assert.equal(logic.parseVersionParam('https://example.com/results.html'), 'v1.1');
   assert.equal(logic.parseVersionParam('https://example.com/results.html?season=2025'), 'v1.1');
   assert.equal(logic.parseVersionParam('https://example.com/results.html?version=v1.1'), 'v1.1');
-  assert.equal(logic.parseVersionParam('https://example.com/results.html?version=v2'), 'v1.1');
+  assert.equal(logic.parseVersionParam('https://example.com/results.html?version=unknown'), 'v1.1');
 });
 
 test('shouldShowVersionToggle is true only for 2026', function () {
