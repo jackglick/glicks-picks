@@ -228,26 +228,48 @@
 
     // Locked-vs-current price comparison. pick.best_price is what we locked
     // at queue/placement time (immutable in paper_trades.csv). The current
-    // best market price comes from pick.book_prices[0] (smart-merged each
-    // cycle by upsert_picks: book identity preserved, prices updated). If
-    // implied prob has risen since lock, the market is moving toward our
-    // side — we beat the closing line. If implied has fallen, market beat us.
+    // best market price comes from whichever book entry has is_best=true in
+    // pick.book_prices (re-derived every export cycle by upsert_picks against
+    // the fresh export's best-book selection — MLB-205). If implied prob has
+    // risen since lock, the market is moving toward our side; if it has
+    // fallen, market beat us.
+    //
+    // Why is_best, not book_prices[0]: the list ORDER is frozen from first
+    // capture to keep the displayed books-list stable, but the best-book
+    // anchor moves with the market each cycle. Pre-MLB-205 these always
+    // matched (position-0 was the live best); now position-0 is "first
+    // book we ever saw best", and is_best is "live best right now". Drift
+    // wants the live one.
+    //
+    // Fallback to position-0 covers two cases: (a) older Supabase rows
+    // written before MLB-205 (no is_best field), and (b) the rare case
+    // where fresh_best_book isn't in the merged list, so MLB-205 leaves
+    // is_best=false on every entry.
     //
     // Skip the badge in two cases where the comparison would be misleading:
     //   1. consensus pick: pick.best_price is a blended consensus across
-    //      books; book_prices[0] is from a single book. Different concepts —
+    //      books; the displayed book is a single book. Different concepts —
     //      single-book is systematically worse, would always look like
     //      "we beat market" by the same offset.
-    //   2. altline: book_prices[0].line differs from pick.line (nearby-line
-    //      fallback in _collect_book_prices when <2 strict-line books).
-    //      Implied probabilities at different lines aren't comparable.
+    //   2. altline: the displayed book's line differs from pick.line
+    //      (nearby-line fallback in _collect_book_prices when <2 strict-line
+    //      books). Implied probabilities at different lines aren't comparable.
     var lockedPrice = pick.best_price;
-    var firstBook = (pick.book_prices && pick.book_prices.length > 0)
-      ? pick.book_prices[0] : null;
-    var currentBest = firstBook ? firstBook.price : null;
+    var allBooks = pick.book_prices || [];
+    var currentBestBook = null;
+    for (var ci = 0; ci < allBooks.length; ci++) {
+      if (allBooks[ci] && allBooks[ci].is_best) {
+        currentBestBook = allBooks[ci];
+        break;
+      }
+    }
+    if (!currentBestBook && allBooks.length > 0) {
+      currentBestBook = allBooks[0];
+    }
+    var currentBest = currentBestBook ? currentBestBook.price : null;
     var pickIsConsensus = pick.best_book && pick.best_book.toLowerCase() === 'consensus';
-    var altlineMismatch = firstBook && firstBook.line != null
-      && pick.line != null && firstBook.line !== pick.line;
+    var altlineMismatch = currentBestBook && currentBestBook.line != null
+      && pick.line != null && currentBestBook.line !== pick.line;
     // MLB-225 follow-up: backend stamps `stale_since` on a book entry whenever
     // the book has dropped out of both the top-4 fresh export and the
     // unbounded current-prices lookup — i.e. its displayed price is the
@@ -255,7 +277,7 @@
     // (the drift signal is from a frozen snapshot, not a real market move),
     // so suppress the badge once the entry has been stale for more than 1h.
     var STALE_BADGE_HOURS = 1;
-    var staleSince = firstBook && firstBook.stale_since;
+    var staleSince = currentBestBook && currentBestBook.stale_since;
     var isStale = false;
     if (staleSince) {
       var staleMs = Date.now() - new Date(staleSince).getTime();
