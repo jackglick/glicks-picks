@@ -676,46 +676,66 @@
         }
 
         slate.games.forEach(function (game) {
-          var section = el('div', 'game-slate-group');
-          section.setAttribute('data-game-pk', game.game_pk);
-
-          // Game header: away [score] @ [score] home
-          var header = el('div', 'game-slate-header');
-          header.setAttribute('data-game-pk', game.game_pk);
-          header.appendChild(createTeamBadge(normalizeTeamCode(game.away_team), 'left'));
-          if (game.away_score != null && game.home_score != null) {
-            header.appendChild(el('span', 'game-score away-score', String(game.away_score)));
-          }
-          header.appendChild(el('span', 'matchup-vs', '@'));
-          if (game.away_score != null && game.home_score != null) {
-            header.appendChild(el('span', 'game-score home-score', String(game.home_score)));
-          }
-          header.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
-          section.appendChild(header);
-
-          // Probable pitchers row
           var awayP = formatPitcherShortName(game.away_pitcher);
           var homeP = formatPitcherShortName(game.home_pitcher);
-          if (awayP || homeP) {
-            var pitcherRow = el('div', 'game-slate-pitchers');
-            pitcherRow.textContent = (awayP || 'TBD') + '  vs  ' + (homeP || 'TBD');
-            section.appendChild(pitcherRow);
-          }
 
           if (game.picks.length > 0) {
-            // Render pick cards
+            // Expandable game block with pick cards
+            var section = el('details', 'game-slate-group');
+            section.setAttribute('data-game-pk', game.game_pk);
+            section.open = true;
+
+            var header = el('summary', 'game-slate-header');
+            header.setAttribute('data-game-pk', game.game_pk);
+            header.appendChild(createTeamBadge(normalizeTeamCode(game.away_team), 'left'));
+            if (game.away_score != null && game.home_score != null) {
+              header.appendChild(el('span', 'game-score away-score', String(game.away_score)));
+            }
+            header.appendChild(el('span', 'matchup-vs', '@'));
+            if (game.away_score != null && game.home_score != null) {
+              header.appendChild(el('span', 'game-score home-score', String(game.home_score)));
+            }
+            header.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
+            var count = game.picks.length;
+            header.appendChild(el('span', 'pick-count-badge', count + (count === 1 ? ' pick' : ' picks')));
+            var chevron = el('span', 'game-toggle-chevron', '▾');
+            chevron.setAttribute('aria-hidden', 'true');
+            header.appendChild(chevron);
+            section.appendChild(header);
+
+            if (awayP || homeP) {
+              var pitcherRow = el('div', 'game-slate-pitchers');
+              pitcherRow.textContent = (awayP || 'TBD') + '  vs  ' + (homeP || 'TBD');
+              section.appendChild(pitcherRow);
+            }
+
             var grid = el('div', 'picks-grid');
             game.picks.forEach(function (pick) {
               grid.appendChild(renderPickCard(pick));
             });
             section.appendChild(grid);
-          } else {
-            // Placeholder
-            var placeholder = el('div', 'game-placeholder', getGamePlaceholderText(game));
-            section.appendChild(placeholder);
-          }
 
-          container.appendChild(section);
+            container.appendChild(section);
+          } else {
+            // Compact one-line row for games with no picks
+            var emptySection = el('div', 'game-slate-group game-slate-group--empty');
+            emptySection.setAttribute('data-game-pk', game.game_pk);
+
+            var emptyHeader = el('div', 'game-slate-header game-slate-header--compact');
+            emptyHeader.setAttribute('data-game-pk', game.game_pk);
+            emptyHeader.appendChild(createTeamBadge(normalizeTeamCode(game.away_team), 'left'));
+            emptyHeader.appendChild(el('span', 'matchup-vs', '@'));
+            emptyHeader.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
+
+            var metaParts = [];
+            if (awayP || homeP) metaParts.push((awayP || 'TBD') + ' vs ' + (homeP || 'TBD'));
+            if (game.game_time) metaParts.push(game.game_time);
+            metaParts.push(getGamePlaceholderText(game));
+            emptyHeader.appendChild(el('span', 'empty-meta', metaParts.join(' · ')));
+
+            emptySection.appendChild(emptyHeader);
+            container.appendChild(emptySection);
+          }
         });
       });
 
@@ -1174,7 +1194,7 @@
     if (ds.indexOf('Postponed') !== -1) {
       return 'Game postponed';
     }
-    return 'No picks for this game yet — check back later';
+    return 'check back soon';
   }
 
   function parseTimeMinutes(label) {

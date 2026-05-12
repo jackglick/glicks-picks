@@ -1989,6 +1989,16 @@ a {
   grid-column: 1 / -1;
 }
 
+details.game-slate-group {
+  /* Reset native disclosure marker; chevron is rendered manually */
+}
+details.game-slate-group > summary {
+  list-style: none;
+}
+details.game-slate-group > summary::-webkit-details-marker {
+  display: none;
+}
+
 .game-slate-header {
   display: flex;
   align-items: center;
@@ -1999,6 +2009,68 @@ a {
   background: var(--bg-surface-2);
   border: 1px solid var(--border);
   border-radius: 10px;
+}
+
+summary.game-slate-header {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+summary.game-slate-header:hover,
+summary.game-slate-header:focus-visible {
+  background: var(--bg-surface-3, var(--bg-surface-2));
+  border-color: var(--border-strong, var(--border));
+}
+
+summary.game-slate-header:focus-visible {
+  outline: 2px solid var(--accent, #6ee7b7);
+  outline-offset: 2px;
+}
+
+.pick-count-badge {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  margin-left: 0.25rem;
+  white-space: nowrap;
+}
+
+details.game-slate-group[open] > summary .pick-count-badge {
+  display: none;
+}
+
+.game-toggle-chevron {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-left: 0.25rem;
+  transition: transform 150ms ease;
+}
+
+details.game-slate-group[open] > summary .game-toggle-chevron {
+  transform: rotate(180deg);
+}
+
+/* Compact one-line row for games with no picks */
+.game-slate-group--empty {
+  margin-bottom: 0.75rem;
+}
+
+.game-slate-header--compact {
+  padding: 0.4rem 0.9rem;
+  margin-bottom: 0;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.empty-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-left: 0.25rem;
 }
 
 .game-slate-header .matchup-team {
@@ -2025,20 +2097,15 @@ a {
   font-size: 0.55rem;
 }
 
-/* --- Game Placeholder (no picks yet) --- */
-.game-placeholder {
-  grid-column: 1 / -1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 1.5rem;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-style: italic;
-  border: 2px dashed var(--border);
-  border-radius: 12px;
-  background: transparent;
-  min-height: 80px;
+/* Compact header — declared after base rules so logo size override wins */
+.game-slate-header--compact .team-logo,
+.game-slate-header--compact .team-logo-fallback {
+  width: 20px;
+  height: 20px;
+}
+
+.game-slate-header--compact .matchup-team-code {
+  font-size: 0.75rem;
 }
 
 .game-slate-pitchers {
