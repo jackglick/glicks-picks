@@ -156,7 +156,6 @@
     if (pick.direction) card.setAttribute('data-direction', pick.direction);
 
     var header = el('div', 'pick-card-header');
-    header.appendChild(createPlayerAvatar(pick));
     var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
     var playerDiv = el('div', 'pick-card-player');
@@ -696,16 +695,19 @@
               header.appendChild(el('span', 'game-score home-score', String(game.home_score)));
             }
             header.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
+            var headerSpacer = el('span', 'game-slate-header-spacer');
+            header.appendChild(headerSpacer);
             var count = game.picks.length;
             header.appendChild(el('span', 'pick-count-badge', count + (count === 1 ? ' pick' : ' picks')));
-            var chevron = el('span', 'game-toggle-chevron', '▾');
-            chevron.setAttribute('aria-hidden', 'true');
-            header.appendChild(chevron);
             section.appendChild(header);
 
-            if (awayP || homeP) {
+            // Meta line: pitcher matchup · time (always visible, inside the details body so it collapses)
+            var metaBits = [];
+            if (awayP || homeP) metaBits.push((awayP || 'TBD') + '  vs  ' + (homeP || 'TBD'));
+            if (game.game_time) metaBits.push(game.game_time);
+            if (metaBits.length) {
               var pitcherRow = el('div', 'game-slate-pitchers');
-              pitcherRow.textContent = (awayP || 'TBD') + '  vs  ' + (homeP || 'TBD');
+              pitcherRow.textContent = metaBits.join('  ·  ');
               section.appendChild(pitcherRow);
             }
 
@@ -727,11 +729,13 @@
             emptyHeader.appendChild(el('span', 'matchup-vs', '@'));
             emptyHeader.appendChild(createTeamBadge(normalizeTeamCode(game.home_team), 'right'));
 
-            var metaParts = [];
-            if (awayP || homeP) metaParts.push((awayP || 'TBD') + ' vs ' + (homeP || 'TBD'));
-            if (game.game_time) metaParts.push(game.game_time);
-            metaParts.push(getGamePlaceholderText(game));
-            emptyHeader.appendChild(el('span', 'empty-meta', metaParts.join(' · ')));
+            var emptySpacer = el('span', 'game-slate-header-spacer');
+            emptyHeader.appendChild(emptySpacer);
+
+            if (game.game_time) {
+              emptyHeader.appendChild(el('span', 'empty-time', game.game_time));
+            }
+            emptyHeader.appendChild(el('span', 'empty-status-pill', getGamePlaceholderText(game)));
 
             emptySection.appendChild(emptyHeader);
             container.appendChild(emptySection);
@@ -1194,7 +1198,7 @@
     if (ds.indexOf('Postponed') !== -1) {
       return 'Game postponed';
     }
-    return 'check back soon';
+    return 'no picks yet';
   }
 
   function parseTimeMinutes(label) {

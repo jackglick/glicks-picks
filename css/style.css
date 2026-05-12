@@ -1990,8 +1990,13 @@ a {
 }
 
 details.game-slate-group {
-  /* Reset native disclosure marker; chevron is rendered manually */
+  background: var(--bg-surface-2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
 }
+
 details.game-slate-group > summary {
   list-style: none;
 }
@@ -2002,75 +2007,75 @@ details.game-slate-group > summary::-webkit-details-marker {
 .game-slate-header {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 0.75rem;
-  padding: 0.6rem 1rem;
-  margin-bottom: 1rem;
-  background: var(--bg-surface-2);
-  border: 1px solid var(--border);
-  border-radius: 10px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+.game-slate-header-spacer {
+  flex: 1 1 auto;
 }
 
 summary.game-slate-header {
   cursor: pointer;
   user-select: none;
-  position: relative;
-  transition: background 120ms ease, border-color 120ms ease;
+  transition: background 120ms ease;
 }
 
-summary.game-slate-header:hover,
-summary.game-slate-header:focus-visible {
-  background: var(--bg-surface-3, var(--bg-surface-2));
-  border-color: var(--border-strong, var(--border));
+summary.game-slate-header:hover {
+  background: rgba(255, 255, 255, 0.025);
 }
 
 summary.game-slate-header:focus-visible {
-  outline: 2px solid var(--accent, #6ee7b7);
-  outline-offset: 2px;
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
 }
 
 .pick-count-badge {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  padding: 0.1rem 0.5rem;
-  border: 1px solid var(--border);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.22rem 0.6rem;
   border-radius: 999px;
-  margin-left: 0.25rem;
   white-space: nowrap;
-}
-
-details.game-slate-group[open] > summary .pick-count-badge {
-  display: none;
-}
-
-.game-toggle-chevron {
-  display: inline-block;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-left: 0.25rem;
-  transition: transform 150ms ease;
-}
-
-details.game-slate-group[open] > summary .game-toggle-chevron {
-  transform: rotate(180deg);
+  letter-spacing: 0.01em;
 }
 
 /* Compact one-line row for games with no picks */
 .game-slate-group--empty {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.55rem;
 }
 
 .game-slate-header--compact {
-  padding: 0.4rem 0.9rem;
+  padding: 0.55rem 1rem;
   margin-bottom: 0;
   gap: 0.55rem;
-  flex-wrap: wrap;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  opacity: 0.85;
 }
 
-.empty-meta {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  margin-left: 0.25rem;
+.empty-time {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.empty-status-pill {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  padding: 0.16rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
 }
 
 .game-slate-header .matchup-team {
@@ -2108,10 +2113,16 @@ details.game-slate-group[open] > summary .game-toggle-chevron {
   font-size: 0.75rem;
 }
 
+details.game-slate-group > .picks-grid {
+  padding: 0 1rem 1rem;
+}
+
 .game-slate-pitchers {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
   gap: 0.4rem;
   font-size: 0.78rem;
   color: var(--text-muted);
