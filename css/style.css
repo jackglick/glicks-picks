@@ -1971,16 +1971,12 @@ a {
 .time-slate-header::after {
   content: '';
   flex: 1;
-  height: 2px;
-  background: repeating-linear-gradient(
-    90deg,
-    var(--dirt) 0px, var(--dirt) 8px,
-    transparent 8px, transparent 14px
-  );
-  opacity: 0.35;
+  height: 1px;
+  background: var(--border);
+  opacity: 0.6;
 }
 [data-theme="dark"] .time-slate-header::after {
-  opacity: 0.25;
+  opacity: 0.5;
 }
 
 /* --- Game Slate Grouping --- */
