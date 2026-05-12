@@ -421,6 +421,15 @@
       var oldInning = header.querySelector('.live-inning');
       if (oldInning && (linescore || status !== 'Live')) oldInning.remove();
 
+      // Live-status badges insert before the flex spacer so that the right
+      // side of the header stays anchored to the pick-count pill, not pushed
+      // off-screen on narrow viewports.
+      var spacerEl = header.querySelector('.game-slate-header-spacer');
+      function addBadge(node) {
+        if (spacerEl) header.insertBefore(node, spacerEl);
+        else header.appendChild(node);
+      }
+
       // Update or create score elements
       var awayScoreEl = header.querySelector('.game-score.away-score');
       var homeScoreEl = header.querySelector('.game-score.home-score');
@@ -446,28 +455,28 @@
       if (status === 'Live') {
         var isDelayed = detailedState && detailedState.indexOf('Delay') !== -1;
         if (isDelayed) {
-          header.appendChild(el('span', 'delay-badge', 'DELAY'));
+          addBadge(el('span', 'delay-badge', 'DELAY'));
         } else {
           var badge = el('span', 'live-badge');
           badge.insertBefore(el('span', 'live-badge-dot'), badge.firstChild);
           badge.appendChild(document.createTextNode('LIVE'));
-          header.appendChild(badge);
+          addBadge(badge);
 
           if (linescore) {
             var inning = linescore.currentInning;
             var half = linescore.inningHalf || '';
             if (inning) {
               var halfText = half === 'Top' ? 'Top' : half === 'Bottom' ? 'Bot' : '';
-              header.appendChild(el('span', 'live-inning', halfText + ' ' + ordinal(inning)));
+              addBadge(el('span', 'live-inning', halfText + ' ' + ordinal(inning)));
             }
           }
         }
       } else if (status === 'Final') {
         var isPostponed = detailedState && detailedState.indexOf('Postponed') !== -1;
         if (isPostponed) {
-          header.appendChild(el('span', 'postponed-badge', 'POSTPONED'));
+          addBadge(el('span', 'postponed-badge', 'POSTPONED'));
         } else {
-          header.appendChild(el('span', 'final-badge', 'FINAL'));
+          addBadge(el('span', 'final-badge', 'FINAL'));
         }
       }
     }
