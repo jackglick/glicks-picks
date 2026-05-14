@@ -114,6 +114,10 @@
     });
   }
 
+  GP.getGameState = function (gamePk) {
+    return liveState.gameStatuses[gamePk];
+  };
+
   GP.stopLiveTracker = function () {
     liveState.active = false;
 
@@ -411,7 +415,24 @@
   // DOM updates — game slate headers
   // ============================================
 
+  function suppressDriftForGame(gamePk) {
+    // Once a game is Live or Final, the locked-vs-current price-drift badge
+    // becomes meaningless (live prices move on in-game state, not on the
+    // pre-game shopping signal we lock against). Remove any drift elements
+    // already in the DOM for this game's cards. Idempotent — second call
+    // for the same gamePk finds nothing to remove.
+    var drifts = document.querySelectorAll(
+      '.pick-card[data-game-pk="' + gamePk + '"] .pick-card-drift'
+    );
+    for (var di = 0; di < drifts.length; di++) {
+      drifts[di].remove();
+    }
+  }
+
   function updateGameSlateHeader(gamePk, status, linescore, detailedState, awayScore, homeScore) {
+    if (status === 'Live' || status === 'Final') {
+      suppressDriftForGame(gamePk);
+    }
     var headers = document.querySelectorAll('.game-slate-header[data-game-pk="' + gamePk + '"]');
     for (var i = 0; i < headers.length; i++) {
       var header = headers[i];

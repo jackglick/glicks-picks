@@ -284,8 +284,18 @@
       var staleMs = Date.now() - new Date(staleSince).getTime();
       isStale = staleMs > STALE_BADGE_HOURS * 3600 * 1000;
     }
+    // Suppress drift once the game has started. Live odds keep moving but
+    // the locked-vs-current comparison becomes noisy (rapid in-game model
+    // shifts) and misleading (we wouldn't have placed the bet at the live
+    // price anyway). liveTracker holds the authoritative state via the
+    // MLB Stats API polling loop; fall back to "not started" if its data
+    // hasn't loaded yet, in which case liveTracker will strip the drift
+    // element on the next status update for cards belonging to live games.
+    var gameState = GP.getGameState ? GP.getGameState(pick.game_pk) : null;
+    var isGameLiveOrFinal = gameState === 'Live' || gameState === 'Final';
     if (lockedPrice != null && currentBest != null && !pick.result
-        && !pickIsConsensus && !altlineMismatch && !isStale) {
+        && !pickIsConsensus && !altlineMismatch && !isStale
+        && !isGameLiveOrFinal) {
       var lockedImpl = americanToImplied(lockedPrice);
       var currentImpl = americanToImplied(currentBest);
       var deltaPct = (currentImpl - lockedImpl) * 100;
