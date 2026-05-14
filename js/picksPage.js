@@ -156,6 +156,7 @@
     if (pick.direction) card.setAttribute('data-direction', pick.direction);
 
     var header = el('div', 'pick-card-header');
+    header.appendChild(createPlayerAvatar(pick));
     var headerInfo = el('div', 'pick-card-header-info');
     var headerLeft = el('div');
     var playerDiv = el('div', 'pick-card-player');
